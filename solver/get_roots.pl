@@ -4,12 +4,12 @@
 :- cmd_args([File1,File2]), consult(File1), consult(File2).
 
 :- use_module(library(lists)).
-:- consult('../../input_interface.pl').
-:- consult('../../multiset_constraints.pl').
-:- consult('../../ge_solver_sparse.pl').
-:- consult('../../histograms.pl').
-:- consult('../../property_based_merging.pl').
-:- consult('../../terms_to_predicates.pl').
+:- consult('old/input_interface.pl').
+:- consult('old/multiset_constraints.pl').
+:- consult('old/ge_solver_sparse.pl').
+:- consult('old/histograms.pl').
+:- consult('old/property_based_merging.pl').
+:- consult('old/terms_to_predicates.pl').
 
 % for root nodes, compute:
 % original static instance + its compressed version
@@ -115,10 +115,10 @@ instance_constrained(Set,Constraint,Instance) :-
 	directly_observed_or_given(Set,Constraint,ScopeC,AllC,AggC),
 	compressed_instance(From,SuperSetC),
 	draw_constraints_in_out(wr,SType,M,SuperSetC,Instance,_,TrialID,ScopeC,AllC,AggC,ScopeOut,AllOut,AggOut),
-	test_instance(Instance,ScopeOut,AllOut,AggOut).  
+	test_instance(Instance,ScopeOut,AllOut,AggOut).
 %%% set is taken without replacement, consider rest's constraints as well
 instance_constrained(Set,Constraint,Instance) :-
-	drawing_class(Set,From,wor,SType,M,TrialID), 
+	drawing_class(Set,From,wor,SType,M,TrialID),
 	directly_observed_or_given(Set,Constraint,ScopeC,AllC,AggC),
 	directly_observed(rest(Set),ScopeCRest,AllCRest,AggCRest),
 	compressed_instance(From,SuperSetC),
@@ -186,5 +186,3 @@ drawing_class(Set,From,wor,seq,M,take_wor(From,Set)) :-
 drawing_class(Set,From,wor,set,M,take_wor(From,Set)) :-
 	take_wo(From,Set,M),
 	\+ set_is_sequence(Set).
-
-

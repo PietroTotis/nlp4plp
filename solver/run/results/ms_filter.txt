@@ -1,0 +1,6525 @@
+=== Test h10  ===
+Solution: sat(all(4-5,white)): 0.52
+Time: .203547271
+=== Test h1000  ===
+Solution: sat(exactly(3,1-7,brown)): 0.18522
+Time: .270556711
+=== Test h1002  ===
+Solution: sat(all(3-6,full)): 0.25
+Time: .158573397
+=== Test h1003  ===
+Solution: sat(and(some(1-2,power_out),some(1-2,not_home))): 1e-05
+Time: .213085359
+=== Test h1004  ===
+Solution: sat(all(5-9,behind)): 0.22
+Time: .200789015
+=== Test h1005  ===
+Solution: sat(all(3-4,everyone)): 0.291
+Time: .177959219
+=== Test h1006  ===
+Solution: sat(exactly(2,2-4,defective)): 0.038461538
+Time: .223369620
+=== Test h1007  ===
+Solution: sat(exactly(4,3-3,snooze)): 0.034902712
+Time: .841689879
+=== Test h1008  ===
+Solution: sat(all(5-7,solve)): 0.9851
+Time: .191485305
+=== Test h1009  ===
+Solution: sat(exactly(6,2-6,wrong)): 2.6725986e-06
+Time: .456929339
+=== Test h101  ===
+Solution: sat(all(3-6,visa)): 0.08
+Time: .601681019
+=== Test h1011  ===
+Solution: sat(all(3-6,wrong)): 0.2375
+Time: .178145823
+=== Test h1012  ===
+Solution: sat(all(2-5,reach)): 0.512
+Time: .194058499
+=== Test h1013  ===
+Solution: sat(exactly(3,2-7,delete)): 0.00011184784
+Time: .432211557
+=== Test h103  ===
+Solution: sat(all(2-4,spam)): 0.999001
+Time: .210627868
+=== Test h105  ===
+Solution: sat(all(2-27,union)): 0.44444444
+Time: .219387680
+=== Test h106  ===
+Solution: sat(all(2-8,a)): 0.04
+Time: .208010107
+=== Test h107  ===
+Solution: sat(all(4-3,defective)): 0.03
+Time: .240777219
+=== Test h108  ===
+Solution: sat(exactly(1,2-4,defective)): 0.33673469
+Time: .238981527
+=== Test h109  ===
+Solution: sat(all(4-6,have)): 0.15967728
+Time: .211095412
+=== Test h110  ===
+Solution: sat(all(2-8,1)): 0.045454545
+Time: .285311997
+=== Test h111  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(2,2-2,green))): 0.3
+Time: .238228048
+=== Test h112  ===
+Solution: sat(all(2-9,red)): 0.7
+Time: .156777392
+=== Test h113  ===
+Solution: sat(all(1-9,boy)): 0.53571429
+Time: .157472074
+=== Test h114  ===
+Solution: sat(all(1-5,7)): 0.16666667
+Time: .195832602
+=== Test h115  ===
+Solution: sat(all(2-2,orange)): 0.55555556
+Time: .170242617
+=== Test h116  ===
+Solution: sat(all(2-4,blue)): 0.018181818
+Time: .233792331
+=== Test h119  ===
+Solution: sat(all(4-16,montana)): 0.75757576
+Time: .165650210
+=== Test h121  ===
+Solution: sat(all(4-9,natalie)): 0.45283019
+Time: .200966361
+=== Test h122  ===
+Solution: sat(all(1-11,queen)): 0.076923077
+Time: .163660933
+=== Test h123  ===
+Solution: sat(all(1-23,blue)): 0.41666667
+Time: .168778377
+=== Test h124  ===
+Solution: sat(exactly(3,2-9,beat)): 0.3456
+Time: .243033225
+=== Test h130  ===
+Solution: sat(all(2-7,alive)): 0.47773
+Time: .160228006
+=== Test h131  ===
+Solution: sat(all(2-11,die)): 0.00075
+Time: .191492758
+=== Test h135  ===
+Solution: sat(all(6-6,have)): 0.089334549
+Time: .210724018
+=== Test h136  ===
+Solution: sat(all(5-10,alice)): 0.34782609
+Time: .243131166
+=== Test h137  ===
+Solution: sat(all(1-6,and(not(occur),not(occur2)))): 0.855
+Time: .208123193
+=== Test h138  ===
+Solution: Timeout exceeded
+Time: 61.765198878
+=== Test h15  ===
+Solution: sat(all(2-5,or(glass,red))): 0.52
+Time: .202425206
+=== Test h150  ===
+Solution: sat(atleast(1,1-5,6)): 0.33333333
+Time: .510111662
+=== Test h153  ===
+Solution: sat(all(3-20,survive)): 0.98352941
+Time: .214190395
+=== Test h154  ===
+Solution: sat(all(3-2,liberal)): 0.38255862
+Time: .248350775
+=== Test h155  ===
+Solution: sat(all(3-12,woman)): 0.44293346
+Time: .209716277
+=== Test h156  ===
+Solution: sat(all(4-3,female)): 0.4
+Time: .214028042
+=== Test h157  ===
+Solution: sat(none(3-5,late)): 0.76
+Time: .193568043
+=== Test h159  ===
+Solution: sat(all(4-7,upstairs)): 0.62
+Time: .191085866
+=== Test h160  ===
+Solution: sat(all(3-3,c)): 0.5
+Time: .272051514
+=== Test h161  ===
+Solution: sat(all(3-5,a)): 0.34482759
+Time: .246889985
+=== Test h164  ===
+Solution: sat(all(3-28,accident)): 0.175
+Time: .218309078
+=== Test h166  ===
+Solution: sat(all(2-2,white)): 0.8
+Time: .212019410
+=== Test h169  ===
+Solution: sat(atleast(1,1-2,red)): 0.87434129
+Time: 1.447752569
+=== Test h17  ===
+Solution: sat(all(3-5,a)): 0.66666667
+Time: .247275244
+=== Test h170  ===
+Solution: sat(exactly(2,1-2,green)): 0.29854047
+Time: 1.518691749
+=== Test h171  ===
+Solution: sat(all(2-2,work)): 0.57142857
+Time: .193613088
+=== Test h172  ===
+Solution: sat(all(2-2,c)): 0.4
+Time: .214762176
+=== Test h174  ===
+Solution: sat(all(2-10,blue)): 0.33333333
+Time: .161213720
+=== Test h175  ===
+Solution: sat(nth(2,3-5,defective)): 0.043333333
+Time: .293391559
+=== Test h177  ===
+Solution: sat(all(3-7,two)): 0.1
+Time: .156803206
+=== Test h179  ===
+Solution: Timeout exceeded
+Time: 61.139309798
+=== Test h18  ===
+Solution: sat(all(2-4,a)): 0.14285714
+Time: .218592243
+=== Test h181  ===
+Solution: sat(all(3-2,socialist)): 0.58156028
+Time: .242268459
+=== Test h182  ===
+Solution: sat(exactly(2,1-8,order)): 0.17565295
+Time: .427600197
+=== Test h19  ===
+Solution: sat(all(4-7,and(good,approve))): 0.891
+Time: .196746776
+=== Test h190  ===
+Solution: sat(all(6-14,identical)): 0.5
+Time: .203983762
+=== Test h193  ===
+Solution: sat(all(4-10,win)): 0.56666667
+Time: .220164303
+=== Test h197  ===
+Solution: sat(none(3-5,defective)): 0.33977438
+Time: .833357592
+=== Test h198  ===
+Solution: sat(all(1-8,king)): 0.076923077
+Time: .161975024
+=== Test h199  ===
+Solution: sat(all(1-9,green)): 0.4
+Time: .173494799
+=== Test h2  ===
+Solution: sat(exactly(1,2-6,white)): 0.34722222
+Time: .249854761
+=== Test h20  ===
+Solution: sat(all(3-4,a)): 0.40540541
+Time: .240842937
+=== Test h200  ===
+Solution: sat(none(1-8,blue)): 0.73333333
+Time: .183610271
+=== Test h201  ===
+Solution: sat(all(1-4,or(jack,queen))): 0.15384615
+Time: .193510482
+=== Test h212  ===
+Solution: sat(aggcmp(1-37,outcome(0),sum,is_odd)): 0.5
+Time: .409200184
+=== Test h219  ===
+Solution: sat(exactly(5,1-5,head)): 0.24609375
+Time: .459144774
+=== Test h220  ===
+Solution: sat(atleast(5,1-5,head)): 0.62304688
+Time: .565124405
+=== Test h221  ===
+Solution: sat(and(exactly(2,1-2,man),exactly(2,1-2,woman))): 0.47619048
+Time: .284487591
+=== Test h222  ===
+Solution: Timeout exceeded
+Time: 60.571347823
+=== Test h226  ===
+Solution: sat(all(1-23,blind)): 0.02625
+Time: .191076770
+=== Test h227  ===
+Solution: sat(all(2-6,show)): 0.54
+Time: .228043547
+=== Test h228  ===
+Solution: sat(exactly(2,2-6,show)): 0.375
+Time: .234041408
+=== Test h230  ===
+Solution: sat(all(3-7,know)): 0.85714286
+Time: .209060567
+=== Test h236  ===
+Solution: sat(atmost(2,1-3,head)): 0.5
+Time: .251858227
+=== Test h239  ===
+Solution: sat(exactly(8,2-10,win)): 0.12093235
+Time: .459314020
+=== Test h240  ===
+Solution: sat(and(exactly(5,2-7,one),and(exactly(3,2-7,two),exactly(2,2-7,three)))): 0.081018519
+Time: 27.642356130
+=== Test h241  ===
+Solution: sat(and(exactly(1,2-3,hit),and(exactly(1,2-3,walk),exactly(2,2-3,out)))): 0.1296
+Time: .393653868
+=== Test h242  ===
+Solution: Timeout exceeded
+Time: 60.179466854
+=== Test h243  ===
+Solution: sat(exactly(2,1-5,black)): 0.38142415
+Time: .285131600
+=== Test h244  ===
+Solution: sat(not(atleast(1,2-6,defective))): 0.39683022
+Time: .611994587
+=== Test h245  ===
+Solution: sat(atleast(1,1-3,6)): 0.4212963
+Time: .725545531
+=== Test h247  ===
+Solution: Timeout exceeded
+Time: 60.597084603
+=== Test h254  ===
+Solution: Timeout exceeded
+Time: 60.554822131
+=== Test h258  ===
+Solution: Timeout exceeded
+Time: 60.594393040
+=== Test h260  ===
+Solution: sat(atleast(7,1-34,live)): 0.51382702
+Time: .452773315
+=== Test h261  ===
+Solution: sat(atleast(2,2-3,hit)): 0.55505371
+Time: .322344368
+=== Test h262  ===
+Solution: sat(exactly(2,2-4,defective)): 0.23012777
+Time: .534951268
+=== Test h263  ===
+Solution: sat(atleast(2,2-4,defective)): 0.34099775
+Time: 2.214100652
+=== Test h264  ===
+Solution: sat(all(2-4,not(defective))): 0.28242954
+Time: .514606919
+=== Test h265  ===
+Solution: sat(atleast(4,1-23,not(wreck))): 0.91854
+Time: .249938265
+=== Test h266  ===
+Solution: sat(atleast(1,2-6,defective)): 0.70244686
+Time: 11.284994163
+=== Test h267  ===
+Solution: Timeout exceeded
+Time: 60.133563940
+=== Test h268  ===
+Solution: Timeout exceeded
+Time: 61.168252907
+=== Test h270  ===
+Solution: sat(all(6-9,or(and(spanish,and(not(italian),not(russian))),or(and(italian,and(not(spanish),not(russian))),and(russian,and(not(italian),not(spanish))))))): 0.32
+Time: .345105065
+=== Test h274  ===
+Solution: sat(all(4-5,not(or(facebook,or(twitter,myspace))))): 0.68
+Time: .282249636
+=== Test h276  ===
+Solution: sat(all(4-21,accident)): 0.26
+Time: .192066216
+=== Test h277  ===
+Solution: sat(all(3-12,night)): 0.70212766
+Time: .211009812
+=== Test h279  ===
+Solution: sat(all(3-5,and(shoot,score))): 0.013333333
+Time: .223397315
+=== Test h280  ===
+Solution: sat(atleast(3,2-2,red)): 0.42657343
+Time: .480342404
+=== Test h281  ===
+Solution: sat(exactly(10,2-2,green)): 0.244927
+Time: 2.188569441
+=== Test h282  ===
+Solution: sat(exactly(2,1-2,man)): 0.47619048
+Time: .525022392
+=== Test h283  ===
+Solution: sat(all(1-11,head)): 0.0625
+Time: .218468485
+=== Test h284  ===
+Solution: sat(all_same(1-24,outcome(0))): 0.027777778
+Time: .697619455
+=== Test h285  ===
+Solution: sat(all_same(2-6,color)): 0.44444444
+Time: .195454661
+=== Test h286  ===
+Solution: sat(atleast(1,2-2,ace)): 0.45
+Time: .303173024
+=== Test h287  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>=,5)): 0.98148148
+Time: .920011674
+=== Test h288  ===
+Solution: Timeout exceeded
+Time: 60.492252424
+=== Test h295  ===
+Solution: sat(all(1-14,black)): 0.033333333
+Time: .230056204
+=== Test h296  ===
+Solution: sat(all(3-29,10)): 0.25
+Time: .331171473
+=== Test h299  ===
+Solution: sat(all(1-19,girl)): 0.033333333
+Time: .236818878
+=== Test h300  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>,10)): 0.083333333
+Time: .406463796
+=== Test h301  ===
+Solution: sat(aggcmp(2-11,outcome(0),sum,=:=,2)): 0.375
+Time: .217775967
+=== Test h303  ===
+Solution: sat(atleast(1,2-16,red)): 0.9
+Time: .199879199
+=== Test h304  ===
+Solution: sat(exactly(4,2-14,rain)): 0.2734375
+Time: .306337123
+=== Test h307  ===
+Solution: sat(aggcmp(1-12,outcome(0),sum,=:=,12)): 0.11574074
+Time: .858906724
+=== Test h308  ===
+Solution: sat(or(aggcmp(1-14,outcome(0),sum,=:=,8),aggcmp(1-14,outcome(0),sum,=:=,14))): 0.16666667
+Time: .912421337
+=== Test h309  ===
+Solution: sat(or(exactly(3,2-20,red),exactly(3,2-20,blue))): 0.5
+Time: .236134504
+=== Test h31  ===
+Solution: sat(all(2-9,a)): 0.1
+Time: .159242641
+=== Test h311  ===
+Solution: sat(all(1-20,not(2))): 0.69444444
+Time: .324838701
+=== Test h312  ===
+Solution: sat(all(2-7,yard)): 0.77380952
+Time: .195859380
+=== Test h313  ===
+Solution: sat(all(3-3,or(girl,a))): 0.63333333
+Time: .208253039
+=== Test h314  ===
+Solution: sat(all(1-7,or(ace,spade))): 0.30769231
+Time: .212364979
+=== Test h318  ===
+Solution: sat(all_diff(1-4,outcome(0))): 0.22222222
+Time: .260441661
+=== Test h319  ===
+Solution: sat(exactly(2,1-7,male)): 0.375
+Time: .219210511
+=== Test h32  ===
+Solution: sat(all(1-17,or(ace,queen))): 0.15384615
+Time: .191623002
+=== Test h320  ===
+Solution: sat(all(1-2,red)): 0.066666667
+Time: .238369989
+=== Test h321  ===
+Solution: sat(and(exactly(1,1-2,green),exactly(1,1-2,black))): 0.26666667
+Time: .253349977
+=== Test h322  ===
+Solution: sat(all_same(1-2,color)): 0.26666667
+Time: .246481234
+=== Test h324  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(1,2-2,blue))): 0.54166667
+Time: .206008677
+=== Test h325  ===
+Solution: sat(all(1-2,ace)): 3.6937852e-06
+Time: .279665755
+=== Test h326  ===
+Solution: Timeout exceeded
+Time: 60.689100206
+=== Test h327  ===
+Solution: sat(all_same(1-2,suit)): 0.010564226
+Time: 1.214607889
+=== Test h33  ===
+Solution: sat(and(none(1-19,ace),none(1-19,queen))): 0.84615385
+Time: .189666163
+=== Test h330  ===
+Solution: sat(all(2-2,red)): 0.066666667
+Time: .192511413
+=== Test h331  ===
+Solution: sat(all(3-7,red)): 0.4
+Time: .189376114
+=== Test h332  ===
+Solution: sat(none(1-3,defective)): 0.54545455
+Time: .221994825
+=== Test h333  ===
+Solution: sat(exactly(1,1-3,defective)): 0.40909091
+Time: .222460917
+=== Test h336  ===
+Solution: sat(all(2-2,maths)): 0.5
+Time: .218880008
+=== Test h337  ===
+Solution: sat(all(2-2,physics)): 0.4
+Time: .220455379
+=== Test h338  ===
+Solution: sat(and(all(2-2,or(maths,physics)),all(2-2,not(and(maths,physics))))): 0.55555556
+Time: .218894436
+=== Test h339  ===
+Solution: sat(some(1-3,hit)): 0.4
+Time: .195126651
+=== Test h34  ===
+Solution: sat(all(1-4,6)): 0.027777778
+Time: .328322652
+=== Test h343  ===
+Solution: sat(all(1-3,or(a,b))): 0.77777778
+Time: .221220075
+=== Test h344  ===
+Solution: sat(none(2-2,blue)): 0.47619048
+Time: .234635802
+=== Test h345  ===
+Solution: sat(all(1-16,king)): 0.0045248869
+Time: .198027523
+=== Test h347  ===
+Solution: sat(all(2-2,prize)): 0.28571429
+Time: .162476495
+=== Test h348  ===
+Solution: sat(all(2-2,red)): 0.021978022
+Time: .344250593
+=== Test h349  ===
+Solution: sat(none(4-3,or(absent_english,absent_history))): 0.92
+Time: .265754954
+=== Test h35  ===
+Solution: sat(and(exactly(1,2-5,red),exactly(1,2-5,blue))): 0.26666667
+Time: .253784853
+=== Test h350  ===
+Solution: sat(all(2-6,girl)): 0.1
+Time: .190690109
+=== Test h351  ===
+Solution: sat(atleast(2,2-3,head)): 0.648
+Time: .199467937
+=== Test h352  ===
+Solution: sat(aggcmp(2-5,value,sum,=:=,0.35)): 0.10714286
+Time: .380915564
+=== Test h356  ===
+Solution: sat(exactly(2,2-5,red)): 0.3
+Time: .317912156
+=== Test h359  ===
+Solution: sat(atleast(3,1-5,defeat)): 0.3966875
+Time: .248147258
+=== Test h360  ===
+Solution: sat(and(exactly(2,2-3,blue),exactly(1,2-3,red))): 0.12631579
+Time: .383011024
+=== Test h361  ===
+Solution: sat(all(1-5,correctly)): 0.72
+Time: .192597666
+=== Test h363  ===
+Solution: sat(aggcmp(1-5,outcome(0),product,>,8)): 0.55555556
+Time: .405548891
+=== Test h364  ===
+Solution: sat(all(3-10,not(rain))): 0.084
+Time: .255465789
+=== Test h366  ===
+Solution: sat(and(exactly(1,3-6,win),exactly(1,3-6,lose))): 0.53333333
+Time: .202698782
+=== Test h367  ===
+Solution: sat(all_diff(5-9,color)): 0.46875
+Time: .195557464
+=== Test h368  ===
+Solution: sat(exactly(2,3-15,tuesday)): 0.052478134
+Time: .985814036
+=== Test h369  ===
+Solution: sat(all(2-13,not(snow))): 0.015625
+Time: .196404037
+=== Test h37  ===
+Solution: sat(all(2-4,girl)): 0.5
+Time: .155969794
+=== Test h370  ===
+Solution: sat(all_diff(2-10,color)): 0.51282051
+Time: .198107354
+=== Test h371  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,>=,17)): 0.018518519
+Time: .830170997
+=== Test h374  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(1,2-2,blue))): 0.47058824
+Time: .199294101
+=== Test h376  ===
+Solution: sat(atleast(1,5-8,megan)): 0.88888889
+Time: .182074043
+=== Test h377  ===
+Solution: sat(exactly(2,2-5,hit)): 0.384
+Time: .198446718
+=== Test h378  ===
+Solution: sat(all(1-11,correct)): 0.0009765625
+Time: .418679988
+=== Test h379  ===
+Solution: sat(all(3-9,not(homework))): 0.05
+Time: .192290708
+=== Test h38  ===
+Solution: sat(none(2-6,freshman)): 0.75
+Time: .200028055
+=== Test h384  ===
+Solution: sat(aggcmp(2-9,outcome(0),sum,<,5)): 0.25
+Time: .394422463
+=== Test h385  ===
+Solution: sat(aggcmp(3-6,outcome(0),sum,=:=,7)): 0.16666667
+Time: .455341538
+=== Test h386  ===
+Solution: sat(all_same(2-6,color)): 0.47368421
+Time: .195333803
+=== Test h387  ===
+Solution: sat(aggcmp(2-5,discount,average,=:=,50)): 0.1
+Time: .304013744
+=== Test h389  ===
+Solution: sat(aggcmp(2-10,value,sum,=:=,0.25)): 0.14285714
+Time: .365832076
+=== Test h39  ===
+Solution: sat(all(1-4,club)): 0.25
+Time: .177522430
+=== Test h390  ===
+Solution: sat(all(2-6,six)): 0.001953125
+Time: 1.363479549
+=== Test h391  ===
+Solution: sat(atleast(3,1-5,correct)): 0.5
+Time: .246271617
+=== Test h392  ===
+Solution: sat(atleast(6,1-5,correct)): 0.37695313
+Time: .496969147
+=== Test h393  ===
+Solution: sat(exactly(1,2-10,absent)): 0.064444444
+Time: .181818179
+=== Test h394  ===
+Solution: sat(atleast(1,2-3,hit)): 0.67232
+Time: .239732610
+=== Test h397  ===
+Solution: sat(all(3-17,soldier)): 0.4
+Time: .188392630
+=== Test h399  ===
+Solution: sat(all(1-16,2)): 0.00012860082
+Time: 4.416840393
+=== Test h4  ===
+Solution: sat(aggcmp(1-2,outcome(0),product,is_odd)): 0.25
+Time: .404557388
+=== Test h40  ===
+Solution: sat(exactly(5,1-4,correct)): 4.1175908e-05
+Time: .433008363
+=== Test h400  ===
+Solution: sat(exactly(4,1-16,2)): 0.0032150206
+Time: 4.864634051
+=== Test h403  ===
+Solution: sat(all(3-2,woman)): 0.93625498
+Time: .213650308
+=== Test h405  ===
+Solution: sat(all(1-2,kings)): 0.33333333
+Time: .226289972
+=== Test h406  ===
+Solution: sat(all(2-4,red)): 0.27272727
+Time: .196159325
+=== Test h407  ===
+Solution: sat(and(exactly(2,2-2,girl),exactly(1,2-2,boy))): 0.29347826
+Time: .241224241
+=== Test h408  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>,7)): 0.41666667
+Time: .427783070
+=== Test h409  ===
+Solution: sat(all_same(2-2,color)): 0.46666667
+Time: .200153527
+=== Test h410  ===
+Solution: sat(atleast(1,2-2,defective)): 0.98555212
+Time: .283931109
+=== Test h411  ===
+Solution: sat(exactly(1,2-12,solve)): 0.41666667
+Time: .196045473
+=== Test h412  ===
+Solution: sat(all_diff(2-7,outcome(0))): 0.45
+Time: .202240457
+=== Test h413  ===
+Solution: sat(and(exactly(1,1-2,king),exactly(1,1-2,queen))): 0.012066365
+Time: .292722782
+=== Test h414  ===
+Solution: sat(and(exactly(1,1-2,king),exactly(1,1-2,queen))): 0.012066365
+Time: .266220189
+=== Test h417  ===
+Solution: sat(atleast(3,1-4,head)): 0.5
+Time: .261793809
+=== Test h418  ===
+Solution: sat(all(1-4,head)): 0.0625
+Time: .269045440
+=== Test h419  ===
+Solution: sat(exactly(6,1-4,head)): 0.20507813
+Time: .471921585
+=== Test h420  ===
+Solution: sat(atmost(8,1-4,head)): 0.98925781
+Time: .731243123
+=== Test h421  ===
+Solution: sat(atleast(1,2-18,rain)): 0.9176457
+Time: .301973796
+=== Test h422  ===
+Solution: sat(atleast(2,2-12,rain)): 0.73076439
+Time: .360065771
+=== Test h426  ===
+Solution: sat(or(and(exactly(5,1-2,forward),exactly(6,1-2,backward)),and(exactly(6,1-2,forward),exactly(5,1-2,backward)))): 0.36787323
+Time: .670950521
+=== Test h430  ===
+Solution: sat(and(atleast(1,1-2,red),atleast(1,1-2,king))): 0.11236802
+Time: .339081016
+=== Test h431  ===
+Solution: sat(all(2-8,and(not(genius),not(chocolate)))): 0.1
+Time: .203981122
+=== Test h432  ===
+Solution: sat(all_same(1-2,outcome(0))): 0.33333333
+Time: .455264924
+=== Test h434  ===
+Solution: sat(none(1-14,defective)): 0.81187512
+Time: .284368830
+=== Test h436  ===
+Solution: sat(and(exactly(1,deal,king),nth(13,deal,king))): 0.033757503
+Time: .923763119
+=== Test h44  ===
+Solution: sat(none(3-13,red)): 0.625
+Time: .182116541
+=== Test h440  ===
+Solution: sat(exactly(3,1-6,ace)): 0.0058177117
+Time: .479862657
+=== Test h441  ===
+Solution: sat(exactly(2,1-6,king)): 0.076793794
+Time: .454914586
+=== Test h443  ===
+Solution: sat(all(2-8,ace)): 0.076923077
+Time: .210947453
+=== Test h444  ===
+Solution: sat(all_diff(2-2,sex)): 0.53333333
+Time: .206329205
+=== Test h445  ===
+Solution: sat(all_diff(2-4,sex)): 0.49777778
+Time: .193308654
+=== Test h455  ===
+Solution: sat(all(2-1,blue)): 0.5
+Time: .167738834
+=== Test h456  ===
+Solution: sat(all(2-11,blue)): 0.5
+Time: .218220966
+=== Test h459  ===
+Solution: sat(all(4-10,correctly)): 0.7
+Time: .224875530
+=== Test h460  ===
+Solution: sat(all(4-8,carol)): 0.22222222
+Time: .267229662
+=== Test h461  ===
+Solution: sat(all_same(2-5,color)): 0.32026144
+Time: .250042803
+=== Test h463  ===
+Solution: sat(atleast(4,1-2,burn)): 0.5
+Time: .311208798
+=== Test h464  ===
+Solution: sat(all(2-3,eighty)): 0.78571429
+Time: .194609473
+=== Test h466  ===
+Solution: sat(all(3-2,defect)): 0.70992366
+Time: .217710272
+=== Test h469  ===
+Solution: sat(or(and(some(1-9,money),none(1-9,call)),and(some(1-9,call),some(1-9,ask)))): 0.4325
+Time: .296090705
+=== Test h470  ===
+Solution: sat(atleast(1,1-3,buy)): 0.88397094
+Time: .247395507
+=== Test h471  ===
+Solution: sat(atleast(1,1-2,time)): 0.995
+Time: .225486339
+=== Test h472  ===
+Solution: sat(atleast(3,1-6,buy)): 0.17980352
+Time: .703292675
+=== Test h473  ===
+Solution: sat(atleast(8,1-3,survive)): 0.97165785
+Time: .436906673
+=== Test h474  ===
+Solution: Timeout exceeded
+Time: 61.126228515
+=== Test h475  ===
+Solution: Timeout exceeded
+Time: 60.146483691
+=== Test h476  ===
+Solution: sat(all(2-5,vandalize)): 9.4368948e-18
+Time: .311659565
+=== Test h479  ===
+Solution: sat(all(2-4,red)): 0.0021978022
+Time: .336626323
+=== Test h480  ===
+Solution: sat(all_diff(2-4,colors)): 0.23076923
+Time: .357009228
+=== Test h497  ===
+Solution: sat(all(3-7,black)): 0.44
+Time: .198782545
+=== Test h498  ===
+Solution: sat(all(2-2,white)): 0.54545455
+Time: .209506780
+=== Test h499  ===
+Solution: sat(all(3-7,disease)): 0.24615385
+Time: .206724940
+=== Test h5  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,>=,8)): 0.41666667
+Time: .409438325
+=== Test h50  ===
+Solution: sat(exactly(3,3-3,prize)): 0.00020408163
+Time: .279997413
+=== Test h501  ===
+Solution: sat(atleast(1,1-2,available)): 0.9936
+Time: .181800397
+=== Test h502  ===
+Solution: sat(all(1-2,available)): 0.8464
+Time: .177898597
+=== Test h503  ===
+Solution: sat(none(2-2,defective)): 0.38181818
+Time: .226277004
+=== Test h504  ===
+Solution: sat(exactly(1,1-6,5)): 0.18181818
+Time: .359052702
+=== Test h505  ===
+Solution: Timeout exceeded
+Time: 60.088352511
+=== Test h507  ===
+Solution: Timeout exceeded
+Time: 60.683553464
+=== Test h508  ===
+Solution: Timeout exceeded
+Time: 60.146520722
+=== Test h509  ===
+Solution: sat(all(3-8,defective)): 0.011022044
+Time: .338352613
+=== Test h51  ===
+Solution: sat(exactly(4,2-3,male)): 0.11104638
+Time: .903830375
+=== Test h510  ===
+Solution: sat(all(2-2,defective)): 1.72116e-06
+Time: .340248256
+=== Test h512  ===
+Solution: sat(all(4-7,good)): 0.6978
+Time: .216587714
+=== Test h513  ===
+Solution: sat(all(4-4,highly)): 0.61908856
+Time: .246873488
+=== Test h514  ===
+Solution: sat(all(3-7,or(and(defective,correctly),and(incorrectly,good)))): 0.0294
+Time: .209941227
+=== Test h515  ===
+Solution: sat(all(3-3,correctly)): 0.99958788
+Time: .223322174
+=== Test h516  ===
+Solution: Timeout exceeded
+Time: 61.136466699
+=== Test h517  ===
+Solution: Timeout exceeded
+Time: 61.182023906
+=== Test h519  ===
+Solution: sat(all(1-19,not(4))): 0.69444444
+Time: .336909013
+=== Test h52  ===
+Solution: sat(all(item,and(pass1,pass2))): 0.05
+Time: .185297432
+=== Test h520  ===
+Solution: sat(all(2-2,red)): 0.38181818
+Time: .196040976
+=== Test h521  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(1,2-2,blue))): 0.50909091
+Time: .209078704
+=== Test h522  ===
+Solution: sat(all_same(2-2,color)): 0.49090909
+Time: .206396486
+=== Test h524  ===
+Solution: sat(none(1-1,a)): 0.4
+Time: .571179105
+=== Test h525  ===
+Solution: sat(exactly(1,1-3,win)): 0.2
+Time: .215277001
+=== Test h528  ===
+Solution: sat(all(2-3,yellow)): 0.04
+Time: .188890416
+=== Test h529  ===
+Solution: sat(exactly(1,2-3,yellow)): 0.32
+Time: .181849028
+=== Test h53  ===
+Solution: sat(atleast(1,2-3,respond)): 0.999
+Time: .200273399
+=== Test h530  ===
+Solution: sat(all(2-3,not(yellow))): 0.64
+Time: .196727095
+=== Test h531  ===
+Solution: sat(atleast(1,2-3,yellow)): 0.36
+Time: .181093468
+=== Test h532  ===
+Solution: sat(atleast(1,2-11,head)): 0.4375
+Time: .187010273
+=== Test h534  ===
+Solution: sat(atleast(1,1-6,hit)): 0.31944444
+Time: .195853334
+=== Test h535  ===
+Solution: sat(atleast(1,2-5,prize)): 0.19310345
+Time: .223753071
+=== Test h536  ===
+Solution: sat(all(2-5,prize)): 0.015
+Time: .184269932
+=== Test h537  ===
+Solution: sat(all(1-6,pass)): 0.22857143
+Time: .232018719
+=== Test h550  ===
+Solution: sat(all_same(1-2,suit)): 0.0019807923
+Time: 2.637911185
+=== Test h551  ===
+Solution: sat(atleast(2,2-2,red)): 0.5952381
+Time: .234797193
+=== Test h552  ===
+Solution: sat(all_diff(2-2,color)): 0.27272727
+Time: .362922788
+=== Test h553  ===
+Solution: sat(all_same(2-2,color)): 0.068181818
+Time: .360150116
+=== Test h554  ===
+Solution: sat(atleast(4,1-12,teacher)): 0.75252525
+Time: .493657165
+=== Test h555  ===
+Solution: sat(atleast(3,1-2,ace)): 0.001754548
+Time: .349367693
+=== Test h556  ===
+Solution: sat(and(nth(1,2-2,red),and(nth(2,2-2,red),nth(3,2-2,white)))): 0.15873016
+Time: .233842160
+=== Test h557  ===
+Solution: sat(and(exactly(2,2-2,red),exactly(1,2-2,white))): 0.47619048
+Time: .243510433
+=== Test h558  ===
+Solution: sat(atleast(2,1-5,five-cent)): 0.5
+Time: .236030019
+=== Test h559  ===
+Solution: sat(atleast(2,1-20,female)): 0.40606061
+Time: .296464585
+=== Test h56  ===
+Solution: sat(all(2-3,red)): 0.21428571
+Time: .182999697
+=== Test h560  ===
+Solution: sat(exactly(1,3-19,white)): 0.56888889
+Time: .306444550
+=== Test h561  ===
+Solution: sat(exactly(3,1-2,hearts)): 0.081542617
+Time: .383381542
+=== Test h562  ===
+Solution: sat(exactly(4,1-22,girl)): 0.2734375
+Time: .394405065
+=== Test h563  ===
+Solution: sat(atleast(2,1-22,girl)): 0.96484375
+Time: .410318585
+=== Test h564  ===
+Solution: sat(all(3-4,black)): 0.1296
+Time: .218918623
+=== Test h565  ===
+Solution: sat(all(3-3,green)): 0.0013717421
+Time: .541369074
+=== Test h566  ===
+Solution: sat(exactly(4,3-3,green)): 0.082304527
+Time: .588135153
+=== Test h567  ===
+Solution: sat(exactly(3,2-5,head)): 0.0756
+Time: .222066257
+=== Test h568  ===
+Solution: sat(all(2-4,not(hide))): 0.0041152263
+Time: .239692951
+=== Test h569  ===
+Solution: sat(all(2-2,2)): 0.15258789
+Time: .216712436
+=== Test h57  ===
+Solution: sat(all(2-22,chocolate)): 0.63157895
+Time: .157934934
+=== Test h570  ===
+Solution: sat(all(1-9,defective)): 1e-05
+Time: .239808245
+=== Test h571  ===
+Solution: sat(all(1-9,not(defective))): 0.59049
+Time: .240242376
+=== Test h572  ===
+Solution: sat(exactly(2,2-5,not(meet))): 0.19371024
+Time: .435957351
+=== Test h573  ===
+Solution: Timeout exceeded
+Time: 60.640321652
+=== Test h574  ===
+Solution: sat(all(2-11,not(die))): 0.00024414063
+Time: .266272152
+=== Test h575  ===
+Solution: sat(more_than(2,2-5,hit)): 0.8192
+Time: .216718953
+=== Test h576  ===
+Solution: sat(atleast(3,1-4,boy)): 0.65625
+Time: .276579162
+=== Test h577  ===
+Solution: sat(atmost(2,1-35,reject)): 0.89131821
+Time: .424575103
+=== Test h578  ===
+Solution: sat(atmost(3,2-11,university)): 0.47178
+Time: .247669626
+=== Test h579  ===
+Solution: sat(exactly(9,2-10,cure)): 0.001572864
+Time: .443450487
+=== Test h580  ===
+Solution: sat(and(nth(1,2-9,decay),and(nth(3,2-9,decay),and(nth(5,2-9,decay),exactly(3,2-9,decay))))): 0.004096
+Time: .284741069
+=== Test h581  ===
+Solution: sat(exactly(1,2-9,fail)): 0.040310784
+Time: .414586188
+=== Test h582  ===
+Solution: sat(atleast(8,2-8,not(favour))): 0.21310318
+Time: 8.586067069
+=== Test h585  ===
+Solution: Timeout exceeded
+Time: 60.608437834
+=== Test h586  ===
+Solution: sat(all(1-7,girl)): 0.0625
+Time: .213335957
+=== Test h587  ===
+Solution: sat(not(more_than(1,2-3,not(survive)))): 0.98925473
+Time: .263336703
+=== Test h588  ===
+Solution: sat(and(exactly(2,2-3,survive65),atleast(2,2-3,survive))): 0.91916145
+Time: .322317269
+=== Test h589  ===
+Solution: Timeout exceeded
+Time: 61.140337318
+=== Test h59  ===
+Solution: sat(all(2-6,or(brown,hazel))): 0.81521739
+Time: .187105550
+=== Test h590  ===
+Solution: Timeout exceeded
+Time: 61.076615696
+=== Test h591  ===
+Solution: sat(atmost(1,3-6,reject)): 0.882412
+Time: .423618772
+=== Test h594  ===
+Solution: sat(all(2-2,hit)): 0.6561
+Time: .220682018
+=== Test h595  ===
+Solution: sat(atleast(2,2-2,bull)): 0.1808
+Time: .219105327
+=== Test h596  ===
+Solution: sat(and(atleast(2,2-4,eye),all(2-4,target))): 0.1416
+Time: .370172792
+=== Test h599  ===
+Solution: sat(exactly(3,1-39,fall)): 0.290304
+Time: .310109990
+=== Test h6  ===
+Solution: sat(aggcmp(2-2,outcome(0),sum,>=,5)): 0.98148148
+Time: .917161971
+=== Test h60  ===
+Solution: sat(all(2-6,or(punch,fish))): 0.42
+Time: .189178373
+=== Test h614  ===
+Solution: sat(all(4-3,red)): 0.375
+Time: .257539593
+=== Test h616  ===
+Solution: sat(all_diff(3-6,outcome(0))): 0.33333333
+Time: .198342815
+=== Test h618  ===
+Solution: Timeout exceeded
+Time: 60.573239221
+=== Test h619  ===
+Solution: sat(all_same(2-2,denomination)): 0.33333333
+Time: .246996997
+=== Test h620  ===
+Solution: sat(all_diff(2-2,color)): 0.27272727
+Time: .359276271
+=== Test h621  ===
+Solution: sat(atleast(3,2-15,woman)): 0.31060606
+Time: .346512578
+=== Test h622  ===
+Solution: sat(all(3-9,and(not(chinese),and(not(spanish),not(french))))): 0.125
+Time: .341173279
+=== Test h625  ===
+Solution: sat(exactly(3,3-10,camel)): 0.29347265
+Time: .348444408
+=== Test h626  ===
+Solution: sat(exactly(2,2-9,know)): 0.46052632
+Time: .240279728
+=== Test h627  ===
+Solution: sat(and(exactly(1,2-19,man),exactly(2,2-19,woman))): 0.3
+Time: .289944512
+=== Test h628  ===
+Solution: sat(atleast(3,2-2,green)): 0.31060606
+Time: .346304178
+=== Test h629  ===
+Solution: sat(exactly(2,2-11,winning)): 0.22222222
+Time: .284670302
+=== Test h63  ===
+Solution: Timeout exceeded
+Time: 60.190557111
+=== Test h630  ===
+Solution: sat(aggcmp(1-12,outcome(0),sum,>,15)): 0.046296296
+Time: .861104475
+=== Test h631  ===
+Solution: sat(aggcmp(2-1,value,product,is_odd)): 0.11428571
+Time: 1.745829799
+=== Test h634  ===
+Solution: Timeout exceeded
+Time: 61.201337723
+=== Test h635  ===
+Solution: sat(aggcmp(1-11,outcome(0),sum,=:=,12)): 0.3125
+Time: .265355725
+=== Test h636  ===
+Solution: sat(all(1-48,5)): 0.013888889
+Time: .676635839
+=== Test h637  ===
+Solution: sat(aggcmp(1-48,outcome(0),sum,=:=,6)): 0.069444444
+Time: 1.010822329
+=== Test h64  ===
+Solution: sat(all(5-3,highrisk)): 0.5
+Time: .226449631
+=== Test h640  ===
+Solution: sat(atleast(1,1-15,defective)): 0.99100013
+Time: 1.715439213
+=== Test h641  ===
+Solution: Timeout exceeded
+Time: 60.717440554
+=== Test h642  ===
+Solution: Timeout exceeded
+Time: 60.705874424
+=== Test h643  ===
+Solution: sat(and(nth(1,2-3,white),nth(2,2-3,white))): 0.33333333
+Time: .963021855
+=== Test h644  ===
+Solution: sat(all(2-5,defective)): 9.410879e-05
+Time: .278898663
+=== Test h645  ===
+Solution: sat(atleast(2,2-5,defective)): 0.11490683
+Time: .282102491
+=== Test h646  ===
+Solution: sat(exactly(2,4-14,defective)): 0.10246665
+Time: 3.812268711
+=== Test h647  ===
+Solution: sat(atleast(1,2-5,attend)): 0.92
+Time: .195533435
+=== Test h648  ===
+Solution: sat(atleast(2,3-15,break)): 0.62419036
+Time: .701732723
+=== Test h649  ===
+Solution: sat(atleast(5,1-4,success)): 0.96722617
+Time: .276706884
+=== Test h65  ===
+Solution: sat(all(2-7,pear)): 0.068181818
+Time: .223445454
+=== Test h650  ===
+Solution: sat(atmost(1,1-12,defective)): 0.73609893
+Time: .417720210
+=== Test h651  ===
+Solution: sat(none(2-18,guppy)): 0.5625
+Time: .233792096
+=== Test h652  ===
+Solution: sat(and(some(2-18,guppy),some(2-18,neon))): 0.16666667
+Time: .267728721
+=== Test h653  ===
+Solution: sat(and(or(some(2-18,molly),some(2-18,neon)),not(and(some(2-18,molly),some(2-18,neon))))): 0.625
+Time: .258292035
+=== Test h654  ===
+Solution: sat(all(2-13,male)): 0.1
+Time: .191625028
+=== Test h655  ===
+Solution: sat(atleast(1,2-13,male)): 0.7
+Time: .191340669
+=== Test h656  ===
+Solution: sat(atleast(1,2-13,female)): 0.9
+Time: .194522831
+=== Test h657  ===
+Solution: sat(all(2-2,roll)): 0.78333333
+Time: .206166734
+=== Test h658  ===
+Solution: sat(all(2-2,and(not,attach))): 0.11666667
+Time: .198978932
+=== Test h659  ===
+Solution: sat(all(2-2,and(not(and(attach,roll)),or(attach,roll)))): 0.73333333
+Time: .218753678
+=== Test h66  ===
+Solution: sat(all(1-4,club)): 0.25
+Time: .175802762
+=== Test h664  ===
+Solution: sat(all(3-4,and(bushing,not(shaft)))): 0.06
+Time: .203423045
+=== Test h665  ===
+Solution: sat(all(1-3,i)): 0.25
+Time: .179344180
+=== Test h666  ===
+Solution: sat(all_diff(1-3,outcome(0))): 0.5
+Time: .186550611
+=== Test h668  ===
+Solution: sat(none(2-3,defective)): 0.35714286
+Time: .194140473
+=== Test h67  ===
+Solution: sat(all(3-4,green)): 0.4
+Time: .157907071
+=== Test h671  ===
+Solution: sat(all(1-6,or(left,right))): 0.66666667
+Time: .175755091
+=== Test h672  ===
+Solution: sat(all(3-1,defective)): 0.14285714
+Time: .191295470
+=== Test h673  ===
+Solution: sat(all(3-3,and(two-person,turbo))): 0.28
+Time: .203454401
+=== Test h674  ===
+Solution: sat(all(3-3,and(not(two-person),turbo))): 0.28
+Time: .196475364
+=== Test h675  ===
+Solution: sat(all(3-3,and(two-person,not(turbo)))): 0.2
+Time: .205420828
+=== Test h678  ===
+Solution: sat(and(exactly(3,3-2,man),exactly(3,3-2,woman))): 0.3083004
+Time: .423347716
+=== Test h679  ===
+Solution: sat(atleast(1,3-2,man)): 0.99881423
+Time: .403556726
+=== Test h682  ===
+Solution: sat(and(all(3-9,republican),all(3-9,incumbent))): 0.09
+Time: .201356128
+=== Test h683  ===
+Solution: sat(none(3-2,defective)): 0.63157895
+Time: .194023137
+=== Test h684  ===
+Solution: sat(atleast(1,3-2,defective)): 0.36842105
+Time: .193793702
+=== Test h685  ===
+Solution: sat(none(3-2,defective)): 0.65217391
+Time: .210378811
+=== Test h686  ===
+Solution: sat(all(4-8,or(pass1,pass2))): 0.92
+Time: .200608071
+=== Test h688  ===
+Solution: sat(all(4-10,upgrade)): 0.5
+Time: .190655304
+=== Test h689  ===
+Solution: sat(all(4-2,a)): 0.92307692
+Time: .210810432
+=== Test h690  ===
+Solution: sat(all(3-9,hiv)): 0.00094510072
+Time: .194244237
+=== Test h691  ===
+Solution: sat(all(3-9,poverty)): 0.183327
+Time: .216996783
+=== Test h692  ===
+Solution: sat(all(3-9,married-couple)): 0.34310822
+Time: .244709967
+=== Test h693  ===
+Solution: sat(atleast(1,1-2,not(rh))): 0.62285048
+Time: .273902839
+=== Test h694  ===
+Solution: sat(atmost(4,1-2,rh)): 0.2235157
+Time: .280258588
+=== Test h696  ===
+Solution: sat(all(6-11,recommend)): 0.42866106
+Time: .363098935
+=== Test h697  ===
+Solution: sat(and(nth(1,2-15,not(strike)),and(nth(2,2-15,not(strike)),and(nth(3,2-15,not(strike)),nth(4,2-15,strike))))): 0.10546875
+Time: .190986546
+=== Test h709  ===
+Solution: sat(all(2-3,and(smoke,not(alcoholic)))): 0.176
+Time: .390634849
+=== Test h710  ===
+Solution: sat(all(2-3,and(not(smoke),and(alcoholic,meal)))): 0.062
+Time: .400385641
+=== Test h711  ===
+Solution: sat(all(2-3,and(not(smoke),not(meal)))): 0.342
+Time: .416799469
+=== Test h716  ===
+Solution: sat(all(3-3,senior)): 0.55555556
+Time: .247516122
+=== Test h721  ===
+Solution: sat(and(all(3-7,incorrect),all(3-7,sue))): 0.27
+Time: .186586438
+=== Test h723  ===
+Solution: sat(all(1-74,diagnose)): 0.096
+Time: .193108288
+=== Test h724  ===
+Solution: sat(all(3-3,no_crime)): 0.17431193
+Time: .209896998
+=== Test h726  ===
+Solution: sat(all(3-47,faulty)): 0.054
+Time: .215666122
+=== Test h727  ===
+Solution: sat(exactly(2,2-12,recover)): 0.384
+Time: .202185276
+=== Test h728  ===
+Solution: sat(all(2-11,recover)): 0.512
+Time: .199770107
+=== Test h731  ===
+Solution: sat(all(prisoner,and(female,not(under25)))): 0.10833333
+Time: .200384758
+=== Test h732  ===
+Solution: sat(all_same(1-14,color)): 0.28
+Time: .203478320
+=== Test h733  ===
+Solution: sat(and(atleast(1,1-14,black),atleast(1,1-14,green))): 0.72
+Time: .207045153
+=== Test h735  ===
+Solution: sat(all(4-3,cancer)): 0.0078607524
+Time: .207970314
+=== Test h738  ===
+Solution: sat(all(6-5,attend)): 0.58064516
+Time: .208633298
+=== Test h739  ===
+Solution: sat(all(3-19,dissatisfy)): 0.25
+Time: .207651328
+=== Test h741  ===
+Solution: sat(less_than(5,2-14,smoker)): 0.047348987
+Time: .494879012
+=== Test h742  ===
+Solution: Timeout exceeded
+Time: 60.129985583
+=== Test h743  ===
+Solution: sat(and(atmost(6,2-6,fail),atleast(3,2-6,fail))): 0.70729188
+Time: 23.545877473
+=== Test h744  ===
+Solution: sat(less_than(4,2-6,fail)): 0.46128688
+Time: .822823622
+=== Test h745  ===
+Solution: sat(more_than(5,2-6,fail)): 0.14836808
+Time: 18.320328960
+=== Test h746  ===
+Solution: sat(exactly(5,2-12,recover)): 0.1240029
+Time: .307515323
+=== Test h747  ===
+Solution: sat(atleast(3,3-18,believe)): 0.83692
+Time: .240026846
+=== Test h748  ===
+Solution: sat(all(2-3,protect)): 0.07776
+Time: .243909204
+=== Test h749  ===
+Solution: sat(less_than(2,2-3,not(protect))): 0.33696
+Time: .243956577
+=== Test h750  ===
+Solution: sat(more_than(3,2-3,not(protect))): 0.08704
+Time: .248386702
+=== Test h751  ===
+Solution: Timeout exceeded
+Time: 60.166820531
+=== Test h752  ===
+Solution: sat(exactly(18,1-7,useful)): 0.28517981
+Time: 1.202090597
+=== Test h753  ===
+Solution: sat(atleast(15,1-7,useful)): 0.98874687
+Time: 10.107160604
+=== Test h754  ===
+Solution: Timeout exceeded
+Time: 60.130820765
+=== Test h755  ===
+Solution: sat(and(exactly(2,1-5,daffodil),exactly(4,1-5,tulip))): 0.35714286
+Time: .383802199
+=== Test h756  ===
+Solution: sat(atmost(2,2-9,defective)): 0.9517397
+Time: .344520016
+=== Test h757  ===
+Solution: sat(atleast(3,2-23,favor)): 0.94604553
+Time: 1.013124296
+=== Test h758  ===
+Solution: sat(and(more_than(9,2-2,disapprove),less_than(14,2-2,disapprove))): 0.60796695
+Time: 13.750777559
+=== Test h759  ===
+Solution: sat(all_diff(2-3,nationality)): 0.12121212
+Time: 1.108835491
+=== Test h76  ===
+Solution: sat(atleast(7,1-15,correct)): 0.77587509
+Time: .458045370
+=== Test h760  ===
+Solution: sat(none(4-9,violation)): 0.39912281
+Time: .304715623
+=== Test h762  ===
+Solution: sat(all(3-15,twins)): 0.083333333
+Time: .164260738
+=== Test h763  ===
+Solution: sat(all(3-15,twin)): 0.16666667
+Time: .158149307
+=== Test h764  ===
+Solution: sat(all(4-8,twin)): 0.015151515
+Time: .193228102
+=== Test h766  ===
+Solution: sat(all(1-9,red)): 0.22222222
+Time: .174633090
+=== Test h767  ===
+Solution: sat(all(2-8,white)): 0.3
+Time: .173886133
+=== Test h768  ===
+Solution: sat(all(2-8,black)): 0.2
+Time: .168876423
+=== Test h769  ===
+Solution: sat(all(2-8,red)): 0.5
+Time: .176537040
+=== Test h77  ===
+Solution: Timeout exceeded
+Time: 60.599669743
+=== Test h775  ===
+Solution: sat(and(exactly(2,2-11,favor),exactly(4,2-11,oppose))): 0.053754941
+Time: .434342841
+=== Test h776  ===
+Solution: sat(all(3-4,band)): 0.25
+Time: .204879762
+=== Test h777  ===
+Solution: sat(exactly(1,2-3,graduate)): 0.2592
+Time: .240060051
+=== Test h778  ===
+Solution: sat(atleast(1,2-3,graduate)): 0.92224
+Time: .241675904
+=== Test h779  ===
+Solution: sat(all(2-3,not(graduate))): 0.07776
+Time: .237419799
+=== Test h780  ===
+Solution: sat(exactly(10,2-3,loan)): 0.23012777
+Time: .548155175
+=== Test h781  ===
+Solution: sat(atleast(10,2-3,loan)): 0.88913002
+Time: .548157003
+=== Test h782  ===
+Solution: sat(exactly(3,1-18,left-handed)): 0.12850544
+Time: .847041052
+=== Test h783  ===
+Solution: sat(atleast(3,1-18,left-handed)): 0.18406107
+Time: 22.877557130
+=== Test h784  ===
+Solution: sat(less_than(3,1-18,left-handed)): 0.81593893
+Time: .791055071
+=== Test h785  ===
+Solution: sat(exactly(1,1-3,hit)): 0.36015
+Time: .239797633
+=== Test h786  ===
+Solution: sat(all(1-3,not(hit))): 0.16807
+Time: .245701115
+=== Test h787  ===
+Solution: sat(atleast(1,1-3,hit)): 0.83193
+Time: .248753205
+=== Test h788  ===
+Solution: sat(atleast(1,1-8,accident)): 0.13125419
+Time: .633356741
+=== Test h789  ===
+Solution: sat(all(2-10,correctly)): 0.25
+Time: .168119035
+=== Test h790  ===
+Solution: sat(all(2-6,or(minor,major))): 0.75
+Time: .182065995
+=== Test h791  ===
+Solution: sat(nth(2,2-1,defective)): 0.0080160321
+Time: .231811019
+=== Test h792  ===
+Solution: sat(all(2-1,defective)): 8.0160321e-05
+Time: .252468009
+=== Test h793  ===
+Solution: sat(none(2-1,defective)): 0.98008016
+Time: .254671791
+=== Test h794  ===
+Solution: sat(all(3-17,fail)): 0.014
+Time: .194538826
+=== Test h795  ===
+Solution: sat(all(3-9,flaw)): 0.023
+Time: .191615030
+=== Test h797  ===
+Solution: sat(all(3-28,roughness)): 0.028
+Time: .222857210
+=== Test h798  ===
+Solution: sat(nth(2,2-3,shrinkage)): 0.2
+Time: .188808548
+=== Test h799  ===
+Solution: sat(nth(3,2-3,shrinkage)): 0.2
+Time: .221530908
+=== Test h800  ===
+Solution: sat(all(1-5,not(high))): 0.59049
+Time: .239841805
+=== Test h801  ===
+Solution: sat(exactly(1,1-5,high)): 0.32805
+Time: .265369288
+=== Test h802  ===
+Solution: sat(atleast(1,1-5,high)): 0.40951
+Time: .268379679
+=== Test h803  ===
+Solution: sat(all(3-4,one)): 3.0517578e-05
+Time: 32.253651398
+=== Test h804  ===
+Solution: sat(all_same(4-8,outcome(0))): 0.00024414063
+Time: 31.645607939
+=== Test h805  ===
+Solution: sat(exactly(4,3-4,one)): 0.0010681152
+Time: 33.441172803
+=== Test h806  ===
+Solution: sat(all(5-4,fraudulent)): 0.0029913252
+Time: .210134276
+=== Test h807  ===
+Solution: sat(all(6-7,accuracy)): 0.984675
+Time: .219512731
+=== Test h808  ===
+Solution: sat(all(6-3,chlorinate)): 0.11842486
+Time: .260050271
+=== Test h809  ===
+Solution: sat(none(3-2,limit)): 0.28173375
+Time: .283241869
+=== Test h81  ===
+Solution: An unexpected error has occurred.
+Time: 60.298614422
+=== Test h810  ===
+Solution: sat(atleast(1,3-2,limit)): 0.71826625
+Time: .281893566
+=== Test h811  ===
+Solution: sat(atleast(1,3-5,through)): 0.996
+Time: .201311450
+=== Test h812  ===
+Solution: sat(all(4-9,incorrect)): 0.0037
+Time: .229362377
+=== Test h813  ===
+Solution: sat(all(4-5,high)): 0.81081081
+Time: .218957697
+=== Test h814  ===
+Solution: sat(exactly(1,3-3,defective)): 0.077837838
+Time: .244948498
+=== Test h815  ===
+Solution: sat(exactly(2,3-3,defective)): 0.0010810811
+Time: .244428782
+=== Test h816  ===
+Solution: sat(all(2-11,idle)): 7.59375e-05
+Time: .250181778
+=== Test h817  ===
+Solution: sat(exactly(4,2-11,idle)): 0.0021515625
+Time: .258055828
+=== Test h818  ===
+Solution: sat(atleast(3,2-11,idle)): 0.026611875
+Time: .247242968
+=== Test h819  ===
+Solution: sat(all(2-4,thicker)): 0.20714286
+Time: .242688711
+=== Test h820  ===
+Solution: sat(nth(3,2-4,thicker)): 0.625
+Time: .219362000
+=== Test h821  ===
+Solution: sat(nth(3,2-4,thicker)): 0.6
+Time: .220678828
+=== Test h822  ===
+Solution: sat(all(4-4,error)): 0.00344
+Time: .246576849
+=== Test h823  ===
+Solution: sat(all(one,bike)): 0.65
+Time: .251212912
+=== Test h826  ===
+Solution: sat(all(2-8,o)): 0.4
+Time: .182705291
+=== Test h828  ===
+Solution: sat(all(3-9,accident)): 0.18
+Time: .180133858
+=== Test h829  ===
+Solution: sat(all(student,and(midA,finalA))): 0.27272727
+Time: .193743777
+=== Test h831  ===
+Solution: sat(all_same(1-2,outcome(0))): 2.3841858e-07
+Time: 1.413718981
+=== Test h832  ===
+Solution: Timeout exceeded
+Time: 60.092317866
+=== Test h833  ===
+Solution: Timeout exceeded
+Time: 60.091099390
+=== Test h841  ===
+Solution: Timeout exceeded
+Time: 60.637763712
+=== Test h845  ===
+Solution: Timeout exceeded
+Time: 60.330060966
+=== Test h846  ===
+Solution: sat(and(exactly(6,2-8,nut),exactly(6,2-8,bolt))): 0.31572735
+Time: 1.326252778
+=== Test h848  ===
+Solution: sat(atleast(1,2-10,defective)): 0.82999116
+Time: .418733753
+=== Test h85  ===
+Solution: sat(atleast(2,1-8,function)): 0.99999603
+Time: .224532898
+=== Test h850  ===
+Solution: sat(all(2-2,woman)): 0.6
+Time: .195222897
+=== Test h851  ===
+Solution: sat(all(2-10,a)): 0.91111111
+Time: .206212268
+=== Test h852  ===
+Solution: sat(all(3-6,physics)): 0.625
+Time: .210759986
+=== Test h853  ===
+Solution: sat(exactly(2,2-5,trout)): 0.23902063
+Time: .785177256
+=== Test h854  ===
+Solution: sat(and(nth(4,2-4,comedy),nth(5,2-4,comedy))): 0.26923077
+Time: .282373519
+=== Test h855  ===
+Solution: sat(atleast(2,3-4,4.5)): 0.8892224
+Time: 14.866831005
+=== Test h857  ===
+Solution: sat(all(5-6,lie)): 0.1625
+Time: .184967569
+=== Test h858  ===
+Solution: sat(none(2-8,maryland)): 0.15384615
+Time: .352202688
+=== Test h859  ===
+Solution: sat(all(3-2,good)): 0.928
+Time: .213198034
+=== Test h860  ===
+Solution: sat(all(2-27,use)): 0.55
+Time: .251717792
+=== Test h861  ===
+Solution: sat(all(2-21,a)): 0.176
+Time: .217539391
+=== Test h863  ===
+Solution: sat(all(2-13,stroke)): 0.29
+Time: .213924091
+=== Test h864  ===
+Solution: sat(all(2-40,truth)): 0.7055
+Time: .194213965
+=== Test h866  ===
+Solution: sat(all(3-2,defective)): 0.034
+Time: .221066479
+=== Test h869  ===
+Solution: sat(none(2-22,change)): 0.6
+Time: .231952374
+=== Test h871  ===
+Solution: sat(all(7-6,crime)): 0.60747664
+Time: .242146982
+=== Test h872  ===
+Solution: sat(all(2-14,woman)): 0.14634146
+Time: .212790755
+=== Test h875  ===
+Solution: sat(all(3-5,copy)): 0.055555556
+Time: .231011896
+=== Test h877  ===
+Solution: sat(all(1-17,live)): 0.525625
+Time: .212364101
+=== Test h878  ===
+Solution: sat(all(1-17,not(live))): 0.075625
+Time: .197399897
+=== Test h879  ===
+Solution: sat(all(2-7,not(incorrectly))): 0.99362012
+Time: 13.330084708
+=== Test h88  ===
+Solution: sat(exactly(2,2-5,2)): 0.3
+Time: .688114824
+=== Test h880  ===
+Solution: sat(atleast(1,1-2,hit)): 0.994
+Time: .225471682
+=== Test h881  ===
+Solution: Timeout exceeded
+Time: 60.203555806
+=== Test h882  ===
+Solution: sat(exactly(3,3-14,white)): 0.32921811
+Time: .248020059
+=== Test h883  ===
+Solution: sat(atleast(1,1-12,lose)): 0.168256
+Time: .250796271
+=== Test h884  ===
+Solution: sat(some(4-3,losev)): 1
+Time: .459669082
+=== Test h885  ===
+Solution: sat(atleast(1,2-8,guilty)): 0.167028
+Time: .269010466
+=== Test h886  ===
+Solution: sat(all(3-20,respond)): 0.6504
+Time: .221002224
+=== Test h887  ===
+Solution: sat(all(2-25,a)): 0.067
+Time: .236410304
+=== Test h888  ===
+Solution: sat(all(4-7,c)): 0.07960199
+Time: .253452438
+=== Test h891  ===
+Solution: sat(exactly(4,2-11,spade)): 0.086517334
+Time: .351023202
+=== Test h892  ===
+Solution: Timeout exceeded
+Time: 60.430007971
+=== Test h893  ===
+Solution: sat(atmost(4,2-7,audit)): 0.83576628
+Time: 1.233988378
+=== Test h894  ===
+Solution: Timeout exceeded
+Time: 61.305260879
+=== Test h895  ===
+Solution: sat(atleast(1,2-3,defective)): 0.31034483
+Time: .193505430
+=== Test h896  ===
+Solution: sat(and(nth(1,1-2,red),nth(2,1-2,blue))): 0.11363636
+Time: .261529425
+=== Test h897  ===
+Solution: sat(nth(2,1-2,white)): 0.33333333
+Time: .190735112
+=== Test h898  ===
+Solution: sat(all(3-30,defective)): 0.13695652
+Time: .201483362
+=== Test h899  ===
+Solution: sat(exactly(1,2-2,success)): 0.38742049
+Time: .436065106
+=== Test h9  ===
+Solution: sat(atleast(1,1-2,work)): 0.99
+Time: .189550196
+=== Test h900  ===
+Solution: sat(all(2-4,2)): 0.5
+Time: .197452035
+=== Test h901  ===
+Solution: sat(all(tick,and(lyme,hge))): 0.023636364
+Time: .188315001
+=== Test h902  ===
+Solution: sat(exactly(2,3-9,tag)): 0.2879729
+Time: .338011563
+=== Test h903  ===
+Solution: sat(all(7-6,satellite)): 0.00829
+Time: .201445099
+=== Test h904  ===
+Solution: sat(all(7-6,and(engine,satellite))): 0.00784
+Time: .207101223
+=== Test h906  ===
+Solution: sat(none(2-2,defective)): 0.55263158
+Time: .193378318
+=== Test h907  ===
+Solution: sat(all(2-2,defective)): 0.052631579
+Time: .192762962
+=== Test h908  ===
+Solution: sat(exactly(1,2-2,defective)): 0.39473684
+Time: .195686295
+=== Test h909  ===
+Solution: sat(none(2-17,acceptable)): 0.35
+Time: .166346120
+=== Test h91  ===
+Solution: sat(all(4-6,dartmouth)): 0.66666667
+Time: .209254980
+=== Test h910  ===
+Solution: sat(none(2-18,acceptable)): 0.1225
+Time: .188865123
+=== Test h911  ===
+Solution: sat(all(3-7,acceptable)): 0.65
+Time: .165325585
+=== Test h912  ===
+Solution: sat(all(1-2,successful)): 0.23730469
+Time: .248012948
+=== Test h913  ===
+Solution: sat(none(2-2,defective)): 0.34867844
+Time: .448116950
+=== Test h914  ===
+Solution: sat(all(4-3,and(a,negative))): 0.004096
+Time: .559284152
+=== Test h915  ===
+Solution: sat(exactly(1,4-3,and(o,positive))): 0.470232
+Time: .580151029
+=== Test h916  ===
+Solution: sat(atleast(1,4-3,and(o,positive))): 0.613116
+Time: .589026455
+=== Test h917  ===
+Solution: sat(or(and(nth(1,4-3,positive),nth(2,4-3,not(ab))),and(nth(2,4-3,positive),nth(1,4-3,not(ab))))): 0.96251904
+Time: .423408649
+=== Test h918  ===
+Solution: sat(all_same(4-3,abo)): 0.3762
+Time: .638377604
+=== Test h919  ===
+Solution: sat(and(all_same(4-3,abo),all_diff(4-3,rh))): 0.10112256
+Time: .731629212
+=== Test h920  ===
+Solution: sat(all(3-3,survive)): 0.99405882
+Time: .214162676
+=== Test h924  ===
+Solution: sat(all(4-3,spam)): 0.97560976
+Time: .211217989
+=== Test h925  ===
+Solution: sat(and(all(3-12,steer),all(3-12,brake))): 0.04
+Time: .199788962
+=== Test h926  ===
+Solution: sat(or(exactly(0,1-5,head),exactly(2,1-5,head))): 0.5
+Time: .233178569
+=== Test h929  ===
+Solution: sat(all(2-14,good)): 0.4
+Time: .191467883
+=== Test h930  ===
+Solution: sat(nth(2,2-14,good)): 0.66666667
+Time: .185902665
+=== Test h931  ===
+Solution: sat(all(2-8,defective)): 0.0105
+Time: .224047775
+=== Test h932  ===
+Solution: sat(all(3-16,green)): 0.42962963
+Time: .204833146
+=== Test h933  ===
+Solution: sat(all(3-2,brown)): 0.51724138
+Time: .216003058
+=== Test h934  ===
+Solution: sat(all(3-5,defective)): 0.049
+Time: .220405335
+=== Test h935  ===
+Solution: sat(all(3-4,b)): 0.35714286
+Time: .249115858
+=== Test h936  ===
+Solution: sat(all(4-3,drug)): 0.14285714
+Time: .214336877
+=== Test h938  ===
+Solution: sat(exactly(1,2-10,not)): 0.45454545
+Time: .307217701
+=== Test h94  ===
+Solution: sat(atleast(7,1-7,true)): 0.171875
+Time: .459046104
+=== Test h940  ===
+Solution: sat(aggcmp(2-5,number,max,=:=,6)): 0.083333333
+Time: 10.671678083
+=== Test h943  ===
+Solution: sat(none(2-8,woman)): 0.054139392
+Time: .577875829
+=== Test h945  ===
+Solution: sat(none(1-15,yellow)): 0.1958042
+Time: .228286082
+=== Test h946  ===
+Solution: sat(none(1-15,yellow)): 0.23304506
+Time: .198105829
+=== Test h948  ===
+Solution: sat(atleast(3,1-2,woman)): 0.15151515
+Time: .333979926
+=== Test h949  ===
+Solution: sat(all(4-5,pass)): 0.68
+Time: .218162224
+=== Test h950  ===
+Solution: sat(all(4-6,chemistry)): 0.61764706
+Time: .243497768
+=== Test h951  ===
+Solution: sat(atmost(2,1-18,defective)): 0.68122006
+Time: .860928300
+=== Test h952  ===
+Solution: sat(all(3-2,b)): 0.40909091
+Time: .240649609
+=== Test h953  ===
+Solution: sat(all(3-3,a)): 0.43037975
+Time: .209062965
+=== Test h956  ===
+Solution: sat(all(3-5,infect)): 0.089334549
+Time: .213369133
+=== Test h958  ===
+Solution: sat(or(and(exactly(3,2-2,blue),less_than(3,2-2,white)),or(and(exactly(2,2-2,blue),less_than(2,2-2,white)),and(exactly(1,2-2,blue),less_than(1,2-2,white))))): 0.64210526
+Time: .445769939
+=== Test h959  ===
+Solution: sat(atleast(1,1-2,hit)): 0.936
+Time: .197898648
+=== Test h96  ===
+Solution: sat(none(3-4,no_stone)): 0.25
+Time: .404675931
+=== Test h961  ===
+Solution: sat(all(3-9,good)): 0.35714286
+Time: .194813128
+=== Test h962  ===
+Solution: sat(all(3-5,green)): 0.027027027
+Time: .213798058
+=== Test h967  ===
+Solution: sat(atmost(2,2-6,defective)): 0.95278261
+Time: .289714301
+=== Test h968  ===
+Solution: sat(atleast(6,2-13,correct)): 0.37695313
+Time: .502069278
+=== Test h969  ===
+Solution: sat(exactly(14,3-2,kill)): 0.1090997
+Time: 17.107606512
+=== Test h97  ===
+Solution: sat(atleast(1,2-7,not(no_stone))): 0.74174407
+Time: .437736709
+=== Test h970  ===
+Solution: Timeout exceeded
+Time: 60.131359856
+=== Test h971  ===
+Solution: Timeout exceeded
+Time: 60.611289185
+=== Test h972  ===
+Solution: sat(exactly(5,3-13,last)): 0.10291935
+Time: .462022623
+=== Test h975  ===
+Solution: Timeout exceeded
+Time: 60.128968425
+=== Test h976  ===
+Solution: Timeout exceeded
+Time: 60.353309113
+=== Test h977  ===
+Solution: sat(all(2-12,6)): 0.0046296296
+Time: .700796172
+=== Test h978  ===
+Solution: Timeout exceeded
+Time: 60.593148150
+=== Test h979  ===
+Solution: sat(exactly(3,3-6,6)): 0.0791125
+Time: .409486855
+=== Test h98  ===
+Solution: sat(all(4-4,correct)): 0.5
+Time: .170728869
+=== Test h980  ===
+Solution: sat(atleast(5,1-9,red)): 0.004672
+Time: .305652897
+=== Test h981  ===
+Solution: sat(atleast(5,1-9,red)): 0.031560744
+Time: .353870829
+=== Test h982  ===
+Solution: sat(atleast(5,2-5,log)): 0.95265101
+Time: .564169569
+=== Test h983  ===
+Solution: Timeout exceeded
+Time: 60.143148741
+=== Test h985  ===
+Solution: Timeout exceeded
+Time: 61.195604385
+=== Test h986  ===
+Solution: Timeout exceeded
+Time: 60.355744937
+=== Test h987  ===
+Solution: Timeout exceeded
+Time: 61.166437404
+=== Test h988  ===
+Solution: Timeout exceeded
+Time: 60.351075005
+=== Test h989  ===
+Solution: sat(exactly(4,1-2,defective)): 0.011160261
+Time: .439656777
+=== Test h99  ===
+Solution: sat(all_same(3-9,color)): 0.23076923
+Time: .307918800
+=== Test h990  ===
+Solution: sat(atleast(4,1-2,defective)): 0.012795198
+Time: .640312053
+=== Test h991  ===
+Solution: sat(atmost(2,1-9,incorrectly)): 0.99999988
+Time: .430679965
+=== Test h992  ===
+Solution: Timeout exceeded
+Time: 61.701992441
+=== Test h993  ===
+Solution: Timeout exceeded
+Time: 60.130462296
+=== Test h994  ===
+Solution: sat(all(3-8,3)): 0.5
+Time: .168956988
+=== Test h995  ===
+Solution: sat(all(4-5,instinct)): 0.052631579
+Time: .243270448
+=== Test h996  ===
+Solution: sat(all(2-4,not(forget))): 0.32768
+Time: .237477865
+=== Test h997  ===
+Solution: sat(and(some(1-3,eat),some(1-3,break))): 0.776
+Time: .212155414
+=== Test h998  ===
+Solution: sat(all(1-7,brown)): 0.000729
+Time: .267033297
+=== Test h999  ===
+Solution: sat(exactly(4,1-7,not(brown))): 0.324135
+Time: .277168601
+=== Test l10  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,=:=,5)): 0.11111111
+Time: .402047542
+=== Test l100  ===
+Solution: sat(all(3-15,blue)): 0.5
+Time: .184964485
+=== Test l1000  ===
+Solution: sat(all(3-13,woman)): 0.18181818
+Time: .209007489
+=== Test l1001  ===
+Solution: sat(all(2-9,defective)): 0.034
+Time: .216560886
+=== Test l1002  ===
+Solution: sat(all(3-4,enterprise)): 0.5
+Time: .244297451
+=== Test l1003  ===
+Solution: sat(all(4-4,maine)): 0.31746032
+Time: .246135742
+=== Test l1004  ===
+Solution: sat(all(4-8,basic)): 0.28571429
+Time: .211162663
+=== Test l1005  ===
+Solution: sat(all(3-33,a)): 0.02173913
+Time: .214633608
+=== Test l1006  ===
+Solution: sat(all(3-4,time)): 0.55
+Time: .192988703
+=== Test l1007  ===
+Solution: sat(all(5-9,pass)): 0.56
+Time: .191599049
+=== Test l1008  ===
+Solution: sat(all(2-2,and(or(automobile,house),not(and(automobile,house))))): 0.5
+Time: .208068856
+=== Test l1009  ===
+Solution: sat(and(all(3-2,work),all(3-2,specialist))): 0.05
+Time: .203090314
+=== Test l101  ===
+Solution: sat(all(3-16,king)): 0.078431373
+Time: .217085502
+=== Test l1010  ===
+Solution: sat(all(4-9,renew)): 0.53
+Time: .224273231
+=== Test l102  ===
+Solution: sat(all(3-16,ace)): 0.058823529
+Time: .187867197
+=== Test l103  ===
+Solution: sat(all(2-2,yellow)): 0.31818182
+Time: .190295487
+=== Test l104  ===
+Solution: sat(all_diff(2-2,color)): 0.53030303
+Time: .193513695
+=== Test l1044  ===
+Solution: sat(more_than(1,1-6,head)): 0.5
+Time: .200176703
+=== Test l1045  ===
+Solution: sat(all(1-5,ace)): 0
+Time: .315854697
+=== Test l1046  ===
+Solution: sat(all(1-8,ace)): 0.076923077
+Time: .161971896
+=== Test l1047  ===
+Solution: sat(all(1-6,or(3,4))): 0.33333333
+Time: .213902024
+=== Test l1048  ===
+Solution: sat(all(chosen,and(not(a),and(not(b),not(c))))): 0.5
+Time: .218998136
+=== Test l1049  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,=<,10)): 0.91666667
+Time: .416446093
+=== Test l105  ===
+Solution: sat(all(2-4,football)): 0.4
+Time: .191403738
+=== Test l1050  ===
+Solution: sat(all_diff(1-5,outcome(0))): 0.83333333
+Time: .374725803
+=== Test l1051  ===
+Solution: sat(and(all_diff(1-5,outcome(0)),aggcmp(1-5,outcome(0),sum,=<,10))): 0.77777778
+Time: .454468838
+=== Test l1052  ===
+Solution: sat(or(all(2-2,shirt),all(2-2,pants))): 0.25
+Time: .234160302
+=== Test l1053  ===
+Solution: sat(and(exactly(2,1-4,head),nth(7,1-4,head))): 0.046875
+Time: .309478811
+=== Test l1055  ===
+Solution: sat(all(3-2,spanish)): 0.4
+Time: .219763912
+=== Test l1056  ===
+Solution: sat(all(2-5,defective)): 0.1
+Time: .192172340
+=== Test l1057  ===
+Solution: sat(all(1-16,not(pneumonia))): 0.55
+Time: .159261652
+=== Test l1058  ===
+Solution: sat(all(4-9,not(busy))): 0.56
+Time: .196554087
+=== Test l106  ===
+Solution: sat(all(2-4,dance)): 0.3
+Time: .195302596
+=== Test l1060  ===
+Solution: sat(all(2-4,or(or(blood,x-ray),mri))): 0.66
+Time: .306011081
+=== Test l1061  ===
+Solution: sat(all(4-7,or(math,english))): 0.32
+Time: .201664876
+=== Test l1062  ===
+Solution: sat(all(2-2,or(red,green))): 0.55555556
+Time: .178617477
+=== Test l1063  ===
+Solution: sat(all(2-11,red)): 0.18181818
+Time: .178161690
+=== Test l1064  ===
+Solution: sat(none(2-17,red)): 0.81818182
+Time: .174924128
+=== Test l1065  ===
+Solution: sat(all(2-10,or(red,blue))): 0.54545455
+Time: .181805677
+=== Test l1066  ===
+Solution: sat(and(none(2-3,gymnastics),and(none(2-3,soccer),none(2-3,baseball)))): 0.52
+Time: .316208599
+=== Test l1068  ===
+Solution: sat(all(4-8,or(king,queen-size))): 0.8
+Time: .177747262
+=== Test l1069  ===
+Solution: sat(and(none(3-8,liability),none(3-8,property))): 0.89
+Time: .204745125
+=== Test l107  ===
+Solution: sat(all(2-2,cat)): 0.4
+Time: .207514039
+=== Test l1070  ===
+Solution: sat(all(3-6,correct)): 0.0009765625
+Time: .839010711
+=== Test l1071  ===
+Solution: sat(all(3-4,favor)): 0.505
+Time: .188848923
+=== Test l1072  ===
+Solution: sat(all(3-7,red)): 0.6
+Time: .157439665
+=== Test l1073  ===
+Solution: sat(and(exactly(1,3-7,red),nth(2,3-7,red))): 0.3
+Time: .199042709
+=== Test l1074  ===
+Solution: sat(and(nth(1,2-7,black),nth(2,2-7,red))): 0.1875
+Time: .173539589
+=== Test l1075  ===
+Solution: sat(all(2-2,black)): 0.44444444
+Time: .180166757
+=== Test l1076  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(1,2-2,white))): 0.16666667
+Time: .274636861
+=== Test l1077  ===
+Solution: sat(all_diff(2-2,color)): 0.6
+Time: .196306781
+=== Test l1078  ===
+Solution: sat(all_diff(2-2,color)): 0.48
+Time: .184739777
+=== Test l1079  ===
+Solution: sat(and(nth(1,2-2,black),nth(2,2-2,purple))): 0.14035088
+Time: .193082887
+=== Test l108  ===
+Solution: sat(all(2-2,dog)): 0.6
+Time: .210238106
+=== Test l1080  ===
+Solution: sat(atleast(2,2-2,man)): 0.55384615
+Time: .227388641
+=== Test l1082  ===
+Solution: sat(all(2-9,male)): 0.16666667
+Time: .210403409
+=== Test l1083  ===
+Solution: sat(and(all(3-7,admit),all(3-7,campus))): 0.48
+Time: .185674832
+=== Test l1084  ===
+Solution: sat(and(nth(1,2-3,red),nth(2,2-3,orange))): 0.15151515
+Time: .223737925
+=== Test l1085  ===
+Solution: sat(all(6-10,perfect)): 0.97826087
+Time: .191842794
+=== Test l1086  ===
+Solution: sat(all(2-10,black)): 0.0036610879
+Time: .202377733
+=== Test l1087  ===
+Solution: sat(all(1-7,king)): 0.0045248869
+Time: .197239183
+=== Test l1088  ===
+Solution: sat(all(1-7,king)): 0.0059171598
+Time: .186682265
+=== Test l1089  ===
+Solution: sat(all(2-2,defective)): 0.0087719298
+Time: .229977882
+=== Test l109  ===
+Solution: sat(atleast(1,1-5,head)): 0.75
+Time: .180798160
+=== Test l1090  ===
+Solution: sat(none(2-3,text)): 0.8020202
+Time: .209538195
+=== Test l1091  ===
+Solution: sat(all(5-10,defective)): 0.021
+Time: .218926047
+=== Test l1092  ===
+Solution: sat(all(5-5,a)): 0.23809524
+Time: .244678225
+=== Test l1093  ===
+Solution: sat(all(4-9,support)): 0.57
+Time: .189845077
+=== Test l1094  ===
+Solution: sat(all(4-5,liberal)): 0.21052632
+Time: .209174462
+=== Test l1095  ===
+Solution: sat(all(4-5,liberal)): 0.65116279
+Time: .212332436
+=== Test l11  ===
+Solution: sat(all(1-2,king)): 0.019230769
+Time: .163720513
+=== Test l110  ===
+Solution: sat(all_diff(2-5,outcome(0))): 0.8
+Time: .312002764
+=== Test l111  ===
+Solution: sat(atleast(1,1-2,picture)): 0.41176471
+Time: .196811010
+=== Test l1113  ===
+Solution: sat(all(2-3,defective)): 0.031578947
+Time: .194054810
+=== Test l1114  ===
+Solution: sat(atleast(1,2-2,red)): 0.97173913
+Time: .409307281
+=== Test l112  ===
+Solution: sat(atleast(1,2-2,consonant)): 0.96923077
+Time: .195166288
+=== Test l1121  ===
+Solution: sat(all(2-3,anchovie)): 0.083333333
+Time: .161861124
+=== Test l1124  ===
+Solution: sat(all(1-15,favorable)): 0.4
+Time: .158441865
+=== Test l1125  ===
+Solution: sat(all(5-7,guilty)): 0.35864979
+Time: .210274240
+=== Test l1126  ===
+Solution: sat(all(3-3,liberal)): 0.26717557
+Time: .243795404
+=== Test l1127  ===
+Solution: sat(all(2-14,win)): 0.21865889
+Time: .212545961
+=== Test l1129  ===
+Solution: sat(all_diff(3-9,outcome(0))): 0.72
+Time: 6.375692658
+=== Test l113  ===
+Solution: sat(aggcmp(1-22,outcome(0),sum,=\=,7)): 0.83333333
+Time: .404146302
+=== Test l1130  ===
+Solution: sat(all(2-9,unusable)): 0.00144
+Time: .221815373
+=== Test l1131  ===
+Solution: sat(atleast(1,3-3,not(make))): 0.46708748
+Time: .426248236
+=== Test l1132  ===
+Solution: sat(and(all(3-9,female),all(3-9,experience))): 0.19027216
+Time: .202791259
+=== Test l1133  ===
+Solution: Timeout exceeded
+Time: 60.264873839
+=== Test l1134  ===
+Solution: sat(all_same(2-22,outcome(0))): 0.03125
+Time: .277111519
+=== Test l1135  ===
+Solution: sat(all(4-8,plan)): 0.7508
+Time: .190754879
+=== Test l1136  ===
+Solution: sat(all(4-8,buy)): 0.4742
+Time: .191365563
+=== Test l1137  ===
+Solution: sat(all(2-9,green)): 0.48
+Time: .175202536
+=== Test l1138  ===
+Solution: sat(all_diff(2-17,outcome(0))): 0.0384
+Time: 2.386031292
+=== Test l114  ===
+Solution: sat(atleast(1,1-2,heart)): 0.44117647
+Time: .199592477
+=== Test l1140  ===
+Solution: sat(all(4-7,unsatisfactory)): 0.12903226
+Time: .212301282
+=== Test l1142  ===
+Solution: sat(all(4-4,b)): 0.047619048
+Time: .208982591
+=== Test l1144  ===
+Solution: sat(and(exactly(2,3-5,auto),and(exactly(2,3-5,homeowner),exactly(2,3-5,life)))): 0.097402597
+Time: 1.294407787
+=== Test l1145  ===
+Solution: sat(atleast(2,4-8,failure)): 0.00725
+Time: .200001431
+=== Test l1146  ===
+Solution: sat(all(3-2,pressure)): 0.16666667
+Time: .208667401
+=== Test l1147  ===
+Solution: sat(exactly(1,2-1,low-risk)): 0.33333333
+Time: .197377135
+=== Test l1148  ===
+Solution: sat(and(none(2-6,emergency),none(2-6,hospital))): 0.06
+Time: .208319667
+=== Test l1149  ===
+Solution: sat(and(nth(5,4-7,malfunction),exactly(3,4-7,malfunction))): 0.14769231
+Time: .257706138
+=== Test l116  ===
+Solution: sat(atleast(1,2-12,solve)): 0.97
+Time: .199911113
+=== Test l117  ===
+Solution: sat(all(1-2,or(king,queen))): 0.15384615
+Time: .209335079
+=== Test l118  ===
+Solution: sat(all(1-2,or(king,heart))): 0.30769231
+Time: .212557926
+=== Test l119  ===
+Solution: sat(all(1-2,2)): 0.2
+Time: .165458059
+=== Test l12  ===
+Solution: sat(all(2-3,white)): 0.5
+Time: .175319344
+=== Test l120  ===
+Solution: sat(or(nth(1,1-22,6),nth(2,1-22,5))): 0.30555556
+Time: .233547914
+=== Test l121  ===
+Solution: sat(all(kid,and(cat,dog))): 0.1
+Time: .183692346
+=== Test l124  ===
+Solution: sat(all(kid,and(scooter,not(bicycle)))): 0.40625
+Time: .262734093
+=== Test l126  ===
+Solution: sat(exactly(3,3-3,red)): 0.3125
+Time: .273434679
+=== Test l127  ===
+Solution: sat(exactly(5,1-5,tails)): 0.1640625
+Time: .304350980
+=== Test l128  ===
+Solution: sat(exactly(2,1-5,head)): 0.3125
+Time: .242852816
+=== Test l129  ===
+Solution: sat(all(4-10,not(late_school))): 0.34
+Time: .196427919
+=== Test l13  ===
+Solution: sat(and(aggcmp(1-20,outcome(0),sum,is_odd),aggcmp(1-20,outcome(0),sum,>,8))): 0.16666667
+Time: .425497449
+=== Test l130  ===
+Solution: sat(aggcmp(1-21,outcome(0),max,<,5)): 0.44444444
+Time: .394351035
+=== Test l131  ===
+Solution: sat(or(and(all(shoe,black),all(sock,brown)),and(all(sock,black),all(shoe,brown)))): 0.4
+Time: .201870075
+=== Test l132  ===
+Solution: sat(all(4-17,train)): 0.23333333
+Time: .212811059
+=== Test l133  ===
+Solution: sat(all_diff(2-2,color)): 0.27272727
+Time: .364431305
+=== Test l134  ===
+Solution: sat(all(2-38,do)): 0.19164619
+Time: .213586745
+=== Test l14  ===
+Solution: sat(all(2-3,red)): 0.3
+Time: .188883039
+=== Test l141  ===
+Solution: sat(exactly(2,1-2,1)): 0.16666667
+Time: .249065075
+=== Test l15  ===
+Solution: sat(all(2-4,blue)): 0.25
+Time: .179727093
+=== Test l151  ===
+Solution: sat(exactly(1,3-5,red)): 0.45454545
+Time: .236815456
+=== Test l152  ===
+Solution: Timeout exceeded
+Time: 60.121186993
+=== Test l156  ===
+Solution: Timeout exceeded
+Time: 60.486536272
+=== Test l157  ===
+Solution: Timeout exceeded
+Time: 60.473285204
+=== Test l158  ===
+Solution: Timeout exceeded
+Time: 60.432201338
+=== Test l159  ===
+Solution: sat(exactly(2,4-5,ace)): 0.30820294
+Time: 1.534386893
+=== Test l16  ===
+Solution: sat(all(2-2,blue)): 0.2
+Time: .192739812
+=== Test l165  ===
+Solution: sat(atleast(1,1-21,6)): 0.51774691
+Time: 2.043181686
+=== Test l166  ===
+Solution: sat(exactly(1,2-14,prize)): 0.02
+Time: .202758401
+=== Test l167  ===
+Solution: sat(all(3-16,not(not))): 0.34867844
+Time: .416058927
+=== Test l168  ===
+Solution: sat(exactly(13,1-4,success)): 6.2722547e-07
+Time: .583234644
+=== Test l169  ===
+Solution: sat(all(2-15,win)): 1.1979376e-07
+Time: .495102623
+=== Test l17  ===
+Solution: sat(exactly(1,1-5,head)): 0.375
+Time: .197614580
+=== Test l170  ===
+Solution: sat(all(2-8,boy)): 0.14285714
+Time: .205079243
+=== Test l171  ===
+Solution: sat(all(2-4,ace)): 0.5
+Time: .210500163
+=== Test l173  ===
+Solution: sat(all(5-2,month)): 0.7
+Time: .374518720
+=== Test l174  ===
+Solution: sat(none(3-9,defective)): 0.3
+Time: .194174357
+=== Test l175  ===
+Solution: sat(all(3-8,or(somewhat,very))): 0.48
+Time: .187668729
+=== Test l176  ===
+Solution: sat(all(3-1,bushing)): 0.08
+Time: .190650203
+=== Test l177  ===
+Solution: sat(and(exactly(1,1-7,1),exactly(1,1-7,or(4,5)))): 0.2
+Time: .366924187
+=== Test l178  ===
+Solution: sat(exactly(2,1-5,head)): 0.375
+Time: .196316664
+=== Test l179  ===
+Solution: sat(atleast(1,3-7,a)): 0.88888889
+Time: .181545118
+=== Test l18  ===
+Solution: sat(atleast(1,1-5,tails)): 0.875
+Time: .195377516
+=== Test l180  ===
+Solution: sat(all(3-2,woman)): 0.066666667
+Time: .189203971
+=== Test l181  ===
+Solution: sat(atleast(2,3-6,exceed)): 0.6875
+Time: .221604483
+=== Test l182  ===
+Solution: sat(atleast(1,2-1,defective)): 0.6
+Time: .196168377
+=== Test l186  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,=:=,7)): 0.16666667
+Time: .412404678
+=== Test l189  ===
+Solution: sat(all(3-18,spade)): 0.0084183673
+Time: .282916135
+=== Test l19  ===
+Solution: sat(and(all(1-46,red),and(all(1-13,or(3,4)),all(1-39,tails)))): 0.083333333
+Time: .268156242
+=== Test l190  ===
+Solution: sat(all(3-17,spade)): 0.1875
+Time: .315578688
+=== Test l193  ===
+Solution: sat(all(1-12,win)): 0.31640625
+Time: .218284186
+=== Test l194  ===
+Solution: sat(all(4-2,male)): 0.4
+Time: .215985591
+=== Test l195  ===
+Solution: sat(all(4-3,know)): 0.94117647
+Time: .205901056
+=== Test l196  ===
+Solution: sat(atleast(1,1-5,son)): 0.75
+Time: .193007734
+=== Test l198  ===
+Solution: sat(and(all_diff(1-3,outcome(0)),aggcmp(1-3,outcome(0),sum,=:=,8))): 0.11111111
+Time: .455028405
+=== Test l199  ===
+Solution: sat(all(2-8,blue)): 0.41666667
+Time: .157884685
+=== Test l2  ===
+Solution: sat(exactly(2,1-4,head)): 0.25
+Time: .248247150
+=== Test l20  ===
+Solution: sat(all(3-8,vowel)): 0.19230769
+Time: .161553512
+=== Test l201  ===
+Solution: Timeout exceeded
+Time: 60.182711023
+=== Test l202  ===
+Solution: Timeout exceeded
+Time: 60.465050192
+=== Test l203  ===
+Solution: sat(exactly(2,3-7,mark)): 0.21671827
+Time: .277295676
+=== Test l204  ===
+Solution: sat(all(2-5,yellow)): 0.33333333
+Time: .188816479
+=== Test l205  ===
+Solution: Timeout exceeded
+Time: 60.178457242
+=== Test l206  ===
+Solution: sat(all(3-4,man)): 0.26315789
+Time: .204933175
+=== Test l207  ===
+Solution: sat(exactly(2,1-3,boy)): 0.33333333
+Time: .190372974
+=== Test l208  ===
+Solution: sat(aggcmp(1-22,outcome(0),sum,=:=,4)): 0.18181818
+Time: .404947589
+=== Test l209  ===
+Solution: sat(all(2-16,spade)): 0.23529412
+Time: .190037223
+=== Test l21  ===
+Solution: sat(all(2-4,woman)): 0.6
+Time: .163301047
+=== Test l211  ===
+Solution: sat(atmost(1,1-4,tail)): 0.75
+Time: .182115133
+=== Test l219  ===
+Solution: sat(all_diff(1-21,outcome(0))): 0.55555556
+Time: .769870151
+=== Test l22  ===
+Solution: sat(all(2-6,boy)): 0.4
+Time: .156651428
+=== Test l221  ===
+Solution: sat(all(1-12,distinct)): 1.906292e-07
+Time: .413561869
+=== Test l222  ===
+Solution: sat(and(exactly(1,1-3,a),exactly(1,1-3,b))): 0.0090909091
+Time: .687694637
+=== Test l223  ===
+Solution: sat(exactly(1,1-24,is_even)): 0.375
+Time: 4.182054693
+=== Test l224  ===
+Solution: sat(exactly(4,1-21,6)): 0.0080375514
+Time: 13.874941885
+=== Test l225  ===
+Solution: sat(and(exactly(2,2-4,red),and(exactly(2,2-4,white),exactly(2,2-4,blue)))): 0.12345679
+Time: .791368707
+=== Test l226  ===
+Solution: sat(and(exactly(2,1-11,girl),exactly(1,1-11,boy))): 0.42857143
+Time: .216815718
+=== Test l227  ===
+Solution: sat(exactly(1,1-21,6)): 0.82417582
+Time: .836055844
+=== Test l228  ===
+Solution: sat(exactly(1,1-2,king)): 0.14545455
+Time: .212274017
+=== Test l23  ===
+Solution: sat(and(all(3-24,d),and(all(3-19,b),all(3-21,a)))): 0.016666667
+Time: .523037214
+=== Test l231  ===
+Solution: sat(exactly(2,1-11,girl)): 0.33333333
+Time: .189957354
+=== Test l238  ===
+Solution: sat(aggcmp(2-21,outcome(0),sum,is_odd)): 0.33333333
+Time: .206011663
+=== Test l239  ===
+Solution: sat(exactly(4,1-8,zero)): 0.2734375
+Time: .343534324
+=== Test l240  ===
+Solution: sat(and(exactly(2,1-2,spade),exactly(1,1-2,heart))): 0.045882353
+Time: .386560200
+=== Test l241  ===
+Solution: sat(atleast(1,1-28,spade)): 0.47161193
+Time: .371374316
+=== Test l243  ===
+Solution: sat(all(1-2,white)): 0.015151515
+Time: .234471907
+=== Test l244  ===
+Solution: sat(aggcmp(1-22,outcome(0),sum,=:=,4)): 0.055555556
+Time: .377244932
+=== Test l245  ===
+Solution: sat(atleast(2,2-2,reliability)): 0.99275
+Time: .198583997
+=== Test l246  ===
+Solution: sat(all(1-14,head)): 0.14285714
+Time: .205797799
+=== Test l247  ===
+Solution: sat(all(2-7,phd)): 0.68
+Time: .246332463
+=== Test l25  ===
+Solution: sat(aggcmp(1-6,outcome(0),sum,=:=,6)): 0.13888889
+Time: .402087885
+=== Test l250  ===
+Solution: sat(all(2-7,man)): 0.8
+Time: .209943313
+=== Test l251  ===
+Solution: sat(nth(2,3-13,defective)): 0.1
+Time: .178887623
+=== Test l252  ===
+Solution: sat(all_same(2-2,brand)): 0.49473684
+Time: .197119745
+=== Test l255  ===
+Solution: sat(exactly(1,2-2,defective)): 0.55555556
+Time: .239659860
+=== Test l257  ===
+Solution: sat(all(3-12,and(not(win),not(bonus)))): 0.37513265
+Time: .754103800
+=== Test l259  ===
+Solution: sat(all(1-6,not(head))): 0.5
+Time: .159169262
+=== Test l26  ===
+Solution: sat(and(all(5-6,electrical),all(5-6,mechanical))): 0.35
+Time: .214719498
+=== Test l260  ===
+Solution: sat(all(1-6,not(1))): 0.83333333
+Time: .212586003
+=== Test l261  ===
+Solution: sat(all(2-7,green)): 0.41666667
+Time: .174334042
+=== Test l262  ===
+Solution: sat(none(2-7,yellow)): 0.66666667
+Time: .177851970
+=== Test l263  ===
+Solution: sat(all(2-7,black)): 0.045454545
+Time: .232664999
+=== Test l264  ===
+Solution: sat(all(2-1,fork)): 0.0625
+Time: .335379963
+=== Test l265  ===
+Solution: sat(all(2-2,red)): 0.052631579
+Time: .229914153
+=== Test l266  ===
+Solution: sat(and(exactly(3,2-1,mystery),exactly(1,2-1,science-fiction))): 0.21176471
+Time: .284550376
+=== Test l267  ===
+Solution: sat(all(1-17,king)): 0.0059171598
+Time: .185275150
+=== Test l268  ===
+Solution: sat(all(1-12,or(yellow,blue))): 0.5
+Time: .178655913
+=== Test l269  ===
+Solution: sat(and(exactly(1,1-5,jazz),and(exactly(1,1-5,country),exactly(1,1-5,rap)))): 0.18
+Time: .287770853
+=== Test l27  ===
+Solution: sat(all(5-6,and(or(not(electrical),fail),not(and(not(electrical),fail))))): 0.42
+Time: .219816960
+=== Test l270  ===
+Solution: sat(all(1-6,ace)): 0.0045248869
+Time: .198510619
+=== Test l271  ===
+Solution: sat(atleast(3,1-13,white)): 0.42424242
+Time: .280144274
+=== Test l272  ===
+Solution: sat(exactly(2,2-2,red)): 0.53333333
+Time: .226622008
+=== Test l273  ===
+Solution: sat(all_same(1-20,outcome(0))): 0.2
+Time: .484125428
+=== Test l274  ===
+Solution: sat(exactly(2,1-4,tails)): 0.5
+Time: .203748369
+=== Test l275  ===
+Solution: sat(all(4-2,soccer)): 1
+Time: .218458231
+=== Test l276  ===
+Solution: sat(exactly(3,2-3,win)): 0.26367188
+Time: .244106832
+=== Test l277  ===
+Solution: sat(exactly(8,2-4,sale)): 0.12084961
+Time: .616477422
+=== Test l278  ===
+Solution: sat(or(exactly(2,1-14,head),exactly(3,1-14,tails))): 0.546875
+Time: .279713514
+=== Test l279  ===
+Solution: sat(exactly(4,1-6,free)): 0.32921811
+Time: .242233502
+=== Test l28  ===
+Solution: sat(all(5-6,and(fail,electrical))): 0.23076923
+Time: .235859095
+=== Test l280  ===
+Solution: sat(atleast(3,1-5,win)): 0.89648438
+Time: .242396709
+=== Test l281  ===
+Solution: sat(exactly(7,2-3,produce)): 0.21499085
+Time: .449751464
+=== Test l283  ===
+Solution: sat(aggcmp(1-12,outcome(0),sum,is_even)): 0.55555556
+Time: .223431051
+=== Test l287  ===
+Solution: sat(all(3-8,diamond)): 0.058823529
+Time: .195652888
+=== Test l288  ===
+Solution: sat(and(and(nth(1,3-11,not(diamond)),nth(2,3-11,not(diamond))),nth(3,3-11,diamond))): 0.14529412
+Time: .228228874
+=== Test l289  ===
+Solution: sat(all(1-2,white)): 0.35714286
+Time: .189351927
+=== Test l29  ===
+Solution: sat(atleast(1,1-6,6)): 0.66510202
+Time: 29.954276612
+=== Test l290  ===
+Solution: sat(all_same(1-2,colour)): 0.46428571
+Time: .196221164
+=== Test l291  ===
+Solution: Timeout exceeded
+Time: 61.715856919
+=== Test l293  ===
+Solution: Timeout exceeded
+Time: 61.176201084
+=== Test l294  ===
+Solution: sat(all(1-20,2)): 0.16666667
+Time: .215966855
+=== Test l295  ===
+Solution: sat(all(1-2,ace)): 0.0059171598
+Time: .203908143
+=== Test l296  ===
+Solution: sat(all(1-2,ace)): 0.0045248869
+Time: .223650703
+=== Test l297  ===
+Solution: sat(none(1-2,red)): 0.6
+Time: .185474189
+=== Test l298  ===
+Solution: sat(atleast(1,1-14,4)): 0.30555556
+Time: .343686588
+=== Test l3  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,=:=,4)): 0.083333333
+Time: .398752981
+=== Test l30  ===
+Solution: sat(all(2-3,blue)): 0.33333333
+Time: .167279486
+=== Test l300  ===
+Solution: sat(exactly(2,2-5,defective)): 0.074634799
+Time: .433274349
+=== Test l301  ===
+Solution: sat(exactly(8,1-8,success)): 0.18497048
+Time: .445918181
+=== Test l307  ===
+Solution: sat(atleast(1,2-13,win)): 0.11638837
+Time: .278334465
+=== Test l308  ===
+Solution: sat(atleast(1,3-5,underweight)): 0.49654717
+Time: .345901988
+=== Test l31  ===
+Solution: sat(all(1-2,4)): 0.16666667
+Time: .207055561
+=== Test l310  ===
+Solution: Timeout exceeded
+Time: 60.589302568
+=== Test l313  ===
+Solution: sat(some(1-2,a)): 0.17807289
+Time: .305238108
+=== Test l314  ===
+Solution: sat(all(1-2,vowel)): 0.00026301667
+Time: .244072019
+=== Test l316  ===
+Solution: sat(all(1-4,not(6))): 0.64
+Time: .433770994
+=== Test l319  ===
+Solution: sat(all(3-7,greek)): 0.85714286
+Time: .207609600
+=== Test l32  ===
+Solution: sat(all(2-10,red)): 0.4
+Time: .174350941
+=== Test l320  ===
+Solution: sat(and(all(3-14,capable),all(3-14,pass))): 0.32
+Time: .201194277
+=== Test l321  ===
+Solution: sat(all(person,disease)): 0.9
+Time: .221947703
+=== Test l322  ===
+Solution: sat(all(3-12,white)): 0.51282051
+Time: .240172241
+=== Test l323  ===
+Solution: sat(all(person,disease)): 0.0094152626
+Time: .202505347
+=== Test l324  ===
+Solution: Timeout exceeded
+Time: 61.468036279
+=== Test l325  ===
+Solution: Timeout exceeded
+Time: 64.584005050
+=== Test l326  ===
+Solution: Timeout exceeded
+Time: 60.605461124
+=== Test l329  ===
+Solution: sat(atleast(1,4-9,finish)): 0.73333333
+Time: .288279770
+=== Test l33  ===
+Solution: sat(aggcmp(1-17,outcome(0),sum,is_odd)): 0.5
+Time: .258381626
+=== Test l330  ===
+Solution: sat(atleast(1,1-2,6)): 0.5
+Time: .996031067
+=== Test l333  ===
+Solution: sat(and(exactly(5,1-8,head),exactly(5,1-8,tails))): 0.24609375
+Time: .473928633
+=== Test l334  ===
+Solution: Timeout exceeded
+Time: 60.098990980
+=== Test l335  ===
+Solution: sat(exactly(1,1-2,6)): 0.66666667
+Time: .466308544
+=== Test l336  ===
+Solution: sat(all(1-5,black)): 0.083333333
+Time: .228702947
+=== Test l337  ===
+Solution: sat(all(3-7,1)): 0.051724138
+Time: .239219338
+=== Test l338  ===
+Solution: sat(aggcmp(1-1,outcome(0),max,>=,3)): 0.88888889
+Time: .404378220
+=== Test l34  ===
+Solution: sat(all(2-8,quarter)): 0.35714286
+Time: .188256883
+=== Test l341  ===
+Solution: sat(all_same(1-5,outcome(0))): 0.16666667
+Time: .347855669
+=== Test l342  ===
+Solution: sat(all_same(1-5,outcome(0))): 0.33333333
+Time: .460670953
+=== Test l344  ===
+Solution: sat(and(exactly(1,1-4,king),and(exactly(1,1-4,queen),and(exactly(1,1-4,jack),exactly(1,1-4,ace))))): 0.00094560901
+Time: 6.109237481
+=== Test l345  ===
+Solution: sat(or(exactly(3,2-9,brother),all(2-9,not(brother)))): 0.21052632
+Time: .558633197
+=== Test l348  ===
+Solution: sat(all(bit,send_1)): 0.95
+Time: .207134468
+=== Test l349  ===
+Solution: sat(all(bit,send_1)): 0.010416667
+Time: .208180622
+=== Test l35  ===
+Solution: sat(all(2-7,or(dime,penny))): 0.5
+Time: .188019279
+=== Test l350  ===
+Solution: sat(nth(2,1-1,3)): 0.2
+Time: .478728532
+=== Test l351  ===
+Solution: sat(and(nth(1,1-1,3),nth(2,1-1,not(3)))): 0.13888889
+Time: .228603475
+=== Test l352  ===
+Solution: Timeout exceeded
+Time: 60.129005729
+=== Test l353  ===
+Solution: sat(atleast(15,1-2,head)): 0.020694733
+Time: 9.968991683
+=== Test l356  ===
+Solution: sat(and(and(exactly(2,1-3,1),exactly(5,1-3,2)),exactly(3,1-3,3))): 0.076904297
+Time: 25.704442743
+=== Test l357  ===
+Solution: sat(all(1-3,not(1))): 0.056313515
+Time: 3.058247823
+=== Test l36  ===
+Solution: sat(all(2-8,green)): 0.13513514
+Time: .167429844
+=== Test l360  ===
+Solution: sat(all_same(1-4,color)): 0.2
+Time: .236258272
+=== Test l361  ===
+Solution: sat(all(4-3,and(herald,tribune))): 0.25
+Time: .396677659
+=== Test l362  ===
+Solution: sat(exactly(2,1-24,is_even)): 0.25
+Time: .335535500
+=== Test l363  ===
+Solution: sat(aggcmp(1-24,outcome(0),sum,<,8)): 0.58333333
+Time: .401575181
+=== Test l368  ===
+Solution: sat(all(1-2,8)): 0.037037037
+Time: .240714789
+=== Test l369  ===
+Solution: sat(all(1-2,not(3))): 0.2962963
+Time: .247076466
+=== Test l37  ===
+Solution: sat(none(2-9,red)): 0.45945946
+Time: .174822522
+=== Test l370  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,<,5)): 0.55555556
+Time: .221512680
+=== Test l371  ===
+Solution: sat(aggcmp(3-12,outcome(0),product,<,0)): 0.48148148
+Time: .278204610
+=== Test l373  ===
+Solution: sat(all(4-3,black)): 0.36585366
+Time: .177967794
+=== Test l374  ===
+Solution: sat(all(4-19,blue)): 0.20987654
+Time: .234618135
+=== Test l375  ===
+Solution: sat(none(5-3,defective)): 0.69512195
+Time: .260223960
+=== Test l376  ===
+Solution: sat(none(5-3,defective)): 0.72222222
+Time: .283038495
+=== Test l377  ===
+Solution: sat(all(1-2,1)): 0.4375
+Time: .206830624
+=== Test l38  ===
+Solution: sat(all(1-2,6)): 0.027777778
+Time: .312840221
+=== Test l389  ===
+Solution: Timeout exceeded
+Time: 60.488094704
+=== Test l39  ===
+Solution: sat(all(3-21,gumball)): 0.4
+Time: .154710483
+=== Test l390  ===
+Solution: Timeout exceeded
+Time: 61.162857107
+=== Test l391  ===
+Solution: Timeout exceeded
+Time: 61.152074608
+=== Test l392  ===
+Solution: sat(all(1-7,defective)): 0.0036610879
+Time: .283476868
+=== Test l394  ===
+Solution: sat(aggcmp(1-39,outcome(0),sum,=:=,5)): 0.16666667
+Time: .415352639
+=== Test l395  ===
+Solution: sat(all(3-28,or(a,b))): 0.95
+Time: .199334560
+=== Test l398  ===
+Solution: sat(all_same(2-2,color)): 0.32380952
+Time: .242427894
+=== Test l4  ===
+Solution: sat(and(all(1-26,head),aggcmp(1-21,outcome(1),sum,is_odd))): 0.25
+Time: .274347405
+=== Test l40  ===
+Solution: sat(and(all(3-6,purple),all(3-11,black))): 0.16666667
+Time: .205775855
+=== Test l400  ===
+Solution: sat(or(or(all(2-2,not(red)),all(2-2,not(green))),all(2-2,not(yellow)))): 0.7
+Time: .321891778
+=== Test l401  ===
+Solution: sat(all_same(2-2,value)): 0.33333333
+Time: .242765108
+=== Test l403  ===
+Solution: sat(all(4-4,identical)): 0.8
+Time: .195153973
+=== Test l405  ===
+Solution: Timeout exceeded
+Time: 60.255621595
+=== Test l407  ===
+Solution: sat(atleast(1,2-17,girl)): 0.96774194
+Time: .317897708
+=== Test l409  ===
+Solution: sat(all(2-10,sour)): 0.2
+Time: .159153413
+=== Test l41  ===
+Solution: sat(and(all(4-13,jeans),all(4-11,red))): 0.17142857
+Time: .190138672
+=== Test l410  ===
+Solution: sat(all(4-3,red)): 0.375
+Time: .258764509
+=== Test l411  ===
+Solution: sat(aggcmp(1-19,outcome(0),sum,is_even)): 0.5
+Time: .256155985
+=== Test l412  ===
+Solution: sat(and(all(1-2,tail),all(1-6,4))): 0.083333333
+Time: .228833053
+=== Test l413  ===
+Solution: sat(aggcmp(1-4,outcome(0),product,<,9)): 0.55555556
+Time: .275132590
+=== Test l414  ===
+Solution: sat(aggcmp(1-19,outcome(0),sum,=:=,1)): 0
+Time: .382094058
+=== Test l415  ===
+Solution: sat(aggcmp(1-19,outcome(0),sum,=:=,4)): 0.083333333
+Time: .393233621
+=== Test l416  ===
+Solution: sat(atleast(1,1-4,head)): 0.75
+Time: .176238089
+=== Test l417  ===
+Solution: sat(atleast(2,1-5,head)): 0.5
+Time: .196406201
+=== Test l418  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,=:=,7)): 0.16666667
+Time: .403457932
+=== Test l419  ===
+Solution: sat(or(aggcmp(1-4,outcome(0),sum,=:=,10),aggcmp(1-4,outcome(0),sum,=:=,11))): 0.13888889
+Time: .433749921
+=== Test l42  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,=:=,10)): 0.083333333
+Time: .399289320
+=== Test l420  ===
+Solution: sat(all(2-2,white)): 0.57142857
+Time: .157106254
+=== Test l421  ===
+Solution: sat(and(and(not(all(2-2,green)),not(all(2-2,yellow))),not(all(2-2,white)))): 0.93181818
+Time: .364398295
+=== Test l422  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(2,2-2,white))): 0.5
+Time: .237315897
+=== Test l423  ===
+Solution: sat(all_same(2-8,colour)): 0.47368421
+Time: .191063219
+=== Test l424  ===
+Solution: sat(all(2-2,or(red,green))): 0.6
+Time: .178995059
+=== Test l425  ===
+Solution: sat(exactly(2,1-2,child)): 0.47619048
+Time: .503970510
+=== Test l426  ===
+Solution: sat(atleast(1,2-2,defective)): 0.36842105
+Time: .191561257
+=== Test l427  ===
+Solution: sat(exactly(1,1-6,selection)): 0.28571429
+Time: .194255431
+=== Test l428  ===
+Solution: sat(all(2-3,or(orange,banana))): 0.8
+Time: .177818126
+=== Test l429  ===
+Solution: sat(all(2-6,defective)): 0.003030303
+Time: .202238191
+=== Test l43  ===
+Solution: sat(all_same(3-7,outcome(0))): 0.375
+Time: .206839520
+=== Test l430  ===
+Solution: sat(all(2-3,pizza)): 0.729
+Time: .192112657
+=== Test l431  ===
+Solution: sat(all(1-5,girl)): 0.35172414
+Time: .189531372
+=== Test l432  ===
+Solution: sat(all(2-2,defective)): 0.00087719298
+Time: .227326229
+=== Test l433  ===
+Solution: sat(all(2-2,defective)): 0.066666667
+Time: .189388845
+=== Test l434  ===
+Solution: sat(all(2-6,red)): 0.55555556
+Time: .155894739
+=== Test l435  ===
+Solution: sat(all(2-3,red)): 0.33333333
+Time: .187665819
+=== Test l436  ===
+Solution: sat(all(2-3,woman)): 0.05
+Time: .221007026
+=== Test l437  ===
+Solution: sat(all(1-18,fail)): 0.001
+Time: .194499568
+=== Test l438  ===
+Solution: sat(atleast(7,2-55,correct)): 0.0035057068
+Time: 16.895853268
+=== Test l439  ===
+Solution: sat(exactly(2,3-9,tag)): 0.2879729
+Time: .341478848
+=== Test l44  ===
+Solution: sat(exactly(1,1-3,6)): 0.6
+Time: .472325677
+=== Test l440  ===
+Solution: sat(none(2-2,weekend)): 0.28571429
+Time: .216885732
+=== Test l441  ===
+Solution: sat(aggcmp(1-19,outcome(0),sum,>=,10)): 0.16666667
+Time: .399008173
+=== Test l442  ===
+Solution: sat(all_diff(2-5,material)): 0.25174825
+Time: .357588860
+=== Test l443  ===
+Solution: sat(all(3-4,blonde)): 0.66666667
+Time: .207856489
+=== Test l444  ===
+Solution: sat(all(4-5,sell)): 0.59
+Time: .217872269
+=== Test l445  ===
+Solution: sat(all(3-8,red)): 0.5
+Time: .169638183
+=== Test l446  ===
+Solution: sat(nth(2,2-4,red)): 0.5
+Time: .202090333
+=== Test l447  ===
+Solution: sat(all(3-1,serious)): 0.10843373
+Time: .242004355
+=== Test l448  ===
+Solution: sat(all_same(2-2,color)): 0.625
+Time: .180158961
+=== Test l450  ===
+Solution: sat(all(2-7,fail)): 0.0001
+Time: .178013379
+=== Test l451  ===
+Solution: sat(all(2-13,red)): 0.5
+Time: .173517763
+=== Test l452  ===
+Solution: sat(all(2-6,black)): 0.21428571
+Time: .164017360
+=== Test l453  ===
+Solution: sat(all(1-2,not(2))): 0.83333333
+Time: .207158792
+=== Test l454  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,is_even)): 0.5
+Time: .245587272
+=== Test l455  ===
+Solution: sat(none(2-6,black)): 0.78571429
+Time: .173698880
+=== Test l456  ===
+Solution: sat(all(2-5,girl)): 0.125
+Time: .194181662
+=== Test l457  ===
+Solution: sat(all(3-17,black)): 0.15384615
+Time: .200213891
+=== Test l458  ===
+Solution: sat(all(4-11,blue)): 0.42857143
+Time: .212504956
+=== Test l459  ===
+Solution: sat(all(4-12,blue)): 0.33333333
+Time: .185055950
+=== Test l46  ===
+Solution: sat(atleast(2,1-4,head)): 0.98046875
+Time: .495373893
+=== Test l460  ===
+Solution: sat(all(2-5,red)): 0.4
+Time: .172966965
+=== Test l461  ===
+Solution: sat(none(2-6,water)): 0.57894737
+Time: .185371982
+=== Test l462  ===
+Solution: sat(all(5-10,5)): 0.25
+Time: .246510527
+=== Test l463  ===
+Solution: sat(all(3-6,purple)): 0.125
+Time: .206573283
+=== Test l464  ===
+Solution: sat(more_than(3,2-11,defective)): 0.012795198
+Time: .630775422
+=== Test l465  ===
+Solution: Timeout exceeded
+Time: 60.129857325
+=== Test l466  ===
+Solution: sat(all(4-9,not(virus))): 0.07776
+Time: .233456899
+=== Test l467  ===
+Solution: Timeout exceeded
+Time: 61.327288073
+=== Test l468  ===
+Solution: sat(atleast(5,3-13,keyword)): 0.032793498
+Time: .562191887
+=== Test l469  ===
+Solution: sat(none(4-9,defect)): 0.44370531
+Time: .245653260
+=== Test l47  ===
+Solution: sat(and(exactly(4,2-9,man),exactly(3,2-9,woman))): 0.30234471
+Time: .511345164
+=== Test l472  ===
+Solution: sat(all(2-33,or(red,blue))): 0.775
+Time: .180552147
+=== Test l473  ===
+Solution: sat(all(firm,rich)): 0.0968
+Time: .175559485
+=== Test l474  ===
+Solution: sat(and(all(3-6,25),none(3-6,insurance))): 0.105
+Time: .186562519
+=== Test l476  ===
+Solution: sat(all(3-7,defective)): 0.046
+Time: .189770121
+=== Test l477  ===
+Solution: sat(all(3-7,a)): 0.02173913
+Time: .206069369
+=== Test l478  ===
+Solution: sat(all(1-2,or(orange,red))): 0.33333333
+Time: .192077596
+=== Test l479  ===
+Solution: sat(all(1-2,and(not(red),not(blue)))): 0.6
+Time: .195502237
+=== Test l48  ===
+Solution: sat(and(nth(1,1-17,k),nth(5,1-17,o))): 0.05
+Time: .308423369
+=== Test l480  ===
+Solution: sat(all(3-4,or(pension,sport))): 0.45
+Time: .199523174
+=== Test l481  ===
+Solution: sat(all(3-6,car)): 0.75
+Time: .191519847
+=== Test l482  ===
+Solution: sat(all(3-8,repair)): 0.68571429
+Time: .192437900
+=== Test l483  ===
+Solution: sat(all(3-2,a)): 0.36231884
+Time: .242431795
+=== Test l484  ===
+Solution: sat(exactly(3,2-25,expand)): 0.14837805
+Time: 1.383127891
+=== Test l487  ===
+Solution: sat(and(atleast(1,1-6,ten),atleast(1,1-6,heart))): 0.06561086
+Time: .329734972
+=== Test l489  ===
+Solution: Timeout exceeded
+Time: 60.435021000
+=== Test l49  ===
+Solution: sat(exactly(1,2-6,defective)): 0.50909091
+Time: .226874710
+=== Test l492  ===
+Solution: sat(or(exactly(3,2-9,friend),all(2-9,not(friend)))): 0.16666667
+Time: .323397499
+=== Test l493  ===
+Solution: sat(and(and(exactly(1,1-5,j),exactly(1,1-5,q)),and(exactly(1,1-5,k),exactly(1,1-5,a)))): 0.00094560901
+Time: 5.773800352
+=== Test l494  ===
+Solution: sat(and(some(1-6,ace),or(some(1-6,king),some(1-6,queen)))): 0.17647674
+Time: 10.388807295
+=== Test l495  ===
+Solution: sat(or(or(exactly(2,1-5,a),exactly(2,1-5,b)),exactly(2,1-5,c))): 0.66666667
+Time: .284196871
+=== Test l497  ===
+Solution: sat(and(all(3-4,second-hand),all(3-4,japanese))): 0.1
+Time: .198614725
+=== Test l498  ===
+Solution: Timeout exceeded
+Time: 60.514836250
+=== Test l5  ===
+Solution: sat(all(3-9,diamond)): 0.019230769
+Time: .161987826
+=== Test l50  ===
+Solution: sat(atleast(1,2-6,defective)): 0.74545455
+Time: .288913529
+=== Test l501  ===
+Solution: Timeout exceeded
+Time: 60.598196591
+=== Test l502  ===
+Solution: sat(aggcmp(1-20,outcome(0),sum,=:=,10)): 0.15
+Time: 1.010123263
+=== Test l503  ===
+Solution: sat(exactly(2,3-5,red)): 0.2
+Time: .227146653
+=== Test l508  ===
+Solution: sat(all(4-8,difficult)): 0.75
+Time: .188985196
+=== Test l509  ===
+Solution: sat(all(4-7,hard)): 0.96
+Time: .208645468
+=== Test l51  ===
+Solution: Timeout exceeded
+Time: 60.326329624
+=== Test l511  ===
+Solution: sat(and(exactly(1,1-4,boy),exactly(2,1-4,girl))): 0.42857143
+Time: .210860234
+=== Test l512  ===
+Solution: sat(all(1-4,is_even)): 0.33333333
+Time: .809884979
+=== Test l513  ===
+Solution: sat(all(1-4,is_even)): 0.47368421
+Time: .821514824
+=== Test l514  ===
+Solution: sat(atleast(1,1-1,6)): 0.4212963
+Time: .719563601
+=== Test l515  ===
+Solution: sat(all(1-37,blind)): 0.02625
+Time: .191528590
+=== Test l516  ===
+Solution: sat(exactly(1,1-13,mark)): 0.43055556
+Time: .224738770
+=== Test l521  ===
+Solution: sat(all(2-3,industrial)): 0.47169811
+Time: .187083444
+=== Test l522  ===
+Solution: sat(all(2-3,or(civil,electrical))): 0.33962264
+Time: .189379406
+=== Test l523  ===
+Solution: sat(all(3-26,or(a,b))): 0.9
+Time: .196917999
+=== Test l524  ===
+Solution: sat(or(aggcmp(1-35,outcome(0),sum,=:=,7),aggcmp(1-35,outcome(0),sum,=:=,11))): 0.22222222
+Time: .420560148
+=== Test l525  ===
+Solution: sat(all(1-19,or(or(green,white),or(red,blue)))): 0.68
+Time: .213320572
+=== Test l526  ===
+Solution: sat(none(2-7,100)): 0.85
+Time: .190380753
+=== Test l527  ===
+Solution: sat(all(2-3,and(smoke,not(drink)))): 0.176
+Time: .397488128
+=== Test l528  ===
+Solution: sat(all(2-3,vowel)): 0.19230769
+Time: .162233850
+=== Test l529  ===
+Solution: sat(all(1-9,and(not(brake),not(fuel)))): 0.58
+Time: .195319229
+=== Test l531  ===
+Solution: sat(exactly(1,1-3,dictionary)): 0.33333333
+Time: .305496722
+=== Test l532  ===
+Solution: sat(and(exactly(2,1-3,novel),exactly(1,1-3,book))): 0.35714286
+Time: .318383484
+=== Test l533  ===
+Solution: sat(or(or(or(exactly(4,1-26,1),exactly(4,1-26,2)),or(exactly(4,1-26,3),exactly(4,1-26,4))),or(exactly(4,1-26,5),exactly(4,1-26,6)))): 0.019290123
+Time: 7.293398381
+=== Test l534  ===
+Solution: sat(all(2-2,or(mathematics,history))): 0.88
+Time: .211680940
+=== Test l536  ===
+Solution: sat(all(2-6,arrive)): 0.93975904
+Time: .204047850
+=== Test l537  ===
+Solution: sat(all(2-3,defective)): 0.052631579
+Time: .191885653
+=== Test l538  ===
+Solution: sat(all(3-7,black)): 0.6031746
+Time: .201630903
+=== Test l539  ===
+Solution: sat(all(1-13,available)): 0.9016
+Time: .188465329
+=== Test l540  ===
+Solution: sat(all(3-3,senior)): 0.55555556
+Time: .250912826
+=== Test l541  ===
+Solution: sat(and(all(2-3,mathematics),all(2-3,history))): 0.14705882
+Time: .325360479
+=== Test l542  ===
+Solution: sat(all(batch1,and(not(reject1),reject2))): 0.072
+Time: .277499910
+=== Test l543  ===
+Solution: sat(all(2-12,filter)): 0.56
+Time: .209565346
+=== Test l544  ===
+Solution: sat(all(couple,woman)): 0.875
+Time: .206659167
+=== Test l545  ===
+Solution: sat(all(case,and(not(correct),lawsuit))): 0.27
+Time: .183213675
+=== Test l546  ===
+Solution: sat(all(2-4,woman)): 0.43
+Time: .193756874
+=== Test l547  ===
+Solution: sat(all(1-7,not(available))): 0.0016
+Time: .175850403
+=== Test l548  ===
+Solution: sat(all(2-15,not(alive))): 0.03
+Time: .189298588
+=== Test l549  ===
+Solution: sat(and(all(bottle1,thyroid),all(bottle2,thyroid))): 0.2
+Time: .192403850
+=== Test l55  ===
+Solution: sat(all(emp,or(french,or(german,spanish)))): 0.88888889
+Time: .293949337
+=== Test l550  ===
+Solution: sat(none(1-9,spoil)): 0.28173375
+Time: .273442045
+=== Test l551  ===
+Solution: sat(all(3-7,defective)): 0.0245
+Time: .215325508
+=== Test l552  ===
+Solution: sat(all(person,positive)): 0.096
+Time: .190041681
+=== Test l553  ===
+Solution: sat(all(person,not(crime))): 0.17431193
+Time: .206650639
+=== Test l554  ===
+Solution: sat(exactly(3,2-15,weed)): 0.25
+Time: .220413123
+=== Test l555  ===
+Solution: sat(all(1-8,or(or(3,4),5))): 0.55
+Time: .221331781
+=== Test l557  ===
+Solution: sat(all(1-31,mistake)): 0.0001
+Time: .213283217
+=== Test l560  ===
+Solution: sat(exactly(2,2-16,recover)): 0.384
+Time: .196500043
+=== Test l562  ===
+Solution: sat(all_same(1-14,colour)): 0.28
+Time: .200083771
+=== Test l566  ===
+Solution: sat(all(2-9,obama)): 0.11111111
+Time: .199754183
+=== Test l567  ===
+Solution: sat(all_diff(2-9,outcome(0))): 0.66666667
+Time: .210731104
+=== Test l568  ===
+Solution: sat(and(all(5-7,holiday),all(5-7,visit))): 0.2625
+Time: .196841642
+=== Test l569  ===
+Solution: sat(and(exactly(3,2-3,grade11),exactly(3,2-3,grade12))): 0.38095238
+Time: .384319274
+=== Test l57  ===
+Solution: sat(all(3-3,pressure)): 0.375
+Time: .192592156
+=== Test l570  ===
+Solution: sat(all(1-17,hazelnut)): 0.068627451
+Time: .266082900
+=== Test l571  ===
+Solution: sat(all_same(1-8,colour)): 0.28787879
+Time: .244096671
+=== Test l572  ===
+Solution: Timeout exceeded
+Time: 60.497680460
+=== Test l573  ===
+Solution: sat(all(2-17,math)): 6.6889632e-05
+Time: .274120946
+=== Test l575  ===
+Solution: sat(all(2-15,12)): 0.034965035
+Time: .222834870
+=== Test l576  ===
+Solution: sat(atleast(1,1-4,grade-11)): 0.90769231
+Time: .270444962
+=== Test l577  ===
+Solution: sat(all(1-6,red)): 0.076923077
+Time: .232210668
+=== Test l578  ===
+Solution: sat(atleast(1,1-6,green)): 0.73076923
+Time: .231908303
+=== Test l579  ===
+Solution: sat(atleast(2,1-4,teacher)): 0.76223776
+Time: .405699275
+=== Test l58  ===
+Solution: sat(and(exactly(3,1-2,woman),exactly(2,1-2,man))): 0.41208791
+Time: .346444823
+=== Test l580  ===
+Solution: sat(all(2-18,correct)): 0.015625
+Time: .324015634
+=== Test l581  ===
+Solution: sat(all(2-11,white)): 0
+Time: .363351983
+=== Test l582  ===
+Solution: sat(and(exactly(3,2-11,white),exactly(3,2-11,grey))): 0.43290043
+Time: .419412889
+=== Test l584  ===
+Solution: sat(all(3-2,or(visa,express))): 0.74
+Time: .202148584
+=== Test l585  ===
+Solution: sat(all(3-2,or(ring,necklace))): 0.4
+Time: .198618286
+=== Test l586  ===
+Solution: sat(and(none(2-2,cigar),none(2-2,cigarette))): 0.7
+Time: .207496910
+=== Test l587  ===
+Solution: sat(and(none(6-3,german),and(none(6-3,french),none(6-3,spanish)))): 0.5
+Time: .352164508
+=== Test l588  ===
+Solution: sat(all_same(2-7,outcome(0))): 0.27777778
+Time: .243962121
+=== Test l59  ===
+Solution: sat(atleast(3,1-2,woman)): 0.75824176
+Time: .340741611
+=== Test l590  ===
+Solution: sat(exactly(2,2-6,tag)): 0.21671827
+Time: .277373069
+=== Test l591  ===
+Solution: sat(all(1-23,correctly)): 0.083333333
+Time: .298414165
+=== Test l592  ===
+Solution: sat(all_diff(2-4,outcome(0))): 0.48
+Time: .579636568
+=== Test l593  ===
+Solution: sat(atleast(1,1-22,6)): 0.51774691
+Time: 1.949807437
+=== Test l595  ===
+Solution: sat(exactly(3,1-14,man)): 0.43290043
+Time: .403522556
+=== Test l596  ===
+Solution: sat(and(none(4-4,suit),and(none(4-4,shirt),none(4-4,tie)))): 0.49
+Time: .315520427
+=== Test l597  ===
+Solution: sat(nth(14,3-8,ace)): 0.076923077
+Time: .947900749
+=== Test l598  ===
+Solution: sat(all_diff(3-9,color)): 0.1054982
+Time: 1.263903098
+=== Test l599  ===
+Solution: sat(all_same(balls,color)): 0.5
+Time: .193819866
+=== Test l6  ===
+Solution: sat(all(1-4,queen)): 0.076923077
+Time: .341907679
+=== Test l60  ===
+Solution: sat(exactly(5,1-10,internet)): 0.27869184
+Time: .342069105
+=== Test l600  ===
+Solution: sat(and(exactly(1,1-18,freshman),and(exactly(1,1-18,sophomore),and(exactly(1,1-18,junior),exactly(1,1-18,senior))))): 0.14385614
+Time: 1.921018992
+=== Test l601  ===
+Solution: sat(all_same(1-5,outcome(0))): 0.10714286
+Time: .448142382
+=== Test l602  ===
+Solution: sat(and(atleast(1,1-2,red),and(atleast(1,1-2,white),atleast(1,1-2,blue)))): 0.70669935
+Time: 1.102376303
+=== Test l603  ===
+Solution: sat(all(2-9,blue)): 0.0090497738
+Time: .813424025
+=== Test l604  ===
+Solution: sat(and(nth(1,2-2,white),nth(3,2-2,white))): 0.5
+Time: .297141181
+=== Test l605  ===
+Solution: sat(all(1-3,girl)): 0.5
+Time: .177480555
+=== Test l607  ===
+Solution: sat(nth(1,1-2,spade)): 0.22
+Time: .224877388
+=== Test l609  ===
+Solution: sat(and(all(3-9,dog),all(3-9,cat))): 0.0792
+Time: .200596594
+=== Test l61  ===
+Solution: sat(atleast(6,1-10,internet)): 0.31539456
+Time: .347158393
+=== Test l610  ===
+Solution: sat(all(2-17,white)): 0.44444444
+Time: .200934970
+=== Test l611  ===
+Solution: sat(exactly(2,1-6,gold)): 0.33333333
+Time: .184933904
+=== Test l612  ===
+Solution: sat(all(3-3,man)): 0.95238095
+Time: .207370787
+=== Test l613  ===
+Solution: sat(and(none(3-4,first),none(3-4,second))): 0.4
+Time: .200943321
+=== Test l614  ===
+Solution: sat(and(exactly(1,1-3,white),exactly(2,1-3,black))): 0.36363636
+Time: .232193854
+=== Test l615  ===
+Solution: sat(and(exactly(3,1-2,man),exactly(2,1-2,woman))): 0.23976024
+Time: .348514279
+=== Test l617  ===
+Solution: sat(and(exactly(2,1-3,girl),exactly(2,1-3,boy))): 0.375
+Time: .228010936
+=== Test l618  ===
+Solution: sat(and(and(and(nth(1,2-3,p),nth(2,2-3,e)),and(nth(3,2-3,p),nth(4,2-3,p))),and(nth(5,2-3,e),nth(6,2-3,r)))): 0.016666667
+Time: .456536577
+=== Test l62  ===
+Solution: sat(all(5-1,lead)): 0.019607843
+Time: .164066715
+=== Test l620  ===
+Solution: sat(exactly(5,1-5,head)): 0.24609375
+Time: .449085104
+=== Test l621  ===
+Solution: sat(and(exactly(3,2-3,blue),exactly(2,2-3,red))): 0.31891076
+Time: .353502958
+=== Test l622  ===
+Solution: Timeout exceeded
+Time: 60.672520621
+=== Test l624  ===
+Solution: Timeout exceeded
+Time: 60.400817385
+=== Test l626  ===
+Solution: sat(exactly(10,3-3,numbers)): 1.122119e-07
+Time: 14.347792831
+=== Test l627  ===
+Solution: sat(exactly(4,3-3,numbers)): 0.1473189
+Time: 3.331096686
+=== Test l628  ===
+Solution: sat(none(2-3,hearts)): 0.10011292
+Time: .330281925
+=== Test l629  ===
+Solution: Timeout exceeded
+Time: 60.592199465
+=== Test l63  ===
+Solution: sat(all(5-1,lead)): 0.02173913
+Time: .336081091
+=== Test l630  ===
+Solution: sat(or(or(all(2-2,not(swede)),all(2-2,not(finn))),all(2-2,not(norwegian)))): 0.48077915
+Time: 1.122942820
+=== Test l631  ===
+Solution: Timeout exceeded
+Time: 60.489188764
+=== Test l632  ===
+Solution: sat(all(1-1,head)): 0.33333333
+Time: .246419313
+=== Test l633  ===
+Solution: sat(nth(1,1-1,head)): 0.7
+Time: .486150368
+=== Test l634  ===
+Solution: sat(all(2-2,white)): 0.10526316
+Time: .223771987
+=== Test l637  ===
+Solution: sat(all(person,disease)): 0.30769231
+Time: .209156049
+=== Test l638  ===
+Solution: sat(none(5-5,defective)): 0.85508255
+Time: .421188406
+=== Test l64  ===
+Solution: sat(none(5-1,parts)): 0.054054054
+Time: .157211552
+=== Test l640  ===
+Solution: Timeout exceeded
+Time: 60.586053571
+=== Test l641  ===
+Solution: sat(all(2-3,medical)): 0.04
+Time: .208970486
+=== Test l642  ===
+Solution: sat(none(2-3,licensing)): 0.31
+Time: .154991465
+=== Test l643  ===
+Solution: sat(all(2-3,or(two,three))): 0.26
+Time: .199628124
+=== Test l644  ===
+Solution: sat(all(2-3,education)): 0.089527027
+Time: .184215070
+=== Test l645  ===
+Solution: sat(or(aggcmp(1-14,outcome(0),sum,=:=,7),aggcmp(1-14,outcome(0),sum,=:=,11))): 0.22222222
+Time: .419161528
+=== Test l646  ===
+Solution: sat(or(aggcmp(1-14,outcome(0),sum,=:=,2),or(aggcmp(1-14,outcome(0),sum,=:=,3),aggcmp(1-14,outcome(0),sum,=:=,12)))): 0.11111111
+Time: .433706153
+=== Test l647  ===
+Solution: sat(all(2-3,court)): 0.78
+Time: .158084371
+=== Test l648  ===
+Solution: sat(all(2-2,or(right,little))): 0.54
+Time: .188274129
+=== Test l649  ===
+Solution: sat(none(2-3,flattery)): 0.84
+Time: .155215636
+=== Test l65  ===
+Solution: sat(all(4-11,red)): 0.34285714
+Time: .174350411
+=== Test l650  ===
+Solution: sat(aggcmp(1-1,outcome(0),product,<,10)): 0.47222222
+Time: .407372847
+=== Test l651  ===
+Solution: sat(all(2-3,or(individual,corporate))): 0.6
+Time: .201905514
+=== Test l652  ===
+Solution: sat(all(2-6,or(glazed,chocolate))): 0.66666667
+Time: .181112841
+=== Test l653  ===
+Solution: sat(all(2-3,or(democrat,independent))): 0.48717949
+Time: .180641888
+=== Test l654  ===
+Solution: sat(all(2-4,or(nurse,not(female)))): 0.76923077
+Time: .202623000
+=== Test l655  ===
+Solution: sat(all(2-4,or(intoxicate,accident))): 0.35
+Time: .201307792
+=== Test l656  ===
+Solution: sat(all(2-3,or(lifeguard,manager))): 0.66666667
+Time: .193698344
+=== Test l657  ===
+Solution: sat(all(2-3,or(science,math))): 0.57894737
+Time: .186327269
+=== Test l658  ===
+Solution: sat(all(2-6,or(romance,comedy))): 0.46938776
+Time: .233876467
+=== Test l659  ===
+Solution: sat(and(all(2-3,female),all(2-3,bachelor))): 0.28
+Time: .225994412
+=== Test l66  ===
+Solution: sat(and(all(4-11,blue),all(4-19,green))): 0.10588235
+Time: .236669008
+=== Test l660  ===
+Solution: sat(and(none(2-15,car),none(2-15,computer))): 0.08
+Time: .201936844
+=== Test l661  ===
+Solution: sat(and(none(2-10,basketball),none(2-10,football))): 0.55
+Time: .245266163
+=== Test l662  ===
+Solution: sat(all(2-3,or(junior,female))): 0.85714286
+Time: .203260300
+=== Test l663  ===
+Solution: sat(all(3-3,not(and(child,nonfiction)))): 0.76923077
+Time: .229071294
+=== Test l664  ===
+Solution: sat(and(all(2-3,alcoholic),all(2-3,cholesterol))): 0.29
+Time: .244682087
+=== Test l666  ===
+Solution: sat(all(2-3,or(red,white))): 0.7
+Time: .184402729
+=== Test l667  ===
+Solution: sat(aggcmp(1-19,outcome(0),sum,=:=,5)): 0.027777778
+Time: .841557607
+=== Test l669  ===
+Solution: sat(and(none(2-3,two-car),none(2-3,one-car))): 0.1
+Time: .187019876
+=== Test l67  ===
+Solution: sat(and(some(1-2,blue),some(1-2,tails))): 0.0625
+Time: .366739214
+=== Test l670  ===
+Solution: sat(and(all(1-24,4),all(1-4,head))): 0.083333333
+Time: .229672622
+=== Test l671  ===
+Solution: sat(all(5-6,blue)): 0.04
+Time: .198264771
+=== Test l672  ===
+Solution: sat(all(2-5,stress)): 0.097336
+Time: .192974639
+=== Test l673  ===
+Solution: sat(all(2-5,blindness)): 0.000729
+Time: .198218959
+=== Test l674  ===
+Solution: sat(all(2-3,country)): 0.022988506
+Time: .192164171
+=== Test l675  ===
+Solution: sat(and(all(3-3,homeowner),all(3-3,automobile))): 0.1431
+Time: .182376050
+=== Test l677  ===
+Solution: sat(all(3-32,white)): 0.71428571
+Time: .193779386
+=== Test l678  ===
+Solution: sat(all(3-3,ticket)): 0.3
+Time: .195171331
+=== Test l679  ===
+Solution: sat(atleast(1,1-4,tail)): 0.96875
+Time: .239539049
+=== Test l680  ===
+Solution: sat(atleast(1,2-10,tie)): 0.11470719
+Time: .214601433
+=== Test l681  ===
+Solution: sat(all(1-20,exercise)): 0.0069343957
+Time: .239997747
+=== Test l682  ===
+Solution: sat(all(2-5,use)): 0.07311616
+Time: .214113290
+=== Test l683  ===
+Solution: sat(all(1-20,citizen)): 0.0625
+Time: .181381574
+=== Test l684  ===
+Solution: sat(all(2-3,citizen)): 0.51199377
+Time: .232200182
+=== Test l685  ===
+Solution: sat(all(2-2,defective)): 0.066666667
+Time: .187784837
+=== Test l686  ===
+Solution: sat(all(2-5,not(insurance))): 0.00020736
+Time: .216378517
+=== Test l687  ===
+Solution: sat(all(2-6,weapon)): 0.000216
+Time: .197696284
+=== Test l688  ===
+Solution: sat(all(2-3,buy)): 0.23061037
+Time: .334658203
+=== Test l689  ===
+Solution: sat(all(2-2,pregnant)): 0.17857143
+Time: .230419714
+=== Test l69  ===
+Solution: sat(none(3-9,yankee)): 0.49
+Time: .238712426
+=== Test l690  ===
+Solution: sat(all(2-3,woman)): 0.20993362
+Time: .224513327
+=== Test l691  ===
+Solution: sat(all(4-3,white)): 0.31666667
+Time: .215812638
+=== Test l693  ===
+Solution: sat(all(2-4,female)): 0.070707071
+Time: .189385747
+=== Test l694  ===
+Solution: sat(nth(2,3-6,defective)): 0.14285714
+Time: .172128337
+=== Test l695  ===
+Solution: sat(all(2-3,swim)): 0.8902439
+Time: .194575334
+=== Test l696  ===
+Solution: sat(all(3-3,calculus)): 0.2
+Time: .190498465
+=== Test l697  ===
+Solution: sat(all(2-15,salad)): 0.68421053
+Time: .193988468
+=== Test l698  ===
+Solution: sat(all(2-1,marry)): 0.1717025
+Time: .236459843
+=== Test l699  ===
+Solution: sat(atleast(1,2-5,error)): 0.902664
+Time: .195622778
+=== Test l7  ===
+Solution: sat(all(2-3,o)): 0.35
+Time: .190991185
+=== Test l700  ===
+Solution: sat(atleast(1,2-2,defective)): 0.31372549
+Time: .188804710
+=== Test l701  ===
+Solution: sat(atleast(1,2-6,read)): 0.98693088
+Time: .238150260
+=== Test l702  ===
+Solution: sat(all(2-5,assistantship)): 0.216
+Time: .197885477
+=== Test l703  ===
+Solution: sat(atleast(1,2-8,not(effective))): 0.96832365
+Time: .521555358
+=== Test l704  ===
+Solution: Timeout exceeded
+Time: 60.280694254
+=== Test l705  ===
+Solution: sat(atleast(1,2-3,rose)): 0.67763498
+Time: 1.304349773
+=== Test l706  ===
+Solution: sat(exactly(2,2-2,defective)): 0.10728402
+Time: .272854268
+=== Test l707  ===
+Solution: sat(and(exactly(1,2-3,graphic),exactly(1,2-3,newstime))): 0.52747253
+Time: .196540066
+=== Test l708  ===
+Solution: sat(and(nth(1,2-4,a),and(nth(2,2-4,b),nth(3,2-4,c)))): 5.6895767e-05
+Time: .221630941
+=== Test l71  ===
+Solution: sat(and(exactly(1,2-7,green),exactly(1,2-7,blue))): 0.12121212
+Time: .246144926
+=== Test l710  ===
+Solution: sat(and(exactly(2,1-3,teacher),exactly(2,1-3,parent))): 0.15019763
+Time: .287725701
+=== Test l711  ===
+Solution: sat(all(2-1,woman)): 0.11428571
+Time: .221806696
+=== Test l712  ===
+Solution: sat(all(3-3,republican)): 0.11393939
+Time: .292996174
+=== Test l713  ===
+Solution: sat(none(2-2,defective)): 0.25454545
+Time: .260158098
+=== Test l714  ===
+Solution: sat(all(2-6,red)): 0.32163743
+Time: .189384303
+=== Test l715  ===
+Solution: sat(all(2-3,grapefruit)): 0.35555556
+Time: .173964309
+=== Test l716  ===
+Solution: sat(all(2-3,telephone)): 0.56666667
+Time: .269338013
+=== Test l717  ===
+Solution: sat(all(2-3,or(or(red,blue),yellow))): 0.54285714
+Time: .193536121
+=== Test l718  ===
+Solution: sat(all(2-3,or(car,boat))): 0.98
+Time: .199062129
+=== Test l719  ===
+Solution: sat(and(none(2-3,john),none(2-3,mary))): 0.24
+Time: .202766023
+=== Test l72  ===
+Solution: sat(all(2-12,yellow)): 0.10714286
+Time: .335692625
+=== Test l720  ===
+Solution: sat(all(2-5,worry)): 0.28871744
+Time: .236421930
+=== Test l721  ===
+Solution: sat(all(2-5,book)): 0.13501251
+Time: .237870891
+=== Test l722  ===
+Solution: sat(all(2-3,or(caramel,peppermint))): 0.38461538
+Time: .188885929
+=== Test l723  ===
+Solution: sat(all(person,disease)): 0.4
+Time: .189638925
+=== Test l724  ===
+Solution: sat(all(4-3,sound)): 0.058
+Time: .218397162
+=== Test l725  ===
+Solution: sat(all(2-15,car)): 0.50684932
+Time: .194031643
+=== Test l726  ===
+Solution: sat(all(2-17,warranty)): 0.27272727
+Time: .192726760
+=== Test l727  ===
+Solution: sat(atleast(1,2-7,helmet)): 0.99720159
+Time: .215551755
+=== Test l728  ===
+Solution: sat(all(3-3,late)): 0.0575
+Time: .190003292
+=== Test l729  ===
+Solution: sat(atleast(1,2-5,sinusitis)): 0.55629469
+Time: .239122895
+=== Test l73  ===
+Solution: sat(all_diff(2-15,color)): 0.04727955
+Time: 1.292951213
+=== Test l730  ===
+Solution: sat(and(exactly(2,2-6,play),exactly(1,2-6,movie))): 0.125
+Time: .362612666
+=== Test l731  ===
+Solution: sat(and(exactly(1,2-3,secretary),and(exactly(1,2-3,accountant),exactly(1,2-3,receptionist)))): 0.28571429
+Time: .376650229
+=== Test l739  ===
+Solution: sat(all(2-7,correct)): 0.2
+Time: .190282759
+=== Test l74  ===
+Solution: sat(all(2-4,i)): 0.36363636
+Time: .157488049
+=== Test l741  ===
+Solution: sat(all(4-2,green)): 0.052631579
+Time: .185241739
+=== Test l742  ===
+Solution: sat(aggcmp(1-20,outcome(0),sum,=:=,14)): 0
+Time: .378270919
+=== Test l743  ===
+Solution: sat(aggcmp(1-20,outcome(0),sum,<,13)): 1
+Time: .418544141
+=== Test l744  ===
+Solution: sat(nth(2,2-8,queen)): 0.058823529
+Time: .176381412
+=== Test l745  ===
+Solution: sat(nth(2,2-8,queen)): 0.078431373
+Time: .179674087
+=== Test l746  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,=:=,8)): 0.13888889
+Time: .406024770
+=== Test l747  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,=:=,1)): 0
+Time: .377877354
+=== Test l748  ===
+Solution: sat(exactly(1,1-21,3)): 0.27777778
+Time: .326370185
+=== Test l749  ===
+Solution: sat(all(1-1,not(pass))): 0.4
+Time: .157828135
+=== Test l75  ===
+Solution: sat(all(1-2,or(queen,king))): 0.15384615
+Time: .184513169
+=== Test l750  ===
+Solution: sat(all(2-12,not(conditions))): 0.99994
+Time: .155845013
+=== Test l751  ===
+Solution: sat(all(3-13,king)): 0.16666667
+Time: .204816428
+=== Test l752  ===
+Solution: sat(all(3-24,king)): 0.14893617
+Time: .269070176
+=== Test l753  ===
+Solution: sat(all(2-8,red)): 0.36842105
+Time: .157120385
+=== Test l754  ===
+Solution: sat(all(2-14,not(arthritis-type))): 0.976
+Time: .158306463
+=== Test l755  ===
+Solution: sat(all(2-18,black)): 0.61111111
+Time: .180432887
+=== Test l757  ===
+Solution: sat(all(2-7,orange)): 0.75
+Time: .153982419
+=== Test l758  ===
+Solution: sat(all(5-11,white)): 0.22222222
+Time: .206020715
+=== Test l759  ===
+Solution: sat(and(exactly(1,ab,blue),exactly(1,ab,yellow))): 0.22222222
+Time: .216304081
+=== Test l76  ===
+Solution: sat(and(exactly(1,1-5,head),exactly(2,1-5,tails))): 0.375
+Time: .203977223
+=== Test l760  ===
+Solution: sat(aggcmp(1-2,digit,sum,is_even)): 0.5
+Time: .317723251
+=== Test l761  ===
+Solution: sat(all(1-3,head)): 0.5
+Time: .173599147
+=== Test l762  ===
+Solution: sat(all(2-6,3)): 0.5
+Time: .197653951
+=== Test l763  ===
+Solution: sat(all(1-7,woman)): 0.46666667
+Time: .160900551
+=== Test l764  ===
+Solution: UnknownClause: No clauses found for 'setup_ms/2' at 4:5 in ../param_ms.pl.
+Time: .134855139
+=== Test l765  ===
+Solution:
+Time: .132903588
+=== Test l766  ===
+Solution: sat(less_than(2,2-5,red)): 0.784
+Time: .254013074
+=== Test l767  ===
+Solution: sat(less_than(2,2-5,red)): 0.81666667
+Time: .356656431
+=== Test l768  ===
+Solution: sat(all(1-21,not(record))): 0.12
+Time: .192428123
+=== Test l769  ===
+Solution: sat(exactly(1,1-21,record)): 0.46
+Time: .194166123
+=== Test l77  ===
+Solution: sat(exactly(1,1-2,burke)): 0.6
+Time: .540027965
+=== Test l770  ===
+Solution: sat(all(3-6,girl)): 0.47
+Time: .154795912
+=== Test l771  ===
+Solution: sat(atleast(5,3-5,girl)): 0.54737302
+Time: .576130796
+=== Test l772  ===
+Solution: sat(aggcmp(2-12,coin,sum,=:=,41)): 0.09375
+Time: .609812721
+=== Test l773  ===
+Solution: sat(and(and(nth(1,2-14,not(oil)),nth(2,2-14,not(oil))),nth(3,2-14,oil))): 0.128
+Time: .179791439
+=== Test l775  ===
+Solution: sat(and(exactly(1,2-7,white),exactly(1,2-7,blue))): 0.35
+Time: .246504647
+=== Test l776  ===
+Solution: sat(all(1-23,red)): 0.27777778
+Time: .187613898
+=== Test l777  ===
+Solution: sat(and(exactly(3,1-2,red),exactly(3,1-2,black))): 0.33204771
+Time: .433440382
+=== Test l778  ===
+Solution: sat(exactly(2,1-2,child)): 0.47619048
+Time: .518488377
+=== Test l779  ===
+Solution: sat(all(2-7,white)): 0.125
+Time: .228025193
+=== Test l78  ===
+Solution: sat(none(2-13,red)): 0.7
+Time: .174135527
+=== Test l780  ===
+Solution: sat(and(exactly(1,2-7,red),exactly(1,2-7,blue))): 0.51282051
+Time: .198680433
+=== Test l781  ===
+Solution: sat(all(2-12,white)): 0.16
+Time: .177906877
+=== Test l782  ===
+Solution: sat(all(2-12,white)): 0.15510204
+Time: .188755109
+=== Test l783  ===
+Solution: sat(all(1-2,jacks)): 0.00018099548
+Time: .232566563
+=== Test l784  ===
+Solution: sat(and(exactly(1,2-2,boy),exactly(2,2-2,girl))): 0.3
+Time: .235731889
+=== Test l785  ===
+Solution: sat(all(2-2,boy)): 0.16666667
+Time: .225097273
+=== Test l786  ===
+Solution: sat(and(exactly(2,1-2,boy),exactly(3,1-2,girl))): 0.41958042
+Time: .344252150
+=== Test l788  ===
+Solution: sat(all(2-9,or(a,b))): 0.65
+Time: .186710940
+=== Test l789  ===
+Solution: sat(atleast(1,1-17,tail)): 0.9375
+Time: .213232202
+=== Test l79  ===
+Solution: sat(all(2-5,or(or(or(1,2),or(4,5)),or(10,20)))): 0.3
+Time: .601805787
+=== Test l790  ===
+Solution: sat(atleast(1,2-2,green)): 0.53333333
+Time: .216733547
+=== Test l791  ===
+Solution: sat(or(all(1-2,red),all(1-2,blue))): 0.55555556
+Time: .181191516
+=== Test l792  ===
+Solution: sat(or(all(1-2,black),all(1-2,red))): 0.5
+Time: .182843808
+=== Test l793  ===
+Solution: sat(atleast(2,3-2,defective)): 0.36363636
+Time: .230859063
+=== Test l794  ===
+Solution: sat(or(atleast(1,1-2,boy),atleast(1,1-2,girl))): 1
+Time: .202453590
+=== Test l795  ===
+Solution: sat(atleast(1,1-2,white)): 0.57142857
+Time: .192561875
+=== Test l796  ===
+Solution: sat(all(3-10,selection)): 0.066666667
+Time: .193541279
+=== Test l797  ===
+Solution: sat(atleast(1,2-9,solve)): 0.75
+Time: .222256480
+=== Test l798  ===
+Solution: sat(and(nth(1,1-2,red),nth(2,1-2,white))): 0.24
+Time: .172373462
+=== Test l799  ===
+Solution: sat(exactly(1,2-12,selection)): 0.28571429
+Time: .196505940
+=== Test l8  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>,4)): 0.33333333
+Time: .249641426
+=== Test l800  ===
+Solution: sat(atleast(1,1-6,solve)): 0.66666667
+Time: .194409431
+=== Test l801  ===
+Solution: sat(aggcmp(1-19,outcome(0),min,>,3)): 0.25
+Time: .404750801
+=== Test l802  ===
+Solution: sat(all(1-5,selection)): 0.028571429
+Time: .191502936
+=== Test l803  ===
+Solution: sat(exactly(1,2-9,solve)): 0.44642857
+Time: .221956276
+=== Test l804  ===
+Solution: sat(and(all_same(1-2,outcome(0)),aggcmp(2-6,outcome(1),sum,=:=,6))): 0.034722222
+Time: .535043336
+=== Test l805  ===
+Solution: sat(and(all(3-8,football),all(3-8,male))): 0.025
+Time: .186751685
+=== Test l806  ===
+Solution: sat(all(1-8,white)): 0.31818182
+Time: .189021332
+=== Test l807  ===
+Solution: sat(exactly(2,1-4,not(head))): 0.5
+Time: .179648891
+=== Test l808  ===
+Solution: sat(and(exactly(1,1-18,white),exactly(1,1-18,yellow))): 0.42857143
+Time: .237244643
+=== Test l809  ===
+Solution: sat(all(3-3,or(rust,bolt))): 0.625
+Time: .225462037
+=== Test l810  ===
+Solution: sat(none(2-4,bad)): 0.42424242
+Time: .248478187
+=== Test l811  ===
+Solution: sat(and(exactly(2,2-4,bad),exactly(2,2-4,not(bad)))): 0.090909091
+Time: .254600360
+=== Test l812  ===
+Solution: sat(and(exactly(1,children,girl),exactly(2,children,boy))): 0.40625
+Time: .224296881
+=== Test l813  ===
+Solution: sat(all(2-2,black)): 0.0010319917
+Time: .518860740
+=== Test l814  ===
+Solution: sat(all(2-3,easy)): 0.55555556
+Time: .369061189
+=== Test l815  ===
+Solution: sat(all(1-12,good)): 0.48351648
+Time: .221937820
+=== Test l816  ===
+Solution: sat(atleast(1,1-19,is_odd)): 0.875
+Time: .668107185
+=== Test l817  ===
+Solution: sat(and(nth(1,1-2,black),nth(2,1-2,red))): 0.24691358
+Time: .170183233
+=== Test l818  ===
+Solution: sat(atleast(1,1-5,solve)): 0.66666667
+Time: .191757879
+=== Test l819  ===
+Solution: sat(and(none(2-2,hindi),none(2-2,english))): 0.2
+Time: .206361770
+=== Test l820  ===
+Solution: sat(all(2-2,english)): 0.33333333
+Time: .205530033
+=== Test l823  ===
+Solution: sat(all(3-9,hostel)): 0.69230769
+Time: .208592819
+=== Test l824  ===
+Solution: sat(all(3-23,know)): 0.92307692
+Time: .193107687
+=== Test l825  ===
+Solution: sat(all(person,disease)): 0.16541353
+Time: .206343402
+=== Test l827  ===
+Solution: sat(all(3-1,scooter)): 0.019230769
+Time: .241735792
+=== Test l828  ===
+Solution: sat(all(3-12,b)): 0.25
+Time: .207689151
+=== Test l829  ===
+Solution: sat(all(4-7,second)): 0.22222222
+Time: .208892492
+=== Test l830  ===
+Solution: sat(all(4-3,a)): 0.14705882
+Time: .246232646
+=== Test l831  ===
+Solution: sat(all(1-2,diamond)): 0.22
+Time: .242647642
+=== Test l832  ===
+Solution: sat(all(c,head)): 0.8
+Time: .200544291
+=== Test l834  ===
+Solution: sat(not(more_than(1,2-12,defective))): 0.91386164
+Time: .703763633
+=== Test l835  ===
+Solution: sat(all(1-6,not(fuse))): 0.77378094
+Time: .232110911
+=== Test l836  ===
+Solution: sat(none(2-3,0)): 0.6561
+Time: .316421332
+=== Test l837  ===
+Solution: Timeout exceeded
+Time: 60.128310427
+=== Test l838  ===
+Solution: sat(atleast(4,1-33,correct)): 0.04526749
+Time: .242079757
+=== Test l839  ===
+Solution: sat(atleast(1,1-3,prize)): 0.39499393
+Time: 7.137548346
+=== Test l840  ===
+Solution: sat(exactly(9,1-10,defective)): 1.6038e-07
+Time: .553706166
+=== Test l841  ===
+Solution: sat(none(2-9,defective)): 0.58375237
+Time: .340737717
+=== Test l842  ===
+Solution: sat(exactly(4,2-13,swimmer)): 0.4096
+Time: .242820453
+=== Test l843  ===
+Solution: sat(all(2-3,male)): 0.95238095
+Time: .204473399
+=== Test l844  ===
+Solution: sat(atmost(6,2-16,right-handed)): 0.012795198
+Time: .653617264
+=== Test l845  ===
+Solution: sat(atleast(1,3-3,y)): 0.995904
+Time: .267972598
+=== Test l846  ===
+Solution: sat(and(exactly(3,3-3,x),exactly(3,3-3,y))): 0.27648
+Time: .278015490
+=== Test l847  ===
+Solution: sat(less_than(2,1-10,not(clear))): 0.48451675
+Time: .421542568
+=== Test l848  ===
+Solution: sat(and(nth(6,1-19,6),exactly(3,1-19,6))): 0.026791838
+Time: 18.160835314
+=== Test l849  ===
+Solution: sat(all(2-2,black)): 0.51612903
+Time: .218054598
+=== Test l850  ===
+Solution: sat(all(2-3,blue)): 0.375
+Time: .156726516
+=== Test l851  ===
+Solution: sat(all(2-10,purple)): 0.33333333
+Time: .171811152
+=== Test l852  ===
+Solution: sat(all(2-5,or(blue,yellow))): 0.5
+Time: .189409606
+=== Test l853  ===
+Solution: sat(all(2-3,red)): 0.25
+Time: .175230053
+=== Test l854  ===
+Solution: sat(all(2-2,blue)): 0.71428571
+Time: .155696847
+=== Test l855  ===
+Solution: sat(all(2-2,10-cent)): 0.3
+Time: .177303681
+=== Test l856  ===
+Solution: sat(all(2-2,or(10-cent,20-coin))): 0.7
+Time: .190244870
+=== Test l857  ===
+Solution: sat(exactly(1,2-13,raffle)): 0.05
+Time: .247636172
+=== Test l858  ===
+Solution: sat(all(2-2,green)): 0.5625
+Time: .173110138
+=== Test l859  ===
+Solution: sat(all(2-5,and(not(black),not(white)))): 0.42105263
+Time: .180199033
+=== Test l860  ===
+Solution: sat(exactly(2,1-5,head)): 0.375
+Time: .196122330
+=== Test l861  ===
+Solution: sat(all(2-9,not(time))): 0.18181818
+Time: .157529950
+=== Test l862  ===
+Solution: sat(none(2-2,red)): 0.73913043
+Time: .175337190
+=== Test l863  ===
+Solution: sat(all(2-3,and(not(and(black,brown)),or(black,brown)))): 0.44827586
+Time: .209987167
+=== Test l864  ===
+Solution: sat(and(all(2-8,football),none(2-8,basketball))): 0.2
+Time: .206551666
+=== Test l865  ===
+Solution: sat(all(2-3,not(and(french,german)))): 0.83333333
+Time: .207366476
+=== Test l866  ===
+Solution: sat(and(all(2-9,umbrella),none(2-9,raincoat))): 0.52631579
+Time: .202147616
+=== Test l867  ===
+Solution: sat(all(3-9,or(piano,guitar))): 0.72222222
+Time: .190709491
+=== Test l868  ===
+Solution: sat(and(none(2-7,mathematics),none(2-7,science))): 0.13333333
+Time: .204893955
+=== Test l869  ===
+Solution: sat(and(all(2-7,japanese),and(none(2-7,french),none(2-7,german)))): 0.1
+Time: .275834604
+=== Test l870  ===
+Solution: sat(and(all(3-7,soccer),none(3-7,netball))): 0.17857143
+Time: .202321141
+=== Test l871  ===
+Solution: sat(all(3-7,and(or(cigarette,alcohol),not(and(cigarette,alcohol))))): 0.72
+Time: .215432000
+=== Test l872  ===
+Solution: sat(aggcmp(1-28,outcome(0),sum,<,4)): 0.42857143
+Time: .272140169
+=== Test l873  ===
+Solution: sat(all(2-3,or(apple,banana))): 0.55555556
+Time: .176978784
+=== Test l874  ===
+Solution: sat(all(2-9,english)): 0.5
+Time: .209536301
+=== Test l875  ===
+Solution: sat(all(2-5,mathematics)): 0.26666667
+Time: .204315545
+=== Test l878  ===
+Solution: sat(or(all(2-12,vowel),all(2-12,consonant))): 0.53402367
+Time: .200184475
+=== Test l879  ===
+Solution: sat(all(1-9,20)): 0.25
+Time: .183329164
+=== Test l880  ===
+Solution: Timeout exceeded
+Time: 60.650895007
+=== Test l882  ===
+Solution: sat(all(1-11,or(red,blue))): 0.64
+Time: .179104466
+=== Test l884  ===
+Solution: sat(and(exactly(1,2-3,white),exactly(1,2-3,red))): 0.15789474
+Time: .246318446
+=== Test l885  ===
+Solution: sat(or(aggcmp(1-19,outcome(0),sum,<,4),all(1-19,is_even))): 0.83333333
+Time: .258122739
+=== Test l886  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,=:=,10)): 0.083333333
+Time: .391937179
+=== Test l89  ===
+Solution: sat(atleast(2,1-4,head)): 0.5
+Time: .195824456
+=== Test l890  ===
+Solution: Timeout exceeded
+Time: 60.706539850
+=== Test l891  ===
+Solution: sat(all(2-9,green)): 0.25
+Time: .179573275
+=== Test l892  ===
+Solution: sat(and(all(2-2,red),all(3-12,purple))): 0.13888889
+Time: .194390625
+=== Test l894  ===
+Solution: sat(and(all(1-2,2),all(1-22,m))): 0.0064102564
+Time: .941143609
+=== Test l895  ===
+Solution: sat(atleast(6,1-13,vegetable)): 0.053272801
+Time: .743498147
+=== Test l896  ===
+Solution: sat(and(all(2-8,boy),all(2-8,physics))): 0.33333333
+Time: .199972181
+=== Test l897  ===
+Solution: sat(and(all(2-8,physics),all(2-8,girl))): 0.16666667
+Time: .201888446
+=== Test l898  ===
+Solution: sat(all(3-9,math)): 0.24074074
+Time: .317946888
+=== Test l899  ===
+Solution: sat(all(4-10,licorice)): 0.023214286
+Time: .550126916
+=== Test l9  ===
+Solution: sat(exactly(1,1-4,head)): 0.5
+Time: .177537052
+=== Test l900  ===
+Solution: sat(exactly(2,abc,pink)): 0.18016706
+Time: 2.563457513
+=== Test l902  ===
+Solution: sat(aggcmp(2-8,outcome(0),sum,<,7)): 0.7
+Time: .368153992
+=== Test l903  ===
+Solution: sat(all(2-4,or(p1,p10))): 0.5
+Time: .176119760
+=== Test l904  ===
+Solution: sat(all(2-3,defective)): 1e-08
+Time: .326470153
+=== Test l905  ===
+Solution: sat(atleast(1,2-3,defective)): 0.56953279
+Time: .328127437
+=== Test l906  ===
+Solution: sat(and(nth(5,2-10,shooter),exactly(3,2-10,shooter))): 0.15820312
+Time: .249616144
+=== Test l907  ===
+Solution: sat(atleast(8,2-10,shooter)): 0.5255928
+Time: .425473737
+=== Test l91  ===
+Solution: sat(all(1-2,ace)): 0.00075414781
+Time: .197030476
+=== Test l910  ===
+Solution: sat(nth(1,1-7,6)): 0.25
+Time: .459827879
+=== Test l911  ===
+Solution: sat(aggcmp(1-16,outcome(0),max,=:=,2)): 0.1875
+Time: .264419734
+=== Test l913  ===
+Solution: sat(all(person,and(not(disease),positive))): 0.095
+Time: .196105069
+=== Test l914  ===
+Solution: sat(all(2-9,win)): 0.375
+Time: .212454636
+=== Test l917  ===
+Solution: sat(all(2-1,boy)): 0.57142857
+Time: .156356747
+=== Test l918  ===
+Solution: sat(all(3-4,prefer)): 0.27272727
+Time: .240045905
+=== Test l919  ===
+Solution: sat(all(2-2,black)): 0.60869565
+Time: .212600363
+=== Test l92  ===
+Solution: sat(and(exactly(2,1-4,head),exactly(1,1-4,tail))): 0.375
+Time: .207372446
+=== Test l920  ===
+Solution: sat(all(2-3,red)): 0.19230769
+Time: .232673022
+=== Test l921  ===
+Solution: sat(and(nth(1,2-2,white),nth(2,2-2,black))): 0.24827586
+Time: .192349461
+=== Test l922  ===
+Solution: sat(atleast(4,1-29,safely)): 0.91854
+Time: .245187798
+=== Test l923  ===
+Solution: sat(atleast(1,2-3,blue)): 0.8041958
+Time: .338790050
+=== Test l924  ===
+Solution: sat(and(none(4-3,25),all(4-3,female))): 0.3
+Time: .269750115
+=== Test l925  ===
+Solution: sat(all(2-7,or(length,width))): 0.045142537
+Time: .198563680
+=== Test l926  ===
+Solution: sat(and(none(2-7,length),none(2-7,width))): 0.95485746
+Time: .203471732
+=== Test l927  ===
+Solution: sat(and(all(2-7,english),all(2-7,chemistry))): 0.30555556
+Time: .208844852
+=== Test l928  ===
+Solution: sat(and(all(2-7,chemistry),none(2-7,english))): 0.22222222
+Time: .210003575
+=== Test l93  ===
+Solution: sat(all(1-21,or(or(2,3),5))): 0.25
+Time: .331587967
+=== Test l930  ===
+Solution: sat(all(4-3,average)): 0.75
+Time: .385406307
+=== Test l931  ===
+Solution: sat(and(none(3-6,math),and(none(3-6,history),none(3-6,english)))): 0.125
+Time: .385799505
+=== Test l933  ===
+Solution: sat(and(all(2-7,math),all(2-7,physics))): 0.53846154
+Time: .206288637
+=== Test l934  ===
+Solution: sat(all(3-2,good)): 0.375
+Time: .233902520
+=== Test l935  ===
+Solution: sat(exactly(1,3-2,major)): 0.23333333
+Time: .241574674
+=== Test l937  ===
+Solution: sat(all(2-3,win)): 0.216
+Time: .237041021
+=== Test l938  ===
+Solution: sat(and(all(2-3,not(lose)),atleast(2,2-3,win))): 0.324
+Time: .268458714
+=== Test l939  ===
+Solution: sat(all(1-2,yellow)): 0.045553936
+Time: .238460261
+=== Test l94  ===
+Solution: sat(and(all(2-6,9),all(2-10,z))): 0.0038461538
+Time: .193937796
+=== Test l940  ===
+Solution: sat(all(1-2,yellow)): 0.027472527
+Time: .333621551
+=== Test l941  ===
+Solution: sat(none(1-12,crack)): 0.15909091
+Time: .223905364
+=== Test l942  ===
+Solution: sat(none(2-2,defective)): 0.39912281
+Time: .303201376
+=== Test l943  ===
+Solution: sat(atleast(1,2-2,defective)): 0.60087719
+Time: .315536970
+=== Test l944  ===
+Solution: sat(all(2-9,late)): 0.037634409
+Time: .211362697
+=== Test l946  ===
+Solution: sat(all(3-6,not(exceed))): 0.192
+Time: .221315450
+=== Test l95  ===
+Solution: sat(and(all(2-2,green),all(2-17,green))): 0.13333333
+Time: .220952059
+=== Test l953  ===
+Solution: sat(none(1-3,defective)): 0.069230769
+Time: .272673036
+=== Test l957  ===
+Solution: sat(exactly(3,2-5,defective)): 0.17776341
+Time: .406221275
+=== Test l958  ===
+Solution: sat(and(all(6-7,successful),all(6-7,a))): 0.18
+Time: .213612652
+=== Test l96  ===
+Solution: sat(and(none(2-2,blue),none(2-17,blue))): 0.8
+Time: .223927845
+=== Test l960  ===
+Solution: sat(none(2-2,yellow)): 0.64285714
+Time: .178357650
+=== Test l961  ===
+Solution: sat(all(3-2,coarse)): 0.22222222
+Time: .163607185
+=== Test l963  ===
+Solution: sat(all(3-13,defective)): 0.019230769
+Time: .186536608
+=== Test l964  ===
+Solution: sat(all(1-39,10)): 0.16666667
+Time: .416929798
+=== Test l965  ===
+Solution: sat(all(1-3,boy)): 0.33333333
+Time: .184710800
+=== Test l966  ===
+Solution: sat(and(all(4-4,a),all(4-4,chemistry))): 0.16666667
+Time: .199474762
+=== Test l967  ===
+Solution: sat(all(2-4,black)): 0.31818182
+Time: .190403764
+=== Test l969  ===
+Solution: sat(and(and(nth(3,1-6,head),nth(4,1-6,head)),nth(2,1-6,not(head)))): 0.125
+Time: .181872763
+=== Test l97  ===
+Solution: sat(all(1-2,diamond)): 0.058823529
+Time: .196213964
+=== Test l970  ===
+Solution: sat(atleast(1,1-20,6)): 0.33333333
+Time: .473235709
+=== Test l972  ===
+Solution: sat(all(2-2-0,hit)): 0.22222222
+Time: .208588003
+=== Test l973  ===
+Solution: sat(all(2-2-0,hit)): 0.48780488
+Time: .199765474
+=== Test l975  ===
+Solution: sat(all(2-3,and(not(and(home,car)),or(home,car)))): 0.5
+Time: .208761053
+=== Test l979  ===
+Solution: sat(none(4-8,campus)): 0.7
+Time: .154913504
+=== Test l98  ===
+Solution: sat(and(and(nth(1,code_digits,1),nth(2,code_digits,2)),and(nth(1,code_letters,k),nth(2,code_letters,y)))): 1.4792899e-05
+Time: .233589310
+=== Test l980  ===
+Solution: sat(and(all(3-3,not(severe)),atmost(1,3-3,moderate))): 0.65
+Time: .215107859
+=== Test l984  ===
+Solution: sat(all_diff(2-6,outcome(0))): 0.72
+Time: 6.306376662
+=== Test l985  ===
+Solution: sat(and(nth(1,1-5,not(face)),nth(2,1-5,face))): 0.17751479
+Time: .173928466
+=== Test l986  ===
+Solution: sat(all(3-3,kat)): 0.020408163
+Time: .367145586
+=== Test l987  ===
+Solution: sat(and(exactly(4,1-15,6),nth(5,1-15,not(6)))): 0.00064300412
+Time: 4.584769201
+=== Test l988  ===
+Solution: sat(all(2-5,not(cancerous))): 0.81450625
+Time: .213829071
+=== Test l989  ===
+Solution: sat(atleast(1,3-12,mine)): 0.82
+Time: .191898879
+=== Test l99  ===
+Solution: sat(all(3-14,blue)): 0.66666667
+Time: .183777466
+=== Test l990  ===
+Solution: sat(all(3-9,color-blind)): 0.12142857
+Time: .217797481
+=== Test l991  ===
+Solution: sat(all(3-5,man)): 0.41176471
+Time: .236031261
+=== Test l993  ===
+Solution: sat(all(5-4,smoker)): 0.35714286
+Time: .206776913
+=== Test l994  ===
+Solution: sat(all(4-9,injure)): 0.22
+Time: .215659088
+=== Test l995  ===
+Solution: sat(all(5-2,excessive)): 0.66
+Time: .207523293
+=== Test l998  ===
+Solution: sat(all(4-2,ultra-preferred)): 0.014084507
+Time: .244176699
+=== Test l999  ===
+Solution: sat(all(3-21,accident)): 0.26
+Time: .188960536
+=== Test m10  ===
+Solution: sat(aggcmp(1-12,outcome(0),sum,=:=,9)): 0.11111111
+Time: .406753885
+=== Test m102  ===
+Solution: sat(all(3-12,yoga)): 0.75
+Time: .251415776
+=== Test m103  ===
+Solution: sat(all(3-12,dance)): 0.2
+Time: .254130283
+=== Test m104  ===
+Solution: sat(all(3-12,and(yoga,dance))): 0.125
+Time: .261673567
+=== Test m105  ===
+Solution: sat(all(3-12,or(yoga,dance))): 0.825
+Time: .268100632
+=== Test m106  ===
+Solution: sat(all(3-11,coffee)): 0.76923077
+Time: .192998867
+=== Test m107  ===
+Solution: sat(all(3-11,or(coffee,pie))): 0.80769231
+Time: .202091363
+=== Test m108  ===
+Solution: sat(all(3-7,or(pink,shirt))): 0.5
+Time: .227019097
+=== Test m109  ===
+Solution: sat(all(1-7,or(three,seven))): 0.15384615
+Time: .182441055
+=== Test m11  ===
+Solution: sat(atmost(2,1-5,head)): 0.875
+Time: .199966348
+=== Test m110  ===
+Solution: sat(all(3-9,classroom)): 0.71428571
+Time: .208734024
+=== Test m111  ===
+Solution: sat(all(3-9,and(classroom,lounge))): 0.42857143
+Time: .209897520
+=== Test m112  ===
+Solution: sat(all(3-7,taco)): 0.33333333
+Time: .194058366
+=== Test m113  ===
+Solution: sat(all(3-7,and(taco,pizza))): 0.16666667
+Time: .192308651
+=== Test m114  ===
+Solution: sat(all(4-7,or(cash,card))): 0.85
+Time: .205737579
+=== Test m115  ===
+Solution: sat(all(3-7,and(dog,cat))): 0.5
+Time: .227306739
+=== Test m116  ===
+Solution: sat(all(3-7,necklace)): 0.6
+Time: .267651941
+=== Test m117  ===
+Solution: sat(all(3-7,classroom)): 0.75
+Time: .198072757
+=== Test m118  ===
+Solution: sat(or(some(4-12,black_slacks),some(4-12,blue_shirt))): 0.66666667
+Time: .569227601
+=== Test m12  ===
+Solution: sat(aggcmp(1-20,outcome(0),product,is_even)): 0.75
+Time: .403272119
+=== Test m120  ===
+Solution: sat(all(3-7,watch)): 0.58333333
+Time: .279263915
+=== Test m121  ===
+Solution: sat(or(and(some(4-12,and(gray,slacks)),some(4-12,and(white,shirt))),some(4-12,and(black,shirt)))): 0.5
+Time: .655130519
+=== Test m123  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,=:=,8)): 0.13888889
+Time: .406752797
+=== Test m124  ===
+Solution: sat(all(3-7,goldfish)): 0.25
+Time: .210610275
+=== Test m125  ===
+Solution: sat(aggcmp(1-25,outcome(0),sum,=<,4)): 0.25
+Time: .388996281
+=== Test m126  ===
+Solution: sat(all(3-8,or(lifting,pilate))): 0.78571429
+Time: .249076173
+=== Test m127  ===
+Solution: sat(all(1-3,not(1))): 0.625
+Time: .324228518
+=== Test m128  ===
+Solution: sat(aggcmp(1-3,outcome(0),sum,>=,4)): 0.91666667
+Time: .422406791
+=== Test m129  ===
+Solution: sat(and(some(3-4,orange),some(3-4,hat))): 0.083333333
+Time: .281951747
+=== Test m13  ===
+Solution: sat(all(2-2,prize)): 0.28571429
+Time: .160055160
+=== Test m130  ===
+Solution: sat(and(some(3-4,tulip),some(3-4,plastic))): 0.0625
+Time: .321513809
+=== Test m131  ===
+Solution: sat(all(1-3,is_odd)): 0.25
+Time: .318090586
+=== Test m132  ===
+Solution: sat(or(some(2-4,tie),some(2-4,cheese))): 0.4
+Time: .350602734
+=== Test m133  ===
+Solution: sat(all(3-4,and(not(clay),not(cactus)))): 0.5625
+Time: .297886772
+=== Test m134  ===
+Solution: sat(and(some(3-4,magic),some(3-4,elf))): 0.066666667
+Time: .311151594
+=== Test m135  ===
+Solution: sat(aggcmp(1-3,outcome(0),sum,>=,9)): 0.27777778
+Time: .400514052
+=== Test m136  ===
+Solution: sat(all_same(1-3,outcome(0))): 0.16666667
+Time: .349151542
+=== Test m137  ===
+Solution: sat(atleast(1,1-3,4)): 0.375
+Time: .322462953
+=== Test m138  ===
+Solution: sat(aggcmp(1-3,outcome(0),sum,=:=,7)): 0.16666667
+Time: .380418446
+=== Test m139  ===
+Solution: sat(exactly(1,4-4,cab)): 0.44444444
+Time: .201572475
+=== Test m14  ===
+Solution: sat(and(exactly(1,1-2,hearts),exactly(1,1-2,spade))): 0.12745098
+Time: .250417683
+=== Test m140  ===
+Solution: sat(atleast(2,1-3,tails)): 0.5
+Time: .194569511
+=== Test m141  ===
+Solution: sat(and(some(4-4,bus),some(4-4,train))): 0.22222222
+Time: .208212523
+=== Test m142  ===
+Solution: sat(all(1-3,tails)): 0.125
+Time: .192485260
+=== Test m143  ===
+Solution: sat(atleast(1,1-3,3)): 0.30555556
+Time: .321158751
+=== Test m144  ===
+Solution: sat(and(some(2-4,sock),none(2-4,blue))): 0.16666667
+Time: .283986175
+=== Test m145  ===
+Solution: sat(all_same(4-22,outcome(0))): 0.33333333
+Time: .204499537
+=== Test m146  ===
+Solution: sat(or(none(2-4,spaghetti),none(2-4,tomato))): 0.95
+Time: .353165555
+=== Test m147  ===
+Solution: sat(atleast(1,3-4,teleport)): 0.55555556
+Time: .203753393
+=== Test m148  ===
+Solution: sat(exactly(3,1-3,head)): 0.125
+Time: .196511549
+=== Test m149  ===
+Solution: sat(aggcmp(1-3,outcome(0),sum,>=,6)): 0.58333333
+Time: .391726318
+=== Test m15  ===
+Solution: sat(all(2-10,blue)): 0.25
+Time: .173124776
+=== Test m150  ===
+Solution: sat(and(nth(1,2-5,green),nth(2,2-5,red))): 0.083333333
+Time: .220259239
+=== Test m151  ===
+Solution: sat(all(2-6,soccer)): 0.22222222
+Time: .191685851
+=== Test m152  ===
+Solution: sat(and(nth(1,2-5,blue),nth(2,2-5,green))): 0.12820513
+Time: .223841211
+=== Test m153  ===
+Solution: sat(all(4-9,playstation)): 0.44444444
+Time: .218251034
+=== Test m154  ===
+Solution: sat(all(4-9,xbox)): 0.5
+Time: .216513459
+=== Test m155  ===
+Solution: sat(all(4-9,and(playstation,xbox))): 0.16666667
+Time: .217647152
+=== Test m156  ===
+Solution: sat(all(4-10,xbox)): 0.375
+Time: .238274155
+=== Test m157  ===
+Solution: sat(nth(1,1-4,5)): 0.16666667
+Time: .191645816
+=== Test m158  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,=:=,6)): 0.13888889
+Time: .401421274
+=== Test m159  ===
+Solution: sat(all(4-9,sister)): 0.42857143
+Time: .222074291
+=== Test m16  ===
+Solution: sat(exactly(5,2-3,correct)): 0.21430705
+Time: 1.328823326
+=== Test m160  ===
+Solution: sat(all(4-9,brother)): 0.5
+Time: .224361759
+=== Test m161  ===
+Solution: sat(all(4-9,and(sister,brother))): 0.21428571
+Time: .221699933
+=== Test m162  ===
+Solution: sat(all(4-10,brother)): 0.5
+Time: .243407695
+=== Test m163  ===
+Solution: sat(and(all(1-3,tails),aggcmp(1-7,outcome(1),sum,>,3))): 0.25
+Time: .274214262
+=== Test m164  ===
+Solution: sat(and(all(1-5,e),all(1-31,easy))): 0.1
+Time: .212464958
+=== Test m165  ===
+Solution: sat(all(2-4,or(4,8))): 0.2
+Time: .273048615
+=== Test m167  ===
+Solution: sat(or(some(2-4,5),some(2-4,is_odd))): 0.5
+Time: .289883301
+=== Test m168  ===
+Solution: sat(and(all(1-4,head),all(1-23,6))): 0.083333333
+Time: .229800680
+=== Test m169  ===
+Solution: sat(and(exactly(1,2-2,green),exactly(1,2-2,red))): 0.069444444
+Time: .249432746
+=== Test m170  ===
+Solution: sat(and(exactly(1,2-2,black),exactly(1,2-2,blue))): 0.11111111
+Time: .253613574
+=== Test m171  ===
+Solution: sat(all(3-9,poverty)): 0.11818518
+Time: .217067854
+=== Test m172  ===
+Solution: sat(all(3-6,faulty)): 0.28571429
+Time: .186336662
+=== Test m173  ===
+Solution: sat(all(3-9,poverty)): 0.077664546
+Time: .236817907
+=== Test m18  ===
+Solution: sat(exactly(2,3-6,male)): 0.3125
+Time: 1.236187861
+=== Test m181  ===
+Solution: sat(and(exactly(4,2-4,not(defective)),exactly(1,2-4,defective))): 0.13806432
+Time: .326735583
+=== Test m182  ===
+Solution: sat(atmost(2,2-4,defective)): 0.99993816
+Time: .328669323
+=== Test m183  ===
+Solution: sat(none(2-4,defective)): 0.85599876
+Time: .313021950
+=== Test m184  ===
+Solution: sat(all(2-2,blue)): 0.0256
+Time: .212471346
+=== Test m185  ===
+Solution: sat(all(2-2,blue)): 0.0047619048
+Time: .269511000
+=== Test m186  ===
+Solution: sat(atleast(1,1-2,female)): 0.96873563
+Time: .395093244
+=== Test m187  ===
+Solution: sat(and(exactly(3,1-2,male),exactly(3,1-2,female))): 0.30233674
+Time: .426472826
+=== Test m188  ===
+Solution: sat(aggcmp(1-1,outcome(0),sum,>=,6)): 0.375
+Time: .268487246
+=== Test m189  ===
+Solution: sat(aggcmp(1-1,outcome(0),sum,=<,4)): 0.375
+Time: .270006801
+=== Test m19  ===
+Solution: sat(exactly(5,1-4,head)): 0.24609375
+Time: .468887479
+=== Test m190  ===
+Solution: sat(aggcmp(1-1,outcome(0),sum,>,6)): 0.1875
+Time: .272178628
+=== Test m191  ===
+Solution: sat(aggcmp(1-1,outcome(0),sum,<,4)): 0.1875
+Time: .265289417
+=== Test m192  ===
+Solution: sat(aggcmp(1-1,outcome(0),sum,is_even)): 0.5
+Time: .269590853
+=== Test m193  ===
+Solution: sat(all(1-2,sophomore)): 0.0065359477
+Time: .323121399
+=== Test m194  ===
+Solution: sat(atleast(1,2-3,defective)): 0.74545455
+Time: .227385502
+=== Test m196  ===
+Solution: sat(atmost(1,1-2,female)): 0.058425541
+Time: 1.124250822
+=== Test m197  ===
+Solution: sat(all(2-2,drink)): 0.32768
+Time: .243237282
+=== Test m198  ===
+Solution: sat(atleast(1,2-2,not(drink))): 0.67232
+Time: .254265445
+=== Test m199  ===
+Solution: sat(all(1-2,male)): 0.026069519
+Time: .268232457
+=== Test m20  ===
+Solution: sat(all(3-5,country)): 0.23076923
+Time: .164364629
+=== Test m200  ===
+Solution: sat(all(2-9,a)): 0.33333333
+Time: .206528700
+=== Test m202  ===
+Solution: sat(all(4-14,come)): 0.66666667
+Time: .206921619
+=== Test m204  ===
+Solution: sat(all(4-6,red)): 0.66666667
+Time: .156524738
+=== Test m205  ===
+Solution: sat(all(1-2,heart)): 0.25
+Time: .159182958
+=== Test m206  ===
+Solution: sat(all(1-2,ace)): 0.076923077
+Time: .161861754
+=== Test m207  ===
+Solution: sat(atleast(1,1-14,6)): 0.4212963
+Time: .722405782
+=== Test m209  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,<,11)): 0.91666667
+Time: .414833867
+=== Test m21  ===
+Solution: sat(all(3-6,russia)): 0.076923077
+Time: .192475649
+=== Test m210  ===
+Solution: sat(all_same(1-22,outcome(0))): 0.0046296296
+Time: 1.714947766
+=== Test m211  ===
+Solution: sat(all(3-7,paisley)): 0.33333333
+Time: .159039911
+=== Test m212  ===
+Solution: sat(all(2-2,3)): 0.33333333
+Time: .171400250
+=== Test m213  ===
+Solution: sat(all(3-7,sandal)): 0.33333333
+Time: .162634184
+=== Test m214  ===
+Solution: sat(all(2-9,gray)): 0.33333333
+Time: .156337707
+=== Test m215  ===
+Solution: sat(all(3-10,mascara)): 0.5
+Time: .157495633
+=== Test m216  ===
+Solution: sat(all(1-2,6)): 0.33333333
+Time: .174597238
+=== Test m217  ===
+Solution: sat(all(2-9,graduate)): 0.33333333
+Time: .157831699
+=== Test m218  ===
+Solution: sat(all(2-9,country)): 0.16666667
+Time: .159023923
+=== Test m219  ===
+Solution: sat(all(2-3,chew)): 0.5
+Time: .164430661
+=== Test m220  ===
+Solution: sat(all(2-3,or(chew,toffee))): 0.7
+Time: .175284671
+=== Test m221  ===
+Solution: sat(none(2-3,toffee)): 0.8
+Time: .174146273
+=== Test m222  ===
+Solution: sat(all(2-14,faulty)): 0.075
+Time: .257619758
+=== Test m223  ===
+Solution: sat(all(1-14,or(5,6))): 0.33333333
+Time: .211975138
+=== Test m224  ===
+Solution: sat(all(2-31,or(red,blue))): 0.775
+Time: .177865948
+=== Test m225  ===
+Solution: sat(all(3-7,and(25,not(insurance)))): 0.105
+Time: .184308182
+=== Test m226  ===
+Solution: sat(all(1-2,or(orange,red))): 0.33333333
+Time: .192237445
+=== Test m227  ===
+Solution: sat(all(1-2,and(not(red),not(blue)))): 0.6
+Time: .194485661
+=== Test m228  ===
+Solution: sat(none(1-2,blue)): 0.73333333
+Time: .187210042
+=== Test m229  ===
+Solution: sat(all(1-2,white)): 0.4
+Time: .185751223
+=== Test m23  ===
+Solution: sat(or(exactly(3,2-9,brother),exactly(0,2-9,brother))): 0.21052632
+Time: .557259753
+=== Test m230  ===
+Solution: sat(all(1-2,or(red,or(white,blue)))): 0.8
+Time: .197954040
+=== Test m231  ===
+Solution: sat(all(1-2,diamond)): 0.019230769
+Time: .163484978
+=== Test m232  ===
+Solution: sat(all(2-16,van)): 0.3
+Time: .178119133
+=== Test m233  ===
+Solution: sat(all(2-16,lorry)): 0.1
+Time: .177631817
+=== Test m234  ===
+Solution: sat(nth(2,2-16,car)): 0.60606061
+Time: .233472749
+=== Test m235  ===
+Solution: sat(and(nth(1,1-6,head),nth(2,1-6,tails))): 0.25
+Time: .169228702
+=== Test m236  ===
+Solution: sat(or(or(nth(1,1-5,head),nth(2,1-5,head)),all(1-5,head))): 0.75
+Time: .184098209
+=== Test m237  ===
+Solution: sat(all(2-8,ace)): 0.0045248869
+Time: .196764193
+=== Test m238  ===
+Solution: sat(and(nth(1,2-2,queen_hearts),nth(2,2-2,black))): 0.0098039216
+Time: .218484512
+=== Test m239  ===
+Solution: sat(atleast(1,2-2,green)): 0.65972222
+Time: .176859522
+=== Test m24  ===
+Solution: sat(exactly(4,1-21,a)): 0.25082266
+Time: .470361836
+=== Test m240  ===
+Solution: sat(exactly(1,2-2,green)): 0.48611111
+Time: .178381190
+=== Test m241  ===
+Solution: sat(all(3-8,not(faulty))): 0.81
+Time: .177621237
+=== Test m242  ===
+Solution: sat(some(3-10,faulty)): 0.19
+Time: .176402467
+=== Test m243  ===
+Solution: sat(all(3-2,female)): 0.4
+Time: .187534624
+=== Test m244  ===
+Solution: sat(all(3-2,and(not(female),not(left)))): 0.54
+Time: .198777415
+=== Test m245  ===
+Solution: sat(atleast(1,3-4,red)): 0.8
+Time: .208504866
+=== Test m246  ===
+Solution: sat(all_same(3-4,colour(0))): 0.42
+Time: .209664189
+=== Test m247  ===
+Solution: sat(all_same(3-4,outcome(0))): 0.37
+Time: .195638733
+=== Test m248  ===
+Solution: sat(exactly(1,3-4,not(yellow))): 0.189
+Time: .197337863
+=== Test m249  ===
+Solution: sat(all(3-7,green)): 0.35
+Time: .172427599
+=== Test m25  ===
+Solution: sat(all(2-12,and(allergy,intolerance))): 0.00175
+Time: .187554260
+=== Test m250  ===
+Solution: sat(all(3-7,or(yellow,black))): 0.65
+Time: .176427302
+=== Test m251  ===
+Solution: sat(all(3-7,blue)): 0
+Time: .164728060
+=== Test m252  ===
+Solution: sat(and(none(3-7,black),none(3-7,green))): 0.45
+Time: .181762177
+=== Test m253  ===
+Solution: sat(aggcmp(2-18,outcome(0),sum,=:=,3)): 0.22222222
+Time: .224509831
+=== Test m254  ===
+Solution: sat(aggcmp(2-18,outcome(0),sum,=:=,6)): 0.11111111
+Time: .221075261
+=== Test m257  ===
+Solution: sat(all_same(2-6,colour)): 0.31111111
+Time: .245006467
+=== Test m258  ===
+Solution: sat(all_diff(3-6,type)): 0.58421053
+Time: .245200056
+=== Test m259  ===
+Solution: sat(all(2-6,1)): 0.047619048
+Time: .230037507
+=== Test m261  ===
+Solution: sat(all_diff(3-5,kind)): 0.69090909
+Time: .248303971
+=== Test m262  ===
+Solution: sat(all_same(2-2,colour)): 0.4
+Time: .200526597
+=== Test m263  ===
+Solution: sat(exactly(1,2-2,red)): 0.6
+Time: .191431040
+=== Test m264  ===
+Solution: sat(atleast(1,2-2,red)): 0.7
+Time: .191417674
+=== Test m265  ===
+Solution: sat(all(2-8,3)): 0.5
+Time: .185283200
+=== Test m267  ===
+Solution: sat(all(2-8,2)): 0.16666667
+Time: .178217756
+=== Test m268  ===
+Solution: sat(aggcmp(2-8,outcome(0),sum,>,1)): 1
+Time: .207109466
+=== Test m269  ===
+Solution: sat(all(3-8,b)): 0.25
+Time: .191000856
+=== Test m27  ===
+Solution: sat(all(3-7,science)): 0.66666667
+Time: .193521172
+=== Test m270  ===
+Solution: sat(all(3-8,a)): 0.375
+Time: .184012608
+=== Test m271  ===
+Solution: sat(all(4-7,h)): 0.083333333
+Time: .255542858
+=== Test m272  ===
+Solution: sat(all(4-7,t)): 0.25
+Time: .254609396
+=== Test m273  ===
+Solution: sat(all(4-9,not(e))): 0.91666667
+Time: .272215204
+=== Test m274  ===
+Solution: sat(all(4-7,or(t,b))): 0.33333333
+Time: .272089137
+=== Test m275  ===
+Solution: sat(all(3-2,vowel)): 0.25
+Time: .158243546
+=== Test m276  ===
+Solution: sat(all(2-4,3)): 0.1
+Time: .252825163
+=== Test m277  ===
+Solution: sat(aggcmp(2-4,outcome(0),sum,<,4)): 0.3
+Time: .371995030
+=== Test m279  ===
+Solution: sat(all(5-7,or(yellow,white))): 0.3
+Time: .174808553
+=== Test m28  ===
+Solution: sat(and(nth(1,1-8,king),nth(2,1-8,queen))): 0.0060331825
+Time: .230849518
+=== Test m280  ===
+Solution: sat(all(5-7,red)): 0.7
+Time: .161943018
+=== Test m281  ===
+Solution: sat(all(6-6,d)): 0.34
+Time: .193694446
+=== Test m282  ===
+Solution: sat(all(6-6,or(b,c))): 0.41
+Time: .200455767
+=== Test m283  ===
+Solution: sat(all(5-8,cricket)): 0.3
+Time: .172605856
+=== Test m284  ===
+Solution: sat(all(3-4,lose)): 0.25
+Time: .172194448
+=== Test m285  ===
+Solution: sat(all(1-2,not(win))): 0.97
+Time: .156092013
+=== Test m286  ===
+Solution: sat(all(2-2,8)): 0.33333333
+Time: .174072924
+=== Test m287  ===
+Solution: sat(all(taken,q)): 0
+Time: .207235683
+=== Test m288  ===
+Solution: sat(nth(1,5-8,letter)): 0.9
+Time: .156623404
+=== Test m29  ===
+Solution: sat(and(exactly(2,2-3,blue),exactly(1,2-3,black))): 0.21428571
+Time: .371430870
+=== Test m290  ===
+Solution: sat(all(3-4,green)): 0.3
+Time: .156859031
+=== Test m291  ===
+Solution: sat(all(3-2,blue)): 0.2
+Time: .187066405
+=== Test m292  ===
+Solution: sat(all_same(3-2,colour)): 0.46666667
+Time: .196453862
+=== Test m293  ===
+Solution: sat(all_diff(3-2,colour)): 0.53333333
+Time: .194386193
+=== Test m294  ===
+Solution: sat(and(some(3-18,b),some(3-18,4))): 0.083333333
+Time: .283906797
+=== Test m295  ===
+Solution: sat(none(2-6,water)): 0.57894737
+Time: .186489883
+=== Test m296  ===
+Solution: sat(all(2-6,or(rock,country))): 0.75
+Time: .187521981
+=== Test m297  ===
+Solution: sat(all(1-2,not(red))): 0.75
+Time: .186065909
+=== Test m298  ===
+Solution: sat(aggcmp(2-15,outcome(0),sum,<,4)): 0.375
+Time: .299728714
+=== Test m299  ===
+Solution: sat(none(2-6,red)): 0.58333333
+Time: .175845579
+=== Test m3  ===
+Solution: sat(all(2-8,white)): 0.25
+Time: .192711110
+=== Test m30  ===
+Solution: sat(and(exactly(1,2-3,black),exactly(2,2-3,blue))): 0.19753086
+Time: .266795168
+=== Test m300  ===
+Solution: sat(all(5-10,5)): 0.25
+Time: .192323545
+=== Test m301  ===
+Solution: sat(all(4-8,purple)): 0.125
+Time: .210955083
+=== Test m302  ===
+Solution: sat(nth(2,5-4,s)): 0.3
+Time: .219780093
+=== Test m303  ===
+Solution: sat(all(1-21,or(2,is_odd))): 0.66666667
+Time: .216602298
+=== Test m304  ===
+Solution: sat(all(2-11,lose)): 0.378
+Time: .172916779
+=== Test m305  ===
+Solution: sat(atleast(1,1-5,boy)): 0.9375
+Time: .213870991
+=== Test m306  ===
+Solution: sat(all(1-2,spade7)): 0.019230769
+Time: .159668100
+=== Test m307  ===
+Solution: sat(all(1-2,7)): 0.076923077
+Time: .158104961
+=== Test m309  ===
+Solution: sat(all(1-2,heart)): 0.25
+Time: .162312660
+=== Test m31  ===
+Solution: sat(exactly(2,1-4,tails)): 0.25
+Time: .177138318
+=== Test m310  ===
+Solution: sat(all(1-2,or(king,queen))): 0.15384615
+Time: .182229351
+=== Test m312  ===
+Solution: sat(all(2-9,and(not(o),not(negative)))): 0.53
+Time: .201583828
+=== Test m313  ===
+Solution: sat(all(2-9,or(brown,black))): 0.68
+Time: .201553566
+=== Test m314  ===
+Solution: sat(and(none(2-9,final),none(2-9,entire))): 0.35714286
+Time: .209771614
+=== Test m315  ===
+Solution: sat(nth(2,1-3,heart)): 0.23529412
+Time: .175211828
+=== Test m316  ===
+Solution: sat(nth(2,1-2,black)): 0.49019608
+Time: .213338924
+=== Test m317  ===
+Solution: sat(all(1-3,diamond)): 0.00049519808
+Time: .336831109
+=== Test m318  ===
+Solution: sat(all_same(1-3,suit)): 0.0019807923
+Time: 2.603468950
+=== Test m319  ===
+Solution: sat(nth(5,1-2,diamond)): 0.1875
+Time: .263819266
+=== Test m32  ===
+Solution: sat(atleast(1,1-5,head)): 0.96875
+Time: .237318199
+=== Test m320  ===
+Solution: sat(all(1-2,black)): 0.28571429
+Time: .187889947
+=== Test m321  ===
+Solution: sat(and(nth(1,1-2,black),nth(2,1-2,white))): 0.28571429
+Time: .186211856
+=== Test m322  ===
+Solution: sat(all(3-6,beagle)): 0.3
+Time: .200441169
+=== Test m323  ===
+Solution: sat(all(3-6,beagle)): 0.16666667
+Time: .223926280
+=== Test m324  ===
+Solution: sat(all(3-6,spaniel)): 0
+Time: .225616511
+=== Test m325  ===
+Solution: sat(none(3-6,male)): 0.66666667
+Time: .220764152
+=== Test m326  ===
+Solution: sat(all(2-4,girl)): 0.25
+Time: .198043553
+=== Test m327  ===
+Solution: sat(all(2-4,girl)): 0.25
+Time: .197894875
+=== Test m328  ===
+Solution: sat(all(2-4,girl)): 0.25
+Time: .207974294
+=== Test m33  ===
+Solution: sat(or(aggcmp(1-40,outcome(0),sum,<,5),aggcmp(1-40,outcome(0),sum,is_odd))): 0.83333333
+Time: .249878331
+=== Test m331  ===
+Solution:
+Time: .133664272
+=== Test m332  ===
+Solution: sat(all(2-6,nut)): 0.021978022
+Time: .332665628
+=== Test m336  ===
+Solution: sat(nth(1,1-2,king)): 0.076923077
+Time: .158007281
+=== Test m337  ===
+Solution: sat(nth(2,1-2,king)): 0.058823529
+Time: .179159750
+=== Test m338  ===
+Solution: sat(and(nth(1,1-2,king),nth(2,1-2,queen))): 0.0060331825
+Time: .228658119
+=== Test m339  ===
+Solution: sat(and(nth(1,1-2,jack),nth(2,1-2,queen))): 0.0059171598
+Time: .187248528
+=== Test m34  ===
+Solution: sat(and(exactly(2,2-3,chocobar),exactly(1,2-3,cream))): 0.42857143
+Time: .230039401
+=== Test m340  ===
+Solution: sat(and(nth(1,1-2,or(six,seven)),nth(2,1-2,or(eight,nine)))): 0.02413273
+Time: .349950485
+=== Test m341  ===
+Solution: sat(nth(2,2-2,green)): 0.44444444
+Time: .197884059
+=== Test m342  ===
+Solution: sat(and(nth(1,2-2,white),nth(2,2-2,red))): 0.066666667
+Time: .265943463
+=== Test m343  ===
+Solution: sat(all(2-2,red)): 0.022222222
+Time: .271377237
+=== Test m344  ===
+Solution: sat(and(nth(1,2-2,or(red,white)),nth(2,2-2,or(green,blue)))): 0.27777778
+Time: .272955461
+=== Test m345  ===
+Solution: sat(and(nth(1,2-2,white),nth(2,2-2,or(blue,white)))): 0.1
+Time: .268889099
+=== Test m348  ===
+Solution: sat(all(2-8,is_prime)): 0.16
+Time: .650903553
+=== Test m349  ===
+Solution: sat(and(nth(1,2-8,or(4,5)),nth(2,2-8,and(is_even,is_prime)))): 0.022222222
+Time: .947113616
+=== Test m350  ===
+Solution: sat(all(1-2,black_king)): 0.038461538
+Time: .164416347
+=== Test m351  ===
+Solution: sat(all(1-2,white)): 0
+Time: .154815909
+=== Test m352  ===
+Solution: sat(all(1-2,club)): 0.25
+Time: .162991647
+=== Test m353  ===
+Solution: sat(all(1-2,heart)): 0.25
+Time: .162315349
+=== Test m354  ===
+Solution: sat(all(1-2,or(spade,diamond))): 0.5
+Time: .184516170
+=== Test m355  ===
+Solution: sat(all(1-2,or(club,heart))): 0.5
+Time: .182458958
+=== Test m356  ===
+Solution: sat(all(1-2,or(10,black))): 0.53846154
+Time: .211726983
+=== Test m357  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>,5)): 0.61538462
+Time: .504354440
+=== Test m358  ===
+Solution: sat(all(1-2,picture)): 0.23076923
+Time: .163277801
+=== Test m359  ===
+Solution: sat(all(1-2,red_ace)): 0.038461538
+Time: .163033254
+=== Test m360  ===
+Solution: sat(all(2-2,red)): 0.21428571
+Time: .191014013
+=== Test m361  ===
+Solution: sat(all(2-9,red)): 0.21428571
+Time: .189578507
+=== Test m362  ===
+Solution: sat(and(all(2-9,green),all(2-18,red))): 0.25
+Time: .181309230
+=== Test m363  ===
+Solution: sat(all(2-8,j)): 0.076923077
+Time: .159959333
+=== Test m364  ===
+Solution: sat(and(nth(1,2-8,heart),nth(2,2-8,club))): 0.0625
+Time: .188981975
+=== Test m365  ===
+Solution: sat(all(1-19,ace)): 0.0045248869
+Time: .197625687
+=== Test m366  ===
+Solution: sat(all_same(2-9,suit)): 0.010564226
+Time: 1.221381727
+=== Test m368  ===
+Solution: sat(all(1-22,6)): 0.00077160494
+Time: 1.546840338
+=== Test m369  ===
+Solution: sat(all(1-22,6)): 0.16666667
+Time: .205833173
+=== Test m37  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>=,5)): 0.98148148
+Time: .892137005
+=== Test m370  ===
+Solution: sat(and(all(3-13,is_even),all(3-6,5))): 0.083333333
+Time: .257568167
+=== Test m371  ===
+Solution: sat(atleast(1,3-5,u)): 0.57142857
+Time: .218318489
+=== Test m374  ===
+Solution: Timeout exceeded
+Time: 60.126801717
+=== Test m376  ===
+Solution: sat(exactly(2,1-22,1)): 0.069444444
+Time: .702265077
+=== Test m377  ===
+Solution: sat(exactly(3,1-4,tails)): 0.2734375
+Time: .299675125
+=== Test m378  ===
+Solution: sat(and(exactly(2,1-5,red),exactly(1,1-5,black))): 0.1
+Time: .341735850
+=== Test m379  ===
+Solution: sat(aggcmp(1-8,money,sum,=:=,0.85)): 0.3968254
+Time: .348627196
+=== Test m38  ===
+Solution: sat(and(aggcmp(1-21,outcome(0),sum,is_odd),aggcmp(1-21,outcome(0),sum,>,8))): 0.16666667
+Time: .412761540
+=== Test m380  ===
+Solution: sat(and(exactly(1,2-6,boy),exactly(1,2-6,girl))): 0.53030303
+Time: .194658230
+=== Test m381  ===
+Solution: sat(exactly(3,1-4,make)): 0.1536
+Time: .221649517
+=== Test m385  ===
+Solution: sat(and(atleast(1,1-2,adam),all(1-2,not(billy)))): 0.20454545
+Time: .271077698
+=== Test m387  ===
+Solution: sat(atleast(2,1-5,head)): 0.8125
+Time: .240078259
+=== Test m388  ===
+Solution: sat(aggcmp(1-21,outcome(0),product,>=,20)): 0.22222222
+Time: .398983994
+=== Test m39  ===
+Solution: sat(aggcmp(3-4,outcome(0),sum,is_even)): 0.5
+Time: .310598091
+=== Test m393  ===
+Solution: sat(all_same(2-6,colour)): 0.28787879
+Time: .239615435
+=== Test m4  ===
+Solution: sat(all(1-2,red)): 0.4
+Time: .173681330
+=== Test m40  ===
+Solution: sat(and(nth(1,2-2,chip),nth(2,2-2,oatmeal))): 0.28571429
+Time: .185637482
+=== Test m401  ===
+Solution: sat(or(exactly(4,1-8,tails),or(exactly(5,1-8,tails),exactly(6,1-8,tails)))): 0.4921875
+Time: .335686697
+=== Test m402  ===
+Solution: sat(all(2-9,black)): 0.32967033
+Time: .224149390
+=== Test m403  ===
+Solution:
+Time: .131911722
+=== Test m407  ===
+Solution: sat(all(1-5,or(hearts_numbered,diamonds_numbered))): 0.11538462
+Time: .241802582
+=== Test m41  ===
+Solution: sat(atleast(1,1-2,club)): 0.58647059
+Time: .230127075
+=== Test m414  ===
+Solution: sat(exactly(3,1-3,land)): 0.2731291
+Time: .382150045
+=== Test m415  ===
+Solution: sat(and(nth(1,1-10,face),nth(2,1-10,spade))): 0.057692308
+Time: .292318531
+=== Test m418  ===
+Solution: sat(or(exactly(2,1-5,heart),or(exactly(2,1-5,club),or(exactly(2,1-5,spade),exactly(2,1-5,diamond))))): 0.55058824
+Time: .723781082
+=== Test m42  ===
+Solution: sat(and(nth(1,1-23,or(1,or(2,3))),nth(2,1-23,or(5,6)))): 0.16666667
+Time: .245843462
+=== Test m420  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,is_prime)): 0.34285714
+Time: 2.413483364
+=== Test m421  ===
+Solution: sat(all(1-35,or(and(a,and(b,c)),and(not(a),and(not(b),not(c)))))): 0.083333333
+Time: .615591243
+=== Test m424  ===
+Solution: sat(aggcmp(2-15,outcome(0),sum,>,4)): 0.1875
+Time: .225272455
+=== Test m425  ===
+Solution: sat(aggcmp(1-8,outcome(0),sum,>,5)): 0.375
+Time: .267326423
+=== Test m426  ===
+Solution: sat(aggcmp(2-10,outcome(0),sum,<,6)): 0.21
+Time: .901885001
+=== Test m427  ===
+Solution: sat(all(1-8,or(2,5))): 0.33333333
+Time: .214859106
+=== Test m428  ===
+Solution: sat(all(2-4,or(a,b))): 0.53333333
+Time: .186645305
+=== Test m429  ===
+Solution: sat(all(2-4,or(a,or(b,c)))): 0.64444444
+Time: .194443562
+=== Test m430  ===
+Solution: sat(all(2-4,not(or(a,or(b,c))))): 0.35555556
+Time: .199895267
+=== Test m431  ===
+Solution: sat(all(2-4,not(or(a,b)))): 0.46666667
+Time: .190915598
+=== Test m432  ===
+Solution: sat(exactly(2,1-21,5)): 0.027777778
+Time: .326662591
+=== Test m433  ===
+Solution: sat(and(some(2-34,j),some(2-34,r))): 0.033333333
+Time: .428311940
+=== Test m434  ===
+Solution: sat(all(2-34,l)): 0.033333333
+Time: .359205405
+=== Test m435  ===
+Solution: sat(all(2-34,vowel)): 0.2
+Time: .265288417
+=== Test m436  ===
+Solution: sat(and(nth(1,2-2,5),nth(2,2-2,5))): 0.090909091
+Time: .218813175
+=== Test m437  ===
+Solution: sat(and(nth(1,2-2,red),nth(2,2-2,blue))): 0.14285714
+Time: .218487430
+=== Test m438  ===
+Solution: sat(and(nth(1,2-2,blue),nth(2,2-2,blue))): 0.095238095
+Time: .215089468
+=== Test m439  ===
+Solution: sat(and(nth(1,2-4,pen),nth(2,2-4,marker))): 0.2
+Time: .214698664
+=== Test m44  ===
+Solution: sat(and(all(ab,win),all(cd,not(win)))): 0.25714286
+Time: .182655659
+=== Test m440  ===
+Solution: sat(and(nth(1,2-4,red),nth(2,2-4,red))): 0.090909091
+Time: .186501053
+=== Test m441  ===
+Solution: sat(all(1-3,6)): 0.027777778
+Time: .309941334
+=== Test m442  ===
+Solution: sat(all(2-6,female)): 0.16666667
+Time: .186250835
+=== Test m443  ===
+Solution: sat(all(2-4,l)): 0.4
+Time: .182356465
+=== Test m444  ===
+Solution: sat(all(1-33,alive)): 0.35
+Time: .193357856
+=== Test m445  ===
+Solution: sat(and(nth(1,1-21,or(4,5)),nth(2,1-21,or(or(1,2),3)))): 0.16666667
+Time: .256640723
+=== Test m446  ===
+Solution: sat(and(nth(1,1-2,white),nth(2,1-2,red))): 0.28571429
+Time: .185740245
+=== Test m447  ===
+Solution: sat(all(1-2,red)): 0.14285714
+Time: .189691722
+=== Test m448  ===
+Solution: sat(and(nth(1,2-6,white),and(nth(2,2-6,black),nth(3,2-6,green)))): 0.041666667
+Time: .323292805
+=== Test m449  ===
+Solution: sat(all(4-4,second)): 0.75
+Time: .193498842
+=== Test m45  ===
+Solution: sat(and(all(1-5-1,8),all(1-5-0,7))): 0.011111111
+Time: .313433384
+=== Test m451  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>,9)): 0.33333333
+Time: .303676968
+=== Test m452  ===
+Solution: sat(aggcmp(1-6,outcome(0),sum,<,4)): 0.66666667
+Time: .271425758
+=== Test m453  ===
+Solution: sat(all(1-6,1)): 0.33333333
+Time: .266427347
+=== Test m454  ===
+Solution: sat(all(1-2,3)): 0.33333333
+Time: .267587242
+=== Test m455  ===
+Solution: sat(all(3-7,spanish)): 0.375
+Time: .189148831
+=== Test m456  ===
+Solution: sat(nth(2,1-2,ace)): 0.058823529
+Time: .177067998
+=== Test m457  ===
+Solution: sat(nth(2,1-2,red_face)): 0.098039216
+Time: .178399902
+=== Test m458  ===
+Solution: sat(all(1-4,not(white))): 0.75
+Time: .155748576
+=== Test m459  ===
+Solution: sat(all(3-6,blue)): 0.6
+Time: .156086021
+=== Test m46  ===
+Solution: sat(all(home,laptop)): 0.62
+Time: .188816609
+=== Test m461  ===
+Solution: sat(all(3-6,not(ace))): 0.92307692
+Time: .155910652
+=== Test m462  ===
+Solution: sat(all(2-9,red)): 0.25
+Time: .158599161
+=== Test m463  ===
+Solution: sat(none(2-9,red)): 0.75
+Time: .158043769
+=== Test m464  ===
+Solution: sat(all(1-5,not(5))): 0.83333333
+Time: .219792530
+=== Test m465  ===
+Solution: sat(all(2-6,not(white))): 0.5
+Time: .157771764
+=== Test m466  ===
+Solution: sat(and(none(1-4,jack),none(1-4,king))): 0.84615385
+Time: .187325533
+=== Test m467  ===
+Solution: sat(and(nth(1,1-2,king),nth(2,1-2,queen))): 0.0060331825
+Time: .233338500
+=== Test m468  ===
+Solution: sat(all(2-4,a)): 0.0087719298
+Time: .226851871
+=== Test m469  ===
+Solution: sat(nth(2,2-2,blue)): 0.44444444
+Time: .173653899
+=== Test m470  ===
+Solution: sat(all(1-5,king)): 0.0045248869
+Time: .197143701
+=== Test m471  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>,7)): 0.66666667
+Time: .300869903
+=== Test m473  ===
+Solution: sat(aggcmp(4-6,outcome(0),sum,is_even)): 0.46666667
+Time: .309342013
+=== Test m474  ===
+Solution: sat(none(4-8,blue)): 0.46666667
+Time: .159190441
+=== Test m475  ===
+Solution: sat(all(1-2,red)): 0.25
+Time: .201546479
+=== Test m476  ===
+Solution: sat(and(nth(1,1-2,white),nth(2,1-2,blue))): 0.0625
+Time: .180073300
+=== Test m477  ===
+Solution: sat(and(nth(1,1-2,white),nth(2,1-2,red))): 0.125
+Time: .180576005
+=== Test m478  ===
+Solution: sat(all(1-2,not(blue))): 0.5625
+Time: .200778722
+=== Test m479  ===
+Solution: sat(exactly(3,2-2,black)): 0.068627451
+Time: .349610337
+=== Test m48  ===
+Solution: sat(all(2-9,and(not(bike),not(jog)))): 0.37
+Time: .197717306
+=== Test m480  ===
+Solution: sat(exactly(3,2-2,white)): 0.024509804
+Time: .338328977
+=== Test m481  ===
+Solution: sat(and(and(nth(1,2-2,white),nth(2,2-2,black)),nth(3,2-2,black))): 0.068627451
+Time: .327479001
+=== Test m482  ===
+Solution: sat(and(nth(1,2-2,red),and(nth(2,2-2,black),nth(3,2-2,white)))): 0.039215686
+Time: .334974054
+=== Test m483  ===
+Solution: sat(and(exactly(1,2-2,red),exactly(2,2-2,white))): 0.073529412
+Time: .374108060
+=== Test m484  ===
+Solution: sat(all(2-4,80)): 0.63518673
+Time: .194664155
+=== Test m485  ===
+Solution: sat(exactly(2,1-4,head)): 0.5
+Time: .203812317
+=== Test m486  ===
+Solution: sat(exactly(2,1-4,head)): 0.25
+Time: .199347182
+=== Test m487  ===
+Solution: sat(exactly(2,1-4,head)): 0.5
+Time: .208853870
+=== Test m488  ===
+Solution: sat(exactly(2,1-4,head)): 0
+Time: .205182087
+=== Test m489  ===
+Solution: sat(exactly(2,1-4,head)): 0.5
+Time: .210531938
+=== Test m49  ===
+Solution: sat(and(exactly(2,1-2,black),exactly(3,1-2,and(red,face)))): 0.0025010004
+Time: 3.921546342
+=== Test m490  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>,7)): 0.5
+Time: .302178492
+=== Test m491  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>,7)): 0.66666667
+Time: .381783547
+=== Test m492  ===
+Solution: sat(aggcmp(1-20,outcome(0),sum,>,7)): 0
+Time: .295857402
+=== Test m493  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,>,7)): 0.25
+Time: .450081550
+=== Test m494  ===
+Solution: sat(exactly(2,1-24,2)): 0.3
+Time: .662764285
+=== Test m495  ===
+Solution: sat(nth(2,1-2,red)): 0.5
+Time: .182441367
+=== Test m496  ===
+Solution: sat(all(4-4,dartmouth)): 0.66666667
+Time: .210125095
+=== Test m497  ===
+Solution: sat(all(1-2,not(2))): 0.83333333
+Time: .216191465
+=== Test m498  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,is_even)): 0.5
+Time: .407859512
+=== Test m50  ===
+Solution: sat(all(3-6,eastern)): 0.34615385
+Time: .206693938
+=== Test m500  ===
+Solution: sat(none(1-5,skirt)): 0.57142857
+Time: .157567539
+=== Test m501  ===
+Solution: sat(none(2-3,green)): 0.80526316
+Time: .236097058
+=== Test m502  ===
+Solution: sat(aggcmp(1-8,outcome(0),sum,is_odd)): 0.5
+Time: .303824001
+=== Test m503  ===
+Solution: sat(all(1-7,and(not(1),not(5)))): 0.66666667
+Time: .227190408
+=== Test m504  ===
+Solution: sat(all(1-5,not(diamond))): 0.75
+Time: .184318545
+=== Test m505  ===
+Solution: sat(all(1-2,not(6))): 0.83333333
+Time: .215311986
+=== Test m506  ===
+Solution: sat(none(2-5,white)): 0.5
+Time: .158262441
+=== Test m507  ===
+Solution: sat(all(1-2,not(5))): 0.5787037
+Time: .766674501
+=== Test m508  ===
+Solution: sat(aggcmp(1-22,outcome(0),sum,is_odd)): 0.5
+Time: .247398927
+=== Test m51  ===
+Solution: sat(and(and(nth(1,2-5,head),nth(2,2-5,head)),nth(3,2-5,tails))): 0.14648438
+Time: .178111256
+=== Test m510  ===
+Solution: sat(none(1-5,bear)): 0.42857143
+Time: .158337352
+=== Test m511  ===
+Solution: sat(all(2-3,not(blue))): 0.071428571
+Time: .515602739
+=== Test m513  ===
+Solution: sat(all(1-6,and(not(3),not(6)))): 0.44444444
+Time: .340275219
+=== Test m514  ===
+Solution: sat(none(1-3,ace)): 0.92307692
+Time: .161545466
+=== Test m515  ===
+Solution: sat(all(1-2,not(2))): 0.75
+Time: .186613096
+=== Test m516  ===
+Solution: sat(none(2-5,purple)): 0.36842105
+Time: .158172767
+=== Test m517  ===
+Solution: sat(all(1-2,not(3))): 0.48225309
+Time: 2.144887257
+=== Test m518  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,is_even)): 0.5
+Time: .894325339
+=== Test m520  ===
+Solution: sat(none(2-10,suit)): 0.41176471
+Time: .158778971
+=== Test m521  ===
+Solution: sat(none(2-3,red)): 0.00010206512
+Time: 5.669131132
+=== Test m523  ===
+Solution: sat(some(1-6,and(not(2),not(4)))): 0.96296296
+Time: .682651495
+=== Test m524  ===
+Solution: sat(all(1-5,not(black))): 0.5
+Time: .157190051
+=== Test m525  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,=\=,6)): 0.86111111
+Time: .401797867
+=== Test m526  ===
+Solution: sat(none(2-3,brown)): 0.4
+Time: .158247478
+=== Test m527  ===
+Solution: sat(all(1-3,not(1))): 0.69444444
+Time: .353146915
+=== Test m528  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,is_odd)): 0.5
+Time: 2.624243420
+=== Test m53  ===
+Solution: sat(all(person,disease)): 0.2044335
+Time: .199709273
+=== Test m530  ===
+Solution: sat(none(1-5,shirt)): 0.6
+Time: .160383612
+=== Test m531  ===
+Solution: sat(none(2-2,blue)): 0.75
+Time: .173437748
+=== Test m533  ===
+Solution: sat(all(1-6,and(not(3),not(6)))): 0.66666667
+Time: .224464723
+=== Test m534  ===
+Solution: sat(all(1-5,not(hearts))): 0.75
+Time: .186366548
+=== Test m535  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,=\=,5)): 0.99691358
+Time: 2.683059941
+=== Test m536  ===
+Solution: sat(none(2-3,milk)): 0.6875
+Time: .159583476
+=== Test m537  ===
+Solution: sat(all(1-2,not(2))): 0.83333333
+Time: .215140438
+=== Test m538  ===
+Solution: sat(aggcmp(1-21,outcome(0),sum,is_even)): 0.5
+Time: .406949236
+=== Test m54  ===
+Solution: sat(and(exactly(2,1-4,diamond),exactly(3,1-4,black))): 0.078031212
+Time: 1.045110872
+=== Test m540  ===
+Solution: sat(none(1-5,pastry)): 0.54545455
+Time: .156783780
+=== Test m541  ===
+Solution: sat(none(3-2,pink)): 0.66666667
+Time: .177359419
+=== Test m542  ===
+Solution: sat(aggcmp(1-8,outcome(0),sum,is_odd)): 0.5
+Time: .681911693
+=== Test m543  ===
+Solution: sat(all(1-8,and(not(2),not(4)))): 0.66666667
+Time: .224010707
+=== Test m544  ===
+Solution: sat(all(3-6,not(club))): 0.75
+Time: .185142573
+=== Test m545  ===
+Solution: sat(aggcmp(1-2,outcome(0),sum,=\=,6)): 0.86111111
+Time: .408212244
+=== Test m546  ===
+Solution: sat(none(2-3,rose)): 0.5
+Time: .159039260
+=== Test m547  ===
+Solution: sat(aggcmp(1-6,outcome(0),sum,>=,9)): 0.27777778
+Time: .405101603
+=== Test m548  ===
+Solution: sat(aggcmp(1-6,outcome(0),sum,=:=,7)): 0.16666667
+Time: .409348286
+=== Test m549  ===
+Solution: sat(all(2-2,dot)): 0.25
+Time: .198200023
+=== Test m55  ===
+Solution: sat(all(person,not(disease))): 0.73764259
+Time: .198063456
+=== Test m550  ===
+Solution: sat(and(nth(1,2-2,black),nth(2,2-2,dot))): 0.16666667
+Time: .181061799
+=== Test m551  ===
+Solution: sat(and(exactly(1,2-2,black),exactly(1,2-2,stripe))): 0.11111111
+Time: .213841703
+=== Test m552  ===
+Solution: sat(all(1-2,or(ace,king))): 0.15384615
+Time: .183028760
+=== Test m554  ===
+Solution: sat(exactly(6,1-5,head)): 0.1640625
+Time: .388843503
+=== Test m555  ===
+Solution: sat(exactly(1,1-2,head)): 0.375
+Time: .199587448
+=== Test m556  ===
+Solution: sat(atleast(1,1-2,head)): 0.875
+Time: .193846711
+=== Test m557  ===
+Solution: sat(all(4-6,positive)): 0.32871972
+Time: .210430139
+=== Test m558  ===
+Solution: sat(and(exactly(1,2-2,green),exactly(1,2-2,red))): 0.10526316
+Time: .307193746
+=== Test m559  ===
+Solution: sat(and(exactly(1,2-2,blue),exactly(1,2-2,yellow))): 0.052631579
+Time: .306247330
+=== Test m56  ===
+Solution: sat(exactly(1,1-5,heart)): 0.41141957
+Time: .336964008
+=== Test m561  ===
+Solution: sat(exactly(1,3-9,hit)): 0.4
+Time: .196179839
+=== Test m562  ===
+Solution: sat(none(3-9,hit)): 0.525
+Time: .192493542
+=== Test m563  ===
+Solution: sat(all(3-9,hit)): 0.075
+Time: .192966084
+=== Test m565  ===
+Solution: sat(all(1-4,face)): 0.049773756
+Time: .192257739
+=== Test m566  ===
+Solution: sat(all(3-9,hearts)): 0.058823529
+Time: .196114143
+=== Test m567  ===
+Solution: sat(and(all(2-15,banana),all(3-23,apple))): 0.030991736
+Time: .259123788
+=== Test m568  ===
+Solution: sat(all(2-19,or(mango,orange))): 0.15909091
+Time: .229860019
+=== Test m569  ===
+Solution: sat(all(2-2,blue)): 0.2804878
+Time: .187467416
+=== Test m57  ===
+Solution: sat(atleast(1,2-5,hearts)): 0.77846639
+Time: .335644219
+=== Test m570  ===
+Solution: sat(none(2-2,green)): 0.36363636
+Time: .161217576
+=== Test m571  ===
+Solution: sat(all(2-2,or(violet,yellow))): 0.90163934
+Time: .178477669
+=== Test m572  ===
+Solution: sat(all(2-2,yellow)): 0.20895522
+Time: .184888504
+=== Test m573  ===
+Solution: sat(all(2-2,or(green,blue))): 0.85714286
+Time: .179647998
+=== Test m574  ===
+Solution: sat(all(2-2,or(yellow,violet))): 0.88679245
+Time: .181370349
+=== Test m575  ===
+Solution: sat(all(2-2,or(green,blue))): 0.75
+Time: .180753430
+=== Test m576  ===
+Solution: sat(all(2-7,chore)): 0.74545455
+Time: .191413035
+=== Test m577  ===
+Solution: sat(all(3-7,japanese)): 0.17777778
+Time: .190190069
+=== Test m578  ===
+Solution: sat(all(2-6,1)): 0.2
+Time: .197169707
+=== Test m579  ===
+Solution: sat(aggcmp(2-6,outcome(0),sum,>,4)): 0.3
+Time: .246349722
+=== Test m58  ===
+Solution: sat(all(3-10,a)): 0.27540984
+Time: .209157998
+=== Test m580  ===
+Solution: sat(aggcmp(2-6,outcome(0),sum,>,5)): 0.2
+Time: .246280938
+=== Test m581  ===
+Solution: sat(all(3-6,geography)): 0.34722222
+Time: .190750634
+=== Test m582  ===
+Solution: sat(all(1-2,two)): 0.16666667
+Time: .259156104
+=== Test m583  ===
+Solution: sat(all(3-3,age85)): 0.86666667
+Time: .193104096
+=== Test m586  ===
+Solution: sat(and(nth(1,2-8,blueberry),nth(2,2-8,elderberry))): 0.047619048
+Time: .270959360
+=== Test m588  ===
+Solution: sat(all(1-22,black)): 0.17460317
+Time: .191595318
+=== Test m589  ===
+Solution: sat(all(2-16,club)): 0.0026410564
+Time: .276374274
+=== Test m59  ===
+Solution: sat(exactly(5,1-2,male)): 0.11919505
+Time: .510264751
+=== Test m590  ===
+Solution: sat(all(5-9,and(not(conditioning),not(brakes)))): 0.32
+Time: .211495906
+=== Test m591  ===
+Solution: sat(none(2-2,tennis)): 0.3
+Time: .202734580
+=== Test m592  ===
+Solution: sat(all(2-2,or(or(tennis,squash),and(tennis,squash)))): 0.9
+Time: .213997611
+=== Test m593  ===
+Solution: sat(all(2-7,tennis)): 0.46666667
+Time: .221208672
+=== Test m594  ===
+Solution: sat(and(all(4-4,punctual),none(4-4,burnt))): 0.63
+Time: .198844228
+=== Test m595  ===
+Solution: sat(all(4-4,burnt)): 0.31
+Time: .189009004
+=== Test m596  ===
+Solution: sat(all_diff(2-2,colour)): 0.49382716
+Time: .182382146
+=== Test m597  ===
+Solution: sat(none(5-7,vaccinate)): 0.17
+Time: .259582283
+=== Test m598  ===
+Solution: sat(none(5-7,white)): 0.76
+Time: .263465465
+=== Test m599  ===
+Solution: sat(none(5-7,male)): 0.61
+Time: .258075712
+=== Test m6  ===
+Solution: sat(all(2-6,asparagus)): 0.2
+Time: .156187183
+=== Test m60  ===
+Solution: sat(atleast(3,1-2,glass)): 0.82142857
+Time: .302391575
+=== Test m600  ===
+Solution: sat(and(nth(1,2-2,black),nth(2,2-2,yellow))): 0.16666667
+Time: .202414250
+=== Test m601  ===
+Solution: sat(none(2-2,black)): 0.33333333
+Time: .204815042
+=== Test m602  ===
+Solution: sat(all_same(1-20,outcome(0))): 0.25
+Time: .239656295
+=== Test m603  ===
+Solution: sat(and(nth(1,1-20,red),nth(2,1-20,red))): 0.0625
+Time: .189949272
+=== Test m604  ===
+Solution: sat(all_diff(1-20,outcome(0))): 0.75
+Time: .250022056
+=== Test m605  ===
+Solution: sat(and(exactly(1,1-4,head),exactly(1,1-4,tail))): 0.5
+Time: .182035740
+=== Test m606  ===
+Solution: sat(all(1-4,head)): 0.25
+Time: .176584429
+=== Test m607  ===
+Solution: sat(all_same(1-4,outcome(0))): 0.5
+Time: .182822137
+=== Test m61  ===
+Solution: sat(or(all(2-9,math),all(2-9,physics))): 0.52941176
+Time: .194224844
+=== Test m62  ===
+Solution: sat(all(3-9,or(mathematics,science))): 0.75
+Time: .229667052
+=== Test m63  ===
+Solution: sat(all(1-5,or(blue,red))): 0.76190476
+Time: .177231188
+=== Test m64  ===
+Solution: sat(none(1-7,neighborhood)): 0.2
+Time: .159159186
+=== Test m65  ===
+Solution: sat(none(1-5,blue)): 0.3
+Time: .175691695
+=== Test m656  ===
+Solution: sat(aggcmp(2-7,outcome(0),sum,<,5)): 0.16666667
+Time: .403044930
+=== Test m659  ===
+Solution: sat(exactly(1,1-2,red)): 0.55555556
+Time: .235521205
+=== Test m66  ===
+Solution: sat(all(1-7,school)): 0.53333333
+Time: .158822969
+=== Test m660  ===
+Solution: sat(exactly(2,1-2,green)): 0.027777778
+Time: .231418495
+=== Test m661  ===
+Solution: sat(none(1-2,yellow)): 0.41666667
+Time: .234012691
+=== Test m662  ===
+Solution: sat(all_diff(1-2,colour)): 0.72222222
+Time: .248069624
+=== Test m663  ===
+Solution: sat(all(2-2,20-21)): 0.5625
+Time: .185581098
+=== Test m664  ===
+Solution: sat(all(2-2,or(18-19,20-21))): 0.90625
+Time: .191314743
+=== Test m665  ===
+Solution: sat(all(2-2,or(31-40,22-30))): 0.09375
+Time: .192539330
+=== Test m666  ===
+Solution: sat(all(2-2,or(or(18-19,20-21),22-30))): 0.96875
+Time: .195651699
+=== Test m668  ===
+Solution: sat(aggcmp(1-5,outcome(0),max,=<,4)): 0.064
+Time: 4.625858036
+=== Test m669  ===
+Solution: sat(and(exactly(2,1-5,or(1,or(2,or(3,4)))),exactly(1,1-5,10))): 0.048
+Time: 4.631281419
+=== Test m67  ===
+Solution: sat(all(2-11,shaded)): 0.5
+Time: .157810923
+=== Test m670  ===
+Solution: sat(and(exactly(1,1-5,or(2,or(4,6))),exactly(2,1-5,is_odd))): 0.225
+Time: 4.763597984
+=== Test m671  ===
+Solution: sat(all(1-5,third)): 0.22
+Time: .171181862
+=== Test m673  ===
+Solution: sat(all(3-2,college)): 0.7020202
+Time: .214072302
+=== Test m674  ===
+Solution: sat(none(3-2,college)): 0.2979798
+Time: .216712663
+=== Test m675  ===
+Solution: sat(all(3-2,and(honor_roll,not(college)))): 0.03030303
+Time: .219335748
+=== Test m676  ===
+Solution: sat(all(1-19,solve)): 0.10714286
+Time: .271337756
+=== Test m677  ===
+Solution: sat(all(1-2,hearts)): 0.0625
+Time: .180787825
+=== Test m678  ===
+Solution: sat(all(1-2,hearts)): 0.058823529
+Time: .193544868
+=== Test m68  ===
+Solution: sat(all(1-2,shaded)): 0.4
+Time: .154231933
+=== Test m683  ===
+Solution: sat(none(2-7,defective)): 0.92225496
+Time: 1.367472718
+=== Test m684  ===
+Solution: sat(some(2-7,defective)): 0.077745043
+Time: 1.363059267
+=== Test m685  ===
+Solution: sat(none(2-1,defective)): 0.25454545
+Time: .260327570
+=== Test m686  ===
+Solution: sat(exactly(2,2-1,defective)): 0.21818182
+Time: .267806670
+=== Test m687  ===
+Solution: sat(atmost(2,2-1,defective)): 0.98181818
+Time: .269832006
+=== Test m688  ===
+Solution: sat(all(2-2,or(midwest,south))): 0.6845
+Time: .186091140
+=== Test m689  ===
+Solution: sat(all(2-11,sales)): 0.012345679
+Time: .221687384
+=== Test m69  ===
+Solution: sat(all(2-6,or(rock,rap))): 0.9
+Time: .178844649
+=== Test m690  ===
+Solution: sat(none(2-11,sales)): 0.19753086
+Time: .222802813
+=== Test m691  ===
+Solution: sat(atleast(1,2-11,sales)): 0.80246914
+Time: .218456784
+=== Test m692  ===
+Solution: sat(all(1-7,boy)): 0.0625
+Time: .216055340
+=== Test m693  ===
+Solution: sat(all_same(1-7,outcome(0))): 0.125
+Time: .216722588
+=== Test m694  ===
+Solution: sat(atleast(1,1-7,boy)): 0.9375
+Time: .215075527
+=== Test m695  ===
+Solution: sat(all(3-2,college)): 0.29166667
+Time: .200793173
+=== Test m696  ===
+Solution: sat(none(3-2,college)): 0.70833333
+Time: .201918017
+=== Test m697  ===
+Solution: sat(all(3-2,and(girl,not(college)))): 0.44444444
+Time: .209556000
+=== Test m698  ===
+Solution: sat(atleast(1,1-5,boy)): 0.9375
+Time: .211416065
+=== Test m70  ===
+Solution: sat(all(2-8,apple)): 0.44444444
+Time: .155147053
+=== Test m701  ===
+Solution: sat(none(2-4,defective)): 0.97618203
+Time: .520352602
+=== Test m702  ===
+Solution: sat(all(2-4,not(rain))): 0.45
+Time: .159154140
+=== Test m704  ===
+Solution: sat(all(2-7,graduate)): 0.421875
+Time: .197002149
+=== Test m71  ===
+Solution: sat(all(1-5,spade)): 0.25
+Time: .185636420
+=== Test m712  ===
+Solution: sat(all(3-2,college)): 0.41666667
+Time: .201736269
+=== Test m713  ===
+Solution: sat(atleast(7,1-15,solve)): 0.57575758
+Time: .370190335
+=== Test m714  ===
+Solution: sat(none(2-7,defective)): 0.77337253
+Time: 5.107810160
+=== Test m715  ===
+Solution: sat(atleast(1,2-7,defective)): 0.22662747
+Time: 5.113869317
+=== Test m716  ===
+Solution: sat(all(1-7,boy)): 0.03125
+Time: .241517747
+=== Test m717  ===
+Solution: sat(all_same(1-7,outcome(0))): 0.0625
+Time: .241154866
+=== Test m72  ===
+Solution: sat(and(exactly(2,1-5,tails),exactly(1,1-5,head))): 0.375
+Time: .198828511
+=== Test m729  ===
+Solution: sat(all(2-3,red)): 0.33333333
+Time: .172049645
+=== Test m73  ===
+Solution: sat(all(2-2,black)): 0.13333333
+Time: .187476143
+=== Test m730  ===
+Solution: sat(nth(2,2-3,red)): 0.29411765
+Time: .197249528
+=== Test m731  ===
+Solution: sat(all(1-4,t)): 0.1875
+Time: .228067481
+=== Test m732  ===
+Solution: sat(none(1-9,woman)): 0.0007780725
+Time: .399753802
+=== Test m736  ===
+Solution: sat(or(all(1-2,male),all(1-2,female))): 0.030969031
+Time: .332415845
+=== Test m738  ===
+Solution: sat(all(1-5,one)): 0.027777778
+Time: .326354571
+=== Test m739  ===
+Solution: sat(and(nth(1,1-4,1),nth(2,1-4,or(or(2,4),6)))): 0.083333333
+Time: .237541607
+=== Test m74  ===
+Solution: sat(all(3-4,or(and(fiction,non-fiction),or(fiction,non-fiction)))): 0.5
+Time: .202070037
+=== Test m741  ===
+Solution: sat(and(exactly(2,2-4,woman),exactly(4,2-4,man))): 0.31674208
+Time: .426180859
+=== Test m742  ===
+Solution: sat(atmost(2,2-4,woman)): 0.43665158
+Time: .413440819
+=== Test m743  ===
+Solution: sat(more_than(2,2-4,woman)): 0.56334842
+Time: .427490417
+=== Test m75  ===
+Solution: sat(all(2-2,black)): 0.16
+Time: .178689435
+=== Test m751  ===
+Solution: sat(exactly(3,1-4,head)): 0.125
+Time: .202239401
+=== Test m752  ===
+Solution: sat(atleast(2,1-4,head)): 0.5
+Time: .199648280
+=== Test m753  ===
+Solution: sat(nth(1,1-4,tails)): 0.5
+Time: .150674153
+=== Test m754  ===
+Solution: sat(all(2-5,mathematics)): 0.4
+Time: .164272586
+=== Test m755  ===
+Solution: sat(all(2-12,six)): 0.012820513
+Time: 1.083931330
+=== Test m756  ===
+Solution: sat(all_same(1-5,outcome(0))): 0.16666667
+Time: .353123355
+=== Test m757  ===
+Solution: sat(all_diff(1-5,outcome(0))): 0.83333333
+Time: .366448637
+=== Test m758  ===
+Solution: sat(all(1-2,king)): 3.6937852e-06
+Time: .275603213
+=== Test m759  ===
+Solution: sat(all(1-2,spade)): 0.0026410564
+Time: .278000326
+=== Test m76  ===
+Solution: sat(all(1-2,or(spade,ace))): 0.30769231
+Time: .208653845
+=== Test m760  ===
+Solution: sat(all_same(1-2,colour)): 0.11044418
+Time: .276345802
+=== Test m761  ===
+Solution: sat(all_same(3-3,colour)): 0.51020408
+Time: .197087329
+=== Test m763  ===
+Solution: sat(all(1-2,man)): 0.021978022
+Time: .224147970
+=== Test m764  ===
+Solution: sat(all_same(1-21,outcome(0))): 0.16666667
+Time: .348227790
+=== Test m768  ===
+Solution: sat(all(3-5,science)): 0.44444444
+Time: .173179578
+=== Test m769  ===
+Solution: sat(none(3-5,math)): 0.77777778
+Time: .177319200
+=== Test m77  ===
+Solution: sat(all(6-4,yes)): 0.11111111
+Time: .206310001
+=== Test m770  ===
+Solution: sat(none(2-2,defective)): 0.95
+Time: .157932130
+=== Test m772  ===
+Solution: sat(none(2-2,defective)): 0.2
+Time: .218101149
+=== Test m773  ===
+Solution: sat(all(2-3,or(english,math))): 0.9
+Time: .200092047
+=== Test m774  ===
+Solution: sat(all(1-6,week-end)): 0.28571429
+Time: .159428079
+=== Test m776  ===
+Solution: sat(all(2-3,red)): 0.066666667
+Time: .192143627
+=== Test m778  ===
+Solution: sat(atleast(1,2-3,blue)): 0.19
+Time: .179116474
+=== Test m779  ===
+Solution: sat(all(2-31,or(meat,bean))): 0.85
+Time: .198118289
+=== Test m78  ===
+Solution: sat(all(2-4,and(not(1),and(not(2),not(3))))): 0.1
+Time: .197432061
+=== Test m79  ===
+Solution: sat(all_same(2-2,colour)): 0.46666667
+Time: .194165035
+=== Test m795  ===
+Solution: sat(all(3-3,pen)): 0.2
+Time: .157485878
+=== Test m796  ===
+Solution: sat(none(3-3,pen)): 0.8
+Time: .156252304
+=== Test m797  ===
+Solution: sat(none(2-2,you)): 0.6
+Time: .180213656
+=== Test m799  ===
+Solution: sat(none(2-3,not_pass)): 0.81
+Time: .176934381
+=== Test m8  ===
+Solution: sat(none(2-2,blue)): 0.47619048
+Time: .230211249
+=== Test m80  ===
+Solution: sat(more_than(1,2-2,vowel)): 0.4047619
+Time: .238658794
+=== Test m800  ===
+Solution: sat(all(2-3,defective)): 0.022222222
+Time: .189843360
+=== Test m803  ===
+Solution: sat(all(2-7,or(world,garden))): 0.6
+Time: .200217883
+=== Test m804  ===
+Solution: sat(none(2-2,red)): 0.57692308
+Time: .233654998
+=== Test m805  ===
+Solution: sat(or(all(1-2,girl),all(1-2,boy))): 0.45454545
+Time: .196503872
+=== Test m806  ===
+Solution: sat(all(2-5,or(and(full_time,student),or(full_time,student)))): 0.54
+Time: .206292318
+=== Test m807  ===
+Solution: sat(all(2-3,defective)): 0.01
+Time: .177147009
+=== Test m808  ===
+Solution: sat(none(2-3,defective)): 0.81
+Time: .180683277
+=== Test m809  ===
+Solution: sat(atleast(1,2-3,defective)): 0.19
+Time: .178867759
+=== Test m81  ===
+Solution: sat(aggcmp(1-4,outcome(0),sum,>,7)): 0.41666667
+Time: .407780293
+=== Test m810  ===
+Solution: sat(all(3-10,and(clone,printer))): 0.03
+Time: .183101447
+=== Test m811  ===
+Solution: sat(all(3-10,and(clone,not(printer)))): 0.27
+Time: .184475086
+=== Test m815  ===
+Solution: sat(all(2-5,quarters)): 0.16666667
+Time: .187714077
+=== Test m816  ===
+Solution: sat(and(all(3-4,yes),all(3-4,positive))): 0.0008
+Time: .197940951
+=== Test m817  ===
+Solution: sat(all(3-4,and(not,positive))): 0.15984
+Time: .186913321
+=== Test m818  ===
+Solution: sat(all(3-5,positive)): 0.16064
+Time: .189425471
+=== Test m819  ===
+Solution: sat(all(2-3,college)): 0.125
+Time: .187445659
+=== Test m82  ===
+Solution: sat(all_same(choice,house)): 0.11111111
+Time: .250226261
+=== Test m820  ===
+Solution: sat(and(nth(1,2-2,blue),nth(2,2-2,blue))): 0.45614035
+Time: .227466576
+=== Test m822  ===
+Solution: sat(nth(3,2-2,red)): 0.54545455
+Time: .213466305
+=== Test m824  ===
+Solution: sat(and(nth(1,test,bad),nth(2,test,bad))): 0.047619048
+Time: .185761167
+=== Test m825  ===
+Solution: sat(all(4-8,+)): 0.03475
+Time: .187391889
+=== Test m826  ===
+Solution: sat(all(2-7,woman)): 0.28571429
+Time: .187472149
+=== Test m827  ===
+Solution: sat(exactly(5,1-13,head)): 0.03125
+Time: .241981211
+=== Test m828  ===
+Solution: sat(all(3-9,gt75000)): 0.23036649
+Time: .194015643
+=== Test m829  ===
+Solution: sat(all(1-5,king)): 0.076923077
+Time: .160168448
+=== Test m83  ===
+Solution: sat(or(all(2-5,orange),all(2-5,not(defective)))): 0.72643678
+Time: .326146332
+=== Test m830  ===
+Solution: sat(all(3-9,white)): 0.73809524
+Time: .195273083
+=== Test m831  ===
+Solution: sat(atleast(1,2-12,detect)): 0.9999
+Time: .213940102
+=== Test m832  ===
+Solution: sat(all(2-10,visit)): 0.00331776
+Time: .218030099
+=== Test m833  ===
+Solution: sat(none(2-10,visit)): 0.33362176
+Time: .222326422
+=== Test m834  ===
+Solution: sat(all(2-3,left)): 0.014294294
+Time: .291658097
+=== Test m835  ===
+Solution: sat(none(2-3,left)): 0.77429429
+Time: .292840016
+=== Test m836  ===
+Solution: sat(atleast(1,2-3,left)): 0.22570571
+Time: .298222706
+=== Test m837  ===
+Solution: sat(all(3-3,fail)): 0.045454545
+Time: .188113019
+=== Test m838  ===
+Solution: sat(none(3-3,fail)): 0.54545455
+Time: .193300049
+=== Test m839  ===
+Solution: sat(atleast(1,3-3,fail)): 0.45454545
+Time: .192133924
+=== Test m84  ===
+Solution: sat(all(2-3,or(english,hindi))): 0.4
+Time: .202357610
+=== Test m840  ===
+Solution: sat(nth(1,4-15,correct)): 0.2
+Time: .178962384
+=== Test m841  ===
+Solution: sat(atleast(1,4-15,correct)): 0.488
+Time: .497505315
+=== Test m847  ===
+Solution: sat(aggcmp(1-6,outcome(0),sum,=:=,3)): 0.055555556
+Time: .400521479
+=== Test m848  ===
+Solution: sat(all(3-8,and(peanuts,milk))): 2.6666667e-05
+Time: .186320717
+=== Test m849  ===
+Solution: sat(all(3-8,and(peanuts,not(milk)))): 0.00664
+Time: .194366991
+=== Test m85  ===
+Solution: sat(none(2-3,vowel)): 0.16666667
+Time: .187284300
+=== Test m850  ===
+Solution: sat(all(3-8,and(not(peanuts),not(milk)))): 0.98936
+Time: .197122807
+=== Test m851  ===
+Solution: Timeout exceeded
+Time: 60.601666985
+=== Test m852  ===
+Solution: sat(none(4-10,fatal)): 0.77
+Time: .206557105
+=== Test m853  ===
+Solution: sat(none(4-9,fatal)): 0.89
+Time: .210035438
+=== Test m854  ===
+Solution: sat(atleast(1,4-3,peanuts)): 0.0199
+Time: .181081672
+=== Test m855  ===
+Solution: sat(some(2-12,peanuts)): 0.18209306
+Time: 1.223872708
+=== Test m858  ===
+Solution: sat(all(2-6,and(and(not(gymnastics),not(soccer)),not(baseball)))): 0.52
+Time: .288887502
+=== Test m859  ===
+Solution: sat(all(3-6,heart_disease)): 0.1728
+Time: .427188790
+=== Test m86  ===
+Solution: sat(all_same(1-20,outcome(0))): 0.0046296296
+Time: 1.702873678
+=== Test m860  ===
+Solution: sat(and(none(5-8,more_than_1),none(5-8,sport))): 0.205
+Time: .204414191
+=== Test m862  ===
+Solution: sat(all(3-4,serious)): 0.29220779
+Time: .242353469
+=== Test m863  ===
+Solution: sat(all(4-6,have)): 0.65743945
+Time: .209271578
+=== Test m864  ===
+Solution: sat(all(4-15,not(correct))): 0.512
+Time: .502077698
+=== Test m865  ===
+Solution: sat(all(4-15,correct)): 0.008
+Time: .456257273
+=== Test m866  ===
+Solution: sat(and(nth(1,4-15,correct),nth(2,4-15,correct))): 0.04
+Time: .209132254
+=== Test m867  ===
+Solution: sat(all(4-3,positive)): 0.14100719
+Time: .205689208
+=== Test m868  ===
+Solution: sat(and(all(2-3,lawyer),all(2-3,woman))): 0.27
+Time: .184141703
+=== Test m869  ===
+Solution: sat(all(3-2,and(female,advanced))): 0.1
+Time: .234938723
+=== Test m87  ===
+Solution: sat(all_diff(2-10,outcome(0))): 0.35
+Time: .194159137
+=== Test m870  ===
+Solution: sat(all(3-2,or(advanced,female))): 0.4
+Time: .259871452
+=== Test m871  ===
+Solution: sat(atleast(1,1-3,head)): 0.984375
+Time: .263980786
+=== Test m873  ===
+Solution: sat(and(exactly(1,2-12,novel),exactly(1,2-12,reference))): 0.17777778
+Time: .249486378
+=== Test m874  ===
+Solution: sat(all(2-2,woman)): 0.15151515
+Time: .190609127
+=== Test m875  ===
+Solution: sat(all(2-9,green)): 0.4
+Time: .159473587
+=== Test m876  ===
+Solution: sat(all(2-8,nickel)): 1
+Time: .146328419
+=== Test m877  ===
+Solution: sat(all(2-8,quarter)): 0.5
+Time: .157768677
+=== Test m878  ===
+Solution: sat(all(3-6,2)): 0.33333333
+Time: .165890294
+=== Test m879  ===
+Solution: sat(all(4-9,2004)): 0.6
+Time: .156690203
+=== Test m88  ===
+Solution: sat(some(3-10,solve)): 0.75
+Time: .221710251
+=== Test m880  ===
+Solution: sat(all(2-10,yellow)): 0.33333333
+Time: .175307550
+=== Test m881  ===
+Solution: sat(all(4-3,have)): 0.33333333
+Time: .207599643
+=== Test m883  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,=:=,10)): 0.083333333
+Time: .393742556
+=== Test m884  ===
+Solution: sat(all(2-2,side_effects)): 2.7e-05
+Time: .197376446
+=== Test m885  ===
+Solution: sat(none(2-2,side_effects)): 0.912673
+Time: .199582202
+=== Test m886  ===
+Solution: sat(and(all(1-10,11),all(1-6,9))): 0.16666667
+Time: .210091833
+=== Test m887  ===
+Solution: sat(none(2-3,defective)): 0.9409
+Time: .182091885
+=== Test m888  ===
+Solution: sat(all(1-6,and(not(1),not(2)))): 0.66666667
+Time: .224259969
+=== Test m889  ===
+Solution: sat(aggcmp(1-23,outcome(0),sum,>=,4)): 0.5
+Time: .248757505
+=== Test m89  ===
+Solution: sat(and(exactly(1,2-2,girl),exactly(2,2-2,boy))): 0.45652174
+Time: .238243685
+=== Test m890  ===
+Solution: sat(aggcmp(2-5,outcome(0),sum,is_even)): 0.42857143
+Time: .276529576
+=== Test m891  ===
+Solution: sat(all(2-5,3)): 0.14285714
+Time: .213754873
+=== Test m892  ===
+Solution: sat(all(2-5,not(3))): 0.85714286
+Time: .233938326
+=== Test m893  ===
+Solution: sat(all(2-10,or(white,red))): 0.625
+Time: .177674336
+=== Test m895  ===
+Solution: sat(aggcmp(1-5,outcome(0),sum,=:=,10)): 0.16666667
+Time: .301948463
+=== Test m896  ===
+Solution: sat(all(3-1,yes)): 0.1284965
+Time: .208027010
+=== Test m898  ===
+Solution: sat(and(all(2-8,yellow),all(2-13,red))): 0.15789474
+Time: .233079206
+=== Test m899  ===
+Solution: sat(and(nth(1,1-4,6),atleast(1,1-4,is_odd))): 0.14583333
+Time: 1.700923080
+=== Test m9  ===
+Solution: sat(all(2-2,and(not(red),not(green)))): 0.33333333
+Time: .170068237
+=== Test m90  ===
+Solution: sat(and(exactly(1,1-2,spade),exactly(1,1-2,hearts))): 0.12745098
+Time: .253420834
+=== Test m900  ===
+Solution: sat(and(nth(1,2-3,blue),nth(2,2-3,red))): 0.24489796
+Time: .174517327
+=== Test m902  ===
+Solution: sat(and(all(2-16,science),all(2-20,english))): 0.11428571
+Time: .227432791
+=== Test m903  ===
+Solution: sat(and(nth(1,2-9,black),nth(2,2-9,red))): 0.11634349
+Time: .184378649
+=== Test m904  ===
+Solution: sat(all(2-3,girl)): 0.25454545
+Time: .222625604
+=== Test m906  ===
+Solution: sat(and(all(2-8,blue),all(2-13,black))): 0.088235294
+Time: .228717669
+=== Test m907  ===
+Solution: sat(and(nth(1,2-3,red),nth(2,2-3,brown))): 0.24793388
+Time: .171122421
+=== Test m908  ===
+Solution: sat(and(nth(1,2-9,brown),nth(2,2-9,black))): 0.10666667
+Time: .182862841
+=== Test m909  ===
+Solution: sat(all(2-3,student)): 0.55263158
+Time: .190849237
+=== Test m91  ===
+Solution: sat(none(2-4,defective)): 0.083333333
+Time: .301322216
+=== Test m910  ===
+Solution: sat(and(all(2-8,green),all(2-13,black))): 0.12543554
+Time: .229386044
+=== Test m911  ===
+Solution: sat(and(nth(1,2-3,blue),nth(2,2-3,grey))): 0.244375
+Time: .171526553
+=== Test m912  ===
+Solution: sat(and(nth(1,2-5,biology),nth(2,2-5,economics))): 0.14736842
+Time: .220806418
+=== Test m913  ===
+Solution: sat(and(nth(1,2-9,green),nth(2,2-9,white))): 0.098765432
+Time: .182843219
+=== Test m914  ===
+Solution: sat(all(2-3,worker)): 0.17679256
+Time: .273672316
+=== Test m915  ===
+Solution: sat(and(nth(1,2-3,pink),nth(2,2-3,purple))): 0.24543462
+Time: .169415943
+=== Test m916  ===
+Solution: sat(and(nth(1,2-5,hindi),nth(2,2-5,civics))): 0.083076923
+Time: .222123428
+=== Test m917  ===
+Solution: sat(and(nth(1,2-9,red),nth(2,2-9,saffron))): 0.089497041
+Time: .183536501
+=== Test m918  ===
+Solution: sat(all(2-3,player)): 0.42130435
+Time: .224182482
+=== Test m919  ===
+Solution: sat(and(all(2-8,red),all(2-13,blue))): 0.15238095
+Time: .229558572
+=== Test m92  ===
+Solution: sat(all(3-10,selection)): 0.031746032
+Time: .190080070
+=== Test m920  ===
+Solution: sat(and(nth(1,2-3,pink),nth(2,2-3,black))): 0.249375
+Time: .171430369
+=== Test m921  ===
+Solution: sat(and(nth(1,2-5,science),nth(2,2-5,history))): 0.10144928
+Time: .220826954
+=== Test m922  ===
+Solution: sat(and(nth(1,2-9,red),nth(2,2-9,grey))): 0.088811995
+Time: .187284689
+=== Test m923  ===
+Solution: sat(all(2-3,client)): 0.23279352
+Time: .225900087
+=== Test m924  ===
+Solution: sat(and(all(1-2,heads-up),all(1-7,one))): 0.083333333
+Time: .234804451
+=== Test m925  ===
+Solution: sat(and(nth(1,2-7,milk),and(nth(2,2-7,dark),nth(3,2-7,white)))): 0.045787546
+Time: .338749152
+=== Test m926  ===
+Solution: sat(and(all(2-11,blue),all(2-5,red))): 0.24242424
+Time: .192850241
+=== Test m927  ===
+Solution: sat(and(nth(1,2-8,lemon-lime),and(nth(2,2-8,fruit-punch),nth(3,2-8,fruit-punch)))): 0.036
+Time: .197439397
+=== Test m928  ===
+Solution: sat(and(all(1-2,heads-up),aggcmp(1-7,outcome(1),sum,is_even))): 0.25
+Time: .277085843
+=== Test m929  ===
+Solution: sat(and(all(2-4,blue),all(2-13,blue))): 0.21428571
+Time: .191282460
+=== Test m930  ===
+Solution: sat(and(nth(1,1-2,five),nth(2,1-2,six))): 0.027777778
+Time: .226743826
+=== Test m931  ===
+Solution: sat(and(all(3-6,peach),all(2-5,apple))): 0.26515152
+Time: .191605264
+=== Test m932  ===
+Solution: sat(all(5-15,small)): 0.81818182
+Time: .203349614
+=== Test m933  ===
+Solution: sat(all(4-4,regular)): 0.26373626
+Time: .239745951
+=== Test m934  ===
+Solution: sat(all(3-5,yes)): 0.93333333
+Time: .208540116
+=== Test m94  ===
+Solution: sat(atleast(1,1-12,girl)): 0.79411765
+Time: .191849526
+=== Test m95  ===
+Solution: sat(all(win,or(p,or(q,or(r,s))))): 0.75952381
+Time: .212898455
+=== Test m96  ===
+Solution: sat(all(1-2,face)): 0.23076923
+Time: .160154789
