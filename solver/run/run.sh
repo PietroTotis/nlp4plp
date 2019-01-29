@@ -19,19 +19,24 @@ DATA_STR="ms"
 COMPRESSED=""
 PUSH=""
 FILTER=""
-GROUND=false
+GROUND=""
+PROBLOG="problog"
 
-while getopts "hcflopg" opt; do
+while getopts "hcde:flopg" opt; do
     case "$opt" in
     h)
-        echo "Parameters:\n-c: use compressed versions of lists/multi sets\n-f: filter nodes on evidence\n-g: generate ground program\n-l: use lists instead of multi-sets (histograms)\n-o: run old solver\n-p: push query constraints into generation"
+        echo "Parameters:\n-c: use compressed versions of lists/multi sets\n-d: ground to dot format\n-e: provide custom problog executable\n-f: filter nodes on evidence\n-g: generate ground program\n-l: use lists instead of multi-sets (histograms)\n-o: run old solver\n-p: push query constraints into generation"
         exit 0
         ;;
     c)  COMPRESSED="_compressed"
         ;;
+    d)  GROUND="-d"
+        ;;
+    e)  PROBLOG=$OPTARG
+        ;;
     f)  FILTER="_filter"
         ;;
-    g)  GROUND=true
+    g)  GROUND="-g"
         ;;
     l)  DATA_STR="list"
         ;;
@@ -49,8 +54,8 @@ PARAM="param_$DATA_STR$COMPRESSED.pl"
 SETTING="setting$PUSH$FILTER.pl"
 
 #echo $PARAM $SETTING
-if [ "$GROUND" = true ]; then
-    sh run_a_solver.sh "-g" $SOLVER $1 $PARAM $SETTING
+if [ "$GROUND" = "" ]; then
+    sh run_a_solver.sh -e $PROBLOG $SOLVER $1 $PARAM $SETTING
 else
-    sh run_a_solver.sh $SOLVER $1 $PARAM $SETTING
+    sh run_a_solver.sh -e $PROBLOG $GROUND $SOLVER $1 $PARAM $SETTING
 fi
