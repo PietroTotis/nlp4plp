@@ -1,0 +1,197 @@
+digraph GP {
+1 [label="0.3", shape="ellipse", style="filled", fillcolor="white"];
+2 [label="0.3", shape="ellipse", style="filled", fillcolor="white"];
+3 [label="AND", shape="box", style="filled", fillcolor="white"];
+-1 [label="NOT"];
+-1 -> 1;
+3 -> -1;
+-2 [label="NOT"];
+-2 -> 2;
+3 -> -2;
+4 [label="0.3", shape="ellipse", style="filled", fillcolor="white"];
+5 [label="AND", shape="box", style="filled", fillcolor="white"];
+5 -> 3;
+-4 [label="NOT"];
+-4 -> 4;
+5 -> -4;
+6 [label="0.3", shape="ellipse", style="filled", fillcolor="white"];
+7 [label="AND", shape="box", style="filled", fillcolor="white"];
+-6 [label="NOT"];
+-6 -> 6;
+7 -> -6;
+7 -> 5;
+8 [label="0.3", shape="ellipse", style="filled", fillcolor="white"];
+9 [label="AND", shape="box", style="filled", fillcolor="white"];
+-8 [label="NOT"];
+-8 -> 8;
+9 -> -8;
+9 -> 7;
+10 [label="AND", shape="box", style="filled", fillcolor="white"];
+10 -> 8;
+10 -> 7;
+11 [label="AND", shape="box", style="filled", fillcolor="white"];
+11 -> 5;
+11 -> 6;
+12 [label="AND", shape="box", style="filled", fillcolor="white"];
+12 -> 3;
+12 -> 4;
+13 [label="1:(1,1)", shape="box", style="filled", fillcolor="azure2"];
+13 -> 2;
+13 -> -1;
+14 [label="1:(1,1)", shape="box", style="filled", fillcolor="azure2"];
+14 -> 1;
+14 -> -2;
+15 [label="2:(1,1)", shape="diamond", style="filled", fillcolor="azure2"];
+15 -> 13;
+15 -> 14;
+16 [label="AND", shape="box", style="filled", fillcolor="white"];
+16 -> -4;
+16 -> 15;
+17 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 17 -> 16;
+17 -> 12;
+18 [label="AND", shape="box", style="filled", fillcolor="white"];
+18 -> 17;
+18 -> -6;
+19 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 19 -> 18;
+19 -> 11;
+20 [label="AND", shape="box", style="filled", fillcolor="white"];
+20 -> -8;
+20 -> 19;
+21 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 21 -> 10;
+21 -> 20;
+22 [label="AND", shape="box", style="filled", fillcolor="white"];
+22 -> 8;
+22 -> 19;
+23 [label="AND", shape="box", style="filled", fillcolor="white"];
+23 -> 17;
+23 -> 6;
+24 [label="2:(2,1)", shape="box", style="filled", fillcolor="azure2"];
+24 -> 4;
+24 -> 15;
+25 [label="1:(2,0)", shape="box", style="filled", fillcolor="azure2"];
+25 -> 1;
+25 -> 2;
+26 [label="1:(2,1)", shape="box", style="filled", fillcolor="azure2"];
+26 -> 25;
+26 -> -4;
+27 [label="3:(2,1)", shape="diamond", style="filled", fillcolor="azure2"];
+27 -> 24;
+27 -> 26;
+28 [label="3:(2,2)", shape="box", style="filled", fillcolor="azure2"];
+28 -> -6;
+28 -> 27;
+29 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 29 -> 28;
+29 -> 23;
+30 [label="AND", shape="box", style="filled", fillcolor="white"];
+30 -> -8;
+30 -> 29;
+31 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 31 -> 22;
+31 -> 30;
+32 [label="AND", shape="box", style="filled", fillcolor="white"];
+32 -> 8;
+32 -> 29;
+33 [label="AND", shape="box", style="filled", fillcolor="white"];
+33 -> 27;
+33 -> 6;
+34 [label="AND", shape="box", style="filled", fillcolor="white"];
+34 -> 25;
+34 -> 4;
+35 [label="AND", shape="box", style="filled", fillcolor="white"];
+35 -> 34;
+35 -> -6;
+36 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 36 -> 33;
+36 -> 35;
+37 [label="AND", shape="box", style="filled", fillcolor="white"];
+37 -> -8;
+37 -> 36;
+38 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 38 -> 32;
+38 -> 37;
+39 [label="AND", shape="box", style="filled", fillcolor="white"];
+39 -> 8;
+39 -> 36;
+40 [label="AND", shape="box", style="filled", fillcolor="white"];
+40 -> 34;
+40 -> 6;
+41 [label="AND", shape="box", style="filled", fillcolor="white"];
+41 -> 40;
+41 -> -8;
+42 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 42 -> 41;
+42 -> 39;
+43 [label="AND", shape="box", style="filled", fillcolor="white"];
+43 -> 40;
+43 -> 8;
+44 [label="OR", shape="diamond", style="filled", fillcolor="white"];
+ 44 -> 38;
+44 -> 9;
+44 -> 42;
+44 -> 43;
+44 -> 21;
+44 -> 31;
+q_0 [ label="event1", shape="plaintext" ];
+q_0 -> 1 [style="dotted" ];
+q_1 [ label="event3", shape="plaintext" ];
+q_1 -> 4 [style="dotted" ];
+q_2 [ label="event5", shape="plaintext" ];
+q_2 -> 8 [style="dotted" ];
+q_3 [ label="event4", shape="plaintext" ];
+q_3 -> 6 [style="dotted" ];
+q_4 [ label="all", shape="plaintext" ];
+q_4 -> 44 [style="dotted" ];
+q_5 [ label="event2", shape="plaintext" ];
+q_5 -> 2 [style="dotted" ];
+{
+rank = same;
+1 -> 2 -> 4 -> 6 -> 8  [ style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+-1 -> -2 -> -4 -> -6 -> -8 [ style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+21 -> 31 -> 38 ->  42  [ style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+9 -> 10 -> 20 -> 22 -> 30 -> 32 -> 37 -> 39 -> 41 -> 43 [style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+7 -> 19 -> 29 -> 36 -> 40  [style=invis ];
+rankdir = LR;
+}
+
+{
+rank = same;
+11 -> 18 -> 23 -> 28 -> 33 -> 35  [style=invis ];
+rankdir = LR;
+}
+
+{
+rank = same;
+5 -> 17 -> 27 -> 34  [style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+12 -> 16 -> 24 -> 26  [style=invis ];
+rankdir = LR;
+}
+{
+rank = same;
+3 -> 15 -> 25  [style=invis ];
+rankdir = LR;
+}
+}
