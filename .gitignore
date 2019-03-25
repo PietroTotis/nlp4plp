@@ -1,2 +1,3 @@
 # .pl models directory
 compressed/*
+!somefolder/.gitkeep
