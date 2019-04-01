@@ -7,7 +7,6 @@ given(exactly(3, 1-2, black)).
 given(exactly(2, 1-2, red)).
 
 take_wr(1-2, 2-6, 3).
-take_wr(1-2, 2-6, 5).
 
 probability(exactly(1, 2-6, white)).
 
