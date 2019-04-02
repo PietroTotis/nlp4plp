@@ -46,28 +46,31 @@ class EvalError(Exception):
         self.errtype = self.__class__.__name__
         self.base_message = message
 
-def bind(match, l_term, o_term):
+# given one match and two corresponding terms from label and output programs, checks if the terms respect the match
+def check_bind(match, l_term, o_term):
     l_predicate, o_predicate = match
     for pos, arg in enumerate(l_predicate.args):
         if arg.arity > 0 and arg.functor not in ignore:
             bind((l_predicate.args[pos], o_predicate.args[pos]), l_term, o_term)
         elif str(arg.functor) == "'-'": #special case: '-' is not subtraction but a normal char: compare strings
             if (str(l_predicate.args[pos]) == str(l_term) and str(o_predicate.args[pos]) != str(o_term)) or (str(l_predicate.args[pos]) != str(l_term) and str(o_predicate.args[pos]) == str(o_term)):
-               raise EvalError("inconsistent use of " + str(l_term) + " and " + str(o_term))
+               raise EvalError("inconsistent use of " + str(l_term) + " and " + str(o_term) + " in " + str(o_predicate))
         else:
             if (l_predicate == l_term and o_predicate != o_term) or (l_predicate != l_term and o_predicate == o_term):
-               raise EvalError("inconsistent use of " + l_term + " and " + o_term)
-    return None
+               raise EvalError("inconsistent use of " + l_term + " and " + o_term + "in" + match)
 
+# given a set of matches that need to be respected checks if the output program fulfills them
 def check_consistency(match):
     for ind, m in enumerate(match):
         l_predicate, o_predicate = m
         for pos, arg in enumerate(l_predicate.args):
             if arg.arity > 0 and arg.functor not in ignore:
+                # if the argument is a predicate check recursively
                 check_consistency([(l_predicate.args[pos], o_predicate.args[pos])])
             else:
+                # otherwise check if the two arguments respect the matching
                 for lp, op in match[ind:]:
-                    bind((lp,op), l_predicate.args[pos], o_predicate.args[pos])
+                    check_bind((lp,op), l_predicate.args[pos], o_predicate.args[pos])
 
 
 def check_signature(predicate):
@@ -93,7 +96,7 @@ def check_signatures(program):
         check_signature(predicate)
 
 
-# Check if for each predicate in the label there is a predicate in the output that unifies with it
+# Check if for each predicate in the label program there is a predicate in the output program that unifies with it
 def compare (out, label):
     match = []
     matched = []
