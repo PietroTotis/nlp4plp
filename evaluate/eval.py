@@ -6,10 +6,10 @@ from problog.parser import PrologParser
 from problog.parser import ParseError
 from problog.program import PrologFactory
 from problog.engine_unify import subsumes, UnifyError
-from problog.logic import Term, Var
+from problog.logic import Term, Var, term2list
 
 predicates = {
-    "aggcmp": [5],
+    "aggcmp": [4,5],
     "all": [2],
     "all_diff": [2],
     "all_same": [2],
@@ -26,13 +26,14 @@ predicates = {
     "nth": [3],
     "observe": [1],
     "or": [2],
+    "outcome": [1],
     "partition": [2],
     "probability": [1],
     "property": [2],
     "rel": [2,3],
     "rest": [1],
     "size": [2],
-    "some": [1],
+    "some": [2],
     "take": [2,3],
     "take_wr": [3],
     "union": [2],
@@ -51,7 +52,7 @@ def check_bind(match, l_term, o_term):
     l_predicate, o_predicate = match
     for pos, arg in enumerate(l_predicate.args):
         if arg.arity > 0 and arg.functor not in ignore:
-            bind((l_predicate.args[pos], o_predicate.args[pos]), l_term, o_term)
+            check_bind((l_predicate.args[pos], o_predicate.args[pos]), l_term, o_term)
         elif str(arg.functor) == "'-'": #special case: '-' is not subtraction but a normal char: compare strings
             if (str(l_predicate.args[pos]) == str(l_term) and str(o_predicate.args[pos]) != str(o_term)) or (str(l_predicate.args[pos]) != str(l_term) and str(o_predicate.args[pos]) == str(o_term)):
                raise EvalError("inconsistent use of " + str(l_term) + " and " + str(o_term) + " in " + str(o_predicate))
@@ -99,24 +100,28 @@ def check_signatures(program):
 # Check if for each predicate in the label program there is a predicate in the output program that unifies with it
 def compare (out, label):
     match = []
-    matched = []
+    matched_out = {}
+    matched_lab = {}
+    already_matched = lambda l,o : str(l) in matched_lab or str(o) in matched_out
     for l_predicate in label:
         u_predicate = loose_const(l_predicate)
         # check if there is in the output a predicate that unifies with the label predicate
         for o_predicate in out:
             try:
-                if l_predicate == o_predicate:
-                    matched.append(str(l_predicate))
+                if l_predicate == o_predicate and not already_matched(l_predicate, o_predicate):
+                    matched_out[str(o_predicate)] = str(l_predicate)
+                    matched_lab[str(l_predicate)] = str(o_predicate)
                     match.append((l_predicate, o_predicate))
                 else:
                     subsumes(u_predicate, o_predicate)
-                    if str(l_predicate) not in matched:
-                        matched.append(str(l_predicate))
+                    if not already_matched(l_predicate, o_predicate):
+                        matched_out[str(o_predicate)] = str(l_predicate)
+                        matched_lab[str(l_predicate)] = str(o_predicate)
                         match.append((l_predicate, o_predicate))
             except UnifyError:
                 pass
     for l_predicate in label:
-        if str(l_predicate) not in matched:
+        if str(l_predicate) not in matched_lab:
             raise EvalError("could not find predicate " + str(l_predicate))
             return None
     return match
@@ -124,7 +129,10 @@ def compare (out, label):
 # for each predicate replaces each set name with a variable for the unification check
 def loose_const(term):
     if term.functor == "aggcmp":
-        return Term(term.functor, Var("Set"), term.args[1], term.args[2], term.args[3], term.args[4])
+        if term.arity == 5:
+            return Term(term.functor, Var("Set"), term.args[1], term.args[2], term.args[3], term.args[4])
+        else:
+            return Term(term.functor, Var("Set"), term.args[1], term.args[2], term.args[3])
     elif term.functor == "all":
         return Term(term.functor, Var("Set"), term.args[1])
     elif term.functor == "all_diff":
@@ -140,16 +148,16 @@ def loose_const(term):
     elif term.functor == "group":
         return Term(term.functor, Var("G"))
     elif term.functor == "less_than":
-        return Term(term.functor, term.args[0], Var("Set"), terms.args[2])
+        return Term(term.functor, term.args[0], Var("Set"), term.args[2])
     elif term.functor == "more_than":
-        return Term(term.functor, term.args[0], Var("Set"), terms.args[2])
+        return Term(term.functor, term.args[0], Var("Set"), term.args[2])
     elif term.functor == "none":
-        return Term(term.functor, Var("Set"), terms.args[1])
+        return Term(term.functor, Var("Set"), term.args[1])
     elif term.functor == "nth":
-        return Term(term.functor, term.args[0], Var("Set"), terms.args[2])
+        return Term(term.functor, term.args[0], Var("Set"), term.args[2])
     elif term.functor == "rel":
         if term.arity == 3:
-            return Term(term.functor, term.args[0], Var("Set"), terms.args[2])
+            return Term(term.functor, term.args[0], Var("Set"), term.args[2])
         else:
             return Term(term.functor, term.args[0], Var("Set"))
     elif term.functor == "rest":
@@ -164,9 +172,11 @@ def loose_const(term):
         else:
             return Term(term.functor, Var("From"), Var("To"), term.args[2])
     elif term.functor == "union":
+        # args[1] is the list of partitions
         partition = []
-        for p, set in enum(term.args[1]):
-            partition.append(Var("P"+p))
+        for p, set in enumerate(term2list(term.args[1])):
+            name = "P"+str(p)
+            partition.append(Var(name))
         return Term(term.functor, Var("Set"), partition)
     elif term.functor == "v":
         return Term(term.functor, Var("Set"), terms.args[1])
