@@ -47,8 +47,14 @@ class EvalError(Exception):
         self.errtype = self.__class__.__name__
         self.base_message = message
 
-# given one match and two corresponding terms from label and output programs, checks if the terms respect the match
+
 def check_bind(match, l_term, o_term):
+    '''
+    Given one match and two corresponding terms from label and output programs, checks if the terms respect the match
+    :param match: the root predicates we started from the recursion
+    :param l_term: the term from the label at the current level of nesting
+    :param o_term: the term from the output of the NN  at the current level of nesting
+    '''
     l_predicate, o_predicate = match
     for pos, arg in enumerate(l_predicate.args):
         if arg.arity > 0 and arg.functor not in ignore:
@@ -60,8 +66,13 @@ def check_bind(match, l_term, o_term):
             if (l_predicate == l_term and o_predicate != o_term) or (l_predicate != l_term and o_predicate == o_term):
                raise EvalError("inconsistent use of " + l_term + " and " + o_term + "in" + match)
 
-# given a set of matches that need to be respected checks if the output program fulfills them
+
 def check_consistency(match):
+    '''
+    Given a set of matches that need to be respected checks if the output program fulfills them
+    From the base predicate recursively checks its arguments
+    :param match: a pair of predicates (label, output) that should correspond
+    '''
     for ind, m in enumerate(match):
         l_predicate, o_predicate = m
         for pos, arg in enumerate(l_predicate.args):
@@ -89,16 +100,22 @@ def check_signature(predicate):
         pass
 
 
-# Given a set of predicates checks:
-# if the name is among the predicates of the intermediate language
-# if the arity correspponds
 def check_signatures(program):
+    '''
+    Given a set of predicates checks:
+    if the name is among the predicates of the intermediate language
+    if the arity correspponds
+    '''
     for predicate in program:
         check_signature(predicate)
 
 
-# Check if for each predicate in the label program there is a predicate in the output program that unifies with it
 def compare (out, label):
+    '''
+    Check if for each predicate in the label program there is a predicate in the output program that unifies with it
+    :param out: predicate output of the NN
+    :param label: predicate from label program
+    '''
     match = []
     matched_out = {}
     matched_lab = {}
@@ -126,8 +143,12 @@ def compare (out, label):
             return None
     return match
 
-# for each predicate replaces each set name with a variable for the unification check
+
 def loose_const(term):
+    '''
+    For each predicate replaces each set name with a variable for the unification check
+    :param term: a logical term as defined in logic.py
+    '''
     if term.functor == "aggcmp":
         if term.arity == 5:
             return Term(term.functor, Var("Set"), term.args[1], term.args[2], term.args[3], term.args[4])
@@ -200,7 +221,12 @@ def parse_text(text):
         program.append(s)
     return program
 
+
 def eval(output, label):
+    '''
+    :param output: the program from the NN
+    :param label: the program from the annotator
+    '''
     # check syntax
     try:
         out_prog = parse_text(output)
@@ -231,10 +257,12 @@ def eval(output, label):
         print("Consistency error:", e)
         return None
 
+
 def main(out, lab):
     o = open(out, "r").read()
     l = open(lab, "r").read()
     eval(o, l)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

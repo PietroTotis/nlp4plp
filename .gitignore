@@ -1,3 +1,6 @@
 # .pl models directory
 compressed/*
 !compressed/.gitkeep
+experiments/NLP/dev
+experiments/NLP/train
+experiments/NLP/test

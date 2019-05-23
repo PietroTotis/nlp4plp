@@ -1,0 +1,1 @@
+ /home/suster/Apps/word2vec/bin/word2vec -train /mnt/b5320167-5dbd-4498-bf34-173ac5338c8d/Datasets/news_embs/nyt_shuf_lowercase -output /mnt/b5320167-5dbd-4498-bf34-173ac5338c8d/Datasets/news_embs/embs/1/embeddings -size 50 -window 3 -negative     6 -hs 0 -binary 0 -cbow 0 -min-count 200 -threads 10

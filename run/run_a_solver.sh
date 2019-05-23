@@ -26,5 +26,5 @@ if [ "$FORMAT" = "" ]; then
     grep expected $2
     exit $RET
 else
-    $PROBLOG ground $1 --format $FORMAT -a $2 -a $3 -a $4
+    timeout 20 $PROBLOG ground $1 --format $FORMAT -a $2 -a $3 -a $4
 fi

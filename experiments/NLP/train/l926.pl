@@ -1,0 +1,15 @@
+% L926: Past records show that 4 of 135 parts are defective in length, 3 of 141 are defective in width, and 2 of 347 are defective in both.  What is the probability that a part will have neither defect? ## Solution= 0.95485746
+
+group(parts).
+
+given(exactly(rel(2/347, parts), parts, and(length, width))).
+given(exactly(rel(3/141, parts), parts, width)).
+given(exactly(rel(4/135, parts), parts, length)).
+
+take(parts, 2-7, 1).
+
+probability(and(none(2-7, length), none(2-7, width))).
+
+property(width, [width]).
+property(length, [length]).
+
