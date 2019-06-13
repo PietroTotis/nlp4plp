@@ -2,6 +2,8 @@
 :- use_module(library(lists)).
 :- use_module(library(maplist)).
 
+%%%%%%%%%%
+
 declare(ev(time)).
 declare(ev(small)).
 declare(ev(large)).
@@ -11,6 +13,10 @@ declare(prob(ev(small), 0.75)).
 declare(prob(cond(ev(time),ev(large)), 0.6)).
 declare(prob(ev(large),0.25)).
 declare(prob(inter([ev(small),ev(large)]),0.0)).
+
+%query(probability(...), _ )
+
+%%%%%%%%%%
 
 prob(Ev,Val) :- declare(prob(Ev,Val)), !.
 ev(Ev) :- declare(ev(Ev)).

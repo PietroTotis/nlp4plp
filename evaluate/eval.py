@@ -60,10 +60,16 @@ def check_bind(match, l_term, o_term):
         if arg.arity > 0 and arg.functor not in ignore:
             check_bind((l_predicate.args[pos], o_predicate.args[pos]), l_term, o_term)
         elif str(arg.functor) == "'-'": #special case: '-' is not subtraction but a normal char: compare strings
-            if (str(l_predicate.args[pos]) == str(l_term) and str(o_predicate.args[pos]) != str(o_term)) or (str(l_predicate.args[pos]) != str(l_term) and str(o_predicate.args[pos]) == str(o_term)):
+            if ((str(l_predicate.args[pos]) == str(l_term) and 
+                str(o_predicate.args[pos]) != str(o_term)) or 
+                    (str(l_predicate.args[pos]) != str(l_term) and 
+                     str(o_predicate.args[pos]) == str(o_term))):
                raise EvalError("inconsistent use of " + str(l_term) + " and " + str(o_term) + " in " + str(o_predicate))
         else:
-            if (l_predicate == l_term and o_predicate != o_term) or (l_predicate != l_term and o_predicate == o_term):
+            if ((l_predicate == l_term and 
+                o_predicate != o_term) or 
+                (l_predicate != l_term and 
+                 o_predicate == o_term)):
                raise EvalError("inconsistent use of " + l_term + " and " + o_term + "in" + match)
 
 

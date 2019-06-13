@@ -1,7 +1,7 @@
 # nlp4plp
 
 This project contains the solver for the [nlp4plp project](https://dtai.cs.kuleuven.be/problog/natural_language).
-The code was developed by [Angelika Kimmig](https://www.cardiff.ac.uk/people/view/634329-kimmig-angelika).
+The solver code was developed by [Angelika Kimmig](https://www.cardiff.ac.uk/people/view/634329-kimmig-angelika).
 
 ## Compressed
 
