@@ -13,8 +13,6 @@ counter = {
     num_id : 0,
 }
 
-DISTINT_PROP = True
-
 ignore = ["'-'"]
 
 def get_id(term,ttype):
@@ -37,10 +35,19 @@ def convert_term(term):
     :param term: a Problog term (a statement to begin with)
     '''
     if term.arity > 0 and str(term.functor) not in ignore:
-        args = []
-        for arg in term.args:
-            args.append(convert_term(arg))
-        return Term(term.functor,*args)
+
+        #ignore property first argument
+        if term.functor == "property":
+            arg = convert_term(term.args[1])
+            # uniform/consistent useless first argument
+            # return Term("property", Term("property"), arg)
+            # preserve orginal name
+            return Term("property", term.args[0], arg)
+        else:
+            args = []
+            for arg in term.args:
+                args.append(convert_term(arg))
+            return Term(term.functor,*args)
     elif str(term.functor) in ignore:
         # if the functor is -, we treat it as part of a label
         identifier = get_id(term,label_id)
