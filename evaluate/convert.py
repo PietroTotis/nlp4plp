@@ -13,7 +13,7 @@ counter = {
     num_id : 0,
 }
 
-ignore = ["'-'"]
+ignore = ["'-'", "v"]
 
 def get_id(term,ttype):
     '''
@@ -40,9 +40,9 @@ def convert_term(term):
         if term.functor == "property":
             arg = convert_term(term.args[1])
             # uniform/consistent useless first argument
-            # return Term("property", Term("property"), arg)
+            return Term("property", Term("property"), arg)
             # preserve orginal name
-            return Term("property", term.args[0], arg)
+            # return Term("property", term.args[0], arg)
         else:
             args = []
             for arg in term.args:
@@ -75,6 +75,6 @@ def convert(program):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--program',help='single problem')
+    parser.add_argument('program', help='single problem')
     args = parser.parse_args()
     convert(args.program)
