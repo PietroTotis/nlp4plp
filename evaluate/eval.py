@@ -47,6 +47,32 @@ class EvalError(Exception):
         self.errtype = self.__class__.__name__
         self.base_message = message
 
+class NameError(Exception):
+    def __init__(self, predicate):
+        self.errtype = "name"
+        self.base_message = f"Predicate {predicate} is not valid"
+
+class ArityError(Exception):
+    def __init__(self, predicate):
+        self.errtype = "number"
+        self.base_message = f"Predicate {predicate} has a wrong number of arguments"
+
+class ConsistencyError(Exception):
+    def __init__(self, l_term, o_term, match):
+        self.errtype = "consistency"
+        self.base_message = f"inconsistent use of {str(l_term)} and {str(o_term)} in {str(match)}"
+
+class MissingError(Exception):
+    def __init__(self, predicate):
+        self.errtype = "missing"
+        self.base_message = f"could not find {predicate}"
+
+class ConstError(Exception):
+    def __init__(self, l_term, o_term):
+        self.errtype = "constants"
+        self.base_message = f"constants mismatch between {str(l_term)} and {str(o_term)}"
+
+
 
 def check_bind(match, l_term, o_term):
     '''
@@ -56,21 +82,28 @@ def check_bind(match, l_term, o_term):
     :param o_term: the term from the output of the NN  at the current level of nesting
     '''
     l_predicate, o_predicate = match
+    errors = []
     for pos, arg in enumerate(l_predicate.args):
         if arg.arity > 0 and arg.functor not in ignore:
-            check_bind((l_predicate.args[pos], o_predicate.args[pos]), l_term, o_term)
+            nested_errors = check_bind(
+                                (l_predicate.args[pos], o_predicate.args[pos]),
+                                l_term,
+                                o_term
+                            )
+            errors.extend(nested_errors)
         elif str(arg.functor) == "'-'": #special case: '-' is not subtraction but a normal char: compare strings
             if ((str(l_predicate.args[pos]) == str(l_term) and 
                 str(o_predicate.args[pos]) != str(o_term)) or 
                     (str(l_predicate.args[pos]) != str(l_term) and 
                      str(o_predicate.args[pos]) == str(o_term))):
-               raise EvalError("inconsistent use of " + str(l_term) + " and " + str(o_term) + " in " + str(o_predicate))
+               ConsistencyError(l_term, o_term, o_predicate)
         else:
             if ((l_predicate == l_term and 
                 o_predicate != o_term) or 
                 (l_predicate != l_term and 
                  o_predicate == o_term)):
-               raise EvalError("inconsistent use of " + l_term + " and " + o_term + "in" + match)
+               errors.append(ConsistencyError(l_term, o_term, match))
+    return errors
 
 
 def check_consistency(match):
@@ -79,31 +112,35 @@ def check_consistency(match):
     From the base predicate recursively checks its arguments
     :param match: a pair of predicates (label, output) that should correspond
     '''
+    errors = []
     for ind, m in enumerate(match):
         l_predicate, o_predicate = m
         for pos, arg in enumerate(l_predicate.args):
             if arg.arity > 0 and arg.functor not in ignore:
                 # if the argument is a predicate check recursively
-                check_consistency([(l_predicate.args[pos], o_predicate.args[pos])])
+                nested_errors = check_consistency([(l_predicate.args[pos], o_predicate.args[pos])])
+                errors.extend(nested_errors)
             else:
                 # otherwise check if the two arguments respect the matching
                 for lp, op in match[ind:]:
-                    check_bind((lp,op), l_predicate.args[pos], o_predicate.args[pos])
-
+                    nested_errors = check_bind((lp,op), l_predicate.args[pos], o_predicate.args[pos])
+                    errors.extend(nested_errors)
+    return errors
 
 def check_signature(predicate):
-    if predicate.arity > 0 and predicate.functor not in ignore:
+    if predicate.arity > 0 and predicate.functor not in ignore: 
         if not predicate.functor in predicates.keys():
-            raise EvalError("predicate " + predicate.functor + " is not valid")
-            return None
+            return [NameError(predicate.functor)]
         elif predicate.arity not in predicates[predicate.functor]:
-            raise EvalError("predicate " + predicate.functor + " has a wrong number of arguments")
-            return None
+            return [ArityError(predicate.functor)]
         else:
+            errors = []
             for arg in predicate.args:
-                check_signature(arg)
+                nested_errors = check_signature(arg)
+                errors.extend(nested_errors)
+            return errors
     else:
-        pass
+        return []
 
 
 def check_signatures(program):
@@ -112,8 +149,27 @@ def check_signatures(program):
     if the name is among the predicates of the intermediate language
     if the arity correspponds
     '''
+    errors = []
     for predicate in program:
-        check_signature(predicate)
+        pred_errors = check_signature(predicate)
+        errors.extend(pred_errors)
+    return errors
+
+def check_consts(out, label):
+    errors = []
+    for i in range(0, len(label.args)):
+        if label.args[i].arity > 0:
+            # if the argument is a predicate check recursively
+            nested_errors = check_consts(out.args[i], label.args[i])
+            errors.extend(nested_errors)
+        elif str(type(label.args[i]))[-10:-2] == "Constant":
+            try:
+                subsumes(out, label)
+            except:
+                errors.extend([ConstError(out,label)])
+        else:
+            pass  #ignore variables
+    return errors
 
 
 def compare (out, label):
@@ -125,7 +181,9 @@ def compare (out, label):
     match = []
     matched_out = {}
     matched_lab = {}
-    already_matched = lambda l,o : str(l) in matched_lab or str(o) in matched_out
+    already_matched = lambda l, o: str(l) in matched_lab or str(o) in matched_out
+    checklist = [] # we keep a list of failed unifications to check constants after the matching
+    errors = []
     for l_predicate in label:
         u_predicate = loose_const(l_predicate)
         # check if there is in the output a predicate that unifies with the label predicate
@@ -142,12 +200,17 @@ def compare (out, label):
                         matched_lab[str(l_predicate)] = str(o_predicate)
                         match.append((l_predicate, o_predicate))
             except UnifyError:
-                pass
+                # if unification fails check if that's due to numbers or constant labels
+                checklist.append((u_predicate, l_predicate, o_predicate))
+    for u_predicate, l_predicate, o_predicate in checklist:
+        if str(o_predicate) not in matched_out and \
+            str(l_predicate) not in matched_lab and \
+            u_predicate.functor == o_predicate.functor:
+            errors.extend(check_consts(u_predicate, o_predicate))
     for l_predicate in label:
         if str(l_predicate) not in matched_lab:
-            raise EvalError("could not find predicate " + str(l_predicate))
-            return None
-    return match
+            errors.append(MissingError(str(l_predicate)))
+    return match, errors
 
 
 def loose_const(term):
@@ -241,33 +304,28 @@ def eval(output, label):
         return None
 
     # check predicates
-    try:
-        check_signatures(out_prog)
-    except EvalError as e:
-        print("Signature error:", e)
-        return None
+    errors = check_signatures(out_prog)
 
     # check correspondence
     try:
         lab_prog = parse_text(label)
-        #upper_prog = list(map(loose_const, lab_prog))
-        matching = compare(out_prog, lab_prog)
-    except EvalError as e:
-        print("Correspondence error:", e)
+    except ParseError as e:
+        print('ParseError:', e)
         return None
+    matching, matching_errors = compare(out_prog, lab_prog)
+    errors.extend(matching_errors)
 
     # check name consistency
-    try:
-        check_consistency(matching)
-    except EvalError as e:
-        print("Consistency error:", e)
-        return None
+    consistency_errors = check_consistency(matching)
+    errors.extend(consistency_errors)
+    
+    return errors
 
 
 def main(out, lab):
     o = open(out, "r").read()
     l = open(lab, "r").read()
-    eval(o, l)
+    return eval(o, l)
 
 
 if __name__ == '__main__':
@@ -275,4 +333,5 @@ if __name__ == '__main__':
     parser.add_argument('out', help='file name')
     parser.add_argument('lab', help='file name')
     args = parser.parse_args()
-    main(args.out, args.lab)
+    errors = main(args.out, args.lab)
+    print(errors)
