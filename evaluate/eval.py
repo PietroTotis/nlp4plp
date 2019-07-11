@@ -1,5 +1,6 @@
 import argparse
 import re
+from collections import Counter
 from collections import defaultdict
 
 from problog.parser import PrologParser
@@ -54,7 +55,7 @@ class NameError(Exception):
 
 class ArityError(Exception):
     def __init__(self, predicate):
-        self.errtype = "number"
+        self.errtype = "arity"
         self.base_message = f"Predicate {predicate} has a wrong number of arguments"
 
 class ConsistencyError(Exception):
@@ -321,11 +322,28 @@ def eval(output, label):
     
     return errors
 
+def error_counter(errors):
+    '''
+    Statistics for errors found in an output
+    :param errors: the list of errors i.e. classes from this file
+    :returns: a dictionary type_of_error:errors_of_that_type and a counter of the type of errors
+    '''
+
+    errors_type = [error.errtype for error in errors]
+    n_errors = Counter(errors_type)
+    err_by_type = {}
+    for typ in n_errors.keys():
+        err_by_type[typ] = []
+        for error in errors:
+            if error.errtype == typ:
+                err_by_type[typ].append(error)
+    return (err_by_type, n_errors)
 
 def main(out, lab):
     o = open(out, "r").read()
     l = open(lab, "r").read()
-    return eval(o, l)
+    errors = eval(o, l)
+    return error_counter(errors)
 
 
 if __name__ == '__main__':
