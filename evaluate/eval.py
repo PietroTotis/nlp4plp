@@ -156,18 +156,22 @@ def check_signatures(program):
         errors.extend(pred_errors)
     return errors
 
-def check_consts(out, label):
+def check_consts(out_pred, label_pred):
+    '''
+    Compares constants of predicates with same functors
+    :returns: list of errors (possibly more than one due to nested predicates)
+    '''
     errors = []
-    for i in range(0, len(label.args)):
-        if label.args[i].arity > 0:
+    for i in range(0, len(label_pred.args)):
+        if label_pred.args[i].arity > 0:
             # if the argument is a predicate check recursively
-            nested_errors = check_consts(out.args[i], label.args[i])
+            nested_errors = check_consts(out_pred.args[i], label_pred.args[i])
             errors.extend(nested_errors)
-        elif str(type(label.args[i]))[-10:-2] == "Constant":
+        elif str(type(label_pred.args[i]))[-10:-2] == "Constant":
             try:
-                subsumes(out, label)
+                subsumes(label_pred, out_pred)
             except:
-                errors.extend([ConstError(out,label)])
+                errors.extend([ConstError(out_pred,label_pred)])
         else:
             pass  #ignore variables
     return errors
@@ -203,11 +207,14 @@ def compare (out, label):
             except UnifyError:
                 # if unification fails check if that's due to numbers or constant labels
                 checklist.append((u_predicate, l_predicate, o_predicate))
+    matched_errors = []
     for u_predicate, l_predicate, o_predicate in checklist:
         if str(o_predicate) not in matched_out and \
             str(l_predicate) not in matched_lab and \
-            u_predicate.functor == o_predicate.functor:
-            errors.extend(check_consts(u_predicate, o_predicate))
+            u_predicate.functor == o_predicate.functor and \
+            str(o_predicate) not in matched_errors:
+            errors.extend(check_consts(o_predicate, u_predicate))
+            matched_errors.append(str(o_predicate))
     for l_predicate in label:
         if str(l_predicate) not in matched_lab:
             errors.append(MissingError(str(l_predicate)))
