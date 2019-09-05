@@ -1,0 +1,5 @@
+group(l0).
+given(exactly(rel('/'(n0,n1),l0),l0,l1)).
+take_wr(l0,l2,n2).
+probability(all(l2,not(l1))).
+property(property,[l1]).

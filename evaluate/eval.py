@@ -1,5 +1,6 @@
 import argparse
 import re
+import os
 from collections import Counter
 from collections import defaultdict
 
@@ -62,11 +63,20 @@ class ConsistencyError(Exception):
     def __init__(self, l_term, o_term, match):
         self.errtype = "consistency"
         self.base_message = f"inconsistent use of {str(l_term)} and {str(o_term)} in {str(match)}"
+class ExtraError(Exception):
+    def __init__(self, predicate):
+        self.errtype = "extra"
+        self.base_message = f"Extra predicate {predicate}"
 
 class MissingError(Exception):
     def __init__(self, predicate):
         self.errtype = "missing"
         self.base_message = f"could not find {predicate}"
+
+class TakeError(Exception):
+    def __init__(self):
+        self.errtype = "take"
+        self.base_message = f"Wrong take statement"
 
 class ConstError(Exception):
     def __init__(self, l_term, o_term):
@@ -165,8 +175,9 @@ def check_consts(out_pred, label_pred):
     for i in range(0, len(label_pred.args)):
         if label_pred.args[i].arity > 0:
             # if the argument is a predicate check recursively
-            nested_errors = check_consts(out_pred.args[i], label_pred.args[i])
-            errors.extend(nested_errors)
+            if i < len(out_pred.args):
+                nested_errors = check_consts(out_pred.args[i], label_pred.args[i])
+                errors.extend(nested_errors)
         elif str(type(label_pred.args[i]))[-10:-2] == "Constant":
             try:
                 subsumes(label_pred, out_pred)
@@ -190,7 +201,8 @@ def compare (out, label):
     checklist = [] # we keep a list of failed unifications to check constants after the matching
     errors = []
     for l_predicate in label:
-        u_predicate = loose_const(l_predicate)
+        # u_predicate = loose_const(l_predicate)
+        u_predicate = l_predicate
         # check if there is in the output a predicate that unifies with the label predicate
         for o_predicate in out:
             try:
@@ -217,7 +229,11 @@ def compare (out, label):
             matched_errors.append(str(o_predicate))
     for l_predicate in label:
         if str(l_predicate) not in matched_lab:
-            errors.append(MissingError(str(l_predicate)))
+            name = str(l_predicate.functor)
+            if name == "take" or name == "take_wr":
+                errors.append(TakeError())
+            else:
+                errors.append(MissingError(str(l_predicate)))
     return match, errors
 
 
@@ -346,17 +362,36 @@ def error_counter(errors):
                 err_by_type[typ].append(error)
     return (err_by_type, n_errors)
 
-def main(out, lab):
+def compare_files(out, lab):
     o = open(out, "r").read()
     l = open(lab, "r").read()
     errors = eval(o, l)
     return error_counter(errors)
 
+def compare_folders(pred_dir, gold_dir):
+    errors = []
+    for gold in os.listdir(os.fsencode(gold_dir)):
+        goldname = os.fsdecode(gold)
+        if goldname.endswith(".pl_t"):
+            basename = os.path.splitext(goldname)[0]
+            print(basename)
+            pred = basename + ".pl_p"
+            pred_path = os.fsencode(os.path.join(pred_dir,pred))
+            gold_path = os.fsencode(os.path.join(gold_dir, goldname))
+            l = open(gold_path, "r").read()
+            o = open(pred_path, "r").read()
+            errors += eval(o, l)
+    return error_counter(errors)
+
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('out', help='file name')
-    parser.add_argument('lab', help='file name')
+    parser.add_argument('pred', help='file name')
+    parser.add_argument('gold', help='file name')
     args = parser.parse_args()
-    errors = main(args.out, args.lab)
+    if os.path.isdir(args.gold):
+        errors = compare_folders(args.pred, args.gold)
+    else:
+        errors = compare_files(args.pred, args.gold)
     print(errors)

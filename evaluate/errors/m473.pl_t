@@ -1,0 +1,13 @@
+group(l0).
+size(l0,n0).
+given(exactly(n1,l0,n1)).
+given(exactly(n1,l0,n2)).
+given(exactly(n1,l0,n3)).
+given(exactly(n1,l0,n4)).
+given(exactly(n1,l0,n5)).
+given(exactly(n1,l0,n6)).
+given(exactly(n1,l0,n7)).
+given(exactly(n2,l0,n8)).
+take_wr(l0,l1,n2).
+probability(aggcmp(l1,outcome(n9),l2,l3)).
+property(property,[n2,n7,n1,n6,n4,n5,n3,n8]).

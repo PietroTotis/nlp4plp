@@ -1,0 +1,6 @@
+group(l0).
+size(l0,n0).
+given(exactly(n1,l0,l1)).
+take(l0,l2,n2).
+probability(aggcmp(l1,outcome(n6))).
+property(property,[l2]).

@@ -1,0 +1,12 @@
+group(l0).
+size(l0,n0).
+given(exactly(n1,l0,n2)).
+given(exactly(n1,l0,n3)).
+given(exactly(n1,l0,n4)).
+given(exactly(n1,l0,n4)).
+given(exactly(n1,l0,n9)).
+given(exactly(n1,l0,l5)).
+given(exactly(n1,l0,l4)).
+take(l0,l0,n2).
+probability(all(l4,or(l3,l2))).
+property(property,[l2,l3,l1,l4]).

@@ -6,14 +6,15 @@ from problog.logic import Term, Var
 ENCODINGS_PATH = "/mnt/01D503E0ADE91930/Users/pietr/Desktop/PhD/nlp4plp_old/code/solver"
 
 id_map = {}
-label_id = "L"
-num_id = "N"
+label_id = "l"
+num_id = "n"
 counter = {
     label_id : 0,
     num_id : 0,
 }
 
 ignore = ["'-'", "v"]
+ignore_consts = ["[]","min","max","product","sum","average", "=/=", ">", ">=", "<", "=<", "=:=", "is_even", "is_odd"]
 
 def get_id(term,ttype):
     '''
@@ -57,8 +58,8 @@ def convert_term(term):
             identifier = get_id(term, num_id)
             return Var(identifier)
         else:
-            if str(term) == "[]":
-                # avoid labelling empty list as one of the members of a list
+            if str(term) in ignore_consts:
+                # avoid labelling specific constants
                 return term
             else:
                 identifier = get_id(term, label_id)
