@@ -83,6 +83,11 @@ class ConstError(Exception):
         self.errtype = "constants"
         self.base_message = f"constants mismatch between {str(l_term)} and {str(o_term)}"
 
+class ParsingError(Exception):
+    def __init__(self):
+        self.errtype = "format"
+        self.base_message = f"Couldn't parse the program."
+
 
 
 def check_bind(match, l_term, o_term):
@@ -325,7 +330,7 @@ def eval(output, label):
         out_prog = parse_text(output)
     except ParseError as e:
         print('ParseError:', e)
-        return None
+        return [ParsingError()]
 
     # check predicates
     errors = check_signatures(out_prog)
@@ -335,7 +340,8 @@ def eval(output, label):
         lab_prog = parse_text(label)
     except ParseError as e:
         print('ParseError:', e)
-        return None
+        return errors.append(ParsingError())
+
     matching, matching_errors = compare(out_prog, lab_prog)
     errors.extend(matching_errors)
 
