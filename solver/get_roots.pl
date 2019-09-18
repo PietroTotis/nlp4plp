@@ -1,7 +1,6 @@
 % using the original solver to generate transformations of the input files
 
 % ecpects two files: the original model and the conversion parameter file specifying active_request/2
-:- cmd_args([File1,File2]), consult(File1), consult(File2).
 
 :- use_module(library(lists)).
 :- consult('old/input_interface.pl').
@@ -10,29 +9,6 @@
 :- consult('old/histograms.pl').
 :- consult('old/property_based_merging.pl').
 :- consult('old/terms_to_predicates.pl').
-
-% for root nodes, compute:
-% original static instance + its compressed version
-query(static_instance(S,I)) :- active_request(orig,false), static_set(S).
-query(compressed_root(S,I)) :- active_request(orig,true), static_set(S).
-% tuple-multiset versions
-query(setup_ms(S,I)) :- active_request(ms,false), static_set(S).
-query(setup_ms_compressed(S,I)) :- active_request(ms,true), static_set(S).
-% list-multiset versions
-query(root_ms(S,I)) :- active_request(list,false), static_set(S).
-query(root_ms_compressed(S,I)) :- active_request(list,true), static_set(S).
-
-% copy the input
-query(take_wr(A,B,C)) :- take_wr(A,B,C).
-query(take(A,B,C)) :- take(A,B,C).
-query(union(A,B)) :- union(A,B).
-query(property(A,B)) :- property(A,B).
-query(probability(A)) :- probability(A).
-query(observe(A)) :- observe(A).
-query(group(A)) :- group(A).
-query(given(A)) :- given(A).
-query(size(A,B)) :- size(A,B).
-
 
 %%%%%%%%%%%% converting instances to other formats
 compressed_root(N,List) :-
