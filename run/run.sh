@@ -9,7 +9,9 @@
 
 #PATH_TO_OLD="/mnt/D2D6AD4FD6AD349F/Users/pietr/Desktop/PhD/nlp4plp_old/code/solver/run_solver.pl"
 SOLVER_PATH="../solver/solver.pl"
-DATA="../compressed"
+#DATA="../compressed"
+#DATA="/mnt/b5320167-5dbd-4498-bf34-173ac5338c8d/Datasets/nlp4plp/compressed"
+DATA="/mnt/b5320167-5dbd-4498-bf34-173ac5338c8d/Datasets/nlp4plp/examples"
 
 # A POSIX variable
 OPTIND=1

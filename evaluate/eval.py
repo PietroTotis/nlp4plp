@@ -401,3 +401,5 @@ if __name__ == '__main__':
     else:
         errors = compare_files(args.pred, args.gold)
     print(errors)
+    missing_errors = Counter([e.args[0].split("(",1)[0] for e in errors[0]["missing"]])
+    print(f"Missing errors breakdown: {missing_errors}")
