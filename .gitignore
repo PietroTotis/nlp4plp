@@ -1,5 +1,6 @@
 # .pl models directory
 compressed/*
+converted/*
 examples/*
 !compressed/.gitkeep
 !examples/.gitkeep

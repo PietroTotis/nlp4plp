@@ -4,6 +4,7 @@ from eval import parse_file
 from problog.logic import Term, Var
 
 ENCODINGS_PATH = "/mnt/01D503E0ADE91930/Users/pietr/Desktop/PhD/nlp4plp_old/code/solver"
+CONVERT_CONSTS = False
 
 id_map = {}
 label_id = "l"
@@ -55,8 +56,11 @@ def convert_term(term):
         return Var(identifier)
     else:
         if str(type(term))[-10:-2] == "Constant":
-            identifier = get_id(term, num_id)
-            return Var(identifier)
+            if CONVERT_CONSTS:
+                identifier = get_id(term, num_id)
+                return Var(identifier)
+            else:
+                return term
         else:
             if str(term) in ignore_consts:
                 # avoid labelling specific constants
@@ -71,7 +75,7 @@ def convert(program):
     '''
     problog_program = parse_file(program)
     for statement in problog_program:
-        print(convert_term(statement))
+        print(f"{convert_term(statement)}.")
 
 
 if __name__ == '__main__':

@@ -6,7 +6,7 @@
 SCRIPT_PATH=$(dirname "$0")
 cd $SCRIPT_PATH
 
-PATH_MODELS="../compressed/*.pl"
+PATH_MODELS="../converted/*.pl"
 
 for FILENAME in $PATH_MODELS; do
     NAME=${FILENAME##*/}

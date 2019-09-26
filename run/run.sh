@@ -9,7 +9,7 @@
 
 #PATH_TO_OLD="/mnt/D2D6AD4FD6AD349F/Users/pietr/Desktop/PhD/nlp4plp_old/code/solver/run_solver.pl"
 SOLVER_PATH="../solver/solver.pl"
-DATA="../examples"
+DATA="../converted"
 
 # A POSIX variable
 OPTIND=1
