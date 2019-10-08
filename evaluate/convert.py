@@ -42,9 +42,9 @@ def convert_term(term):
         if term.functor == "property":
             arg = convert_term(term.args[1])
             # uniform/consistent useless first argument
-            return Term("property", Term("property"), arg)
+            # return Term("property", Term("property"), arg)
             # preserve orginal name
-            # return Term("property", term.args[0], arg)
+            return Term("property", term.args[0], arg)
         else:
             args = []
             for arg in term.args:
