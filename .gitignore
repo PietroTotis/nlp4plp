@@ -7,3 +7,4 @@ examples/*
 experiments/NLP/dev
 experiments/NLP/train
 experiments/NLP/test
+out/*
