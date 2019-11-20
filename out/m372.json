@@ -1,0 +1,760 @@
+{
+  "owner": "monica", 
+  "ex_id": 372, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "7", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "8", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "8", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "9", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "9", 
+        "corenlp": {
+          "number": 9
+        }, 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "place", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "placed", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "digit", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "bin", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bins", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-31"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-34"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "selected", 
+        "key": "1-37"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "For", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "For", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "lottery", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "lottery", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "drawing", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "drawing", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 6, 
+        "type": "word", 
+        "is_event": false, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "event": {
+          "outcomes": {}, 
+          "group": "2-9-drawn"
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "number", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "numbered", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": "bin", 
+        "index": 40, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bin", 
+        "key": "1-40"
+      }, 
+      "41": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 41, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-41"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "42": {
+        "sentence": 1, 
+        "nlp_stem": "order", 
+        "index": 42, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "1-42"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-21"
+      }, 
+      "43": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 43, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-43"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "odd", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "odd", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-13"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "all", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "all", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "three", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "digit", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 9, 
+        "type": "word", 
+        "is_event": false, 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "event": {
+          "is_event_group": true, 
+          "outcomes": {}
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://www.agmath.com/media//DIR_57727/Probability.pdf", 
+  "original_text": [
+    " For a lottery drawing, balls numbered with the digits 1-9 are placed in three bins and one ball is selected from each bin in order.", 
+    " What is the probability that all three digits drawn will be odd?"
+  ], 
+  "text": [
+    " For a lottery drawing, balls numbered with the digits 1, 2, 3, 4, 5, 6, 7, 8, 9 are placed in three bins and one ball is selected from each bin in order.", 
+    " What is the probability that all three digits drawn will be odd?"
+  ], 
+  "corenlp": [
+    "word(1-1-for)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-lottery)", 
+    "pos(1-3,nn)", 
+    "word(1-4-drawing)", 
+    "pos(1-4,nn)", 
+    "word(1-5-',')", 
+    "pos(1-5,',')", 
+    "word(1-6-balls)", 
+    "pos(1-6,nns)", 
+    "word(1-7-numbered)", 
+    "pos(1-7,vbd)", 
+    "word(1-8-with)", 
+    "pos(1-8,in)", 
+    "word(1-9-the)", 
+    "pos(1-9,dt)", 
+    "word(1-10-digits)", 
+    "pos(1-10,nns)", 
+    "word(1-11-1)", 
+    "pos(1-11,cd)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-2)", 
+    "pos(1-13,cd)", 
+    "word(1-14-',')", 
+    "pos(1-14,',')", 
+    "word(1-15-3)", 
+    "pos(1-15,cd)", 
+    "word(1-16-',')", 
+    "pos(1-16,',')", 
+    "word(1-17-4)", 
+    "pos(1-17,cd)", 
+    "word(1-18-',')", 
+    "pos(1-18,',')", 
+    "word(1-19-5)", 
+    "pos(1-19,cd)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-6)", 
+    "pos(1-21,cd)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-7)", 
+    "pos(1-23,cd)", 
+    "word(1-24-',')", 
+    "pos(1-24,',')", 
+    "word(1-25-8)", 
+    "pos(1-25,cd)", 
+    "word(1-26-',')", 
+    "pos(1-26,',')", 
+    "word(1-27-9)", 
+    "pos(1-27,cd)", 
+    "word(1-28-are)", 
+    "pos(1-28,vbp)", 
+    "word(1-29-placed)", 
+    "pos(1-29,vbn)", 
+    "word(1-30-in)", 
+    "pos(1-30,in)", 
+    "word(1-31-three)", 
+    "pos(1-31,cd)", 
+    "word(1-32-bins)", 
+    "pos(1-32,nns)", 
+    "word(1-33-and)", 
+    "pos(1-33,cc)", 
+    "word(1-34-one)", 
+    "pos(1-34,cd)", 
+    "word(1-35-ball)", 
+    "pos(1-35,nn)", 
+    "word(1-36-is)", 
+    "pos(1-36,vbz)", 
+    "word(1-37-selected)", 
+    "pos(1-37,vbn)", 
+    "word(1-38-from)", 
+    "pos(1-38,in)", 
+    "word(1-39-each)", 
+    "pos(1-39,dt)", 
+    "word(1-40-bin)", 
+    "pos(1-40,nn)", 
+    "word(1-41-in)", 
+    "pos(1-41,in)", 
+    "word(1-42-order)", 
+    "pos(1-42,nn)", 
+    "word(1-43-'.')", 
+    "pos(1-43,'.')", 
+    "case(1-4,1-1)", 
+    "det(1-4,1-2)", 
+    "compound(1-4,1-3)", 
+    "nmod:for(1-7,1-4)", 
+    "dep(1-7,1-37)", 
+    "nsubj(1-7,1-6)", 
+    "nmod:with(1-7,1-10)", 
+    "dep(1-7,1-29)", 
+    "case(1-10,1-8)", 
+    "det(1-10,1-9)", 
+    "amod(1-11,1-13)", 
+    "amod(1-11,1-15)", 
+    "amod(1-11,1-17)", 
+    "amod(1-11,1-19)", 
+    "amod(1-11,1-21)", 
+    "amod(1-11,1-23)", 
+    "amod(1-11,1-25)", 
+    "amod(1-11,1-27)", 
+    "nmod:in(1-29,1-32)", 
+    "cc(1-29,1-33)", 
+    "conj:and(1-29,1-37)", 
+    "nsubjpass(1-29,1-11)", 
+    "auxpass(1-29,1-28)", 
+    "case(1-32,1-30)", 
+    "nummod(1-32,1-31)", 
+    "nummod(1-35,1-34)", 
+    "nsubjpass(1-37,1-35)", 
+    "auxpass(1-37,1-36)", 
+    "nmod:from(1-37,1-40)", 
+    "case(1-40,1-38)", 
+    "det(1-40,1-39)", 
+    "acl(1-40,1-41)", 
+    "mwe(1-41,1-42)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,in)", 
+    "word(2-6-all)", 
+    "pos(2-6,dt)", 
+    "word(2-7-three)", 
+    "pos(2-7,cd)", 
+    "word(2-8-digits)", 
+    "pos(2-8,nns)", 
+    "word(2-9-drawn)", 
+    "pos(2-9,vbn)", 
+    "word(2-10-will)", 
+    "pos(2-10,md)", 
+    "word(2-11-be)", 
+    "pos(2-11,vb)", 
+    "word(2-12-odd)", 
+    "pos(2-12,jj)", 
+    "word(2-13-'?')", 
+    "pos(2-13,'.')", 
+    "det(2-4,2-3)", 
+    "dep(2-4,2-12)", 
+    "det(2-8,2-6)", 
+    "nummod(2-8,2-7)", 
+    "acl(2-8,2-9)", 
+    "mark(2-12,2-5)", 
+    "nsubj(2-12,2-8)", 
+    "aux(2-12,2-10)", 
+    "cop(2-12,2-11)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "simple object selection", 
+    "id": 1
+  }, 
+  "time_added": "2016-08-02T11:28:02.535000", 
+  "status": "skip"
+}

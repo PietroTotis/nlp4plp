@@ -1,0 +1,490 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1059, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "80", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "80", 
+        "corenlp": {
+          "number": 80
+        }, 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "chance", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-22"
+            ], 
+            "mention": "explicit", 
+            "number": "80"
+          }
+        }, 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "snow", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "snow", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "freezing", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "freezing", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "rain", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 30, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-30"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "freezing", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "freezing", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "rain", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "10", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "chance", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "snow", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "snow", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "freezing", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "freezing", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "suppose", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Suppose", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "'s", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "40", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "40", 
+        "corenlp": {
+          "number": 40
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "chance", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "40"
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "get", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "getting", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "rain", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Find", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "chance", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "snow", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "snow", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-6"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "0.5", 
+  "text": [
+    " Suppose there 's 40 percent chance of getting a freezing rain, 10 percent chance of snow and freezing rain, 80 percent chance of snow or freezing rain.", 
+    " Find the chance of snow."
+  ], 
+  "corenlp": [
+    "word(1-1-suppose)", 
+    "pos(1-1,vb)", 
+    "word(1-2-there)", 
+    "pos(1-2,ex)", 
+    "word(1-3-\"'s\")", 
+    "pos(1-3,vbz)", 
+    "word(1-4-40)", 
+    "pos(1-4,cd)", 
+    "word(1-5-percent)", 
+    "pos(1-5,nn)", 
+    "word(1-6-chance)", 
+    "pos(1-6,nn)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-getting)", 
+    "pos(1-8,vbg)", 
+    "word(1-9-a)", 
+    "pos(1-9,dt)", 
+    "word(1-10-freezing)", 
+    "pos(1-10,jj)", 
+    "word(1-11-rain)", 
+    "pos(1-11,nn)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-10)", 
+    "pos(1-13,cd)", 
+    "word(1-14-percent)", 
+    "pos(1-14,nn)", 
+    "word(1-15-chance)", 
+    "pos(1-15,nn)", 
+    "word(1-16-of)", 
+    "pos(1-16,in)", 
+    "word(1-17-snow)", 
+    "pos(1-17,nn)", 
+    "word(1-18-and)", 
+    "pos(1-18,cc)", 
+    "word(1-19-freezing)", 
+    "pos(1-19,jj)", 
+    "word(1-20-rain)", 
+    "pos(1-20,nn)", 
+    "word(1-21-',')", 
+    "pos(1-21,',')", 
+    "word(1-22-80)", 
+    "pos(1-22,cd)", 
+    "word(1-23-percent)", 
+    "pos(1-23,nn)", 
+    "word(1-24-chance)", 
+    "pos(1-24,nn)", 
+    "word(1-25-of)", 
+    "pos(1-25,in)", 
+    "word(1-26-snow)", 
+    "pos(1-26,nn)", 
+    "word(1-27-or)", 
+    "pos(1-27,cc)", 
+    "word(1-28-freezing)", 
+    "pos(1-28,jj)", 
+    "word(1-29-rain)", 
+    "pos(1-29,nn)", 
+    "word(1-30-'.')", 
+    "pos(1-30,'.')", 
+    "ccomp(1-1,1-3)", 
+    "expl(1-3,1-2)", 
+    "nsubj(1-3,1-6)", 
+    "nummod(1-6,1-4)", 
+    "compound(1-6,1-5)", 
+    "acl(1-6,1-8)", 
+    "dobj(1-8,1-20)", 
+    "mark(1-8,1-7)", 
+    "dobj(1-8,1-11)", 
+    "dobj(1-8,1-15)", 
+    "cc(1-11,1-18)", 
+    "conj:and(1-11,1-20)", 
+    "conj:and(1-11,1-24)", 
+    "det(1-11,1-9)", 
+    "amod(1-11,1-10)", 
+    "conj:and(1-11,1-29)", 
+    "conj:and(1-11,1-15)", 
+    "nmod:of(1-15,1-17)", 
+    "nummod(1-15,1-13)", 
+    "compound(1-15,1-14)", 
+    "case(1-17,1-16)", 
+    "amod(1-20,1-19)", 
+    "conj:or(1-20,1-24)", 
+    "cc(1-20,1-27)", 
+    "conj:or(1-20,1-29)", 
+    "nummod(1-24,1-22)", 
+    "compound(1-24,1-23)", 
+    "nmod:of(1-24,1-26)", 
+    "case(1-26,1-25)", 
+    "amod(1-29,1-28)", 
+    "word(2-1-find)", 
+    "pos(2-1,vb)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-chance)", 
+    "pos(2-3,nn)", 
+    "word(2-4-of)", 
+    "pos(2-4,in)", 
+    "word(2-5-snow)", 
+    "pos(2-5,nn)", 
+    "word(2-6-'.')", 
+    "pos(2-6,'.')", 
+    "nmod:of(2-3,2-5)", 
+    "det(2-3,2-2)", 
+    "case(2-5,2-4)", 
+    "dobj(2-1,2-3)"
+  ], 
+  "category": {
+    "name": "simple object selection", 
+    "id": 1
+  }, 
+  "time_added": "2016-08-10T15:15:44.317000", 
+  "status": "skip"
+}

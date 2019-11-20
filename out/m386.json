@@ -1,0 +1,725 @@
+{
+  "owner": "monica", 
+  "ex_id": 386, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "5", 
+          "class": "outcome"
+        }, 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "6", 
+          "class": "outcome"
+        }, 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-26"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "side", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "sides", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "6"
+          }
+        }, 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "label", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "labeled", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "1", 
+          "class": "outcome"
+        }, 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "2", 
+          "class": "outcome"
+        }, 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "3", 
+          "class": "outcome"
+        }, 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "Alice", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Alice", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "ben", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Ben", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "take", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "take", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "turn", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "turns", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "rolling", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "standard", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "standard", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "die", 
+        "index": 9, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "NN", 
+        "text": "die", 
+        "event": {
+          "outcomes": {
+            "values": [
+              "1-15", 
+              "1-17", 
+              "1-19", 
+              "1-21", 
+              "1-23", 
+              "1-25"
+            ]
+          }, 
+          "group": "2-5-roll"
+        }, 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "4", 
+          "class": "outcome"
+        }, 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "person", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "person", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "roll", 
+        "index": 5, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "VB", 
+        "text": "roll", 
+        "event": {
+          "is_event_group": true, 
+          "constraints": [
+            {
+              "is_question": true, 
+              "type": "compound", 
+              "logic": {
+                "choice": "6"
+              }
+            }
+          ], 
+          "outcomes": {}
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "six", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "win", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "wins", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-9"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "she", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "she", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "will", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "win", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "win", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "game", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "game", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-16"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "Alice", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Alice", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "go", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "goes", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "first", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "first", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "what", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://www.agmath.com/media//DIR_57727/Probability.pdf", 
+  "original_text": [
+    " Alice and Ben take turns rolling a standard six-sided die.", 
+    " The first person to roll a six wins.", 
+    " If Alice goes first, what is the probability that she will win the game?"
+  ], 
+  "text": [
+    " Alice and Ben take turns rolling a standard die with 6 sides, labeled 1, 2, 3, 4, 5, 6.", 
+    " The first person to roll a six wins.", 
+    " If Alice goes first, what is the probability that she will win the game?"
+  ], 
+  "corenlp": [
+    "word(1-1-alice)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-and)", 
+    "pos(1-2,cc)", 
+    "word(1-3-ben)", 
+    "pos(1-3,nnp)", 
+    "word(1-4-take)", 
+    "pos(1-4,vbp)", 
+    "word(1-5-turns)", 
+    "pos(1-5,nns)", 
+    "word(1-6-rolling)", 
+    "pos(1-6,vbg)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-standard)", 
+    "pos(1-8,jj)", 
+    "word(1-9-die)", 
+    "pos(1-9,nn)", 
+    "word(1-10-with)", 
+    "pos(1-10,in)", 
+    "word(1-11-6)", 
+    "pos(1-11,cd)", 
+    "word(1-12-sides)", 
+    "pos(1-12,nns)", 
+    "word(1-13-',')", 
+    "pos(1-13,',')", 
+    "word(1-14-labeled)", 
+    "pos(1-14,vbn)", 
+    "word(1-15-1)", 
+    "pos(1-15,cd)", 
+    "word(1-16-',')", 
+    "pos(1-16,',')", 
+    "word(1-17-2)", 
+    "pos(1-17,cd)", 
+    "word(1-18-',')", 
+    "pos(1-18,',')", 
+    "word(1-19-3)", 
+    "pos(1-19,cd)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-4)", 
+    "pos(1-21,cd)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-5)", 
+    "pos(1-23,cd)", 
+    "word(1-24-',')", 
+    "pos(1-24,',')", 
+    "word(1-25-6)", 
+    "pos(1-25,cd)", 
+    "word(1-26-'.')", 
+    "pos(1-26,'.')", 
+    "cc(1-1,1-2)", 
+    "conj:and(1-1,1-3)", 
+    "nsubj(1-4,1-1)", 
+    "nsubj(1-4,1-3)", 
+    "dobj(1-4,1-5)", 
+    "acl(1-5,1-6)", 
+    "dobj(1-6,1-9)", 
+    "nmod:with(1-6,1-12)", 
+    "det(1-9,1-7)", 
+    "amod(1-9,1-8)", 
+    "case(1-12,1-10)", 
+    "nummod(1-12,1-11)", 
+    "acl(1-12,1-14)", 
+    "dobj(1-14,1-15)", 
+    "amod(1-15,1-17)", 
+    "amod(1-15,1-19)", 
+    "amod(1-15,1-21)", 
+    "amod(1-15,1-23)", 
+    "amod(1-15,1-25)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-first)", 
+    "pos(2-2,jj)", 
+    "word(2-3-person)", 
+    "pos(2-3,nn)", 
+    "word(2-4-to)", 
+    "pos(2-4,to)", 
+    "word(2-5-roll)", 
+    "pos(2-5,vb)", 
+    "word(2-6-a)", 
+    "pos(2-6,dt)", 
+    "word(2-7-six)", 
+    "pos(2-7,cd)", 
+    "word(2-8-wins)", 
+    "pos(2-8,nns)", 
+    "word(2-9-'.')", 
+    "pos(2-9,'.')", 
+    "det(2-3,2-1)", 
+    "amod(2-3,2-2)", 
+    "nsubj(2-5,2-3)", 
+    "mark(2-5,2-4)", 
+    "dobj(2-5,2-8)", 
+    "det(2-8,2-6)", 
+    "nummod(2-8,2-7)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-alice)", 
+    "pos(3-2,nnp)", 
+    "word(3-3-goes)", 
+    "pos(3-3,vbz)", 
+    "word(3-4-first)", 
+    "pos(3-4,rb)", 
+    "word(3-5-',')", 
+    "pos(3-5,',')", 
+    "word(3-6-what)", 
+    "pos(3-6,wp)", 
+    "word(3-7-is)", 
+    "pos(3-7,vbz)", 
+    "word(3-8-the)", 
+    "pos(3-8,dt)", 
+    "word(3-9-probability)", 
+    "pos(3-9,nn)", 
+    "word(3-10-that)", 
+    "pos(3-10,in)", 
+    "word(3-11-she)", 
+    "pos(3-11,prp)", 
+    "word(3-12-will)", 
+    "pos(3-12,md)", 
+    "word(3-13-win)", 
+    "pos(3-13,vb)", 
+    "word(3-14-the)", 
+    "pos(3-14,dt)", 
+    "word(3-15-game)", 
+    "pos(3-15,nn)", 
+    "word(3-16-'?')", 
+    "pos(3-16,'.')", 
+    "cop(3-6,3-7)", 
+    "nsubj(3-6,3-9)", 
+    "dep(3-6,3-3)", 
+    "det(3-9,3-8)", 
+    "dep(3-9,3-13)", 
+    "mark(3-13,3-10)", 
+    "nsubj(3-13,3-11)", 
+    "aux(3-13,3-12)", 
+    "dobj(3-13,3-15)", 
+    "det(3-15,3-14)", 
+    "mark(3-3,3-1)", 
+    "nsubj(3-3,3-2)", 
+    "advmod(3-3,3-4)"
+  ], 
+  "category": {
+    "name": "simple event", 
+    "id": 2
+  }, 
+  "time_added": "2016-08-02T11:38:20.308000", 
+  "status": "skip"
+}

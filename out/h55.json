@@ -1,0 +1,448 @@
+{
+  "owner": "hannah", 
+  "ex_id": 55, 
+  "note": "", 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "set", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "set", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "integer", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "integers", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "9", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "9", 
+        "corenlp": {
+          "number": 9
+        }, 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "number", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "number", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "random", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "inclusive", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "inclusive", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "among", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "among", 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "multiple", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "multiple", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "4", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "number", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "number", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "choose", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "SAT Math easy practice quiz #2", 
+  "solution": "2/9", 
+  "text": [
+    " A number is to be chosen at random from among the set of integers from 1 to 9, inclusive.", 
+    " What is the probability that the number chosen is a multiple of 4?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1-a,dt)", 
+    "word(1-2-number)", 
+    "pos(1-2-number,nn)", 
+    "word(1-3-is)", 
+    "pos(1-3-is,vbz)", 
+    "word(1-4-to)", 
+    "pos(1-4-to,to)", 
+    "word(1-5-be)", 
+    "pos(1-5-be,vb)", 
+    "word(1-6-chosen)", 
+    "pos(1-6-chosen,vbn)", 
+    "word(1-7-at)", 
+    "pos(1-7-at,in)", 
+    "word(1-8-random)", 
+    "pos(1-8-random,jj)", 
+    "word(1-9-from)", 
+    "pos(1-9-from,in)", 
+    "word(1-10-among)", 
+    "pos(1-10-among,in)", 
+    "word(1-11-the)", 
+    "pos(1-11-the,dt)", 
+    "word(1-12-set)", 
+    "pos(1-12-set,nn)", 
+    "word(1-13-of)", 
+    "pos(1-13-of,in)", 
+    "word(1-14-integers)", 
+    "pos(1-14-integers,nns)", 
+    "word(1-15-from)", 
+    "pos(1-15-from,in)", 
+    "word(1-16-1)", 
+    "pos(1-16-1,cd)", 
+    "word(1-17-to)", 
+    "pos(1-17-to,to)", 
+    "word(1-18-9)", 
+    "pos(1-18-9,cd)", 
+    "word(1-19-',')", 
+    "pos(1-19-',',',')", 
+    "word(1-20-inclusive)", 
+    "pos(1-20-inclusive,jj)", 
+    "word(1-21-'.')", 
+    "pos(1-21-'.','.')", 
+    "det(1-2-number,1-1-a)", 
+    "nsubj(1-3-is,1-2-number)", 
+    "punct(1-3-is,1-21-'.')", 
+    "xcomp(1-3-is,1-6-chosen)", 
+    "punct(1-6-chosen,1-19-',')", 
+    "mark(1-6-chosen,1-4-to)", 
+    "xcomp(1-6-chosen,1-20-inclusive)", 
+    "auxpass(1-6-chosen,1-5-be)", 
+    "advcl:at(1-6-chosen,1-8-random)", 
+    "nmod:among(1-6-chosen,1-12-set)", 
+    "case(1-8-random,1-7-at)", 
+    "case(1-12-set,1-9-from)", 
+    "case(1-12-set,1-10-among)", 
+    "det(1-12-set,1-11-the)", 
+    "nmod:of(1-12-set,1-14-integers)", 
+    "nmod:from(1-14-integers,1-18-9)", 
+    "case(1-14-integers,1-13-of)", 
+    "compound(1-18-9,1-16-1)", 
+    "dep(1-18-9,1-17-to)", 
+    "case(1-18-9,1-15-from)", 
+    "word(2-1-what)", 
+    "pos(2-1-what,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2-is,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3-the,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4-probability,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5-that,in)", 
+    "word(2-6-the)", 
+    "pos(2-6-the,dt)", 
+    "word(2-7-number)", 
+    "pos(2-7-number,nn)", 
+    "word(2-8-chosen)", 
+    "pos(2-8-chosen,vbn)", 
+    "word(2-9-is)", 
+    "pos(2-9-is,vbz)", 
+    "word(2-10-a)", 
+    "pos(2-10-a,dt)", 
+    "word(2-11-multiple)", 
+    "pos(2-11-multiple,jj)", 
+    "word(2-12-of)", 
+    "pos(2-12-of,in)", 
+    "word(2-13-4)", 
+    "pos(2-13-4,cd)", 
+    "word(2-14-'?')", 
+    "pos(2-14-'?','.')", 
+    "det(2-4-probability,2-3-the)", 
+    "dep(2-4-probability,2-11-multiple)", 
+    "det(2-7-number,2-6-the)", 
+    "acl(2-7-number,2-8-chosen)", 
+    "mark(2-11-multiple,2-5-that)", 
+    "nsubj(2-11-multiple,2-7-number)", 
+    "cop(2-11-multiple,2-9-is)", 
+    "det(2-11-multiple,2-10-a)", 
+    "nmod:of(2-11-multiple,2-13-4)", 
+    "case(2-13-4,2-12-of)", 
+    "nsubj(2-1-what,2-4-probability)", 
+    "punct(2-1-what,2-14-'?')", 
+    "cop(2-1-what,2-2-is)"
+  ], 
+  "time_added": "2016-07-05T15:31:43.982000", 
+  "status": "skip"
+}

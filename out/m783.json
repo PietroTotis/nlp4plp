@@ -1,0 +1,417 @@
+{
+  "owner": "monica", 
+  "ex_id": 783, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "local", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "local", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "restaurant", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "restaurant", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "diner", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "diner", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "select", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "entree", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "entrees", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "dessert", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "desserts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "dessert", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dessert", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "diner", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "diner", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "select", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-16"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "meal", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "meals", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "consist", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "consisting", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "an", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "entree", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "FW", 
+        "text": "entree", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "STATISTICS AND. PROBABILITY. CLAST MATHEMATICS COMPETENCIES. Houghton Mifflin Company.", 
+  "text": [
+    " A diner can select from 5 entrees and 3 desserts at a local restaurant.", 
+    " How many different meals consisting of an entree and a dessert can a diner select?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-diner)", 
+    "pos(1-2,nn)", 
+    "word(1-3-can)", 
+    "pos(1-3,md)", 
+    "word(1-4-select)", 
+    "pos(1-4,vb)", 
+    "word(1-5-from)", 
+    "pos(1-5,in)", 
+    "word(1-6-5)", 
+    "pos(1-6,cd)", 
+    "word(1-7-entrees)", 
+    "pos(1-7,nns)", 
+    "word(1-8-and)", 
+    "pos(1-8,cc)", 
+    "word(1-9-3)", 
+    "pos(1-9,cd)", 
+    "word(1-10-desserts)", 
+    "pos(1-10,nns)", 
+    "word(1-11-at)", 
+    "pos(1-11,in)", 
+    "word(1-12-a)", 
+    "pos(1-12,dt)", 
+    "word(1-13-local)", 
+    "pos(1-13,jj)", 
+    "word(1-14-restaurant)", 
+    "pos(1-14,nn)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-4,1-2)", 
+    "aux(1-4,1-3)", 
+    "nmod:from(1-4,1-7)", 
+    "nmod:from(1-4,1-10)", 
+    "nmod:at(1-4,1-14)", 
+    "case(1-7,1-5)", 
+    "nummod(1-7,1-6)", 
+    "cc(1-7,1-8)", 
+    "conj:and(1-7,1-10)", 
+    "nummod(1-10,1-9)", 
+    "case(1-14,1-11)", 
+    "det(1-14,1-12)", 
+    "amod(1-14,1-13)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-different)", 
+    "pos(2-3,jj)", 
+    "word(2-4-meals)", 
+    "pos(2-4,nns)", 
+    "word(2-5-consisting)", 
+    "pos(2-5,vbg)", 
+    "word(2-6-of)", 
+    "pos(2-6,in)", 
+    "word(2-7-an)", 
+    "pos(2-7,dt)", 
+    "word(2-8-entree)", 
+    "pos(2-8,fw)", 
+    "word(2-9-and)", 
+    "pos(2-9,cc)", 
+    "word(2-10-a)", 
+    "pos(2-10,dt)", 
+    "word(2-11-dessert)", 
+    "pos(2-11,nn)", 
+    "word(2-12-can)", 
+    "pos(2-12,md)", 
+    "word(2-13-a)", 
+    "pos(2-13,dt)", 
+    "word(2-14-diner)", 
+    "pos(2-14,nn)", 
+    "word(2-15-select)", 
+    "pos(2-15,vb)", 
+    "word(2-16-'?')", 
+    "pos(2-16,'.')", 
+    "amod(2-4,2-3)", 
+    "nmod:of(2-4,2-8)", 
+    "nmod:of(2-4,2-11)", 
+    "amod(2-4,2-2)", 
+    "case(2-8,2-5)", 
+    "case(2-8,2-6)", 
+    "det(2-8,2-7)", 
+    "cc(2-8,2-9)", 
+    "conj:and(2-8,2-11)", 
+    "det(2-11,2-10)", 
+    "det(2-14,2-13)", 
+    "dobj(2-15,2-4)", 
+    "aux(2-15,2-12)", 
+    "nsubj(2-15,2-14)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-09T11:57:37.499000", 
+  "status": "later"
+}

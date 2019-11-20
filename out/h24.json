@@ -1,0 +1,378 @@
+{
+  "owner": "hannah", 
+  "ex_id": 24, 
+  "note": "", 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "beginning", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "beginning", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "end", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "end", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "shelf", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "shelf", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 28, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-28"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "book", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "books", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 7
+          }
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "on", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "bookshelf", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bookshelf", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "if", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "book", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "books", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-15"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "should", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "should", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "together", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "together", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "di\ufb00erent", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "di\ufb00erent", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "place", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "place", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "seven", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "seven", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "Exercises from class", 
+  "solution": "480", 
+  "text": [
+    " How many di\ufb00erent ways are there to place seven books on a bookshelf if two books should be together at the beginning or end of the shelf?"
+  ], 
+  "corenlp": [
+    "word(1-1-how)", 
+    "pos(1-1-how,wrb)", 
+    "word(1-2-many)", 
+    "pos(1-2-many,jj)", 
+    "word(1-3-different)", 
+    "pos(1-3-different,jj)", 
+    "word(1-4-ways)", 
+    "pos(1-4-ways,nns)", 
+    "word(1-5-are)", 
+    "pos(1-5-are,vbp)", 
+    "word(1-6-there)", 
+    "pos(1-6-there,ex)", 
+    "word(1-7-to)", 
+    "pos(1-7-to,to)", 
+    "word(1-8-place)", 
+    "pos(1-8-place,vb)", 
+    "word(1-9-seven)", 
+    "pos(1-9-seven,cd)", 
+    "word(1-10-books)", 
+    "pos(1-10-books,nns)", 
+    "word(1-11-on)", 
+    "pos(1-11-on,in)", 
+    "word(1-12-a)", 
+    "pos(1-12-a,dt)", 
+    "word(1-13-bookshelf)", 
+    "pos(1-13-bookshelf,nn)", 
+    "word(1-14-if)", 
+    "pos(1-14-if,in)", 
+    "word(1-15-two)", 
+    "pos(1-15-two,cd)", 
+    "word(1-16-books)", 
+    "pos(1-16-books,nns)", 
+    "word(1-17-should)", 
+    "pos(1-17-should,md)", 
+    "word(1-18-be)", 
+    "pos(1-18-be,vb)", 
+    "word(1-19-together)", 
+    "pos(1-19-together,rb)", 
+    "word(1-20-at)", 
+    "pos(1-20-at,in)", 
+    "word(1-21-the)", 
+    "pos(1-21-the,dt)", 
+    "word(1-22-beginning)", 
+    "pos(1-22-beginning,nn)", 
+    "word(1-23-or)", 
+    "pos(1-23-or,cc)", 
+    "word(1-24-end)", 
+    "pos(1-24-end,nn)", 
+    "word(1-25-of)", 
+    "pos(1-25-of,in)", 
+    "word(1-26-the)", 
+    "pos(1-26-the,dt)", 
+    "word(1-27-shelf)", 
+    "pos(1-27-shelf,nn)", 
+    "word(1-28-'?')", 
+    "pos(1-28-'?','.')", 
+    "advmod(1-2-many,1-1-how)", 
+    "amod(1-4-ways,1-2-many)", 
+    "amod(1-4-ways,1-3-different)", 
+    "nsubj(1-5-are,1-4-ways)", 
+    "expl(1-5-are,1-6-there)", 
+    "dep(1-5-are,1-8-place)", 
+    "punct(1-5-are,1-28-'?')", 
+    "advcl:at(1-8-place,1-22-beginning)", 
+    "mark(1-8-place,1-7-to)", 
+    "advcl:at(1-8-place,1-24-end)", 
+    "dobj(1-8-place,1-10-books)", 
+    "nmod:on(1-8-place,1-13-bookshelf)", 
+    "nummod(1-10-books,1-9-seven)", 
+    "case(1-13-bookshelf,1-11-on)", 
+    "det(1-13-bookshelf,1-12-a)", 
+    "nummod(1-16-books,1-15-two)", 
+    "nsubj(1-22-beginning,1-16-books)", 
+    "aux(1-22-beginning,1-17-should)", 
+    "cop(1-22-beginning,1-18-be)", 
+    "advmod(1-22-beginning,1-19-together)", 
+    "case(1-22-beginning,1-20-at)", 
+    "det(1-22-beginning,1-21-the)", 
+    "cc(1-22-beginning,1-23-or)", 
+    "conj:or(1-22-beginning,1-24-end)", 
+    "nmod:of(1-22-beginning,1-27-shelf)", 
+    "mark(1-22-beginning,1-14-if)", 
+    "case(1-27-shelf,1-25-of)", 
+    "det(1-27-shelf,1-26-the)"
+  ], 
+  "time_added": "2016-07-05T10:20:31.922000", 
+  "status": "skip"
+}

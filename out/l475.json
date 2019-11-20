@@ -1,0 +1,962 @@
+{
+  "owner": "liselot", 
+  "ex_id": 475, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "b", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "B", 
+        "key": "1-22"
+      }, 
+      "44": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 44, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-44"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-23"
+      }, 
+      "45": {
+        "sentence": 1, 
+        "nlp_stem": "defective", 
+        "index": 45, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "defective", 
+        "key": "1-45"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-24"
+      }, 
+      "46": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 46, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-46"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "light", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "light", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "bulb", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bulbs", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-24"
+            ], 
+            "mention": "explicit", 
+            "number": "6"
+          }
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "which", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "defective", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "defective", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "10", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "light", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "light", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Box", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "bulb", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bulbs", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "c", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "C", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "8", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "8", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-37"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "which", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "light", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "light", 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": "bulb", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bulbs", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-37"
+            ], 
+            "mention": "explicit", 
+            "number": "8"
+          }
+        }, 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "defective", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "defective", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "suppose", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Suppose", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "we", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "give", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "given", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "boxes", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Box", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "A", 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 40, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-40"
+      }, 
+      "41": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 41, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-41"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "42": {
+        "sentence": 1, 
+        "nlp_stem": "which", 
+        "index": 42, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "1-42"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Box", 
+        "key": "1-21"
+      }, 
+      "43": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 43, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-43"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "light", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "light", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "bulb", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bulb", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "from", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "that", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "box", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "box", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "random", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-18"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "We", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "We", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "select", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "box", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "box", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "random", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "then", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "draw", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "bulb", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bulb", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "defective", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "defective", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "https://www.gcu.ac.uk/media/gcalwebv2/ebe/ldc/mathsmaterial/level3compnet/Level_3_Comp_PROBABILITY.pdf", 
+  "solution": "113/360", 
+  "text": [
+    " Suppose we are given three boxes, Box A contains 10 light bulbs, of which 4 are defective, Box B contains 6 light bulbs, of which 1 is defective and Box C contains 8 light bulbs, of which 3 are defective.", 
+    " We select a box at random and then draw a light bulb from that box at random.", 
+    " What is the probability that the bulb is defective?"
+  ], 
+  "corenlp": [
+    "word(1-1-suppose)", 
+    "pos(1-1,vb)", 
+    "word(1-2-we)", 
+    "pos(1-2,prp)", 
+    "word(1-3-are)", 
+    "pos(1-3,vbp)", 
+    "word(1-4-given)", 
+    "pos(1-4,vbn)", 
+    "word(1-5-three)", 
+    "pos(1-5,cd)", 
+    "word(1-6-boxes)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-box)", 
+    "pos(1-8,nnp)", 
+    "word(1-9-a)", 
+    "pos(1-9,nnp)", 
+    "word(1-10-contains)", 
+    "pos(1-10,vbz)", 
+    "word(1-11-10)", 
+    "pos(1-11,cd)", 
+    "word(1-12-light)", 
+    "pos(1-12,jj)", 
+    "word(1-13-bulbs)", 
+    "pos(1-13,nns)", 
+    "word(1-14-',')", 
+    "pos(1-14,',')", 
+    "word(1-15-of)", 
+    "pos(1-15,in)", 
+    "word(1-16-which)", 
+    "pos(1-16,wdt)", 
+    "word(1-17-4)", 
+    "pos(1-17,cd)", 
+    "word(1-18-are)", 
+    "pos(1-18,vbp)", 
+    "word(1-19-defective)", 
+    "pos(1-19,jj)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-box)", 
+    "pos(1-21,nnp)", 
+    "word(1-22-b)", 
+    "pos(1-22,nn)", 
+    "word(1-23-contains)", 
+    "pos(1-23,vbz)", 
+    "word(1-24-6)", 
+    "pos(1-24,cd)", 
+    "word(1-25-light)", 
+    "pos(1-25,nn)", 
+    "word(1-26-bulbs)", 
+    "pos(1-26,nns)", 
+    "word(1-27-',')", 
+    "pos(1-27,',')", 
+    "word(1-28-of)", 
+    "pos(1-28,in)", 
+    "word(1-29-which)", 
+    "pos(1-29,wdt)", 
+    "word(1-30-1)", 
+    "pos(1-30,cd)", 
+    "word(1-31-is)", 
+    "pos(1-31,vbz)", 
+    "word(1-32-defective)", 
+    "pos(1-32,jj)", 
+    "word(1-33-and)", 
+    "pos(1-33,cc)", 
+    "word(1-34-box)", 
+    "pos(1-34,nnp)", 
+    "word(1-35-c)", 
+    "pos(1-35,nnp)", 
+    "word(1-36-contains)", 
+    "pos(1-36,vbz)", 
+    "word(1-37-8)", 
+    "pos(1-37,cd)", 
+    "word(1-38-light)", 
+    "pos(1-38,nn)", 
+    "word(1-39-bulbs)", 
+    "pos(1-39,nns)", 
+    "word(1-40-',')", 
+    "pos(1-40,',')", 
+    "word(1-41-of)", 
+    "pos(1-41,in)", 
+    "word(1-42-which)", 
+    "pos(1-42,wdt)", 
+    "word(1-43-3)", 
+    "pos(1-43,cd)", 
+    "word(1-44-are)", 
+    "pos(1-44,vbp)", 
+    "word(1-45-defective)", 
+    "pos(1-45,jj)", 
+    "word(1-46-'.')", 
+    "pos(1-46,'.')", 
+    "ccomp(1-1,1-4)", 
+    "nsubjpass(1-4,1-2)", 
+    "auxpass(1-4,1-3)", 
+    "dobj(1-4,1-6)", 
+    "nummod(1-6,1-5)", 
+    "compound(1-9,1-8)", 
+    "ccomp(1-10,1-1)", 
+    "cc(1-10,1-33)", 
+    "conj:and(1-10,1-36)", 
+    "conj:and(1-10,1-23)", 
+    "nsubj(1-10,1-9)", 
+    "dobj(1-10,1-13)", 
+    "acl:relcl(1-13,1-19)", 
+    "nummod(1-13,1-11)", 
+    "amod(1-13,1-12)", 
+    "case(1-16,1-15)", 
+    "nmod:of(1-19,1-16)", 
+    "nsubj(1-19,1-17)", 
+    "cop(1-19,1-18)", 
+    "compound(1-22,1-21)", 
+    "nsubj(1-23,1-22)", 
+    "dobj(1-23,1-26)", 
+    "acl:relcl(1-26,1-32)", 
+    "nummod(1-26,1-24)", 
+    "compound(1-26,1-25)", 
+    "case(1-29,1-28)", 
+    "nmod:of(1-32,1-29)", 
+    "nsubj(1-32,1-30)", 
+    "cop(1-32,1-31)", 
+    "compound(1-35,1-34)", 
+    "nsubj(1-36,1-35)", 
+    "dobj(1-36,1-39)", 
+    "nummod(1-39,1-37)", 
+    "compound(1-39,1-38)", 
+    "acl:relcl(1-39,1-45)", 
+    "case(1-42,1-41)", 
+    "nmod:of(1-45,1-42)", 
+    "nsubj(1-45,1-43)", 
+    "cop(1-45,1-44)", 
+    "word(2-1-we)", 
+    "pos(2-1,prp)", 
+    "word(2-2-select)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-a)", 
+    "pos(2-3,dt)", 
+    "word(2-4-box)", 
+    "pos(2-4,nn)", 
+    "word(2-5-at)", 
+    "pos(2-5,in)", 
+    "word(2-6-random)", 
+    "pos(2-6,jj)", 
+    "word(2-7-and)", 
+    "pos(2-7,cc)", 
+    "word(2-8-then)", 
+    "pos(2-8,rb)", 
+    "word(2-9-draw)", 
+    "pos(2-9,vb)", 
+    "word(2-10-a)", 
+    "pos(2-10,dt)", 
+    "word(2-11-light)", 
+    "pos(2-11,jj)", 
+    "word(2-12-bulb)", 
+    "pos(2-12,nn)", 
+    "word(2-13-from)", 
+    "pos(2-13,in)", 
+    "word(2-14-that)", 
+    "pos(2-14,dt)", 
+    "word(2-15-box)", 
+    "pos(2-15,nn)", 
+    "word(2-16-at)", 
+    "pos(2-16,in)", 
+    "word(2-17-random)", 
+    "pos(2-17,jj)", 
+    "word(2-18-'.')", 
+    "pos(2-18,'.')", 
+    "det(2-4,2-3)", 
+    "case(2-6,2-5)", 
+    "advmod(2-9,2-8)", 
+    "dobj(2-9,2-12)", 
+    "nmod:from(2-9,2-15)", 
+    "nsubj(2-9,2-1)", 
+    "advcl:at(2-9,2-17)", 
+    "det(2-12,2-10)", 
+    "amod(2-12,2-11)", 
+    "case(2-15,2-13)", 
+    "det(2-15,2-14)", 
+    "case(2-17,2-16)", 
+    "dobj(2-2,2-4)", 
+    "advcl:at(2-2,2-6)", 
+    "cc(2-2,2-7)", 
+    "conj:and(2-2,2-9)", 
+    "nsubj(2-2,2-1)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-the)", 
+    "pos(3-6,dt)", 
+    "word(3-7-bulb)", 
+    "pos(3-7,nn)", 
+    "word(3-8-is)", 
+    "pos(3-8,vbz)", 
+    "word(3-9-defective)", 
+    "pos(3-9,jj)", 
+    "word(3-10-'?')", 
+    "pos(3-10,'.')", 
+    "det(3-7,3-6)", 
+    "nsubj(3-9,3-7)", 
+    "cop(3-9,3-8)", 
+    "mark(3-9,3-5)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-9)", 
+    "det(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-26T15:55:52.588000", 
+  "status": "skip"
+}

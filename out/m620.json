@@ -1,0 +1,520 @@
+{
+  "owner": "monica", 
+  "ex_id": 620, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "n", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "N", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-24"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "letters", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-14", 
+              "1-16", 
+              "1-18", 
+              "1-20", 
+              "1-23"
+            ], 
+            "mention": "by_content", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "j", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "J", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "k", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "K", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "l", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "L", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-5", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-13", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-8", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "letters", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "m", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "M", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "order", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "letters", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "2-6", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "not", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "not", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "important", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "important", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/1133105068_339606.pdf", 
+  "original_text": [
+    " In how many different ways can two letters be chosen from the letters J, K, L, M, and N?", 
+    " -LRB- The order of the two letters is not important. -RRB-"
+  ], 
+  "solution": "10", 
+  "text": [
+    " In how many different ways can two letters be chosen from the letters J, K, L, M, and N?", 
+    " The order of the two letters is not important."
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-how)", 
+    "pos(1-2,wrb)", 
+    "word(1-3-many)", 
+    "pos(1-3,jj)", 
+    "word(1-4-different)", 
+    "pos(1-4,jj)", 
+    "word(1-5-ways)", 
+    "pos(1-5,nns)", 
+    "word(1-6-can)", 
+    "pos(1-6,md)", 
+    "word(1-7-two)", 
+    "pos(1-7,cd)", 
+    "word(1-8-letters)", 
+    "pos(1-8,nns)", 
+    "word(1-9-be)", 
+    "pos(1-9,vb)", 
+    "word(1-10-chosen)", 
+    "pos(1-10,vbn)", 
+    "word(1-11-from)", 
+    "pos(1-11,in)", 
+    "word(1-12-the)", 
+    "pos(1-12,dt)", 
+    "word(1-13-letters)", 
+    "pos(1-13,nns)", 
+    "word(1-14-j)", 
+    "pos(1-14,nn)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-k)", 
+    "pos(1-16,nn)", 
+    "word(1-17-',')", 
+    "pos(1-17,',')", 
+    "word(1-18-l)", 
+    "pos(1-18,nn)", 
+    "word(1-19-',')", 
+    "pos(1-19,',')", 
+    "word(1-20-m)", 
+    "pos(1-20,nn)", 
+    "word(1-21-',')", 
+    "pos(1-21,',')", 
+    "word(1-22-and)", 
+    "pos(1-22,cc)", 
+    "word(1-23-n)", 
+    "pos(1-23,nn)", 
+    "word(1-24-'?')", 
+    "pos(1-24,'.')", 
+    "advmod(1-4,1-2)", 
+    "amod(1-4,1-3)", 
+    "case(1-5,1-1)", 
+    "amod(1-5,1-4)", 
+    "nummod(1-8,1-7)", 
+    "nmod:in(1-10,1-5)", 
+    "aux(1-10,1-6)", 
+    "nsubjpass(1-10,1-8)", 
+    "auxpass(1-10,1-9)", 
+    "nmod:from(1-10,1-14)", 
+    "appos(1-14,1-16)", 
+    "appos(1-14,1-18)", 
+    "appos(1-14,1-20)", 
+    "appos(1-14,1-23)", 
+    "case(1-14,1-11)", 
+    "det(1-14,1-12)", 
+    "compound(1-14,1-13)", 
+    "conj:and(1-16,1-18)", 
+    "conj:and(1-16,1-20)", 
+    "cc(1-16,1-22)", 
+    "conj:and(1-16,1-23)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-order)", 
+    "pos(2-2,nn)", 
+    "word(2-3-of)", 
+    "pos(2-3,in)", 
+    "word(2-4-the)", 
+    "pos(2-4,dt)", 
+    "word(2-5-two)", 
+    "pos(2-5,cd)", 
+    "word(2-6-letters)", 
+    "pos(2-6,nns)", 
+    "word(2-7-is)", 
+    "pos(2-7,vbz)", 
+    "word(2-8-not)", 
+    "pos(2-8,rb)", 
+    "word(2-9-important)", 
+    "pos(2-9,jj)", 
+    "word(2-10-'.')", 
+    "pos(2-10,'.')", 
+    "case(2-6,2-3)", 
+    "det(2-6,2-4)", 
+    "nummod(2-6,2-5)", 
+    "cop(2-9,2-7)", 
+    "neg(2-9,2-8)", 
+    "nsubj(2-9,2-2)", 
+    "nmod:of(2-2,2-6)", 
+    "det(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-05T15:17:54.722000", 
+  "status": "done"
+}

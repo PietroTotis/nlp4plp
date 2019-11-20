@@ -1,0 +1,840 @@
+{
+  "owner": "hannah", 
+  "ex_id": 382, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-11"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "50", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "chance", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "rain", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "on", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "saturday", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNP", 
+        "text": "Saturday", 
+        "key": "1-10", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "4-11", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "60", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "60", 
+        "corenlp": {
+          "number": 60
+        }, 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "percent", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "chance", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-12"
+            ], 
+            "mention": "explicit", 
+            "number": "60"
+          }
+        }, 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "rain", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "sunday", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNP", 
+        "text": "Sunday", 
+        "key": "2-18", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "'s", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "rain", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "saturday", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Saturday", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "then", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "'s", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "40", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "40", 
+        "corenlp": {
+          "number": 40
+        }, 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "percent", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "chance", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-13"
+            ], 
+            "mention": "explicit", 
+            "number": "40"
+          }
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "rain", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "on", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "sunday", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Sunday", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "there", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "'s", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "no", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "no", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "rain", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "on", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "saturday", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Saturday", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "then", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "3-9"
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-20"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "there", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "weekend", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "weekend", 
+        "key": "4-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-12"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "two", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "days", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "days", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-6"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "without", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "without", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "rain", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rain", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "thi", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "this", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "Random Probability exercise worksheet", 
+  "solution": "3/10", 
+  "text": [
+    " There is a 50 percent chance of rain on Saturday.", 
+    " If there 's rain on Saturday, then there is a 60 percent chance of rain on Sunday.", 
+    " If there 's no rain on Saturday, then there 's a 40 percent chance of rain on Sunday.", 
+    " What is the probability of two days without rain this weekend?"
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-is)", 
+    "pos(1-2,vbz)", 
+    "word(1-3-a)", 
+    "pos(1-3,dt)", 
+    "word(1-4-50)", 
+    "pos(1-4,cd)", 
+    "word(1-5-percent)", 
+    "pos(1-5,nn)", 
+    "word(1-6-chance)", 
+    "pos(1-6,nn)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-rain)", 
+    "pos(1-8,nn)", 
+    "word(1-9-on)", 
+    "pos(1-9,in)", 
+    "word(1-10-saturday)", 
+    "pos(1-10,nnp)", 
+    "word(1-11-'.')", 
+    "pos(1-11,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-6)", 
+    "det(1-6,1-3)", 
+    "nummod(1-6,1-4)", 
+    "compound(1-6,1-5)", 
+    "nmod:of(1-6,1-8)", 
+    "case(1-8,1-7)", 
+    "nmod:on(1-8,1-10)", 
+    "case(1-10,1-9)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-there)", 
+    "pos(2-2,ex)", 
+    "word(2-3-\"'s\")", 
+    "pos(2-3,vbz)", 
+    "word(2-4-rain)", 
+    "pos(2-4,nn)", 
+    "word(2-5-on)", 
+    "pos(2-5,in)", 
+    "word(2-6-saturday)", 
+    "pos(2-6,nnp)", 
+    "word(2-7-',')", 
+    "pos(2-7,',')", 
+    "word(2-8-then)", 
+    "pos(2-8,rb)", 
+    "word(2-9-there)", 
+    "pos(2-9,ex)", 
+    "word(2-10-is)", 
+    "pos(2-10,vbz)", 
+    "word(2-11-a)", 
+    "pos(2-11,dt)", 
+    "word(2-12-60)", 
+    "pos(2-12,cd)", 
+    "word(2-13-percent)", 
+    "pos(2-13,nn)", 
+    "word(2-14-chance)", 
+    "pos(2-14,nn)", 
+    "word(2-15-of)", 
+    "pos(2-15,in)", 
+    "word(2-16-rain)", 
+    "pos(2-16,nn)", 
+    "word(2-17-on)", 
+    "pos(2-17,in)", 
+    "word(2-18-sunday)", 
+    "pos(2-18,nnp)", 
+    "word(2-19-'.')", 
+    "pos(2-19,'.')", 
+    "nsubj(2-3,2-4)", 
+    "mark(2-3,2-1)", 
+    "expl(2-3,2-2)", 
+    "nmod:on(2-4,2-6)", 
+    "case(2-6,2-5)", 
+    "dep(2-8,2-9)", 
+    "advcl(2-10,2-3)", 
+    "expl(2-10,2-8)", 
+    "nsubj(2-10,2-14)", 
+    "det(2-14,2-11)", 
+    "nummod(2-14,2-12)", 
+    "compound(2-14,2-13)", 
+    "nmod:of(2-14,2-16)", 
+    "case(2-16,2-15)", 
+    "nmod:on(2-16,2-18)", 
+    "case(2-18,2-17)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-there)", 
+    "pos(3-2,ex)", 
+    "word(3-3-\"'s\")", 
+    "pos(3-3,vbz)", 
+    "word(3-4-no)", 
+    "pos(3-4,dt)", 
+    "word(3-5-rain)", 
+    "pos(3-5,nn)", 
+    "word(3-6-on)", 
+    "pos(3-6,in)", 
+    "word(3-7-saturday)", 
+    "pos(3-7,nnp)", 
+    "word(3-8-',')", 
+    "pos(3-8,',')", 
+    "word(3-9-then)", 
+    "pos(3-9,rb)", 
+    "word(3-10-there)", 
+    "pos(3-10,ex)", 
+    "word(3-11-\"'s\")", 
+    "pos(3-11,vbz)", 
+    "word(3-12-a)", 
+    "pos(3-12,dt)", 
+    "word(3-13-40)", 
+    "pos(3-13,cd)", 
+    "word(3-14-percent)", 
+    "pos(3-14,nn)", 
+    "word(3-15-chance)", 
+    "pos(3-15,nn)", 
+    "word(3-16-of)", 
+    "pos(3-16,in)", 
+    "word(3-17-rain)", 
+    "pos(3-17,nn)", 
+    "word(3-18-on)", 
+    "pos(3-18,in)", 
+    "word(3-19-sunday)", 
+    "pos(3-19,nnp)", 
+    "word(3-20-'.')", 
+    "pos(3-20,'.')", 
+    "case(3-7,3-6)", 
+    "dep(3-9,3-10)", 
+    "expl(3-11,3-9)", 
+    "nsubj(3-11,3-15)", 
+    "advcl(3-11,3-3)", 
+    "det(3-15,3-12)", 
+    "nummod(3-15,3-13)", 
+    "compound(3-15,3-14)", 
+    "nmod:of(3-15,3-17)", 
+    "case(3-17,3-16)", 
+    "nmod:on(3-17,3-19)", 
+    "case(3-19,3-18)", 
+    "mark(3-3,3-1)", 
+    "expl(3-3,3-2)", 
+    "nsubj(3-3,3-5)", 
+    "nmod:on(3-5,3-7)", 
+    "neg(3-5,3-4)", 
+    "word(4-1-what)", 
+    "pos(4-1,wp)", 
+    "word(4-2-is)", 
+    "pos(4-2,vbz)", 
+    "word(4-3-the)", 
+    "pos(4-3,dt)", 
+    "word(4-4-probability)", 
+    "pos(4-4,nn)", 
+    "word(4-5-of)", 
+    "pos(4-5,in)", 
+    "word(4-6-two)", 
+    "pos(4-6,cd)", 
+    "word(4-7-days)", 
+    "pos(4-7,nns)", 
+    "word(4-8-without)", 
+    "pos(4-8,in)", 
+    "word(4-9-rain)", 
+    "pos(4-9,nn)", 
+    "word(4-10-this)", 
+    "pos(4-10,dt)", 
+    "word(4-11-weekend)", 
+    "pos(4-11,nn)", 
+    "word(4-12-'?')", 
+    "pos(4-12,'.')", 
+    "case(4-9,4-8)", 
+    "det(4-11,4-10)", 
+    "cop(4-1,4-2)", 
+    "nsubj(4-1,4-4)", 
+    "det(4-4,4-3)", 
+    "nmod:of(4-4,4-7)", 
+    "nmod:without(4-7,4-9)", 
+    "nmod:tmod(4-7,4-11)", 
+    "case(4-7,4-5)", 
+    "nummod(4-7,4-6)"
+  ], 
+  "time_added": "2016-07-18T14:29:56.798000", 
+  "status": "skip"
+}

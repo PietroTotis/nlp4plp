@@ -1,0 +1,615 @@
+{
+  "owner": "hannah", 
+  "ex_id": 604, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "it", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "its", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "eight", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "eight", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "legs", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "legs", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "spider", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "spider", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "sock", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sock", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "shoe", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "shoe", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "sock", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sock", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "must", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "must", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "put", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "put", 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "on", 
+        "key": "2-28"
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": "before", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "before", 
+        "key": "2-29"
+      }, 
+      "30": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-30"
+      }, 
+      "31": {
+        "sentence": 2, 
+        "nlp_stem": "shoe", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "shoe", 
+        "key": "2-31"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-10"
+      }, 
+      "32": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 32, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-32"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "it", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "its", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "sock", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "socks", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "shoes", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "shoes", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "assume", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "assuming", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "order", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "orders", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "spider", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "spider", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "put", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "put", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "each", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "leg", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "leg", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "Elementary Probability - Santos", 
+  "solution": "81729648000", 
+  "text": [
+    " A spider has one sock and one shoe for each of its eight legs.", 
+    " In how many different orders can the spider put on its socks and shoes, assuming that, on each leg, the sock must be put on before the shoe?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-spider)", 
+    "pos(1-2,nn)", 
+    "word(1-3-has)", 
+    "pos(1-3,vbz)", 
+    "word(1-4-one)", 
+    "pos(1-4,cd)", 
+    "word(1-5-sock)", 
+    "pos(1-5,nn)", 
+    "word(1-6-and)", 
+    "pos(1-6,cc)", 
+    "word(1-7-one)", 
+    "pos(1-7,cd)", 
+    "word(1-8-shoe)", 
+    "pos(1-8,nn)", 
+    "word(1-9-for)", 
+    "pos(1-9,in)", 
+    "word(1-10-each)", 
+    "pos(1-10,dt)", 
+    "word(1-11-of)", 
+    "pos(1-11,in)", 
+    "word(1-12-its)", 
+    "pos(1-12,prp)", 
+    "word(1-13-eight)", 
+    "pos(1-13,cd)", 
+    "word(1-14-legs)", 
+    "pos(1-14,nns)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "dobj(1-3,1-5)", 
+    "dobj(1-3,1-8)", 
+    "nummod(1-5,1-4)", 
+    "cc(1-5,1-6)", 
+    "conj:and(1-5,1-8)", 
+    "nummod(1-8,1-7)", 
+    "nmod:for(1-8,1-10)", 
+    "case(1-10,1-9)", 
+    "nmod:of(1-10,1-14)", 
+    "case(1-14,1-11)", 
+    "nmod:poss(1-14,1-12)", 
+    "nummod(1-14,1-13)", 
+    "word(2-1-in)", 
+    "pos(2-1,in)", 
+    "word(2-2-how)", 
+    "pos(2-2,wrb)", 
+    "word(2-3-many)", 
+    "pos(2-3,jj)", 
+    "word(2-4-different)", 
+    "pos(2-4,jj)", 
+    "word(2-5-orders)", 
+    "pos(2-5,nns)", 
+    "word(2-6-can)", 
+    "pos(2-6,md)", 
+    "word(2-7-the)", 
+    "pos(2-7,dt)", 
+    "word(2-8-spider)", 
+    "pos(2-8,nn)", 
+    "word(2-9-put)", 
+    "pos(2-9,vbn)", 
+    "word(2-10-on)", 
+    "pos(2-10,in)", 
+    "word(2-11-its)", 
+    "pos(2-11,prp)", 
+    "word(2-12-socks)", 
+    "pos(2-12,nns)", 
+    "word(2-13-and)", 
+    "pos(2-13,cc)", 
+    "word(2-14-shoes)", 
+    "pos(2-14,nns)", 
+    "word(2-15-',')", 
+    "pos(2-15,',')", 
+    "word(2-16-assuming)", 
+    "pos(2-16,vbg)", 
+    "word(2-17-that)", 
+    "pos(2-17,in)", 
+    "word(2-18-',')", 
+    "pos(2-18,',')", 
+    "word(2-19-on)", 
+    "pos(2-19,in)", 
+    "word(2-20-each)", 
+    "pos(2-20,dt)", 
+    "word(2-21-leg)", 
+    "pos(2-21,nn)", 
+    "word(2-22-',')", 
+    "pos(2-22,',')", 
+    "word(2-23-the)", 
+    "pos(2-23,dt)", 
+    "word(2-24-sock)", 
+    "pos(2-24,nn)", 
+    "word(2-25-must)", 
+    "pos(2-25,md)", 
+    "word(2-26-be)", 
+    "pos(2-26,vb)", 
+    "word(2-27-put)", 
+    "pos(2-27,vbn)", 
+    "word(2-28-on)", 
+    "pos(2-28,rp)", 
+    "word(2-29-before)", 
+    "pos(2-29,in)", 
+    "word(2-30-the)", 
+    "pos(2-30,dt)", 
+    "word(2-31-shoe)", 
+    "pos(2-31,nn)", 
+    "word(2-32-'?')", 
+    "pos(2-32,'.')", 
+    "advmod(2-3,2-2)", 
+    "amod(2-5,2-4)", 
+    "dep(2-6,2-3)", 
+    "nsubj(2-6,2-5)", 
+    "xcomp(2-6,2-8)", 
+    "mark(2-6,2-1)", 
+    "det(2-8,2-7)", 
+    "acl(2-8,2-9)", 
+    "nmod:on(2-9,2-21)", 
+    "nmod:on(2-9,2-12)", 
+    "nmod:on(2-9,2-14)", 
+    "xcomp(2-9,2-16)", 
+    "case(2-12,2-10)", 
+    "nmod:poss(2-12,2-11)", 
+    "cc(2-12,2-13)", 
+    "conj:and(2-12,2-14)", 
+    "advmod(2-16,2-17)", 
+    "case(2-21,2-19)", 
+    "det(2-21,2-20)", 
+    "det(2-24,2-23)", 
+    "advcl(2-27,2-6)", 
+    "nsubjpass(2-27,2-24)", 
+    "aux(2-27,2-25)", 
+    "auxpass(2-27,2-26)", 
+    "compound:prt(2-27,2-28)", 
+    "nmod:before(2-27,2-31)", 
+    "case(2-31,2-29)", 
+    "det(2-31,2-30)"
+  ], 
+  "time_added": "2016-07-27T09:49:26.687000", 
+  "status": "skip"
+}

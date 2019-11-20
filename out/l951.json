@@ -1,0 +1,342 @@
+{
+  "owner": "liselot", 
+  "ex_id": 951, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "bench", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "bench", 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "seat", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "seat", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "people", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-7"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "10", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "people", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-12"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "2-10", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-2", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "seat", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "seating", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "arrangement", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "arrangements", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "make", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "from", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "group", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "group", 
+        "key": "2-10", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-12"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }
+    }
+  }, 
+  "source": "http://elektron.pol.lublin.pl/muratm/files/DeCoursey-EXCEL-Statistics-and-Probability-for-Engineering-Applications.pdf", 
+  "solution": "5040", 
+  "text": [
+    " A bench can seat 4 people.", 
+    " How many seating arrangements can be made from a group of 10 people?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-bench)", 
+    "pos(1-2,nn)", 
+    "word(1-3-can)", 
+    "pos(1-3,md)", 
+    "word(1-4-seat)", 
+    "pos(1-4,nn)", 
+    "word(1-5-4)", 
+    "pos(1-5,cd)", 
+    "word(1-6-people)", 
+    "pos(1-6,nns)", 
+    "word(1-7-'.')", 
+    "pos(1-7,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-4,1-2)", 
+    "aux(1-4,1-3)", 
+    "dobj(1-4,1-6)", 
+    "nummod(1-6,1-5)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-seating)", 
+    "pos(2-3,vbg)", 
+    "word(2-4-arrangements)", 
+    "pos(2-4,nns)", 
+    "word(2-5-can)", 
+    "pos(2-5,md)", 
+    "word(2-6-be)", 
+    "pos(2-6,vb)", 
+    "word(2-7-made)", 
+    "pos(2-7,vbn)", 
+    "word(2-8-from)", 
+    "pos(2-8,in)", 
+    "word(2-9-a)", 
+    "pos(2-9,dt)", 
+    "word(2-10-group)", 
+    "pos(2-10,nn)", 
+    "word(2-11-of)", 
+    "pos(2-11,in)", 
+    "word(2-12-10)", 
+    "pos(2-12,cd)", 
+    "word(2-13-people)", 
+    "pos(2-13,nns)", 
+    "word(2-14-'?')", 
+    "pos(2-14,'.')", 
+    "amod(2-4,2-3)", 
+    "nsubjpass(2-7,2-4)", 
+    "aux(2-7,2-5)", 
+    "auxpass(2-7,2-6)", 
+    "nmod:from(2-7,2-10)", 
+    "dep(2-7,2-2)", 
+    "case(2-10,2-8)", 
+    "det(2-10,2-9)", 
+    "nmod:of(2-10,2-13)", 
+    "case(2-13,2-11)", 
+    "nummod(2-13,2-12)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T16:03:07.732000", 
+  "status": "done"
+}

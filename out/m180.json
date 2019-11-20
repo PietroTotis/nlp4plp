@@ -1,0 +1,692 @@
+{
+  "owner": "monica", 
+  "ex_id": 180, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "paul", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Paul", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "was", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "buy", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "buying", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "chips", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "chips", 
+        "key": "1-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "dip", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "dip", 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "his", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "his", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "party", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "party", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "bean", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bean", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "onion", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "onion", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "dip", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "dip", 
+        "key": "2-15", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-12", 
+              "2-14"
+            ], 
+            "mention": "by_content", 
+            "number": "2"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-16"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "choice", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "choices", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "he", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "he", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "between", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "between", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "scoop", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "scoop", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "round", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "round", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "chips", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "chips", 
+        "key": "2-10", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-7", 
+              "2-9"
+            ], 
+            "mention": "by_content", 
+            "number": "2"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-11"
+      }, 
+      "22": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-22"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "dip", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dip", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "combination", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "combinations", 
+        "key": "3-17", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "2-10", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-15", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 1, 
+            "order": false
+          }
+        }
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "he", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "he", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "he", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "he", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "get", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "gets", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "one", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "type", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "type", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-4"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "chip", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chip", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "one", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "3-9"
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": "choose", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "choose", 
+        "key": "3-20"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "type", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "type", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-9"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "3-10"
+      }, 
+      "21": {
+        "sentence": 3, 
+        "nlp_stem": "from", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "3-21"
+      }
+    }
+  }, 
+  "source": "http://www.commoncoresheets.com/Math/Probability/Identifying%20Combination%20Amounts/English/All.pdf", 
+  "solution": "4", 
+  "text": [
+    " Paul was buying chips and dip for his party.", 
+    " The choices he has are between scoop and round chips and bean and onion dip.", 
+    " If he gets one type of chip and one type of dip, how many different combinations can he choose from?"
+  ], 
+  "corenlp": [
+    "word(1-1-paul)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-was)", 
+    "pos(1-2,vbd)", 
+    "word(1-3-buying)", 
+    "pos(1-3,vbg)", 
+    "word(1-4-chips)", 
+    "pos(1-4,nns)", 
+    "word(1-5-and)", 
+    "pos(1-5,cc)", 
+    "word(1-6-dip)", 
+    "pos(1-6,nn)", 
+    "word(1-7-for)", 
+    "pos(1-7,in)", 
+    "word(1-8-his)", 
+    "pos(1-8,prp)", 
+    "word(1-9-party)", 
+    "pos(1-9,nn)", 
+    "word(1-10-'.')", 
+    "pos(1-10,'.')", 
+    "nsubj(1-3,1-1)", 
+    "aux(1-3,1-2)", 
+    "dobj(1-3,1-4)", 
+    "dobj(1-3,1-6)", 
+    "nmod:for(1-3,1-9)", 
+    "cc(1-4,1-5)", 
+    "conj:and(1-4,1-6)", 
+    "case(1-9,1-7)", 
+    "nmod:poss(1-9,1-8)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-choices)", 
+    "pos(2-2,nns)", 
+    "word(2-3-he)", 
+    "pos(2-3,prp)", 
+    "word(2-4-has)", 
+    "pos(2-4,vbz)", 
+    "word(2-5-are)", 
+    "pos(2-5,vbp)", 
+    "word(2-6-between)", 
+    "pos(2-6,in)", 
+    "word(2-7-scoop)", 
+    "pos(2-7,nn)", 
+    "word(2-8-and)", 
+    "pos(2-8,cc)", 
+    "word(2-9-round)", 
+    "pos(2-9,jj)", 
+    "word(2-10-chips)", 
+    "pos(2-10,nns)", 
+    "word(2-11-and)", 
+    "pos(2-11,cc)", 
+    "word(2-12-bean)", 
+    "pos(2-12,nn)", 
+    "word(2-13-and)", 
+    "pos(2-13,cc)", 
+    "word(2-14-onion)", 
+    "pos(2-14,nn)", 
+    "word(2-15-dip)", 
+    "pos(2-15,nn)", 
+    "word(2-16-'.')", 
+    "pos(2-16,'.')", 
+    "nsubj(2-4,2-3)", 
+    "cc(2-7,2-8)", 
+    "conj:and(2-7,2-9)", 
+    "cop(2-10,2-5)", 
+    "case(2-10,2-6)", 
+    "compound(2-10,2-7)", 
+    "compound(2-10,2-9)", 
+    "cc(2-10,2-11)", 
+    "conj:and(2-10,2-15)", 
+    "nsubj(2-10,2-2)", 
+    "cc(2-12,2-13)", 
+    "conj:and(2-12,2-14)", 
+    "compound(2-15,2-12)", 
+    "compound(2-15,2-14)", 
+    "acl:relcl(2-2,2-4)", 
+    "det(2-2,2-1)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-he)", 
+    "pos(3-2,prp)", 
+    "word(3-3-gets)", 
+    "pos(3-3,vbz)", 
+    "word(3-4-one)", 
+    "pos(3-4,cd)", 
+    "word(3-5-type)", 
+    "pos(3-5,nn)", 
+    "word(3-6-of)", 
+    "pos(3-6,in)", 
+    "word(3-7-chip)", 
+    "pos(3-7,nn)", 
+    "word(3-8-and)", 
+    "pos(3-8,cc)", 
+    "word(3-9-one)", 
+    "pos(3-9,cd)", 
+    "word(3-10-type)", 
+    "pos(3-10,nn)", 
+    "word(3-11-of)", 
+    "pos(3-11,in)", 
+    "word(3-12-dip)", 
+    "pos(3-12,nn)", 
+    "word(3-13-',')", 
+    "pos(3-13,',')", 
+    "word(3-14-how)", 
+    "pos(3-14,wrb)", 
+    "word(3-15-many)", 
+    "pos(3-15,jj)", 
+    "word(3-16-different)", 
+    "pos(3-16,jj)", 
+    "word(3-17-combinations)", 
+    "pos(3-17,nns)", 
+    "word(3-18-can)", 
+    "pos(3-18,md)", 
+    "word(3-19-he)", 
+    "pos(3-19,prp)", 
+    "word(3-20-choose)", 
+    "pos(3-20,vb)", 
+    "word(3-21-from)", 
+    "pos(3-21,in)", 
+    "word(3-22-'?')", 
+    "pos(3-22,'.')", 
+    "case(3-7,3-6)", 
+    "nummod(3-10,3-9)", 
+    "nmod:of(3-10,3-12)", 
+    "case(3-12,3-11)", 
+    "advmod(3-15,3-14)", 
+    "amod(3-17,3-15)", 
+    "amod(3-17,3-16)", 
+    "case(3-17,3-21)", 
+    "nmod:from(3-20,3-17)", 
+    "aux(3-20,3-18)", 
+    "advcl(3-20,3-3)", 
+    "nsubj(3-20,3-19)", 
+    "dobj(3-3,3-10)", 
+    "mark(3-3,3-1)", 
+    "nsubj(3-3,3-2)", 
+    "dobj(3-3,3-5)", 
+    "nmod:of(3-5,3-7)", 
+    "cc(3-5,3-8)", 
+    "conj:and(3-5,3-10)", 
+    "nummod(3-5,3-4)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T11:53:44.659000", 
+  "status": "done"
+}

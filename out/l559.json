@@ -1,0 +1,503 @@
+{
+  "owner": "liselot", 
+  "ex_id": 559, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "woman", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "women", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-23"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-25"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-12", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": {
+                    "reqnum": true, 
+                    "number": "1", 
+                    "children": 1, 
+                    "name": "exactly", 
+                    "id": "=="
+                  }, 
+                  "child": {
+                    "choice": "woman"
+                  }
+                }, 
+                "child1": {
+                  "choice": {
+                    "reqnum": true, 
+                    "number": "1", 
+                    "children": 1, 
+                    "name": "exactly", 
+                    "id": "=="
+                  }, 
+                  "child": {
+                    "choice": "man"
+                  }
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "1-3", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-13", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "committee", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "committees", 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "size", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "size", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "possible", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "From", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "From", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "group", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "group", 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "man"
+        }, 
+        "text": "men", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-6"
+          ]
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "woman", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "woman"
+        }, 
+        "text": "women", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-9", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-9"
+          ]
+        }
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "man", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-20"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }
+        }, 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://www.csie.ntu.edu.tw/~sdlin/download/Probability%20&%20Statistics.pdf", 
+  "solution": "40", 
+  "text": [
+    " From a group of 4 men and 5 women, how many committees of size 3 are possible with 1 man and 2 women?"
+  ], 
+  "corenlp": [
+    "word(1-1-from)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-group)", 
+    "pos(1-3,nn)", 
+    "word(1-4-of)", 
+    "pos(1-4,in)", 
+    "word(1-5-4)", 
+    "pos(1-5,cd)", 
+    "word(1-6-men)", 
+    "pos(1-6,nns)", 
+    "word(1-7-and)", 
+    "pos(1-7,cc)", 
+    "word(1-8-5)", 
+    "pos(1-8,cd)", 
+    "word(1-9-women)", 
+    "pos(1-9,nns)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-how)", 
+    "pos(1-11,wrb)", 
+    "word(1-12-many)", 
+    "pos(1-12,jj)", 
+    "word(1-13-committees)", 
+    "pos(1-13,nns)", 
+    "word(1-14-of)", 
+    "pos(1-14,in)", 
+    "word(1-15-size)", 
+    "pos(1-15,nn)", 
+    "word(1-16-3)", 
+    "pos(1-16,cd)", 
+    "word(1-17-are)", 
+    "pos(1-17,vbp)", 
+    "word(1-18-possible)", 
+    "pos(1-18,jj)", 
+    "word(1-19-with)", 
+    "pos(1-19,in)", 
+    "word(1-20-1)", 
+    "pos(1-20,cd)", 
+    "word(1-21-man)", 
+    "pos(1-21,nn)", 
+    "word(1-22-and)", 
+    "pos(1-22,cc)", 
+    "word(1-23-2)", 
+    "pos(1-23,cd)", 
+    "word(1-24-women)", 
+    "pos(1-24,nns)", 
+    "word(1-25-'?')", 
+    "pos(1-25,'.')", 
+    "case(1-3,1-1)", 
+    "det(1-3,1-2)", 
+    "nmod:of(1-3,1-6)", 
+    "nmod:of(1-3,1-9)", 
+    "case(1-6,1-4)", 
+    "nummod(1-6,1-5)", 
+    "cc(1-6,1-7)", 
+    "conj:and(1-6,1-9)", 
+    "nummod(1-9,1-8)", 
+    "advmod(1-12,1-11)", 
+    "amod(1-13,1-12)", 
+    "nmod:of(1-13,1-15)", 
+    "nummod(1-15,1-16)", 
+    "case(1-15,1-14)", 
+    "cop(1-18,1-17)", 
+    "nmod:from(1-18,1-3)", 
+    "nmod:with(1-18,1-21)", 
+    "nmod:with(1-18,1-24)", 
+    "dobj(1-18,1-13)", 
+    "case(1-21,1-19)", 
+    "nummod(1-21,1-20)", 
+    "cc(1-21,1-22)", 
+    "conj:and(1-21,1-24)", 
+    "nummod(1-24,1-23)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T13:54:31.105000", 
+  "status": "done"
+}

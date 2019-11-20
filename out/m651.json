@@ -1,0 +1,1118 @@
+{
+  "owner": "monica", 
+  "ex_id": 651, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "eligible", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "eligible", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "contestant", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "contestants", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-16"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "On", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "On", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "game", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "game", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "show", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "show", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "10", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "audience", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "audience", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "member", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "members", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "randomly", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "randomly", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "game", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "game", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "stage", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "stage", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-15"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "six", 
+        "index": 1, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "Six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "2-1", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "10", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "eligible", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "eligible", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "contestant", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "contestants", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-4"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "2-6", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [
+              "2-4"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "choose", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "play", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "play", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "contestant", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "contestants", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-9"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "3-11", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [
+              "3-9"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-12"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "You", 
+        "index": 1, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "PRP", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "you", 
+          "class": "people"
+        }, 
+        "text": "You", 
+        "key": "3-1", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [
+              "3-1"
+            ], 
+            "mention": "by_content", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "3-1"
+          ]
+        }
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "your", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "your", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "friend", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "friend", 
+          "class": "people"
+        }, 
+        "text": "friend", 
+        "key": "3-4", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [
+              "3-4", 
+              "3-3"
+            ], 
+            "mention": "by_content", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "3-4"
+          ]
+        }
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "two", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "3-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "10", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "eligible", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "eligible", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "22": {
+        "sentence": 4, 
+        "nlp_stem": "friend", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "friend", 
+        "key": "4-22"
+      }, 
+      "23": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "4-23"
+      }, 
+      "24": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-24"
+      }, 
+      "25": {
+        "sentence": 4, 
+        "nlp_stem": "to", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "4-25"
+      }, 
+      "26": {
+        "sentence": 4, 
+        "nlp_stem": "play", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "play", 
+        "key": "4-26"
+      }, 
+      "27": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-27"
+      }, 
+      "28": {
+        "sentence": 4, 
+        "nlp_stem": "game", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "game", 
+        "key": "4-28"
+      }, 
+      "29": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 29, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-29"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-10"
+      }, 
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "from", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "group", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "group", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-14"
+      }, 
+      "15": {
+        "sentence": 4, 
+        "nlp_stem": "eligible", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "eligible", 
+        "key": "4-15"
+      }, 
+      "16": {
+        "sentence": 4, 
+        "nlp_stem": "contestant", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "contestants", 
+        "key": "4-16", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-8", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "17": {
+        "sentence": 4, 
+        "nlp_stem": "give", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "given", 
+        "key": "4-17"
+      }, 
+      "18": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-18"
+      }, 
+      "19": {
+        "sentence": 4, 
+        "nlp_stem": "you", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "you", 
+        "key": "4-19"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "4-4", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": "friend"
+                }, 
+                "child1": {
+                  "choice": "you"
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "1-8", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-1", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "six", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "player", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "players", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-7"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "4-8", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "2-1", 
+          "size": {
+            "words": [
+              "4-7"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "4-9"
+      }, 
+      "20": {
+        "sentence": 4, 
+        "nlp_stem": "and", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "4-20"
+      }, 
+      "21": {
+        "sentence": 4, 
+        "nlp_stem": "your", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "your", 
+        "key": "4-21"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/1133105068_339606.pdf", 
+  "text": [
+    " On a game show, 10 audience members are randomly chosen to be eligible contestants.", 
+    " Six of the 10 eligible contestants are chosen to play a game on stage.", 
+    " You and your friend are two of the 10 eligible contestants.", 
+    " In how many ways can the six players be chosen from the group of eligible contestants given that you and your friend are chosen to play a game?"
+  ], 
+  "corenlp": [
+    "word(1-1-on)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-game)", 
+    "pos(1-3,nn)", 
+    "word(1-4-show)", 
+    "pos(1-4,nn)", 
+    "word(1-5-',')", 
+    "pos(1-5,',')", 
+    "word(1-6-10)", 
+    "pos(1-6,cd)", 
+    "word(1-7-audience)", 
+    "pos(1-7,nn)", 
+    "word(1-8-members)", 
+    "pos(1-8,nns)", 
+    "word(1-9-are)", 
+    "pos(1-9,vbp)", 
+    "word(1-10-randomly)", 
+    "pos(1-10,rb)", 
+    "word(1-11-chosen)", 
+    "pos(1-11,vbn)", 
+    "word(1-12-to)", 
+    "pos(1-12,to)", 
+    "word(1-13-be)", 
+    "pos(1-13,vb)", 
+    "word(1-14-eligible)", 
+    "pos(1-14,jj)", 
+    "word(1-15-contestants)", 
+    "pos(1-15,nns)", 
+    "word(1-16-'.')", 
+    "pos(1-16,'.')", 
+    "case(1-4,1-1)", 
+    "det(1-4,1-2)", 
+    "compound(1-4,1-3)", 
+    "nummod(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "nmod:on(1-11,1-4)", 
+    "nsubjpass(1-11,1-8)", 
+    "auxpass(1-11,1-9)", 
+    "advmod(1-11,1-10)", 
+    "xcomp(1-11,1-15)", 
+    "mark(1-15,1-12)", 
+    "cop(1-15,1-13)", 
+    "amod(1-15,1-14)", 
+    "word(2-1-six)", 
+    "pos(2-1,cd)", 
+    "word(2-2-of)", 
+    "pos(2-2,in)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-10)", 
+    "pos(2-4,cd)", 
+    "word(2-5-eligible)", 
+    "pos(2-5,jj)", 
+    "word(2-6-contestants)", 
+    "pos(2-6,nns)", 
+    "word(2-7-are)", 
+    "pos(2-7,vbp)", 
+    "word(2-8-chosen)", 
+    "pos(2-8,vbn)", 
+    "word(2-9-to)", 
+    "pos(2-9,to)", 
+    "word(2-10-play)", 
+    "pos(2-10,vb)", 
+    "word(2-11-a)", 
+    "pos(2-11,dt)", 
+    "word(2-12-game)", 
+    "pos(2-12,nn)", 
+    "word(2-13-on)", 
+    "pos(2-13,in)", 
+    "word(2-14-stage)", 
+    "pos(2-14,nn)", 
+    "word(2-15-'.')", 
+    "pos(2-15,'.')", 
+    "det(2-6,2-3)", 
+    "nummod(2-6,2-4)", 
+    "amod(2-6,2-5)", 
+    "case(2-6,2-2)", 
+    "auxpass(2-8,2-7)", 
+    "xcomp(2-8,2-10)", 
+    "nsubjpass(2-8,2-1)", 
+    "mark(2-10,2-9)", 
+    "dobj(2-10,2-12)", 
+    "nmod:on(2-10,2-14)", 
+    "det(2-12,2-11)", 
+    "case(2-14,2-13)", 
+    "nmod:of(2-1,2-6)", 
+    "word(3-1-you)", 
+    "pos(3-1,prp)", 
+    "word(3-2-and)", 
+    "pos(3-2,cc)", 
+    "word(3-3-your)", 
+    "pos(3-3,prp)", 
+    "word(3-4-friend)", 
+    "pos(3-4,nn)", 
+    "word(3-5-are)", 
+    "pos(3-5,vbp)", 
+    "word(3-6-two)", 
+    "pos(3-6,cd)", 
+    "word(3-7-of)", 
+    "pos(3-7,in)", 
+    "word(3-8-the)", 
+    "pos(3-8,dt)", 
+    "word(3-9-10)", 
+    "pos(3-9,cd)", 
+    "word(3-10-eligible)", 
+    "pos(3-10,jj)", 
+    "word(3-11-contestants)", 
+    "pos(3-11,nns)", 
+    "word(3-12-'.')", 
+    "pos(3-12,'.')", 
+    "nmod:of(3-6,3-11)", 
+    "nsubj(3-6,3-1)", 
+    "nsubj(3-6,3-4)", 
+    "cop(3-6,3-5)", 
+    "case(3-11,3-7)", 
+    "det(3-11,3-8)", 
+    "nummod(3-11,3-9)", 
+    "amod(3-11,3-10)", 
+    "cc(3-1,3-2)", 
+    "conj:and(3-1,3-4)", 
+    "nmod:poss(3-4,3-3)", 
+    "word(4-1-in)", 
+    "pos(4-1,in)", 
+    "word(4-2-how)", 
+    "pos(4-2,wrb)", 
+    "word(4-3-many)", 
+    "pos(4-3,jj)", 
+    "word(4-4-ways)", 
+    "pos(4-4,nns)", 
+    "word(4-5-can)", 
+    "pos(4-5,md)", 
+    "word(4-6-the)", 
+    "pos(4-6,dt)", 
+    "word(4-7-six)", 
+    "pos(4-7,cd)", 
+    "word(4-8-players)", 
+    "pos(4-8,nns)", 
+    "word(4-9-be)", 
+    "pos(4-9,vb)", 
+    "word(4-10-chosen)", 
+    "pos(4-10,vbn)", 
+    "word(4-11-from)", 
+    "pos(4-11,in)", 
+    "word(4-12-the)", 
+    "pos(4-12,dt)", 
+    "word(4-13-group)", 
+    "pos(4-13,nn)", 
+    "word(4-14-of)", 
+    "pos(4-14,in)", 
+    "word(4-15-eligible)", 
+    "pos(4-15,jj)", 
+    "word(4-16-contestants)", 
+    "pos(4-16,nns)", 
+    "word(4-17-given)", 
+    "pos(4-17,vbn)", 
+    "word(4-18-that)", 
+    "pos(4-18,in)", 
+    "word(4-19-you)", 
+    "pos(4-19,prp)", 
+    "word(4-20-and)", 
+    "pos(4-20,cc)", 
+    "word(4-21-your)", 
+    "pos(4-21,prp)", 
+    "word(4-22-friend)", 
+    "pos(4-22,nn)", 
+    "word(4-23-are)", 
+    "pos(4-23,vbp)", 
+    "word(4-24-chosen)", 
+    "pos(4-24,vbn)", 
+    "word(4-25-to)", 
+    "pos(4-25,to)", 
+    "word(4-26-play)", 
+    "pos(4-26,vb)", 
+    "word(4-27-a)", 
+    "pos(4-27,dt)", 
+    "word(4-28-game)", 
+    "pos(4-28,nn)", 
+    "word(4-29-'?')", 
+    "pos(4-29,'.')", 
+    "advmod(4-3,4-2)", 
+    "case(4-4,4-1)", 
+    "amod(4-4,4-3)", 
+    "det(4-8,4-6)", 
+    "nummod(4-8,4-7)", 
+    "auxpass(4-10,4-9)", 
+    "nmod:from(4-10,4-13)", 
+    "nmod:in(4-10,4-4)", 
+    "aux(4-10,4-5)", 
+    "nsubjpass(4-10,4-8)", 
+    "case(4-13,4-11)", 
+    "det(4-13,4-12)", 
+    "nmod:of(4-13,4-16)", 
+    "case(4-16,4-14)", 
+    "amod(4-16,4-15)", 
+    "acl(4-16,4-17)", 
+    "ccomp(4-17,4-24)", 
+    "cc(4-19,4-20)", 
+    "conj:and(4-19,4-22)", 
+    "nmod:poss(4-22,4-21)", 
+    "xcomp(4-24,4-26)", 
+    "mark(4-24,4-18)", 
+    "nsubjpass(4-24,4-19)", 
+    "nsubjpass(4-24,4-22)", 
+    "auxpass(4-24,4-23)", 
+    "mark(4-26,4-25)", 
+    "dobj(4-26,4-28)", 
+    "det(4-28,4-27)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-05T15:39:17.567000", 
+  "status": "done"
+}

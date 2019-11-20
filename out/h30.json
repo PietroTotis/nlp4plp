@@ -1,0 +1,342 @@
+{
+  "owner": "hannah", 
+  "ex_id": 30, 
+  "note": "", 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "men", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-22"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-24"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "woman", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "women", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "sit", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "sit", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "round", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "round", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "table", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "table", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "if", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "woman", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "woman", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "sit", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "sits", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "men", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "between", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "between", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "Exercises from class", 
+  "solution": "12", 
+  "text": [
+    " In how many ways can three men and three women sit at a round table if each woman sits in between two men?"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1-in,in)", 
+    "word(1-2-how)", 
+    "pos(1-2-how,wrb)", 
+    "word(1-3-many)", 
+    "pos(1-3-many,jj)", 
+    "word(1-4-ways)", 
+    "pos(1-4-ways,nns)", 
+    "word(1-5-can)", 
+    "pos(1-5-can,md)", 
+    "word(1-6-three)", 
+    "pos(1-6-three,cd)", 
+    "word(1-7-men)", 
+    "pos(1-7-men,nns)", 
+    "word(1-8-and)", 
+    "pos(1-8-and,cc)", 
+    "word(1-9-three)", 
+    "pos(1-9-three,cd)", 
+    "word(1-10-women)", 
+    "pos(1-10-women,nns)", 
+    "word(1-11-sit)", 
+    "pos(1-11-sit,vbp)", 
+    "word(1-12-at)", 
+    "pos(1-12-at,in)", 
+    "word(1-13-a)", 
+    "pos(1-13-a,dt)", 
+    "word(1-14-round)", 
+    "pos(1-14-round,nn)", 
+    "word(1-15-table)", 
+    "pos(1-15-table,nn)", 
+    "word(1-16-if)", 
+    "pos(1-16-if,in)", 
+    "word(1-17-each)", 
+    "pos(1-17-each,dt)", 
+    "word(1-18-woman)", 
+    "pos(1-18-woman,nn)", 
+    "word(1-19-sits)", 
+    "pos(1-19-sits,vbz)", 
+    "word(1-20-in)", 
+    "pos(1-20-in,in)", 
+    "word(1-21-between)", 
+    "pos(1-21-between,in)", 
+    "word(1-22-two)", 
+    "pos(1-22-two,cd)", 
+    "word(1-23-men)", 
+    "pos(1-23-men,nns)", 
+    "word(1-24-'?')", 
+    "pos(1-24-'?','.')", 
+    "advmod(1-3-many,1-2-how)", 
+    "mark(1-5-can,1-1-in)", 
+    "dep(1-5-can,1-3-many)", 
+    "nsubj(1-5-can,1-4-ways)", 
+    "nummod(1-7-men,1-6-three)", 
+    "cc(1-7-men,1-8-and)", 
+    "conj:and(1-7-men,1-10-women)", 
+    "nummod(1-10-women,1-9-three)", 
+    "advcl(1-11-sit,1-19-sits)", 
+    "advcl(1-11-sit,1-5-can)", 
+    "nsubj(1-11-sit,1-7-men)", 
+    "punct(1-11-sit,1-24-'?')", 
+    "nsubj(1-11-sit,1-10-women)", 
+    "nmod:at(1-11-sit,1-15-table)", 
+    "case(1-15-table,1-12-at)", 
+    "det(1-15-table,1-13-a)", 
+    "compound(1-15-table,1-14-round)", 
+    "det(1-18-woman,1-17-each)", 
+    "mark(1-19-sits,1-16-if)", 
+    "nsubj(1-19-sits,1-18-woman)", 
+    "nmod:in(1-19-sits,1-23-men)", 
+    "case(1-23-men,1-20-in)", 
+    "amod(1-23-men,1-21-between)", 
+    "nummod(1-23-men,1-22-two)"
+  ], 
+  "time_added": "2016-07-05T10:24:21.445000", 
+  "status": "skip"
+}

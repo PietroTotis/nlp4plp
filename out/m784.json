@@ -1,0 +1,476 @@
+{
+  "owner": "monica", 
+  "ex_id": 784, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "den", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "den", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "sprinkling", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sprinkling", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "system", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "system", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-27"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "follow", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "following", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "option", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "options", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": ":", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ":", 
+        "text": ":", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "pool", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pool", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "garage", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "garage", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "customer", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "customer", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "buy", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "buy", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "house", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "house", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "without", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "without", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "security", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "security", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "system", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "system", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "combination", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "combinations", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "these", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "these", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "option", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "options", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "available", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "available", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "STATISTICS AND. PROBABILITY. CLAST MATHEMATICS COMPETENCIES. Houghton Mifflin Company.", 
+  "text": [
+    " A customer can buy a house with or without the following options: pool, two car garage, security system, den and sprinkling system.", 
+    " How many different combinations of these options are available?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-customer)", 
+    "pos(1-2,nn)", 
+    "word(1-3-can)", 
+    "pos(1-3,md)", 
+    "word(1-4-buy)", 
+    "pos(1-4,vb)", 
+    "word(1-5-a)", 
+    "pos(1-5,dt)", 
+    "word(1-6-house)", 
+    "pos(1-6,nn)", 
+    "word(1-7-with)", 
+    "pos(1-7,in)", 
+    "word(1-8-or)", 
+    "pos(1-8,cc)", 
+    "word(1-9-without)", 
+    "pos(1-9,in)", 
+    "word(1-10-the)", 
+    "pos(1-10,dt)", 
+    "word(1-11-following)", 
+    "pos(1-11,vbg)", 
+    "word(1-12-options)", 
+    "pos(1-12,nns)", 
+    "word(1-13-':')", 
+    "pos(1-13,':')", 
+    "word(1-14-pool)", 
+    "pos(1-14,nn)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-two)", 
+    "pos(1-16,cd)", 
+    "word(1-17-car)", 
+    "pos(1-17,nn)", 
+    "word(1-18-garage)", 
+    "pos(1-18,nn)", 
+    "word(1-19-',')", 
+    "pos(1-19,',')", 
+    "word(1-20-security)", 
+    "pos(1-20,nn)", 
+    "word(1-21-system)", 
+    "pos(1-21,nn)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-den)", 
+    "pos(1-23,nn)", 
+    "word(1-24-and)", 
+    "pos(1-24,cc)", 
+    "word(1-25-sprinkling)", 
+    "pos(1-25,nn)", 
+    "word(1-26-system)", 
+    "pos(1-26,nn)", 
+    "word(1-27-'.')", 
+    "pos(1-27,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-4,1-2)", 
+    "dobj(1-4,1-18)", 
+    "aux(1-4,1-3)", 
+    "dobj(1-4,1-21)", 
+    "dobj(1-4,1-6)", 
+    "nmod(1-4,1-7)", 
+    "dobj(1-4,1-23)", 
+    "dobj(1-4,1-26)", 
+    "nmod(1-4,1-12)", 
+    "dobj(1-4,1-14)", 
+    "det(1-6,1-5)", 
+    "cc(1-7,1-8)", 
+    "conj:or(1-7,1-12)", 
+    "case(1-12,1-9)", 
+    "det(1-12,1-10)", 
+    "amod(1-12,1-11)", 
+    "conj:and(1-14,1-18)", 
+    "conj:and(1-14,1-21)", 
+    "conj:and(1-14,1-23)", 
+    "cc(1-14,1-24)", 
+    "conj:and(1-14,1-26)", 
+    "nummod(1-18,1-16)", 
+    "compound(1-18,1-17)", 
+    "compound(1-21,1-20)", 
+    "compound(1-26,1-25)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-different)", 
+    "pos(2-3,jj)", 
+    "word(2-4-combinations)", 
+    "pos(2-4,nns)", 
+    "word(2-5-of)", 
+    "pos(2-5,in)", 
+    "word(2-6-these)", 
+    "pos(2-6,dt)", 
+    "word(2-7-options)", 
+    "pos(2-7,nns)", 
+    "word(2-8-are)", 
+    "pos(2-8,vbp)", 
+    "word(2-9-available)", 
+    "pos(2-9,jj)", 
+    "word(2-10-'?')", 
+    "pos(2-10,'.')", 
+    "amod(2-4,2-3)", 
+    "nmod:of(2-4,2-7)", 
+    "amod(2-4,2-2)", 
+    "case(2-7,2-5)", 
+    "det(2-7,2-6)", 
+    "nsubj(2-9,2-4)", 
+    "cop(2-9,2-8)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-09T11:57:57.209000", 
+  "status": "later"
+}

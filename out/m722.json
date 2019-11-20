@@ -1,0 +1,749 @@
+{
+  "owner": "monica", 
+  "ex_id": 722, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "task", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "tasks", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-12"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "fourteen", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Fourteen", 
+        "corenlp": {
+          "number": 14
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "construction", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "construction", 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "worker", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "workers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }
+        }, 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "assign", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "assigned", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "brick", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "brick", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "layer", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "layers", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-24"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "lay", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "laying", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "brick", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bricks", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-15", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "carry", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "carrying", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "brick", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bricks", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "seven", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Seven", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "worker", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "workers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 7
+          }
+        }, 
+        "key": "2-2", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 7
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "need", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "needed", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "mix", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "mixing", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "cement", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "cement", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "five", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "these", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "these", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "task", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tasks", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-14"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "ways", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "3-5", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "worker", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "workers", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "assign", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "assigned", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/0534492770_65932.pdf", 
+  "solution": "72072", 
+  "text": [
+    " Fourteen construction workers are to be assigned to three different tasks.", 
+    " Seven workers are needed for mixing cement, five for laying bricks, and two for carrying the bricks to the brick layers.", 
+    " In how many different ways can the workers be assigned to these tasks?"
+  ], 
+  "corenlp": [
+    "word(1-1-fourteen)", 
+    "pos(1-1,cd)", 
+    "word(1-2-construction)", 
+    "pos(1-2,nn)", 
+    "word(1-3-workers)", 
+    "pos(1-3,nns)", 
+    "word(1-4-are)", 
+    "pos(1-4,vbp)", 
+    "word(1-5-to)", 
+    "pos(1-5,to)", 
+    "word(1-6-be)", 
+    "pos(1-6,vb)", 
+    "word(1-7-assigned)", 
+    "pos(1-7,vbn)", 
+    "word(1-8-to)", 
+    "pos(1-8,to)", 
+    "word(1-9-three)", 
+    "pos(1-9,cd)", 
+    "word(1-10-different)", 
+    "pos(1-10,jj)", 
+    "word(1-11-tasks)", 
+    "pos(1-11,nns)", 
+    "word(1-12-'.')", 
+    "pos(1-12,'.')", 
+    "nummod(1-3,1-1)", 
+    "compound(1-3,1-2)", 
+    "nsubj(1-4,1-3)", 
+    "xcomp(1-4,1-7)", 
+    "mark(1-7,1-5)", 
+    "auxpass(1-7,1-6)", 
+    "nmod:to(1-7,1-11)", 
+    "case(1-11,1-8)", 
+    "nummod(1-11,1-9)", 
+    "amod(1-11,1-10)", 
+    "word(2-1-seven)", 
+    "pos(2-1,cd)", 
+    "word(2-2-workers)", 
+    "pos(2-2,nns)", 
+    "word(2-3-are)", 
+    "pos(2-3,vbp)", 
+    "word(2-4-needed)", 
+    "pos(2-4,vbn)", 
+    "word(2-5-for)", 
+    "pos(2-5,in)", 
+    "word(2-6-mixing)", 
+    "pos(2-6,vbg)", 
+    "word(2-7-cement)", 
+    "pos(2-7,nn)", 
+    "word(2-8-',')", 
+    "pos(2-8,',')", 
+    "word(2-9-five)", 
+    "pos(2-9,cd)", 
+    "word(2-10-for)", 
+    "pos(2-10,in)", 
+    "word(2-11-laying)", 
+    "pos(2-11,vbg)", 
+    "word(2-12-bricks)", 
+    "pos(2-12,nns)", 
+    "word(2-13-',')", 
+    "pos(2-13,',')", 
+    "word(2-14-and)", 
+    "pos(2-14,cc)", 
+    "word(2-15-two)", 
+    "pos(2-15,cd)", 
+    "word(2-16-for)", 
+    "pos(2-16,in)", 
+    "word(2-17-carrying)", 
+    "pos(2-17,vbg)", 
+    "word(2-18-the)", 
+    "pos(2-18,dt)", 
+    "word(2-19-bricks)", 
+    "pos(2-19,nns)", 
+    "word(2-20-to)", 
+    "pos(2-20,to)", 
+    "word(2-21-the)", 
+    "pos(2-21,dt)", 
+    "word(2-22-brick)", 
+    "pos(2-22,nn)", 
+    "word(2-23-layers)", 
+    "pos(2-23,nns)", 
+    "word(2-24-'.')", 
+    "pos(2-24,'.')", 
+    "auxpass(2-4,2-3)", 
+    "advcl(2-4,2-6)", 
+    "nsubjpass(2-4,2-2)", 
+    "mark(2-6,2-5)", 
+    "dobj(2-6,2-7)", 
+    "dobj(2-6,2-15)", 
+    "appos(2-7,2-9)", 
+    "cc(2-7,2-14)", 
+    "conj:and(2-7,2-15)", 
+    "acl(2-9,2-11)", 
+    "mark(2-11,2-10)", 
+    "dobj(2-11,2-12)", 
+    "acl(2-15,2-17)", 
+    "dobj(2-17,2-19)", 
+    "nmod:to(2-17,2-23)", 
+    "mark(2-17,2-16)", 
+    "det(2-19,2-18)", 
+    "case(2-23,2-20)", 
+    "det(2-23,2-21)", 
+    "compound(2-23,2-22)", 
+    "nummod(2-2,2-1)", 
+    "word(3-1-in)", 
+    "pos(3-1,in)", 
+    "word(3-2-how)", 
+    "pos(3-2,wrb)", 
+    "word(3-3-many)", 
+    "pos(3-3,jj)", 
+    "word(3-4-different)", 
+    "pos(3-4,jj)", 
+    "word(3-5-ways)", 
+    "pos(3-5,nns)", 
+    "word(3-6-can)", 
+    "pos(3-6,md)", 
+    "word(3-7-the)", 
+    "pos(3-7,dt)", 
+    "word(3-8-workers)", 
+    "pos(3-8,nns)", 
+    "word(3-9-be)", 
+    "pos(3-9,vb)", 
+    "word(3-10-assigned)", 
+    "pos(3-10,vbn)", 
+    "word(3-11-to)", 
+    "pos(3-11,to)", 
+    "word(3-12-these)", 
+    "pos(3-12,dt)", 
+    "word(3-13-tasks)", 
+    "pos(3-13,nns)", 
+    "word(3-14-'?')", 
+    "pos(3-14,'.')", 
+    "det(3-8,3-7)", 
+    "aux(3-10,3-6)", 
+    "nsubjpass(3-10,3-8)", 
+    "auxpass(3-10,3-9)", 
+    "nmod:to(3-10,3-13)", 
+    "nmod:in(3-10,3-5)", 
+    "case(3-13,3-11)", 
+    "det(3-13,3-12)", 
+    "advmod(3-4,3-2)", 
+    "amod(3-4,3-3)", 
+    "case(3-5,3-1)", 
+    "amod(3-5,3-4)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T15:41:04.909000", 
+  "status": "later"
+}

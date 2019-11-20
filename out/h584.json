@@ -1,0 +1,638 @@
+{
+  "owner": "hannah", 
+  "ex_id": 584, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "onto", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "onto", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "table", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "table", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "face", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "faces", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-26"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "tetrahedron", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "tetrahedra", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "another", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "another", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "white", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "white", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "see", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "seen", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 34, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "another", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "another", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "red", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "red", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "other", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "other", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "green", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "green", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "uniform", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "uniform", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "tetrahedron", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "tetrahedra", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "face", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "face", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "black", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "black", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "When", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "When", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "toss", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "tossed", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "see", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "seen", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "least", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "2", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "red", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "red", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "face", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "faces", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-8"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "Probability Problem Set from Scribd", 
+  "solution": "27/32", 
+  "text": [
+    " Three uniform tetrahedra each has one face black, another white, another red and the other green, When tossed onto a table, 3 faces of each tetrahedra can be seen.", 
+    " What is the probability that at least 2 red faces can be seen?"
+  ], 
+  "corenlp": [
+    "word(1-1-three)", 
+    "pos(1-1,cd)", 
+    "word(1-2-uniform)", 
+    "pos(1-2,jj)", 
+    "word(1-3-tetrahedra)", 
+    "pos(1-3,nn)", 
+    "word(1-4-each)", 
+    "pos(1-4,dt)", 
+    "word(1-5-has)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-one)", 
+    "pos(1-6,cd)", 
+    "word(1-7-face)", 
+    "pos(1-7,nn)", 
+    "word(1-8-black)", 
+    "pos(1-8,jj)", 
+    "word(1-9-',')", 
+    "pos(1-9,',')", 
+    "word(1-10-another)", 
+    "pos(1-10,dt)", 
+    "word(1-11-white)", 
+    "pos(1-11,jj)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-another)", 
+    "pos(1-13,dt)", 
+    "word(1-14-red)", 
+    "pos(1-14,jj)", 
+    "word(1-15-and)", 
+    "pos(1-15,cc)", 
+    "word(1-16-the)", 
+    "pos(1-16,dt)", 
+    "word(1-17-other)", 
+    "pos(1-17,jj)", 
+    "word(1-18-green)", 
+    "pos(1-18,jj)", 
+    "word(1-19-',')", 
+    "pos(1-19,',')", 
+    "word(1-20-when)", 
+    "pos(1-20,wrb)", 
+    "word(1-21-tossed)", 
+    "pos(1-21,vbd)", 
+    "word(1-22-onto)", 
+    "pos(1-22,in)", 
+    "word(1-23-a)", 
+    "pos(1-23,dt)", 
+    "word(1-24-table)", 
+    "pos(1-24,nn)", 
+    "word(1-25-',')", 
+    "pos(1-25,',')", 
+    "word(1-26-3)", 
+    "pos(1-26,cd)", 
+    "word(1-27-faces)", 
+    "pos(1-27,nns)", 
+    "word(1-28-of)", 
+    "pos(1-28,in)", 
+    "word(1-29-each)", 
+    "pos(1-29,dt)", 
+    "word(1-30-tetrahedra)", 
+    "pos(1-30,nn)", 
+    "word(1-31-can)", 
+    "pos(1-31,md)", 
+    "word(1-32-be)", 
+    "pos(1-32,vb)", 
+    "word(1-33-seen)", 
+    "pos(1-33,vbn)", 
+    "word(1-34-'.')", 
+    "pos(1-34,'.')", 
+    "nummod(1-3,1-1)", 
+    "amod(1-3,1-2)", 
+    "nsubj(1-5,1-3)", 
+    "advmod(1-5,1-4)", 
+    "advcl(1-5,1-21)", 
+    "xcomp(1-5,1-8)", 
+    "nummod(1-7,1-6)", 
+    "parataxis(1-8,1-18)", 
+    "dep(1-8,1-7)", 
+    "conj:and(1-11,1-17)", 
+    "det(1-11,1-10)", 
+    "conj:and(1-11,1-14)", 
+    "cc(1-11,1-15)", 
+    "det(1-14,1-13)", 
+    "det(1-17,1-16)", 
+    "dep(1-18,1-17)", 
+    "dep(1-18,1-11)", 
+    "dep(1-18,1-14)", 
+    "advmod(1-21,1-20)", 
+    "nmod:onto(1-21,1-24)", 
+    "case(1-24,1-22)", 
+    "det(1-24,1-23)", 
+    "nummod(1-27,1-26)", 
+    "nmod:of(1-27,1-30)", 
+    "case(1-30,1-28)", 
+    "det(1-30,1-29)", 
+    "auxpass(1-33,1-32)", 
+    "ccomp(1-33,1-5)", 
+    "nsubjpass(1-33,1-27)", 
+    "aux(1-33,1-31)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,wdt)", 
+    "word(2-6-at)", 
+    "pos(2-6,in)", 
+    "word(2-7-least)", 
+    "pos(2-7,jjs)", 
+    "word(2-8-2)", 
+    "pos(2-8,cd)", 
+    "word(2-9-red)", 
+    "pos(2-9,jj)", 
+    "word(2-10-faces)", 
+    "pos(2-10,nns)", 
+    "word(2-11-can)", 
+    "pos(2-11,md)", 
+    "word(2-12-be)", 
+    "pos(2-12,vb)", 
+    "word(2-13-seen)", 
+    "pos(2-13,vbn)", 
+    "word(2-14-'?')", 
+    "pos(2-14,'.')", 
+    "det(2-4,2-3)", 
+    "acl:relcl(2-4,2-13)", 
+    "case(2-7,2-6)", 
+    "nmod:npmod(2-8,2-7)", 
+    "nummod(2-10,2-8)", 
+    "amod(2-10,2-9)", 
+    "dobj(2-13,2-5)", 
+    "nsubjpass(2-13,2-10)", 
+    "aux(2-13,2-11)", 
+    "auxpass(2-13,2-12)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "time_added": "2016-07-26T14:20:13.668000", 
+  "status": "skip"
+}

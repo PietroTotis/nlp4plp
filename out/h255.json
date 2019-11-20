@@ -1,0 +1,671 @@
+{
+  "owner": "hannah", 
+  "ex_id": 255, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "who", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "under", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "under", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "six", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "foot", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "feet", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "basketball", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "basketball", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "team", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "team", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "player", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "players", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "over", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "over", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "six", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "foot", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "feet", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "tall", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "tall", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "shorter", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "shorter", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "player", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "players", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-21"
+            ], 
+            "mention": "explicit", 
+            "number": "6"
+          }
+        }, 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "who", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "sit", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "sitting", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-28"
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": "row", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "row", 
+        "key": "2-29"
+      }, 
+      "30": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-30"
+      }, 
+      "31": {
+        "sentence": 2, 
+        "nlp_stem": "chair", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "chairs", 
+        "key": "2-31"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "if", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "2-10"
+      }, 
+      "32": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 32, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-32"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "5", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "taller", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "taller", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "player", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "players", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "stand", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "stand", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "row", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "row", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "behind", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "behind", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "they", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "their", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "their", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "picture", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "picture", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "take", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "taken", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "6", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "Elementary Probability for Applications", 
+  "solution": "5!6!", 
+  "text": [
+    " A basketball team has 5 players over six feet tall and 6 who are under six feet.", 
+    " How many ways can they have their picture taken if the 5 taller players stand in a row behind the 6 shorter players who are sitting on a row of chairs?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-basketball)", 
+    "pos(1-2,nn)", 
+    "word(1-3-team)", 
+    "pos(1-3,nn)", 
+    "word(1-4-has)", 
+    "pos(1-4,vbz)", 
+    "word(1-5-5)", 
+    "pos(1-5,cd)", 
+    "word(1-6-players)", 
+    "pos(1-6,nns)", 
+    "word(1-7-over)", 
+    "pos(1-7,in)", 
+    "word(1-8-six)", 
+    "pos(1-8,cd)", 
+    "word(1-9-feet)", 
+    "pos(1-9,nns)", 
+    "word(1-10-tall)", 
+    "pos(1-10,jj)", 
+    "word(1-11-and)", 
+    "pos(1-11,cc)", 
+    "word(1-12-6)", 
+    "pos(1-12,cd)", 
+    "word(1-13-who)", 
+    "pos(1-13,wp)", 
+    "word(1-14-are)", 
+    "pos(1-14,vbp)", 
+    "word(1-15-under)", 
+    "pos(1-15,in)", 
+    "word(1-16-six)", 
+    "pos(1-16,cd)", 
+    "word(1-17-feet)", 
+    "pos(1-17,nns)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "det(1-3,1-1)", 
+    "compound(1-3,1-2)", 
+    "nsubj(1-4,1-3)", 
+    "dobj(1-4,1-6)", 
+    "dobj(1-4,1-12)", 
+    "nummod(1-6,1-5)", 
+    "acl:over(1-6,1-10)", 
+    "cc(1-6,1-11)", 
+    "conj:and(1-6,1-12)", 
+    "nummod(1-9,1-8)", 
+    "case(1-10,1-7)", 
+    "nmod:npmod(1-10,1-9)", 
+    "acl:relcl(1-12,1-17)", 
+    "nummod(1-17,1-16)", 
+    "nsubj(1-17,1-13)", 
+    "cop(1-17,1-14)", 
+    "case(1-17,1-15)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-ways)", 
+    "pos(2-3,nns)", 
+    "word(2-4-can)", 
+    "pos(2-4,md)", 
+    "word(2-5-they)", 
+    "pos(2-5,prp)", 
+    "word(2-6-have)", 
+    "pos(2-6,vbp)", 
+    "word(2-7-their)", 
+    "pos(2-7,prp)", 
+    "word(2-8-picture)", 
+    "pos(2-8,nn)", 
+    "word(2-9-taken)", 
+    "pos(2-9,vbn)", 
+    "word(2-10-if)", 
+    "pos(2-10,in)", 
+    "word(2-11-the)", 
+    "pos(2-11,dt)", 
+    "word(2-12-5)", 
+    "pos(2-12,cd)", 
+    "word(2-13-taller)", 
+    "pos(2-13,jjr)", 
+    "word(2-14-players)", 
+    "pos(2-14,nns)", 
+    "word(2-15-stand)", 
+    "pos(2-15,vbp)", 
+    "word(2-16-in)", 
+    "pos(2-16,in)", 
+    "word(2-17-a)", 
+    "pos(2-17,dt)", 
+    "word(2-18-row)", 
+    "pos(2-18,nn)", 
+    "word(2-19-behind)", 
+    "pos(2-19,in)", 
+    "word(2-20-the)", 
+    "pos(2-20,dt)", 
+    "word(2-21-6)", 
+    "pos(2-21,cd)", 
+    "word(2-22-shorter)", 
+    "pos(2-22,jjr)", 
+    "word(2-23-players)", 
+    "pos(2-23,nns)", 
+    "word(2-24-who)", 
+    "pos(2-24,wp)", 
+    "word(2-25-are)", 
+    "pos(2-25,vbp)", 
+    "word(2-26-sitting)", 
+    "pos(2-26,vbg)", 
+    "word(2-27-on)", 
+    "pos(2-27,in)", 
+    "word(2-28-a)", 
+    "pos(2-28,dt)", 
+    "word(2-29-row)", 
+    "pos(2-29,nn)", 
+    "word(2-30-of)", 
+    "pos(2-30,in)", 
+    "word(2-31-chairs)", 
+    "pos(2-31,nns)", 
+    "word(2-32-'?')", 
+    "pos(2-32,'.')", 
+    "advmod(2-2,2-1)", 
+    "amod(2-3,2-2)", 
+    "dep(2-6,2-3)", 
+    "aux(2-6,2-4)", 
+    "nsubj(2-6,2-5)", 
+    "dobj(2-6,2-8)", 
+    "nmod:poss(2-8,2-7)", 
+    "acl(2-8,2-9)", 
+    "advcl(2-9,2-15)", 
+    "det(2-12,2-11)", 
+    "dep(2-12,2-14)", 
+    "amod(2-14,2-13)", 
+    "mark(2-15,2-10)", 
+    "nsubj(2-15,2-12)", 
+    "nmod:in(2-15,2-18)", 
+    "nmod:behind(2-18,2-23)", 
+    "case(2-18,2-16)", 
+    "det(2-18,2-17)", 
+    "case(2-23,2-19)", 
+    "det(2-23,2-20)", 
+    "nummod(2-23,2-21)", 
+    "amod(2-23,2-22)", 
+    "acl:relcl(2-23,2-26)", 
+    "nsubj(2-26,2-24)", 
+    "aux(2-26,2-25)", 
+    "nmod:on(2-26,2-29)", 
+    "case(2-29,2-27)", 
+    "det(2-29,2-28)", 
+    "nmod:of(2-29,2-31)", 
+    "case(2-31,2-30)"
+  ], 
+  "time_added": "2016-07-13T11:09:29.917000", 
+  "status": "skip"
+}

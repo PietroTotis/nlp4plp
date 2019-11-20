@@ -1,0 +1,747 @@
+{
+  "owner": "liselot", 
+  "ex_id": 976, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "appetizer", 
+        "index": 22, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "appetizer"
+        }, 
+        "text": "appetizers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-21"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-22", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "course", 
+          "size": {
+            "words": [
+              "1-21"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-22"
+          ]
+        }
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "entree", 
+        "index": 27, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "entree"
+        }, 
+        "text": "entrees", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-26"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-27", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "course", 
+          "size": {
+            "words": [
+              "1-26"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-27"
+          ]
+        }
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 28, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "dessert", 
+        "index": 33, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "dessert"
+        }, 
+        "text": "desserts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-32"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-33", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "course", 
+          "size": {
+            "words": [
+              "1-32"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-33"
+          ]
+        }
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "fix", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "fixed", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "price", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "price", 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "give", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "given", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 36, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "which", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "choice", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "choice", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "restaurant", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "restaurant", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "complete", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "complete", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "dinner", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "dinner", 
+        "key": "1-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-22", 
+              "1-27", 
+              "1-33"
+            ], 
+            "mention": "by_content", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "offer", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "offered", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": {
+                    "reqnum": true, 
+                    "number": "1", 
+                    "children": 1, 
+                    "name": "exactly", 
+                    "id": "=="
+                  }, 
+                  "child": {
+                    "choice": "dessert"
+                  }
+                }, 
+                "child1": {
+                  "child2": {
+                    "choice": {
+                      "reqnum": true, 
+                      "number": "1", 
+                      "children": 1, 
+                      "name": "exactly", 
+                      "id": "=="
+                    }, 
+                    "child": {
+                      "choice": "entree"
+                    }
+                  }, 
+                  "child1": {
+                    "choice": {
+                      "reqnum": true, 
+                      "number": "1", 
+                      "children": 1, 
+                      "name": "exactly", 
+                      "id": "=="
+                    }, 
+                    "child": {
+                      "choice": "appetizer"
+                    }
+                  }, 
+                  "choice": {
+                    "children": 2, 
+                    "name": "and", 
+                    "id": "and"
+                  }
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "course", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-7", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "possible", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "complete", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "complete", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "dinner", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "dinners", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-8"
+      }
+    }
+  }, 
+  "source": "http://download.springer.com/static/pdf/989/bok%253A978-0-8176-4591-5.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-8176-4591-5&token2=exp=1468826055~acl=%2Fstatic%2Fpdf%2F989%2Fbok%25253A978-0-8176-4591-5.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-8176-4591-5*~hmac=11ccf6eb0a89fcdef4431a2b2a952bb0bf6184dccf8a900c4dc7fd011a23b11d", 
+  "text": [
+    " In a restaurant, a complete dinner is offered for a fixed price in which a choice of one of three appetizers, one of three entrees, and one of two desserts is given.", 
+    " How many possible complete dinners are there?"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-restaurant)", 
+    "pos(1-3,nn)", 
+    "word(1-4-',')", 
+    "pos(1-4,',')", 
+    "word(1-5-a)", 
+    "pos(1-5,dt)", 
+    "word(1-6-complete)", 
+    "pos(1-6,jj)", 
+    "word(1-7-dinner)", 
+    "pos(1-7,nn)", 
+    "word(1-8-is)", 
+    "pos(1-8,vbz)", 
+    "word(1-9-offered)", 
+    "pos(1-9,vbn)", 
+    "word(1-10-for)", 
+    "pos(1-10,in)", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-fixed)", 
+    "pos(1-12,vbn)", 
+    "word(1-13-price)", 
+    "pos(1-13,nn)", 
+    "word(1-14-in)", 
+    "pos(1-14,in)", 
+    "word(1-15-which)", 
+    "pos(1-15,wdt)", 
+    "word(1-16-a)", 
+    "pos(1-16,dt)", 
+    "word(1-17-choice)", 
+    "pos(1-17,nn)", 
+    "word(1-18-of)", 
+    "pos(1-18,in)", 
+    "word(1-19-one)", 
+    "pos(1-19,cd)", 
+    "word(1-20-of)", 
+    "pos(1-20,in)", 
+    "word(1-21-three)", 
+    "pos(1-21,cd)", 
+    "word(1-22-appetizers)", 
+    "pos(1-22,nns)", 
+    "word(1-23-',')", 
+    "pos(1-23,',')", 
+    "word(1-24-one)", 
+    "pos(1-24,cd)", 
+    "word(1-25-of)", 
+    "pos(1-25,in)", 
+    "word(1-26-three)", 
+    "pos(1-26,cd)", 
+    "word(1-27-entrees)", 
+    "pos(1-27,nns)", 
+    "word(1-28-',')", 
+    "pos(1-28,',')", 
+    "word(1-29-and)", 
+    "pos(1-29,cc)", 
+    "word(1-30-one)", 
+    "pos(1-30,cd)", 
+    "word(1-31-of)", 
+    "pos(1-31,in)", 
+    "word(1-32-two)", 
+    "pos(1-32,cd)", 
+    "word(1-33-desserts)", 
+    "pos(1-33,nns)", 
+    "word(1-34-is)", 
+    "pos(1-34,vbz)", 
+    "word(1-35-given)", 
+    "pos(1-35,vbn)", 
+    "word(1-36-'.')", 
+    "pos(1-36,'.')", 
+    "case(1-3,1-1)", 
+    "det(1-3,1-2)", 
+    "det(1-7,1-5)", 
+    "amod(1-7,1-6)", 
+    "nmod:in(1-9,1-3)", 
+    "nsubjpass(1-9,1-7)", 
+    "auxpass(1-9,1-8)", 
+    "nmod:for(1-9,1-13)", 
+    "acl:relcl(1-13,1-35)", 
+    "case(1-13,1-10)", 
+    "det(1-13,1-11)", 
+    "amod(1-13,1-12)", 
+    "case(1-15,1-14)", 
+    "det(1-17,1-16)", 
+    "nmod:of(1-17,1-19)", 
+    "nmod:of(1-17,1-24)", 
+    "nmod:of(1-17,1-30)", 
+    "case(1-19,1-18)", 
+    "nmod:of(1-19,1-22)", 
+    "conj:and(1-19,1-24)", 
+    "cc(1-19,1-29)", 
+    "conj:and(1-19,1-30)", 
+    "case(1-22,1-20)", 
+    "nummod(1-22,1-21)", 
+    "nmod:of(1-24,1-27)", 
+    "case(1-27,1-25)", 
+    "nummod(1-27,1-26)", 
+    "nmod:of(1-30,1-33)", 
+    "nummod(1-33,1-32)", 
+    "case(1-33,1-31)", 
+    "nsubjpass(1-35,1-17)", 
+    "auxpass(1-35,1-34)", 
+    "nmod:in(1-35,1-15)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-possible)", 
+    "pos(2-3,jj)", 
+    "word(2-4-complete)", 
+    "pos(2-4,jj)", 
+    "word(2-5-dinners)", 
+    "pos(2-5,nns)", 
+    "word(2-6-are)", 
+    "pos(2-6,vbp)", 
+    "word(2-7-there)", 
+    "pos(2-7,ex)", 
+    "word(2-8-'?')", 
+    "pos(2-8,'.')", 
+    "amod(2-4,2-3)", 
+    "amod(2-5,2-4)", 
+    "amod(2-5,2-2)", 
+    "nsubj(2-6,2-5)", 
+    "expl(2-6,2-7)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-09T11:09:30.147000", 
+  "status": "done"
+}

@@ -1,0 +1,933 @@
+{
+  "owner": "monica", 
+  "ex_id": 802, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "50", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 24, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-23"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "1-24", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-13", 
+          "size": {
+            "words": [
+              "1-23", 
+              "1-24"
+            ], 
+            "mention": "explicit", 
+            "number": "50/100"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "eventually", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "eventually", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "buy", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "bought", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "25", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "25", 
+        "corenlp": {
+          "number": 25
+        }, 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 31, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-30"
+            ], 
+            "mention": "explicit", 
+            "number": "25"
+          }
+        }, 
+        "key": "1-31", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-13", 
+          "size": {
+            "words": [
+              "1-30", 
+              "1-31"
+            ], 
+            "mention": "explicit", 
+            "number": "25/100"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-36"
+          ]
+        }
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": "45"
+          }
+        }, 
+        "key": "1-10", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-13", 
+          "size": {
+            "words": [
+              "1-9", 
+              "1-10"
+            ], 
+            "mention": "explicit", 
+            "number": "45/100"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-17"
+          ]
+        }
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "had", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "neither", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "neither", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "see", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "seen", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "customer", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "customers", 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "had", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "ad", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "advertisement", 
+          "class": "seen"
+        }, 
+        "text": "ad", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "see", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "seen", 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "nor", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "nor", 
+        "key": "1-37"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "do", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "did", 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "advertisement", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "advertisement", 
+          "class": "seen"
+        }, 
+        "text": "advertisement", 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": "they", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "dealership", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dealership", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "conduct", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "conducted", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "survey", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "survey", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "indicate", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "indicating", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "45", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "45", 
+        "corenlp": {
+          "number": 45
+        }, 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": "buy", 
+        "index": 40, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "buy", 
+        "key": "1-40"
+      }, 
+      "41": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 41, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-41"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "particular", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "particular", 
+        "key": "1-20"
+      }, 
+      "42": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 42, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "1-42"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "1-21"
+      }, 
+      "43": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 43, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-43"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "from", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "2-11"
+      }, 
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-22"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "those", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "DT", 
+        "text": "those", 
+        "key": "2-12", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "survey", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "surveyed", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "had", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "see", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "seen", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "ad", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "ad", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "buy", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "bought", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "person", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "person", 
+        "key": "2-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "selected", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "random", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "car", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "STATISTICS AND. PROBABILITY. CLAST MATHEMATICS COMPETENCIES. Houghton Mifflin Company.", 
+  "text": [
+    " A car dealership conducted a survey indicating that 45 percent of the customers had seen an advertisement for a particular car, 50 percent eventually bought the car and 25 percent had neither seen the ad nor did they buy the car.", 
+    " What is the probability that a person selected at random from those surveyed had seen the ad and bought the car?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-car)", 
+    "pos(1-2,nn)", 
+    "word(1-3-dealership)", 
+    "pos(1-3,nn)", 
+    "word(1-4-conducted)", 
+    "pos(1-4,vbd)", 
+    "word(1-5-a)", 
+    "pos(1-5,dt)", 
+    "word(1-6-survey)", 
+    "pos(1-6,nn)", 
+    "word(1-7-indicating)", 
+    "pos(1-7,vbg)", 
+    "word(1-8-that)", 
+    "pos(1-8,in)", 
+    "word(1-9-45)", 
+    "pos(1-9,cd)", 
+    "word(1-10-percent)", 
+    "pos(1-10,nn)", 
+    "word(1-11-of)", 
+    "pos(1-11,in)", 
+    "word(1-12-the)", 
+    "pos(1-12,dt)", 
+    "word(1-13-customers)", 
+    "pos(1-13,nns)", 
+    "word(1-14-had)", 
+    "pos(1-14,vbd)", 
+    "word(1-15-seen)", 
+    "pos(1-15,vbn)", 
+    "word(1-16-an)", 
+    "pos(1-16,dt)", 
+    "word(1-17-advertisement)", 
+    "pos(1-17,nn)", 
+    "word(1-18-for)", 
+    "pos(1-18,in)", 
+    "word(1-19-a)", 
+    "pos(1-19,dt)", 
+    "word(1-20-particular)", 
+    "pos(1-20,jj)", 
+    "word(1-21-car)", 
+    "pos(1-21,nn)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-50)", 
+    "pos(1-23,cd)", 
+    "word(1-24-percent)", 
+    "pos(1-24,nn)", 
+    "word(1-25-eventually)", 
+    "pos(1-25,rb)", 
+    "word(1-26-bought)", 
+    "pos(1-26,vbd)", 
+    "word(1-27-the)", 
+    "pos(1-27,dt)", 
+    "word(1-28-car)", 
+    "pos(1-28,nn)", 
+    "word(1-29-and)", 
+    "pos(1-29,cc)", 
+    "word(1-30-25)", 
+    "pos(1-30,cd)", 
+    "word(1-31-percent)", 
+    "pos(1-31,nn)", 
+    "word(1-32-had)", 
+    "pos(1-32,vbd)", 
+    "word(1-33-neither)", 
+    "pos(1-33,cc)", 
+    "word(1-34-seen)", 
+    "pos(1-34,vbn)", 
+    "word(1-35-the)", 
+    "pos(1-35,dt)", 
+    "word(1-36-ad)", 
+    "pos(1-36,nn)", 
+    "word(1-37-nor)", 
+    "pos(1-37,cc)", 
+    "word(1-38-did)", 
+    "pos(1-38,vbd)", 
+    "word(1-39-they)", 
+    "pos(1-39,prp)", 
+    "word(1-40-buy)", 
+    "pos(1-40,vbp)", 
+    "word(1-41-the)", 
+    "pos(1-41,dt)", 
+    "word(1-42-car)", 
+    "pos(1-42,nn)", 
+    "word(1-43-'.')", 
+    "pos(1-43,'.')", 
+    "det(1-3,1-1)", 
+    "compound(1-3,1-2)", 
+    "nsubj(1-4,1-3)", 
+    "dobj(1-4,1-6)", 
+    "xcomp(1-4,1-7)", 
+    "det(1-6,1-5)", 
+    "ccomp(1-7,1-15)", 
+    "nummod(1-10,1-9)", 
+    "nmod:of(1-10,1-13)", 
+    "case(1-13,1-11)", 
+    "det(1-13,1-12)", 
+    "dobj(1-15,1-17)", 
+    "mark(1-15,1-8)", 
+    "nsubj(1-15,1-10)", 
+    "aux(1-15,1-14)", 
+    "det(1-17,1-16)", 
+    "nmod:for(1-17,1-21)", 
+    "case(1-21,1-18)", 
+    "det(1-21,1-19)", 
+    "amod(1-21,1-20)", 
+    "nummod(1-24,1-23)", 
+    "ccomp(1-26,1-32)", 
+    "ccomp(1-26,1-4)", 
+    "ccomp(1-26,1-38)", 
+    "nsubj(1-26,1-24)", 
+    "advmod(1-26,1-25)", 
+    "det(1-28,1-27)", 
+    "cc(1-28,1-29)", 
+    "conj:and(1-28,1-31)", 
+    "nummod(1-31,1-30)", 
+    "ccomp(1-32,1-34)", 
+    "cc(1-32,1-37)", 
+    "conj:nor(1-32,1-38)", 
+    "nsubj(1-32,1-28)", 
+    "nsubj(1-32,1-31)", 
+    "dep(1-34,1-33)", 
+    "dobj(1-34,1-36)", 
+    "det(1-36,1-35)", 
+    "ccomp(1-38,1-40)", 
+    "nsubj(1-38,1-28)", 
+    "nsubj(1-40,1-39)", 
+    "dobj(1-40,1-42)", 
+    "det(1-42,1-41)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,in)", 
+    "word(2-6-a)", 
+    "pos(2-6,dt)", 
+    "word(2-7-person)", 
+    "pos(2-7,nn)", 
+    "word(2-8-selected)", 
+    "pos(2-8,vbn)", 
+    "word(2-9-at)", 
+    "pos(2-9,in)", 
+    "word(2-10-random)", 
+    "pos(2-10,jj)", 
+    "word(2-11-from)", 
+    "pos(2-11,in)", 
+    "word(2-12-those)", 
+    "pos(2-12,dt)", 
+    "word(2-13-surveyed)", 
+    "pos(2-13,vbn)", 
+    "word(2-14-had)", 
+    "pos(2-14,vbd)", 
+    "word(2-15-seen)", 
+    "pos(2-15,vbn)", 
+    "word(2-16-the)", 
+    "pos(2-16,dt)", 
+    "word(2-17-ad)", 
+    "pos(2-17,nn)", 
+    "word(2-18-and)", 
+    "pos(2-18,cc)", 
+    "word(2-19-bought)", 
+    "pos(2-19,vbd)", 
+    "word(2-20-the)", 
+    "pos(2-20,dt)", 
+    "word(2-21-car)", 
+    "pos(2-21,nn)", 
+    "word(2-22-'?')", 
+    "pos(2-22,'.')", 
+    "det(2-4,2-3)", 
+    "dep(2-4,2-19)", 
+    "dep(2-4,2-15)", 
+    "det(2-7,2-6)", 
+    "acl(2-7,2-8)", 
+    "advcl:at(2-8,2-10)", 
+    "nmod:from(2-8,2-12)", 
+    "case(2-10,2-9)", 
+    "case(2-12,2-11)", 
+    "acl(2-12,2-13)", 
+    "conj:and(2-15,2-19)", 
+    "mark(2-15,2-5)", 
+    "nsubj(2-15,2-7)", 
+    "aux(2-15,2-14)", 
+    "dobj(2-15,2-17)", 
+    "cc(2-15,2-18)", 
+    "det(2-17,2-16)", 
+    "dobj(2-19,2-21)", 
+    "nsubj(2-19,2-7)", 
+    "det(2-21,2-20)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "simple object selection", 
+    "id": 1
+  }, 
+  "time_added": "2016-08-09T13:33:43.929000", 
+  "status": "skip"
+}

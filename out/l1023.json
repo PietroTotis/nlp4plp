@@ -1,0 +1,374 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1023, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "digit", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "key": "1-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-7", 
+              "2-8", 
+              "2-9"
+            ], 
+            "mention": "by_content", 
+            "number": "10"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-14"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-2", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-11", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-5", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "five-digit", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "five-digit", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "zip", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "zip", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "code", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "codes", 
+        "key": "1-5", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "where", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "where", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "all", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "all", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "possible", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "digit", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "key": "2-3", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-11", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "numbers", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "numbers", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "0", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0", 
+        "corenlp": {
+          "number": 0
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "through", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "through", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "9", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "9", 
+        "corenlp": {
+          "number": 9
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "30240", 
+  "text": [
+    " How many five-digit zip codes can be made where all digits are different?", 
+    " The possible digits are the numbers 0 through 9."
+  ], 
+  "corenlp": [
+    "word(1-1-how)", 
+    "pos(1-1,wrb)", 
+    "word(1-2-many)", 
+    "pos(1-2,jj)", 
+    "word(1-3-five-digit)", 
+    "pos(1-3,jj)", 
+    "word(1-4-zip)", 
+    "pos(1-4,nn)", 
+    "word(1-5-codes)", 
+    "pos(1-5,nns)", 
+    "word(1-6-can)", 
+    "pos(1-6,md)", 
+    "word(1-7-be)", 
+    "pos(1-7,vb)", 
+    "word(1-8-made)", 
+    "pos(1-8,vbn)", 
+    "word(1-9-where)", 
+    "pos(1-9,wrb)", 
+    "word(1-10-all)", 
+    "pos(1-10,dt)", 
+    "word(1-11-digits)", 
+    "pos(1-11,nns)", 
+    "word(1-12-are)", 
+    "pos(1-12,vbp)", 
+    "word(1-13-different)", 
+    "pos(1-13,jj)", 
+    "word(1-14-'?')", 
+    "pos(1-14,'.')", 
+    "advmod(1-2,1-1)", 
+    "dep(1-4,1-3)", 
+    "amod(1-5,1-2)", 
+    "amod(1-5,1-4)", 
+    "nsubjpass(1-8,1-5)", 
+    "aux(1-8,1-6)", 
+    "auxpass(1-8,1-7)", 
+    "advcl(1-8,1-13)", 
+    "det(1-11,1-10)", 
+    "advmod(1-13,1-9)", 
+    "nsubj(1-13,1-11)", 
+    "cop(1-13,1-12)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-possible)", 
+    "pos(2-2,jj)", 
+    "word(2-3-digits)", 
+    "pos(2-3,nns)", 
+    "word(2-4-are)", 
+    "pos(2-4,vbp)", 
+    "word(2-5-the)", 
+    "pos(2-5,dt)", 
+    "word(2-6-numbers)", 
+    "pos(2-6,nns)", 
+    "word(2-7-0)", 
+    "pos(2-7,cd)", 
+    "word(2-8-through)", 
+    "pos(2-8,in)", 
+    "word(2-9-9)", 
+    "pos(2-9,cd)", 
+    "word(2-10-'.')", 
+    "pos(2-10,'.')", 
+    "det(2-3,2-1)", 
+    "amod(2-3,2-2)", 
+    "nsubj(2-6,2-3)", 
+    "cop(2-6,2-4)", 
+    "det(2-6,2-5)", 
+    "nmod:through(2-6,2-7)", 
+    "case(2-7,2-8)", 
+    "dep(2-7,2-9)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-10T11:22:19.861000", 
+  "status": "done"
+}

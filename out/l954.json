@@ -1,0 +1,521 @@
+{
+  "owner": "liselot", 
+  "ex_id": 954, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "dime", 
+        "index": 22, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "dime", 
+        "key": "1-22", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "quarter", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "quarter", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "fifty-cent", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fifty-cent", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "piece", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "piece", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 30, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "by", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "by", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "choosing", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "dollar", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dollar", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "coin", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "coin", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "coin", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "coins", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-12"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-12"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 35, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "box", 
+        "key": "1-16", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-19", 
+              "1-22", 
+              "1-25", 
+              "1-28", 
+              "1-33"
+            ], 
+            "mention": "by_content", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "containing", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "nickel", 
+        "index": 19, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "nickel", 
+        "key": "1-19", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-2", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-16", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-13", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "sum", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "sums", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "money", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "money", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "obtain", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "obtained", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://elektron.pol.lublin.pl/muratm/files/DeCoursey-EXCEL-Statistics-and-Probability-for-Engineering-Applications.pdf", 
+  "solution": "10", 
+  "text": [
+    " How many different sums of money can be obtained by choosing two coins from a box containing a nickel, a dime, a quarter, a fifty-cent piece, and a dollar coin?"
+  ], 
+  "corenlp": [
+    "word(1-1-how)", 
+    "pos(1-1,wrb)", 
+    "word(1-2-many)", 
+    "pos(1-2,jj)", 
+    "word(1-3-different)", 
+    "pos(1-3,jj)", 
+    "word(1-4-sums)", 
+    "pos(1-4,nns)", 
+    "word(1-5-of)", 
+    "pos(1-5,in)", 
+    "word(1-6-money)", 
+    "pos(1-6,nn)", 
+    "word(1-7-can)", 
+    "pos(1-7,md)", 
+    "word(1-8-be)", 
+    "pos(1-8,vb)", 
+    "word(1-9-obtained)", 
+    "pos(1-9,vbn)", 
+    "word(1-10-by)", 
+    "pos(1-10,in)", 
+    "word(1-11-choosing)", 
+    "pos(1-11,vbg)", 
+    "word(1-12-two)", 
+    "pos(1-12,cd)", 
+    "word(1-13-coins)", 
+    "pos(1-13,nns)", 
+    "word(1-14-from)", 
+    "pos(1-14,in)", 
+    "word(1-15-a)", 
+    "pos(1-15,dt)", 
+    "word(1-16-box)", 
+    "pos(1-16,nn)", 
+    "word(1-17-containing)", 
+    "pos(1-17,vbg)", 
+    "word(1-18-a)", 
+    "pos(1-18,dt)", 
+    "word(1-19-nickel)", 
+    "pos(1-19,nn)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-a)", 
+    "pos(1-21,dt)", 
+    "word(1-22-dime)", 
+    "pos(1-22,nn)", 
+    "word(1-23-',')", 
+    "pos(1-23,',')", 
+    "word(1-24-a)", 
+    "pos(1-24,dt)", 
+    "word(1-25-quarter)", 
+    "pos(1-25,nn)", 
+    "word(1-26-',')", 
+    "pos(1-26,',')", 
+    "word(1-27-a)", 
+    "pos(1-27,dt)", 
+    "word(1-28-fifty-cent)", 
+    "pos(1-28,jj)", 
+    "word(1-29-piece)", 
+    "pos(1-29,nn)", 
+    "word(1-30-',')", 
+    "pos(1-30,',')", 
+    "word(1-31-and)", 
+    "pos(1-31,cc)", 
+    "word(1-32-a)", 
+    "pos(1-32,dt)", 
+    "word(1-33-dollar)", 
+    "pos(1-33,nn)", 
+    "word(1-34-coin)", 
+    "pos(1-34,nn)", 
+    "word(1-35-'?')", 
+    "pos(1-35,'.')", 
+    "advmod(1-2,1-1)", 
+    "amod(1-4,1-2)", 
+    "amod(1-4,1-3)", 
+    "nmod:of(1-4,1-6)", 
+    "case(1-6,1-5)", 
+    "nsubjpass(1-9,1-4)", 
+    "aux(1-9,1-7)", 
+    "auxpass(1-9,1-8)", 
+    "advcl(1-9,1-11)", 
+    "nmod:from(1-11,1-16)", 
+    "mark(1-11,1-10)", 
+    "dobj(1-11,1-13)", 
+    "nummod(1-13,1-12)", 
+    "acl(1-16,1-17)", 
+    "case(1-16,1-14)", 
+    "det(1-16,1-15)", 
+    "dobj(1-17,1-34)", 
+    "dobj(1-17,1-19)", 
+    "dobj(1-17,1-22)", 
+    "dobj(1-17,1-25)", 
+    "dobj(1-17,1-29)", 
+    "det(1-19,1-18)", 
+    "conj:and(1-19,1-34)", 
+    "conj:and(1-19,1-22)", 
+    "conj:and(1-19,1-25)", 
+    "conj:and(1-19,1-29)", 
+    "cc(1-19,1-31)", 
+    "det(1-22,1-21)", 
+    "det(1-25,1-24)", 
+    "det(1-29,1-27)", 
+    "amod(1-29,1-28)", 
+    "det(1-34,1-32)", 
+    "compound(1-34,1-33)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T16:05:51.257000", 
+  "status": "done"
+}

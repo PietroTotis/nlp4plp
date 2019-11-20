@@ -1,0 +1,203 @@
+"hannah"
+1001
+[
+  " There are 10 computer scientists that go to eat lunch together, but only one person goes to get glasses of water and can only carry 3.",
+  " In how many ways can these glasses be distributed among 10 thirsty scientists?"
+]
+"hannah"
+100
+[
+  " In a library box, there are 8 novels, 8 biographies, and 8 war history books.",
+  " If Jack selects two books at random, what is the probability of selecting two different kinds of books in a row?"
+]
+"hannah"
+1010
+[
+  " There are 3 different side choices for an entree at the Alma.",
+  " If 12 people get their food in the Alma, in how many different ways can the sides be selected?"
+]
+"hannah"
+117
+[
+  " There are 4 things in a hat.",
+  " How many ways can you pick 2 things from the hat at once?"
+]
+"hannah"
+118
+[
+  " Abigail, Jasmine, and Aaron ran in a race.",
+  " In how many different orders can they finish the race?"
+]
+"hannah"
+11
+[
+  " Box A contains 5 black and 10 white marbles.",
+  " Box B contains 6 black and 4 white marbles.",
+  " One selects a marble from both boxes.",
+  " Find the probability that both marbles have the same color"
+]
+"hannah"
+129
+[
+  " In how many ways can 6 students be seated in a classroom with 30 desks?"
+]
+"hannah"
+12
+[
+  " A form is used to predict the outcome of a football game, which can be win, lose or draw.",
+  " A form consists of 13 games.Find the probability that exactly 11 are correct"
+]
+"hannah"
+132
+[
+  " A committee of 4 is chosen at random from 5 married couples.",
+  " What is the probability that the committee will not include a husband and wife?"
+]
+"hannah"
+139
+[
+  " John, Jim, Jay, and Jack have formed a band consisting of 4 instruments.",
+  " If each of the boys can play all 4 instruments, how many different arrangements are possible?"
+]
+"hannah"
+140
+[
+  " A child has 12 blocks, of which 6 are black, 4 are red, 1 is white, and 1 is blue.",
+  " If the child puts the blocks in a line, how many arrangements are possible?"
+]
+"hannah"
+141
+[
+  " Consider a group of 20 people.",
+  " If everyone shakes hands with everyone else, how many handshakes take place?"
+]
+"hannah"
+142
+[
+  " A dance class consists of 22 students, of which 10 are women and 12 are men.",
+  " If 5 men and 5 women are to be chosen and then paired off, how many results are possible?"
+]
+"hannah"
+143
+[
+  " A committee of 7, consisting of 2 Republicans, 2 Democrats, and 3 Independents, is to be chosen from a group of 5 Republicans, 6 Democrats, and 4 Independents.",
+  " How many committees are possible?"
+]
+"hannah"
+144
+[
+  " Ten weight lifters are competing in a team weightlifting contest.",
+  " Of the lifters, 3 are from the United States, 4 are from Russia, 2 are from China, and 1 is from Canada.",
+  " If the scoring takes account of the countries that the lifters represent, but not their individual identities, how many different outcomes are possible from the point of view of scores?"
+]
+"hannah"
+145
+[
+  " Delegates from 10 countries, including Russia, France, England, and the United States, are to be seated in a row.",
+  " How many different seating arrangements are possible if the French and English delegates are to be seated next to each other and the Russian and U.S. delegates are not to be next to each other?"
+]
+"hannah"
+146
+[
+  " If 4 Americans, 3 French people, and 3 British people are to be seated in a row, how many seating arrangements are possible when people of the same nationality must sit next to each other?"
+]
+"hannah"
+147
+[
+  " In how many ways can a man divide 7 gifts among his 3 children if the eldest is to receive 3 gifts and the others 2 each?"
+]
+"hannah"
+148
+[
+  " An art collection on auction consisted of 4 Dalis, 5 van Goghs, and 6 Picassos.",
+  " At the auction were 5 art collectors.",
+  " If a reporter noted only the number of Dalis, van Goghs, and Picassos acquired by each collector, how many different results could have been recorded if all of the works were sold?"
+]
+"hannah"
+149
+[
+  " If there are no restrictions on where the digits and letters are placed, how many 8-place license plates consisting of 5 letters and 3 digits are possible if no repetitions of letters or digits are allowed."
+]
+"hannah"
+183
+[
+  " How many ways are there to split a dozen people into 3 teams, where one team has 2 people, and the other two teams have 5 people each?"
+]
+"hannah"
+184
+[
+  " How many ways are there to split a dozen people into 3 teams, where each team has 4 people?"
+]
+"hannah"
+196
+[
+  " How many ways can you split a group of 360 people into 120 teams of 3?"
+]
+"hannah"
+203
+[
+  " In how many ways can we paint three houses, each in any of four colors?"
+]
+"hannah"
+204
+[
+  " Suppose we have selected 9 players for a baseball team.",
+  " How many possible batting orders are there?"
+]
+"hannah"
+205
+[
+  " In a class of 200 students, we wish to elect a President, Vice President, Secretary, and Treasurer.",
+  " In how many ways can these four officers be selected?"
+]
+"hannah"
+206
+[
+  " The game of Mastermind requires players to select a `` code '' consisting of a sequence of four pegs, each of which may be of any of six colors: red, green, blue, yellow, white, and black.",
+  " How many different codes are there?"
+]
+"hannah"
+207
+[
+  " The game of Mastermind requires players to select a `` code '' consisting of a sequence of four pegs, each of which may be of any of six colors: red, green, blue, yellow, white, and black.",
+  " How many codes are there that have no red peg?"
+]
+"hannah"
+208
+[
+  " In how many ways can we choose a set of 5 different letters out of the 26 possible lower-case letters?"
+]
+"hannah"
+209
+[
+  " In how many ways can we arrange in a line: three apples, four pears, and five bananas?"
+]
+"hannah"
+210
+[
+  " In how many ways can we arrange in a line, two apples, six pears, three bananas, and two plums?"
+]
+"hannah"
+211
+[
+  " One hundred people participate in a lottery.",
+  " One will win the grand prize of $ 1000, and five more will win consolation prizes of a $ 50 savings bond.",
+  " How many different possible outcomes of the lottery are there?"
+]
+"hannah"
+213
+[
+  " In how many ways can we draw five cards from an ordinary deck of 52 cards?"
+]
+"hannah"
+215
+[
+  " Eight people are divided into four pairs to play bridge.",
+  " In how many ways can this be done?"
+]
+"hannah"
+216
+[
+  " A club with 50 members is going to form two committees, one with 8 members and the other with 7.",
+  " How many ways can this be done if the committees must be disjoint?"
+]

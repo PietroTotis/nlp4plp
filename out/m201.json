@@ -1,0 +1,1373 @@
+{
+  "owner": "monica", 
+  "ex_id": 201, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "urn", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "urns", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "containing", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "color", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "colored", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-9"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "2-11", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "2-3", 
+          "size": {
+            "words": [
+              "2-9"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-10", 
+            "2-2"
+          ]
+        }
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "first", 
+          "class": "urn"
+        }, 
+        "text": "first", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "urn", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "urn", 
+        "key": "2-3", 
+        "group": {
+          "role": "root", 
+          "constraints": [], 
+          "role_arg": "groups", 
+          "size": {
+            "words": [
+              "4-14", 
+              "4-15"
+            ], 
+            "mention": "by_content", 
+            "number": "50/100"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "contain", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "50", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "red", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "red", 
+          "class": "colour"
+        }, 
+        "text": "red", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "2-7", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "2-3", 
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-6", 
+            "2-2"
+          ]
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "50", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "blue", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "blue", 
+          "class": "colour"
+        }, 
+        "text": "blue", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-9"
+            ], 
+            "mention": "explicit", 
+            "number": "70"
+          }
+        }, 
+        "key": "3-11", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "3-3", 
+          "size": {
+            "words": [
+              "3-9"
+            ], 
+            "mention": "explicit", 
+            "number": "70"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "3-10", 
+            "3-2"
+          ]
+        }
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-12"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "second", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "second", 
+          "class": "urn"
+        }, 
+        "text": "second", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "urn", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "urn", 
+        "key": "3-3", 
+        "group": {
+          "role": "root", 
+          "constraints": [], 
+          "role_arg": "groups", 
+          "size": {
+            "words": [
+              "4-14", 
+              "4-15"
+            ], 
+            "mention": "by_content", 
+            "number": "50/100"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "3-2"
+          ]
+        }
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "contain", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "30", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "30", 
+        "corenlp": {
+          "number": 30
+        }, 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "red", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "red", 
+          "class": "colour"
+        }, 
+        "text": "red", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-5"
+            ], 
+            "mention": "explicit", 
+            "number": "30"
+          }
+        }, 
+        "key": "3-7", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "3-3", 
+          "size": {
+            "words": [
+              "3-5"
+            ], 
+            "mention": "explicit", 
+            "number": "30"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "3-6", 
+            "3-2"
+          ]
+        }
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "70", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "70", 
+        "corenlp": {
+          "number": 70
+        }, 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "blue", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "blue", 
+          "class": "colour"
+        }, 
+        "text": "blue", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "22": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-22"
+      }, 
+      "23": {
+        "sentence": 4, 
+        "nlp_stem": "ball", 
+        "index": 23, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "key": "4-23", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [], 
+          "role_arg": "4-33", 
+          "size": {
+            "words": [
+              "4-22"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "5-3", 
+            "5-17"
+          ]
+        }
+      }, 
+      "24": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-24"
+      }, 
+      "25": {
+        "sentence": 4, 
+        "nlp_stem": "draw", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "4-25"
+      }, 
+      "26": {
+        "sentence": 4, 
+        "nlp_stem": "at", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "4-26"
+      }, 
+      "27": {
+        "sentence": 4, 
+        "nlp_stem": "random", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "4-27"
+      }, 
+      "28": {
+        "sentence": 4, 
+        "nlp_stem": "from", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "4-28"
+      }, 
+      "29": {
+        "sentence": 4, 
+        "nlp_stem": "one", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "4-29"
+      }, 
+      "30": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-30"
+      }, 
+      "31": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-31"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "both", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "both", 
+        "key": "4-10"
+      }, 
+      "32": {
+        "sentence": 4, 
+        "nlp_stem": "two", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "4-32"
+      }, 
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "urn", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "urns", 
+        "key": "4-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "33": {
+        "sentence": 4, 
+        "nlp_stem": "urn", 
+        "index": 33, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "urns", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-32"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "4-33", 
+        "group": {
+          "role": "union of", 
+          "constraints": [], 
+          "role_arg": "2-3", 
+          "size": {
+            "words": [
+              "4-32"
+            ], 
+            "mention": "implicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "3-3", 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "have", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "4-12"
+      }, 
+      "34": {
+        "sentence": 4, 
+        "nlp_stem": ".", 
+        "index": 34, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "4-34"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "50", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "4-14"
+      }, 
+      "15": {
+        "sentence": 4, 
+        "nlp_stem": "percent", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-14"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "4-15"
+      }, 
+      "16": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-16"
+      }, 
+      "17": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "being", 
+        "key": "4-17"
+      }, 
+      "18": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-18"
+      }, 
+      "19": {
+        "sentence": 4, 
+        "nlp_stem": "-", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "-", 
+        "key": "4-19"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "one", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "One", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "two", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "urn", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "urns", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-4"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "4-5", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "4-4"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "randomly", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "randomly", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "-", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "-", 
+        "key": "4-9"
+      }, 
+      "20": {
+        "sentence": 4, 
+        "nlp_stem": "and", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "4-20"
+      }, 
+      "21": {
+        "sentence": 4, 
+        "nlp_stem": "then", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "4-21"
+      }
+    }, 
+    "5": {
+      "11": {
+        "sentence": 5, 
+        "nlp_stem": "probability", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "5-11"
+      }, 
+      "12": {
+        "sentence": 5, 
+        "nlp_stem": "that", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "5-12"
+      }, 
+      "13": {
+        "sentence": 5, 
+        "nlp_stem": "it", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "it", 
+        "key": "5-13"
+      }, 
+      "14": {
+        "sentence": 5, 
+        "nlp_stem": "come", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "comes", 
+        "key": "5-14"
+      }, 
+      "15": {
+        "sentence": 5, 
+        "nlp_stem": "from", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "5-15"
+      }, 
+      "16": {
+        "sentence": 5, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "5-16"
+      }, 
+      "17": {
+        "sentence": 5, 
+        "nlp_stem": "first", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": true, 
+          "scope": "all", 
+          "value": "first", 
+          "class": "urn"
+        }, 
+        "text": "first", 
+        "key": "5-17"
+      }, 
+      "18": {
+        "sentence": 5, 
+        "nlp_stem": "urn", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "urn", 
+        "key": "5-18"
+      }, 
+      "19": {
+        "sentence": 5, 
+        "nlp_stem": "?", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "5-19"
+      }, 
+      "1": {
+        "sentence": 5, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "5-1"
+      }, 
+      "2": {
+        "sentence": 5, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "5-2"
+      }, 
+      "3": {
+        "sentence": 5, 
+        "nlp_stem": "red", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "red", 
+          "class": "colour"
+        }, 
+        "text": "red", 
+        "key": "5-3"
+      }, 
+      "4": {
+        "sentence": 5, 
+        "nlp_stem": "ball", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "key": "5-4"
+      }, 
+      "5": {
+        "sentence": 5, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "5-5"
+      }, 
+      "6": {
+        "sentence": 5, 
+        "nlp_stem": "draw", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "5-6"
+      }, 
+      "7": {
+        "sentence": 5, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "5-7"
+      }, 
+      "8": {
+        "sentence": 5, 
+        "nlp_stem": "what", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "5-8"
+      }, 
+      "9": {
+        "sentence": 5, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "5-9"
+      }, 
+      "10": {
+        "sentence": 5, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "5-10"
+      }
+    }
+  }, 
+  "original_text": [
+    " There are two urns containing colored balls.", 
+    " The first urn contains 50 red balls and 50 blue balls.", 
+    " The second urn contains 30 red balls and 70 blue balls.", 
+    " One of the two urns is randomly chosen -LRB- both urns have probability 50 percent of being chosen -RRB- and then a ball is drawn at random from one of the two urns.", 
+    " If a red ball is drawn, what is the probability that it comes from the first urn?"
+  ], 
+  "source": "https://www.statlect.com/fundamentals-of-probability/Bayes-rule", 
+  "solution": "5/8", 
+  "text": [
+    " There are two urns containing colored balls.", 
+    " The first urn contains 50 red balls and 50 blue balls.", 
+    " The second urn contains 30 red balls and 70 blue balls.", 
+    " One of the two urns is randomly chosen - both urns have probability 50 percent of being chosen - and then a ball is drawn at random from one of the two urns.", 
+    " If a red ball is drawn, what is the probability that it comes from the first urn?"
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-two)", 
+    "pos(1-3,cd)", 
+    "word(1-4-urns)", 
+    "pos(1-4,nns)", 
+    "word(1-5-containing)", 
+    "pos(1-5,vbg)", 
+    "word(1-6-colored)", 
+    "pos(1-6,vbn)", 
+    "word(1-7-balls)", 
+    "pos(1-7,nns)", 
+    "word(1-8-'.')", 
+    "pos(1-8,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-4)", 
+    "nummod(1-4,1-3)", 
+    "acl(1-4,1-5)", 
+    "dobj(1-5,1-7)", 
+    "amod(1-7,1-6)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-first)", 
+    "pos(2-2,jj)", 
+    "word(2-3-urn)", 
+    "pos(2-3,nn)", 
+    "word(2-4-contains)", 
+    "pos(2-4,vbz)", 
+    "word(2-5-50)", 
+    "pos(2-5,cd)", 
+    "word(2-6-red)", 
+    "pos(2-6,jj)", 
+    "word(2-7-balls)", 
+    "pos(2-7,nns)", 
+    "word(2-8-and)", 
+    "pos(2-8,cc)", 
+    "word(2-9-50)", 
+    "pos(2-9,cd)", 
+    "word(2-10-blue)", 
+    "pos(2-10,jj)", 
+    "word(2-11-balls)", 
+    "pos(2-11,nns)", 
+    "word(2-12-'.')", 
+    "pos(2-12,'.')", 
+    "det(2-3,2-1)", 
+    "amod(2-3,2-2)", 
+    "nsubj(2-4,2-3)", 
+    "dobj(2-4,2-7)", 
+    "dobj(2-4,2-11)", 
+    "nummod(2-7,2-5)", 
+    "amod(2-7,2-6)", 
+    "cc(2-7,2-8)", 
+    "conj:and(2-7,2-11)", 
+    "nummod(2-11,2-9)", 
+    "amod(2-11,2-10)", 
+    "word(3-1-the)", 
+    "pos(3-1,dt)", 
+    "word(3-2-second)", 
+    "pos(3-2,jj)", 
+    "word(3-3-urn)", 
+    "pos(3-3,nn)", 
+    "word(3-4-contains)", 
+    "pos(3-4,vbz)", 
+    "word(3-5-30)", 
+    "pos(3-5,cd)", 
+    "word(3-6-red)", 
+    "pos(3-6,jj)", 
+    "word(3-7-balls)", 
+    "pos(3-7,nns)", 
+    "word(3-8-and)", 
+    "pos(3-8,cc)", 
+    "word(3-9-70)", 
+    "pos(3-9,cd)", 
+    "word(3-10-blue)", 
+    "pos(3-10,jj)", 
+    "word(3-11-balls)", 
+    "pos(3-11,nns)", 
+    "word(3-12-'.')", 
+    "pos(3-12,'.')", 
+    "amod(3-7,3-6)", 
+    "cc(3-7,3-8)", 
+    "conj:and(3-7,3-11)", 
+    "nummod(3-7,3-5)", 
+    "nummod(3-11,3-9)", 
+    "amod(3-11,3-10)", 
+    "det(3-3,3-1)", 
+    "amod(3-3,3-2)", 
+    "dobj(3-4,3-7)", 
+    "dobj(3-4,3-11)", 
+    "nsubj(3-4,3-3)", 
+    "word(4-1-one)", 
+    "pos(4-1,cd)", 
+    "word(4-2-of)", 
+    "pos(4-2,in)", 
+    "word(4-3-the)", 
+    "pos(4-3,dt)", 
+    "word(4-4-two)", 
+    "pos(4-4,cd)", 
+    "word(4-5-urns)", 
+    "pos(4-5,nns)", 
+    "word(4-6-is)", 
+    "pos(4-6,vbz)", 
+    "word(4-7-randomly)", 
+    "pos(4-7,rb)", 
+    "word(4-8-chosen)", 
+    "pos(4-8,vbn)", 
+    "word(4-9--)", 
+    "pos(4-9,':')", 
+    "word(4-10-both)", 
+    "pos(4-10,cc)", 
+    "word(4-11-urns)", 
+    "pos(4-11,nns)", 
+    "word(4-12-have)", 
+    "pos(4-12,vbp)", 
+    "word(4-13-probability)", 
+    "pos(4-13,nn)", 
+    "word(4-14-50)", 
+    "pos(4-14,cd)", 
+    "word(4-15-percent)", 
+    "pos(4-15,nn)", 
+    "word(4-16-of)", 
+    "pos(4-16,in)", 
+    "word(4-17-being)", 
+    "pos(4-17,vbg)", 
+    "word(4-18-chosen)", 
+    "pos(4-18,vbn)", 
+    "word(4-19--)", 
+    "pos(4-19,':')", 
+    "word(4-20-and)", 
+    "pos(4-20,cc)", 
+    "word(4-21-then)", 
+    "pos(4-21,rb)", 
+    "word(4-22-a)", 
+    "pos(4-22,dt)", 
+    "word(4-23-ball)", 
+    "pos(4-23,nn)", 
+    "word(4-24-is)", 
+    "pos(4-24,vbz)", 
+    "word(4-25-drawn)", 
+    "pos(4-25,vbn)", 
+    "word(4-26-at)", 
+    "pos(4-26,in)", 
+    "word(4-27-random)", 
+    "pos(4-27,jj)", 
+    "word(4-28-from)", 
+    "pos(4-28,in)", 
+    "word(4-29-one)", 
+    "pos(4-29,cd)", 
+    "word(4-30-of)", 
+    "pos(4-30,in)", 
+    "word(4-31-the)", 
+    "pos(4-31,dt)", 
+    "word(4-32-two)", 
+    "pos(4-32,cd)", 
+    "word(4-33-urns)", 
+    "pos(4-33,nns)", 
+    "word(4-34-'.')", 
+    "pos(4-34,'.')", 
+    "nmod:of(4-1,4-5)", 
+    "case(4-5,4-2)", 
+    "det(4-5,4-3)", 
+    "nummod(4-5,4-4)", 
+    "conj:and(4-8,4-25)", 
+    "dep(4-8,4-12)", 
+    "nsubjpass(4-8,4-1)", 
+    "cc(4-8,4-20)", 
+    "auxpass(4-8,4-6)", 
+    "advmod(4-8,4-7)", 
+    "dep(4-12,4-10)", 
+    "nsubj(4-12,4-11)", 
+    "dobj(4-12,4-15)", 
+    "compound(4-15,4-13)", 
+    "nummod(4-15,4-14)", 
+    "acl(4-15,4-18)", 
+    "mark(4-18,4-16)", 
+    "auxpass(4-18,4-17)", 
+    "det(4-23,4-22)", 
+    "advcl:at(4-25,4-27)", 
+    "nmod:from(4-25,4-29)", 
+    "advmod(4-25,4-21)", 
+    "nsubjpass(4-25,4-23)", 
+    "auxpass(4-25,4-24)", 
+    "case(4-27,4-26)", 
+    "case(4-29,4-28)", 
+    "nmod:of(4-29,4-33)", 
+    "case(4-33,4-30)", 
+    "det(4-33,4-31)", 
+    "nummod(4-33,4-32)", 
+    "word(5-1-if)", 
+    "pos(5-1,in)", 
+    "word(5-2-a)", 
+    "pos(5-2,dt)", 
+    "word(5-3-red)", 
+    "pos(5-3,jj)", 
+    "word(5-4-ball)", 
+    "pos(5-4,nn)", 
+    "word(5-5-is)", 
+    "pos(5-5,vbz)", 
+    "word(5-6-drawn)", 
+    "pos(5-6,vbn)", 
+    "word(5-7-',')", 
+    "pos(5-7,',')", 
+    "word(5-8-what)", 
+    "pos(5-8,wp)", 
+    "word(5-9-is)", 
+    "pos(5-9,vbz)", 
+    "word(5-10-the)", 
+    "pos(5-10,dt)", 
+    "word(5-11-probability)", 
+    "pos(5-11,nn)", 
+    "word(5-12-that)", 
+    "pos(5-12,in)", 
+    "word(5-13-it)", 
+    "pos(5-13,prp)", 
+    "word(5-14-comes)", 
+    "pos(5-14,vbz)", 
+    "word(5-15-from)", 
+    "pos(5-15,in)", 
+    "word(5-16-the)", 
+    "pos(5-16,dt)", 
+    "word(5-17-first)", 
+    "pos(5-17,jj)", 
+    "word(5-18-urn)", 
+    "pos(5-18,nn)", 
+    "word(5-19-'?')", 
+    "pos(5-19,'.')", 
+    "mark(5-14,5-12)", 
+    "nsubj(5-14,5-13)", 
+    "nmod:from(5-14,5-18)", 
+    "case(5-18,5-15)", 
+    "det(5-18,5-16)", 
+    "amod(5-18,5-17)", 
+    "det(5-4,5-2)", 
+    "amod(5-4,5-3)", 
+    "mark(5-6,5-1)", 
+    "nsubjpass(5-6,5-4)", 
+    "auxpass(5-6,5-5)", 
+    "dep(5-8,5-6)", 
+    "cop(5-8,5-9)", 
+    "nsubj(5-8,5-11)", 
+    "dep(5-11,5-14)", 
+    "det(5-11,5-10)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-27T14:58:25.444000", 
+  "status": "skip"
+}

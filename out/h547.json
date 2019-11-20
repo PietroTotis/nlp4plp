@@ -1,0 +1,528 @@
+{
+  "owner": "hannah", 
+  "ex_id": 547, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "talk", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "talking", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "least", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "kind", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "kind", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 30, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-30"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "selection", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "selections", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "piece", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "pieces", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-15"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-16", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [], 
+          "role_arg": "1-18", 
+          "question_count": true, 
+          "size": {
+            "words": [
+              "1-15"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-3", 
+            "1-6", 
+            "1-9"
+          ]
+        }
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "fruit", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "fruit", 
+        "key": "1-18", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "From", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "From", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "orange", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope_extra": "1", 
+          "scope": ">=", 
+          "value": "orange"
+        }, 
+        "text": "oranges", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "1-3", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-18", 
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-3"
+          ]
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "banana", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope_extra": "1", 
+          "scope": ">=", 
+          "value": "banana"
+        }, 
+        "text": "bananas", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-18", 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-6"
+          ]
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "apple", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope_extra": "1", 
+          "scope": ">=", 
+          "value": "apple"
+        }, 
+        "text": "apples", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "1-9", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-18", 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-9"
+          ]
+        }
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "Probability Problem Set from Scribd", 
+  "solution": "98", 
+  "text": [
+    " From 4 oranges, 3 bananas and 2 apples, how many selections of 5 pieces of fruit can be made, talking at least one of each kind?"
+  ], 
+  "corenlp": [
+    "word(1-1-from)", 
+    "pos(1-1,in)", 
+    "word(1-2-4)", 
+    "pos(1-2,cd)", 
+    "word(1-3-oranges)", 
+    "pos(1-3,nns)", 
+    "word(1-4-',')", 
+    "pos(1-4,',')", 
+    "word(1-5-3)", 
+    "pos(1-5,cd)", 
+    "word(1-6-bananas)", 
+    "pos(1-6,nns)", 
+    "word(1-7-and)", 
+    "pos(1-7,cc)", 
+    "word(1-8-2)", 
+    "pos(1-8,cd)", 
+    "word(1-9-apples)", 
+    "pos(1-9,nns)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-how)", 
+    "pos(1-11,wrb)", 
+    "word(1-12-many)", 
+    "pos(1-12,jj)", 
+    "word(1-13-selections)", 
+    "pos(1-13,nns)", 
+    "word(1-14-of)", 
+    "pos(1-14,in)", 
+    "word(1-15-5)", 
+    "pos(1-15,cd)", 
+    "word(1-16-pieces)", 
+    "pos(1-16,nns)", 
+    "word(1-17-of)", 
+    "pos(1-17,in)", 
+    "word(1-18-fruit)", 
+    "pos(1-18,nn)", 
+    "word(1-19-can)", 
+    "pos(1-19,md)", 
+    "word(1-20-be)", 
+    "pos(1-20,vb)", 
+    "word(1-21-made)", 
+    "pos(1-21,vbn)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-talking)", 
+    "pos(1-23,vbg)", 
+    "word(1-24-at)", 
+    "pos(1-24,in)", 
+    "word(1-25-least)", 
+    "pos(1-25,jjs)", 
+    "word(1-26-one)", 
+    "pos(1-26,cd)", 
+    "word(1-27-of)", 
+    "pos(1-27,in)", 
+    "word(1-28-each)", 
+    "pos(1-28,dt)", 
+    "word(1-29-kind)", 
+    "pos(1-29,nn)", 
+    "word(1-30-'?')", 
+    "pos(1-30,'.')", 
+    "case(1-3,1-1)", 
+    "nummod(1-3,1-2)", 
+    "conj:and(1-3,1-6)", 
+    "cc(1-3,1-7)", 
+    "conj:and(1-3,1-9)", 
+    "nummod(1-6,1-5)", 
+    "nummod(1-9,1-8)", 
+    "advmod(1-12,1-11)", 
+    "nmod:of(1-13,1-16)", 
+    "amod(1-13,1-12)", 
+    "nmod:of(1-16,1-18)", 
+    "case(1-16,1-14)", 
+    "nummod(1-16,1-15)", 
+    "case(1-18,1-17)", 
+    "nmod:from(1-21,1-3)", 
+    "aux(1-21,1-19)", 
+    "auxpass(1-21,1-20)", 
+    "nmod:from(1-21,1-6)", 
+    "xcomp(1-21,1-23)", 
+    "nmod:from(1-21,1-9)", 
+    "nsubjpass(1-21,1-13)", 
+    "dobj(1-23,1-26)", 
+    "case(1-25,1-24)", 
+    "nmod:npmod(1-26,1-25)", 
+    "nmod:of(1-26,1-29)", 
+    "case(1-29,1-27)", 
+    "det(1-29,1-28)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-26T13:50:14.350000", 
+  "status": "done"
+}

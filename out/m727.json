@@ -1,0 +1,561 @@
+{
+  "owner": "monica", 
+  "ex_id": 727, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "--", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "--", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "class", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "class", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "20", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "student", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "students", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-31"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }
+        }, 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 33, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "vice", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "vice", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "chairman", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chairman", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "secretary", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "secretary", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "committee", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "committee", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "seven", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "seven", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "--", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "--", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "consist", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "consisting", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "chairman", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chairman", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "other", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "other", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "member", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "members", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-19"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "thi", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "this", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "committee", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "committee", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "choose", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/0534492770_65932.pdf", 
+  "solution": "16279200", 
+  "text": [
+    " A committee of seven -- consisting of a chairman, a vice chairman, a secretary, and four other members -- is to be chosen from a class of 20 students.", 
+    " In how many ways can this committee be chosen?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-committee)", 
+    "pos(1-2,nn)", 
+    "word(1-3-of)", 
+    "pos(1-3,in)", 
+    "word(1-4-seven)", 
+    "pos(1-4,cd)", 
+    "word(1-5---)", 
+    "pos(1-5,':')", 
+    "word(1-6-consisting)", 
+    "pos(1-6,vbg)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-a)", 
+    "pos(1-8,dt)", 
+    "word(1-9-chairman)", 
+    "pos(1-9,nn)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-vice)", 
+    "pos(1-12,nn)", 
+    "word(1-13-chairman)", 
+    "pos(1-13,nn)", 
+    "word(1-14-',')", 
+    "pos(1-14,',')", 
+    "word(1-15-a)", 
+    "pos(1-15,dt)", 
+    "word(1-16-secretary)", 
+    "pos(1-16,nn)", 
+    "word(1-17-',')", 
+    "pos(1-17,',')", 
+    "word(1-18-and)", 
+    "pos(1-18,cc)", 
+    "word(1-19-four)", 
+    "pos(1-19,cd)", 
+    "word(1-20-other)", 
+    "pos(1-20,jj)", 
+    "word(1-21-members)", 
+    "pos(1-21,nns)", 
+    "word(1-22---)", 
+    "pos(1-22,':')", 
+    "word(1-23-is)", 
+    "pos(1-23,vbz)", 
+    "word(1-24-to)", 
+    "pos(1-24,to)", 
+    "word(1-25-be)", 
+    "pos(1-25,vb)", 
+    "word(1-26-chosen)", 
+    "pos(1-26,vbn)", 
+    "word(1-27-from)", 
+    "pos(1-27,in)", 
+    "word(1-28-a)", 
+    "pos(1-28,dt)", 
+    "word(1-29-class)", 
+    "pos(1-29,nn)", 
+    "word(1-30-of)", 
+    "pos(1-30,in)", 
+    "word(1-31-20)", 
+    "pos(1-31,cd)", 
+    "word(1-32-students)", 
+    "pos(1-32,nns)", 
+    "word(1-33-'.')", 
+    "pos(1-33,'.')", 
+    "det(1-2,1-1)", 
+    "nmod:of(1-2,1-4)", 
+    "dep(1-2,1-6)", 
+    "case(1-4,1-3)", 
+    "nmod:of(1-6,1-16)", 
+    "nmod:of(1-6,1-21)", 
+    "nmod:of(1-6,1-9)", 
+    "nmod:of(1-6,1-13)", 
+    "conj:and(1-9,1-16)", 
+    "cc(1-9,1-18)", 
+    "conj:and(1-9,1-21)", 
+    "case(1-9,1-7)", 
+    "det(1-9,1-8)", 
+    "conj:and(1-9,1-13)", 
+    "det(1-13,1-11)", 
+    "compound(1-13,1-12)", 
+    "det(1-16,1-15)", 
+    "nummod(1-21,1-19)", 
+    "amod(1-21,1-20)", 
+    "nsubj(1-23,1-2)", 
+    "xcomp(1-23,1-26)", 
+    "mark(1-26,1-24)", 
+    "auxpass(1-26,1-25)", 
+    "nmod:from(1-26,1-29)", 
+    "nmod:of(1-29,1-32)", 
+    "case(1-29,1-27)", 
+    "det(1-29,1-28)", 
+    "case(1-32,1-30)", 
+    "nummod(1-32,1-31)", 
+    "word(2-1-in)", 
+    "pos(2-1,in)", 
+    "word(2-2-how)", 
+    "pos(2-2,wrb)", 
+    "word(2-3-many)", 
+    "pos(2-3,jj)", 
+    "word(2-4-ways)", 
+    "pos(2-4,nns)", 
+    "word(2-5-can)", 
+    "pos(2-5,md)", 
+    "word(2-6-this)", 
+    "pos(2-6,dt)", 
+    "word(2-7-committee)", 
+    "pos(2-7,nn)", 
+    "word(2-8-be)", 
+    "pos(2-8,vb)", 
+    "word(2-9-chosen)", 
+    "pos(2-9,vbn)", 
+    "word(2-10-'?')", 
+    "pos(2-10,'.')", 
+    "advmod(2-3,2-2)", 
+    "amod(2-4,2-3)", 
+    "case(2-4,2-1)", 
+    "det(2-7,2-6)", 
+    "nmod:in(2-9,2-4)", 
+    "aux(2-9,2-5)", 
+    "nsubjpass(2-9,2-7)", 
+    "auxpass(2-9,2-8)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T15:43:02.774000", 
+  "status": "skip"
+}

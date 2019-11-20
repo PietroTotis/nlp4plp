@@ -1,0 +1,537 @@
+{
+  "owner": "liselot", 
+  "ex_id": 404, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "what", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "sum", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sum", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "7", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "label", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "labeled", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "rolled", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "before", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "before", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "sum", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sum", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-37"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "8", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "8", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4, 
+          "size": {
+            "words": [
+              "1-19"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "rolling", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "pair", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pair", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "fair", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fair", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "6-sided", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "6-sided", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "dice", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "dice", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 40, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "rolled", 
+        "key": "1-40"
+      }, 
+      "41": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 41, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-41"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://www.math.louisville.edu/~pksaho01/teaching/Math662TB-09S.pdf", 
+  "solution": "6/11", 
+  "text": [
+    " In rolling a pair of fair 6-sided dice, labeled 1, 2, 3, 4, 5 and 6, what is the probability that a sum of 7 is rolled before a sum of 8 is rolled?"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-rolling)", 
+    "pos(1-2,vbg)", 
+    "word(1-3-a)", 
+    "pos(1-3,dt)", 
+    "word(1-4-pair)", 
+    "pos(1-4,nn)", 
+    "word(1-5-of)", 
+    "pos(1-5,in)", 
+    "word(1-6-fair)", 
+    "pos(1-6,jj)", 
+    "word(1-7-6-sided)", 
+    "pos(1-7,jj)", 
+    "word(1-8-dice)", 
+    "pos(1-8,nns)", 
+    "word(1-9-',')", 
+    "pos(1-9,',')", 
+    "word(1-10-labeled)", 
+    "pos(1-10,vbn)", 
+    "word(1-11-1)", 
+    "pos(1-11,cd)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-2)", 
+    "pos(1-13,cd)", 
+    "word(1-14-',')", 
+    "pos(1-14,',')", 
+    "word(1-15-3)", 
+    "pos(1-15,cd)", 
+    "word(1-16-',')", 
+    "pos(1-16,',')", 
+    "word(1-17-4)", 
+    "pos(1-17,cd)", 
+    "word(1-18-',')", 
+    "pos(1-18,',')", 
+    "word(1-19-5)", 
+    "pos(1-19,cd)", 
+    "word(1-20-and)", 
+    "pos(1-20,cc)", 
+    "word(1-21-6)", 
+    "pos(1-21,cd)", 
+    "word(1-22-',')", 
+    "pos(1-22,',')", 
+    "word(1-23-what)", 
+    "pos(1-23,wp)", 
+    "word(1-24-is)", 
+    "pos(1-24,vbz)", 
+    "word(1-25-the)", 
+    "pos(1-25,dt)", 
+    "word(1-26-probability)", 
+    "pos(1-26,nn)", 
+    "word(1-27-that)", 
+    "pos(1-27,in)", 
+    "word(1-28-a)", 
+    "pos(1-28,dt)", 
+    "word(1-29-sum)", 
+    "pos(1-29,nn)", 
+    "word(1-30-of)", 
+    "pos(1-30,in)", 
+    "word(1-31-7)", 
+    "pos(1-31,cd)", 
+    "word(1-32-is)", 
+    "pos(1-32,vbz)", 
+    "word(1-33-rolled)", 
+    "pos(1-33,vbn)", 
+    "word(1-34-before)", 
+    "pos(1-34,in)", 
+    "word(1-35-a)", 
+    "pos(1-35,dt)", 
+    "word(1-36-sum)", 
+    "pos(1-36,nn)", 
+    "word(1-37-of)", 
+    "pos(1-37,in)", 
+    "word(1-38-8)", 
+    "pos(1-38,cd)", 
+    "word(1-39-is)", 
+    "pos(1-39,vbz)", 
+    "word(1-40-rolled)", 
+    "pos(1-40,vbn)", 
+    "word(1-41-'?')", 
+    "pos(1-41,'.')", 
+    "mark(1-2,1-1)", 
+    "dobj(1-2,1-4)", 
+    "det(1-4,1-3)", 
+    "nmod:of(1-4,1-8)", 
+    "case(1-8,1-5)", 
+    "amod(1-8,1-6)", 
+    "amod(1-8,1-7)", 
+    "nmod:tmod(1-10,1-17)", 
+    "nmod:tmod(1-10,1-21)", 
+    "dep(1-10,1-26)", 
+    "dobj(1-10,1-11)", 
+    "appos(1-11,1-13)", 
+    "amod(1-13,1-15)", 
+    "nummod(1-17,1-19)", 
+    "cc(1-17,1-20)", 
+    "conj:and(1-17,1-21)", 
+    "ccomp(1-26,1-33)", 
+    "nsubj(1-26,1-23)", 
+    "cop(1-26,1-24)", 
+    "det(1-26,1-25)", 
+    "det(1-29,1-28)", 
+    "nmod:of(1-29,1-31)", 
+    "case(1-31,1-30)", 
+    "auxpass(1-33,1-32)", 
+    "nmod:before(1-33,1-36)", 
+    "mark(1-33,1-27)", 
+    "nsubjpass(1-33,1-29)", 
+    "case(1-36,1-34)", 
+    "det(1-36,1-35)", 
+    "nmod:of(1-36,1-38)", 
+    "case(1-38,1-37)", 
+    "advcl(1-40,1-2)", 
+    "auxpass(1-40,1-39)", 
+    "csubjpass(1-40,1-10)"
+  ], 
+  "category": {
+    "name": "simple event", 
+    "id": 2
+  }, 
+  "time_added": "2016-07-25T15:57:27.470000", 
+  "status": "skip"
+}

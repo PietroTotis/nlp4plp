@@ -1,0 +1,739 @@
+{
+  "owner": "hannah", 
+  "ex_id": 605, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "blue", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "blue"
+        }, 
+        "text": "blue", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "marbles", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "marbles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-15", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-2", 
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-14"
+          ]
+        }
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-16"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "An", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "urn", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "urn", 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "white", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "white"
+        }, 
+        "text": "white", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "marbles", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "marbles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-2", 
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-5"
+          ]
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "red", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "red"
+        }, 
+        "text": "red", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "marbles", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "marbles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-10", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-2", 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-9"
+          ]
+        }
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "marbles", 
+        "index": 1, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "Marbles", 
+        "key": "2-1", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "by", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "by", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "without", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "without", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "replacement", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "replacement", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "urn", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "Urns", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "each", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "colour", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "colour", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "indistinguishable", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "indistinguishable", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-7"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "urn", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "urn", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-14"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "4-4", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-2", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-2", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 1, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "may", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "may", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "one", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "draw", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "draw", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "marbles", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "marbles", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "out", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "out", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "Elementary Probability - Santos", 
+  "solution": "(10!)/(2!*3!*5!)", 
+  "text": [
+    " An urn has 2 white marbles, 3 red marbles, and 5 blue marbles.", 
+    " Marbles are drawn one by one and without replacement.", 
+    " Urns of each colour are indistinguishable.", 
+    " In how many ways may one draw the marbles out of the urn?"
+  ], 
+  "corenlp": [
+    "word(1-1-an)", 
+    "pos(1-1,dt)", 
+    "word(1-2-urn)", 
+    "pos(1-2,nn)", 
+    "word(1-3-has)", 
+    "pos(1-3,vbz)", 
+    "word(1-4-2)", 
+    "pos(1-4,cd)", 
+    "word(1-5-white)", 
+    "pos(1-5,jj)", 
+    "word(1-6-marbles)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-3)", 
+    "pos(1-8,cd)", 
+    "word(1-9-red)", 
+    "pos(1-9,jj)", 
+    "word(1-10-marbles)", 
+    "pos(1-10,nns)", 
+    "word(1-11-',')", 
+    "pos(1-11,',')", 
+    "word(1-12-and)", 
+    "pos(1-12,cc)", 
+    "word(1-13-5)", 
+    "pos(1-13,cd)", 
+    "word(1-14-blue)", 
+    "pos(1-14,jj)", 
+    "word(1-15-marbles)", 
+    "pos(1-15,nns)", 
+    "word(1-16-'.')", 
+    "pos(1-16,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "dobj(1-3,1-6)", 
+    "dobj(1-3,1-10)", 
+    "dobj(1-3,1-15)", 
+    "nummod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "conj:and(1-6,1-10)", 
+    "cc(1-6,1-12)", 
+    "conj:and(1-6,1-15)", 
+    "nummod(1-10,1-8)", 
+    "amod(1-10,1-9)", 
+    "nummod(1-15,1-13)", 
+    "amod(1-15,1-14)", 
+    "word(2-1-marbles)", 
+    "pos(2-1,nns)", 
+    "word(2-2-are)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-drawn)", 
+    "pos(2-3,vbn)", 
+    "word(2-4-one)", 
+    "pos(2-4,cd)", 
+    "word(2-5-by)", 
+    "pos(2-5,in)", 
+    "word(2-6-one)", 
+    "pos(2-6,cd)", 
+    "word(2-7-and)", 
+    "pos(2-7,cc)", 
+    "word(2-8-without)", 
+    "pos(2-8,in)", 
+    "word(2-9-replacement)", 
+    "pos(2-9,nn)", 
+    "word(2-10-'.')", 
+    "pos(2-10,'.')", 
+    "conj:and(2-3,2-3)", 
+    "dobj(2-3,2-4)", 
+    "nmod:agent(2-3,2-6)", 
+    "cc(2-3,2-7)", 
+    "nsubjpass(2-3,2-1)", 
+    "auxpass(2-3,2-2)", 
+    "nmod:without(2-3,2-9)", 
+    "nsubjpass(2-3,2-1)", 
+    "case(2-6,2-5)", 
+    "case(2-9,2-8)", 
+    "word(3-1-urns)", 
+    "pos(3-1,nns)", 
+    "word(3-2-of)", 
+    "pos(3-2,in)", 
+    "word(3-3-each)", 
+    "pos(3-3,dt)", 
+    "word(3-4-colour)", 
+    "pos(3-4,nn)", 
+    "word(3-5-are)", 
+    "pos(3-5,vbp)", 
+    "word(3-6-indistinguishable)", 
+    "pos(3-6,jj)", 
+    "word(3-7-'.')", 
+    "pos(3-7,'.')", 
+    "nsubj(3-6,3-1)", 
+    "cop(3-6,3-5)", 
+    "nmod:of(3-1,3-4)", 
+    "case(3-4,3-2)", 
+    "det(3-4,3-3)", 
+    "word(4-1-in)", 
+    "pos(4-1,in)", 
+    "word(4-2-how)", 
+    "pos(4-2,wrb)", 
+    "word(4-3-many)", 
+    "pos(4-3,jj)", 
+    "word(4-4-ways)", 
+    "pos(4-4,nns)", 
+    "word(4-5-may)", 
+    "pos(4-5,md)", 
+    "word(4-6-one)", 
+    "pos(4-6,prp)", 
+    "word(4-7-draw)", 
+    "pos(4-7,vb)", 
+    "word(4-8-the)", 
+    "pos(4-8,dt)", 
+    "word(4-9-marbles)", 
+    "pos(4-9,nns)", 
+    "word(4-10-out)", 
+    "pos(4-10,in)", 
+    "word(4-11-of)", 
+    "pos(4-11,in)", 
+    "word(4-12-the)", 
+    "pos(4-12,dt)", 
+    "word(4-13-urn)", 
+    "pos(4-13,nn)", 
+    "word(4-14-'?')", 
+    "pos(4-14,'.')", 
+    "det(4-9,4-8)", 
+    "mwe(4-10,4-11)", 
+    "case(4-13,4-10)", 
+    "det(4-13,4-12)", 
+    "advmod(4-3,4-2)", 
+    "case(4-4,4-1)", 
+    "amod(4-4,4-3)", 
+    "dobj(4-7,4-9)", 
+    "nmod:out_of(4-7,4-13)", 
+    "nmod:in(4-7,4-4)", 
+    "aux(4-7,4-5)", 
+    "nsubj(4-7,4-6)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T09:50:05.228000", 
+  "status": "done"
+}

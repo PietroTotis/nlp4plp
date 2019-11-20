@@ -1,0 +1,435 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1030, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 22, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-22", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-24", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "one-digit", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "one-digit", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "numbers", 
+        "index": 24, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "numbers", 
+        "key": "1-24", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-23"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 28, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-28"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "7", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "9", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "9", 
+        "corenlp": {
+          "number": 9
+        }, 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "no", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "no", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "repetition", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "repetitions", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "digit", 
+        "index": 19, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "key": "1-19", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "use", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "Using", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "digit", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-4", 
+              "1-6", 
+              "1-8", 
+              "1-10", 
+              "1-12"
+            ], 
+            "mention": "by_content", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1, 
+          "size": {
+            "words": [
+              "1-10"
+            ], 
+            "mention": "explicit", 
+            "number": "7"
+          }
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "5", 
+  "text": [
+    " Using the digits 1, 3, 5, 7 and 9, with no repetitions of the digits, how many one-digit numbers can be made?"
+  ], 
+  "corenlp": [
+    "word(1-1-using)", 
+    "pos(1-1,vbg)", 
+    "word(1-2-the)", 
+    "pos(1-2,dt)", 
+    "word(1-3-digits)", 
+    "pos(1-3,nns)", 
+    "word(1-4-1)", 
+    "pos(1-4,cd)", 
+    "word(1-5-',')", 
+    "pos(1-5,',')", 
+    "word(1-6-3)", 
+    "pos(1-6,cd)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-5)", 
+    "pos(1-8,cd)", 
+    "word(1-9-',')", 
+    "pos(1-9,',')", 
+    "word(1-10-7)", 
+    "pos(1-10,cd)", 
+    "word(1-11-and)", 
+    "pos(1-11,cc)", 
+    "word(1-12-9)", 
+    "pos(1-12,cd)", 
+    "word(1-13-',')", 
+    "pos(1-13,',')", 
+    "word(1-14-with)", 
+    "pos(1-14,in)", 
+    "word(1-15-no)", 
+    "pos(1-15,dt)", 
+    "word(1-16-repetitions)", 
+    "pos(1-16,nns)", 
+    "word(1-17-of)", 
+    "pos(1-17,in)", 
+    "word(1-18-the)", 
+    "pos(1-18,dt)", 
+    "word(1-19-digits)", 
+    "pos(1-19,nns)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-how)", 
+    "pos(1-21,wrb)", 
+    "word(1-22-many)", 
+    "pos(1-22,jj)", 
+    "word(1-23-one-digit)", 
+    "pos(1-23,jj)", 
+    "word(1-24-numbers)", 
+    "pos(1-24,nns)", 
+    "word(1-25-can)", 
+    "pos(1-25,md)", 
+    "word(1-26-be)", 
+    "pos(1-26,vb)", 
+    "word(1-27-made)", 
+    "pos(1-27,vbn)", 
+    "word(1-28-'?')", 
+    "pos(1-28,'.')", 
+    "dobj(1-1,1-3)", 
+    "nmod:with(1-3,1-16)", 
+    "det(1-3,1-2)", 
+    "nmod:tmod(1-3,1-4)", 
+    "nmod:tmod(1-3,1-12)", 
+    "nummod(1-4,1-6)", 
+    "nummod(1-4,1-8)", 
+    "nummod(1-4,1-10)", 
+    "cc(1-4,1-11)", 
+    "conj:and(1-4,1-12)", 
+    "nmod:of(1-16,1-19)", 
+    "case(1-16,1-14)", 
+    "neg(1-16,1-15)", 
+    "case(1-19,1-17)", 
+    "det(1-19,1-18)", 
+    "advmod(1-22,1-21)", 
+    "dep(1-22,1-24)", 
+    "amod(1-24,1-23)", 
+    "dep(1-27,1-1)", 
+    "nsubjpass(1-27,1-22)", 
+    "aux(1-27,1-25)", 
+    "auxpass(1-27,1-26)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-10T11:32:35.270000", 
+  "status": "done"
+}

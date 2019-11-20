@@ -1,0 +1,614 @@
+{
+  "owner": "liselot", 
+  "ex_id": 384, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "letter", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "letter", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "english", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "English", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "alphabet", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "alphabet", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "You", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "You", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "set", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "set", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "26", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "26", 
+        "corenlp": {
+          "number": 26
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "tile", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "tiles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }
+        }, 
+        "key": "1-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "that", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "set", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "set", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "tile", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tiles", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-26"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "``", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "``", 
+        "text": "``", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "word", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "word", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "''", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "''", 
+        "text": "''", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-15", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-7", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-7", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "unique", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "unique", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "words", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "words", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "you", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "you", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "assume", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "Assuming", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "each", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "unique", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "unique", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "permutation", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "permutation", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "5", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "letters", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "2-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "form", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "form", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "use", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "using", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "http://web.eecs.utk.edu/~roberts/ECE504/ExerciseAnswers/Chap1Answers.pdf#page=2&zoom=90,64,198", 
+  "solution": "7893600", 
+  "text": [
+    " You have a set of 26 tiles, each with a different letter of the English alphabet.", 
+    " Assuming each unique permutation of 5 letters is a `` word '', how many unique words can you form using that set of tiles?"
+  ], 
+  "corenlp": [
+    "word(1-1-you)", 
+    "pos(1-1,prp)", 
+    "word(1-2-have)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-a)", 
+    "pos(1-3,dt)", 
+    "word(1-4-set)", 
+    "pos(1-4,nn)", 
+    "word(1-5-of)", 
+    "pos(1-5,in)", 
+    "word(1-6-26)", 
+    "pos(1-6,cd)", 
+    "word(1-7-tiles)", 
+    "pos(1-7,nns)", 
+    "word(1-8-',')", 
+    "pos(1-8,',')", 
+    "word(1-9-each)", 
+    "pos(1-9,dt)", 
+    "word(1-10-with)", 
+    "pos(1-10,in)", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-different)", 
+    "pos(1-12,jj)", 
+    "word(1-13-letter)", 
+    "pos(1-13,nn)", 
+    "word(1-14-of)", 
+    "pos(1-14,in)", 
+    "word(1-15-the)", 
+    "pos(1-15,dt)", 
+    "word(1-16-english)", 
+    "pos(1-16,nnp)", 
+    "word(1-17-alphabet)", 
+    "pos(1-17,nn)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "nsubj(1-2,1-1)", 
+    "dobj(1-2,1-4)", 
+    "det(1-4,1-3)", 
+    "nmod:of(1-4,1-7)", 
+    "case(1-7,1-5)", 
+    "nummod(1-7,1-6)", 
+    "appos(1-7,1-9)", 
+    "nmod:with(1-9,1-13)", 
+    "nmod:of(1-13,1-17)", 
+    "case(1-13,1-10)", 
+    "det(1-13,1-11)", 
+    "amod(1-13,1-12)", 
+    "compound(1-17,1-16)", 
+    "case(1-17,1-14)", 
+    "det(1-17,1-15)", 
+    "word(2-1-assuming)", 
+    "pos(2-1,vbg)", 
+    "word(2-2-each)", 
+    "pos(2-2,dt)", 
+    "word(2-3-unique)", 
+    "pos(2-3,jj)", 
+    "word(2-4-permutation)", 
+    "pos(2-4,nn)", 
+    "word(2-5-of)", 
+    "pos(2-5,in)", 
+    "word(2-6-5)", 
+    "pos(2-6,cd)", 
+    "word(2-7-letters)", 
+    "pos(2-7,nns)", 
+    "word(2-8-is)", 
+    "pos(2-8,vbz)", 
+    "word(2-9-a)", 
+    "pos(2-9,dt)", 
+    "word(2-10-``)", 
+    "pos(2-10,``)", 
+    "word(2-11-word)", 
+    "pos(2-11,nn)", 
+    "word(2-12-\"''\")", 
+    "pos(2-12,\"''\")", 
+    "word(2-13-',')", 
+    "pos(2-13,',')", 
+    "word(2-14-how)", 
+    "pos(2-14,wrb)", 
+    "word(2-15-many)", 
+    "pos(2-15,jj)", 
+    "word(2-16-unique)", 
+    "pos(2-16,jj)", 
+    "word(2-17-words)", 
+    "pos(2-17,nns)", 
+    "word(2-18-can)", 
+    "pos(2-18,md)", 
+    "word(2-19-you)", 
+    "pos(2-19,prp)", 
+    "word(2-20-form)", 
+    "pos(2-20,vb)", 
+    "word(2-21-using)", 
+    "pos(2-21,vbg)", 
+    "word(2-22-that)", 
+    "pos(2-22,dt)", 
+    "word(2-23-set)", 
+    "pos(2-23,nn)", 
+    "word(2-24-of)", 
+    "pos(2-24,in)", 
+    "word(2-25-tiles)", 
+    "pos(2-25,nns)", 
+    "word(2-26-'?')", 
+    "pos(2-26,'.')", 
+    "ccomp(2-1,2-11)", 
+    "amod(2-4,2-3)", 
+    "nmod:of(2-4,2-7)", 
+    "det(2-4,2-2)", 
+    "case(2-7,2-5)", 
+    "nummod(2-7,2-6)", 
+    "nsubj(2-11,2-4)", 
+    "cop(2-11,2-8)", 
+    "det(2-11,2-9)", 
+    "advmod(2-15,2-14)", 
+    "amod(2-17,2-15)", 
+    "amod(2-17,2-16)", 
+    "nsubj(2-20,2-19)", 
+    "xcomp(2-20,2-21)", 
+    "dep(2-20,2-1)", 
+    "dobj(2-20,2-17)", 
+    "aux(2-20,2-18)", 
+    "dobj(2-21,2-23)", 
+    "det(2-23,2-22)", 
+    "nmod:of(2-23,2-25)", 
+    "case(2-25,2-24)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-25T11:09:46.189000", 
+  "status": "done"
+}

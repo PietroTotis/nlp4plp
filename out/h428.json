@@ -1,0 +1,353 @@
+{
+  "owner": "hannah", 
+  "ex_id": 428, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "either", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "either", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "7", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "obtain", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "obtained", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "pair", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pair", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "dice", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "dice", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "rolled", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "together", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "together", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "till", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "till", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "sum", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sum", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Find", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "5", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "come", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "comes", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "before", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "before", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "7", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-9"
+      }
+    }
+  }, 
+  "source": "alphanumeric.in", 
+  "solution": "2/5", 
+  "text": [
+    " A pair of dice is rolled together till a sum of either 5 or 7 is obtained.", 
+    " Find the probability that 5 comes before 7."
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-pair)", 
+    "pos(1-2,nn)", 
+    "word(1-3-of)", 
+    "pos(1-3,in)", 
+    "word(1-4-dice)", 
+    "pos(1-4,nns)", 
+    "word(1-5-is)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-rolled)", 
+    "pos(1-6,vbn)", 
+    "word(1-7-together)", 
+    "pos(1-7,rb)", 
+    "word(1-8-till)", 
+    "pos(1-8,in)", 
+    "word(1-9-a)", 
+    "pos(1-9,dt)", 
+    "word(1-10-sum)", 
+    "pos(1-10,nn)", 
+    "word(1-11-of)", 
+    "pos(1-11,in)", 
+    "word(1-12-either)", 
+    "pos(1-12,cc)", 
+    "word(1-13-5)", 
+    "pos(1-13,cd)", 
+    "word(1-14-or)", 
+    "pos(1-14,cc)", 
+    "word(1-15-7)", 
+    "pos(1-15,cd)", 
+    "word(1-16-is)", 
+    "pos(1-16,vbz)", 
+    "word(1-17-obtained)", 
+    "pos(1-17,vbn)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "det(1-2,1-1)", 
+    "nmod:of(1-2,1-4)", 
+    "case(1-4,1-3)", 
+    "nsubjpass(1-6,1-2)", 
+    "auxpass(1-6,1-5)", 
+    "advmod(1-6,1-7)", 
+    "nmod:till(1-6,1-10)", 
+    "case(1-10,1-8)", 
+    "det(1-10,1-9)", 
+    "nmod:of(1-10,1-13)", 
+    "nmod:of(1-10,1-15)", 
+    "acl:relcl(1-13,1-17)", 
+    "case(1-13,1-11)", 
+    "cc:preconj(1-13,1-12)", 
+    "cc(1-13,1-14)", 
+    "conj:or(1-13,1-15)", 
+    "auxpass(1-17,1-16)", 
+    "word(2-1-find)", 
+    "pos(2-1,vb)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-probability)", 
+    "pos(2-3,nn)", 
+    "word(2-4-that)", 
+    "pos(2-4,wdt)", 
+    "word(2-5-5)", 
+    "pos(2-5,cd)", 
+    "word(2-6-comes)", 
+    "pos(2-6,vbz)", 
+    "word(2-7-before)", 
+    "pos(2-7,in)", 
+    "word(2-8-7)", 
+    "pos(2-8,cd)", 
+    "word(2-9-'.')", 
+    "pos(2-9,'.')", 
+    "acl:relcl(2-3,2-6)", 
+    "det(2-3,2-2)", 
+    "dobj(2-6,2-4)", 
+    "nsubj(2-6,2-5)", 
+    "nmod:before(2-6,2-8)", 
+    "case(2-8,2-7)", 
+    "dobj(2-1,2-3)"
+  ], 
+  "time_added": "2016-07-19T11:29:33.787000", 
+  "status": "skip"
+}

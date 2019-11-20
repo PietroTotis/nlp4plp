@@ -1,0 +1,419 @@
+{
+  "owner": "liselot", 
+  "ex_id": 149, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "order", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "you", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "you", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "select", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "them", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "them", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-27"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-11", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-16", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "could", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "could", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "you", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "you", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "choose", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "just", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "just", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-16", 
+        "group": {
+          "role": "root", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "them", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "PRP", 
+        "text": "them", 
+        "key": "1-18", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "you", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "you", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "17", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "17", 
+        "corenlp": {
+          "number": 17
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "play", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "playing", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "17"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "17"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "ignore", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "ignoring", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://www.mathopolis.com/questions/q.php?id=2791", 
+  "original_text": [
+    " If you have 17 playing cards, how many different ways could you choose just 4 of them -LRB- ignoring the order that you select them -RRB-?"
+  ], 
+  "solution": "2380", 
+  "text": [
+    " If you have 17 playing cards, how many different ways could you choose just 4 of them, ignoring the order that you select them?"
+  ], 
+  "corenlp": [
+    "word(1-1-if)", 
+    "pos(1-1,in)", 
+    "word(1-2-you)", 
+    "pos(1-2,prp)", 
+    "word(1-3-have)", 
+    "pos(1-3,vbp)", 
+    "word(1-4-17)", 
+    "pos(1-4,cd)", 
+    "word(1-5-playing)", 
+    "pos(1-5,vbg)", 
+    "word(1-6-cards)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-how)", 
+    "pos(1-8,wrb)", 
+    "word(1-9-many)", 
+    "pos(1-9,jj)", 
+    "word(1-10-different)", 
+    "pos(1-10,jj)", 
+    "word(1-11-ways)", 
+    "pos(1-11,nns)", 
+    "word(1-12-could)", 
+    "pos(1-12,md)", 
+    "word(1-13-you)", 
+    "pos(1-13,prp)", 
+    "word(1-14-choose)", 
+    "pos(1-14,vb)", 
+    "word(1-15-just)", 
+    "pos(1-15,rb)", 
+    "word(1-16-4)", 
+    "pos(1-16,cd)", 
+    "word(1-17-of)", 
+    "pos(1-17,in)", 
+    "word(1-18-them)", 
+    "pos(1-18,prp)", 
+    "word(1-19-',')", 
+    "pos(1-19,',')", 
+    "word(1-20-ignoring)", 
+    "pos(1-20,vbg)", 
+    "word(1-21-the)", 
+    "pos(1-21,dt)", 
+    "word(1-22-order)", 
+    "pos(1-22,nn)", 
+    "word(1-23-that)", 
+    "pos(1-23,in)", 
+    "word(1-24-you)", 
+    "pos(1-24,prp)", 
+    "word(1-25-select)", 
+    "pos(1-25,vbp)", 
+    "word(1-26-them)", 
+    "pos(1-26,prp)", 
+    "word(1-27-'?')", 
+    "pos(1-27,'.')", 
+    "mark(1-3,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "dobj(1-3,1-6)", 
+    "nummod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "advmod(1-9,1-8)", 
+    "amod(1-11,1-9)", 
+    "amod(1-11,1-10)", 
+    "dobj(1-14,1-16)", 
+    "advcl(1-14,1-3)", 
+    "advcl(1-14,1-20)", 
+    "dep(1-14,1-11)", 
+    "aux(1-14,1-12)", 
+    "nsubj(1-14,1-13)", 
+    "nmod:of(1-16,1-18)", 
+    "advmod(1-16,1-15)", 
+    "case(1-18,1-17)", 
+    "dobj(1-20,1-22)", 
+    "ccomp(1-20,1-25)", 
+    "det(1-22,1-21)", 
+    "mark(1-25,1-23)", 
+    "nsubj(1-25,1-24)", 
+    "dobj(1-25,1-26)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-14T14:11:57.197000", 
+  "status": "done"
+}

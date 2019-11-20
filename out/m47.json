@@ -1,0 +1,703 @@
+{
+  "owner": "monica", 
+  "ex_id": 47, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "12", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "12", 
+        "corenlp": {
+          "number": 12
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "runner", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "runners", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "12"
+          }
+        }, 
+        "key": "1-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "12"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "marathon", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "marathon", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "top", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "top", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "three", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "runner", 
+        "index": 14, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "runners", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-13"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "2-14", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-13"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "order", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "2-17", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-4", 
+          "is_question_size": false, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-14", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "they", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "finish", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "finish", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "person", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "person", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "may", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "may", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "bet", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "bet", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "race", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "race", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "by", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "by", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "correctly", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "correctly", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "selecting", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "All", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "All", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "runner", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "runners", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "an", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "equal", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "equal", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "chance", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "win", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "winning", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-9"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-11"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "single", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "single", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "bet", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "bet", 
+        "key": "4-8", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [], 
+          "role_arg": "2-17", 
+          "size": {
+            "words": [
+              "4-6"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "4-10"
+          ]
+        }
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "will", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "win", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "win"
+        }, 
+        "text": "win", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "http://www.bmlc.ca/Math12/Principles%20of%20Math%2012%20%20-%20Probability%20Practice%20Exam.pdf", 
+  "solution": "1/1320", 
+  "text": [
+    " There are 12 runners in a marathon.", 
+    " A person may bet on the race by correctly selecting the top three runners and the order they finish in.", 
+    " All runners have an equal chance of winning.", 
+    " What is the probability that a single bet will win?"
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-12)", 
+    "pos(1-3,cd)", 
+    "word(1-4-runners)", 
+    "pos(1-4,nns)", 
+    "word(1-5-in)", 
+    "pos(1-5,in)", 
+    "word(1-6-a)", 
+    "pos(1-6,dt)", 
+    "word(1-7-marathon)", 
+    "pos(1-7,nn)", 
+    "word(1-8-'.')", 
+    "pos(1-8,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-4)", 
+    "nummod(1-4,1-3)", 
+    "nmod:in(1-4,1-7)", 
+    "case(1-7,1-5)", 
+    "det(1-7,1-6)", 
+    "word(2-1-a)", 
+    "pos(2-1,dt)", 
+    "word(2-2-person)", 
+    "pos(2-2,nn)", 
+    "word(2-3-may)", 
+    "pos(2-3,md)", 
+    "word(2-4-bet)", 
+    "pos(2-4,vb)", 
+    "word(2-5-on)", 
+    "pos(2-5,in)", 
+    "word(2-6-the)", 
+    "pos(2-6,dt)", 
+    "word(2-7-race)", 
+    "pos(2-7,nn)", 
+    "word(2-8-by)", 
+    "pos(2-8,in)", 
+    "word(2-9-correctly)", 
+    "pos(2-9,rb)", 
+    "word(2-10-selecting)", 
+    "pos(2-10,vbg)", 
+    "word(2-11-the)", 
+    "pos(2-11,dt)", 
+    "word(2-12-top)", 
+    "pos(2-12,jj)", 
+    "word(2-13-three)", 
+    "pos(2-13,cd)", 
+    "word(2-14-runners)", 
+    "pos(2-14,nns)", 
+    "word(2-15-and)", 
+    "pos(2-15,cc)", 
+    "word(2-16-the)", 
+    "pos(2-16,dt)", 
+    "word(2-17-order)", 
+    "pos(2-17,nn)", 
+    "word(2-18-they)", 
+    "pos(2-18,prp)", 
+    "word(2-19-finish)", 
+    "pos(2-19,vbp)", 
+    "word(2-20-in)", 
+    "pos(2-20,in)", 
+    "word(2-21-'.')", 
+    "pos(2-21,'.')", 
+    "aux(2-4,2-3)", 
+    "nmod:on(2-4,2-7)", 
+    "advcl(2-4,2-10)", 
+    "nsubj(2-4,2-2)", 
+    "case(2-7,2-5)", 
+    "det(2-7,2-6)", 
+    "mark(2-10,2-8)", 
+    "advmod(2-10,2-9)", 
+    "dobj(2-10,2-14)", 
+    "dobj(2-10,2-17)", 
+    "det(2-14,2-11)", 
+    "amod(2-14,2-12)", 
+    "nummod(2-14,2-13)", 
+    "cc(2-14,2-15)", 
+    "conj:and(2-14,2-17)", 
+    "det(2-17,2-16)", 
+    "dep(2-19,2-4)", 
+    "nmod(2-19,2-20)", 
+    "nsubj(2-19,2-18)", 
+    "det(2-2,2-1)", 
+    "word(3-1-all)", 
+    "pos(3-1,dt)", 
+    "word(3-2-runners)", 
+    "pos(3-2,nns)", 
+    "word(3-3-have)", 
+    "pos(3-3,vbp)", 
+    "word(3-4-an)", 
+    "pos(3-4,dt)", 
+    "word(3-5-equal)", 
+    "pos(3-5,jj)", 
+    "word(3-6-chance)", 
+    "pos(3-6,nn)", 
+    "word(3-7-of)", 
+    "pos(3-7,in)", 
+    "word(3-8-winning)", 
+    "pos(3-8,vbg)", 
+    "word(3-9-'.')", 
+    "pos(3-9,'.')", 
+    "nmod:of(3-6,3-8)", 
+    "det(3-6,3-4)", 
+    "amod(3-6,3-5)", 
+    "case(3-8,3-7)", 
+    "det(3-2,3-1)", 
+    "dobj(3-3,3-6)", 
+    "nsubj(3-3,3-2)", 
+    "word(4-1-what)", 
+    "pos(4-1,wp)", 
+    "word(4-2-is)", 
+    "pos(4-2,vbz)", 
+    "word(4-3-the)", 
+    "pos(4-3,dt)", 
+    "word(4-4-probability)", 
+    "pos(4-4,nn)", 
+    "word(4-5-that)", 
+    "pos(4-5,in)", 
+    "word(4-6-a)", 
+    "pos(4-6,dt)", 
+    "word(4-7-single)", 
+    "pos(4-7,jj)", 
+    "word(4-8-bet)", 
+    "pos(4-8,nn)", 
+    "word(4-9-will)", 
+    "pos(4-9,md)", 
+    "word(4-10-win)", 
+    "pos(4-10,vb)", 
+    "word(4-11-'?')", 
+    "pos(4-11,'.')", 
+    "aux(4-10,4-9)", 
+    "mark(4-10,4-5)", 
+    "nsubj(4-10,4-8)", 
+    "cop(4-1,4-2)", 
+    "nsubj(4-1,4-4)", 
+    "dep(4-4,4-10)", 
+    "det(4-4,4-3)", 
+    "det(4-8,4-6)", 
+    "amod(4-8,4-7)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-12T17:40:54.133000", 
+  "status": "later"
+}

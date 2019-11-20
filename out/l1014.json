@@ -1,0 +1,365 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1014, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "finish", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "finishing", 
+        "key": "1-11"
+      }, 
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "finish", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "finish", 
+        "key": "1-22"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "place", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "places", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-10"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-12", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-10"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-23"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "consider", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "considered", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-17", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-12", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "finish", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "finishing", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "order", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "orders", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "eight", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "eight", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "cars", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }
+        }, 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "enter", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "entered", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "race", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "race", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "they", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "336", 
+  "text": [
+    " If eight cars are entered in a race and three finishing places are considered, how many finishing orders can they finish?"
+  ], 
+  "corenlp": [
+    "word(1-1-if)", 
+    "pos(1-1,in)", 
+    "word(1-2-eight)", 
+    "pos(1-2,cd)", 
+    "word(1-3-cars)", 
+    "pos(1-3,nns)", 
+    "word(1-4-are)", 
+    "pos(1-4,vbp)", 
+    "word(1-5-entered)", 
+    "pos(1-5,vbn)", 
+    "word(1-6-in)", 
+    "pos(1-6,in)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-race)", 
+    "pos(1-8,nn)", 
+    "word(1-9-and)", 
+    "pos(1-9,cc)", 
+    "word(1-10-three)", 
+    "pos(1-10,cd)", 
+    "word(1-11-finishing)", 
+    "pos(1-11,vbg)", 
+    "word(1-12-places)", 
+    "pos(1-12,nns)", 
+    "word(1-13-are)", 
+    "pos(1-13,vbp)", 
+    "word(1-14-considered)", 
+    "pos(1-14,vbn)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-how)", 
+    "pos(1-16,wrb)", 
+    "word(1-17-many)", 
+    "pos(1-17,jj)", 
+    "word(1-18-finishing)", 
+    "pos(1-18,vbg)", 
+    "word(1-19-orders)", 
+    "pos(1-19,nns)", 
+    "word(1-20-can)", 
+    "pos(1-20,md)", 
+    "word(1-21-they)", 
+    "pos(1-21,prp)", 
+    "word(1-22-finish)", 
+    "pos(1-22,vb)", 
+    "word(1-23-'?')", 
+    "pos(1-23,'.')", 
+    "nummod(1-3,1-2)", 
+    "mark(1-5,1-1)", 
+    "nsubjpass(1-5,1-3)", 
+    "auxpass(1-5,1-4)", 
+    "nmod:in(1-5,1-8)", 
+    "nmod:in(1-5,1-12)", 
+    "case(1-8,1-6)", 
+    "det(1-8,1-7)", 
+    "cc(1-8,1-9)", 
+    "conj:and(1-8,1-12)", 
+    "nummod(1-12,1-10)", 
+    "amod(1-12,1-11)", 
+    "ccomp(1-14,1-20)", 
+    "csubjpass(1-14,1-5)", 
+    "auxpass(1-14,1-13)", 
+    "advmod(1-17,1-16)", 
+    "amod(1-19,1-18)", 
+    "dep(1-20,1-17)", 
+    "nsubj(1-20,1-19)", 
+    "dobj(1-20,1-21)", 
+    "dep(1-20,1-22)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-10T11:16:04.344000", 
+  "status": "done"
+}

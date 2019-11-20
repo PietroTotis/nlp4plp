@@ -1,0 +1,853 @@
+{
+  "owner": "monica", 
+  "ex_id": 122, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "6", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "6", 
+          "class": "outcome"
+        }, 
+        "text": "6", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 23, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "event": {
+          "outcomes": {}
+        }, 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "fair", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fair", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "die", 
+        "index": 26, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "NN", 
+        "text": "die", 
+        "event": {
+          "is_event_group": false, 
+          "outcomes": {
+            "values": [
+              "1-32", 
+              "1-34", 
+              "1-36", 
+              "1-38", 
+              "2-11"
+            ]
+          }, 
+          "group": "1-2-rolls"
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "side", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "sides", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-28"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 30, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "number", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "numbered", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "number", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "numbered", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "1", 
+          "class": "outcome"
+        }, 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "1", 
+          "class": "outcome"
+        }, 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 33, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "2", 
+          "class": "outcome"
+        }, 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "2", 
+          "class": "outcome"
+        }, 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 35, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "3", 
+          "class": "outcome"
+        }, 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "3", 
+          "class": "outcome"
+        }, 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-37"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "4", 
+          "class": "outcome"
+        }, 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "4", 
+          "class": "outcome"
+        }, 
+        "text": "4", 
+        "corenlp": {
+          "number": 4, 
+          "size": {
+            "words": [
+              "1-19"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": "simultaneously", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "simultaneously", 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "value": "5", 
+          "class": "outcome"
+        }, 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "Abdul", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Abdul", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 2, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "VBZ", 
+        "text": "rolls", 
+        "event": {
+          "is_event_group": true, 
+          "constraints": [
+            {
+              "type": "compound"
+            }
+          ], 
+          "outcomes": {}, 
+          "group": "1-26-die"
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "fair", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fair", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "die", 
+        "index": 5, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "NN", 
+        "text": "die", 
+        "event": {
+          "outcomes": {
+            "values": [
+              "1-11", 
+              "1-13", 
+              "1-15", 
+              "1-17", 
+              "1-19", 
+              "1-22"
+            ]
+          }, 
+          "group": "1-2-rolls"
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "six", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "side", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "sides", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 40, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-40"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "or", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "property": {
+          "value": "or", 
+          "class": "outcome"
+        }, 
+        "text": "or", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "that", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "Abdul", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Abdul", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "'s", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "roll", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "rolls", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "double", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "doubles", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-17"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "six-sided", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "six-sided", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "die", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "die", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "three", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "https://www.khanacademy.org/math/probability/independent-dependent-probability/addition-rule-probability/e/adding-probability", 
+  "solution": "7/24", 
+  "text": [
+    " Abdul rolls a fair die with six sides, numbered 1, 2, 3, 4, 5, and 6 and a fair die with 4 sides, numbered 1, 2, 3 and 4 simultaneously.", 
+    " What is the probability that the six-sided die is three or that Abdul 's rolls doubles?"
+  ], 
+  "corenlp": [
+    "word(1-1-abdul)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-rolls)", 
+    "pos(1-2,vbz)", 
+    "word(1-3-a)", 
+    "pos(1-3,dt)", 
+    "word(1-4-fair)", 
+    "pos(1-4,jj)", 
+    "word(1-5-die)", 
+    "pos(1-5,nn)", 
+    "word(1-6-with)", 
+    "pos(1-6,in)", 
+    "word(1-7-six)", 
+    "pos(1-7,cd)", 
+    "word(1-8-sides)", 
+    "pos(1-8,nns)", 
+    "word(1-9-',')", 
+    "pos(1-9,',')", 
+    "word(1-10-numbered)", 
+    "pos(1-10,vbd)", 
+    "word(1-11-1)", 
+    "pos(1-11,cd)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-2)", 
+    "pos(1-13,cd)", 
+    "word(1-14-',')", 
+    "pos(1-14,',')", 
+    "word(1-15-3)", 
+    "pos(1-15,cd)", 
+    "word(1-16-',')", 
+    "pos(1-16,',')", 
+    "word(1-17-4)", 
+    "pos(1-17,cd)", 
+    "word(1-18-',')", 
+    "pos(1-18,',')", 
+    "word(1-19-5)", 
+    "pos(1-19,cd)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-and)", 
+    "pos(1-21,cc)", 
+    "word(1-22-6)", 
+    "pos(1-22,cd)", 
+    "word(1-23-and)", 
+    "pos(1-23,cc)", 
+    "word(1-24-a)", 
+    "pos(1-24,dt)", 
+    "word(1-25-fair)", 
+    "pos(1-25,jj)", 
+    "word(1-26-die)", 
+    "pos(1-26,nn)", 
+    "word(1-27-with)", 
+    "pos(1-27,in)", 
+    "word(1-28-4)", 
+    "pos(1-28,cd)", 
+    "word(1-29-sides)", 
+    "pos(1-29,nns)", 
+    "word(1-30-',')", 
+    "pos(1-30,',')", 
+    "word(1-31-numbered)", 
+    "pos(1-31,vbd)", 
+    "word(1-32-1)", 
+    "pos(1-32,cd)", 
+    "word(1-33-',')", 
+    "pos(1-33,',')", 
+    "word(1-34-2)", 
+    "pos(1-34,cd)", 
+    "word(1-35-',')", 
+    "pos(1-35,',')", 
+    "word(1-36-3)", 
+    "pos(1-36,cd)", 
+    "word(1-37-and)", 
+    "pos(1-37,cc)", 
+    "word(1-38-4)", 
+    "pos(1-38,cd)", 
+    "word(1-39-simultaneously)", 
+    "pos(1-39,rb)", 
+    "word(1-40-'.')", 
+    "pos(1-40,'.')", 
+    "nsubj(1-2,1-1)", 
+    "dobj(1-2,1-5)", 
+    "nmod:with(1-2,1-8)", 
+    "dep(1-2,1-10)", 
+    "dep(1-2,1-31)", 
+    "det(1-5,1-3)", 
+    "amod(1-5,1-4)", 
+    "case(1-8,1-6)", 
+    "nummod(1-8,1-7)", 
+    "dobj(1-10,1-17)", 
+    "dobj(1-10,1-26)", 
+    "dobj(1-10,1-11)", 
+    "dobj(1-10,1-13)", 
+    "nmod:with(1-10,1-29)", 
+    "dobj(1-10,1-15)", 
+    "conj:and(1-11,1-17)", 
+    "conj:and(1-11,1-22)", 
+    "cc(1-11,1-23)", 
+    "conj:and(1-11,1-26)", 
+    "conj:and(1-11,1-13)", 
+    "conj:and(1-11,1-15)", 
+    "nummod(1-17,1-19)", 
+    "cc(1-17,1-21)", 
+    "conj:and(1-17,1-22)", 
+    "det(1-26,1-24)", 
+    "amod(1-26,1-25)", 
+    "case(1-29,1-27)", 
+    "nummod(1-29,1-28)", 
+    "dobj(1-31,1-32)", 
+    "amod(1-32,1-34)", 
+    "appos(1-32,1-36)", 
+    "appos(1-32,1-38)", 
+    "advmod(1-32,1-39)", 
+    "cc(1-36,1-37)", 
+    "conj:and(1-36,1-38)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,in)", 
+    "word(2-6-the)", 
+    "pos(2-6,dt)", 
+    "word(2-7-six-sided)", 
+    "pos(2-7,jj)", 
+    "word(2-8-die)", 
+    "pos(2-8,nn)", 
+    "word(2-9-is)", 
+    "pos(2-9,vbz)", 
+    "word(2-10-three)", 
+    "pos(2-10,cd)", 
+    "word(2-11-or)", 
+    "pos(2-11,cc)", 
+    "word(2-12-that)", 
+    "pos(2-12,dt)", 
+    "word(2-13-abdul)", 
+    "pos(2-13,nnp)", 
+    "word(2-14-\"'s\")", 
+    "pos(2-14,pos)", 
+    "word(2-15-rolls)", 
+    "pos(2-15,nns)", 
+    "word(2-16-doubles)", 
+    "pos(2-16,vbz)", 
+    "word(2-17-'?')", 
+    "pos(2-17,'.')", 
+    "det(2-4,2-3)", 
+    "acl:relcl(2-4,2-10)", 
+    "acl:relcl(2-4,2-16)", 
+    "det(2-8,2-6)", 
+    "amod(2-8,2-7)", 
+    "mark(2-10,2-5)", 
+    "nsubj(2-10,2-8)", 
+    "cop(2-10,2-9)", 
+    "cc(2-10,2-11)", 
+    "conj:or(2-10,2-16)", 
+    "case(2-13,2-14)", 
+    "nmod:poss(2-15,2-13)", 
+    "dobj(2-16,2-12)", 
+    "nsubj(2-16,2-15)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "simple event", 
+    "id": 2
+  }, 
+  "time_added": "2016-07-15T15:53:23.026000", 
+  "status": "skip"
+}

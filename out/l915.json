@@ -1,0 +1,642 @@
+{
+  "owner": "liselot", 
+  "ex_id": 915, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2, 
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-16"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "We", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "We", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "roll", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "roll", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "fair", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fair", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "four-sided", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "four-sided", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "die", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "die", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "label", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "labeled", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "once", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "once", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "more", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "more", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "but", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "but", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "otherwise", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "otherwise", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "we", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "stop", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "stop", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-18"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "result", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "result", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "1", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "or", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "2", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "we", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "roll", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "roll", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "roll", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "rolls", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "least", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "4", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-16"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "sum", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sum", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "total", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "total", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "our", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "our", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "https://www.math.uni-bielefeld.de/~souyang/OuyangTeaching2004/probintro/text/Bertsekas_Tsitsiklis/Introduction%20to%20probability.pdf", 
+  "solution": "9/16", 
+  "text": [
+    " We roll a fair four-sided die, labeled 1, 2, 3 and 4.", 
+    " If the result is 1 or 2, we roll once more but otherwise, we stop.", 
+    " What is the probability that the sum total of our rolls is at least 4?"
+  ], 
+  "corenlp": [
+    "word(1-1-we)", 
+    "pos(1-1,prp)", 
+    "word(1-2-roll)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-a)", 
+    "pos(1-3,dt)", 
+    "word(1-4-fair)", 
+    "pos(1-4,jj)", 
+    "word(1-5-four-sided)", 
+    "pos(1-5,jj)", 
+    "word(1-6-die)", 
+    "pos(1-6,nn)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-labeled)", 
+    "pos(1-8,vbn)", 
+    "word(1-9-1)", 
+    "pos(1-9,cd)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-2)", 
+    "pos(1-11,cd)", 
+    "word(1-12-',')", 
+    "pos(1-12,',')", 
+    "word(1-13-3)", 
+    "pos(1-13,cd)", 
+    "word(1-14-and)", 
+    "pos(1-14,cc)", 
+    "word(1-15-4)", 
+    "pos(1-15,cd)", 
+    "word(1-16-'.')", 
+    "pos(1-16,'.')", 
+    "nsubj(1-2,1-1)", 
+    "xcomp(1-2,1-6)", 
+    "nmod:tmod(1-2,1-11)", 
+    "nmod:tmod(1-2,1-15)", 
+    "det(1-6,1-3)", 
+    "amod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "acl(1-6,1-8)", 
+    "dobj(1-8,1-9)", 
+    "nummod(1-11,1-13)", 
+    "cc(1-11,1-14)", 
+    "conj:and(1-11,1-15)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-result)", 
+    "pos(2-3,nn)", 
+    "word(2-4-is)", 
+    "pos(2-4,vbz)", 
+    "word(2-5-1)", 
+    "pos(2-5,cd)", 
+    "word(2-6-or)", 
+    "pos(2-6,cc)", 
+    "word(2-7-2)", 
+    "pos(2-7,cd)", 
+    "word(2-8-',')", 
+    "pos(2-8,',')", 
+    "word(2-9-we)", 
+    "pos(2-9,prp)", 
+    "word(2-10-roll)", 
+    "pos(2-10,vbp)", 
+    "word(2-11-once)", 
+    "pos(2-11,rb)", 
+    "word(2-12-more)", 
+    "pos(2-12,jjr)", 
+    "word(2-13-but)", 
+    "pos(2-13,cc)", 
+    "word(2-14-otherwise)", 
+    "pos(2-14,rb)", 
+    "word(2-15-',')", 
+    "pos(2-15,',')", 
+    "word(2-16-we)", 
+    "pos(2-16,prp)", 
+    "word(2-17-stop)", 
+    "pos(2-17,vbp)", 
+    "word(2-18-'.')", 
+    "pos(2-18,'.')", 
+    "det(2-3,2-2)", 
+    "nsubj(2-5,2-3)", 
+    "cop(2-5,2-4)", 
+    "cc(2-5,2-6)", 
+    "conj:or(2-5,2-7)", 
+    "mark(2-5,2-1)", 
+    "advcl(2-10,2-5)", 
+    "advcl(2-10,2-7)", 
+    "nsubj(2-10,2-9)", 
+    "advmod(2-10,2-12)", 
+    "cc(2-10,2-13)", 
+    "conj:but(2-10,2-17)", 
+    "advmod(2-12,2-11)", 
+    "advmod(2-17,2-14)", 
+    "nsubj(2-17,2-16)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-the)", 
+    "pos(3-6,dt)", 
+    "word(3-7-sum)", 
+    "pos(3-7,nn)", 
+    "word(3-8-total)", 
+    "pos(3-8,nn)", 
+    "word(3-9-of)", 
+    "pos(3-9,in)", 
+    "word(3-10-our)", 
+    "pos(3-10,prp)", 
+    "word(3-11-rolls)", 
+    "pos(3-11,nns)", 
+    "word(3-12-is)", 
+    "pos(3-12,vbz)", 
+    "word(3-13-at)", 
+    "pos(3-13,in)", 
+    "word(3-14-least)", 
+    "pos(3-14,jjs)", 
+    "word(3-15-4)", 
+    "pos(3-15,cd)", 
+    "word(3-16-'?')", 
+    "pos(3-16,'.')", 
+    "det(3-8,3-6)", 
+    "compound(3-8,3-7)", 
+    "nmod:of(3-8,3-11)", 
+    "case(3-11,3-9)", 
+    "nmod:poss(3-11,3-10)", 
+    "case(3-14,3-13)", 
+    "nsubj(3-15,3-8)", 
+    "cop(3-15,3-12)", 
+    "nmod:npmod(3-15,3-14)", 
+    "mark(3-15,3-5)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-15)", 
+    "det(3-4,3-3)"
+  ], 
+  "time_added": "2016-08-08T11:26:21.468000", 
+  "status": "skip"
+}

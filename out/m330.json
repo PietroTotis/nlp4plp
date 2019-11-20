@@ -1,0 +1,1184 @@
+{
+  "owner": "monica", 
+  "ex_id": 330, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "first", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "try", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "1st try", 
+          "class": "pass"
+        }, 
+        "text": "try", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ".75", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".75", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-27"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "person", 
+        "index": 12, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "NN", 
+        "text": "person", 
+        "event": {
+          "outcomes": {}
+        }, 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "pass", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "VBG", 
+        "text": "passing", 
+        "key": "1-13", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-9", 
+          "size": {
+            "words": [
+              "1-26"
+            ], 
+            "mention": "explicit", 
+            "number": "0.75"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-24"
+          ]
+        }
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "test", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "test", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "driver", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "driver", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "'s", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "motor", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Motor", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "vehicle", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Vehicle", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "department", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Department", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "find", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "found", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "license", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "license", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "on", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 23, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-23", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-9", 
+          "size": {
+            "words": [
+              "2-40"
+            ], 
+            "mention": "explicit", 
+            "number": ".70"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-38"
+          ]
+        }
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "an", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "individual", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "individual", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "who", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "fail", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "fails", 
+        "key": "2-28"
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-29"
+      }, 
+      "30": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "2-30"
+      }, 
+      "31": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-31"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "2-10"
+      }, 
+      "32": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-32"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "test", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "test", 
+        "key": "2-11"
+      }, 
+      "33": {
+        "sentence": 2, 
+        "nlp_stem": "test", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tests", 
+        "key": "2-33"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-12"
+      }, 
+      "34": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-34"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "pass", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "pass", 
+        "key": "2-13"
+      }, 
+      "35": {
+        "sentence": 2, 
+        "nlp_stem": "pass", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "pass", 
+        "key": "2-35"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-14"
+      }, 
+      "36": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-36"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-15"
+      }, 
+      "37": {
+        "sentence": 2, 
+        "nlp_stem": "third", 
+        "index": 37, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "third", 
+        "key": "2-37"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-16"
+      }, 
+      "38": {
+        "sentence": 2, 
+        "nlp_stem": "time", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "3rd try", 
+          "class": "pass"
+        }, 
+        "text": "time", 
+        "key": "2-38"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "try", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "2nd try", 
+          "class": "pass"
+        }, 
+        "text": "try", 
+        "key": "2-17"
+      }, 
+      "39": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-39"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": ".80", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".80", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-2", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-9", 
+          "size": {
+            "words": [
+              "2-19"
+            ], 
+            "mention": "explicit", 
+            "number": ".80"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-17"
+          ]
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "an", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "individual", 
+        "index": 5, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "NN", 
+        "text": "individual", 
+        "event": {
+          "outcomes": {}
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "who", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "fail", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "fails", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "40": {
+        "sentence": 2, 
+        "nlp_stem": ".70", 
+        "index": 40, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".70", 
+        "key": "2-40"
+      }, 
+      "41": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 41, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-41"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "least", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "two", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "try", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "tries", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "pass", 
+        "index": 15, 
+        "type": "word", 
+        "is_event": true, 
+        "nlp_pos": "VB", 
+        "text": "pass", 
+        "event": {
+          "outcomes": {}
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "test", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "test", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-18"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "an", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "individual", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "individual", 
+        "key": "3-7", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [
+            {
+              "is_question": true, 
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": "3rd try"
+                }, 
+                "child1": {
+                  "choice": "2nd try"
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "1-9", 
+          "size": {
+            "words": [
+              "3-6"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "will", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "require", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "require", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://www.wsfcs.k12.nc.us/cms/lib/NC01001395/Centricity/Domain/8684/Probability%20Practice.pdf", 
+  "original_text": [
+    " The Motor Vehicle Department has found that the pro bability of a person passing the test for a driver ' s license on the first try is .75.", 
+    " The probability t hat an individual who fails on the first test will pass on the second try is .80, and the probability that an indi vidual who fails the first and second tests will pa ss the third time is .70.", 
+    " What is the probability that an individu al will require at least two tries to pass the test?"
+  ], 
+  "text": [
+    " The Motor Vehicle Department has found that the probability of a person passing the test for a driver 's license on the first try is .75.", 
+    " The probability that an individual who fails on the first test will pass on the second try is .80, and the probability that an individual who fails the first and second tests will pass the third time is .70.", 
+    " What is the probability that an individual will require at least two tries to pass the test?"
+  ], 
+  "corenlp": [
+    "word(1-1-the)", 
+    "pos(1-1,dt)", 
+    "word(1-2-motor)", 
+    "pos(1-2,nnp)", 
+    "word(1-3-vehicle)", 
+    "pos(1-3,nnp)", 
+    "word(1-4-department)", 
+    "pos(1-4,nnp)", 
+    "word(1-5-has)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-found)", 
+    "pos(1-6,vbn)", 
+    "word(1-7-that)", 
+    "pos(1-7,in)", 
+    "word(1-8-the)", 
+    "pos(1-8,dt)", 
+    "word(1-9-probability)", 
+    "pos(1-9,nn)", 
+    "word(1-10-of)", 
+    "pos(1-10,in)", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-person)", 
+    "pos(1-12,nn)", 
+    "word(1-13-passing)", 
+    "pos(1-13,vbg)", 
+    "word(1-14-the)", 
+    "pos(1-14,dt)", 
+    "word(1-15-test)", 
+    "pos(1-15,nn)", 
+    "word(1-16-for)", 
+    "pos(1-16,in)", 
+    "word(1-17-a)", 
+    "pos(1-17,dt)", 
+    "word(1-18-driver)", 
+    "pos(1-18,nn)", 
+    "word(1-19-\"'s\")", 
+    "pos(1-19,pos)", 
+    "word(1-20-license)", 
+    "pos(1-20,nn)", 
+    "word(1-21-on)", 
+    "pos(1-21,in)", 
+    "word(1-22-the)", 
+    "pos(1-22,dt)", 
+    "word(1-23-first)", 
+    "pos(1-23,jj)", 
+    "word(1-24-try)", 
+    "pos(1-24,nn)", 
+    "word(1-25-is)", 
+    "pos(1-25,vbz)", 
+    "word(1-26-.75)", 
+    "pos(1-26,cd)", 
+    "word(1-27-'.')", 
+    "pos(1-27,'.')", 
+    "det(1-4,1-1)", 
+    "compound(1-4,1-2)", 
+    "compound(1-4,1-3)", 
+    "nsubj(1-6,1-4)", 
+    "aux(1-6,1-5)", 
+    "ccomp(1-6,1-26)", 
+    "det(1-9,1-8)", 
+    "nmod:of(1-9,1-12)", 
+    "case(1-12,1-10)", 
+    "det(1-12,1-11)", 
+    "acl(1-12,1-13)", 
+    "nmod:on(1-13,1-24)", 
+    "dobj(1-13,1-15)", 
+    "nmod:for(1-15,1-20)", 
+    "det(1-15,1-14)", 
+    "det(1-18,1-17)", 
+    "case(1-18,1-19)", 
+    "case(1-20,1-16)", 
+    "nmod:poss(1-20,1-18)", 
+    "case(1-24,1-21)", 
+    "det(1-24,1-22)", 
+    "amod(1-24,1-23)", 
+    "mark(1-26,1-7)", 
+    "nsubj(1-26,1-9)", 
+    "cop(1-26,1-25)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-probability)", 
+    "pos(2-2,nn)", 
+    "word(2-3-that)", 
+    "pos(2-3,in)", 
+    "word(2-4-an)", 
+    "pos(2-4,dt)", 
+    "word(2-5-individual)", 
+    "pos(2-5,nn)", 
+    "word(2-6-who)", 
+    "pos(2-6,wp)", 
+    "word(2-7-fails)", 
+    "pos(2-7,vbz)", 
+    "word(2-8-on)", 
+    "pos(2-8,in)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-first)", 
+    "pos(2-10,jj)", 
+    "word(2-11-test)", 
+    "pos(2-11,nn)", 
+    "word(2-12-will)", 
+    "pos(2-12,md)", 
+    "word(2-13-pass)", 
+    "pos(2-13,vb)", 
+    "word(2-14-on)", 
+    "pos(2-14,in)", 
+    "word(2-15-the)", 
+    "pos(2-15,dt)", 
+    "word(2-16-second)", 
+    "pos(2-16,jj)", 
+    "word(2-17-try)", 
+    "pos(2-17,nn)", 
+    "word(2-18-is)", 
+    "pos(2-18,vbz)", 
+    "word(2-19-.80)", 
+    "pos(2-19,cd)", 
+    "word(2-20-',')", 
+    "pos(2-20,',')", 
+    "word(2-21-and)", 
+    "pos(2-21,cc)", 
+    "word(2-22-the)", 
+    "pos(2-22,dt)", 
+    "word(2-23-probability)", 
+    "pos(2-23,nn)", 
+    "word(2-24-that)", 
+    "pos(2-24,in)", 
+    "word(2-25-an)", 
+    "pos(2-25,dt)", 
+    "word(2-26-individual)", 
+    "pos(2-26,nn)", 
+    "word(2-27-who)", 
+    "pos(2-27,wp)", 
+    "word(2-28-fails)", 
+    "pos(2-28,vbz)", 
+    "word(2-29-the)", 
+    "pos(2-29,dt)", 
+    "word(2-30-first)", 
+    "pos(2-30,jj)", 
+    "word(2-31-and)", 
+    "pos(2-31,cc)", 
+    "word(2-32-second)", 
+    "pos(2-32,jj)", 
+    "word(2-33-tests)", 
+    "pos(2-33,nns)", 
+    "word(2-34-will)", 
+    "pos(2-34,md)", 
+    "word(2-35-pass)", 
+    "pos(2-35,vb)", 
+    "word(2-36-the)", 
+    "pos(2-36,dt)", 
+    "word(2-37-third)", 
+    "pos(2-37,jj)", 
+    "word(2-38-time)", 
+    "pos(2-38,nn)", 
+    "word(2-39-is)", 
+    "pos(2-39,vbz)", 
+    "word(2-40-.70)", 
+    "pos(2-40,cd)", 
+    "word(2-41-'.')", 
+    "pos(2-41,'.')", 
+    "dobj(2-35,2-38)", 
+    "nsubj(2-35,2-33)", 
+    "aux(2-35,2-34)", 
+    "det(2-38,2-36)", 
+    "amod(2-38,2-37)", 
+    "cop(2-40,2-39)", 
+    "mark(2-40,2-24)", 
+    "nsubj(2-40,2-26)", 
+    "dep(2-2,2-13)", 
+    "det(2-2,2-1)", 
+    "det(2-5,2-4)", 
+    "acl:relcl(2-5,2-7)", 
+    "nsubj(2-7,2-6)", 
+    "nmod:on(2-7,2-11)", 
+    "case(2-11,2-8)", 
+    "det(2-11,2-9)", 
+    "amod(2-11,2-10)", 
+    "mark(2-13,2-3)", 
+    "nsubj(2-13,2-5)", 
+    "aux(2-13,2-12)", 
+    "nmod:on(2-13,2-17)", 
+    "case(2-17,2-14)", 
+    "det(2-17,2-15)", 
+    "amod(2-17,2-16)", 
+    "cc(2-19,2-21)", 
+    "conj:and(2-19,2-23)", 
+    "ccomp(2-19,2-40)", 
+    "nsubj(2-19,2-2)", 
+    "cop(2-19,2-18)", 
+    "det(2-23,2-22)", 
+    "det(2-26,2-25)", 
+    "acl:relcl(2-26,2-28)", 
+    "ccomp(2-28,2-35)", 
+    "nsubj(2-28,2-27)", 
+    "cc(2-30,2-31)", 
+    "conj:and(2-30,2-32)", 
+    "det(2-33,2-29)", 
+    "amod(2-33,2-30)", 
+    "amod(2-33,2-32)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-an)", 
+    "pos(3-6,dt)", 
+    "word(3-7-individual)", 
+    "pos(3-7,nn)", 
+    "word(3-8-will)", 
+    "pos(3-8,md)", 
+    "word(3-9-require)", 
+    "pos(3-9,vb)", 
+    "word(3-10-at)", 
+    "pos(3-10,in)", 
+    "word(3-11-least)", 
+    "pos(3-11,jjs)", 
+    "word(3-12-two)", 
+    "pos(3-12,cd)", 
+    "word(3-13-tries)", 
+    "pos(3-13,vbz)", 
+    "word(3-14-to)", 
+    "pos(3-14,to)", 
+    "word(3-15-pass)", 
+    "pos(3-15,vb)", 
+    "word(3-16-the)", 
+    "pos(3-16,dt)", 
+    "word(3-17-test)", 
+    "pos(3-17,nn)", 
+    "word(3-18-'?')", 
+    "pos(3-18,'.')", 
+    "det(3-7,3-6)", 
+    "nsubj(3-9,3-7)", 
+    "aux(3-9,3-8)", 
+    "dobj(3-9,3-12)", 
+    "mark(3-9,3-5)", 
+    "case(3-11,3-10)", 
+    "nmod:npmod(3-12,3-11)", 
+    "acl:relcl(3-12,3-13)", 
+    "xcomp(3-13,3-15)", 
+    "mark(3-15,3-14)", 
+    "dobj(3-15,3-17)", 
+    "det(3-17,3-16)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-9)", 
+    "det(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-29T17:13:12.834000", 
+  "status": "later"
+}

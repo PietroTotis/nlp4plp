@@ -1,0 +1,937 @@
+{
+  "owner": "hannah", 
+  "ex_id": 966, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "yellow", 
+        "index": 22, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "yellow", 
+          "class": "color"
+        }, 
+        "text": "yellow", 
+        "key": "1-22", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "1-27"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-22"
+          ]
+        }
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "suit", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "suit", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "having", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "14", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "14", 
+        "corenlp": {
+          "number": 14
+        }, 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-27"
+            ], 
+            "mention": "explicit", 
+            "number": "14"
+          }
+        }, 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 29, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-29"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "suit", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "suits", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-10"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ":", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ":", 
+        "text": ":", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "red", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "red", 
+          "class": "color"
+        }, 
+        "text": "red", 
+        "key": "1-15", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "1-27"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-15"
+          ]
+        }
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "green", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "green", 
+          "class": "color"
+        }, 
+        "text": "green", 
+        "key": "1-17", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "1-27"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-17"
+          ]
+        }
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "black", 
+        "index": 19, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "black", 
+          "class": "color"
+        }, 
+        "text": "black", 
+        "key": "1-19", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "1-27"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-19"
+          ]
+        }
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "``", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "``", 
+        "text": "``", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "rook", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "rook", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "''", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "''", 
+        "text": "''", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "deck", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "deck", 
+        "key": "1-5", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "consist", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "consists", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "''", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "''", 
+        "text": "''", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "card", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "card", 
+        "key": "2-12", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-10"
+          ]
+        }
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-13"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "addition", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "addition", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 3, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "deck", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "deck", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "an", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "uncolored", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "uncolored", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "``", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "``", 
+        "text": "``", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "rook", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "rook", 
+          "class": "rook"
+        }, 
+        "text": "rook", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "hand", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "hand", 
+        "key": "3-2", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [], 
+          "role_arg": "1-5", 
+          "size": {
+            "words": [
+              "3-4"
+            ], 
+            "mention": "explicit", 
+            "number": 14
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "4-11"
+          ]
+        }
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "contain", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "14", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "14", 
+        "corenlp": {
+          "number": 14
+        }, 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "cards", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-4"
+            ], 
+            "mention": "explicit", 
+            "number": "14"
+          }
+        }, 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-6"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "rook", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "none", 
+          "value": "rook", 
+          "class": "rook"
+        }, 
+        "text": "rook", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "card", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "card", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-13"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "hands", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "hands", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "have", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "at", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "most", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "most", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "three", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "colors", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "colors", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-7"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "no", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "no", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "Probability: An Introduction with Statistical Applications 2e", 
+  "text": [
+    " A `` rook '' deck of cards consists of four suits of cards: red, green, black, and yellow, each suit having 14 cards.", 
+    " In addition, the deck has an uncolored `` rook '' card.", 
+    " A hand contains 14 cards.", 
+    " How many hands have at most three colors and no rook card?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-``)", 
+    "pos(1-2,``)", 
+    "word(1-3-rook)", 
+    "pos(1-3,nn)", 
+    "word(1-4-\"''\")", 
+    "pos(1-4,\"''\")", 
+    "word(1-5-deck)", 
+    "pos(1-5,nn)", 
+    "word(1-6-of)", 
+    "pos(1-6,in)", 
+    "word(1-7-cards)", 
+    "pos(1-7,nns)", 
+    "word(1-8-consists)", 
+    "pos(1-8,vbz)", 
+    "word(1-9-of)", 
+    "pos(1-9,in)", 
+    "word(1-10-four)", 
+    "pos(1-10,cd)", 
+    "word(1-11-suits)", 
+    "pos(1-11,nns)", 
+    "word(1-12-of)", 
+    "pos(1-12,in)", 
+    "word(1-13-cards)", 
+    "pos(1-13,nns)", 
+    "word(1-14-':')", 
+    "pos(1-14,':')", 
+    "word(1-15-red)", 
+    "pos(1-15,jj)", 
+    "word(1-16-',')", 
+    "pos(1-16,',')", 
+    "word(1-17-green)", 
+    "pos(1-17,jj)", 
+    "word(1-18-',')", 
+    "pos(1-18,',')", 
+    "word(1-19-black)", 
+    "pos(1-19,jj)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-and)", 
+    "pos(1-21,cc)", 
+    "word(1-22-yellow)", 
+    "pos(1-22,jj)", 
+    "word(1-23-',')", 
+    "pos(1-23,',')", 
+    "word(1-24-each)", 
+    "pos(1-24,dt)", 
+    "word(1-25-suit)", 
+    "pos(1-25,nn)", 
+    "word(1-26-having)", 
+    "pos(1-26,vbg)", 
+    "word(1-27-14)", 
+    "pos(1-27,cd)", 
+    "word(1-28-cards)", 
+    "pos(1-28,nns)", 
+    "word(1-29-'.')", 
+    "pos(1-29,'.')", 
+    "det(1-5,1-1)", 
+    "compound(1-5,1-3)", 
+    "nmod:of(1-5,1-7)", 
+    "case(1-7,1-6)", 
+    "nsubj(1-8,1-5)", 
+    "advcl(1-8,1-26)", 
+    "nmod:of(1-11,1-22)", 
+    "nummod(1-11,1-10)", 
+    "nmod:of(1-11,1-13)", 
+    "amod(1-13,1-19)", 
+    "cc(1-13,1-21)", 
+    "conj:and(1-13,1-22)", 
+    "case(1-13,1-12)", 
+    "amod(1-19,1-17)", 
+    "amod(1-19,1-15)", 
+    "appos(1-22,1-25)", 
+    "det(1-25,1-24)", 
+    "mark(1-26,1-9)", 
+    "nsubj(1-26,1-11)", 
+    "dobj(1-26,1-28)", 
+    "nummod(1-28,1-27)", 
+    "word(2-1-in)", 
+    "pos(2-1,in)", 
+    "word(2-2-addition)", 
+    "pos(2-2,nn)", 
+    "word(2-3-',')", 
+    "pos(2-3,',')", 
+    "word(2-4-the)", 
+    "pos(2-4,dt)", 
+    "word(2-5-deck)", 
+    "pos(2-5,nn)", 
+    "word(2-6-has)", 
+    "pos(2-6,vbz)", 
+    "word(2-7-an)", 
+    "pos(2-7,dt)", 
+    "word(2-8-uncolored)", 
+    "pos(2-8,jj)", 
+    "word(2-9-``)", 
+    "pos(2-9,``)", 
+    "word(2-10-rook)", 
+    "pos(2-10,nn)", 
+    "word(2-11-\"''\")", 
+    "pos(2-11,\"''\")", 
+    "word(2-12-card)", 
+    "pos(2-12,nn)", 
+    "word(2-13-'.')", 
+    "pos(2-13,'.')", 
+    "det(2-5,2-4)", 
+    "nsubj(2-6,2-5)", 
+    "dobj(2-6,2-12)", 
+    "nmod:in(2-6,2-2)", 
+    "det(2-12,2-7)", 
+    "amod(2-12,2-8)", 
+    "compound(2-12,2-10)", 
+    "case(2-2,2-1)", 
+    "word(3-1-a)", 
+    "pos(3-1,dt)", 
+    "word(3-2-hand)", 
+    "pos(3-2,nn)", 
+    "word(3-3-contains)", 
+    "pos(3-3,vbz)", 
+    "word(3-4-14)", 
+    "pos(3-4,cd)", 
+    "word(3-5-cards)", 
+    "pos(3-5,nns)", 
+    "word(3-6-'.')", 
+    "pos(3-6,'.')", 
+    "det(3-2,3-1)", 
+    "nsubj(3-3,3-2)", 
+    "dobj(3-3,3-5)", 
+    "nummod(3-5,3-4)", 
+    "word(4-1-how)", 
+    "pos(4-1,wrb)", 
+    "word(4-2-many)", 
+    "pos(4-2,jj)", 
+    "word(4-3-hands)", 
+    "pos(4-3,nns)", 
+    "word(4-4-have)", 
+    "pos(4-4,vbp)", 
+    "word(4-5-at)", 
+    "pos(4-5,in)", 
+    "word(4-6-most)", 
+    "pos(4-6,jjs)", 
+    "word(4-7-three)", 
+    "pos(4-7,cd)", 
+    "word(4-8-colors)", 
+    "pos(4-8,nns)", 
+    "word(4-9-and)", 
+    "pos(4-9,cc)", 
+    "word(4-10-no)", 
+    "pos(4-10,dt)", 
+    "word(4-11-rook)", 
+    "pos(4-11,nn)", 
+    "word(4-12-card)", 
+    "pos(4-12,nn)", 
+    "word(4-13-'?')", 
+    "pos(4-13,'.')", 
+    "neg(4-12,4-10)", 
+    "compound(4-12,4-11)", 
+    "advmod(4-2,4-1)", 
+    "amod(4-3,4-2)", 
+    "dobj(4-4,4-12)", 
+    "nsubj(4-4,4-3)", 
+    "dobj(4-4,4-8)", 
+    "case(4-6,4-5)", 
+    "nmod:npmod(4-7,4-6)", 
+    "cc(4-8,4-9)", 
+    "conj:and(4-8,4-12)", 
+    "nummod(4-8,4-7)"
+  ], 
+  "time_added": "2016-08-09T11:27:18.305000", 
+  "status": "skip"
+}

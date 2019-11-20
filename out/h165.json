@@ -1,0 +1,922 @@
+{
+  "owner": "hannah", 
+  "ex_id": 165, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "over", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "over", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "20,000", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "20,000"
+        }, 
+        "text": "20,000", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "mile", 
+        "index": 24, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "miles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-23"
+            ], 
+            "mention": "explicit", 
+            "number": "20,000"
+          }
+        }, 
+        "key": "1-24", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-7", 
+          "size": {
+            "words": [
+              "1-26"
+            ], 
+            "mention": "explicit", 
+            "number": ".4"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-23"
+          ]
+        }
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ".4", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".4", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "over", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "over", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "it", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "it", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "10,000", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "10,000"
+        }, 
+        "text": "10,000", 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "function", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "functions", 
+        "key": "1-33"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "mile", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "miles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "10,000"
+          }
+        }, 
+        "key": "1-12", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-7", 
+          "size": {
+            "words": [
+              "1-14"
+            ], 
+            "mention": "explicit", 
+            "number": ".8"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-11"
+          ]
+        }
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 34, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-13"
+      }, 
+      "35": {
+        "sentence": 1, 
+        "nlp_stem": "over", 
+        "index": 35, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "over", 
+        "key": "1-35"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ".8", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".8", 
+        "key": "1-14"
+      }, 
+      "36": {
+        "sentence": 1, 
+        "nlp_stem": "30,000", 
+        "index": 36, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "30,000", 
+        "key": "1-36"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "37": {
+        "sentence": 1, 
+        "nlp_stem": "mile", 
+        "index": 37, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "miles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-36"
+            ], 
+            "mention": "explicit", 
+            "number": "30,000"
+          }
+        }, 
+        "key": "1-37", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-36"
+            ], 
+            "mention": "explicit", 
+            "number": "30,000"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-16"
+      }, 
+      "38": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 38, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-38"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-17"
+      }, 
+      "39": {
+        "sentence": 1, 
+        "nlp_stem": ".1", 
+        "index": 39, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": ".1", 
+        "key": "1-39"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "it", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "it", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "new", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "new", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "car", 
+        "index": 6, 
+        "type": "word", 
+        "is_event": false, 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "event": {
+          "is_event_group": true, 
+          "outcomes": {}
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "battery", 
+        "index": 7, 
+        "type": "word", 
+        "is_event": false, 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "battery", 
+        "event": {
+          "outcomes": {
+            "values": [
+              "1-8"
+            ]
+          }
+        }, 
+        "key": "1-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "function", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "property": {
+          "value": "function", 
+          "class": "outcome"
+        }, 
+        "text": "functions", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-9"
+      }, 
+      "40": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 40, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-40"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "function", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "functions", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "exceed", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "exceed", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "20,000", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20,000", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "mile", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "miles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-23"
+            ], 
+            "mention": "explicit", 
+            "number": "20,000"
+          }
+        }, 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-25"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "10,000", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10,000", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "mile", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "miles", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": "10,000"
+          }
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "what", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "it", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "its", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "total", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "total", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "new", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "new", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "car", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "car", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "battery", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "battery", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "still", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "still", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "work", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "working", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "after", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "after", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "life", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "life", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "\"A First Course in Probability\"", 
+  "solution": "1/2", 
+  "text": [
+    " The probability that a new car battery functions for over 10,000 miles is .8, the probability that it functions for over 20,000 miles is .4, and the probability that it functions for over 30,000 miles is .1.", 
+    " If a new car battery is still working after 10,000 miles, what is the probability that its total life will exceed 20,000 miles?"
+  ], 
+  "corenlp": [
+    "word(1-1-the)", 
+    "pos(1-1,dt)", 
+    "word(1-2-probability)", 
+    "pos(1-2,nn)", 
+    "word(1-3-that)", 
+    "pos(1-3,in)", 
+    "word(1-4-a)", 
+    "pos(1-4,dt)", 
+    "word(1-5-new)", 
+    "pos(1-5,jj)", 
+    "word(1-6-car)", 
+    "pos(1-6,nn)", 
+    "word(1-7-battery)", 
+    "pos(1-7,nn)", 
+    "word(1-8-functions)", 
+    "pos(1-8,nns)", 
+    "word(1-9-for)", 
+    "pos(1-9,in)", 
+    "word(1-10-over)", 
+    "pos(1-10,in)", 
+    "word(1-11-10,000)", 
+    "pos(1-11,cd)", 
+    "word(1-12-miles)", 
+    "pos(1-12,nns)", 
+    "word(1-13-is)", 
+    "pos(1-13,vbz)", 
+    "word(1-14-.8)", 
+    "pos(1-14,cd)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-the)", 
+    "pos(1-16,dt)", 
+    "word(1-17-probability)", 
+    "pos(1-17,nn)", 
+    "word(1-18-that)", 
+    "pos(1-18,in)", 
+    "word(1-19-it)", 
+    "pos(1-19,prp)", 
+    "word(1-20-functions)", 
+    "pos(1-20,vbz)", 
+    "word(1-21-for)", 
+    "pos(1-21,in)", 
+    "word(1-22-over)", 
+    "pos(1-22,in)", 
+    "word(1-23-20,000)", 
+    "pos(1-23,cd)", 
+    "word(1-24-miles)", 
+    "pos(1-24,nns)", 
+    "word(1-25-is)", 
+    "pos(1-25,vbz)", 
+    "word(1-26-.4)", 
+    "pos(1-26,cd)", 
+    "word(1-27-',')", 
+    "pos(1-27,',')", 
+    "word(1-28-and)", 
+    "pos(1-28,cc)", 
+    "word(1-29-the)", 
+    "pos(1-29,dt)", 
+    "word(1-30-probability)", 
+    "pos(1-30,nn)", 
+    "word(1-31-that)", 
+    "pos(1-31,in)", 
+    "word(1-32-it)", 
+    "pos(1-32,prp)", 
+    "word(1-33-functions)", 
+    "pos(1-33,vbz)", 
+    "word(1-34-for)", 
+    "pos(1-34,in)", 
+    "word(1-35-over)", 
+    "pos(1-35,in)", 
+    "word(1-36-30,000)", 
+    "pos(1-36,cd)", 
+    "word(1-37-miles)", 
+    "pos(1-37,nns)", 
+    "word(1-38-is)", 
+    "pos(1-38,vbz)", 
+    "word(1-39-.1)", 
+    "pos(1-39,cd)", 
+    "word(1-40-'.')", 
+    "pos(1-40,'.')", 
+    "det(1-2,1-1)", 
+    "dep(1-2,1-14)", 
+    "det(1-8,1-4)", 
+    "amod(1-8,1-5)", 
+    "compound(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "nmod:for(1-8,1-12)", 
+    "case(1-12,1-9)", 
+    "amod(1-12,1-10)", 
+    "nummod(1-12,1-11)", 
+    "appos(1-14,1-17)", 
+    "mark(1-14,1-3)", 
+    "nsubj(1-14,1-8)", 
+    "cop(1-14,1-13)", 
+    "det(1-17,1-16)", 
+    "dep(1-17,1-20)", 
+    "mark(1-20,1-18)", 
+    "nsubj(1-20,1-19)", 
+    "nmod:for(1-20,1-24)", 
+    "case(1-24,1-21)", 
+    "amod(1-24,1-22)", 
+    "nummod(1-24,1-23)", 
+    "nsubj(1-26,1-2)", 
+    "conj:and(1-26,1-39)", 
+    "cop(1-26,1-25)", 
+    "cc(1-26,1-28)", 
+    "dep(1-30,1-33)", 
+    "det(1-30,1-29)", 
+    "nsubj(1-33,1-32)", 
+    "nmod:for(1-33,1-37)", 
+    "mark(1-33,1-31)", 
+    "case(1-37,1-34)", 
+    "amod(1-37,1-35)", 
+    "nummod(1-37,1-36)", 
+    "cop(1-39,1-38)", 
+    "nsubj(1-39,1-30)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-a)", 
+    "pos(2-2,dt)", 
+    "word(2-3-new)", 
+    "pos(2-3,jj)", 
+    "word(2-4-car)", 
+    "pos(2-4,nn)", 
+    "word(2-5-battery)", 
+    "pos(2-5,nn)", 
+    "word(2-6-is)", 
+    "pos(2-6,vbz)", 
+    "word(2-7-still)", 
+    "pos(2-7,rb)", 
+    "word(2-8-working)", 
+    "pos(2-8,vbg)", 
+    "word(2-9-after)", 
+    "pos(2-9,in)", 
+    "word(2-10-10,000)", 
+    "pos(2-10,cd)", 
+    "word(2-11-miles)", 
+    "pos(2-11,nns)", 
+    "word(2-12-',')", 
+    "pos(2-12,',')", 
+    "word(2-13-what)", 
+    "pos(2-13,wp)", 
+    "word(2-14-is)", 
+    "pos(2-14,vbz)", 
+    "word(2-15-the)", 
+    "pos(2-15,dt)", 
+    "word(2-16-probability)", 
+    "pos(2-16,nn)", 
+    "word(2-17-that)", 
+    "pos(2-17,in)", 
+    "word(2-18-its)", 
+    "pos(2-18,prp)", 
+    "word(2-19-total)", 
+    "pos(2-19,jj)", 
+    "word(2-20-life)", 
+    "pos(2-20,nn)", 
+    "word(2-21-will)", 
+    "pos(2-21,md)", 
+    "word(2-22-exceed)", 
+    "pos(2-22,vb)", 
+    "word(2-23-20,000)", 
+    "pos(2-23,cd)", 
+    "word(2-24-miles)", 
+    "pos(2-24,nns)", 
+    "word(2-25-'?')", 
+    "pos(2-25,'.')", 
+    "amod(2-5,2-3)", 
+    "compound(2-5,2-4)", 
+    "det(2-5,2-2)", 
+    "nsubj(2-8,2-5)", 
+    "aux(2-8,2-6)", 
+    "advmod(2-8,2-7)", 
+    "nmod:after(2-8,2-11)", 
+    "mark(2-8,2-1)", 
+    "case(2-11,2-9)", 
+    "nummod(2-11,2-10)", 
+    "dep(2-13,2-8)", 
+    "cop(2-13,2-14)", 
+    "nsubj(2-13,2-16)", 
+    "dep(2-16,2-22)", 
+    "det(2-16,2-15)", 
+    "amod(2-20,2-19)", 
+    "nmod:poss(2-20,2-18)", 
+    "nsubj(2-22,2-20)", 
+    "aux(2-22,2-21)", 
+    "dobj(2-22,2-24)", 
+    "mark(2-22,2-17)", 
+    "nummod(2-24,2-23)"
+  ], 
+  "time_added": "2016-07-12T09:19:54.830000", 
+  "status": "skip"
+}

@@ -1,0 +1,439 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1032, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "member", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "members", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "math", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Math", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "club", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Club", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-9"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "secretary", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "secretary", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "treasurer", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "treasurer", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-3", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-4", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-7", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "position", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "positions", 
+        "key": "2-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-10", 
+              "2-13", 
+              "2-17"
+            ], 
+            "mention": "by_content", 
+            "number": "3"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "choose", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "president", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "president", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "60", 
+  "text": [
+    " There are five members of the Math Club.", 
+    " In how many ways can the positions of a president, a secretary, and a treasurer, be chosen?"
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-five)", 
+    "pos(1-3,cd)", 
+    "word(1-4-members)", 
+    "pos(1-4,nns)", 
+    "word(1-5-of)", 
+    "pos(1-5,in)", 
+    "word(1-6-the)", 
+    "pos(1-6,dt)", 
+    "word(1-7-math)", 
+    "pos(1-7,nnp)", 
+    "word(1-8-club)", 
+    "pos(1-8,nnp)", 
+    "word(1-9-'.')", 
+    "pos(1-9,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-4)", 
+    "nummod(1-4,1-3)", 
+    "nmod:of(1-4,1-8)", 
+    "case(1-8,1-5)", 
+    "det(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "word(2-1-in)", 
+    "pos(2-1,in)", 
+    "word(2-2-how)", 
+    "pos(2-2,wrb)", 
+    "word(2-3-many)", 
+    "pos(2-3,jj)", 
+    "word(2-4-ways)", 
+    "pos(2-4,nns)", 
+    "word(2-5-can)", 
+    "pos(2-5,md)", 
+    "word(2-6-the)", 
+    "pos(2-6,dt)", 
+    "word(2-7-positions)", 
+    "pos(2-7,nns)", 
+    "word(2-8-of)", 
+    "pos(2-8,in)", 
+    "word(2-9-a)", 
+    "pos(2-9,dt)", 
+    "word(2-10-president)", 
+    "pos(2-10,nn)", 
+    "word(2-11-',')", 
+    "pos(2-11,',')", 
+    "word(2-12-a)", 
+    "pos(2-12,dt)", 
+    "word(2-13-secretary)", 
+    "pos(2-13,nn)", 
+    "word(2-14-',')", 
+    "pos(2-14,',')", 
+    "word(2-15-and)", 
+    "pos(2-15,cc)", 
+    "word(2-16-a)", 
+    "pos(2-16,dt)", 
+    "word(2-17-treasurer)", 
+    "pos(2-17,nn)", 
+    "word(2-18-',')", 
+    "pos(2-18,',')", 
+    "word(2-19-be)", 
+    "pos(2-19,vb)", 
+    "word(2-20-chosen)", 
+    "pos(2-20,vbn)", 
+    "word(2-21-'?')", 
+    "pos(2-21,'.')", 
+    "advmod(2-3,2-2)", 
+    "amod(2-4,2-3)", 
+    "case(2-4,2-1)", 
+    "det(2-7,2-6)", 
+    "nmod:of(2-7,2-10)", 
+    "nmod:of(2-7,2-13)", 
+    "nmod:of(2-7,2-17)", 
+    "case(2-10,2-8)", 
+    "det(2-10,2-9)", 
+    "conj:and(2-10,2-13)", 
+    "cc(2-10,2-15)", 
+    "conj:and(2-10,2-17)", 
+    "det(2-13,2-12)", 
+    "det(2-17,2-16)", 
+    "auxpass(2-20,2-19)", 
+    "nmod:in(2-20,2-4)", 
+    "aux(2-20,2-5)", 
+    "nsubjpass(2-20,2-7)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-10T11:33:19.684000", 
+  "status": "done"
+}

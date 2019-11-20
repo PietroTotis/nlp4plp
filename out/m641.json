@@ -1,0 +1,311 @@
+{
+  "owner": "monica", 
+  "ex_id": 641, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "assortment", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "assortment", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "15", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "15", 
+        "corenlp": {
+          "number": 15
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "topping", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "toppings", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": "15"
+          }
+        }, 
+        "key": "1-18", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": "15"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-4", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-18", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-8", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "top", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "VBG", 
+        "text": "topping", 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "pizza", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "pizzas", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-10"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/1133105068_339606.pdf", 
+  "original_text": [
+    " Number of different three-topping pizzas that can be made from an assortment of 15 different toppings"
+  ], 
+  "solution": "455", 
+  "text": [
+    " In how many ways can three different topping pizzas be made from an assortment of 15 different toppings?"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-how)", 
+    "pos(1-2,wrb)", 
+    "word(1-3-many)", 
+    "pos(1-3,jj)", 
+    "word(1-4-ways)", 
+    "pos(1-4,nns)", 
+    "word(1-5-can)", 
+    "pos(1-5,md)", 
+    "word(1-6-three)", 
+    "pos(1-6,cd)", 
+    "word(1-7-different)", 
+    "pos(1-7,jj)", 
+    "word(1-8-topping)", 
+    "pos(1-8,vbg)", 
+    "word(1-9-pizzas)", 
+    "pos(1-9,nns)", 
+    "word(1-10-be)", 
+    "pos(1-10,vb)", 
+    "word(1-11-made)", 
+    "pos(1-11,vbn)", 
+    "word(1-12-from)", 
+    "pos(1-12,in)", 
+    "word(1-13-an)", 
+    "pos(1-13,dt)", 
+    "word(1-14-assortment)", 
+    "pos(1-14,nn)", 
+    "word(1-15-of)", 
+    "pos(1-15,in)", 
+    "word(1-16-15)", 
+    "pos(1-16,cd)", 
+    "word(1-17-different)", 
+    "pos(1-17,jj)", 
+    "word(1-18-toppings)", 
+    "pos(1-18,nns)", 
+    "word(1-19-'?')", 
+    "pos(1-19,'.')", 
+    "advmod(1-3,1-2)", 
+    "case(1-4,1-1)", 
+    "amod(1-4,1-3)", 
+    "amod(1-6,1-7)", 
+    "dep(1-7,1-8)", 
+    "dobj(1-8,1-9)", 
+    "nmod:in(1-11,1-4)", 
+    "aux(1-11,1-5)", 
+    "nsubjpass(1-11,1-6)", 
+    "auxpass(1-11,1-10)", 
+    "nmod:from(1-11,1-14)", 
+    "nmod:of(1-14,1-18)", 
+    "case(1-14,1-12)", 
+    "det(1-14,1-13)", 
+    "nummod(1-18,1-16)", 
+    "amod(1-18,1-17)", 
+    "case(1-18,1-15)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-05T15:33:30.994000", 
+  "status": "done"
+}

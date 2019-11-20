@@ -1,0 +1,306 @@
+{
+  "owner": "monica", 
+  "ex_id": 789, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "runner", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "runners", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "compete", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "competing", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "race", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "race", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "race", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "race", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "end", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "end", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-15"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "no", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "no", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "tie", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ties", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "STATISTICS AND. PROBABILITY. CLAST MATHEMATICS COMPETENCIES. Houghton Mifflin Company.", 
+  "text": [
+    " Five runners are competing in a race.", 
+    " If there are no ties, in how many ways can the race end?"
+  ], 
+  "corenlp": [
+    "word(1-1-five)", 
+    "pos(1-1,cd)", 
+    "word(1-2-runners)", 
+    "pos(1-2,nns)", 
+    "word(1-3-are)", 
+    "pos(1-3,vbp)", 
+    "word(1-4-competing)", 
+    "pos(1-4,vbg)", 
+    "word(1-5-in)", 
+    "pos(1-5,in)", 
+    "word(1-6-a)", 
+    "pos(1-6,dt)", 
+    "word(1-7-race)", 
+    "pos(1-7,nn)", 
+    "word(1-8-'.')", 
+    "pos(1-8,'.')", 
+    "nummod(1-2,1-1)", 
+    "nsubj(1-4,1-2)", 
+    "aux(1-4,1-3)", 
+    "nmod:in(1-4,1-7)", 
+    "case(1-7,1-5)", 
+    "det(1-7,1-6)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-there)", 
+    "pos(2-2,ex)", 
+    "word(2-3-are)", 
+    "pos(2-3,vbp)", 
+    "word(2-4-no)", 
+    "pos(2-4,dt)", 
+    "word(2-5-ties)", 
+    "pos(2-5,nns)", 
+    "word(2-6-',')", 
+    "pos(2-6,',')", 
+    "word(2-7-in)", 
+    "pos(2-7,in)", 
+    "word(2-8-how)", 
+    "pos(2-8,wrb)", 
+    "word(2-9-many)", 
+    "pos(2-9,jj)", 
+    "word(2-10-ways)", 
+    "pos(2-10,nns)", 
+    "word(2-11-can)", 
+    "pos(2-11,md)", 
+    "word(2-12-the)", 
+    "pos(2-12,dt)", 
+    "word(2-13-race)", 
+    "pos(2-13,nn)", 
+    "word(2-14-end)", 
+    "pos(2-14,nn)", 
+    "word(2-15-'?')", 
+    "pos(2-15,'.')", 
+    "nsubj(2-3,2-5)", 
+    "mark(2-3,2-1)", 
+    "expl(2-3,2-2)", 
+    "neg(2-5,2-4)", 
+    "acl:relcl(2-5,2-11)", 
+    "advmod(2-9,2-8)", 
+    "case(2-10,2-7)", 
+    "amod(2-10,2-9)", 
+    "dep(2-11,2-10)", 
+    "nsubj(2-11,2-14)", 
+    "det(2-14,2-12)", 
+    "compound(2-14,2-13)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-09T13:27:57.972000", 
+  "status": "later"
+}

@@ -1,0 +1,544 @@
+{
+  "owner": "monica", 
+  "ex_id": 718, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "six", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "distinct", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "distinct", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "numbers", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "numbers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-14", 
+              "1-15", 
+              "1-16", 
+              "1-17"
+            ], 
+            "mention": "by_content", 
+            "number": "46"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "from", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "1", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "46", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "46", 
+        "corenlp": {
+          "number": 46
+        }, 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "massachusetts", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Massachusetts", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "cash", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Cash", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "WinFall", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "WinFall", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "game", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "game", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "player", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "player", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "choose", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "chooses", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "numbers", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "numbers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "2-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-4", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "is_question_size": true, 
+          "role_arg": "1-13", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-11", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "player", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "player", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "select", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "six", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "order", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "selection", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "selection", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "not", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "not", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "important", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "important", 
+        "key": "3-7"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/1133105068_339606.pdf", 
+  "solution": "9366819", 
+  "text": [
+    " In Massachusetts 's Cash WinFall game, a player chooses six distinct numbers from 1 to 46.", 
+    " In how many ways can a player select the six numbers?", 
+    " The order of selection is not important"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-massachusetts)", 
+    "pos(1-2,nnp)", 
+    "word(1-3-\"'s\")", 
+    "pos(1-3,pos)", 
+    "word(1-4-cash)", 
+    "pos(1-4,nnp)", 
+    "word(1-5-winfall)", 
+    "pos(1-5,nnp)", 
+    "word(1-6-game)", 
+    "pos(1-6,nn)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-a)", 
+    "pos(1-8,dt)", 
+    "word(1-9-player)", 
+    "pos(1-9,nn)", 
+    "word(1-10-chooses)", 
+    "pos(1-10,vbz)", 
+    "word(1-11-six)", 
+    "pos(1-11,cd)", 
+    "word(1-12-distinct)", 
+    "pos(1-12,jj)", 
+    "word(1-13-numbers)", 
+    "pos(1-13,nns)", 
+    "word(1-14-from)", 
+    "pos(1-14,in)", 
+    "word(1-15-1)", 
+    "pos(1-15,cd)", 
+    "word(1-16-to)", 
+    "pos(1-16,to)", 
+    "word(1-17-46)", 
+    "pos(1-17,cd)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "case(1-2,1-3)", 
+    "case(1-6,1-1)", 
+    "nmod:poss(1-6,1-2)", 
+    "compound(1-6,1-4)", 
+    "compound(1-6,1-5)", 
+    "det(1-9,1-8)", 
+    "nmod:from(1-10,1-17)", 
+    "nmod:in(1-10,1-6)", 
+    "nsubj(1-10,1-9)", 
+    "dobj(1-10,1-13)", 
+    "nummod(1-13,1-11)", 
+    "amod(1-13,1-12)", 
+    "dep(1-17,1-16)", 
+    "case(1-17,1-14)", 
+    "compound(1-17,1-15)", 
+    "word(2-1-in)", 
+    "pos(2-1,in)", 
+    "word(2-2-how)", 
+    "pos(2-2,wrb)", 
+    "word(2-3-many)", 
+    "pos(2-3,jj)", 
+    "word(2-4-ways)", 
+    "pos(2-4,nns)", 
+    "word(2-5-can)", 
+    "pos(2-5,md)", 
+    "word(2-6-a)", 
+    "pos(2-6,dt)", 
+    "word(2-7-player)", 
+    "pos(2-7,nn)", 
+    "word(2-8-select)", 
+    "pos(2-8,vb)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-six)", 
+    "pos(2-10,cd)", 
+    "word(2-11-numbers)", 
+    "pos(2-11,nns)", 
+    "word(2-12-'?')", 
+    "pos(2-12,'.')", 
+    "advmod(2-3,2-2)", 
+    "amod(2-4,2-3)", 
+    "case(2-4,2-1)", 
+    "det(2-7,2-6)", 
+    "nmod:in(2-8,2-4)", 
+    "aux(2-8,2-5)", 
+    "nsubj(2-8,2-7)", 
+    "dobj(2-8,2-11)", 
+    "det(2-11,2-9)", 
+    "nummod(2-11,2-10)", 
+    "word(3-1-the)", 
+    "pos(3-1,dt)", 
+    "word(3-2-order)", 
+    "pos(3-2,nn)", 
+    "word(3-3-of)", 
+    "pos(3-3,in)", 
+    "word(3-4-selection)", 
+    "pos(3-4,nn)", 
+    "word(3-5-is)", 
+    "pos(3-5,vbz)", 
+    "word(3-6-not)", 
+    "pos(3-6,rb)", 
+    "word(3-7-important)", 
+    "pos(3-7,jj)", 
+    "neg(3-7,3-6)", 
+    "nsubj(3-7,3-2)", 
+    "cop(3-7,3-5)", 
+    "det(3-2,3-1)", 
+    "nmod:of(3-2,3-4)", 
+    "case(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T15:27:36.575000", 
+  "status": "done"
+}

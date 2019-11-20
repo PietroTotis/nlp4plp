@@ -1,0 +1,476 @@
+{
+  "owner": "hannah", 
+  "ex_id": 21, 
+  "note": "", 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "people", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-4", 
+        "group": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "room", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "room", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "each", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "other", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "other", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "bench", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bench", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "where", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "where", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "3", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "people", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "2-7", 
+        "group": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "can", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "sit", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "sit", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "next", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "next", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "find", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Find", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "number", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "number", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "di\ufb00erent", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "di\ufb00erent", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "possibility", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "possibilities", 
+        "key": "3-6", 
+        "group": {
+          "role": "assignment of", 
+          "role_arg": {
+            "name": "1-4-people", 
+            "id": "1-4"
+          }, 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": {
+            "name": "2-7-people", 
+            "id": "2-7"
+          }, 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "sit", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "sit", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "down", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "down", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "Exercises from class", 
+  "solution": "60", 
+  "text": [
+    " There are 5 people in a room.", 
+    " There is a bench where 3 people can sit next to each other.", 
+    " Find the number of di\ufb00erent possibilities to sit down."
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1-there,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2-are,vbp)", 
+    "word(1-3-5)", 
+    "pos(1-3-5,cd)", 
+    "word(1-4-people)", 
+    "pos(1-4-people,nns)", 
+    "word(1-5-in)", 
+    "pos(1-5-in,in)", 
+    "word(1-6-a)", 
+    "pos(1-6-a,dt)", 
+    "word(1-7-room)", 
+    "pos(1-7-room,nn)", 
+    "word(1-8-'.')", 
+    "pos(1-8-'.','.')", 
+    "expl(1-2-are,1-1-there)", 
+    "nsubj(1-2-are,1-4-people)", 
+    "punct(1-2-are,1-8-'.')", 
+    "nummod(1-4-people,1-3-5)", 
+    "nmod:in(1-4-people,1-7-room)", 
+    "case(1-7-room,1-5-in)", 
+    "det(1-7-room,1-6-a)", 
+    "word(2-1-there)", 
+    "pos(2-1-there,ex)", 
+    "word(2-2-is)", 
+    "pos(2-2-is,vbz)", 
+    "word(2-3-a)", 
+    "pos(2-3-a,dt)", 
+    "word(2-4-bench)", 
+    "pos(2-4-bench,nn)", 
+    "word(2-5-where)", 
+    "pos(2-5-where,wrb)", 
+    "word(2-6-3)", 
+    "pos(2-6-3,cd)", 
+    "word(2-7-people)", 
+    "pos(2-7-people,nns)", 
+    "word(2-8-can)", 
+    "pos(2-8-can,md)", 
+    "word(2-9-sit)", 
+    "pos(2-9-sit,vb)", 
+    "word(2-10-next)", 
+    "pos(2-10-next,jj)", 
+    "word(2-11-to)", 
+    "pos(2-11-to,to)", 
+    "word(2-12-each)", 
+    "pos(2-12-each,dt)", 
+    "word(2-13-other)", 
+    "pos(2-13-other,jj)", 
+    "word(2-14-'.')", 
+    "pos(2-14-'.','.')", 
+    "det(2-4-bench,2-3-a)", 
+    "acl:relcl(2-4-bench,2-9-sit)", 
+    "nummod(2-7-people,2-6-3)", 
+    "advmod(2-9-sit,2-5-where)", 
+    "nsubj(2-9-sit,2-7-people)", 
+    "aux(2-9-sit,2-8-can)", 
+    "advmod(2-9-sit,2-10-next)", 
+    "nmod:to(2-9-sit,2-13-other)", 
+    "case(2-13-other,2-11-to)", 
+    "det(2-13-other,2-12-each)", 
+    "nsubj(2-2-is,2-4-bench)", 
+    "punct(2-2-is,2-14-'.')", 
+    "expl(2-2-is,2-1-there)", 
+    "word(3-1-find)", 
+    "pos(3-1-find,vb)", 
+    "word(3-2-the)", 
+    "pos(3-2-the,dt)", 
+    "word(3-3-number)", 
+    "pos(3-3-number,nn)", 
+    "word(3-4-of)", 
+    "pos(3-4-of,in)", 
+    "word(3-5-different)", 
+    "pos(3-5-different,jj)", 
+    "word(3-6-possibilities)", 
+    "pos(3-6-possibilities,nns)", 
+    "word(3-7-to)", 
+    "pos(3-7-to,to)", 
+    "word(3-8-sit)", 
+    "pos(3-8-sit,vb)", 
+    "word(3-9-down)", 
+    "pos(3-9-down,rp)", 
+    "word(3-10-'.')", 
+    "pos(3-10-'.','.')", 
+    "case(3-6-possibilities,3-4-of)", 
+    "amod(3-6-possibilities,3-5-different)", 
+    "mark(3-8-sit,3-7-to)", 
+    "compound:prt(3-8-sit,3-9-down)", 
+    "advcl(3-1-find,3-8-sit)", 
+    "punct(3-1-find,3-10-'.')", 
+    "dobj(3-1-find,3-3-number)", 
+    "nmod:of(3-3-number,3-6-possibilities)", 
+    "det(3-3-number,3-2-the)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-05T10:19:08.135000", 
+  "status": "done"
+}

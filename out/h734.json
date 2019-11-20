@@ -1,0 +1,872 @@
+{
+  "owner": "hannah", 
+  "ex_id": 734, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "cooking", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "cooking", 
+        "key": "1-11"
+      }, 
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "chips", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "chips", 
+        "key": "1-22"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "time", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "time", 
+        "key": "1-12"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-23"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "type", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "type", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "cooking", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "cooking", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "oil", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "oil", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "manufacturer", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "manufacturer", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "study", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "studying", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "effects", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "effects", 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "cooking", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "cooking", 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "temperature", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "temperature", 
+        "key": "1-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "making", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "potato", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "potato", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "3", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "oil", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "oil"
+        }, 
+        "text": "oils", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-11"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "2-13", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "2-11"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "2-13"
+          ]
+        }
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "use", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "used", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-18"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "three", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "temperature", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "temperature"
+        }, 
+        "text": "temperatures", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "2-3", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "2-3"
+          ]
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "4", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "cooking", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "cooking", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "times", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "times"
+        }, 
+        "text": "times", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "2-8", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "2-8"
+          ]
+        }
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-11"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "total", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "total", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "number", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "number", 
+        "key": "3-5", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": {
+                    "reqnum": true, 
+                    "number": "1", 
+                    "children": 1, 
+                    "name": "exactly", 
+                    "id": "=="
+                  }, 
+                  "child": {
+                    "choice": "oil"
+                  }
+                }, 
+                "child1": {
+                  "child2": {
+                    "choice": {
+                      "reqnum": true, 
+                      "number": "1", 
+                      "children": 1, 
+                      "name": "exactly", 
+                      "id": "=="
+                    }, 
+                    "child": {
+                      "choice": "times"
+                    }
+                  }, 
+                  "child1": {
+                    "choice": {
+                      "reqnum": true, 
+                      "number": "1", 
+                      "children": 1, 
+                      "name": "exactly", 
+                      "id": "=="
+                    }, 
+                    "child": {
+                      "choice": "temperature"
+                    }
+                  }, 
+                  "choice": {
+                    "children": 2, 
+                    "name": "and", 
+                    "id": "and"
+                  }
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "1-6", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "3-7", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "combination", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "combinations", 
+        "key": "3-7", 
+        "group": {
+          "role": "root", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-6", 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "study", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "studied", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "Probability and Statistics for Engineers and Scientists - Walpole", 
+  "solution": "36", 
+  "text": [
+    " A manufacturer is studying the effects of cooking temperature, cooking time, and type of cooking oil for making potato chips.", 
+    " Three different temperatures, 4 different cooking times, and 3 different oils are to be used.", 
+    " What is the total number of combinations to be studied?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-manufacturer)", 
+    "pos(1-2,nn)", 
+    "word(1-3-is)", 
+    "pos(1-3,vbz)", 
+    "word(1-4-studying)", 
+    "pos(1-4,vbg)", 
+    "word(1-5-the)", 
+    "pos(1-5,dt)", 
+    "word(1-6-effects)", 
+    "pos(1-6,nns)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-cooking)", 
+    "pos(1-8,nn)", 
+    "word(1-9-temperature)", 
+    "pos(1-9,nn)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-cooking)", 
+    "pos(1-11,jj)", 
+    "word(1-12-time)", 
+    "pos(1-12,nn)", 
+    "word(1-13-',')", 
+    "pos(1-13,',')", 
+    "word(1-14-and)", 
+    "pos(1-14,cc)", 
+    "word(1-15-type)", 
+    "pos(1-15,nn)", 
+    "word(1-16-of)", 
+    "pos(1-16,in)", 
+    "word(1-17-cooking)", 
+    "pos(1-17,jj)", 
+    "word(1-18-oil)", 
+    "pos(1-18,nn)", 
+    "word(1-19-for)", 
+    "pos(1-19,in)", 
+    "word(1-20-making)", 
+    "pos(1-20,vbg)", 
+    "word(1-21-potato)", 
+    "pos(1-21,nn)", 
+    "word(1-22-chips)", 
+    "pos(1-22,nns)", 
+    "word(1-23-'.')", 
+    "pos(1-23,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-4,1-2)", 
+    "aux(1-4,1-3)", 
+    "advcl(1-4,1-20)", 
+    "dobj(1-4,1-6)", 
+    "det(1-6,1-5)", 
+    "nmod:of(1-6,1-9)", 
+    "nmod:of(1-6,1-12)", 
+    "nmod:of(1-6,1-15)", 
+    "case(1-9,1-7)", 
+    "compound(1-9,1-8)", 
+    "conj:and(1-9,1-12)", 
+    "cc(1-9,1-14)", 
+    "conj:and(1-9,1-15)", 
+    "amod(1-12,1-11)", 
+    "nmod:of(1-15,1-18)", 
+    "case(1-18,1-16)", 
+    "amod(1-18,1-17)", 
+    "mark(1-20,1-19)", 
+    "dobj(1-20,1-22)", 
+    "compound(1-22,1-21)", 
+    "word(2-1-three)", 
+    "pos(2-1,cd)", 
+    "word(2-2-different)", 
+    "pos(2-2,jj)", 
+    "word(2-3-temperatures)", 
+    "pos(2-3,nns)", 
+    "word(2-4-',')", 
+    "pos(2-4,',')", 
+    "word(2-5-4)", 
+    "pos(2-5,cd)", 
+    "word(2-6-different)", 
+    "pos(2-6,jj)", 
+    "word(2-7-cooking)", 
+    "pos(2-7,jj)", 
+    "word(2-8-times)", 
+    "pos(2-8,nns)", 
+    "word(2-9-',')", 
+    "pos(2-9,',')", 
+    "word(2-10-and)", 
+    "pos(2-10,cc)", 
+    "word(2-11-3)", 
+    "pos(2-11,cd)", 
+    "word(2-12-different)", 
+    "pos(2-12,jj)", 
+    "word(2-13-oils)", 
+    "pos(2-13,nns)", 
+    "word(2-14-are)", 
+    "pos(2-14,vbp)", 
+    "word(2-15-to)", 
+    "pos(2-15,to)", 
+    "word(2-16-be)", 
+    "pos(2-16,vb)", 
+    "word(2-17-used)", 
+    "pos(2-17,vbn)", 
+    "word(2-18-'.')", 
+    "pos(2-18,'.')", 
+    "conj:and(2-3,2-8)", 
+    "cc(2-3,2-10)", 
+    "conj:and(2-3,2-13)", 
+    "nummod(2-3,2-1)", 
+    "amod(2-3,2-2)", 
+    "nummod(2-8,2-5)", 
+    "amod(2-8,2-6)", 
+    "amod(2-8,2-7)", 
+    "nummod(2-13,2-11)", 
+    "amod(2-13,2-12)", 
+    "nsubj(2-14,2-3)", 
+    "nsubj(2-14,2-8)", 
+    "nsubj(2-14,2-13)", 
+    "xcomp(2-14,2-17)", 
+    "mark(2-17,2-15)", 
+    "auxpass(2-17,2-16)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-total)", 
+    "pos(3-4,jj)", 
+    "word(3-5-number)", 
+    "pos(3-5,nn)", 
+    "word(3-6-of)", 
+    "pos(3-6,in)", 
+    "word(3-7-combinations)", 
+    "pos(3-7,nns)", 
+    "word(3-8-to)", 
+    "pos(3-8,to)", 
+    "word(3-9-be)", 
+    "pos(3-9,vb)", 
+    "word(3-10-studied)", 
+    "pos(3-10,vbn)", 
+    "word(3-11-'?')", 
+    "pos(3-11,'.')", 
+    "case(3-7,3-6)", 
+    "acl(3-7,3-10)", 
+    "mark(3-10,3-8)", 
+    "auxpass(3-10,3-9)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-5)", 
+    "nmod:of(3-5,3-7)", 
+    "det(3-5,3-3)", 
+    "amod(3-5,3-4)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-01T16:46:25.749000", 
+  "status": "done"
+}

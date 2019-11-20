@@ -1,0 +1,724 @@
+{
+  "owner": "hannah", 
+  "ex_id": 425, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "respectively", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "respectively", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "1/1", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1/1", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "3/6", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3/6", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-26"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "india", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "India", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "pakistan", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Pakistan", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "india", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "India", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "win", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "winning", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "series", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "series", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "one-day", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "one-day", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "cricket", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "cricket", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "match", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "matches", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "between", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "between", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "draw", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "drawing", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "score", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "score", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "5", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "point", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "points", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-24"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "series", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "series", 
+        "key": "2-28"
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 29, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-29"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "0", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0", 
+        "corenlp": {
+          "number": 0
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "or", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "1", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "point", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "point", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-13"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }
+        }, 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "respectively", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "respectively", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "then", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "find", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "win", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "win", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "loss", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "loss", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "or", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "draw", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "give", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "gives", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "2", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "india", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "India", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "alphanumeric.in", 
+  "original_text": [
+    " In a series of five one-day cricket matches between India and Pakistan, the probability of India winning or drawing are respectively 1 1 and 3 6.", 
+    " If a win, loss or draw gives 2, 0 or 1 point respectively then find the probability that India will score 5 points in the series."
+  ], 
+  "solution": "504/(6^6)", 
+  "text": [
+    " In a series of five one-day cricket matches between India and Pakistan, the probability of India winning or drawing are respectively 1/1 and 3/6.", 
+    " If a win, loss or draw gives 2, 0 or 1 point respectively then find the probability that India will score 5 points in the series."
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-series)", 
+    "pos(1-3,nn)", 
+    "word(1-4-of)", 
+    "pos(1-4,in)", 
+    "word(1-5-five)", 
+    "pos(1-5,cd)", 
+    "word(1-6-one-day)", 
+    "pos(1-6,jj)", 
+    "word(1-7-cricket)", 
+    "pos(1-7,nn)", 
+    "word(1-8-matches)", 
+    "pos(1-8,nns)", 
+    "word(1-9-between)", 
+    "pos(1-9,in)", 
+    "word(1-10-india)", 
+    "pos(1-10,nnp)", 
+    "word(1-11-and)", 
+    "pos(1-11,cc)", 
+    "word(1-12-pakistan)", 
+    "pos(1-12,nnp)", 
+    "word(1-13-',')", 
+    "pos(1-13,',')", 
+    "word(1-14-the)", 
+    "pos(1-14,dt)", 
+    "word(1-15-probability)", 
+    "pos(1-15,nn)", 
+    "word(1-16-of)", 
+    "pos(1-16,in)", 
+    "word(1-17-india)", 
+    "pos(1-17,nnp)", 
+    "word(1-18-winning)", 
+    "pos(1-18,vbg)", 
+    "word(1-19-or)", 
+    "pos(1-19,cc)", 
+    "word(1-20-drawing)", 
+    "pos(1-20,vbg)", 
+    "word(1-21-are)", 
+    "pos(1-21,vbp)", 
+    "word(1-22-respectively)", 
+    "pos(1-22,rb)", 
+    "word(1-23-1/1)", 
+    "pos(1-23,cd)", 
+    "word(1-24-and)", 
+    "pos(1-24,cc)", 
+    "word(1-25-3/6)", 
+    "pos(1-25,cd)", 
+    "word(1-26-'.')", 
+    "pos(1-26,'.')", 
+    "case(1-3,1-1)", 
+    "det(1-3,1-2)", 
+    "nmod:of(1-3,1-8)", 
+    "case(1-8,1-4)", 
+    "nummod(1-8,1-5)", 
+    "amod(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "nmod:between(1-8,1-10)", 
+    "nmod:between(1-8,1-12)", 
+    "case(1-10,1-9)", 
+    "cc(1-10,1-11)", 
+    "conj:and(1-10,1-12)", 
+    "nmod:of(1-15,1-17)", 
+    "det(1-15,1-14)", 
+    "case(1-17,1-16)", 
+    "acl(1-17,1-18)", 
+    "acl(1-17,1-20)", 
+    "cc(1-18,1-19)", 
+    "conj:or(1-18,1-20)", 
+    "nmod:in(1-23,1-3)", 
+    "cop(1-23,1-21)", 
+    "advmod(1-23,1-22)", 
+    "cc(1-23,1-24)", 
+    "conj:and(1-23,1-25)", 
+    "nsubj(1-23,1-15)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-a)", 
+    "pos(2-2,dt)", 
+    "word(2-3-win)", 
+    "pos(2-3,vbp)", 
+    "word(2-4-',')", 
+    "pos(2-4,',')", 
+    "word(2-5-loss)", 
+    "pos(2-5,nn)", 
+    "word(2-6-or)", 
+    "pos(2-6,cc)", 
+    "word(2-7-draw)", 
+    "pos(2-7,nn)", 
+    "word(2-8-gives)", 
+    "pos(2-8,vbz)", 
+    "word(2-9-2)", 
+    "pos(2-9,cd)", 
+    "word(2-10-',')", 
+    "pos(2-10,',')", 
+    "word(2-11-0)", 
+    "pos(2-11,cd)", 
+    "word(2-12-or)", 
+    "pos(2-12,cc)", 
+    "word(2-13-1)", 
+    "pos(2-13,cd)", 
+    "word(2-14-point)", 
+    "pos(2-14,nn)", 
+    "word(2-15-respectively)", 
+    "pos(2-15,rb)", 
+    "word(2-16-then)", 
+    "pos(2-16,rb)", 
+    "word(2-17-find)", 
+    "pos(2-17,vb)", 
+    "word(2-18-the)", 
+    "pos(2-18,dt)", 
+    "word(2-19-probability)", 
+    "pos(2-19,nn)", 
+    "word(2-20-that)", 
+    "pos(2-20,in)", 
+    "word(2-21-india)", 
+    "pos(2-21,nnp)", 
+    "word(2-22-will)", 
+    "pos(2-22,md)", 
+    "word(2-23-score)", 
+    "pos(2-23,vb)", 
+    "word(2-24-5)", 
+    "pos(2-24,cd)", 
+    "word(2-25-points)", 
+    "pos(2-25,nns)", 
+    "word(2-26-in)", 
+    "pos(2-26,in)", 
+    "word(2-27-the)", 
+    "pos(2-27,dt)", 
+    "word(2-28-series)", 
+    "pos(2-28,nn)", 
+    "word(2-29-'.')", 
+    "pos(2-29,'.')", 
+    "mark(2-3,2-1)", 
+    "nsubj(2-3,2-2)", 
+    "cc(2-5,2-6)", 
+    "conj:or(2-5,2-7)", 
+    "advcl(2-8,2-3)", 
+    "nsubj(2-8,2-5)", 
+    "nsubj(2-8,2-7)", 
+    "ccomp(2-8,2-17)", 
+    "conj:or(2-9,2-11)", 
+    "cc(2-9,2-12)", 
+    "conj:or(2-9,2-14)", 
+    "nummod(2-14,2-13)", 
+    "dobj(2-17,2-19)", 
+    "nsubj(2-17,2-9)", 
+    "nsubj(2-17,2-11)", 
+    "nsubj(2-17,2-14)", 
+    "advmod(2-17,2-15)", 
+    "advmod(2-17,2-16)", 
+    "dep(2-19,2-23)", 
+    "det(2-19,2-18)", 
+    "mark(2-23,2-20)", 
+    "nsubj(2-23,2-21)", 
+    "aux(2-23,2-22)", 
+    "dobj(2-23,2-25)", 
+    "nummod(2-25,2-24)", 
+    "nmod:in(2-25,2-28)", 
+    "case(2-28,2-26)", 
+    "det(2-28,2-27)"
+  ], 
+  "time_added": "2016-07-19T11:28:31.494000", 
+  "status": "skip"
+}

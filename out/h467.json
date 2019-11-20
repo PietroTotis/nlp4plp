@@ -1,0 +1,938 @@
+{
+  "owner": "hannah", 
+  "ex_id": 467, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "they", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "favor", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "favor", 
+          "class": "policy"
+        }, 
+        "text": "favor", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "certain", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "certain", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "company", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "company", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "policy", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "policy", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-17"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "survey", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "survey", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "85", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "85", 
+        "corenlp": {
+          "number": 85
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "85"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-9", 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": "85/100"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-12"
+          ]
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "employee", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "employees", 
+        "key": "1-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "say", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "say", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "fear", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "fear", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "reprisal", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "reprisal", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-25"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "do", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "do", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "not", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "not", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "favor", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "favor", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "policy", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "policy", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "say", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "say", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "they", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "do", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "do", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "previous", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "Previous", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "experience", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "experience", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "indicate", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "indicates", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "20", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "percent", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }
+        }, 
+        "key": "2-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "those", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "those", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "who", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "out", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "out", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "really", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "really", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "do", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "does", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "favor", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "favor", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "company", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "company", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "policy", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "policy", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-17"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "an", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "employee", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "employee", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "pick", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "picked", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "random", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "so", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "so", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "4-12"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "it", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "It", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "reasonable", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "reasonable", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "to", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "assume", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "assume", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "all", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "all", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "who", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "favor", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "favor", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "say", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "say", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "Applied Probability by Paul Pfeiffer", 
+  "solution": "13/16", 
+  "text": [
+    " In a survey, 85 percent of the employees say they favor a certain company policy.", 
+    " Previous experience indicates that 20 percent of those who do not favor the policy say that they do, out of fear of reprisal.", 
+    " What is the probability that an employee picked at random really does favor the company policy?", 
+    " It is reasonable to assume that all who favor say so."
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-a)", 
+    "pos(1-2,dt)", 
+    "word(1-3-survey)", 
+    "pos(1-3,nn)", 
+    "word(1-4-',')", 
+    "pos(1-4,',')", 
+    "word(1-5-85)", 
+    "pos(1-5,cd)", 
+    "word(1-6-percent)", 
+    "pos(1-6,nn)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-the)", 
+    "pos(1-8,dt)", 
+    "word(1-9-employees)", 
+    "pos(1-9,nns)", 
+    "word(1-10-say)", 
+    "pos(1-10,vbp)", 
+    "word(1-11-they)", 
+    "pos(1-11,prp)", 
+    "word(1-12-favor)", 
+    "pos(1-12,vbp)", 
+    "word(1-13-a)", 
+    "pos(1-13,dt)", 
+    "word(1-14-certain)", 
+    "pos(1-14,jj)", 
+    "word(1-15-company)", 
+    "pos(1-15,nn)", 
+    "word(1-16-policy)", 
+    "pos(1-16,nn)", 
+    "word(1-17-'.')", 
+    "pos(1-17,'.')", 
+    "case(1-3,1-1)", 
+    "det(1-3,1-2)", 
+    "nummod(1-6,1-5)", 
+    "nmod:of(1-6,1-9)", 
+    "case(1-9,1-7)", 
+    "det(1-9,1-8)", 
+    "nmod:in(1-10,1-3)", 
+    "nsubj(1-10,1-6)", 
+    "ccomp(1-10,1-12)", 
+    "dobj(1-12,1-16)", 
+    "nsubj(1-12,1-11)", 
+    "det(1-16,1-13)", 
+    "amod(1-16,1-14)", 
+    "compound(1-16,1-15)", 
+    "word(2-1-previous)", 
+    "pos(2-1,jj)", 
+    "word(2-2-experience)", 
+    "pos(2-2,nn)", 
+    "word(2-3-indicates)", 
+    "pos(2-3,vbz)", 
+    "word(2-4-that)", 
+    "pos(2-4,in)", 
+    "word(2-5-20)", 
+    "pos(2-5,cd)", 
+    "word(2-6-percent)", 
+    "pos(2-6,nn)", 
+    "word(2-7-of)", 
+    "pos(2-7,in)", 
+    "word(2-8-those)", 
+    "pos(2-8,dt)", 
+    "word(2-9-who)", 
+    "pos(2-9,wp)", 
+    "word(2-10-do)", 
+    "pos(2-10,vbp)", 
+    "word(2-11-not)", 
+    "pos(2-11,rb)", 
+    "word(2-12-favor)", 
+    "pos(2-12,vb)", 
+    "word(2-13-the)", 
+    "pos(2-13,dt)", 
+    "word(2-14-policy)", 
+    "pos(2-14,nn)", 
+    "word(2-15-say)", 
+    "pos(2-15,vbp)", 
+    "word(2-16-that)", 
+    "pos(2-16,in)", 
+    "word(2-17-they)", 
+    "pos(2-17,prp)", 
+    "word(2-18-do)", 
+    "pos(2-18,vbp)", 
+    "word(2-19-',')", 
+    "pos(2-19,',')", 
+    "word(2-20-out)", 
+    "pos(2-20,in)", 
+    "word(2-21-of)", 
+    "pos(2-21,in)", 
+    "word(2-22-fear)", 
+    "pos(2-22,nn)", 
+    "word(2-23-of)", 
+    "pos(2-23,in)", 
+    "word(2-24-reprisal)", 
+    "pos(2-24,nn)", 
+    "word(2-25-'.')", 
+    "pos(2-25,'.')", 
+    "amod(2-2,2-1)", 
+    "ccomp(2-3,2-15)", 
+    "nsubj(2-3,2-2)", 
+    "nummod(2-6,2-5)", 
+    "nmod:of(2-6,2-8)", 
+    "case(2-8,2-7)", 
+    "acl:relcl(2-8,2-12)", 
+    "nsubj(2-12,2-9)", 
+    "aux(2-12,2-10)", 
+    "neg(2-12,2-11)", 
+    "dobj(2-12,2-14)", 
+    "det(2-14,2-13)", 
+    "mark(2-15,2-4)", 
+    "nsubj(2-15,2-6)", 
+    "ccomp(2-15,2-18)", 
+    "advmod(2-18,2-20)", 
+    "nmod:of(2-18,2-22)", 
+    "mark(2-18,2-16)", 
+    "nsubj(2-18,2-17)", 
+    "case(2-22,2-21)", 
+    "nmod:of(2-22,2-24)", 
+    "case(2-24,2-23)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-an)", 
+    "pos(3-6,dt)", 
+    "word(3-7-employee)", 
+    "pos(3-7,nn)", 
+    "word(3-8-picked)", 
+    "pos(3-8,vbd)", 
+    "word(3-9-at)", 
+    "pos(3-9,in)", 
+    "word(3-10-random)", 
+    "pos(3-10,jj)", 
+    "word(3-11-really)", 
+    "pos(3-11,rb)", 
+    "word(3-12-does)", 
+    "pos(3-12,vbz)", 
+    "word(3-13-favor)", 
+    "pos(3-13,vb)", 
+    "word(3-14-the)", 
+    "pos(3-14,dt)", 
+    "word(3-15-company)", 
+    "pos(3-15,nn)", 
+    "word(3-16-policy)", 
+    "pos(3-16,nn)", 
+    "word(3-17-'?')", 
+    "pos(3-17,'.')", 
+    "det(3-7,3-6)", 
+    "nsubj(3-8,3-7)", 
+    "nmod:at(3-8,3-10)", 
+    "mark(3-8,3-5)", 
+    "case(3-10,3-9)", 
+    "acl:relcl(3-10,3-13)", 
+    "advmod(3-13,3-11)", 
+    "aux(3-13,3-12)", 
+    "dobj(3-13,3-16)", 
+    "det(3-16,3-14)", 
+    "compound(3-16,3-15)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-8)", 
+    "det(3-4,3-3)", 
+    "word(4-1-it)", 
+    "pos(4-1,prp)", 
+    "word(4-2-is)", 
+    "pos(4-2,vbz)", 
+    "word(4-3-reasonable)", 
+    "pos(4-3,jj)", 
+    "word(4-4-to)", 
+    "pos(4-4,to)", 
+    "word(4-5-assume)", 
+    "pos(4-5,vb)", 
+    "word(4-6-that)", 
+    "pos(4-6,in)", 
+    "word(4-7-all)", 
+    "pos(4-7,dt)", 
+    "word(4-8-who)", 
+    "pos(4-8,wp)", 
+    "word(4-9-favor)", 
+    "pos(4-9,vbp)", 
+    "word(4-10-say)", 
+    "pos(4-10,vbp)", 
+    "word(4-11-so)", 
+    "pos(4-11,rb)", 
+    "word(4-12-'.')", 
+    "pos(4-12,'.')", 
+    "nsubj(4-9,4-8)", 
+    "advmod(4-10,4-11)", 
+    "mark(4-10,4-6)", 
+    "nsubj(4-10,4-7)", 
+    "nsubj(4-3,4-1)", 
+    "cop(4-3,4-2)", 
+    "xcomp(4-3,4-5)", 
+    "ccomp(4-5,4-10)", 
+    "mark(4-5,4-4)", 
+    "acl:relcl(4-7,4-9)"
+  ], 
+  "time_added": "2016-07-25T09:35:36", 
+  "status": "skip"
+}

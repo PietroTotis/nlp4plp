@@ -1,0 +1,925 @@
+{
+  "owner": "hannah", 
+  "ex_id": 870, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "commit", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "committed", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "crime", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "crime", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-14"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "judge", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "judge", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "65", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "65", 
+        "corenlp": {
+          "number": 65
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "65"
+          }
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "sure", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "sure", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "suspect", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "suspect", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "criminal", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "criminal", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "left-handed", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "left-handed", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-25"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "convince", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "convinces", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "judge", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "judge", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "an", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "85", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "85", 
+        "corenlp": {
+          "number": 85
+        }, 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "percent", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "key": "2-18", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "chance", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-17"
+            ], 
+            "mention": "explicit", 
+            "number": "85"
+          }
+        }, 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "During", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "During", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "course", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "course", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "trial", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "trial", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "witness", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "witness", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "22": {
+        "sentence": 3, 
+        "nlp_stem": "certain", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "certain", 
+        "key": "3-22"
+      }, 
+      "23": {
+        "sentence": 3, 
+        "nlp_stem": "should", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "should", 
+        "key": "3-23"
+      }, 
+      "24": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-24"
+      }, 
+      "25": {
+        "sentence": 3, 
+        "nlp_stem": "judge", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "judge", 
+        "key": "3-25"
+      }, 
+      "26": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-26"
+      }, 
+      "27": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-27"
+      }, 
+      "28": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-28"
+      }, 
+      "29": {
+        "sentence": 3, 
+        "nlp_stem": "guilt", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "guilt", 
+        "key": "3-29"
+      }, 
+      "30": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-30"
+      }, 
+      "31": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-31"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-10"
+      }, 
+      "32": {
+        "sentence": 3, 
+        "nlp_stem": "suspect", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "suspect", 
+        "key": "3-32"
+      }, 
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "suspect", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "suspect", 
+        "key": "3-11"
+      }, 
+      "33": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 33, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-33"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "also", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "also", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "left-handed", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "left-handed", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "with", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "thi", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "this", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "new", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "new", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "information", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "information", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "23", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "23", 
+        "corenlp": {
+          "number": 23
+        }, 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "percent", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-2"
+            ], 
+            "mention": "explicit", 
+            "number": "23"
+          }
+        }, 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "population", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "population", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "left-handed", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "left-handed", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-9"
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-20"
+      }, 
+      "21": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-21"
+      }
+    }
+  }, 
+  "source": "Fundamentals of Probability with Stochastic Processes", 
+  "solution": ".87", 
+  "text": [
+    " A judge is 65 percent sure that a suspect has committed a crime.", 
+    " During the course of the trial, a witness convinces the judge that there is an 85 percent chance that the criminal is left-handed.", 
+    " If 23 percent of the population is left-handed and the suspect is also left-handed, with this new information, how certain should the judge be of the guilt of the suspect?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-judge)", 
+    "pos(1-2,nn)", 
+    "word(1-3-is)", 
+    "pos(1-3,vbz)", 
+    "word(1-4-65)", 
+    "pos(1-4,cd)", 
+    "word(1-5-percent)", 
+    "pos(1-5,nn)", 
+    "word(1-6-sure)", 
+    "pos(1-6,jj)", 
+    "word(1-7-that)", 
+    "pos(1-7,in)", 
+    "word(1-8-a)", 
+    "pos(1-8,dt)", 
+    "word(1-9-suspect)", 
+    "pos(1-9,nn)", 
+    "word(1-10-has)", 
+    "pos(1-10,vbz)", 
+    "word(1-11-committed)", 
+    "pos(1-11,vbn)", 
+    "word(1-12-a)", 
+    "pos(1-12,dt)", 
+    "word(1-13-crime)", 
+    "pos(1-13,nn)", 
+    "word(1-14-'.')", 
+    "pos(1-14,'.')", 
+    "det(1-2,1-1)", 
+    "nummod(1-5,1-4)", 
+    "nsubj(1-6,1-2)", 
+    "cop(1-6,1-3)", 
+    "nmod:npmod(1-6,1-5)", 
+    "ccomp(1-6,1-11)", 
+    "det(1-9,1-8)", 
+    "mark(1-11,1-7)", 
+    "nsubj(1-11,1-9)", 
+    "aux(1-11,1-10)", 
+    "dobj(1-11,1-13)", 
+    "det(1-13,1-12)", 
+    "word(2-1-during)", 
+    "pos(2-1,in)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-course)", 
+    "pos(2-3,nn)", 
+    "word(2-4-of)", 
+    "pos(2-4,in)", 
+    "word(2-5-the)", 
+    "pos(2-5,dt)", 
+    "word(2-6-trial)", 
+    "pos(2-6,nn)", 
+    "word(2-7-',')", 
+    "pos(2-7,',')", 
+    "word(2-8-a)", 
+    "pos(2-8,dt)", 
+    "word(2-9-witness)", 
+    "pos(2-9,nn)", 
+    "word(2-10-convinces)", 
+    "pos(2-10,vbz)", 
+    "word(2-11-the)", 
+    "pos(2-11,dt)", 
+    "word(2-12-judge)", 
+    "pos(2-12,nn)", 
+    "word(2-13-that)", 
+    "pos(2-13,in)", 
+    "word(2-14-there)", 
+    "pos(2-14,ex)", 
+    "word(2-15-is)", 
+    "pos(2-15,vbz)", 
+    "word(2-16-an)", 
+    "pos(2-16,dt)", 
+    "word(2-17-85)", 
+    "pos(2-17,cd)", 
+    "word(2-18-percent)", 
+    "pos(2-18,nn)", 
+    "word(2-19-chance)", 
+    "pos(2-19,nn)", 
+    "word(2-20-that)", 
+    "pos(2-20,in)", 
+    "word(2-21-the)", 
+    "pos(2-21,dt)", 
+    "word(2-22-criminal)", 
+    "pos(2-22,nn)", 
+    "word(2-23-is)", 
+    "pos(2-23,vbz)", 
+    "word(2-24-left-handed)", 
+    "pos(2-24,jj)", 
+    "word(2-25-'.')", 
+    "pos(2-25,'.')", 
+    "nmod:of(2-3,2-6)", 
+    "case(2-3,2-1)", 
+    "det(2-3,2-2)", 
+    "case(2-6,2-4)", 
+    "det(2-6,2-5)", 
+    "det(2-9,2-8)", 
+    "nmod:during(2-10,2-3)", 
+    "nsubj(2-10,2-9)", 
+    "dobj(2-10,2-12)", 
+    "ccomp(2-10,2-15)", 
+    "det(2-12,2-11)", 
+    "nsubj(2-15,2-19)", 
+    "mark(2-15,2-13)", 
+    "expl(2-15,2-14)", 
+    "dep(2-19,2-24)", 
+    "det(2-19,2-16)", 
+    "nummod(2-19,2-17)", 
+    "compound(2-19,2-18)", 
+    "det(2-22,2-21)", 
+    "mark(2-24,2-20)", 
+    "nsubj(2-24,2-22)", 
+    "cop(2-24,2-23)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-23)", 
+    "pos(3-2,cd)", 
+    "word(3-3-percent)", 
+    "pos(3-3,nn)", 
+    "word(3-4-of)", 
+    "pos(3-4,in)", 
+    "word(3-5-the)", 
+    "pos(3-5,dt)", 
+    "word(3-6-population)", 
+    "pos(3-6,nn)", 
+    "word(3-7-is)", 
+    "pos(3-7,vbz)", 
+    "word(3-8-left-handed)", 
+    "pos(3-8,jj)", 
+    "word(3-9-and)", 
+    "pos(3-9,cc)", 
+    "word(3-10-the)", 
+    "pos(3-10,dt)", 
+    "word(3-11-suspect)", 
+    "pos(3-11,nn)", 
+    "word(3-12-is)", 
+    "pos(3-12,vbz)", 
+    "word(3-13-also)", 
+    "pos(3-13,rb)", 
+    "word(3-14-left-handed)", 
+    "pos(3-14,jj)", 
+    "word(3-15-',')", 
+    "pos(3-15,',')", 
+    "word(3-16-with)", 
+    "pos(3-16,in)", 
+    "word(3-17-this)", 
+    "pos(3-17,dt)", 
+    "word(3-18-new)", 
+    "pos(3-18,jj)", 
+    "word(3-19-information)", 
+    "pos(3-19,nn)", 
+    "word(3-20-',')", 
+    "pos(3-20,',')", 
+    "word(3-21-how)", 
+    "pos(3-21,wrb)", 
+    "word(3-22-certain)", 
+    "pos(3-22,jj)", 
+    "word(3-23-should)", 
+    "pos(3-23,md)", 
+    "word(3-24-the)", 
+    "pos(3-24,dt)", 
+    "word(3-25-judge)", 
+    "pos(3-25,nn)", 
+    "word(3-26-be)", 
+    "pos(3-26,vb)", 
+    "word(3-27-of)", 
+    "pos(3-27,in)", 
+    "word(3-28-the)", 
+    "pos(3-28,dt)", 
+    "word(3-29-guilt)", 
+    "pos(3-29,nn)", 
+    "word(3-30-of)", 
+    "pos(3-30,in)", 
+    "word(3-31-the)", 
+    "pos(3-31,dt)", 
+    "word(3-32-suspect)", 
+    "pos(3-32,nn)", 
+    "word(3-33-'?')", 
+    "pos(3-33,'.')", 
+    "case(3-6,3-4)", 
+    "det(3-6,3-5)", 
+    "cop(3-8,3-7)", 
+    "cc(3-8,3-9)", 
+    "conj:and(3-8,3-14)", 
+    "mark(3-8,3-1)", 
+    "nsubj(3-8,3-3)", 
+    "det(3-11,3-10)", 
+    "nsubj(3-14,3-11)", 
+    "cop(3-14,3-12)", 
+    "advmod(3-14,3-13)", 
+    "case(3-19,3-16)", 
+    "det(3-19,3-17)", 
+    "amod(3-19,3-18)", 
+    "dep(3-21,3-22)", 
+    "det(3-25,3-24)", 
+    "advcl(3-29,3-8)", 
+    "advcl(3-29,3-14)", 
+    "nmod:with(3-29,3-19)", 
+    "advmod(3-29,3-21)", 
+    "aux(3-29,3-23)", 
+    "nsubj(3-29,3-25)", 
+    "cop(3-29,3-26)", 
+    "case(3-29,3-27)", 
+    "det(3-29,3-28)", 
+    "nmod:of(3-29,3-32)", 
+    "case(3-32,3-30)", 
+    "det(3-32,3-31)", 
+    "nmod:of(3-3,3-6)", 
+    "nummod(3-3,3-2)"
+  ], 
+  "time_added": "2016-08-03T16:42:44.621000", 
+  "status": "skip"
+}

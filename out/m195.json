@@ -1,0 +1,384 @@
+{
+  "owner": "monica", 
+  "ex_id": 195, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "multiple", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "multiple", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "choice", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "choice", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "test", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "test", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "20", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "item", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "items", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }
+        }, 
+        "key": "1-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "Each", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "Each", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "item", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "item", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "3", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "choice", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "choices", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-4"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "2-5", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-4"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-6"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "distinctly", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "distinctly", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "answer", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "answer", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "key", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "keys", 
+        "key": "3-6", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "possible", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "3-8", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-7", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-5", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 1, 
+            "order": false
+          }
+        }
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-9"
+      }
+    }
+  }, 
+  "source": "http://www.oxfordmathcenter.com/drupal7/node/287", 
+  "solution": "60", 
+  "text": [
+    " A multiple choice test has 20 items.", 
+    " Each item has 3 choices.", 
+    " How many distinctly different answer keys are possible?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-multiple)", 
+    "pos(1-2,jj)", 
+    "word(1-3-choice)", 
+    "pos(1-3,nn)", 
+    "word(1-4-test)", 
+    "pos(1-4,nn)", 
+    "word(1-5-has)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-20)", 
+    "pos(1-6,cd)", 
+    "word(1-7-items)", 
+    "pos(1-7,nns)", 
+    "word(1-8-'.')", 
+    "pos(1-8,'.')", 
+    "det(1-4,1-1)", 
+    "amod(1-4,1-2)", 
+    "compound(1-4,1-3)", 
+    "nsubj(1-5,1-4)", 
+    "dobj(1-5,1-7)", 
+    "nummod(1-7,1-6)", 
+    "word(2-1-each)", 
+    "pos(2-1,dt)", 
+    "word(2-2-item)", 
+    "pos(2-2,nn)", 
+    "word(2-3-has)", 
+    "pos(2-3,vbz)", 
+    "word(2-4-3)", 
+    "pos(2-4,cd)", 
+    "word(2-5-choices)", 
+    "pos(2-5,nns)", 
+    "word(2-6-'.')", 
+    "pos(2-6,'.')", 
+    "dobj(2-3,2-5)", 
+    "nsubj(2-3,2-2)", 
+    "nummod(2-5,2-4)", 
+    "det(2-2,2-1)", 
+    "word(3-1-how)", 
+    "pos(3-1,wrb)", 
+    "word(3-2-many)", 
+    "pos(3-2,jj)", 
+    "word(3-3-distinctly)", 
+    "pos(3-3,rb)", 
+    "word(3-4-different)", 
+    "pos(3-4,jj)", 
+    "word(3-5-answer)", 
+    "pos(3-5,nn)", 
+    "word(3-6-keys)", 
+    "pos(3-6,nns)", 
+    "word(3-7-are)", 
+    "pos(3-7,vbp)", 
+    "word(3-8-possible)", 
+    "pos(3-8,jj)", 
+    "word(3-9-'?')", 
+    "pos(3-9,'.')", 
+    "amod(3-6,3-4)", 
+    "compound(3-6,3-5)", 
+    "nsubj(3-8,3-6)", 
+    "cop(3-8,3-7)", 
+    "dep(3-8,3-2)", 
+    "advmod(3-2,3-1)", 
+    "advmod(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T13:37:15.064000", 
+  "status": "done"
+}

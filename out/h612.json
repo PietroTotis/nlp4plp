@@ -1,0 +1,494 @@
+{
+  "owner": "hannah", 
+  "ex_id": 612, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "least", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "kind", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "kind", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 28, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-28"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "spaniard", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNPS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "spaniard"
+        }, 
+        "text": "Spaniards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-13", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "selection", 
+        "index": 14, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "selections", 
+        "key": "1-14", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {}
+          ], 
+          "role_arg": "1-16", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "people", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "key": "1-16", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "made", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "From", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "From", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-2", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-16", 
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-3"
+          ]
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "russian", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNPS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "russian"
+        }, 
+        "text": "Russians", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-2"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 4, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-5", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-16", 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-6"
+          ]
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "american", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNPS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "american"
+        }, 
+        "text": "Americans", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-9", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-16", 
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-10"
+          ]
+        }
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "take", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "taking", 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "Elementary Probability - Santos", 
+  "solution": "315", 
+  "text": [
+    " From three Russians, four Americans, and two Spaniards, how many selections of people can be made, taking at least one of each kind?"
+  ], 
+  "corenlp": [
+    "word(1-1-from)", 
+    "pos(1-1,in)", 
+    "word(1-2-three)", 
+    "pos(1-2,cd)", 
+    "word(1-3-russians)", 
+    "pos(1-3,nnps)", 
+    "word(1-4-',')", 
+    "pos(1-4,',')", 
+    "word(1-5-four)", 
+    "pos(1-5,cd)", 
+    "word(1-6-americans)", 
+    "pos(1-6,nnps)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-and)", 
+    "pos(1-8,cc)", 
+    "word(1-9-two)", 
+    "pos(1-9,cd)", 
+    "word(1-10-spaniards)", 
+    "pos(1-10,nnps)", 
+    "word(1-11-',')", 
+    "pos(1-11,',')", 
+    "word(1-12-how)", 
+    "pos(1-12,wrb)", 
+    "word(1-13-many)", 
+    "pos(1-13,jj)", 
+    "word(1-14-selections)", 
+    "pos(1-14,nns)", 
+    "word(1-15-of)", 
+    "pos(1-15,in)", 
+    "word(1-16-people)", 
+    "pos(1-16,nns)", 
+    "word(1-17-can)", 
+    "pos(1-17,md)", 
+    "word(1-18-be)", 
+    "pos(1-18,vb)", 
+    "word(1-19-made)", 
+    "pos(1-19,vbn)", 
+    "word(1-20-',')", 
+    "pos(1-20,',')", 
+    "word(1-21-taking)", 
+    "pos(1-21,vbg)", 
+    "word(1-22-at)", 
+    "pos(1-22,in)", 
+    "word(1-23-least)", 
+    "pos(1-23,jjs)", 
+    "word(1-24-one)", 
+    "pos(1-24,cd)", 
+    "word(1-25-of)", 
+    "pos(1-25,in)", 
+    "word(1-26-each)", 
+    "pos(1-26,dt)", 
+    "word(1-27-kind)", 
+    "pos(1-27,nn)", 
+    "word(1-28-'?')", 
+    "pos(1-28,'.')", 
+    "case(1-3,1-1)", 
+    "nummod(1-3,1-2)", 
+    "conj:and(1-3,1-6)", 
+    "cc(1-3,1-8)", 
+    "conj:and(1-3,1-10)", 
+    "nummod(1-6,1-5)", 
+    "nummod(1-10,1-9)", 
+    "advmod(1-13,1-12)", 
+    "nmod:of(1-14,1-16)", 
+    "amod(1-14,1-13)", 
+    "case(1-16,1-15)", 
+    "aux(1-19,1-17)", 
+    "auxpass(1-19,1-18)", 
+    "nmod:from(1-19,1-3)", 
+    "xcomp(1-19,1-21)", 
+    "nmod:from(1-19,1-6)", 
+    "nmod:from(1-19,1-10)", 
+    "nsubjpass(1-19,1-14)", 
+    "dobj(1-21,1-24)", 
+    "case(1-23,1-22)", 
+    "nmod:npmod(1-24,1-23)", 
+    "nmod:of(1-24,1-27)", 
+    "case(1-27,1-25)", 
+    "det(1-27,1-26)"
+  ], 
+  "time_added": "2016-07-27T09:56:43.073000", 
+  "status": "skip"
+}

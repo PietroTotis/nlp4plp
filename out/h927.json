@@ -1,0 +1,1217 @@
+{
+  "category": {
+    "name": "simple object selection", 
+    "id": 1
+  }, 
+  "status": "skip", 
+  "text": [
+    " In testing the water supply for various cities in a state for two kinds of impurities commonly found in water, it was found that 20 percent of the water supplies had neither sort of impurity, 40 percent had an impurity of type A, and 50 percent had an impurity of type B.", 
+    " If a city is chosen at random, what is the probability its water supply has exactly one type of impurity?"
+  ], 
+  "source": "Probability: An Introduction with Statistical Applications 2e", 
+  "ex_id": 927, 
+  "words": {
+    "1": {
+      "56": {
+        "index": 56, 
+        "key": "1-56", 
+        "sentence": 1, 
+        "text": ".", 
+        "nlp_pos": ".", 
+        "nlp_stem": ".", 
+        "type": "punct"
+      }, 
+      "54": {
+        "index": 54, 
+        "key": "1-54", 
+        "sentence": 1, 
+        "text": "type", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "type", 
+        "type": "word"
+      }, 
+      "42": {
+        "index": 42, 
+        "key": "1-42", 
+        "sentence": 1, 
+        "text": "impurity", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "impurity", 
+        "type": "word"
+      }, 
+      "48": {
+        "index": 48, 
+        "key": "1-48", 
+        "sentence": 1, 
+        "text": "50", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "type": "word"
+      }, 
+      "43": {
+        "index": 43, 
+        "key": "1-43", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "49": {
+        "index": 49, 
+        "group": {
+          "role_arg": "1-8", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-55"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": "50/100", 
+            "words": [
+              "1-48"
+            ]
+          }
+        }, 
+        "nlp_stem": "percent", 
+        "sentence": 1, 
+        "text": "percent", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "key": "1-49", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "50", 
+            "words": [
+              "1-48"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "52": {
+        "index": 52, 
+        "key": "1-52", 
+        "sentence": 1, 
+        "text": "impurity", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "impurity", 
+        "type": "word"
+      }, 
+      "53": {
+        "index": 53, 
+        "key": "1-53", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "24": {
+        "index": 24, 
+        "key": "1-24", 
+        "sentence": 1, 
+        "text": "found", 
+        "nlp_pos": "VBN", 
+        "nlp_stem": "find", 
+        "type": "word"
+      }, 
+      "25": {
+        "index": 25, 
+        "key": "1-25", 
+        "sentence": 1, 
+        "text": "that", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "that", 
+        "type": "word"
+      }, 
+      "26": {
+        "index": 26, 
+        "key": "1-26", 
+        "sentence": 1, 
+        "text": "20", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "type": "word"
+      }, 
+      "27": {
+        "index": 27, 
+        "group": {
+          "role_arg": "1-8", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child1": {
+                  "child": {
+                    "choice": "a"
+                  }, 
+                  "choice": {
+                    "id": "not", 
+                    "children": 1, 
+                    "name": "not"
+                  }
+                }, 
+                "child2": {
+                  "child": {
+                    "choice": "b"
+                  }, 
+                  "choice": {
+                    "id": "not", 
+                    "children": 1, 
+                    "name": "not"
+                  }
+                }, 
+                "choice": {
+                  "id": "and", 
+                  "children": 2, 
+                  "name": "and"
+                }
+              }
+            }
+          ], 
+          "properties": [], 
+          "size": {
+            "mention": "explicit", 
+            "number": "20/100", 
+            "words": [
+              "1-26"
+            ]
+          }
+        }, 
+        "nlp_stem": "percent", 
+        "sentence": 1, 
+        "text": "percent", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "key": "1-27", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "20", 
+            "words": [
+              "1-26"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "20": {
+        "index": 20, 
+        "group": {
+          "is_sequence": false, 
+          "properties": [], 
+          "constraints": [], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "water", 
+        "sentence": 1, 
+        "text": "water", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "key": "1-20", 
+        "type": "word"
+      }, 
+      "21": {
+        "index": 21, 
+        "key": "1-21", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "22": {
+        "index": 22, 
+        "key": "1-22", 
+        "sentence": 1, 
+        "text": "it", 
+        "nlp_pos": "PRP", 
+        "nlp_stem": "it", 
+        "type": "word"
+      }, 
+      "23": {
+        "index": 23, 
+        "key": "1-23", 
+        "sentence": 1, 
+        "text": "was", 
+        "nlp_pos": "VBD", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "46": {
+        "index": 46, 
+        "key": "1-46", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "47": {
+        "index": 47, 
+        "key": "1-47", 
+        "sentence": 1, 
+        "text": "and", 
+        "nlp_pos": "CC", 
+        "nlp_stem": "and", 
+        "type": "word"
+      }, 
+      "44": {
+        "index": 44, 
+        "key": "1-44", 
+        "sentence": 1, 
+        "text": "type", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "type", 
+        "type": "word"
+      }, 
+      "45": {
+        "index": 45, 
+        "key": "1-45", 
+        "sentence": 1, 
+        "text": "A", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "a", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "impurity", 
+          "value": "a"
+        }, 
+        "type": "word"
+      }, 
+      "28": {
+        "index": 28, 
+        "key": "1-28", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "29": {
+        "index": 29, 
+        "key": "1-29", 
+        "sentence": 1, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "40": {
+        "index": 40, 
+        "key": "1-40", 
+        "sentence": 1, 
+        "text": "had", 
+        "nlp_pos": "VBD", 
+        "nlp_stem": "have", 
+        "type": "word"
+      }, 
+      "41": {
+        "index": 41, 
+        "key": "1-41", 
+        "sentence": 1, 
+        "text": "an", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "an", 
+        "type": "word"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "1-1", 
+        "sentence": 1, 
+        "text": "In", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "in", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "1-3", 
+        "sentence": 1, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "1-2", 
+        "sentence": 1, 
+        "text": "testing", 
+        "nlp_pos": "VBG", 
+        "nlp_stem": "test", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "1-5", 
+        "sentence": 1, 
+        "text": "supply", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "supply", 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "1-4", 
+        "sentence": 1, 
+        "text": "water", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "water", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "1-7", 
+        "sentence": 1, 
+        "text": "various", 
+        "nlp_pos": "JJ", 
+        "nlp_stem": "various", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "1-6", 
+        "sentence": 1, 
+        "text": "for", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "for", 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "1-9", 
+        "sentence": 1, 
+        "text": "in", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "in", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "group": {
+          "is_sequence": false, 
+          "properties": [], 
+          "constraints": [], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "city", 
+        "sentence": 1, 
+        "text": "cities", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "key": "1-8", 
+        "type": "word"
+      }, 
+      "51": {
+        "index": 51, 
+        "key": "1-51", 
+        "sentence": 1, 
+        "text": "an", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "an", 
+        "type": "word"
+      }, 
+      "39": {
+        "index": 39, 
+        "group": {
+          "role_arg": "1-8", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-45"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": "40/100", 
+            "words": [
+              "1-38"
+            ]
+          }
+        }, 
+        "nlp_stem": "percent", 
+        "sentence": 1, 
+        "text": "percent", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "key": "1-39", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "40", 
+            "words": [
+              "1-38"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "38": {
+        "index": 38, 
+        "key": "1-38", 
+        "sentence": 1, 
+        "text": "40", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "40", 
+        "corenlp": {
+          "number": 40
+        }, 
+        "type": "word"
+      }, 
+      "11": {
+        "index": 11, 
+        "key": "1-11", 
+        "sentence": 1, 
+        "text": "state", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "state", 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "1-10", 
+        "sentence": 1, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "key": "1-13", 
+        "sentence": 1, 
+        "text": "two", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "type": "word"
+      }, 
+      "12": {
+        "index": 12, 
+        "key": "1-12", 
+        "sentence": 1, 
+        "text": "for", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "for", 
+        "type": "word"
+      }, 
+      "15": {
+        "index": 15, 
+        "key": "1-15", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "14": {
+        "index": 14, 
+        "key": "1-14", 
+        "sentence": 1, 
+        "text": "kinds", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "kind", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": 2, 
+            "words": [
+              "1-13"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "17": {
+        "index": 17, 
+        "key": "1-17", 
+        "sentence": 1, 
+        "text": "commonly", 
+        "nlp_pos": "RB", 
+        "nlp_stem": "commonly", 
+        "type": "word"
+      }, 
+      "16": {
+        "index": 16, 
+        "key": "1-16", 
+        "sentence": 1, 
+        "text": "impurities", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "impurity", 
+        "type": "word"
+      }, 
+      "19": {
+        "index": 19, 
+        "key": "1-19", 
+        "sentence": 1, 
+        "text": "in", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "in", 
+        "type": "word"
+      }, 
+      "18": {
+        "index": 18, 
+        "key": "1-18", 
+        "sentence": 1, 
+        "text": "found", 
+        "nlp_pos": "VBN", 
+        "nlp_stem": "find", 
+        "type": "word"
+      }, 
+      "31": {
+        "index": 31, 
+        "key": "1-31", 
+        "sentence": 1, 
+        "text": "supplies", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "supply", 
+        "type": "word"
+      }, 
+      "30": {
+        "index": 30, 
+        "key": "1-30", 
+        "sentence": 1, 
+        "text": "water", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "water", 
+        "type": "word"
+      }, 
+      "37": {
+        "index": 37, 
+        "key": "1-37", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "36": {
+        "index": 36, 
+        "key": "1-36", 
+        "sentence": 1, 
+        "text": "impurity", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "impurity", 
+        "type": "word"
+      }, 
+      "35": {
+        "index": 35, 
+        "key": "1-35", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "34": {
+        "index": 34, 
+        "key": "1-34", 
+        "sentence": 1, 
+        "text": "sort", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "sort", 
+        "type": "word"
+      }, 
+      "33": {
+        "index": 33, 
+        "key": "1-33", 
+        "sentence": 1, 
+        "text": "neither", 
+        "nlp_pos": "CC", 
+        "nlp_stem": "neither", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "impurity", 
+          "value": "neither"
+        }, 
+        "type": "word"
+      }, 
+      "55": {
+        "index": 55, 
+        "key": "1-55", 
+        "sentence": 1, 
+        "text": "B", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "b", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "impurity", 
+          "value": "b"
+        }, 
+        "type": "word"
+      }, 
+      "32": {
+        "index": 32, 
+        "key": "1-32", 
+        "sentence": 1, 
+        "text": "had", 
+        "nlp_pos": "VBD", 
+        "nlp_stem": "have", 
+        "type": "word"
+      }, 
+      "50": {
+        "index": 50, 
+        "key": "1-50", 
+        "sentence": 1, 
+        "text": "had", 
+        "nlp_pos": "VBD", 
+        "nlp_stem": "have", 
+        "type": "word"
+      }
+    }, 
+    "2": {
+      "20": {
+        "index": 20, 
+        "key": "2-20", 
+        "sentence": 2, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "21": {
+        "index": 21, 
+        "key": "2-21", 
+        "sentence": 2, 
+        "text": "impurity", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "impurity", 
+        "property": {
+          "scope": "special", 
+          "is_question": false, 
+          "class": "water", 
+          "value": "impurity"
+        }, 
+        "type": "word"
+      }, 
+      "22": {
+        "index": 22, 
+        "key": "2-22", 
+        "sentence": 2, 
+        "text": "?", 
+        "nlp_pos": ".", 
+        "nlp_stem": "?", 
+        "type": "punct"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "2-1", 
+        "sentence": 2, 
+        "text": "If", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "If", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "group": {
+          "role_arg": "1-8", 
+          "is_sequence": false, 
+          "role": "taken from", 
+          "constraints": [
+            {
+              "is_question": true, 
+              "type": "compound", 
+              "logic": {
+                "child1": {
+                  "child1": {
+                    "choice": "a"
+                  }, 
+                  "child2": {
+                    "choice": {
+                      "children": 1, 
+                      "name": "not", 
+                      "id": "not"
+                    }, 
+                    "child": {
+                      "choice": "b"
+                    }
+                  }, 
+                  "choice": {
+                    "children": 2, 
+                    "name": "and", 
+                    "id": "and"
+                  }
+                }, 
+                "child2": {
+                  "child1": {
+                    "choice": "b"
+                  }, 
+                  "child2": {
+                    "choice": {
+                      "children": 1, 
+                      "name": "not", 
+                      "id": "not"
+                    }, 
+                    "child": {
+                      "choice": "a"
+                    }
+                  }, 
+                  "choice": {
+                    "children": 2, 
+                    "name": "and", 
+                    "id": "and"
+                  }
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "or", 
+                  "id": "or"
+                }
+              }
+            }
+          ], 
+          "properties": [
+            "2-21"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": "1", 
+            "words": [
+              "2-2"
+            ]
+          }
+        }, 
+        "nlp_stem": "city", 
+        "sentence": 2, 
+        "text": "city", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "key": "2-3", 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "2-2", 
+        "sentence": 2, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "2-5", 
+        "sentence": 2, 
+        "text": "chosen", 
+        "nlp_pos": "VBN", 
+        "nlp_stem": "choose", 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "2-4", 
+        "sentence": 2, 
+        "text": "is", 
+        "nlp_pos": "VBZ", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "2-7", 
+        "sentence": 2, 
+        "text": "random", 
+        "nlp_pos": "JJ", 
+        "nlp_stem": "random", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "2-6", 
+        "sentence": 2, 
+        "text": "at", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "at", 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "2-9", 
+        "sentence": 2, 
+        "text": "what", 
+        "nlp_pos": "WP", 
+        "nlp_stem": "what", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "key": "2-8", 
+        "sentence": 2, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "11": {
+        "index": 11, 
+        "key": "2-11", 
+        "sentence": 2, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "2-10", 
+        "sentence": 2, 
+        "text": "is", 
+        "nlp_pos": "VBZ", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "group": {
+          "role_arg": "2-3", 
+          "is_sequence": false, 
+          "role": "reference to", 
+          "constraints": [], 
+          "properties": [], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "it", 
+        "sentence": 2, 
+        "text": "its", 
+        "is_group": true, 
+        "nlp_pos": "PRP$", 
+        "key": "2-13", 
+        "type": "word"
+      }, 
+      "12": {
+        "index": 12, 
+        "key": "2-12", 
+        "sentence": 2, 
+        "text": "probability", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "probability", 
+        "type": "word"
+      }, 
+      "15": {
+        "index": 15, 
+        "key": "2-15", 
+        "sentence": 2, 
+        "text": "supply", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "supply", 
+        "type": "word"
+      }, 
+      "14": {
+        "index": 14, 
+        "key": "2-14", 
+        "sentence": 2, 
+        "text": "water", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "water", 
+        "type": "word"
+      }, 
+      "17": {
+        "index": 17, 
+        "key": "2-17", 
+        "sentence": 2, 
+        "text": "exactly", 
+        "nlp_pos": "RB", 
+        "nlp_stem": "exactly", 
+        "type": "word"
+      }, 
+      "16": {
+        "index": 16, 
+        "key": "2-16", 
+        "sentence": 2, 
+        "text": "has", 
+        "nlp_pos": "VBZ", 
+        "nlp_stem": "have", 
+        "type": "word"
+      }, 
+      "19": {
+        "index": 19, 
+        "key": "2-19", 
+        "sentence": 2, 
+        "text": "type", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "type", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": 1, 
+            "words": [
+              "2-18"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "18": {
+        "index": 18, 
+        "key": "2-18", 
+        "sentence": 2, 
+        "text": "one", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "type": "word"
+      }
+    }
+  }, 
+  "owner": "hannah", 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1,in)", 
+    "word(1-2-testing)", 
+    "pos(1-2,vbg)", 
+    "word(1-3-the)", 
+    "pos(1-3,dt)", 
+    "word(1-4-water)", 
+    "pos(1-4,nn)", 
+    "word(1-5-supply)", 
+    "pos(1-5,nn)", 
+    "word(1-6-for)", 
+    "pos(1-6,in)", 
+    "word(1-7-various)", 
+    "pos(1-7,jj)", 
+    "word(1-8-cities)", 
+    "pos(1-8,nns)", 
+    "word(1-9-in)", 
+    "pos(1-9,in)", 
+    "word(1-10-a)", 
+    "pos(1-10,dt)", 
+    "word(1-11-state)", 
+    "pos(1-11,nn)", 
+    "word(1-12-for)", 
+    "pos(1-12,in)", 
+    "word(1-13-two)", 
+    "pos(1-13,cd)", 
+    "word(1-14-kinds)", 
+    "pos(1-14,nns)", 
+    "word(1-15-of)", 
+    "pos(1-15,in)", 
+    "word(1-16-impurities)", 
+    "pos(1-16,nns)", 
+    "word(1-17-commonly)", 
+    "pos(1-17,rb)", 
+    "word(1-18-found)", 
+    "pos(1-18,vbn)", 
+    "word(1-19-in)", 
+    "pos(1-19,in)", 
+    "word(1-20-water)", 
+    "pos(1-20,nn)", 
+    "word(1-21-',')", 
+    "pos(1-21,',')", 
+    "word(1-22-it)", 
+    "pos(1-22,prp)", 
+    "word(1-23-was)", 
+    "pos(1-23,vbd)", 
+    "word(1-24-found)", 
+    "pos(1-24,vbn)", 
+    "word(1-25-that)", 
+    "pos(1-25,in)", 
+    "word(1-26-20)", 
+    "pos(1-26,cd)", 
+    "word(1-27-percent)", 
+    "pos(1-27,nn)", 
+    "word(1-28-of)", 
+    "pos(1-28,in)", 
+    "word(1-29-the)", 
+    "pos(1-29,dt)", 
+    "word(1-30-water)", 
+    "pos(1-30,nn)", 
+    "word(1-31-supplies)", 
+    "pos(1-31,nns)", 
+    "word(1-32-had)", 
+    "pos(1-32,vbd)", 
+    "word(1-33-neither)", 
+    "pos(1-33,cc)", 
+    "word(1-34-sort)", 
+    "pos(1-34,nn)", 
+    "word(1-35-of)", 
+    "pos(1-35,in)", 
+    "word(1-36-impurity)", 
+    "pos(1-36,nn)", 
+    "word(1-37-',')", 
+    "pos(1-37,',')", 
+    "word(1-38-40)", 
+    "pos(1-38,cd)", 
+    "word(1-39-percent)", 
+    "pos(1-39,nn)", 
+    "word(1-40-had)", 
+    "pos(1-40,vbd)", 
+    "word(1-41-an)", 
+    "pos(1-41,dt)", 
+    "word(1-42-impurity)", 
+    "pos(1-42,nn)", 
+    "word(1-43-of)", 
+    "pos(1-43,in)", 
+    "word(1-44-type)", 
+    "pos(1-44,nn)", 
+    "word(1-45-a)", 
+    "pos(1-45,nn)", 
+    "word(1-46-',')", 
+    "pos(1-46,',')", 
+    "word(1-47-and)", 
+    "pos(1-47,cc)", 
+    "word(1-48-50)", 
+    "pos(1-48,cd)", 
+    "word(1-49-percent)", 
+    "pos(1-49,nn)", 
+    "word(1-50-had)", 
+    "pos(1-50,vbd)", 
+    "word(1-51-an)", 
+    "pos(1-51,dt)", 
+    "word(1-52-impurity)", 
+    "pos(1-52,nn)", 
+    "word(1-53-of)", 
+    "pos(1-53,in)", 
+    "word(1-54-type)", 
+    "pos(1-54,nn)", 
+    "word(1-55-b)", 
+    "pos(1-55,nn)", 
+    "word(1-56-'.')", 
+    "pos(1-56,'.')", 
+    "mark(1-2,1-1)", 
+    "dobj(1-2,1-5)", 
+    "nmod:in(1-2,1-11)", 
+    "det(1-5,1-3)", 
+    "compound(1-5,1-4)", 
+    "nmod:for(1-5,1-8)", 
+    "case(1-8,1-6)", 
+    "amod(1-8,1-7)", 
+    "case(1-11,1-9)", 
+    "det(1-11,1-10)", 
+    "nmod:for(1-11,1-14)", 
+    "nmod:of(1-14,1-16)", 
+    "case(1-14,1-12)", 
+    "nummod(1-14,1-13)", 
+    "acl(1-16,1-18)", 
+    "case(1-16,1-15)", 
+    "advmod(1-18,1-17)", 
+    "nmod:in(1-18,1-20)", 
+    "case(1-20,1-19)", 
+    "ccomp(1-24,1-32)", 
+    "advcl(1-24,1-2)", 
+    "conj:and(1-24,1-50)", 
+    "nsubjpass(1-24,1-22)", 
+    "auxpass(1-24,1-23)", 
+    "dep(1-24,1-40)", 
+    "cc(1-24,1-47)", 
+    "nummod(1-27,1-26)", 
+    "nmod:of(1-27,1-31)", 
+    "case(1-31,1-28)", 
+    "det(1-31,1-29)", 
+    "compound(1-31,1-30)", 
+    "dobj(1-32,1-34)", 
+    "mark(1-32,1-25)", 
+    "nsubj(1-32,1-27)", 
+    "dep(1-34,1-33)", 
+    "nmod:of(1-34,1-36)", 
+    "case(1-36,1-35)", 
+    "nummod(1-39,1-38)", 
+    "nsubj(1-40,1-39)", 
+    "dobj(1-40,1-42)", 
+    "det(1-42,1-41)", 
+    "nmod:of(1-42,1-45)", 
+    "case(1-45,1-43)", 
+    "compound(1-45,1-44)", 
+    "nummod(1-49,1-48)", 
+    "nsubj(1-50,1-49)", 
+    "dobj(1-50,1-52)", 
+    "det(1-52,1-51)", 
+    "nmod:of(1-52,1-55)", 
+    "case(1-55,1-53)", 
+    "compound(1-55,1-54)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-a)", 
+    "pos(2-2,dt)", 
+    "word(2-3-city)", 
+    "pos(2-3,nn)", 
+    "word(2-4-is)", 
+    "pos(2-4,vbz)", 
+    "word(2-5-chosen)", 
+    "pos(2-5,vbn)", 
+    "word(2-6-at)", 
+    "pos(2-6,in)", 
+    "word(2-7-random)", 
+    "pos(2-7,jj)", 
+    "word(2-8-',')", 
+    "pos(2-8,',')", 
+    "word(2-9-what)", 
+    "pos(2-9,wp)", 
+    "word(2-10-is)", 
+    "pos(2-10,vbz)", 
+    "word(2-11-the)", 
+    "pos(2-11,dt)", 
+    "word(2-12-probability)", 
+    "pos(2-12,nn)", 
+    "word(2-13-its)", 
+    "pos(2-13,prp)", 
+    "word(2-14-water)", 
+    "pos(2-14,nn)", 
+    "word(2-15-supply)", 
+    "pos(2-15,nn)", 
+    "word(2-16-has)", 
+    "pos(2-16,vbz)", 
+    "word(2-17-exactly)", 
+    "pos(2-17,rb)", 
+    "word(2-18-one)", 
+    "pos(2-18,cd)", 
+    "word(2-19-type)", 
+    "pos(2-19,nn)", 
+    "word(2-20-of)", 
+    "pos(2-20,in)", 
+    "word(2-21-impurity)", 
+    "pos(2-21,nn)", 
+    "word(2-22-'?')", 
+    "pos(2-22,'.')", 
+    "det(2-3,2-2)", 
+    "nsubjpass(2-5,2-3)", 
+    "auxpass(2-5,2-4)", 
+    "advcl:at(2-5,2-7)", 
+    "mark(2-5,2-1)", 
+    "case(2-7,2-6)", 
+    "dep(2-9,2-5)", 
+    "cop(2-9,2-10)", 
+    "nsubj(2-9,2-12)", 
+    "det(2-12,2-11)", 
+    "acl:relcl(2-12,2-16)", 
+    "nmod:poss(2-15,2-13)", 
+    "compound(2-15,2-14)", 
+    "dobj(2-16,2-19)", 
+    "nsubj(2-16,2-15)", 
+    "nmod:of(2-19,2-21)", 
+    "advmod(2-19,2-17)", 
+    "nummod(2-19,2-18)", 
+    "case(2-21,2-20)"
+  ], 
+  "time_added": "2016-08-08T14:37:42.746000"
+}

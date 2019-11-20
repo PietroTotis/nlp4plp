@@ -1,0 +1,694 @@
+{
+  "owner": "hannah", 
+  "ex_id": 126, 
+  "note": "", 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "2000", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2000", 
+        "corenlp": {
+          "number": 2000
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "student", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "students", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": "2000"
+          }
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "participate", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "participated", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "math", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "math", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "competition", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "competition", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "2000", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2000", 
+        "corenlp": {
+          "number": 2000
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "They", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "They", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "had", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "been", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "arbitrarily", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "arbitrarily", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "assign", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "assigned", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "code", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "code", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "numbers", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "numbers", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "from", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "1", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "All", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "All", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "2000", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2000", 
+        "corenlp": {
+          "number": 2000
+        }, 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "scores", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "scores", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-2"
+            ], 
+            "mention": "explicit", 
+            "number": "2000"
+          }
+        }, 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "were", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-6"
+      }
+    }, 
+    "4": {
+      "22": {
+        "sentence": 4, 
+        "nlp_stem": "highest", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "highest", 
+        "key": "4-22"
+      }, 
+      "23": {
+        "sentence": 4, 
+        "nlp_stem": "score", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "score", 
+        "key": "4-23"
+      }, 
+      "24": {
+        "sentence": 4, 
+        "nlp_stem": "overall", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "overall", 
+        "key": "4-24"
+      }, 
+      "25": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-25"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "through", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "through", 
+        "key": "4-10"
+      }, 
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "1997", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1997", 
+        "corenlp": {
+          "number": 1997
+        }, 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "what", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-14"
+      }, 
+      "15": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-15"
+      }, 
+      "16": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-16"
+      }, 
+      "17": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "4-17"
+      }, 
+      "18": {
+        "sentence": 4, 
+        "nlp_stem": "student", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "student", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-19"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }
+        }, 
+        "key": "4-18"
+      }, 
+      "19": {
+        "sentence": 4, 
+        "nlp_stem": "1", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "4-19"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "give", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "Given", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "student", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "student", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-4"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }
+        }, 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "1", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "score", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "scored", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "higher", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "higher", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "than", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "than", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "student", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "students", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "2", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "4-9"
+      }, 
+      "20": {
+        "sentence": 4, 
+        "nlp_stem": "have", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "had", 
+        "key": "4-20"
+      }, 
+      "21": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-21"
+      }
+    }
+  }, 
+  "source": "Problem Set 9: Probability U of Mich", 
+  "text": [
+    " 2000 students participated in a math competition.", 
+    " They had been arbitrarily assigned code numbers from 1 to 2000.", 
+    " All 2000 scores were different.", 
+    " Given that student 1 scored higher than students 2 through 1997, what is the probability that student 1 had the highest score overall?"
+  ], 
+  "corenlp": [
+    "word(1-1-2000)", 
+    "pos(1-1-2000,cd)", 
+    "word(1-2-students)", 
+    "pos(1-2-students,nns)", 
+    "word(1-3-participated)", 
+    "pos(1-3-participated,vbd)", 
+    "word(1-4-in)", 
+    "pos(1-4-in,in)", 
+    "word(1-5-a)", 
+    "pos(1-5-a,dt)", 
+    "word(1-6-math)", 
+    "pos(1-6-math,nn)", 
+    "word(1-7-competition)", 
+    "pos(1-7-competition,nn)", 
+    "word(1-8-'.')", 
+    "pos(1-8-'.','.')", 
+    "nummod(1-2-students,1-1-2000)", 
+    "nsubj(1-3-participated,1-2-students)", 
+    "nmod:in(1-3-participated,1-7-competition)", 
+    "punct(1-3-participated,1-8-'.')", 
+    "case(1-7-competition,1-4-in)", 
+    "det(1-7-competition,1-5-a)", 
+    "compound(1-7-competition,1-6-math)", 
+    "word(2-1-they)", 
+    "pos(2-1-they,prp)", 
+    "word(2-2-had)", 
+    "pos(2-2-had,vbd)", 
+    "word(2-3-been)", 
+    "pos(2-3-been,vbn)", 
+    "word(2-4-arbitrarily)", 
+    "pos(2-4-arbitrarily,rb)", 
+    "word(2-5-assigned)", 
+    "pos(2-5-assigned,vbn)", 
+    "word(2-6-code)", 
+    "pos(2-6-code,nn)", 
+    "word(2-7-numbers)", 
+    "pos(2-7-numbers,nns)", 
+    "word(2-8-from)", 
+    "pos(2-8-from,in)", 
+    "word(2-9-1)", 
+    "pos(2-9-1,cd)", 
+    "word(2-10-to)", 
+    "pos(2-10-to,to)", 
+    "word(2-11-2000)", 
+    "pos(2-11-2000,cd)", 
+    "word(2-12-'.')", 
+    "pos(2-12-'.','.')", 
+    "auxpass(2-5-assigned,2-3-been)", 
+    "advmod(2-5-assigned,2-4-arbitrarily)", 
+    "dobj(2-5-assigned,2-7-numbers)", 
+    "nmod:from(2-5-assigned,2-9-1)", 
+    "nmod:to(2-5-assigned,2-11-2000)", 
+    "punct(2-5-assigned,2-12-'.')", 
+    "nsubjpass(2-5-assigned,2-1-they)", 
+    "aux(2-5-assigned,2-2-had)", 
+    "compound(2-7-numbers,2-6-code)", 
+    "case(2-9-1,2-8-from)", 
+    "case(2-11-2000,2-10-to)", 
+    "word(3-1-all)", 
+    "pos(3-1-all,dt)", 
+    "word(3-2-2000)", 
+    "pos(3-2-2000,cd)", 
+    "word(3-3-scores)", 
+    "pos(3-3-scores,nns)", 
+    "word(3-4-were)", 
+    "pos(3-4-were,vbd)", 
+    "word(3-5-different)", 
+    "pos(3-5-different,jj)", 
+    "word(3-6-'.')", 
+    "pos(3-6-'.','.')", 
+    "det(3-3-scores,3-1-all)", 
+    "nummod(3-3-scores,3-2-2000)", 
+    "punct(3-5-different,3-6-'.')", 
+    "nsubj(3-5-different,3-3-scores)", 
+    "cop(3-5-different,3-4-were)", 
+    "word(4-1-given)", 
+    "pos(4-1-given,vbn)", 
+    "word(4-2-that)", 
+    "pos(4-2-that,in)", 
+    "word(4-3-student)", 
+    "pos(4-3-student,nn)", 
+    "word(4-4-1)", 
+    "pos(4-4-1,cd)", 
+    "word(4-5-scored)", 
+    "pos(4-5-scored,vbd)", 
+    "word(4-6-higher)", 
+    "pos(4-6-higher,jjr)", 
+    "word(4-7-than)", 
+    "pos(4-7-than,in)", 
+    "word(4-8-students)", 
+    "pos(4-8-students,nns)", 
+    "word(4-9-2)", 
+    "pos(4-9-2,cd)", 
+    "word(4-10-through)", 
+    "pos(4-10-through,in)", 
+    "word(4-11-1997)", 
+    "pos(4-11-1997,cd)", 
+    "word(4-12-',')", 
+    "pos(4-12-',',',')", 
+    "word(4-13-what)", 
+    "pos(4-13-what,wp)", 
+    "word(4-14-is)", 
+    "pos(4-14-is,vbz)", 
+    "word(4-15-the)", 
+    "pos(4-15-the,dt)", 
+    "word(4-16-probability)", 
+    "pos(4-16-probability,nn)", 
+    "word(4-17-that)", 
+    "pos(4-17-that,wdt)", 
+    "word(4-18-student)", 
+    "pos(4-18-student,nn)", 
+    "word(4-19-1)", 
+    "pos(4-19-1,cd)", 
+    "word(4-20-had)", 
+    "pos(4-20-had,vbd)", 
+    "word(4-21-the)", 
+    "pos(4-21-the,dt)", 
+    "word(4-22-highest)", 
+    "pos(4-22-highest,jjs)", 
+    "word(4-23-score)", 
+    "pos(4-23-score,nn)", 
+    "word(4-24-overall)", 
+    "pos(4-24-overall,rb)", 
+    "word(4-25-'?')", 
+    "pos(4-25-'?','.')", 
+    "ccomp(4-1-given,4-5-scored)", 
+    "nummod(4-3-student,4-4-1)", 
+    "nmod:through(4-5-scored,4-11-1997)", 
+    "mark(4-5-scored,4-2-that)", 
+    "nsubj(4-5-scored,4-3-student)", 
+    "dobj(4-5-scored,4-6-higher)", 
+    "nmod:than(4-5-scored,4-8-students)", 
+    "dep(4-8-students,4-9-2)", 
+    "case(4-8-students,4-7-than)", 
+    "case(4-11-1997,4-10-through)", 
+    "punct(4-13-what,4-25-'?')", 
+    "punct(4-13-what,4-12-',')", 
+    "cop(4-13-what,4-14-is)", 
+    "nsubj(4-13-what,4-16-probability)", 
+    "dep(4-13-what,4-1-given)", 
+    "det(4-16-probability,4-15-the)", 
+    "acl:relcl(4-16-probability,4-20-had)", 
+    "nummod(4-18-student,4-19-1)", 
+    "dobj(4-20-had,4-17-that)", 
+    "nsubj(4-20-had,4-18-student)", 
+    "dobj(4-20-had,4-23-score)", 
+    "advmod(4-20-had,4-24-overall)", 
+    "det(4-23-score,4-21-the)", 
+    "amod(4-23-score,4-22-highest)"
+  ], 
+  "time_added": "2016-07-06T15:25:07.653000", 
+  "status": "skip"
+}

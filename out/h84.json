@@ -1,0 +1,754 @@
+{
+  "owner": "hannah", 
+  "ex_id": 84, 
+  "note": "", 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "bureau", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bureau", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "were", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "put", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "putting", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "20", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "indistinguishable", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "indistinguishable", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "object", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "objects", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "into", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "into", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "ten", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "ten", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "distinguishable", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "distinguishable", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "boxes", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-29"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }
+        }, 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 32, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "resort", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "resort", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "ten", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "ten", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "hotel", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "hotels", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-14"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "they", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "they", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "distribute", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "distribute", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "themselve", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "themselves", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "as", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "as", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "travel", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "travel", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "bureau", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bureau", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "estimate", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "estimates", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "when", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "when", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "20", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "tourist", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "text": "tourists", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }
+        }, 
+        "key": "1-8", 
+        "group": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "go", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "go", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "if", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "tourist", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tourists", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-21"
+            ], 
+            "mention": "explicit", 
+            "number": "20"
+          }
+        }, 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "arrive", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "arrives", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-24"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "no", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "no", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "hotel", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "hotel", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "leave", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "left", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "vacant", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "vacant", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "when", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "when", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "group", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "group", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "assume", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "Assuming", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "thi", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "this", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "model", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "model", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "correct", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "correct", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "find", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "20", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "20", 
+        "corenlp": {
+          "number": 20
+        }, 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "Dartmouth \"Introduction to Probability\"", 
+  "solution": ".0092", 
+  "text": [
+    " A travel bureau estimates that when 20 tourists go to a resort with ten hotels they distribute themselves as if the bureau were putting 20 indistinguishable objects into ten distinguishable boxes.", 
+    " Assuming this model is correct, find the probability that no hotel is left vacant when the first group of 20 tourists arrives."
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1-a,dt)", 
+    "word(1-2-travel)", 
+    "pos(1-2-travel,nn)", 
+    "word(1-3-bureau)", 
+    "pos(1-3-bureau,nn)", 
+    "word(1-4-estimates)", 
+    "pos(1-4-estimates,vbz)", 
+    "word(1-5-that)", 
+    "pos(1-5-that,in)", 
+    "word(1-6-when)", 
+    "pos(1-6-when,wrb)", 
+    "word(1-7-20)", 
+    "pos(1-7-20,cd)", 
+    "word(1-8-tourists)", 
+    "pos(1-8-tourists,nns)", 
+    "word(1-9-go)", 
+    "pos(1-9-go,vbp)", 
+    "word(1-10-to)", 
+    "pos(1-10-to,to)", 
+    "word(1-11-a)", 
+    "pos(1-11-a,dt)", 
+    "word(1-12-resort)", 
+    "pos(1-12-resort,nn)", 
+    "word(1-13-with)", 
+    "pos(1-13-with,in)", 
+    "word(1-14-ten)", 
+    "pos(1-14-ten,cd)", 
+    "word(1-15-hotels)", 
+    "pos(1-15-hotels,nns)", 
+    "word(1-16-they)", 
+    "pos(1-16-they,prp)", 
+    "word(1-17-distribute)", 
+    "pos(1-17-distribute,vbp)", 
+    "word(1-18-themselves)", 
+    "pos(1-18-themselves,prp)", 
+    "word(1-19-as)", 
+    "pos(1-19-as,in)", 
+    "word(1-20-if)", 
+    "pos(1-20-if,in)", 
+    "word(1-21-the)", 
+    "pos(1-21-the,dt)", 
+    "word(1-22-bureau)", 
+    "pos(1-22-bureau,nn)", 
+    "word(1-23-were)", 
+    "pos(1-23-were,vbd)", 
+    "word(1-24-putting)", 
+    "pos(1-24-putting,vbg)", 
+    "word(1-25-20)", 
+    "pos(1-25-20,cd)", 
+    "word(1-26-indistinguishable)", 
+    "pos(1-26-indistinguishable,jj)", 
+    "word(1-27-objects)", 
+    "pos(1-27-objects,nns)", 
+    "word(1-28-into)", 
+    "pos(1-28-into,in)", 
+    "word(1-29-ten)", 
+    "pos(1-29-ten,cd)", 
+    "word(1-30-distinguishable)", 
+    "pos(1-30-distinguishable,jj)", 
+    "word(1-31-boxes)", 
+    "pos(1-31-boxes,nns)", 
+    "word(1-32-'.')", 
+    "pos(1-32-'.','.')", 
+    "det(1-3-bureau,1-1-a)", 
+    "compound(1-3-bureau,1-2-travel)", 
+    "punct(1-4-estimates,1-32-'.')", 
+    "ccomp(1-4-estimates,1-17-distribute)", 
+    "nsubj(1-4-estimates,1-3-bureau)", 
+    "nummod(1-8-tourists,1-7-20)", 
+    "advmod(1-9-go,1-6-when)", 
+    "nsubj(1-9-go,1-8-tourists)", 
+    "nmod:to(1-9-go,1-12-resort)", 
+    "case(1-12-resort,1-10-to)", 
+    "det(1-12-resort,1-11-a)", 
+    "nmod:with(1-12-resort,1-15-hotels)", 
+    "case(1-15-hotels,1-13-with)", 
+    "nummod(1-15-hotels,1-14-ten)", 
+    "nsubj(1-17-distribute,1-16-they)", 
+    "dobj(1-17-distribute,1-18-themselves)", 
+    "mark(1-17-distribute,1-5-that)", 
+    "advcl(1-17-distribute,1-24-putting)", 
+    "advcl(1-17-distribute,1-9-go)", 
+    "mwe(1-19-as,1-20-if)", 
+    "det(1-22-bureau,1-21-the)", 
+    "mark(1-24-putting,1-19-as)", 
+    "nsubj(1-24-putting,1-22-bureau)", 
+    "aux(1-24-putting,1-23-were)", 
+    "dobj(1-24-putting,1-27-objects)", 
+    "nmod:into(1-24-putting,1-31-boxes)", 
+    "compound(1-26-indistinguishable,1-25-20)", 
+    "amod(1-27-objects,1-26-indistinguishable)", 
+    "case(1-31-boxes,1-28-into)", 
+    "nummod(1-31-boxes,1-29-ten)", 
+    "amod(1-31-boxes,1-30-distinguishable)", 
+    "word(2-1-assuming)", 
+    "pos(2-1-assuming,vbg)", 
+    "word(2-2-this)", 
+    "pos(2-2-this,dt)", 
+    "word(2-3-model)", 
+    "pos(2-3-model,nn)", 
+    "word(2-4-is)", 
+    "pos(2-4-is,vbz)", 
+    "word(2-5-correct)", 
+    "pos(2-5-correct,jj)", 
+    "word(2-6-',')", 
+    "pos(2-6-',',',')", 
+    "word(2-7-find)", 
+    "pos(2-7-find,vb)", 
+    "word(2-8-the)", 
+    "pos(2-8-the,dt)", 
+    "word(2-9-probability)", 
+    "pos(2-9-probability,nn)", 
+    "word(2-10-that)", 
+    "pos(2-10-that,in)", 
+    "word(2-11-no)", 
+    "pos(2-11-no,dt)", 
+    "word(2-12-hotel)", 
+    "pos(2-12-hotel,nn)", 
+    "word(2-13-is)", 
+    "pos(2-13-is,vbz)", 
+    "word(2-14-left)", 
+    "pos(2-14-left,vbn)", 
+    "word(2-15-vacant)", 
+    "pos(2-15-vacant,jj)", 
+    "word(2-16-when)", 
+    "pos(2-16-when,wrb)", 
+    "word(2-17-the)", 
+    "pos(2-17-the,dt)", 
+    "word(2-18-first)", 
+    "pos(2-18-first,jj)", 
+    "word(2-19-group)", 
+    "pos(2-19-group,nn)", 
+    "word(2-20-of)", 
+    "pos(2-20-of,in)", 
+    "word(2-21-20)", 
+    "pos(2-21-20,cd)", 
+    "word(2-22-tourists)", 
+    "pos(2-22-tourists,nns)", 
+    "word(2-23-arrives)", 
+    "pos(2-23-arrives,vbz)", 
+    "word(2-24-'.')", 
+    "pos(2-24-'.','.')", 
+    "det(2-3-model,2-2-this)", 
+    "cop(2-5-correct,2-4-is)", 
+    "parataxis(2-5-correct,2-7-find)", 
+    "advcl(2-5-correct,2-23-arrives)", 
+    "punct(2-5-correct,2-24-'.')", 
+    "csubj(2-5-correct,2-1-assuming)", 
+    "punct(2-7-find,2-6-',')", 
+    "dobj(2-7-find,2-9-probability)", 
+    "ccomp(2-7-find,2-14-left)", 
+    "det(2-9-probability,2-8-the)", 
+    "neg(2-12-hotel,2-11-no)", 
+    "mark(2-14-left,2-10-that)", 
+    "nsubjpass(2-14-left,2-12-hotel)", 
+    "auxpass(2-14-left,2-13-is)", 
+    "xcomp(2-14-left,2-15-vacant)", 
+    "nmod:of(2-19-group,2-22-tourists)", 
+    "det(2-19-group,2-17-the)", 
+    "amod(2-19-group,2-18-first)", 
+    "case(2-22-tourists,2-20-of)", 
+    "nummod(2-22-tourists,2-21-20)", 
+    "nsubj(2-23-arrives,2-19-group)", 
+    "advmod(2-23-arrives,2-16-when)", 
+    "dobj(2-1-assuming,2-3-model)"
+  ], 
+  "time_added": "2016-07-06T09:51:10.140000", 
+  "status": "skip"
+}

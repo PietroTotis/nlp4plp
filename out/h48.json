@@ -1,0 +1,654 @@
+{
+  "owner": "hannah", 
+  "ex_id": 48, 
+  "note": "", 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "job", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "jobs", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "consist", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "consists", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "man"
+        }, 
+        "text": "men", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-14"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-15", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "1-5-applicants", 
+            "id": "1-5"
+          }, 
+          "size": {
+            "words": [
+              "1-14"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-15"
+          ]
+        }
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "woman", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "woman"
+        }, 
+        "text": "women", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-17"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-18", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "1-5-applicants", 
+            "id": "1-5"
+          }, 
+          "size": {
+            "words": [
+              "1-17"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-18"
+          ]
+        }
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "group", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "group", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "applicant", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "applicants", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-5", 
+        "group": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "pair", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pair", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "identical", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "identical", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "job", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "jobs", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "employer", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "employer", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "select", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-6", 
+        "group": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "five", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "applicant", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "applicants", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-9"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "possible", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "selection", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "selections", 
+        "key": "3-4", 
+        "group": {
+          "role": "assignment of", 
+          "role_arg": {
+            "name": "1-5-applicants", 
+            "id": "1-5"
+          }, 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": {
+            "name": "2-6-two", 
+            "id": "2-6"
+          }, 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "there", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-7"
+      }
+    }
+  }, 
+  "source": "Random probability exercises pdf by Prof. Dr. Onur Koksoy", 
+  "solution": "10", 
+  "text": [
+    " A group of five applicants for a pair of identical jobs consists of three men and two women.", 
+    " The employer is to select two of the five applicants for the jobs.", 
+    " How many possible selections are there?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1-a,dt)", 
+    "word(1-2-group)", 
+    "pos(1-2-group,nn)", 
+    "word(1-3-of)", 
+    "pos(1-3-of,in)", 
+    "word(1-4-five)", 
+    "pos(1-4-five,cd)", 
+    "word(1-5-applicants)", 
+    "pos(1-5-applicants,nns)", 
+    "word(1-6-for)", 
+    "pos(1-6-for,in)", 
+    "word(1-7-a)", 
+    "pos(1-7-a,dt)", 
+    "word(1-8-pair)", 
+    "pos(1-8-pair,nn)", 
+    "word(1-9-of)", 
+    "pos(1-9-of,in)", 
+    "word(1-10-identical)", 
+    "pos(1-10-identical,jj)", 
+    "word(1-11-jobs)", 
+    "pos(1-11-jobs,nns)", 
+    "word(1-12-consists)", 
+    "pos(1-12-consists,vbz)", 
+    "word(1-13-of)", 
+    "pos(1-13-of,in)", 
+    "word(1-14-three)", 
+    "pos(1-14-three,cd)", 
+    "word(1-15-men)", 
+    "pos(1-15-men,nns)", 
+    "word(1-16-and)", 
+    "pos(1-16-and,cc)", 
+    "word(1-17-two)", 
+    "pos(1-17-two,cd)", 
+    "word(1-18-women)", 
+    "pos(1-18-women,nns)", 
+    "word(1-19-'.')", 
+    "pos(1-19-'.','.')", 
+    "det(1-2-group,1-1-a)", 
+    "nmod:of(1-2-group,1-5-applicants)", 
+    "case(1-5-applicants,1-3-of)", 
+    "nummod(1-5-applicants,1-4-five)", 
+    "nmod:for(1-5-applicants,1-8-pair)", 
+    "case(1-8-pair,1-6-for)", 
+    "det(1-8-pair,1-7-a)", 
+    "nmod:of(1-8-pair,1-11-jobs)", 
+    "case(1-11-jobs,1-9-of)", 
+    "amod(1-11-jobs,1-10-identical)", 
+    "nsubj(1-12-consists,1-2-group)", 
+    "nmod:of(1-12-consists,1-18-women)", 
+    "punct(1-12-consists,1-19-'.')", 
+    "nmod:of(1-12-consists,1-15-men)", 
+    "cc(1-15-men,1-16-and)", 
+    "conj:and(1-15-men,1-18-women)", 
+    "case(1-15-men,1-13-of)", 
+    "nummod(1-15-men,1-14-three)", 
+    "nummod(1-18-women,1-17-two)", 
+    "word(2-1-the)", 
+    "pos(2-1-the,dt)", 
+    "word(2-2-employer)", 
+    "pos(2-2-employer,nn)", 
+    "word(2-3-is)", 
+    "pos(2-3-is,vbz)", 
+    "word(2-4-to)", 
+    "pos(2-4-to,to)", 
+    "word(2-5-select)", 
+    "pos(2-5-select,vb)", 
+    "word(2-6-two)", 
+    "pos(2-6-two,cd)", 
+    "word(2-7-of)", 
+    "pos(2-7-of,in)", 
+    "word(2-8-the)", 
+    "pos(2-8-the,dt)", 
+    "word(2-9-five)", 
+    "pos(2-9-five,cd)", 
+    "word(2-10-applicants)", 
+    "pos(2-10-applicants,nns)", 
+    "word(2-11-for)", 
+    "pos(2-11-for,in)", 
+    "word(2-12-the)", 
+    "pos(2-12-the,dt)", 
+    "word(2-13-jobs)", 
+    "pos(2-13-jobs,nns)", 
+    "word(2-14-'.')", 
+    "pos(2-14-'.','.')", 
+    "xcomp(2-3-is,2-5-select)", 
+    "punct(2-3-is,2-14-'.')", 
+    "nsubj(2-3-is,2-2-employer)", 
+    "mark(2-5-select,2-4-to)", 
+    "dobj(2-5-select,2-6-two)", 
+    "nmod:for(2-5-select,2-13-jobs)", 
+    "nmod:of(2-6-two,2-10-applicants)", 
+    "case(2-10-applicants,2-7-of)", 
+    "det(2-10-applicants,2-8-the)", 
+    "nummod(2-10-applicants,2-9-five)", 
+    "case(2-13-jobs,2-11-for)", 
+    "det(2-13-jobs,2-12-the)", 
+    "det(2-2-employer,2-1-the)", 
+    "word(3-1-how)", 
+    "pos(3-1-how,wrb)", 
+    "word(3-2-many)", 
+    "pos(3-2-many,jj)", 
+    "word(3-3-possible)", 
+    "pos(3-3-possible,jj)", 
+    "word(3-4-selections)", 
+    "pos(3-4-selections,nns)", 
+    "word(3-5-are)", 
+    "pos(3-5-are,vbp)", 
+    "word(3-6-there)", 
+    "pos(3-6-there,ex)", 
+    "word(3-7-'?')", 
+    "pos(3-7-'?','.')", 
+    "advmod(3-2-many,3-1-how)", 
+    "amod(3-4-selections,3-2-many)", 
+    "amod(3-4-selections,3-3-possible)", 
+    "expl(3-5-are,3-6-there)", 
+    "punct(3-5-are,3-7-'?')", 
+    "nsubj(3-5-are,3-4-selections)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-05T15:10:32.619000", 
+  "status": "done"
+}

@@ -1,0 +1,393 @@
+{
+  "owner": "hannah", 
+  "ex_id": 147, 
+  "note": "", 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "gift", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "gifts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-21"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "other", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "others", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "2", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 28, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-28"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "gift", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "gifts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": "7"
+          }
+        }, 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "among", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "among", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "his", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "his", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "child", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "children", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "if", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "eldest", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "eldest", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "man", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "man", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "divide", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "divide", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "7", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "7", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "receive", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "receive", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "\"A First Course in Probability\"", 
+  "solution": "210", 
+  "text": [
+    " In how many ways can a man divide 7 gifts among his 3 children if the eldest is to receive 3 gifts and the others 2 each?"
+  ], 
+  "corenlp": [
+    "word(1-1-in)", 
+    "pos(1-1-in,in)", 
+    "word(1-2-how)", 
+    "pos(1-2-how,wrb)", 
+    "word(1-3-many)", 
+    "pos(1-3-many,jj)", 
+    "word(1-4-ways)", 
+    "pos(1-4-ways,nns)", 
+    "word(1-5-can)", 
+    "pos(1-5-can,md)", 
+    "word(1-6-a)", 
+    "pos(1-6-a,dt)", 
+    "word(1-7-man)", 
+    "pos(1-7-man,nn)", 
+    "word(1-8-divide)", 
+    "pos(1-8-divide,nn)", 
+    "word(1-9-7)", 
+    "pos(1-9-7,cd)", 
+    "word(1-10-gifts)", 
+    "pos(1-10-gifts,nns)", 
+    "word(1-11-among)", 
+    "pos(1-11-among,in)", 
+    "word(1-12-his)", 
+    "pos(1-12-his,prp$)", 
+    "word(1-13-3)", 
+    "pos(1-13-3,cd)", 
+    "word(1-14-children)", 
+    "pos(1-14-children,nns)", 
+    "word(1-15-if)", 
+    "pos(1-15-if,in)", 
+    "word(1-16-the)", 
+    "pos(1-16-the,dt)", 
+    "word(1-17-eldest)", 
+    "pos(1-17-eldest,nn)", 
+    "word(1-18-is)", 
+    "pos(1-18-is,vbz)", 
+    "word(1-19-to)", 
+    "pos(1-19-to,to)", 
+    "word(1-20-receive)", 
+    "pos(1-20-receive,vb)", 
+    "word(1-21-3)", 
+    "pos(1-21-3,cd)", 
+    "word(1-22-gifts)", 
+    "pos(1-22-gifts,nns)", 
+    "word(1-23-and)", 
+    "pos(1-23-and,cc)", 
+    "word(1-24-the)", 
+    "pos(1-24-the,dt)", 
+    "word(1-25-others)", 
+    "pos(1-25-others,nns)", 
+    "word(1-26-2)", 
+    "pos(1-26-2,cd)", 
+    "word(1-27-each)", 
+    "pos(1-27-each,dt)", 
+    "word(1-28-'?')", 
+    "pos(1-28-'?','.')", 
+    "advmod(1-3-many,1-2-how)", 
+    "case(1-4-ways,1-1-in)", 
+    "amod(1-4-ways,1-3-many)", 
+    "nmod:in(1-5-can,1-4-ways)", 
+    "dep(1-5-can,1-8-divide)", 
+    "dep(1-5-can,1-10-gifts)", 
+    "punct(1-5-can,1-28-'?')", 
+    "det(1-8-divide,1-6-a)", 
+    "compound(1-8-divide,1-7-man)", 
+    "nummod(1-10-gifts,1-9-7)", 
+    "nmod:among(1-10-gifts,1-14-children)", 
+    "dep(1-14-children,1-18-is)", 
+    "case(1-14-children,1-11-among)", 
+    "nmod:poss(1-14-children,1-12-his)", 
+    "nummod(1-14-children,1-13-3)", 
+    "det(1-17-eldest,1-16-the)", 
+    "nsubj(1-18-is,1-17-eldest)", 
+    "xcomp(1-18-is,1-20-receive)", 
+    "mark(1-18-is,1-15-if)", 
+    "mark(1-20-receive,1-19-to)", 
+    "dobj(1-20-receive,1-22-gifts)", 
+    "dobj(1-20-receive,1-25-others)", 
+    "nmod:tmod(1-20-receive,1-26-2)", 
+    "nummod(1-22-gifts,1-21-3)", 
+    "cc(1-22-gifts,1-23-and)", 
+    "conj:and(1-22-gifts,1-25-others)", 
+    "det(1-25-others,1-24-the)", 
+    "dep(1-26-2,1-27-each)"
+  ], 
+  "time_added": "2016-07-06T16:44:36.446000", 
+  "status": "skip"
+}

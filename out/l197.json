@@ -1,0 +1,477 @@
+{
+  "owner": "liselot", 
+  "ex_id": 197, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-11"
+      }, 
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "shelf", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "shelf", 
+        "key": "1-22"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-12"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-23"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "art", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "art", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "book", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "books", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-12"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "which", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "we", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "want", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "want", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "put", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "put", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "suppose", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Suppose", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "we", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "math", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "math", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "book", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "books", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "language", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "language", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "on", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "on", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "book", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "books", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "subject", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "subject", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "group", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "groups", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "group", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "grouped", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "per", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "per", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://download.springer.com/static/pdf/822/bok%253A978-3-7643-8724-2.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-7643-8724-2&token2=exp=1468592346~acl=%2Fstatic%2Fpdf%2F822%2Fbok%25253A978-3-7643-8724-2.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-3-7643-8724-2*~hmac=cf39aa5e1c518afa6159f76903468aa1edaa79639ccf1221ae75837a7c5f6c35#page=1&zoom=100,22,687", 
+  "solution": "0.000866", 
+  "text": [
+    " Suppose we have four math books, five language books and two art books which we want to put on a shelf.", 
+    " What is the probability that the groups are grouped per subject?"
+  ], 
+  "corenlp": [
+    "word(1-1-suppose)", 
+    "pos(1-1,vb)", 
+    "word(1-2-we)", 
+    "pos(1-2,prp)", 
+    "word(1-3-have)", 
+    "pos(1-3,vbp)", 
+    "word(1-4-four)", 
+    "pos(1-4,cd)", 
+    "word(1-5-math)", 
+    "pos(1-5,nn)", 
+    "word(1-6-books)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-five)", 
+    "pos(1-8,cd)", 
+    "word(1-9-language)", 
+    "pos(1-9,nn)", 
+    "word(1-10-books)", 
+    "pos(1-10,nns)", 
+    "word(1-11-and)", 
+    "pos(1-11,cc)", 
+    "word(1-12-two)", 
+    "pos(1-12,cd)", 
+    "word(1-13-art)", 
+    "pos(1-13,nn)", 
+    "word(1-14-books)", 
+    "pos(1-14,nns)", 
+    "word(1-15-which)", 
+    "pos(1-15,wdt)", 
+    "word(1-16-we)", 
+    "pos(1-16,prp)", 
+    "word(1-17-want)", 
+    "pos(1-17,vbp)", 
+    "word(1-18-to)", 
+    "pos(1-18,to)", 
+    "word(1-19-put)", 
+    "pos(1-19,vb)", 
+    "word(1-20-on)", 
+    "pos(1-20,rp)", 
+    "word(1-21-a)", 
+    "pos(1-21,dt)", 
+    "word(1-22-shelf)", 
+    "pos(1-22,nn)", 
+    "word(1-23-'.')", 
+    "pos(1-23,'.')", 
+    "ccomp(1-1,1-3)", 
+    "nsubj(1-3,1-2)", 
+    "dobj(1-3,1-6)", 
+    "dobj(1-3,1-10)", 
+    "dobj(1-3,1-14)", 
+    "nummod(1-6,1-4)", 
+    "compound(1-6,1-5)", 
+    "conj:and(1-6,1-10)", 
+    "cc(1-6,1-11)", 
+    "conj:and(1-6,1-14)", 
+    "nummod(1-10,1-8)", 
+    "compound(1-10,1-9)", 
+    "acl:relcl(1-14,1-17)", 
+    "nummod(1-14,1-12)", 
+    "compound(1-14,1-13)", 
+    "nsubj(1-17,1-16)", 
+    "xcomp(1-17,1-19)", 
+    "dobj(1-17,1-15)", 
+    "mark(1-19,1-18)", 
+    "compound:prt(1-19,1-20)", 
+    "dobj(1-19,1-22)", 
+    "det(1-22,1-21)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,in)", 
+    "word(2-6-the)", 
+    "pos(2-6,dt)", 
+    "word(2-7-groups)", 
+    "pos(2-7,nns)", 
+    "word(2-8-are)", 
+    "pos(2-8,vbp)", 
+    "word(2-9-grouped)", 
+    "pos(2-9,vbn)", 
+    "word(2-10-per)", 
+    "pos(2-10,in)", 
+    "word(2-11-subject)", 
+    "pos(2-11,nn)", 
+    "word(2-12-'?')", 
+    "pos(2-12,'.')", 
+    "det(2-4,2-3)", 
+    "dep(2-4,2-9)", 
+    "det(2-7,2-6)", 
+    "mark(2-9,2-5)", 
+    "nsubjpass(2-9,2-7)", 
+    "auxpass(2-9,2-8)", 
+    "nmod:per(2-9,2-11)", 
+    "case(2-11,2-10)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-15T16:27:54.717000", 
+  "status": "skip"
+}

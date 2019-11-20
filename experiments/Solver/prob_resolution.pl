@@ -14,7 +14,7 @@ declare(prob(cond(ev(time),ev(large)), 0.6)).
 declare(prob(ev(large),0.25)).
 declare(prob(inter([ev(small),ev(large)]),0.0)).
 
-%query(probability(...), _ )
+% query(probability(...), _ ).
 
 %%%%%%%%%%
 

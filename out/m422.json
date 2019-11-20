@@ -1,0 +1,476 @@
+{
+  "owner": "monica", 
+  "ex_id": 422, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "28", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "28", 
+        "corenlp": {
+          "number": 28
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "days", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "days", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "28"
+          }
+        }, 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "february", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "February", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "On", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "On", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "average", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "average", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 3, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "it", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "it", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "cloudy", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "cloudy", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "for", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "12", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "12", 
+        "corenlp": {
+          "number": 12
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "february", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "February", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "there", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "exactly", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "exactly", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "day", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "day", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-16"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "during", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "during", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "week", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "week", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "cloudy", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "cloudy", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "text": [
+    " On average, it is cloudy for 12 of the 28 days in February.", 
+    " What is the probability that during the second week of February there will be exactly one day that is cloudy?"
+  ], 
+  "corenlp": [
+    "word(1-1-on)", 
+    "pos(1-1,in)", 
+    "word(1-2-average)", 
+    "pos(1-2,nn)", 
+    "word(1-3-',')", 
+    "pos(1-3,',')", 
+    "word(1-4-it)", 
+    "pos(1-4,prp)", 
+    "word(1-5-is)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-cloudy)", 
+    "pos(1-6,jj)", 
+    "word(1-7-for)", 
+    "pos(1-7,in)", 
+    "word(1-8-12)", 
+    "pos(1-8,cd)", 
+    "word(1-9-of)", 
+    "pos(1-9,in)", 
+    "word(1-10-the)", 
+    "pos(1-10,dt)", 
+    "word(1-11-28)", 
+    "pos(1-11,cd)", 
+    "word(1-12-days)", 
+    "pos(1-12,nns)", 
+    "word(1-13-in)", 
+    "pos(1-13,in)", 
+    "word(1-14-february)", 
+    "pos(1-14,nnp)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "case(1-2,1-1)", 
+    "nmod:on(1-6,1-2)", 
+    "nsubj(1-6,1-4)", 
+    "cop(1-6,1-5)", 
+    "nmod:for(1-6,1-8)", 
+    "case(1-8,1-7)", 
+    "nmod:of(1-8,1-12)", 
+    "case(1-12,1-9)", 
+    "det(1-12,1-10)", 
+    "nummod(1-12,1-11)", 
+    "nmod:in(1-12,1-14)", 
+    "case(1-14,1-13)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,wdt)", 
+    "word(2-6-during)", 
+    "pos(2-6,in)", 
+    "word(2-7-the)", 
+    "pos(2-7,dt)", 
+    "word(2-8-second)", 
+    "pos(2-8,jj)", 
+    "word(2-9-week)", 
+    "pos(2-9,nn)", 
+    "word(2-10-of)", 
+    "pos(2-10,in)", 
+    "word(2-11-february)", 
+    "pos(2-11,nnp)", 
+    "word(2-12-there)", 
+    "pos(2-12,rb)", 
+    "word(2-13-will)", 
+    "pos(2-13,md)", 
+    "word(2-14-be)", 
+    "pos(2-14,vb)", 
+    "word(2-15-exactly)", 
+    "pos(2-15,rb)", 
+    "word(2-16-one)", 
+    "pos(2-16,cd)", 
+    "word(2-17-day)", 
+    "pos(2-17,nn)", 
+    "word(2-18-that)", 
+    "pos(2-18,wdt)", 
+    "word(2-19-is)", 
+    "pos(2-19,vbz)", 
+    "word(2-20-cloudy)", 
+    "pos(2-20,jj)", 
+    "word(2-21-'?')", 
+    "pos(2-21,'.')", 
+    "det(2-4,2-3)", 
+    "acl:relcl(2-4,2-17)", 
+    "case(2-9,2-6)", 
+    "det(2-9,2-7)", 
+    "amod(2-9,2-8)", 
+    "nmod:of(2-9,2-11)", 
+    "case(2-11,2-10)", 
+    "acl:relcl(2-17,2-20)", 
+    "nsubj(2-17,2-5)", 
+    "nmod:during(2-17,2-9)", 
+    "advmod(2-17,2-12)", 
+    "aux(2-17,2-13)", 
+    "cop(2-17,2-14)", 
+    "advmod(2-17,2-15)", 
+    "nummod(2-17,2-16)", 
+    "cop(2-20,2-19)", 
+    "nsubj(2-20,2-18)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "simple event", 
+    "id": 2
+  }, 
+  "time_added": "2016-08-02T11:52:39.452000", 
+  "status": "skip"
+}

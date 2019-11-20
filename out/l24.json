@@ -1,0 +1,567 @@
+{
+  "owner": "liselot", 
+  "ex_id": 24, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "out", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "out", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "player", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "players", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "receive", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "receiving", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "thirteen", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "thirteen", 
+        "corenlp": {
+          "number": 13
+        }, 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-18"
+            ], 
+            "mention": "explicit", 
+            "number": 13
+          }
+        }, 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "well", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "well", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "shuffle", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "shuffled", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "pack", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pack", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "52", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "52", 
+        "corenlp": {
+          "number": 52
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "playing", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "playing", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "cards", 
+        "index": 8, 
+        "type": "word", 
+        "is_event": false, 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "cards", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "52"
+          }
+        }, 
+        "event": {
+          "outcomes": {
+            "values": [
+              "2-4"
+            ], 
+            "distribution": {
+              "probability": {
+                "values": {
+                  "2-4": "4/52"
+                }, 
+                "words": {}
+              }, 
+              "type": "custom"
+            }, 
+            "extra_count": "1"
+          }, 
+          "repeat": "4", 
+          "group": "1-10-dealt"
+        }, 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": "52"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "deal", 
+        "index": 10, 
+        "type": "word", 
+        "is_event": false, 
+        "nlp_pos": "VBN", 
+        "text": "dealt", 
+        "event": {
+          "is_event_group": true, 
+          "constraints": [
+            {}
+          ], 
+          "outcomes": {}
+        }, 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "four", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "ace", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "property": {
+          "value": "ace", 
+          "class": "outcome"
+        }, 
+        "text": "aces", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-5"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "four", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "ace", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "aces", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-13"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "particular", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "particular", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "player", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "player", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "receive", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "receives", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://mi.eng.cam.ac.uk/~rwp/Maths/eg/2012_maths_p9.pdf", 
+  "original_text": [
+    " A well shuffled pack of 52 playing cards is dealt out to four players, each receiving thirteen cards.", 
+    " What is the probability that a particular player receives the four aces?"
+  ], 
+  "solution": "0.0026", 
+  "text": [
+    " A well shuffled pack of 52 playing cards is dealt out to four players, each receiving thirteen cards.", 
+    " There are four aces.", 
+    " What is the probability that a particular player receives the four aces?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-well)", 
+    "pos(1-2,rb)", 
+    "word(1-3-shuffled)", 
+    "pos(1-3,vbd)", 
+    "word(1-4-pack)", 
+    "pos(1-4,nn)", 
+    "word(1-5-of)", 
+    "pos(1-5,in)", 
+    "word(1-6-52)", 
+    "pos(1-6,cd)", 
+    "word(1-7-playing)", 
+    "pos(1-7,nn)", 
+    "word(1-8-cards)", 
+    "pos(1-8,nns)", 
+    "word(1-9-is)", 
+    "pos(1-9,vbz)", 
+    "word(1-10-dealt)", 
+    "pos(1-10,vbn)", 
+    "word(1-11-out)", 
+    "pos(1-11,rp)", 
+    "word(1-12-to)", 
+    "pos(1-12,to)", 
+    "word(1-13-four)", 
+    "pos(1-13,cd)", 
+    "word(1-14-players)", 
+    "pos(1-14,nns)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-each)", 
+    "pos(1-16,dt)", 
+    "word(1-17-receiving)", 
+    "pos(1-17,vbg)", 
+    "word(1-18-thirteen)", 
+    "pos(1-18,cd)", 
+    "word(1-19-cards)", 
+    "pos(1-19,nns)", 
+    "word(1-20-'.')", 
+    "pos(1-20,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "ccomp(1-3,1-10)", 
+    "nmod:of(1-4,1-8)", 
+    "case(1-8,1-5)", 
+    "nummod(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "dobj(1-10,1-16)", 
+    "nsubjpass(1-10,1-4)", 
+    "auxpass(1-10,1-9)", 
+    "compound:prt(1-10,1-11)", 
+    "nmod:to(1-10,1-14)", 
+    "case(1-14,1-12)", 
+    "nummod(1-14,1-13)", 
+    "acl(1-16,1-17)", 
+    "dobj(1-17,1-19)", 
+    "nummod(1-19,1-18)", 
+    "word(2-1-there)", 
+    "pos(2-1,ex)", 
+    "word(2-2-are)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-four)", 
+    "pos(2-3,cd)", 
+    "word(2-4-aces)", 
+    "pos(2-4,vbz)", 
+    "word(2-5-'.')", 
+    "pos(2-5,'.')", 
+    "acl:relcl(2-3,2-4)", 
+    "nsubj(2-2,2-3)", 
+    "expl(2-2,2-1)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-a)", 
+    "pos(3-6,dt)", 
+    "word(3-7-particular)", 
+    "pos(3-7,jj)", 
+    "word(3-8-player)", 
+    "pos(3-8,nn)", 
+    "word(3-9-receives)", 
+    "pos(3-9,vbz)", 
+    "word(3-10-the)", 
+    "pos(3-10,dt)", 
+    "word(3-11-four)", 
+    "pos(3-11,cd)", 
+    "word(3-12-aces)", 
+    "pos(3-12,vbz)", 
+    "word(3-13-'?')", 
+    "pos(3-13,'.')", 
+    "det(3-8,3-6)", 
+    "amod(3-8,3-7)", 
+    "nsubj(3-9,3-8)", 
+    "ccomp(3-9,3-12)", 
+    "mark(3-9,3-5)", 
+    "det(3-11,3-10)", 
+    "nsubj(3-12,3-11)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-9)", 
+    "det(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-12T13:59:41.940000", 
+  "status": "skip"
+}

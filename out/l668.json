@@ -1,0 +1,672 @@
+{
+  "owner": "liselot", 
+  "ex_id": 668, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "selects", 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "only", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "only", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "mushroom", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "mushrooms", 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "0.32", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.32", 
+        "key": "1-26"
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-27"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "mushroom", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "mushroom"
+        }, 
+        "text": "mushrooms", 
+        "key": "1-10"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "or", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "pepperoni", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "pepperoni", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "0.43", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.43", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 18, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-18", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-2", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "probabilities", 
+          "size": {
+            "words": [
+              "1-14"
+            ], 
+            "mention": "explicit", 
+            "number": "0.43"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-10"
+          ]
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "customer", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "customer", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "selects", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "pizza", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pizza", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-20"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "customer", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "customer", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-11"
+      }, 
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "item", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "items", 
+        "key": "2-22"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "0.17", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.17", 
+        "key": "2-12"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-23"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "find", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 16, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-16", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "customer", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "customer", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "he", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "he", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "or", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "she", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "she", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "selects", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "only", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "only", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "selecting", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "pepperoni", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "pepperoni", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "both", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "both", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "highered.mheducation.com/sites/dl/free/007353496x/366095/Ch_04.pdf", 
+  "solution": "0.06", 
+  "text": [
+    " The probability that a customer selects a pizza with mushrooms or pepperoni is 0.43, and the probability that the customer selects only mushrooms is 0.32.", 
+    " If the probability that he or she selects only pepperoni is 0.17, find the probability of the customer selecting both items."
+  ], 
+  "corenlp": [
+    "word(1-1-the)", 
+    "pos(1-1,dt)", 
+    "word(1-2-probability)", 
+    "pos(1-2,nn)", 
+    "word(1-3-that)", 
+    "pos(1-3,in)", 
+    "word(1-4-a)", 
+    "pos(1-4,dt)", 
+    "word(1-5-customer)", 
+    "pos(1-5,nn)", 
+    "word(1-6-selects)", 
+    "pos(1-6,vbz)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-pizza)", 
+    "pos(1-8,nn)", 
+    "word(1-9-with)", 
+    "pos(1-9,in)", 
+    "word(1-10-mushrooms)", 
+    "pos(1-10,nns)", 
+    "word(1-11-or)", 
+    "pos(1-11,cc)", 
+    "word(1-12-pepperoni)", 
+    "pos(1-12,nns)", 
+    "word(1-13-is)", 
+    "pos(1-13,vbz)", 
+    "word(1-14-0.43)", 
+    "pos(1-14,cd)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-and)", 
+    "pos(1-16,cc)", 
+    "word(1-17-the)", 
+    "pos(1-17,dt)", 
+    "word(1-18-probability)", 
+    "pos(1-18,nn)", 
+    "word(1-19-that)", 
+    "pos(1-19,in)", 
+    "word(1-20-the)", 
+    "pos(1-20,dt)", 
+    "word(1-21-customer)", 
+    "pos(1-21,nn)", 
+    "word(1-22-selects)", 
+    "pos(1-22,vbz)", 
+    "word(1-23-only)", 
+    "pos(1-23,rb)", 
+    "word(1-24-mushrooms)", 
+    "pos(1-24,nns)", 
+    "word(1-25-is)", 
+    "pos(1-25,vbz)", 
+    "word(1-26-0.32)", 
+    "pos(1-26,cd)", 
+    "word(1-27-'.')", 
+    "pos(1-27,'.')", 
+    "det(1-2,1-1)", 
+    "dep(1-2,1-6)", 
+    "det(1-5,1-4)", 
+    "mark(1-6,1-3)", 
+    "nsubj(1-6,1-5)", 
+    "dobj(1-6,1-8)", 
+    "det(1-8,1-7)", 
+    "nmod:with(1-8,1-10)", 
+    "nmod:with(1-8,1-12)", 
+    "case(1-10,1-9)", 
+    "cc(1-10,1-11)", 
+    "conj:or(1-10,1-12)", 
+    "cc(1-14,1-16)", 
+    "nsubj(1-14,1-2)", 
+    "conj:and(1-14,1-18)", 
+    "ccomp(1-14,1-22)", 
+    "cop(1-14,1-13)", 
+    "det(1-18,1-17)", 
+    "det(1-21,1-20)", 
+    "mark(1-22,1-19)", 
+    "nsubj(1-22,1-21)", 
+    "ccomp(1-22,1-26)", 
+    "advmod(1-26,1-23)", 
+    "nsubj(1-26,1-24)", 
+    "cop(1-26,1-25)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-probability)", 
+    "pos(2-3,nn)", 
+    "word(2-4-that)", 
+    "pos(2-4,in)", 
+    "word(2-5-he)", 
+    "pos(2-5,prp)", 
+    "word(2-6-or)", 
+    "pos(2-6,cc)", 
+    "word(2-7-she)", 
+    "pos(2-7,prp)", 
+    "word(2-8-selects)", 
+    "pos(2-8,vbz)", 
+    "word(2-9-only)", 
+    "pos(2-9,rb)", 
+    "word(2-10-pepperoni)", 
+    "pos(2-10,nn)", 
+    "word(2-11-is)", 
+    "pos(2-11,vbz)", 
+    "word(2-12-0.17)", 
+    "pos(2-12,cd)", 
+    "word(2-13-',')", 
+    "pos(2-13,',')", 
+    "word(2-14-find)", 
+    "pos(2-14,vb)", 
+    "word(2-15-the)", 
+    "pos(2-15,dt)", 
+    "word(2-16-probability)", 
+    "pos(2-16,nn)", 
+    "word(2-17-of)", 
+    "pos(2-17,in)", 
+    "word(2-18-the)", 
+    "pos(2-18,dt)", 
+    "word(2-19-customer)", 
+    "pos(2-19,nn)", 
+    "word(2-20-selecting)", 
+    "pos(2-20,vbg)", 
+    "word(2-21-both)", 
+    "pos(2-21,cc)", 
+    "word(2-22-items)", 
+    "pos(2-22,nns)", 
+    "word(2-23-'.')", 
+    "pos(2-23,'.')", 
+    "dep(2-3,2-8)", 
+    "det(2-3,2-2)", 
+    "cc(2-5,2-6)", 
+    "conj:or(2-5,2-7)", 
+    "mark(2-8,2-4)", 
+    "nsubj(2-8,2-5)", 
+    "nsubj(2-8,2-7)", 
+    "dobj(2-8,2-10)", 
+    "advmod(2-10,2-9)", 
+    "nsubj(2-12,2-3)", 
+    "cop(2-12,2-11)", 
+    "mark(2-12,2-1)", 
+    "advcl(2-14,2-12)", 
+    "dobj(2-14,2-16)", 
+    "nmod:of(2-16,2-19)", 
+    "det(2-16,2-15)", 
+    "acl(2-19,2-20)", 
+    "case(2-19,2-17)", 
+    "det(2-19,2-18)", 
+    "nmod:both(2-20,2-22)", 
+    "case(2-22,2-21)"
+  ], 
+  "category": {
+    "name": "simple object selection", 
+    "id": 1
+  }, 
+  "time_added": "2016-08-02T09:40:45.783000", 
+  "status": "skip"
+}

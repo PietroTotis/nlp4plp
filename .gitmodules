@@ -1,0 +1,3 @@
+[submodule "parser/ply"]
+	path = parser/ply
+	url = https://github.com/dabeaz/ply.git

@@ -1,0 +1,323 @@
+{
+  "owner": "liselot", 
+  "ex_id": 354, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-11"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "We", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "We", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "toss", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "toss", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "fair", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "fair", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "dice", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "dice", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "until", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "until", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "their", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "their", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "sum", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sum", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "12", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "12", 
+        "corenlp": {
+          "number": 12
+        }, 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "toss", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tosses", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "probabillity", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probabillity", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "we", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "we", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "wait", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "wait", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "exactly", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "exactly", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "10", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://www.maths.uq.edu.au/~kroese/asitp.pdf", 
+  "solution": "(35^9)/(36^10)", 
+  "text": [
+    " We toss two fair dice until their sum is 12.", 
+    " What is probabillity that we have to wait exactly 10 tosses?"
+  ], 
+  "corenlp": [
+    "word(1-1-we)", 
+    "pos(1-1,prp)", 
+    "word(1-2-toss)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-two)", 
+    "pos(1-3,cd)", 
+    "word(1-4-fair)", 
+    "pos(1-4,jj)", 
+    "word(1-5-dice)", 
+    "pos(1-5,nns)", 
+    "word(1-6-until)", 
+    "pos(1-6,in)", 
+    "word(1-7-their)", 
+    "pos(1-7,prp)", 
+    "word(1-8-sum)", 
+    "pos(1-8,nn)", 
+    "word(1-9-is)", 
+    "pos(1-9,vbz)", 
+    "word(1-10-12)", 
+    "pos(1-10,cd)", 
+    "word(1-11-'.')", 
+    "pos(1-11,'.')", 
+    "nsubj(1-2,1-1)", 
+    "dobj(1-2,1-5)", 
+    "advcl(1-2,1-10)", 
+    "nummod(1-5,1-3)", 
+    "amod(1-5,1-4)", 
+    "nmod:poss(1-8,1-7)", 
+    "mark(1-10,1-6)", 
+    "nsubj(1-10,1-8)", 
+    "cop(1-10,1-9)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-probabillity)", 
+    "pos(2-3,nn)", 
+    "word(2-4-that)", 
+    "pos(2-4,in)", 
+    "word(2-5-we)", 
+    "pos(2-5,prp)", 
+    "word(2-6-have)", 
+    "pos(2-6,vbp)", 
+    "word(2-7-to)", 
+    "pos(2-7,to)", 
+    "word(2-8-wait)", 
+    "pos(2-8,vb)", 
+    "word(2-9-exactly)", 
+    "pos(2-9,rb)", 
+    "word(2-10-10)", 
+    "pos(2-10,cd)", 
+    "word(2-11-tosses)", 
+    "pos(2-11,nns)", 
+    "word(2-12-'?')", 
+    "pos(2-12,'.')", 
+    "dep(2-3,2-6)", 
+    "mark(2-6,2-4)", 
+    "nsubj(2-6,2-5)", 
+    "xcomp(2-6,2-8)", 
+    "mark(2-8,2-7)", 
+    "dobj(2-8,2-11)", 
+    "advmod(2-11,2-9)", 
+    "nummod(2-11,2-10)", 
+    "nsubj(2-1,2-3)", 
+    "cop(2-1,2-2)"
+  ], 
+  "category": {
+    "name": "simple event", 
+    "id": 2
+  }, 
+  "time_added": "2016-07-25T09:22:02.414000", 
+  "status": "skip"
+}

@@ -1,0 +1,725 @@
+{
+  "owner": "liselot", 
+  "ex_id": 236, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-12", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [
+              "1-12"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-13"
+          ]
+        }
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "quarters", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "quarters"
+        }, 
+        "text": "quarters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-12"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-14"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "change", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "change", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "purse", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "purse", 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-5", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-6"
+          ]
+        }
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "nickel", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "nickel"
+        }, 
+        "text": "nickels", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-5"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "eight", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "eight", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-8", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-3", 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-9"
+          ]
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "dime", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "dime"
+        }, 
+        "text": "dimes", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "order", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "order", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "unimportant", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "unimportant", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 25, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-25"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "three", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "dime", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "dimes", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-11"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "four", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "nickel", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "nickels", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-15"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "if", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "coin", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "coins", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "find", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Find", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "number", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "number", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "ways", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "2-5", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "choice": {
+                  "reqnum": true, 
+                  "number": "2", 
+                  "children": 1, 
+                  "name": "exactly", 
+                  "id": "=="
+                }, 
+                "child": {
+                  "choice": "quarters"
+                }
+              }
+            }, 
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "choice": {
+                  "reqnum": true, 
+                  "number": "3", 
+                  "children": 1, 
+                  "name": "exactly", 
+                  "id": "=="
+                }, 
+                "child": {
+                  "choice": "dime"
+                }
+              }
+            }, 
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "choice": {
+                  "reqnum": true, 
+                  "number": "4", 
+                  "children": 1, 
+                  "name": "exactly", 
+                  "id": "=="
+                }, 
+                "child": {
+                  "choice": "nickel"
+                }
+              }
+            }
+          ], 
+          "role_arg": "1-3", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-7", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 7, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "VBG", 
+        "text": "drawing", 
+        "key": "2-7", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-8", 
+              "2-11", 
+              "2-15"
+            ], 
+            "mention": "by_content", 
+            "number": "9"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "quarters", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "quarters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-8"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "distinct", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "distinct", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "original_text": [
+    " A change purse contains five nickels, eight dimes, and three quarters.", 
+    " Find the number of ways of drawing two quarters, three dimes, and four nickels if coins are distinct and order is important0."
+  ], 
+  "source": "http://www.morganclaypool.com/doi/pdf/10.2200/S00037ED1V01Y200606BME005", 
+  "solution": "840", 
+  "text": [
+    " A change purse contains five nickels, eight dimes, and three quarters.", 
+    " Find the number of ways of drawing two quarters, three dimes, and four nickels if coins are distinct and order is unimportant."
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-change)", 
+    "pos(1-2,nn)", 
+    "word(1-3-purse)", 
+    "pos(1-3,nn)", 
+    "word(1-4-contains)", 
+    "pos(1-4,vbz)", 
+    "word(1-5-five)", 
+    "pos(1-5,cd)", 
+    "word(1-6-nickels)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-eight)", 
+    "pos(1-8,cd)", 
+    "word(1-9-dimes)", 
+    "pos(1-9,nns)", 
+    "word(1-10-',')", 
+    "pos(1-10,',')", 
+    "word(1-11-and)", 
+    "pos(1-11,cc)", 
+    "word(1-12-three)", 
+    "pos(1-12,cd)", 
+    "word(1-13-quarters)", 
+    "pos(1-13,nns)", 
+    "word(1-14-'.')", 
+    "pos(1-14,'.')", 
+    "det(1-3,1-1)", 
+    "compound(1-3,1-2)", 
+    "nsubj(1-4,1-3)", 
+    "dobj(1-4,1-6)", 
+    "dobj(1-4,1-9)", 
+    "dobj(1-4,1-13)", 
+    "nummod(1-6,1-5)", 
+    "conj:and(1-6,1-9)", 
+    "cc(1-6,1-11)", 
+    "conj:and(1-6,1-13)", 
+    "nummod(1-9,1-8)", 
+    "nummod(1-13,1-12)", 
+    "word(2-1-find)", 
+    "pos(2-1,vb)", 
+    "word(2-2-the)", 
+    "pos(2-2,dt)", 
+    "word(2-3-number)", 
+    "pos(2-3,nn)", 
+    "word(2-4-of)", 
+    "pos(2-4,in)", 
+    "word(2-5-ways)", 
+    "pos(2-5,nns)", 
+    "word(2-6-of)", 
+    "pos(2-6,in)", 
+    "word(2-7-drawing)", 
+    "pos(2-7,vbg)", 
+    "word(2-8-two)", 
+    "pos(2-8,cd)", 
+    "word(2-9-quarters)", 
+    "pos(2-9,nns)", 
+    "word(2-10-',')", 
+    "pos(2-10,',')", 
+    "word(2-11-three)", 
+    "pos(2-11,cd)", 
+    "word(2-12-dimes)", 
+    "pos(2-12,nns)", 
+    "word(2-13-',')", 
+    "pos(2-13,',')", 
+    "word(2-14-and)", 
+    "pos(2-14,cc)", 
+    "word(2-15-four)", 
+    "pos(2-15,cd)", 
+    "word(2-16-nickels)", 
+    "pos(2-16,nns)", 
+    "word(2-17-if)", 
+    "pos(2-17,in)", 
+    "word(2-18-coins)", 
+    "pos(2-18,nns)", 
+    "word(2-19-are)", 
+    "pos(2-19,vbp)", 
+    "word(2-20-distinct)", 
+    "pos(2-20,jj)", 
+    "word(2-21-and)", 
+    "pos(2-21,cc)", 
+    "word(2-22-order)", 
+    "pos(2-22,nn)", 
+    "word(2-23-is)", 
+    "pos(2-23,vbz)", 
+    "word(2-24-unimportant)", 
+    "pos(2-24,jj)", 
+    "word(2-25-'.')", 
+    "pos(2-25,'.')", 
+    "dobj(2-1,2-3)", 
+    "advcl(2-1,2-20)", 
+    "advcl(2-1,2-24)", 
+    "nmod:of(2-3,2-5)", 
+    "det(2-3,2-2)", 
+    "case(2-5,2-4)", 
+    "acl(2-5,2-7)", 
+    "mark(2-7,2-6)", 
+    "dobj(2-7,2-9)", 
+    "dobj(2-7,2-12)", 
+    "dobj(2-7,2-16)", 
+    "nummod(2-9,2-8)", 
+    "conj:and(2-9,2-12)", 
+    "cc(2-9,2-14)", 
+    "conj:and(2-9,2-16)", 
+    "nummod(2-12,2-11)", 
+    "nummod(2-16,2-15)", 
+    "cop(2-20,2-19)", 
+    "cc(2-20,2-21)", 
+    "conj:and(2-20,2-24)", 
+    "mark(2-20,2-17)", 
+    "nsubj(2-20,2-18)", 
+    "nsubj(2-24,2-22)", 
+    "cop(2-24,2-23)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-18T11:48:02.763000", 
+  "status": "done"
+}

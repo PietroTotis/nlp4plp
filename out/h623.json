@@ -1,0 +1,753 @@
+{
+  "owner": "hannah", 
+  "ex_id": 623, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "blue", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "blue", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-15", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-16"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "box", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "box", 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "3", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "red", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "red", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "4", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "white", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "white", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "ball", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "1-10", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "random", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "without", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "without", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "replacement", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "replacement", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-17"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "Balls", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "from", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "box", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "box", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "time", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "time", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "draw", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "before", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "before", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "any", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "any", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "white", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "white", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "obtain", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "obtained", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "all", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "all", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "three", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "red", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "red", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-7"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "will", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "original_text": [
+    " A box contains 3 red balls, 4 white balls, and 3 blue balls.", 
+    " Balls are drawn from the box one at a time, Free to photocopy and distribute 70 Chapter 4 at random, without replacement.", 
+    " What is the probability that all three red balls will be drawn before any white ball is obtained?"
+  ], 
+  "source": "Elementary Probability - Santos", 
+  "solution": "1/35", 
+  "text": [
+    " A box contains 3 red balls, 4 white balls, and 3 blue balls.", 
+    " Balls are drawn from the box one at a time, at random, without replacement.", 
+    " What is the probability that all three red balls will be drawn before any white ball is obtained?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-box)", 
+    "pos(1-2,nn)", 
+    "word(1-3-contains)", 
+    "pos(1-3,vbz)", 
+    "word(1-4-3)", 
+    "pos(1-4,cd)", 
+    "word(1-5-red)", 
+    "pos(1-5,jj)", 
+    "word(1-6-balls)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-4)", 
+    "pos(1-8,cd)", 
+    "word(1-9-white)", 
+    "pos(1-9,jj)", 
+    "word(1-10-balls)", 
+    "pos(1-10,nns)", 
+    "word(1-11-',')", 
+    "pos(1-11,',')", 
+    "word(1-12-and)", 
+    "pos(1-12,cc)", 
+    "word(1-13-3)", 
+    "pos(1-13,cd)", 
+    "word(1-14-blue)", 
+    "pos(1-14,jj)", 
+    "word(1-15-balls)", 
+    "pos(1-15,nns)", 
+    "word(1-16-'.')", 
+    "pos(1-16,'.')", 
+    "det(1-2,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "dobj(1-3,1-6)", 
+    "dobj(1-3,1-10)", 
+    "dobj(1-3,1-15)", 
+    "nummod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "conj:and(1-6,1-10)", 
+    "cc(1-6,1-12)", 
+    "conj:and(1-6,1-15)", 
+    "nummod(1-10,1-8)", 
+    "amod(1-10,1-9)", 
+    "nummod(1-15,1-13)", 
+    "amod(1-15,1-14)", 
+    "word(2-1-balls)", 
+    "pos(2-1,nns)", 
+    "word(2-2-are)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-drawn)", 
+    "pos(2-3,vbn)", 
+    "word(2-4-from)", 
+    "pos(2-4,in)", 
+    "word(2-5-the)", 
+    "pos(2-5,dt)", 
+    "word(2-6-box)", 
+    "pos(2-6,nn)", 
+    "word(2-7-one)", 
+    "pos(2-7,cd)", 
+    "word(2-8-at)", 
+    "pos(2-8,in)", 
+    "word(2-9-a)", 
+    "pos(2-9,dt)", 
+    "word(2-10-time)", 
+    "pos(2-10,nn)", 
+    "word(2-11-',')", 
+    "pos(2-11,',')", 
+    "word(2-12-at)", 
+    "pos(2-12,in)", 
+    "word(2-13-random)", 
+    "pos(2-13,jj)", 
+    "word(2-14-',')", 
+    "pos(2-14,',')", 
+    "word(2-15-without)", 
+    "pos(2-15,in)", 
+    "word(2-16-replacement)", 
+    "pos(2-16,nn)", 
+    "word(2-17-'.')", 
+    "pos(2-17,'.')", 
+    "nmod:from(2-3,2-6)", 
+    "nmod:at(2-3,2-10)", 
+    "advcl:at(2-3,2-13)", 
+    "nmod:without(2-3,2-16)", 
+    "nsubjpass(2-3,2-1)", 
+    "auxpass(2-3,2-2)", 
+    "case(2-6,2-4)", 
+    "det(2-6,2-5)", 
+    "nummod(2-6,2-7)", 
+    "case(2-10,2-8)", 
+    "det(2-10,2-9)", 
+    "case(2-13,2-12)", 
+    "case(2-16,2-15)", 
+    "word(3-1-what)", 
+    "pos(3-1,wp)", 
+    "word(3-2-is)", 
+    "pos(3-2,vbz)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-probability)", 
+    "pos(3-4,nn)", 
+    "word(3-5-that)", 
+    "pos(3-5,in)", 
+    "word(3-6-all)", 
+    "pos(3-6,dt)", 
+    "word(3-7-three)", 
+    "pos(3-7,cd)", 
+    "word(3-8-red)", 
+    "pos(3-8,jj)", 
+    "word(3-9-balls)", 
+    "pos(3-9,nns)", 
+    "word(3-10-will)", 
+    "pos(3-10,md)", 
+    "word(3-11-be)", 
+    "pos(3-11,vb)", 
+    "word(3-12-drawn)", 
+    "pos(3-12,vbn)", 
+    "word(3-13-before)", 
+    "pos(3-13,in)", 
+    "word(3-14-any)", 
+    "pos(3-14,dt)", 
+    "word(3-15-white)", 
+    "pos(3-15,jj)", 
+    "word(3-16-ball)", 
+    "pos(3-16,nn)", 
+    "word(3-17-is)", 
+    "pos(3-17,vbz)", 
+    "word(3-18-obtained)", 
+    "pos(3-18,vbn)", 
+    "word(3-19-'?')", 
+    "pos(3-19,'.')", 
+    "det(3-9,3-6)", 
+    "nummod(3-9,3-7)", 
+    "amod(3-9,3-8)", 
+    "nsubjpass(3-12,3-9)", 
+    "aux(3-12,3-10)", 
+    "auxpass(3-12,3-11)", 
+    "advcl(3-12,3-18)", 
+    "mark(3-12,3-5)", 
+    "det(3-16,3-14)", 
+    "amod(3-16,3-15)", 
+    "mark(3-18,3-13)", 
+    "nsubjpass(3-18,3-16)", 
+    "auxpass(3-18,3-17)", 
+    "cop(3-1,3-2)", 
+    "nsubj(3-1,3-4)", 
+    "dep(3-4,3-12)", 
+    "det(3-4,3-3)"
+  ], 
+  "time_added": "2016-07-27T10:53:44.171000", 
+  "status": "skip"
+}

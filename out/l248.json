@@ -1,0 +1,694 @@
+{
+  "owner": "liselot", 
+  "ex_id": 248, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "code", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "code", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "made", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "up", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "up", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "letters", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-17", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "All", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PDT", 
+        "text": "All", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "item", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "items", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "stock", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "stock", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "certain", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "certain", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "store", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "store", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "bear", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bear", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "26", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "26", 
+        "corenlp": {
+          "number": 26
+        }, 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "letters", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }
+        }, 
+        "key": "2-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "english", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "English", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "alphabet", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "alphabet", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-9"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "3-11"
+      }, 
+      "22": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-22"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-12"
+      }, 
+      "23": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-23"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "give", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "given", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "code", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "code", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 17, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-17", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "2-4", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-17", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "code", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "codes", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "same", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "same", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "letter", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "letter", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "never", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "never", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "use", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "used", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "more", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "more", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "than", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "than", 
+        "key": "3-9"
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-20"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "once", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "once", 
+        "key": "3-10"
+      }, 
+      "21": {
+        "sentence": 3, 
+        "nlp_stem": "there", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "there", 
+        "key": "3-21"
+      }
+    }
+  }, 
+  "original_text": [
+    " All the items in stock in a certain store bear a code made up of five letters.", 
+    " If the same letter is never used more than once in a given code, how many different codes can there be?"
+  ], 
+  "source": "http://download.springer.com/static/pdf/561/bok%253A978-0-387-74995-2.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-74995-2&token2=exp=1468846709~acl=%2Fstatic%2Fpdf%2F561%2Fbok%25253A978-0-387-74995-2.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-74995-2*~hmac=e4a2aa0b7b8f00ef2dc1a28a9fe0aecf0a74a72838d6a492ed309b5ae5b918f2", 
+  "solution": "7893600", 
+  "text": [
+    " All the items in stock in a certain store bear a code made up of five letters.", 
+    " There are 26 letters in the English alphabet.", 
+    " If the same letter is never used more than once in a given code, how many different codes can there be?"
+  ], 
+  "corenlp": [
+    "word(1-1-all)", 
+    "pos(1-1,pdt)", 
+    "word(1-2-the)", 
+    "pos(1-2,dt)", 
+    "word(1-3-items)", 
+    "pos(1-3,nns)", 
+    "word(1-4-in)", 
+    "pos(1-4,in)", 
+    "word(1-5-stock)", 
+    "pos(1-5,nn)", 
+    "word(1-6-in)", 
+    "pos(1-6,in)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-certain)", 
+    "pos(1-8,jj)", 
+    "word(1-9-store)", 
+    "pos(1-9,nn)", 
+    "word(1-10-bear)", 
+    "pos(1-10,nn)", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-code)", 
+    "pos(1-12,nn)", 
+    "word(1-13-made)", 
+    "pos(1-13,vbd)", 
+    "word(1-14-up)", 
+    "pos(1-14,rp)", 
+    "word(1-15-of)", 
+    "pos(1-15,in)", 
+    "word(1-16-five)", 
+    "pos(1-16,cd)", 
+    "word(1-17-letters)", 
+    "pos(1-17,nns)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "det:predet(1-3,1-1)", 
+    "det(1-3,1-2)", 
+    "nmod:in(1-3,1-5)", 
+    "case(1-5,1-4)", 
+    "nmod:in(1-5,1-10)", 
+    "case(1-10,1-6)", 
+    "det(1-10,1-7)", 
+    "amod(1-10,1-8)", 
+    "compound(1-10,1-9)", 
+    "dep(1-10,1-12)", 
+    "det(1-12,1-11)", 
+    "nmod:of(1-13,1-17)", 
+    "nsubj(1-13,1-3)", 
+    "compound:prt(1-13,1-14)", 
+    "nummod(1-17,1-16)", 
+    "case(1-17,1-15)", 
+    "word(2-1-there)", 
+    "pos(2-1,ex)", 
+    "word(2-2-are)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-26)", 
+    "pos(2-3,cd)", 
+    "word(2-4-letters)", 
+    "pos(2-4,nns)", 
+    "word(2-5-in)", 
+    "pos(2-5,in)", 
+    "word(2-6-the)", 
+    "pos(2-6,dt)", 
+    "word(2-7-english)", 
+    "pos(2-7,nnp)", 
+    "word(2-8-alphabet)", 
+    "pos(2-8,nn)", 
+    "word(2-9-'.')", 
+    "pos(2-9,'.')", 
+    "nummod(2-4,2-3)", 
+    "nmod:in(2-4,2-8)", 
+    "case(2-8,2-5)", 
+    "det(2-8,2-6)", 
+    "compound(2-8,2-7)", 
+    "nsubj(2-2,2-4)", 
+    "expl(2-2,2-1)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-the)", 
+    "pos(3-2,dt)", 
+    "word(3-3-same)", 
+    "pos(3-3,jj)", 
+    "word(3-4-letter)", 
+    "pos(3-4,nn)", 
+    "word(3-5-is)", 
+    "pos(3-5,vbz)", 
+    "word(3-6-never)", 
+    "pos(3-6,rb)", 
+    "word(3-7-used)", 
+    "pos(3-7,vbn)", 
+    "word(3-8-more)", 
+    "pos(3-8,jjr)", 
+    "word(3-9-than)", 
+    "pos(3-9,in)", 
+    "word(3-10-once)", 
+    "pos(3-10,rb)", 
+    "word(3-11-in)", 
+    "pos(3-11,in)", 
+    "word(3-12-a)", 
+    "pos(3-12,dt)", 
+    "word(3-13-given)", 
+    "pos(3-13,vbn)", 
+    "word(3-14-code)", 
+    "pos(3-14,nn)", 
+    "word(3-15-',')", 
+    "pos(3-15,',')", 
+    "word(3-16-how)", 
+    "pos(3-16,wrb)", 
+    "word(3-17-many)", 
+    "pos(3-17,jj)", 
+    "word(3-18-different)", 
+    "pos(3-18,jj)", 
+    "word(3-19-codes)", 
+    "pos(3-19,nns)", 
+    "word(3-20-can)", 
+    "pos(3-20,md)", 
+    "word(3-21-there)", 
+    "pos(3-21,rb)", 
+    "word(3-22-be)", 
+    "pos(3-22,vb)", 
+    "word(3-23-'?')", 
+    "pos(3-23,'.')", 
+    "neg(3-7,3-6)", 
+    "dobj(3-7,3-10)", 
+    "mark(3-7,3-1)", 
+    "nsubjpass(3-7,3-4)", 
+    "auxpass(3-7,3-5)", 
+    "mwe(3-8,3-9)", 
+    "advmod(3-10,3-8)", 
+    "nmod:in(3-10,3-14)", 
+    "case(3-14,3-11)", 
+    "det(3-14,3-12)", 
+    "amod(3-14,3-13)", 
+    "advmod(3-17,3-16)", 
+    "amod(3-19,3-17)", 
+    "amod(3-19,3-18)", 
+    "advcl(3-22,3-7)", 
+    "dobj(3-22,3-19)", 
+    "aux(3-22,3-20)", 
+    "nsubj(3-22,3-21)", 
+    "det(3-4,3-2)", 
+    "amod(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-18T14:47:22", 
+  "status": "done"
+}

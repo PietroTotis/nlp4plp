@@ -1,0 +1,798 @@
+{
+  "owner": "monica", 
+  "ex_id": 708, 
+  "words": {
+    "1": {
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-22"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-23"
+      }, 
+      "24": {
+        "sentence": 1, 
+        "nlp_stem": "six", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "six", 
+        "corenlp": {
+          "number": 6
+        }, 
+        "key": "1-24"
+      }, 
+      "25": {
+        "sentence": 1, 
+        "nlp_stem": "hot", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "hot", 
+        "key": "1-25"
+      }, 
+      "26": {
+        "sentence": 1, 
+        "nlp_stem": "plate", 
+        "index": 26, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "plate", 
+          "class": "tool"
+        }, 
+        "text": "plates", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-24"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }
+        }, 
+        "key": "1-26", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "equipment", 
+          "size": {
+            "words": [
+              "1-24"
+            ], 
+            "mention": "explicit", 
+            "number": 6
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-26"
+          ]
+        }
+      }, 
+      "27": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-27"
+      }, 
+      "28": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-28"
+      }, 
+      "29": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-29"
+      }, 
+      "30": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-30"
+      }, 
+      "31": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-31"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "use", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "use", 
+        "key": "1-10"
+      }, 
+      "32": {
+        "sentence": 1, 
+        "nlp_stem": "stir", 
+        "index": 32, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "stirring", 
+        "key": "1-32"
+      }, 
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-11"
+      }, 
+      "33": {
+        "sentence": 1, 
+        "nlp_stem": "rod", 
+        "index": 33, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "rod", 
+          "class": "tool"
+        }, 
+        "text": "rods", 
+        "key": "1-33", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "equipment", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-33"
+          ]
+        }
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-12"
+      }, 
+      "34": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 34, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-34"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "beaker", 
+        "index": 14, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "beaker", 
+          "class": "tool"
+        }, 
+        "text": "beakers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-14", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "equipment", 
+          "size": {
+            "words": [
+              "1-13"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-14"
+          ]
+        }
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "graduate", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "graduated", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "To", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "To", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "set", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "set", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "up", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "up", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "experiment", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "experiment", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "chemist", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chemist", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "cylinder", 
+        "index": 20, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "cylinder", 
+          "class": "tool"
+        }, 
+        "text": "cylinders", 
+        "key": "1-20", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "equipment", 
+          "size": {
+            "words": [
+              "1-18"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": true, 
+          "properties": [
+            "1-20"
+          ]
+        }
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-11"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child2": {
+                  "choice": {
+                    "reqnum": true, 
+                    "number": "1", 
+                    "children": 1, 
+                    "name": "exactly", 
+                    "id": "=="
+                  }, 
+                  "child": {
+                    "choice": "rod"
+                  }
+                }, 
+                "child1": {
+                  "child2": {
+                    "choice": {
+                      "reqnum": true, 
+                      "number": "1", 
+                      "children": 1, 
+                      "name": "exactly", 
+                      "id": "=="
+                    }, 
+                    "child": {
+                      "choice": "plate"
+                    }
+                  }, 
+                  "child1": {
+                    "child2": {
+                      "choice": {
+                        "reqnum": true, 
+                        "number": "1", 
+                        "children": 1, 
+                        "name": "exactly", 
+                        "id": "=="
+                      }, 
+                      "child": {
+                        "choice": "cylinder"
+                      }
+                    }, 
+                    "child1": {
+                      "choice": {
+                        "reqnum": true, 
+                        "number": "1", 
+                        "children": 1, 
+                        "name": "exactly", 
+                        "id": "=="
+                      }, 
+                      "child": {
+                        "choice": "beaker"
+                      }
+                    }, 
+                    "choice": {
+                      "children": 2, 
+                      "name": "and", 
+                      "id": "and"
+                    }
+                  }, 
+                  "choice": {
+                    "children": 2, 
+                    "name": "and", 
+                    "id": "and"
+                  }
+                }, 
+                "choice": {
+                  "children": 2, 
+                  "name": "and", 
+                  "id": "and"
+                }
+              }
+            }
+          ], 
+          "role_arg": "equipment", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-4", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "equipment", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "equipment", 
+        "key": "2-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-22", 
+              "1-29", 
+              "1-16", 
+              "1-11"
+            ], 
+            "mention": "by_content", 
+            "number": "4"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "setup", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "setups", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "possible", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "experiment", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "experiment", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://www.cengage.com/resource_uploads/downloads/1133105068_339606.pdf", 
+  "text": [
+    " To set up an experiment, a chemist can use one of two beakers, one of two graduated cylinders, one of six hot plates, and one of three stirring rods.", 
+    " How many different equipment setups are possible for the experiment?"
+  ], 
+  "corenlp": [
+    "word(1-1-to)", 
+    "pos(1-1,to)", 
+    "word(1-2-set)", 
+    "pos(1-2,vb)", 
+    "word(1-3-up)", 
+    "pos(1-3,rp)", 
+    "word(1-4-an)", 
+    "pos(1-4,dt)", 
+    "word(1-5-experiment)", 
+    "pos(1-5,nn)", 
+    "word(1-6-',')", 
+    "pos(1-6,',')", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-chemist)", 
+    "pos(1-8,nn)", 
+    "word(1-9-can)", 
+    "pos(1-9,md)", 
+    "word(1-10-use)", 
+    "pos(1-10,vb)", 
+    "word(1-11-one)", 
+    "pos(1-11,cd)", 
+    "word(1-12-of)", 
+    "pos(1-12,in)", 
+    "word(1-13-two)", 
+    "pos(1-13,cd)", 
+    "word(1-14-beakers)", 
+    "pos(1-14,nns)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-one)", 
+    "pos(1-16,cd)", 
+    "word(1-17-of)", 
+    "pos(1-17,in)", 
+    "word(1-18-two)", 
+    "pos(1-18,cd)", 
+    "word(1-19-graduated)", 
+    "pos(1-19,vbd)", 
+    "word(1-20-cylinders)", 
+    "pos(1-20,nns)", 
+    "word(1-21-',')", 
+    "pos(1-21,',')", 
+    "word(1-22-one)", 
+    "pos(1-22,cd)", 
+    "word(1-23-of)", 
+    "pos(1-23,in)", 
+    "word(1-24-six)", 
+    "pos(1-24,cd)", 
+    "word(1-25-hot)", 
+    "pos(1-25,jj)", 
+    "word(1-26-plates)", 
+    "pos(1-26,nns)", 
+    "word(1-27-',')", 
+    "pos(1-27,',')", 
+    "word(1-28-and)", 
+    "pos(1-28,cc)", 
+    "word(1-29-one)", 
+    "pos(1-29,cd)", 
+    "word(1-30-of)", 
+    "pos(1-30,in)", 
+    "word(1-31-three)", 
+    "pos(1-31,cd)", 
+    "word(1-32-stirring)", 
+    "pos(1-32,vbg)", 
+    "word(1-33-rods)", 
+    "pos(1-33,nns)", 
+    "word(1-34-'.')", 
+    "pos(1-34,'.')", 
+    "mark(1-2,1-1)", 
+    "compound:prt(1-2,1-3)", 
+    "dobj(1-2,1-5)", 
+    "det(1-5,1-4)", 
+    "det(1-8,1-7)", 
+    "advcl(1-10,1-2)", 
+    "nsubj(1-10,1-8)", 
+    "aux(1-10,1-9)", 
+    "dobj(1-10,1-11)", 
+    "nmod:of(1-11,1-14)", 
+    "case(1-14,1-12)", 
+    "nummod(1-14,1-13)", 
+    "nmod:of(1-16,1-18)", 
+    "case(1-18,1-17)", 
+    "nsubj(1-19,1-16)", 
+    "dobj(1-19,1-20)", 
+    "dobj(1-19,1-22)", 
+    "ccomp(1-19,1-10)", 
+    "dobj(1-19,1-29)", 
+    "conj:and(1-20,1-22)", 
+    "cc(1-20,1-28)", 
+    "conj:and(1-20,1-29)", 
+    "nmod:of(1-22,1-26)", 
+    "case(1-26,1-23)", 
+    "nummod(1-26,1-24)", 
+    "amod(1-26,1-25)", 
+    "acl(1-29,1-32)", 
+    "nmod:of(1-29,1-31)", 
+    "case(1-31,1-30)", 
+    "dobj(1-32,1-33)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-different)", 
+    "pos(2-3,jj)", 
+    "word(2-4-equipment)", 
+    "pos(2-4,nn)", 
+    "word(2-5-setups)", 
+    "pos(2-5,nns)", 
+    "word(2-6-are)", 
+    "pos(2-6,vbp)", 
+    "word(2-7-possible)", 
+    "pos(2-7,jj)", 
+    "word(2-8-for)", 
+    "pos(2-8,in)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-experiment)", 
+    "pos(2-10,nn)", 
+    "word(2-11-'?')", 
+    "pos(2-11,'.')", 
+    "amod(2-4,2-3)", 
+    "dep(2-4,2-5)", 
+    "amod(2-4,2-2)", 
+    "nsubj(2-7,2-4)", 
+    "cop(2-7,2-6)", 
+    "nmod:for(2-7,2-10)", 
+    "case(2-10,2-8)", 
+    "det(2-10,2-9)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-05T16:55:29.485000", 
+  "status": "done"
+}

@@ -1,0 +1,1362 @@
+{
+  "owner": "hannah", 
+  "ex_id": 93, 
+  "note": "", 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "cabinet", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "cabinet", 
+        "key": "1-2", 
+        "group": {
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "drawers", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "drawers", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-6"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "third", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "third", 
+          "class": "number"
+        }, 
+        "text": "third", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "drawer", 
+        "index": 25, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "2-25", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "1-2-cabinet", 
+            "id": "1-2"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-24"
+          ]
+        }
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 28, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-28", 
+        "group": {
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": "silver", 
+        "index": 29, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "silver", 
+          "class": "color"
+        }, 
+        "text": "silver", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-28"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-29", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "2-25-drawer", 
+            "id": "2-25"
+          }, 
+          "size": {
+            "words": [
+              "2-28"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-29", 
+            "2-24"
+          ]
+        }
+      }, 
+      "30": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-30"
+      }, 
+      "31": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 31, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-31"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-10"
+      }, 
+      "32": {
+        "sentence": 2, 
+        "nlp_stem": "gold", 
+        "index": 32, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "gold", 
+          "class": "color"
+        }, 
+        "text": "gold", 
+        "key": "2-32", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "2-25-drawer", 
+            "id": "2-25"
+          }, 
+          "size": {
+            "words": [
+              "2-31"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-32", 
+            "2-24"
+          ]
+        }
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-11"
+      }, 
+      "33": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 33, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-31"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-33"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-12"
+      }, 
+      "34": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 34, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-34"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "second", 
+          "class": "number"
+        }, 
+        "text": "second", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "drawer", 
+        "index": 14, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "2-14", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "1-2-cabinet", 
+            "id": "1-2"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-13"
+          ]
+        }
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "silver", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "silver", 
+          "class": "color"
+        }, 
+        "text": "silver", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 19, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-17"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "2-19", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "2-14-drawer", 
+            "id": "2-14"
+          }, 
+          "size": {
+            "words": [
+              "2-17"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-18", 
+            "2-13"
+          ]
+        }
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": true, 
+          "scope": "all", 
+          "value": "first", 
+          "class": "number"
+        }, 
+        "text": "first", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "drawer", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "2-4", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "1-2-cabinet", 
+            "id": "1-2"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-3"
+          ]
+        }
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "gold", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "gold", 
+          "class": "color"
+        }, 
+        "text": "gold", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "ball", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "2-9", 
+        "group": {
+          "role": "part of", 
+          "role_arg": {
+            "name": "2-4-drawer", 
+            "id": "2-4"
+          }, 
+          "size": {
+            "words": [
+              "2-7"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "2-8", 
+            "2-3"
+          ]
+        }
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "random", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "from", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "two", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-15"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "drawer", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "drawer", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "3-2", 
+        "group": {
+          "role": "taken from", 
+          "role_arg": {
+            "name": "1-2-cabinet", 
+            "id": "1-2"
+          }, 
+          "size": {
+            "words": [
+              "3-1"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "pick", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "picked", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "random", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "ball", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "key": "3-9", 
+        "group": {
+          "role": "taken from", 
+          "role_arg": {
+            "name": "3-2-drawer", 
+            "id": "3-2"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "explicit", 
+            "number": "1"
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "4-4", 
+            "2-3"
+          ]
+        }
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-20"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "choose", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-11"
+      }, 
+      "22": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-22"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-12"
+      }, 
+      "23": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-23"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-14"
+      }, 
+      "15": {
+        "sentence": 4, 
+        "nlp_stem": "drawer", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "drawer", 
+        "key": "4-15", 
+        "group": {
+          "role": "reference to", 
+          "role_arg": {
+            "name": "2-4-drawer", 
+            "id": "2-4"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "16": {
+        "sentence": 4, 
+        "nlp_stem": "with", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "4-16"
+      }, 
+      "17": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-17"
+      }, 
+      "18": {
+        "sentence": 4, 
+        "nlp_stem": "two", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "4-18"
+      }, 
+      "19": {
+        "sentence": 4, 
+        "nlp_stem": "gold", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "gold", 
+        "key": "4-19"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "give", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "Given", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "gold", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "gold", 
+          "class": "color"
+        }, 
+        "text": "gold", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "ball", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "ball", 
+        "key": "4-5", 
+        "group": {
+          "role": "reference to", 
+          "role_arg": {
+            "name": "3-9-ball", 
+            "id": "3-9"
+          }, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "was", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "draw", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "what", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "4-9"
+      }, 
+      "20": {
+        "sentence": 4, 
+        "nlp_stem": "ball", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "balls", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-18"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "4-20"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-10"
+      }, 
+      "21": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "was", 
+        "key": "4-21"
+      }
+    }
+  }, 
+  "source": "Dartmouth \"Introduction to Probability\"", 
+  "solution": "2/3", 
+  "text": [
+    " A cabinet has three drawers.", 
+    " In the first drawer there are two gold balls, in the second drawer there are two silver balls, and in the third drawer there is one silver and one gold ball.", 
+    " A drawer is picked at random and a ball chosen at random from the two balls in the drawer.", 
+    " Given that a gold ball was drawn, what is the probability that the drawer with the two gold balls was chosen?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1-a,dt)", 
+    "word(1-2-cabinet)", 
+    "pos(1-2-cabinet,nn)", 
+    "word(1-3-has)", 
+    "pos(1-3-has,vbz)", 
+    "word(1-4-three)", 
+    "pos(1-4-three,cd)", 
+    "word(1-5-drawers)", 
+    "pos(1-5-drawers,nns)", 
+    "word(1-6-'.')", 
+    "pos(1-6-'.','.')", 
+    "det(1-2-cabinet,1-1-a)", 
+    "nsubj(1-3-has,1-2-cabinet)", 
+    "dobj(1-3-has,1-5-drawers)", 
+    "punct(1-3-has,1-6-'.')", 
+    "nummod(1-5-drawers,1-4-three)", 
+    "word(2-1-in)", 
+    "pos(2-1-in,in)", 
+    "word(2-2-the)", 
+    "pos(2-2-the,dt)", 
+    "word(2-3-first)", 
+    "pos(2-3-first,jj)", 
+    "word(2-4-drawer)", 
+    "pos(2-4-drawer,nn)", 
+    "word(2-5-there)", 
+    "pos(2-5-there,ex)", 
+    "word(2-6-are)", 
+    "pos(2-6-are,vbp)", 
+    "word(2-7-two)", 
+    "pos(2-7-two,cd)", 
+    "word(2-8-gold)", 
+    "pos(2-8-gold,jj)", 
+    "word(2-9-balls)", 
+    "pos(2-9-balls,nns)", 
+    "word(2-10-',')", 
+    "pos(2-10-',',',')", 
+    "word(2-11-in)", 
+    "pos(2-11-in,in)", 
+    "word(2-12-the)", 
+    "pos(2-12-the,dt)", 
+    "word(2-13-second)", 
+    "pos(2-13-second,jj)", 
+    "word(2-14-drawer)", 
+    "pos(2-14-drawer,nn)", 
+    "word(2-15-there)", 
+    "pos(2-15-there,ex)", 
+    "word(2-16-are)", 
+    "pos(2-16-are,vbp)", 
+    "word(2-17-two)", 
+    "pos(2-17-two,cd)", 
+    "word(2-18-silver)", 
+    "pos(2-18-silver,jj)", 
+    "word(2-19-balls)", 
+    "pos(2-19-balls,nns)", 
+    "word(2-20-',')", 
+    "pos(2-20-',',',')", 
+    "word(2-21-and)", 
+    "pos(2-21-and,cc)", 
+    "word(2-22-in)", 
+    "pos(2-22-in,in)", 
+    "word(2-23-the)", 
+    "pos(2-23-the,dt)", 
+    "word(2-24-third)", 
+    "pos(2-24-third,jj)", 
+    "word(2-25-drawer)", 
+    "pos(2-25-drawer,nn)", 
+    "word(2-26-there)", 
+    "pos(2-26-there,ex)", 
+    "word(2-27-is)", 
+    "pos(2-27-is,vbz)", 
+    "word(2-28-one)", 
+    "pos(2-28-one,cd)", 
+    "word(2-29-silver)", 
+    "pos(2-29-silver,nn)", 
+    "word(2-30-and)", 
+    "pos(2-30-and,cc)", 
+    "word(2-31-one)", 
+    "pos(2-31-one,cd)", 
+    "word(2-32-gold)", 
+    "pos(2-32-gold,nn)", 
+    "word(2-33-ball)", 
+    "pos(2-33-ball,nn)", 
+    "word(2-34-'.')", 
+    "pos(2-34-'.','.')", 
+    "amod(2-4-drawer,2-3-first)", 
+    "case(2-4-drawer,2-1-in)", 
+    "det(2-4-drawer,2-2-the)", 
+    "nmod:in(2-6-are,2-4-drawer)", 
+    "punct(2-6-are,2-20-',')", 
+    "expl(2-6-are,2-5-there)", 
+    "cc(2-6-are,2-21-and)", 
+    "nsubj(2-6-are,2-9-balls)", 
+    "punct(2-6-are,2-10-',')", 
+    "conj:and(2-6-are,2-27-is)", 
+    "ccomp(2-6-are,2-16-are)", 
+    "punct(2-6-are,2-34-'.')", 
+    "nummod(2-9-balls,2-7-two)", 
+    "amod(2-9-balls,2-8-gold)", 
+    "case(2-14-drawer,2-11-in)", 
+    "det(2-14-drawer,2-12-the)", 
+    "amod(2-14-drawer,2-13-second)", 
+    "nsubj(2-16-are,2-19-balls)", 
+    "nmod:in(2-16-are,2-14-drawer)", 
+    "expl(2-16-are,2-15-there)", 
+    "nummod(2-19-balls,2-17-two)", 
+    "amod(2-19-balls,2-18-silver)", 
+    "case(2-25-drawer,2-22-in)", 
+    "det(2-25-drawer,2-23-the)", 
+    "amod(2-25-drawer,2-24-third)", 
+    "nmod:in(2-27-is,2-25-drawer)", 
+    "expl(2-27-is,2-26-there)", 
+    "nsubj(2-27-is,2-29-silver)", 
+    "nsubj(2-27-is,2-33-ball)", 
+    "nummod(2-29-silver,2-28-one)", 
+    "cc(2-29-silver,2-30-and)", 
+    "conj:and(2-29-silver,2-33-ball)", 
+    "nummod(2-33-ball,2-31-one)", 
+    "compound(2-33-ball,2-32-gold)", 
+    "word(3-1-a)", 
+    "pos(3-1-a,dt)", 
+    "word(3-2-drawer)", 
+    "pos(3-2-drawer,nn)", 
+    "word(3-3-is)", 
+    "pos(3-3-is,vbz)", 
+    "word(3-4-picked)", 
+    "pos(3-4-picked,vbn)", 
+    "word(3-5-at)", 
+    "pos(3-5-at,in)", 
+    "word(3-6-random)", 
+    "pos(3-6-random,jj)", 
+    "word(3-7-and)", 
+    "pos(3-7-and,cc)", 
+    "word(3-8-a)", 
+    "pos(3-8-a,dt)", 
+    "word(3-9-ball)", 
+    "pos(3-9-ball,nn)", 
+    "word(3-10-chosen)", 
+    "pos(3-10-chosen,vbn)", 
+    "word(3-11-at)", 
+    "pos(3-11-at,in)", 
+    "word(3-12-random)", 
+    "pos(3-12-random,jj)", 
+    "word(3-13-from)", 
+    "pos(3-13-from,in)", 
+    "word(3-14-the)", 
+    "pos(3-14-the,dt)", 
+    "word(3-15-two)", 
+    "pos(3-15-two,cd)", 
+    "word(3-16-balls)", 
+    "pos(3-16-balls,nns)", 
+    "word(3-17-in)", 
+    "pos(3-17-in,in)", 
+    "word(3-18-the)", 
+    "pos(3-18-the,dt)", 
+    "word(3-19-drawer)", 
+    "pos(3-19-drawer,nn)", 
+    "word(3-20-'.')", 
+    "pos(3-20-'.','.')", 
+    "cc(3-6-random,3-7-and)", 
+    "conj:and(3-6-random,3-8-a)", 
+    "amod(3-9-ball,3-6-random)", 
+    "amod(3-9-ball,3-8-a)", 
+    "acl(3-9-ball,3-10-chosen)", 
+    "case(3-9-ball,3-5-at)", 
+    "advcl:at(3-10-chosen,3-12-random)", 
+    "nmod:from(3-10-chosen,3-16-balls)", 
+    "case(3-12-random,3-11-at)", 
+    "case(3-16-balls,3-13-from)", 
+    "det(3-16-balls,3-14-the)", 
+    "nummod(3-16-balls,3-15-two)", 
+    "nmod:in(3-16-balls,3-19-drawer)", 
+    "case(3-19-drawer,3-17-in)", 
+    "det(3-19-drawer,3-18-the)", 
+    "det(3-2-drawer,3-1-a)", 
+    "nmod:at(3-4-picked,3-9-ball)", 
+    "nsubjpass(3-4-picked,3-2-drawer)", 
+    "auxpass(3-4-picked,3-3-is)", 
+    "punct(3-4-picked,3-20-'.')", 
+    "word(4-1-given)", 
+    "pos(4-1-given,vbn)", 
+    "word(4-2-that)", 
+    "pos(4-2-that,in)", 
+    "word(4-3-a)", 
+    "pos(4-3-a,dt)", 
+    "word(4-4-gold)", 
+    "pos(4-4-gold,nn)", 
+    "word(4-5-ball)", 
+    "pos(4-5-ball,nn)", 
+    "word(4-6-was)", 
+    "pos(4-6-was,vbd)", 
+    "word(4-7-drawn)", 
+    "pos(4-7-drawn,vbn)", 
+    "word(4-8-',')", 
+    "pos(4-8-',',',')", 
+    "word(4-9-what)", 
+    "pos(4-9-what,wp)", 
+    "word(4-10-is)", 
+    "pos(4-10-is,vbz)", 
+    "word(4-11-the)", 
+    "pos(4-11-the,dt)", 
+    "word(4-12-probability)", 
+    "pos(4-12-probability,nn)", 
+    "word(4-13-that)", 
+    "pos(4-13-that,in)", 
+    "word(4-14-the)", 
+    "pos(4-14-the,dt)", 
+    "word(4-15-drawer)", 
+    "pos(4-15-drawer,nn)", 
+    "word(4-16-with)", 
+    "pos(4-16-with,in)", 
+    "word(4-17-the)", 
+    "pos(4-17-the,dt)", 
+    "word(4-18-two)", 
+    "pos(4-18-two,cd)", 
+    "word(4-19-gold)", 
+    "pos(4-19-gold,nn)", 
+    "word(4-20-balls)", 
+    "pos(4-20-balls,nns)", 
+    "word(4-21-was)", 
+    "pos(4-21-was,vbd)", 
+    "word(4-22-chosen)", 
+    "pos(4-22-chosen,vbn)", 
+    "word(4-23-'?')", 
+    "pos(4-23-'?','.')", 
+    "cop(4-9-what,4-10-is)", 
+    "nsubj(4-9-what,4-12-probability)", 
+    "dep(4-9-what,4-1-given)", 
+    "punct(4-9-what,4-23-'?')", 
+    "punct(4-9-what,4-8-',')", 
+    "det(4-12-probability,4-11-the)", 
+    "dep(4-12-probability,4-22-chosen)", 
+    "det(4-15-drawer,4-14-the)", 
+    "nmod:with(4-15-drawer,4-20-balls)", 
+    "case(4-20-balls,4-16-with)", 
+    "det(4-20-balls,4-17-the)", 
+    "nummod(4-20-balls,4-18-two)", 
+    "compound(4-20-balls,4-19-gold)", 
+    "mark(4-22-chosen,4-13-that)", 
+    "nsubjpass(4-22-chosen,4-15-drawer)", 
+    "auxpass(4-22-chosen,4-21-was)", 
+    "ccomp(4-1-given,4-7-drawn)", 
+    "det(4-5-ball,4-3-a)", 
+    "compound(4-5-ball,4-4-gold)", 
+    "mark(4-7-drawn,4-2-that)", 
+    "nsubjpass(4-7-drawn,4-5-ball)", 
+    "auxpass(4-7-drawn,4-6-was)"
+  ], 
+  "time_added": "2016-07-06T10:09:02.511000", 
+  "status": "skip"
+}

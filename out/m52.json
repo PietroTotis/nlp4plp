@@ -1,0 +1,737 @@
+{
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "status": "skip", 
+  "text": [
+    " Out of 90 people, 32 like corn, 23 like corn and carrots, and 7 like neither corn nor carrots.", 
+    " What is the probability a randomly selected person will like only carrots?"
+  ], 
+  "source": "http://www.bmlc.ca/Math12/Principles%20of%20Math%2012%20%20-%20Probability%20Practice%20Exam.pdf", 
+  "ex_id": 52, 
+  "words": {
+    "1": {
+      "20": {
+        "index": 20, 
+        "key": "1-20", 
+        "sentence": 1, 
+        "text": "corn", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "corn", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "corn", 
+          "value": "corn"
+        }, 
+        "type": "word"
+      }, 
+      "21": {
+        "index": 21, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child1": {
+                  "choice": {
+                    "id": "not", 
+                    "name": "not", 
+                    "children": 1
+                  }, 
+                  "child": {
+                    "choice": "corn"
+                  }
+                }, 
+                "child2": {
+                  "choice": {
+                    "id": "not", 
+                    "name": "not", 
+                    "children": 1
+                  }, 
+                  "child": {
+                    "choice": "carrot"
+                  }
+                }, 
+                "choice": {
+                  "id": "and", 
+                  "name": "and", 
+                  "children": 2
+                }, 
+                "child": {
+                  "choice": "carrot"
+                }
+              }
+            }
+          ], 
+          "properties": [], 
+          "size": {
+            "mention": "explicit", 
+            "number": 7, 
+            "words": [
+              "1-17"
+            ]
+          }
+        }, 
+        "nlp_stem": "nor", 
+        "sentence": 1, 
+        "text": "nor", 
+        "is_group": false, 
+        "nlp_pos": "CC", 
+        "key": "1-21", 
+        "type": "word"
+      }, 
+      "22": {
+        "index": 22, 
+        "key": "1-22", 
+        "sentence": 1, 
+        "text": "carrots", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "carrot", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "carrot", 
+          "value": "carrot"
+        }, 
+        "type": "word"
+      }, 
+      "23": {
+        "index": 23, 
+        "key": "1-23", 
+        "sentence": 1, 
+        "text": ".", 
+        "nlp_pos": ".", 
+        "nlp_stem": ".", 
+        "type": "punct"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "1-1", 
+        "sentence": 1, 
+        "text": "Out", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "out", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "1-3", 
+        "sentence": 1, 
+        "text": "90", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "90", 
+        "corenlp": {
+          "number": 90
+        }, 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "1-2", 
+        "sentence": 1, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "1-5", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "4": {
+        "index": 4, 
+        "group": {
+          "is_sequence": false, 
+          "properties": [], 
+          "constraints": [], 
+          "size": {
+            "mention": "explicit", 
+            "number": "90", 
+            "words": [
+              "1-3"
+            ]
+          }
+        }, 
+        "nlp_stem": "people", 
+        "sentence": 1, 
+        "text": "people", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "key": "1-4", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "90", 
+            "words": [
+              "1-3"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "1-7", 
+        "sentence": 1, 
+        "text": "like", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "like", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-8"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": 32, 
+            "words": [
+              "1-6"
+            ]
+          }
+        }, 
+        "nlp_stem": "32", 
+        "sentence": 1, 
+        "text": "32", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "key": "1-6", 
+        "corenlp": {
+          "number": 32
+        }, 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "1-9", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "8": {
+        "index": 8, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-8"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": 32, 
+            "words": [
+              "1-6"
+            ]
+          }
+        }, 
+        "nlp_stem": "corn", 
+        "sentence": 1, 
+        "text": "corn", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "key": "1-8", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "corn", 
+          "value": "corn"
+        }, 
+        "type": "word"
+      }, 
+      "11": {
+        "index": 11, 
+        "key": "1-11", 
+        "sentence": 1, 
+        "text": "like", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "like", 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-12", 
+            "1-14"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": 23, 
+            "words": [
+              "1-10"
+            ]
+          }
+        }, 
+        "nlp_stem": "23", 
+        "sentence": 1, 
+        "text": "23", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "key": "1-10", 
+        "corenlp": {
+          "number": 23
+        }, 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [
+            {
+              "is_question": false, 
+              "type": "compound", 
+              "logic": {
+                "child1": {
+                  "choice": "corn"
+                }, 
+                "child2": {
+                  "choice": "carrot"
+                }, 
+                "choice": {
+                  "id": "and", 
+                  "name": "and", 
+                  "children": 2
+                }
+              }
+            }
+          ], 
+          "properties": [], 
+          "size": {
+            "mention": "explicit", 
+            "number": 23, 
+            "words": [
+              "1-10"
+            ]
+          }
+        }, 
+        "nlp_stem": "and", 
+        "sentence": 1, 
+        "text": "and", 
+        "is_group": false, 
+        "nlp_pos": "CC", 
+        "key": "1-13", 
+        "type": "word"
+      }, 
+      "12": {
+        "index": 12, 
+        "group": {
+          "is_sequence": false, 
+          "properties": [], 
+          "constraints": [], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "corn", 
+        "sentence": 1, 
+        "text": "corn", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "key": "1-12", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "corn", 
+          "value": "corn"
+        }, 
+        "type": "word"
+      }, 
+      "15": {
+        "index": 15, 
+        "key": "1-15", 
+        "sentence": 1, 
+        "text": ",", 
+        "nlp_pos": ",", 
+        "nlp_stem": ",", 
+        "type": "punct"
+      }, 
+      "14": {
+        "index": 14, 
+        "group": {
+          "is_sequence": false, 
+          "properties": [], 
+          "constraints": [], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "carrot", 
+        "sentence": 1, 
+        "text": "carrots", 
+        "is_group": false, 
+        "nlp_pos": "NNS", 
+        "key": "1-14", 
+        "property": {
+          "scope": "all", 
+          "is_question": false, 
+          "class": "carrot", 
+          "value": "carrot"
+        }, 
+        "type": "word"
+      }, 
+      "17": {
+        "index": 17, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "part of", 
+          "constraints": [], 
+          "properties": [
+            "1-20", 
+            "1-22"
+          ], 
+          "size": {
+            "mention": "explicit", 
+            "number": 7, 
+            "words": [
+              "1-17"
+            ]
+          }
+        }, 
+        "nlp_stem": "7", 
+        "sentence": 1, 
+        "text": "7", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "key": "1-17", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "type": "word"
+      }, 
+      "16": {
+        "index": 16, 
+        "key": "1-16", 
+        "sentence": 1, 
+        "text": "and", 
+        "nlp_pos": "CC", 
+        "nlp_stem": "and", 
+        "type": "word"
+      }, 
+      "19": {
+        "index": 19, 
+        "key": "1-19", 
+        "sentence": 1, 
+        "text": "neither", 
+        "nlp_pos": "CC", 
+        "nlp_stem": "neither", 
+        "type": "word"
+      }, 
+      "18": {
+        "index": 18, 
+        "key": "1-18", 
+        "sentence": 1, 
+        "text": "like", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "like", 
+        "type": "word"
+      }
+    }, 
+    "2": {
+      "11": {
+        "index": 11, 
+        "key": "2-11", 
+        "sentence": 2, 
+        "text": "only", 
+        "nlp_pos": "RB", 
+        "nlp_stem": "only", 
+        "property": {
+          "scope": "none", 
+          "is_question": false, 
+          "value": "corn"
+        }, 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "2-10", 
+        "sentence": 2, 
+        "text": "like", 
+        "nlp_pos": "VB", 
+        "nlp_stem": "like", 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "key": "2-13", 
+        "sentence": 2, 
+        "text": "?", 
+        "nlp_pos": ".", 
+        "nlp_stem": "?", 
+        "type": "punct"
+      }, 
+      "12": {
+        "index": 12, 
+        "key": "2-12", 
+        "sentence": 2, 
+        "text": "carrots", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "carrot", 
+        "property": {
+          "scope": "special", 
+          "is_question": true, 
+          "value": "carrot"
+        }, 
+        "type": "word"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "2-1", 
+        "sentence": 2, 
+        "text": "What", 
+        "nlp_pos": "WP", 
+        "nlp_stem": "What", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "2-3", 
+        "sentence": 2, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "2-2", 
+        "sentence": 2, 
+        "text": "is", 
+        "nlp_pos": "VBZ", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "2-5", 
+        "sentence": 2, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "2-4", 
+        "sentence": 2, 
+        "text": "probability", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "probability", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "2-7", 
+        "sentence": 2, 
+        "text": "selected", 
+        "nlp_pos": "VBN", 
+        "nlp_stem": "select", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "2-6", 
+        "sentence": 2, 
+        "text": "randomly", 
+        "nlp_pos": "RB", 
+        "nlp_stem": "randomly", 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "2-9", 
+        "sentence": 2, 
+        "text": "will", 
+        "nlp_pos": "MD", 
+        "nlp_stem": "will", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "group": {
+          "role_arg": "1-4", 
+          "is_sequence": false, 
+          "role": "taken from", 
+          "constraints": [
+            {
+              "is_question": true, 
+              "type": "compound", 
+              "logic": {
+                "child1": {
+                  "choice": "carrot"
+                }, 
+                "child2": {
+                  "choice": {
+                    "id": "not", 
+                    "name": "not", 
+                    "children": 1
+                  }, 
+                  "child": {
+                    "choice": "corn"
+                  }
+                }, 
+                "choice": {
+                  "id": "and", 
+                  "name": "and", 
+                  "children": 2
+                }
+              }
+            }
+          ], 
+          "properties": [
+            "2-12"
+          ], 
+          "size": {
+            "mention": "implicit", 
+            "words": []
+          }
+        }, 
+        "nlp_stem": "person", 
+        "sentence": 2, 
+        "text": "person", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "key": "2-8", 
+        "type": "word"
+      }
+    }
+  }, 
+  "owner": "monica", 
+  "corenlp": [
+    "word(1-1-out)", 
+    "pos(1-1,in)", 
+    "word(1-2-of)", 
+    "pos(1-2,in)", 
+    "word(1-3-90)", 
+    "pos(1-3,cd)", 
+    "word(1-4-people)", 
+    "pos(1-4,nns)", 
+    "word(1-5-',')", 
+    "pos(1-5,',')", 
+    "word(1-6-32)", 
+    "pos(1-6,cd)", 
+    "word(1-7-like)", 
+    "pos(1-7,in)", 
+    "word(1-8-corn)", 
+    "pos(1-8,nn)", 
+    "word(1-9-',')", 
+    "pos(1-9,',')", 
+    "word(1-10-23)", 
+    "pos(1-10,cd)", 
+    "word(1-11-like)", 
+    "pos(1-11,in)", 
+    "word(1-12-corn)", 
+    "pos(1-12,nn)", 
+    "word(1-13-and)", 
+    "pos(1-13,cc)", 
+    "word(1-14-carrots)", 
+    "pos(1-14,nns)", 
+    "word(1-15-',')", 
+    "pos(1-15,',')", 
+    "word(1-16-and)", 
+    "pos(1-16,cc)", 
+    "word(1-17-7)", 
+    "pos(1-17,cd)", 
+    "word(1-18-like)", 
+    "pos(1-18,in)", 
+    "word(1-19-neither)", 
+    "pos(1-19,cc)", 
+    "word(1-20-corn)", 
+    "pos(1-20,nn)", 
+    "word(1-21-nor)", 
+    "pos(1-21,cc)", 
+    "word(1-22-carrots)", 
+    "pos(1-22,nns)", 
+    "word(1-23-'.')", 
+    "pos(1-23,'.')", 
+    "mwe(1-1,1-2)", 
+    "case(1-4,1-1)", 
+    "appos(1-4,1-17)", 
+    "nummod(1-4,1-3)", 
+    "appos(1-4,1-6)", 
+    "appos(1-4,1-10)", 
+    "nmod:like(1-6,1-8)", 
+    "case(1-8,1-7)", 
+    "cc(1-10,1-16)", 
+    "conj:and(1-10,1-17)", 
+    "nmod:like(1-10,1-12)", 
+    "nmod:like(1-10,1-14)", 
+    "case(1-12,1-11)", 
+    "cc(1-12,1-13)", 
+    "conj:and(1-12,1-14)", 
+    "nmod:like(1-17,1-20)", 
+    "nmod:like(1-17,1-22)", 
+    "case(1-20,1-18)", 
+    "dep(1-20,1-19)", 
+    "cc(1-20,1-21)", 
+    "conj:nor(1-20,1-22)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-probability)", 
+    "pos(2-4,nn)", 
+    "word(2-5-a)", 
+    "pos(2-5,dt)", 
+    "word(2-6-randomly)", 
+    "pos(2-6,rb)", 
+    "word(2-7-selected)", 
+    "pos(2-7,vbn)", 
+    "word(2-8-person)", 
+    "pos(2-8,nn)", 
+    "word(2-9-will)", 
+    "pos(2-9,md)", 
+    "word(2-10-like)", 
+    "pos(2-10,vb)", 
+    "word(2-11-only)", 
+    "pos(2-11,rb)", 
+    "word(2-12-carrots)", 
+    "pos(2-12,nns)", 
+    "word(2-13-'?')", 
+    "pos(2-13,'.')", 
+    "det(2-4,2-3)", 
+    "acl:relcl(2-4,2-10)", 
+    "det(2-8,2-5)", 
+    "advmod(2-8,2-6)", 
+    "amod(2-8,2-7)", 
+    "nsubj(2-10,2-8)", 
+    "aux(2-10,2-9)", 
+    "dobj(2-10,2-12)", 
+    "advmod(2-12,2-11)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)"
+  ], 
+  "time_added": "2016-07-12T17:51:26.475000"
+}

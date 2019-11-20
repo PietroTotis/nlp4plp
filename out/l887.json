@@ -1,0 +1,471 @@
+{
+  "owner": "liselot", 
+  "ex_id": 887, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "26", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "26", 
+        "corenlp": {
+          "number": 26
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "letters", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "letters", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }
+        }, 
+        "key": "1-12", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": "26"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "follow", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "followed", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "by", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "by", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "out", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "out", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "10", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "10", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "digit", 
+        "index": 19, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "digits", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-18"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }
+        }, 
+        "key": "1-19", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-18"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "An", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "identification", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "identification", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "code", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "code", 
+        "key": "1-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-8", 
+              "1-15"
+            ], 
+            "mention": "explicit", 
+            "number": "10"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "consist", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "consist", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "seven", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "seven", 
+        "corenlp": {
+          "number": 7
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "out", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "out", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-11"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "2-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "code", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "codes", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "possible", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "if", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "repetition", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "repetition", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "permit", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "permitted", 
+        "key": "2-10"
+      }
+    }
+  }, 
+  "source": "http://blog.ung.edu/rsinn/files/2015/08/85MoreProbabilityQuestions_Solutions.pdf#page=2&zoom=80,36,214", 
+  "text": [
+    " An identification code is to consist of seven out of 26 letters followed by three out of 10 digits.", 
+    " How many different codes are possible if repetition is permitted?"
+  ], 
+  "corenlp": [
+    "word(1-1-an)", 
+    "pos(1-1,dt)", 
+    "word(1-2-identification)", 
+    "pos(1-2,nn)", 
+    "word(1-3-code)", 
+    "pos(1-3,nn)", 
+    "word(1-4-is)", 
+    "pos(1-4,vbz)", 
+    "word(1-5-to)", 
+    "pos(1-5,to)", 
+    "word(1-6-consist)", 
+    "pos(1-6,vb)", 
+    "word(1-7-of)", 
+    "pos(1-7,in)", 
+    "word(1-8-seven)", 
+    "pos(1-8,cd)", 
+    "word(1-9-out)", 
+    "pos(1-9,in)", 
+    "word(1-10-of)", 
+    "pos(1-10,in)", 
+    "word(1-11-26)", 
+    "pos(1-11,cd)", 
+    "word(1-12-letters)", 
+    "pos(1-12,nns)", 
+    "word(1-13-followed)", 
+    "pos(1-13,vbn)", 
+    "word(1-14-by)", 
+    "pos(1-14,in)", 
+    "word(1-15-three)", 
+    "pos(1-15,cd)", 
+    "word(1-16-out)", 
+    "pos(1-16,in)", 
+    "word(1-17-of)", 
+    "pos(1-17,in)", 
+    "word(1-18-10)", 
+    "pos(1-18,cd)", 
+    "word(1-19-digits)", 
+    "pos(1-19,nns)", 
+    "word(1-20-'.')", 
+    "pos(1-20,'.')", 
+    "det(1-3,1-1)", 
+    "compound(1-3,1-2)", 
+    "nsubj(1-4,1-3)", 
+    "xcomp(1-4,1-6)", 
+    "mark(1-6,1-5)", 
+    "nmod:of(1-6,1-8)", 
+    "nmod:out_of(1-6,1-12)", 
+    "case(1-8,1-7)", 
+    "mwe(1-9,1-10)", 
+    "case(1-12,1-9)", 
+    "nummod(1-12,1-11)", 
+    "acl(1-12,1-13)", 
+    "nmod:of(1-13,1-19)", 
+    "advcl:by(1-13,1-15)", 
+    "case(1-15,1-16)", 
+    "case(1-15,1-14)", 
+    "case(1-19,1-17)", 
+    "nummod(1-19,1-18)", 
+    "word(2-1-how)", 
+    "pos(2-1,wrb)", 
+    "word(2-2-many)", 
+    "pos(2-2,jj)", 
+    "word(2-3-different)", 
+    "pos(2-3,jj)", 
+    "word(2-4-codes)", 
+    "pos(2-4,nns)", 
+    "word(2-5-are)", 
+    "pos(2-5,vbp)", 
+    "word(2-6-possible)", 
+    "pos(2-6,jj)", 
+    "word(2-7-if)", 
+    "pos(2-7,in)", 
+    "word(2-8-repetition)", 
+    "pos(2-8,nn)", 
+    "word(2-9-is)", 
+    "pos(2-9,vbz)", 
+    "word(2-10-permitted)", 
+    "pos(2-10,vbn)", 
+    "word(2-11-'?')", 
+    "pos(2-11,'.')", 
+    "amod(2-4,2-3)", 
+    "amod(2-4,2-2)", 
+    "nsubj(2-6,2-4)", 
+    "cop(2-6,2-5)", 
+    "ccomp(2-6,2-10)", 
+    "mark(2-10,2-7)", 
+    "nsubjpass(2-10,2-8)", 
+    "auxpass(2-10,2-9)", 
+    "advmod(2-2,2-1)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-08T09:13:12.337000", 
+  "status": "skip"
+}

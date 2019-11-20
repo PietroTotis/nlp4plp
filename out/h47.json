@@ -1,0 +1,1047 @@
+{
+  "owner": "hannah", 
+  "ex_id": 47, 
+  "note": "", 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "student", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "student", 
+        "key": "1-11"
+      }, 
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "dormitory", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dormitory", 
+        "key": "1-22"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "who", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "1-12"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-23"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "will", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "live", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "live", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "only", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "only", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "deluxe", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "deluxe", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "room", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "room", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "special", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "special", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "lottery", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "lottery", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "hold", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "held", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "select", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "select", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "sophomore", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "sophomores", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": "200"
+          }
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "who", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "who", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "apply", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "applied", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "100", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "100", 
+        "corenlp": {
+          "number": 100
+        }, 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "senior", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "seniors", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": "100"
+          }
+        }, 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 5, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "150", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "150", 
+        "corenlp": {
+          "number": 150
+        }, 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "junior", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "juniors", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "150"
+          }
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "200", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "200", 
+        "corenlp": {
+          "number": 200
+        }, 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "22": {
+        "sentence": 3, 
+        "nlp_stem": "each", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "3-22"
+      }, 
+      "23": {
+        "sentence": 3, 
+        "nlp_stem": "sophomore", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "sophomore", 
+        "key": "3-23"
+      }, 
+      "24": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "3-24"
+      }, 
+      "25": {
+        "sentence": 3, 
+        "nlp_stem": "name", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "name", 
+        "key": "3-25"
+      }, 
+      "26": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-26"
+      }, 
+      "27": {
+        "sentence": 3, 
+        "nlp_stem": "1", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "3-27"
+      }, 
+      "28": {
+        "sentence": 3, 
+        "nlp_stem": "time", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "time", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-27"
+            ], 
+            "mention": "explicit", 
+            "number": "1"
+          }
+        }, 
+        "key": "3-28"
+      }, 
+      "29": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 29, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-29"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "3", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "3-10"
+      }, 
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "times", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "times", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-10"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": ";", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": ";", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "each", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "junior", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "junior", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "name", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "name", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "2", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "times", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "times", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-18"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "Each", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "Each", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "senior", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "senior", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "name", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "name", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "place", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "placed", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "lottery", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "lottery", 
+        "key": "3-9"
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": ";", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": ";", 
+        "key": "3-20"
+      }, 
+      "21": {
+        "sentence": 3, 
+        "nlp_stem": "and", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "3-21"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "choose", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "chosen", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-13"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "senior", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "senior", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "'s", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "name", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "name", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "will", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "SAT prep book", 
+  "solution": "3/8", 
+  "text": [
+    " A special lottery is to be held to select the student who will live in the only deluxe room in a dormitory.", 
+    " There are 100 seniors, 150 juniors, and 200 sophomores who applied.", 
+    " Each senior 's name is placed in the lottery 3 times ; each junior 's name, 2 times ; and each sophomore 's name, 1 time.", 
+    " What is the probability that a senior 's name will be chosen?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1-a,dt)", 
+    "word(1-2-special)", 
+    "pos(1-2-special,jj)", 
+    "word(1-3-lottery)", 
+    "pos(1-3-lottery,nn)", 
+    "word(1-4-is)", 
+    "pos(1-4-is,vbz)", 
+    "word(1-5-to)", 
+    "pos(1-5-to,to)", 
+    "word(1-6-be)", 
+    "pos(1-6-be,vb)", 
+    "word(1-7-held)", 
+    "pos(1-7-held,vbn)", 
+    "word(1-8-to)", 
+    "pos(1-8-to,to)", 
+    "word(1-9-select)", 
+    "pos(1-9-select,vb)", 
+    "word(1-10-the)", 
+    "pos(1-10-the,dt)", 
+    "word(1-11-student)", 
+    "pos(1-11-student,nn)", 
+    "word(1-12-who)", 
+    "pos(1-12-who,wp)", 
+    "word(1-13-will)", 
+    "pos(1-13-will,md)", 
+    "word(1-14-live)", 
+    "pos(1-14-live,vb)", 
+    "word(1-15-in)", 
+    "pos(1-15-in,in)", 
+    "word(1-16-the)", 
+    "pos(1-16-the,dt)", 
+    "word(1-17-only)", 
+    "pos(1-17-only,jj)", 
+    "word(1-18-deluxe)", 
+    "pos(1-18-deluxe,jj)", 
+    "word(1-19-room)", 
+    "pos(1-19-room,nn)", 
+    "word(1-20-in)", 
+    "pos(1-20-in,in)", 
+    "word(1-21-a)", 
+    "pos(1-21-a,dt)", 
+    "word(1-22-dormitory)", 
+    "pos(1-22-dormitory,nn)", 
+    "word(1-23-'.')", 
+    "pos(1-23-'.','.')", 
+    "det(1-3-lottery,1-1-a)", 
+    "amod(1-3-lottery,1-2-special)", 
+    "nsubj(1-4-is,1-3-lottery)", 
+    "xcomp(1-4-is,1-7-held)", 
+    "punct(1-4-is,1-23-'.')", 
+    "mark(1-7-held,1-5-to)", 
+    "auxpass(1-7-held,1-6-be)", 
+    "xcomp(1-7-held,1-9-select)", 
+    "mark(1-9-select,1-8-to)", 
+    "dobj(1-9-select,1-11-student)", 
+    "det(1-11-student,1-10-the)", 
+    "acl:relcl(1-11-student,1-14-live)", 
+    "nmod:in(1-14-live,1-19-room)", 
+    "nsubj(1-14-live,1-12-who)", 
+    "aux(1-14-live,1-13-will)", 
+    "det(1-19-room,1-16-the)", 
+    "amod(1-19-room,1-17-only)", 
+    "amod(1-19-room,1-18-deluxe)", 
+    "nmod:in(1-19-room,1-22-dormitory)", 
+    "case(1-19-room,1-15-in)", 
+    "case(1-22-dormitory,1-20-in)", 
+    "det(1-22-dormitory,1-21-a)", 
+    "word(2-1-there)", 
+    "pos(2-1-there,ex)", 
+    "word(2-2-are)", 
+    "pos(2-2-are,vbp)", 
+    "word(2-3-100)", 
+    "pos(2-3-100,cd)", 
+    "word(2-4-seniors)", 
+    "pos(2-4-seniors,nns)", 
+    "word(2-5-',')", 
+    "pos(2-5-',',',')", 
+    "word(2-6-150)", 
+    "pos(2-6-150,cd)", 
+    "word(2-7-juniors)", 
+    "pos(2-7-juniors,nns)", 
+    "word(2-8-',')", 
+    "pos(2-8-',',',')", 
+    "word(2-9-and)", 
+    "pos(2-9-and,cc)", 
+    "word(2-10-200)", 
+    "pos(2-10-200,cd)", 
+    "word(2-11-sophomores)", 
+    "pos(2-11-sophomores,nns)", 
+    "word(2-12-who)", 
+    "pos(2-12-who,wp)", 
+    "word(2-13-applied)", 
+    "pos(2-13-applied,vbd)", 
+    "word(2-14-'.')", 
+    "pos(2-14-'.','.')", 
+    "nummod(2-4-seniors,2-3-100)", 
+    "punct(2-4-seniors,2-5-',')", 
+    "conj:and(2-4-seniors,2-7-juniors)", 
+    "punct(2-4-seniors,2-8-',')", 
+    "cc(2-4-seniors,2-9-and)", 
+    "conj:and(2-4-seniors,2-11-sophomores)", 
+    "nummod(2-7-juniors,2-6-150)", 
+    "nummod(2-11-sophomores,2-10-200)", 
+    "acl:relcl(2-11-sophomores,2-13-applied)", 
+    "nsubj(2-13-applied,2-12-who)", 
+    "nsubj(2-2-are,2-4-seniors)", 
+    "nsubj(2-2-are,2-7-juniors)", 
+    "nsubj(2-2-are,2-11-sophomores)", 
+    "punct(2-2-are,2-14-'.')", 
+    "expl(2-2-are,2-1-there)", 
+    "word(3-1-each)", 
+    "pos(3-1-each,dt)", 
+    "word(3-2-senior)", 
+    "pos(3-2-senior,jj)", 
+    "word(3-3-'s)", 
+    "pos(3-3-'s,pos)", 
+    "word(3-4-name)", 
+    "pos(3-4-name,nn)", 
+    "word(3-5-is)", 
+    "pos(3-5-is,vbz)", 
+    "word(3-6-placed)", 
+    "pos(3-6-placed,vbn)", 
+    "word(3-7-in)", 
+    "pos(3-7-in,in)", 
+    "word(3-8-the)", 
+    "pos(3-8-the,dt)", 
+    "word(3-9-lottery)", 
+    "pos(3-9-lottery,nn)", 
+    "word(3-10-3)", 
+    "pos(3-10-3,cd)", 
+    "word(3-11-times)", 
+    "pos(3-11-times,nns)", 
+    "word(3-12-;)", 
+    "pos(3-12-;,:)", 
+    "word(3-13-each)", 
+    "pos(3-13-each,dt)", 
+    "word(3-14-junior)", 
+    "pos(3-14-junior,nn)", 
+    "word(3-15-'s)", 
+    "pos(3-15-'s,pos)", 
+    "word(3-16-name)", 
+    "pos(3-16-name,nn)", 
+    "word(3-17-',')", 
+    "pos(3-17-',',',')", 
+    "word(3-18-2)", 
+    "pos(3-18-2,cd)", 
+    "word(3-19-times)", 
+    "pos(3-19-times,nns)", 
+    "word(3-20-;)", 
+    "pos(3-20-;,:)", 
+    "word(3-21-and)", 
+    "pos(3-21-and,cc)", 
+    "word(3-22-each)", 
+    "pos(3-22-each,dt)", 
+    "word(3-23-sophomore)", 
+    "pos(3-23-sophomore,nn)", 
+    "word(3-24-'s)", 
+    "pos(3-24-'s,pos)", 
+    "word(3-25-name)", 
+    "pos(3-25-name,nn)", 
+    "word(3-26-',')", 
+    "pos(3-26-',',',')", 
+    "word(3-27-1)", 
+    "pos(3-27-1,cd)", 
+    "word(3-28-time)", 
+    "pos(3-28-time,nn)", 
+    "word(3-29-'.')", 
+    "pos(3-29-'.','.')", 
+    "nmod:in(3-6-placed,3-9-lottery)", 
+    "nmod:in(3-6-placed,3-25-name)", 
+    "punct(3-6-placed,3-29-'.')", 
+    "nmod:in(3-6-placed,3-16-name)", 
+    "nsubjpass(3-6-placed,3-4-name)", 
+    "auxpass(3-6-placed,3-5-is)", 
+    "case(3-9-lottery,3-7-in)", 
+    "det(3-9-lottery,3-8-the)", 
+    "conj:and(3-9-lottery,3-25-name)", 
+    "nmod:tmod(3-9-lottery,3-11-times)", 
+    "punct(3-9-lottery,3-12-;)", 
+    "conj:and(3-9-lottery,3-16-name)", 
+    "punct(3-9-lottery,3-20-;)", 
+    "cc(3-9-lottery,3-21-and)", 
+    "nummod(3-11-times,3-10-3)", 
+    "det(3-14-junior,3-13-each)", 
+    "case(3-14-junior,3-15-'s)", 
+    "nmod:poss(3-16-name,3-14-junior)", 
+    "punct(3-16-name,3-17-',')", 
+    "appos(3-16-name,3-19-times)", 
+    "nummod(3-19-times,3-18-2)", 
+    "det(3-23-sophomore,3-22-each)", 
+    "case(3-23-sophomore,3-24-'s)", 
+    "nmod:poss(3-25-name,3-23-sophomore)", 
+    "punct(3-25-name,3-26-',')", 
+    "appos(3-25-name,3-28-time)", 
+    "nummod(3-28-time,3-27-1)", 
+    "det(3-2-senior,3-1-each)", 
+    "case(3-2-senior,3-3-'s)", 
+    "nmod:poss(3-4-name,3-2-senior)", 
+    "word(4-1-what)", 
+    "pos(4-1-what,wp)", 
+    "word(4-2-is)", 
+    "pos(4-2-is,vbz)", 
+    "word(4-3-the)", 
+    "pos(4-3-the,dt)", 
+    "word(4-4-probability)", 
+    "pos(4-4-probability,nn)", 
+    "word(4-5-that)", 
+    "pos(4-5-that,in)", 
+    "word(4-6-a)", 
+    "pos(4-6-a,dt)", 
+    "word(4-7-senior)", 
+    "pos(4-7-senior,jj)", 
+    "word(4-8-'s)", 
+    "pos(4-8-'s,pos)", 
+    "word(4-9-name)", 
+    "pos(4-9-name,nn)", 
+    "word(4-10-will)", 
+    "pos(4-10-will,md)", 
+    "word(4-11-be)", 
+    "pos(4-11-be,vb)", 
+    "word(4-12-chosen)", 
+    "pos(4-12-chosen,vbn)", 
+    "word(4-13-'?')", 
+    "pos(4-13-'?','.')", 
+    "nmod:poss(4-9-name,4-7-senior)", 
+    "nsubjpass(4-12-chosen,4-9-name)", 
+    "aux(4-12-chosen,4-10-will)", 
+    "auxpass(4-12-chosen,4-11-be)", 
+    "mark(4-12-chosen,4-5-that)", 
+    "punct(4-1-what,4-13-'?')", 
+    "cop(4-1-what,4-2-is)", 
+    "nsubj(4-1-what,4-4-probability)", 
+    "dep(4-4-probability,4-12-chosen)", 
+    "det(4-4-probability,4-3-the)", 
+    "det(4-7-senior,4-6-a)", 
+    "case(4-7-senior,4-8-'s)"
+  ], 
+  "time_added": "2016-07-05T15:08:08.944000", 
+  "status": "skip"
+}

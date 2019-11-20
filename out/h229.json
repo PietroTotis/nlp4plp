@@ -1,0 +1,315 @@
+{
+  "owner": "hannah", 
+  "ex_id": 229, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-11"
+      }, 
+      "22": {
+        "sentence": 1, 
+        "nlp_stem": "percent", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "percent", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-21"
+            ], 
+            "mention": "explicit", 
+            "number": "99"
+          }
+        }, 
+        "key": "1-22"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "probability", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "1-12"
+      }, 
+      "23": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 23, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-23"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "least", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "head", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "head", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-16"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "times", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "times", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "should", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "should", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "coin", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "coin", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "toss", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tosses", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "so", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "so", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "least", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": "99", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "99", 
+        "corenlp": {
+          "number": 99
+        }, 
+        "key": "1-21"
+      }
+    }
+  }, 
+  "source": "Exercises in Probability Theory- Nikolai Chernov", 
+  "solution": "7", 
+  "text": [
+    " How many times should a coin be tosses so that the probability of at least one head is at least 99 percent?"
+  ], 
+  "corenlp": [
+    "word(1-1-how)", 
+    "pos(1-1,wrb)", 
+    "word(1-2-many)", 
+    "pos(1-2,jj)", 
+    "word(1-3-times)", 
+    "pos(1-3,nns)", 
+    "word(1-4-should)", 
+    "pos(1-4,md)", 
+    "word(1-5-a)", 
+    "pos(1-5,dt)", 
+    "word(1-6-coin)", 
+    "pos(1-6,nn)", 
+    "word(1-7-be)", 
+    "pos(1-7,vb)", 
+    "word(1-8-tosses)", 
+    "pos(1-8,nns)", 
+    "word(1-9-so)", 
+    "pos(1-9,in)", 
+    "word(1-10-that)", 
+    "pos(1-10,in)", 
+    "word(1-11-the)", 
+    "pos(1-11,dt)", 
+    "word(1-12-probability)", 
+    "pos(1-12,nn)", 
+    "word(1-13-of)", 
+    "pos(1-13,in)", 
+    "word(1-14-at)", 
+    "pos(1-14,in)", 
+    "word(1-15-least)", 
+    "pos(1-15,jjs)", 
+    "word(1-16-one)", 
+    "pos(1-16,cd)", 
+    "word(1-17-head)", 
+    "pos(1-17,nn)", 
+    "word(1-18-is)", 
+    "pos(1-18,vbz)", 
+    "word(1-19-at)", 
+    "pos(1-19,in)", 
+    "word(1-20-least)", 
+    "pos(1-20,jjs)", 
+    "word(1-21-99)", 
+    "pos(1-21,cd)", 
+    "word(1-22-percent)", 
+    "pos(1-22,nn)", 
+    "word(1-23-'?')", 
+    "pos(1-23,'.')", 
+    "advmod(1-2,1-1)", 
+    "amod(1-3,1-2)", 
+    "det(1-6,1-5)", 
+    "dep(1-8,1-3)", 
+    "aux(1-8,1-4)", 
+    "nsubj(1-8,1-6)", 
+    "advcl(1-8,1-22)", 
+    "cop(1-8,1-7)", 
+    "mwe(1-9,1-10)", 
+    "nmod:of(1-12,1-17)", 
+    "det(1-12,1-11)", 
+    "case(1-15,1-14)", 
+    "nmod:npmod(1-16,1-15)", 
+    "nummod(1-17,1-16)", 
+    "case(1-17,1-13)", 
+    "case(1-20,1-19)", 
+    "nmod:npmod(1-21,1-20)", 
+    "cop(1-22,1-18)", 
+    "nummod(1-22,1-21)", 
+    "mark(1-22,1-9)", 
+    "nsubj(1-22,1-12)"
+  ], 
+  "time_added": "2016-07-13T09:58:08.425000", 
+  "status": "skip"
+}

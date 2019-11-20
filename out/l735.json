@@ -1,0 +1,859 @@
+{
+  "owner": "liselot", 
+  "ex_id": 735, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "on", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "an", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "an", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "evening", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "evening", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "show", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "show", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "television", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "television", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "news", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "news", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "director", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "director", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "wish", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "wishes", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "use", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "use", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "three", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "three", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "news", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "news", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "story", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "stories", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }
+        }, 
+        "key": "1-10", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "closing", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "closing", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "story", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "story", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-24"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "story", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "story", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "last", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "last", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "One", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "story", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "story", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-1"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "lead", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "lead", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "story", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "story", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "22": {
+        "sentence": 3, 
+        "nlp_stem": "set", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "set", 
+        "key": "3-22"
+      }, 
+      "23": {
+        "sentence": 3, 
+        "nlp_stem": "up", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "up", 
+        "key": "3-23"
+      }, 
+      "24": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 24, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-24"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-10"
+      }, 
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "choose", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "choose", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "from", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "from", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 15, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-15", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "3-9", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-10", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "possible", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "possible", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "ways", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "director", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "director", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "have", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "total", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "total", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "of", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "eight", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "eight", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "story", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "stories", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-8"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }
+        }, 
+        "key": "3-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "3-8"
+            ], 
+            "mention": "explicit", 
+            "number": 8
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": "program", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "program", 
+        "key": "3-20"
+      }, 
+      "21": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-21"
+      }
+    }
+  }, 
+  "source": "highered.mheducation.com/sites/dl/free/007353496x/366095/Ch_04.pdf", 
+  "solution": "336", 
+  "text": [
+    " A television news director wishes to use three news stories on an evening show.", 
+    " One story will be the lead story, one will be the second story, and the last will be a closing story.", 
+    " If the director has a total of eight stories to choose from, how many possible ways can the program be set up?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-television)", 
+    "pos(1-2,nn)", 
+    "word(1-3-news)", 
+    "pos(1-3,nn)", 
+    "word(1-4-director)", 
+    "pos(1-4,nn)", 
+    "word(1-5-wishes)", 
+    "pos(1-5,vbz)", 
+    "word(1-6-to)", 
+    "pos(1-6,to)", 
+    "word(1-7-use)", 
+    "pos(1-7,vb)", 
+    "word(1-8-three)", 
+    "pos(1-8,cd)", 
+    "word(1-9-news)", 
+    "pos(1-9,nn)", 
+    "word(1-10-stories)", 
+    "pos(1-10,nns)", 
+    "word(1-11-on)", 
+    "pos(1-11,in)", 
+    "word(1-12-an)", 
+    "pos(1-12,dt)", 
+    "word(1-13-evening)", 
+    "pos(1-13,nn)", 
+    "word(1-14-show)", 
+    "pos(1-14,nn)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "det(1-4,1-1)", 
+    "compound(1-4,1-2)", 
+    "compound(1-4,1-3)", 
+    "nsubj(1-5,1-4)", 
+    "xcomp(1-5,1-7)", 
+    "mark(1-7,1-6)", 
+    "dobj(1-7,1-10)", 
+    "nmod:on(1-7,1-14)", 
+    "nummod(1-10,1-8)", 
+    "compound(1-10,1-9)", 
+    "case(1-14,1-11)", 
+    "det(1-14,1-12)", 
+    "compound(1-14,1-13)", 
+    "word(2-1-one)", 
+    "pos(2-1,cd)", 
+    "word(2-2-story)", 
+    "pos(2-2,nn)", 
+    "word(2-3-will)", 
+    "pos(2-3,md)", 
+    "word(2-4-be)", 
+    "pos(2-4,vb)", 
+    "word(2-5-the)", 
+    "pos(2-5,dt)", 
+    "word(2-6-lead)", 
+    "pos(2-6,nn)", 
+    "word(2-7-story)", 
+    "pos(2-7,nn)", 
+    "word(2-8-',')", 
+    "pos(2-8,',')", 
+    "word(2-9-one)", 
+    "pos(2-9,cd)", 
+    "word(2-10-will)", 
+    "pos(2-10,md)", 
+    "word(2-11-be)", 
+    "pos(2-11,vb)", 
+    "word(2-12-the)", 
+    "pos(2-12,dt)", 
+    "word(2-13-second)", 
+    "pos(2-13,jj)", 
+    "word(2-14-story)", 
+    "pos(2-14,nn)", 
+    "word(2-15-',')", 
+    "pos(2-15,',')", 
+    "word(2-16-and)", 
+    "pos(2-16,cc)", 
+    "word(2-17-the)", 
+    "pos(2-17,dt)", 
+    "word(2-18-last)", 
+    "pos(2-18,jj)", 
+    "word(2-19-will)", 
+    "pos(2-19,md)", 
+    "word(2-20-be)", 
+    "pos(2-20,vb)", 
+    "word(2-21-a)", 
+    "pos(2-21,dt)", 
+    "word(2-22-closing)", 
+    "pos(2-22,nn)", 
+    "word(2-23-story)", 
+    "pos(2-23,nn)", 
+    "word(2-24-'.')", 
+    "pos(2-24,'.')", 
+    "aux(2-7,2-3)", 
+    "cop(2-7,2-4)", 
+    "det(2-7,2-5)", 
+    "compound(2-7,2-6)", 
+    "conj:and(2-7,2-23)", 
+    "dep(2-7,2-14)", 
+    "cc(2-7,2-16)", 
+    "nsubj(2-7,2-2)", 
+    "nsubj(2-14,2-9)", 
+    "aux(2-14,2-10)", 
+    "cop(2-14,2-11)", 
+    "det(2-14,2-12)", 
+    "amod(2-14,2-13)", 
+    "det(2-18,2-17)", 
+    "aux(2-23,2-19)", 
+    "cop(2-23,2-20)", 
+    "det(2-23,2-21)", 
+    "compound(2-23,2-22)", 
+    "nsubj(2-23,2-18)", 
+    "nummod(2-2,2-1)", 
+    "word(3-1-if)", 
+    "pos(3-1,in)", 
+    "word(3-2-the)", 
+    "pos(3-2,dt)", 
+    "word(3-3-director)", 
+    "pos(3-3,nn)", 
+    "word(3-4-has)", 
+    "pos(3-4,vbz)", 
+    "word(3-5-a)", 
+    "pos(3-5,dt)", 
+    "word(3-6-total)", 
+    "pos(3-6,nn)", 
+    "word(3-7-of)", 
+    "pos(3-7,in)", 
+    "word(3-8-eight)", 
+    "pos(3-8,cd)", 
+    "word(3-9-stories)", 
+    "pos(3-9,nns)", 
+    "word(3-10-to)", 
+    "pos(3-10,to)", 
+    "word(3-11-choose)", 
+    "pos(3-11,vb)", 
+    "word(3-12-from)", 
+    "pos(3-12,in)", 
+    "word(3-13-',')", 
+    "pos(3-13,',')", 
+    "word(3-14-how)", 
+    "pos(3-14,wrb)", 
+    "word(3-15-many)", 
+    "pos(3-15,jj)", 
+    "word(3-16-possible)", 
+    "pos(3-16,jj)", 
+    "word(3-17-ways)", 
+    "pos(3-17,nns)", 
+    "word(3-18-can)", 
+    "pos(3-18,md)", 
+    "word(3-19-the)", 
+    "pos(3-19,dt)", 
+    "word(3-20-program)", 
+    "pos(3-20,nn)", 
+    "word(3-21-be)", 
+    "pos(3-21,vb)", 
+    "word(3-22-set)", 
+    "pos(3-22,vbn)", 
+    "word(3-23-up)", 
+    "pos(3-23,rp)", 
+    "word(3-24-'?')", 
+    "pos(3-24,'.')", 
+    "nmod:of(3-6,3-9)", 
+    "acl(3-6,3-11)", 
+    "det(3-6,3-5)", 
+    "case(3-9,3-7)", 
+    "nummod(3-9,3-8)", 
+    "mark(3-11,3-10)", 
+    "nmod(3-11,3-12)", 
+    "advmod(3-15,3-14)", 
+    "amod(3-17,3-15)", 
+    "amod(3-17,3-16)", 
+    "det(3-20,3-19)", 
+    "compound:prt(3-22,3-23)", 
+    "dep(3-22,3-17)", 
+    "aux(3-22,3-18)", 
+    "advcl(3-22,3-4)", 
+    "nsubjpass(3-22,3-20)", 
+    "auxpass(3-22,3-21)", 
+    "det(3-3,3-2)", 
+    "dobj(3-4,3-6)", 
+    "mark(3-4,3-1)", 
+    "nsubj(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-02T16:54:45.025000", 
+  "status": "done"
+}

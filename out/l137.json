@@ -1,0 +1,436 @@
+{
+  "owner": "liselot", 
+  "ex_id": 137, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "5", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "5", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "people", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "people", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-3"
+            ], 
+            "mention": "explicit", 
+            "number": "5"
+          }
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "room", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "room", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-8"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "their", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "PRP$", 
+        "text": "their", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "birthday", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "birthday", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "on", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "on", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "same", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "same", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "day", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "day", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-17"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "chance", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chance", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "any", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "any", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "them", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "them", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "celebrate", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "celebrate", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "assume", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Assume", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "365", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "365", 
+        "corenlp": {
+          "number": 365
+        }, 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "days", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "days", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-2"
+            ], 
+            "mention": "explicit", 
+            "number": "365"
+          }
+        }, 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "year", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "year", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-7"
+      }
+    }
+  }, 
+  "source": "http://www.mathopolis.com/questions/q.php?id=3115&site=1&ref=/data/probability-shared-birthday.html&qs=3115_3116_3117_3118_3841_3842_3843_8616_8617_8618", 
+  "original_text": [
+    " There are 5 people in a room ... what is the chance that any two of them celebrate their birthday on the same day?", 
+    " Assume 365 days in a year."
+  ], 
+  "solution": "0.0271", 
+  "text": [
+    " There are 5 people in a room.", 
+    " What is the chance that any two of them celebrate their birthday on the same day?", 
+    " Assume 365 days in a year."
+  ], 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-5)", 
+    "pos(1-3,cd)", 
+    "word(1-4-people)", 
+    "pos(1-4,nns)", 
+    "word(1-5-in)", 
+    "pos(1-5,in)", 
+    "word(1-6-a)", 
+    "pos(1-6,dt)", 
+    "word(1-7-room)", 
+    "pos(1-7,nn)", 
+    "word(1-8-'.')", 
+    "pos(1-8,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-4)", 
+    "nummod(1-4,1-3)", 
+    "nmod:in(1-4,1-7)", 
+    "case(1-7,1-5)", 
+    "det(1-7,1-6)", 
+    "word(2-1-what)", 
+    "pos(2-1,wp)", 
+    "word(2-2-is)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-the)", 
+    "pos(2-3,dt)", 
+    "word(2-4-chance)", 
+    "pos(2-4,nn)", 
+    "word(2-5-that)", 
+    "pos(2-5,in)", 
+    "word(2-6-any)", 
+    "pos(2-6,dt)", 
+    "word(2-7-two)", 
+    "pos(2-7,cd)", 
+    "word(2-8-of)", 
+    "pos(2-8,in)", 
+    "word(2-9-them)", 
+    "pos(2-9,prp)", 
+    "word(2-10-celebrate)", 
+    "pos(2-10,vb)", 
+    "word(2-11-their)", 
+    "pos(2-11,prp)", 
+    "word(2-12-birthday)", 
+    "pos(2-12,nn)", 
+    "word(2-13-on)", 
+    "pos(2-13,in)", 
+    "word(2-14-the)", 
+    "pos(2-14,dt)", 
+    "word(2-15-same)", 
+    "pos(2-15,jj)", 
+    "word(2-16-day)", 
+    "pos(2-16,nn)", 
+    "word(2-17-'?')", 
+    "pos(2-17,'.')", 
+    "det(2-4,2-3)", 
+    "dep(2-4,2-10)", 
+    "det(2-7,2-6)", 
+    "nmod:of(2-7,2-9)", 
+    "case(2-9,2-8)", 
+    "mark(2-10,2-5)", 
+    "nsubj(2-10,2-7)", 
+    "dobj(2-10,2-12)", 
+    "nmod:on(2-10,2-16)", 
+    "nmod:poss(2-12,2-11)", 
+    "case(2-16,2-13)", 
+    "det(2-16,2-14)", 
+    "amod(2-16,2-15)", 
+    "nsubj(2-1,2-4)", 
+    "cop(2-1,2-2)", 
+    "word(3-1-assume)", 
+    "pos(3-1,vb)", 
+    "word(3-2-365)", 
+    "pos(3-2,cd)", 
+    "word(3-3-days)", 
+    "pos(3-3,nns)", 
+    "word(3-4-in)", 
+    "pos(3-4,in)", 
+    "word(3-5-a)", 
+    "pos(3-5,dt)", 
+    "word(3-6-year)", 
+    "pos(3-6,nn)", 
+    "word(3-7-'.')", 
+    "pos(3-7,'.')", 
+    "case(3-6,3-4)", 
+    "det(3-6,3-5)", 
+    "dobj(3-1,3-3)", 
+    "nmod:in(3-3,3-6)", 
+    "nummod(3-3,3-2)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-07-14T13:52:07.506000", 
+  "status": "skip"
+}

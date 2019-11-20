@@ -1,0 +1,601 @@
+{
+  "owner": "liselot", 
+  "ex_id": 1043, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "fifteen", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "Fifteen", 
+        "corenlp": {
+          "number": 15
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "student", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "students", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 15
+          }
+        }, 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": 15
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "participate", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "participated", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "spelling", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "spelling", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "bee", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bee", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "competition", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "competition", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-9"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-11"
+      }, 
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 22, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-22"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "place", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "place", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "$", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "$", 
+        "text": "$", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "500", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "500", 
+        "corenlp": {
+          "number": 500
+        }, 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "third", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "third", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "place", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "place", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "first", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "first", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "place", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "place", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "winner", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "winner", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "receive", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "receive", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "$", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "$", 
+        "text": "$", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "1,000", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "1,000", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 9, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "$", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "$", 
+        "text": "$", 
+        "key": "2-20"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-10"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "250", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "250", 
+        "corenlp": {
+          "number": 250
+        }, 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 11, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-11"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "in", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "In", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-3", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-2", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "3-8", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "ways", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "3", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "winner", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "winners", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-7"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "3-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "3-7"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }, 
+          "is_sequence": true, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "draw", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "drawn", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://faculty.atu.edu/mfinan/actuarieshall/Pbook.pdf", 
+  "solution": "2730", 
+  "text": [
+    " Fifteen students participated in a spelling bee competition.", 
+    " The first place winner will receive $ 1,000, the second place $ 500, and the third place $ 250.", 
+    " In how many ways can the 3 winners be drawn?"
+  ], 
+  "corenlp": [
+    "word(1-1-fifteen)", 
+    "pos(1-1,cd)", 
+    "word(1-2-students)", 
+    "pos(1-2,nns)", 
+    "word(1-3-participated)", 
+    "pos(1-3,vbd)", 
+    "word(1-4-in)", 
+    "pos(1-4,in)", 
+    "word(1-5-a)", 
+    "pos(1-5,dt)", 
+    "word(1-6-spelling)", 
+    "pos(1-6,nn)", 
+    "word(1-7-bee)", 
+    "pos(1-7,nn)", 
+    "word(1-8-competition)", 
+    "pos(1-8,nn)", 
+    "word(1-9-'.')", 
+    "pos(1-9,'.')", 
+    "nummod(1-2,1-1)", 
+    "nsubj(1-3,1-2)", 
+    "nmod:in(1-3,1-8)", 
+    "case(1-8,1-4)", 
+    "det(1-8,1-5)", 
+    "compound(1-8,1-6)", 
+    "compound(1-8,1-7)", 
+    "word(2-1-the)", 
+    "pos(2-1,dt)", 
+    "word(2-2-first)", 
+    "pos(2-2,jj)", 
+    "word(2-3-place)", 
+    "pos(2-3,nn)", 
+    "word(2-4-winner)", 
+    "pos(2-4,nn)", 
+    "word(2-5-will)", 
+    "pos(2-5,md)", 
+    "word(2-6-receive)", 
+    "pos(2-6,vb)", 
+    "word(2-7-)", 
+    "pos(2-7,)", 
+    "word(2-8-1,000)", 
+    "pos(2-8,cd)", 
+    "word(2-9-',')", 
+    "pos(2-9,',')", 
+    "word(2-10-the)", 
+    "pos(2-10,dt)", 
+    "word(2-11-second)", 
+    "pos(2-11,jj)", 
+    "word(2-12-place)", 
+    "pos(2-12,nn)", 
+    "word(2-13-)", 
+    "pos(2-13,)", 
+    "word(2-14-500)", 
+    "pos(2-14,cd)", 
+    "word(2-15-',')", 
+    "pos(2-15,',')", 
+    "word(2-16-and)", 
+    "pos(2-16,cc)", 
+    "word(2-17-the)", 
+    "pos(2-17,dt)", 
+    "word(2-18-third)", 
+    "pos(2-18,jj)", 
+    "word(2-19-place)", 
+    "pos(2-19,nn)", 
+    "word(2-20-)", 
+    "pos(2-20,)", 
+    "word(2-21-250)", 
+    "pos(2-21,cd)", 
+    "word(2-22-'.')", 
+    "pos(2-22,'.')", 
+    "compound(2-4,2-3)", 
+    "det(2-4,2-1)", 
+    "amod(2-4,2-2)", 
+    "dobj(2-6,2-19)", 
+    "nsubj(2-6,2-4)", 
+    "aux(2-6,2-5)", 
+    "dobj(2-6,2-8)", 
+    "dobj(2-6,2-12)", 
+    "conj:and(2-8,2-19)", 
+    "dep(2-8,2-7)", 
+    "conj:and(2-8,2-12)", 
+    "cc(2-8,2-16)", 
+    "det(2-12,2-10)", 
+    "amod(2-12,2-11)", 
+    "dep(2-12,2-14)", 
+    "dep(2-14,2-13)", 
+    "dep(2-19,2-21)", 
+    "det(2-19,2-17)", 
+    "amod(2-19,2-18)", 
+    "dep(2-21,2-20)", 
+    "word(3-1-in)", 
+    "pos(3-1,in)", 
+    "word(3-2-how)", 
+    "pos(3-2,wrb)", 
+    "word(3-3-many)", 
+    "pos(3-3,jj)", 
+    "word(3-4-ways)", 
+    "pos(3-4,nns)", 
+    "word(3-5-can)", 
+    "pos(3-5,md)", 
+    "word(3-6-the)", 
+    "pos(3-6,dt)", 
+    "word(3-7-3)", 
+    "pos(3-7,cd)", 
+    "word(3-8-winners)", 
+    "pos(3-8,nns)", 
+    "word(3-9-be)", 
+    "pos(3-9,vb)", 
+    "word(3-10-drawn)", 
+    "pos(3-10,vbn)", 
+    "word(3-11-'?')", 
+    "pos(3-11,'.')", 
+    "det(3-8,3-6)", 
+    "nummod(3-8,3-7)", 
+    "nsubjpass(3-10,3-8)", 
+    "auxpass(3-10,3-9)", 
+    "nmod:in(3-10,3-4)", 
+    "aux(3-10,3-5)", 
+    "advmod(3-3,3-2)", 
+    "case(3-4,3-1)", 
+    "amod(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-10T14:13:05.564000", 
+  "status": "done"
+}

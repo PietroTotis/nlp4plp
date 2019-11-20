@@ -1,0 +1,790 @@
+{
+  "owner": "hannah", 
+  "ex_id": 973, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "appear", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "appear", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "identical", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "identical", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "manufacturer", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "manufacturer", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "dry", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "dry", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "cell", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "cells", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "actually", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "actually", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "makes", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "two", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "battery", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "batteries", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "hours", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "hours", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-21"
+            ], 
+            "mention": "explicit", 
+            "number": "600"
+          }
+        }, 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "with", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-25"
+            ], 
+            "mention": "explicit", 
+            "number": "0.40"
+          }
+        }, 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "0.40", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.40", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 26, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-26"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "with", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-12"
+            ], 
+            "mention": "explicit", 
+            "number": "0.30"
+          }
+        }, 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "0.30", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.30", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "battery", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "batteries", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "type", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "Type", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "b", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "B", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "last", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "last", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "more", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "RBR", 
+        "text": "more", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "battery", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "Batteries", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "type", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "Type", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "last", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "last", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "more", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJR", 
+        "text": "more", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "than", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "than", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "600", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "600", 
+        "corenlp": {
+          "number": 600
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "hours", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "hours", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-8"
+            ], 
+            "mention": "explicit", 
+            "number": "600"
+          }
+        }, 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "than", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "than", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "600", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "600", 
+        "corenlp": {
+          "number": 600
+        }, 
+        "key": "2-21"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "last", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "last", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "least", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "600", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "600", 
+        "corenlp": {
+          "number": 600
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "hours", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "hours", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-15"
+            ], 
+            "mention": "explicit", 
+            "number": "600"
+          }
+        }, 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 17, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-17"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "Of", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "Of", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "50", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "50", 
+        "corenlp": {
+          "number": 50
+        }, 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "type", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "Type", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "b", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "B", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "battery", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "batteries", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-2"
+            ], 
+            "mention": "explicit", 
+            "number": "50"
+          }
+        }, 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "how", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "how", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "expect", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "expected", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "Probability: An Introduction with Statistical Applications 2e", 
+  "text": [
+    " A manufacturer of dry cells actually makes two batteries that appear to be identical.", 
+    " Batteries of Type A last more than 600 hours with probability 0.30 and batteries of Type B last more than 600 hours with probability 0.40.", 
+    " Of 50 Type B batteries, how many are expected to last at least 600 hours?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-manufacturer)", 
+    "pos(1-2,nn)", 
+    "word(1-3-of)", 
+    "pos(1-3,in)", 
+    "word(1-4-dry)", 
+    "pos(1-4,jj)", 
+    "word(1-5-cells)", 
+    "pos(1-5,nns)", 
+    "word(1-6-actually)", 
+    "pos(1-6,rb)", 
+    "word(1-7-makes)", 
+    "pos(1-7,vbz)", 
+    "word(1-8-two)", 
+    "pos(1-8,cd)", 
+    "word(1-9-batteries)", 
+    "pos(1-9,nns)", 
+    "word(1-10-that)", 
+    "pos(1-10,wdt)", 
+    "word(1-11-appear)", 
+    "pos(1-11,vbp)", 
+    "word(1-12-to)", 
+    "pos(1-12,to)", 
+    "word(1-13-be)", 
+    "pos(1-13,vb)", 
+    "word(1-14-identical)", 
+    "pos(1-14,jj)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "det(1-2,1-1)", 
+    "nmod:of(1-2,1-5)", 
+    "case(1-5,1-3)", 
+    "amod(1-5,1-4)", 
+    "nsubj(1-7,1-2)", 
+    "advmod(1-7,1-6)", 
+    "dobj(1-7,1-9)", 
+    "nummod(1-9,1-8)", 
+    "acl:relcl(1-9,1-11)", 
+    "nsubj(1-11,1-10)", 
+    "xcomp(1-11,1-14)", 
+    "mark(1-14,1-12)", 
+    "cop(1-14,1-13)", 
+    "word(2-1-batteries)", 
+    "pos(2-1,nns)", 
+    "word(2-2-of)", 
+    "pos(2-2,in)", 
+    "word(2-3-type)", 
+    "pos(2-3,nn)", 
+    "word(2-4-a)", 
+    "pos(2-4,dt)", 
+    "word(2-5-last)", 
+    "pos(2-5,jj)", 
+    "word(2-6-more)", 
+    "pos(2-6,jjr)", 
+    "word(2-7-than)", 
+    "pos(2-7,in)", 
+    "word(2-8-600)", 
+    "pos(2-8,cd)", 
+    "word(2-9-hours)", 
+    "pos(2-9,nns)", 
+    "word(2-10-with)", 
+    "pos(2-10,in)", 
+    "word(2-11-probability)", 
+    "pos(2-11,nn)", 
+    "word(2-12-0.30)", 
+    "pos(2-12,cd)", 
+    "word(2-13-and)", 
+    "pos(2-13,cc)", 
+    "word(2-14-batteries)", 
+    "pos(2-14,nns)", 
+    "word(2-15-of)", 
+    "pos(2-15,in)", 
+    "word(2-16-type)", 
+    "pos(2-16,nn)", 
+    "word(2-17-b)", 
+    "pos(2-17,nn)", 
+    "word(2-18-last)", 
+    "pos(2-18,rb)", 
+    "word(2-19-more)", 
+    "pos(2-19,rbr)", 
+    "word(2-20-than)", 
+    "pos(2-20,in)", 
+    "word(2-21-600)", 
+    "pos(2-21,cd)", 
+    "word(2-22-hours)", 
+    "pos(2-22,nns)", 
+    "word(2-23-with)", 
+    "pos(2-23,in)", 
+    "word(2-24-probability)", 
+    "pos(2-24,nn)", 
+    "word(2-25-0.40)", 
+    "pos(2-25,cd)", 
+    "word(2-26-'.')", 
+    "pos(2-26,'.')", 
+    "nmod:of(2-1,2-3)", 
+    "nmod:of(2-1,2-14)", 
+    "advmod(2-1,2-18)", 
+    "nmod:with(2-3,2-9)", 
+    "cc(2-3,2-13)", 
+    "conj:and(2-3,2-14)", 
+    "case(2-3,2-2)", 
+    "mwe(2-6,2-7)", 
+    "advmod(2-8,2-6)", 
+    "det(2-9,2-4)", 
+    "amod(2-9,2-5)", 
+    "nummod(2-9,2-8)", 
+    "case(2-9,2-10)", 
+    "dep(2-9,2-11)", 
+    "nummod(2-11,2-12)", 
+    "nmod:of(2-14,2-17)", 
+    "case(2-17,2-15)", 
+    "compound(2-17,2-16)", 
+    "nmod:npmod(2-18,2-22)", 
+    "nmod:with(2-18,2-24)", 
+    "mwe(2-19,2-20)", 
+    "advmod(2-21,2-19)", 
+    "nummod(2-22,2-21)", 
+    "case(2-24,2-23)", 
+    "nummod(2-24,2-25)", 
+    "word(3-1-of)", 
+    "pos(3-1,in)", 
+    "word(3-2-50)", 
+    "pos(3-2,cd)", 
+    "word(3-3-type)", 
+    "pos(3-3,nn)", 
+    "word(3-4-b)", 
+    "pos(3-4,nn)", 
+    "word(3-5-batteries)", 
+    "pos(3-5,nns)", 
+    "word(3-6-',')", 
+    "pos(3-6,',')", 
+    "word(3-7-how)", 
+    "pos(3-7,wrb)", 
+    "word(3-8-many)", 
+    "pos(3-8,jj)", 
+    "word(3-9-are)", 
+    "pos(3-9,vbp)", 
+    "word(3-10-expected)", 
+    "pos(3-10,vbn)", 
+    "word(3-11-to)", 
+    "pos(3-11,to)", 
+    "word(3-12-last)", 
+    "pos(3-12,vb)", 
+    "word(3-13-at)", 
+    "pos(3-13,in)", 
+    "word(3-14-least)", 
+    "pos(3-14,jjs)", 
+    "word(3-15-600)", 
+    "pos(3-15,cd)", 
+    "word(3-16-hours)", 
+    "pos(3-16,nns)", 
+    "word(3-17-'?')", 
+    "pos(3-17,'.')", 
+    "advmod(3-8,3-7)", 
+    "nsubjpass(3-10,3-8)", 
+    "auxpass(3-10,3-9)", 
+    "xcomp(3-10,3-12)", 
+    "nmod:of(3-10,3-5)", 
+    "mark(3-12,3-11)", 
+    "dobj(3-12,3-16)", 
+    "case(3-14,3-13)", 
+    "nmod:npmod(3-15,3-14)", 
+    "nummod(3-16,3-15)", 
+    "case(3-5,3-1)", 
+    "nummod(3-5,3-2)", 
+    "compound(3-5,3-3)", 
+    "compound(3-5,3-4)"
+  ], 
+  "time_added": "2016-08-09T11:34:53.989000", 
+  "status": "skip"
+}

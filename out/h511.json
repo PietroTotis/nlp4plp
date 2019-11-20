@@ -1,0 +1,601 @@
+{
+  "owner": "hannah", 
+  "ex_id": 511, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "suffer", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "suffered", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "excessive", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "excessive", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "shrinkage", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "property": {
+          "is_question": false, 
+          "scope": "all", 
+          "value": "shrinkage"
+        }, 
+        "text": "shrinkage", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-14"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "batch", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "batch", 
+        "key": "1-2", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "100", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "100", 
+        "corenlp": {
+          "number": 100
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "injection-molded", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "injection-molded", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "parts", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "parts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "100"
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": "100"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "contain", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "contains", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "12", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "CD", 
+        "text": "12", 
+        "corenlp": {
+          "number": 12
+        }, 
+        "key": "1-8", 
+        "group": {
+          "role": "part of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "1-8"
+            ], 
+            "mention": "explicit", 
+            "number": 12
+          }, 
+          "is_sequence": false, 
+          "properties": [
+            "1-13"
+          ]
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "that", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "have", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "have", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "with", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "excessive", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "excessive", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "shrinkage", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "shrinkage", 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 27, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-27"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "without", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "without", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "replacement", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "replacement", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "what", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "second", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "second", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "If", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "If", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "two", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "two", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "parts", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "parts", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-2"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }
+        }, 
+        "key": "2-3", 
+        "group": {
+          "role": "taken from", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "2-2"
+            ], 
+            "mention": "explicit", 
+            "number": 2
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "selected", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "random", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "random", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "part", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "part", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "selected", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "Problem Set 5 Probability", 
+  "solution": "12/100", 
+  "text": [
+    " A batch of 100 injection-molded parts contains 12 that have suffered excessive shrinkage.", 
+    " If two parts are selected at random, and without replacement, what is the probability that the second part selected is one with excessive shrinkage?"
+  ], 
+  "corenlp": [
+    "word(1-1-a)", 
+    "pos(1-1,dt)", 
+    "word(1-2-batch)", 
+    "pos(1-2,nn)", 
+    "word(1-3-of)", 
+    "pos(1-3,in)", 
+    "word(1-4-100)", 
+    "pos(1-4,cd)", 
+    "word(1-5-injection-molded)", 
+    "pos(1-5,jj)", 
+    "word(1-6-parts)", 
+    "pos(1-6,nns)", 
+    "word(1-7-contains)", 
+    "pos(1-7,vbz)", 
+    "word(1-8-12)", 
+    "pos(1-8,cd)", 
+    "word(1-9-that)", 
+    "pos(1-9,wdt)", 
+    "word(1-10-have)", 
+    "pos(1-10,vbp)", 
+    "word(1-11-suffered)", 
+    "pos(1-11,vbn)", 
+    "word(1-12-excessive)", 
+    "pos(1-12,jj)", 
+    "word(1-13-shrinkage)", 
+    "pos(1-13,nn)", 
+    "word(1-14-'.')", 
+    "pos(1-14,'.')", 
+    "det(1-2,1-1)", 
+    "nmod:of(1-2,1-6)", 
+    "case(1-6,1-3)", 
+    "nummod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "nsubj(1-7,1-2)", 
+    "dobj(1-7,1-8)", 
+    "acl:relcl(1-8,1-11)", 
+    "nsubj(1-11,1-9)", 
+    "aux(1-11,1-10)", 
+    "dobj(1-11,1-13)", 
+    "amod(1-13,1-12)", 
+    "word(2-1-if)", 
+    "pos(2-1,in)", 
+    "word(2-2-two)", 
+    "pos(2-2,cd)", 
+    "word(2-3-parts)", 
+    "pos(2-3,nns)", 
+    "word(2-4-are)", 
+    "pos(2-4,vbp)", 
+    "word(2-5-selected)", 
+    "pos(2-5,vbn)", 
+    "word(2-6-at)", 
+    "pos(2-6,in)", 
+    "word(2-7-random)", 
+    "pos(2-7,jj)", 
+    "word(2-8-',')", 
+    "pos(2-8,',')", 
+    "word(2-9-and)", 
+    "pos(2-9,cc)", 
+    "word(2-10-without)", 
+    "pos(2-10,in)", 
+    "word(2-11-replacement)", 
+    "pos(2-11,nn)", 
+    "word(2-12-',')", 
+    "pos(2-12,',')", 
+    "word(2-13-what)", 
+    "pos(2-13,wp)", 
+    "word(2-14-is)", 
+    "pos(2-14,vbz)", 
+    "word(2-15-the)", 
+    "pos(2-15,dt)", 
+    "word(2-16-probability)", 
+    "pos(2-16,nn)", 
+    "word(2-17-that)", 
+    "pos(2-17,in)", 
+    "word(2-18-the)", 
+    "pos(2-18,dt)", 
+    "word(2-19-second)", 
+    "pos(2-19,jj)", 
+    "word(2-20-part)", 
+    "pos(2-20,nn)", 
+    "word(2-21-selected)", 
+    "pos(2-21,vbn)", 
+    "word(2-22-is)", 
+    "pos(2-22,vbz)", 
+    "word(2-23-one)", 
+    "pos(2-23,cd)", 
+    "word(2-24-with)", 
+    "pos(2-24,in)", 
+    "word(2-25-excessive)", 
+    "pos(2-25,jj)", 
+    "word(2-26-shrinkage)", 
+    "pos(2-26,nn)", 
+    "word(2-27-'?')", 
+    "pos(2-27,'.')", 
+    "nummod(2-3,2-2)", 
+    "nsubjpass(2-5,2-3)", 
+    "auxpass(2-5,2-4)", 
+    "conj:and(2-5,2-5)", 
+    "nmod:at(2-5,2-7)", 
+    "cc(2-5,2-9)", 
+    "mark(2-5,2-1)", 
+    "nsubjpass(2-5,2-3)", 
+    "nmod:without(2-5,2-11)", 
+    "case(2-7,2-6)", 
+    "case(2-11,2-10)", 
+    "dep(2-13,2-5)", 
+    "dep(2-13,2-5)", 
+    "cop(2-13,2-14)", 
+    "nsubj(2-13,2-16)", 
+    "dep(2-16,2-23)", 
+    "det(2-16,2-15)", 
+    "amod(2-20,2-19)", 
+    "acl(2-20,2-21)", 
+    "det(2-20,2-18)", 
+    "nsubj(2-23,2-20)", 
+    "cop(2-23,2-22)", 
+    "nmod:with(2-23,2-26)", 
+    "mark(2-23,2-17)", 
+    "case(2-26,2-24)", 
+    "amod(2-26,2-25)"
+  ], 
+  "time_added": "2016-07-25T13:54:50.329000", 
+  "status": "skip"
+}

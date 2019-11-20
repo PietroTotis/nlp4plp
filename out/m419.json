@@ -1,0 +1,850 @@
+{
+  "owner": "monica", 
+  "ex_id": 419, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "seat", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "seat", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "all", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "all", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "the", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "invite", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "invited", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "guest", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "guests", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-18"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "At", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "Ashwin", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Ashwin", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "'s", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "birthday", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "birthday", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "party", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "party", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 6, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "table", 
+        "index": 8, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "tables", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-8", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-7"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "need", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "needed", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "party", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "party", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-14"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "dozen", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dozen", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "red", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "red", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "balloon", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balloons", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-4"
+            ], 
+            "mention": "explicit", 
+            "number": "dozen"
+          }
+        }, 
+        "key": "2-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-4", 
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": "12"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "decorate", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "decorating", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "table", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tables", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "least", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "five", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "balloon", 
+        "index": 13, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "balloons", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-12"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "3-13", 
+        "group": {
+          "role": "part of", 
+          "constraints": [
+            {
+              "type": "compound", 
+              "logic": {
+                "choice": {
+                  "reqnum": true, 
+                  "number": "5", 
+                  "children": 1, 
+                  "name": ">=", 
+                  "id": ">="
+                }
+              }
+            }
+          ], 
+          "role_arg": "2-6", 
+          "size": {
+            "words": [
+              "3-12"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-14"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "You", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "You", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "want", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "want", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "birthday", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "birthday", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "boy", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "boy", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "'s", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'s", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "table", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "table", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "to", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "get", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "get", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-10"
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "five", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "table", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "tables", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "4-12"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "?", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "4-14"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "ways", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "4-3", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "there", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "to", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "arrange", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "arrange", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "balloon", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "balloons", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "among", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "among", 
+        "key": "4-10"
+      }
+    }
+  }, 
+  "source": "http://www.agmath.com/media//DIR_57727/Probability.pdf", 
+  "text": [
+    " At Ashwin 's birthday party, five tables are needed to seat all of the invited guests.", 
+    " There are a dozen red balloons for decorating the tables at the party.", 
+    " You want the birthday boy 's table to get at least five balloons.", 
+    " How many ways are there to arrange the balloons among the five tables?"
+  ], 
+  "corenlp": [
+    "word(1-1-at)", 
+    "pos(1-1,in)", 
+    "word(1-2-ashwin)", 
+    "pos(1-2,nnp)", 
+    "word(1-3-\"'s\")", 
+    "pos(1-3,pos)", 
+    "word(1-4-birthday)", 
+    "pos(1-4,nn)", 
+    "word(1-5-party)", 
+    "pos(1-5,nn)", 
+    "word(1-6-',')", 
+    "pos(1-6,',')", 
+    "word(1-7-five)", 
+    "pos(1-7,cd)", 
+    "word(1-8-tables)", 
+    "pos(1-8,nns)", 
+    "word(1-9-are)", 
+    "pos(1-9,vbp)", 
+    "word(1-10-needed)", 
+    "pos(1-10,vbn)", 
+    "word(1-11-to)", 
+    "pos(1-11,to)", 
+    "word(1-12-seat)", 
+    "pos(1-12,nn)", 
+    "word(1-13-all)", 
+    "pos(1-13,dt)", 
+    "word(1-14-of)", 
+    "pos(1-14,in)", 
+    "word(1-15-the)", 
+    "pos(1-15,dt)", 
+    "word(1-16-invited)", 
+    "pos(1-16,vbn)", 
+    "word(1-17-guests)", 
+    "pos(1-17,nns)", 
+    "word(1-18-'.')", 
+    "pos(1-18,'.')", 
+    "case(1-2,1-3)", 
+    "case(1-5,1-1)", 
+    "nmod:poss(1-5,1-2)", 
+    "compound(1-5,1-4)", 
+    "nummod(1-8,1-7)", 
+    "nmod:at(1-10,1-5)", 
+    "nsubjpass(1-10,1-8)", 
+    "auxpass(1-10,1-9)", 
+    "nmod:to(1-10,1-12)", 
+    "dobj(1-10,1-13)", 
+    "case(1-12,1-11)", 
+    "nmod:of(1-13,1-17)", 
+    "amod(1-17,1-16)", 
+    "case(1-17,1-14)", 
+    "det(1-17,1-15)", 
+    "word(2-1-there)", 
+    "pos(2-1,ex)", 
+    "word(2-2-are)", 
+    "pos(2-2,vbp)", 
+    "word(2-3-a)", 
+    "pos(2-3,dt)", 
+    "word(2-4-dozen)", 
+    "pos(2-4,nn)", 
+    "word(2-5-red)", 
+    "pos(2-5,jj)", 
+    "word(2-6-balloons)", 
+    "pos(2-6,nns)", 
+    "word(2-7-for)", 
+    "pos(2-7,in)", 
+    "word(2-8-decorating)", 
+    "pos(2-8,vbg)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-tables)", 
+    "pos(2-10,nns)", 
+    "word(2-11-at)", 
+    "pos(2-11,in)", 
+    "word(2-12-the)", 
+    "pos(2-12,dt)", 
+    "word(2-13-party)", 
+    "pos(2-13,nn)", 
+    "word(2-14-'.')", 
+    "pos(2-14,'.')", 
+    "advmod(2-4,2-3)", 
+    "nummod(2-6,2-4)", 
+    "amod(2-6,2-5)", 
+    "acl(2-6,2-8)", 
+    "mark(2-8,2-7)", 
+    "dobj(2-8,2-10)", 
+    "nmod:at(2-8,2-13)", 
+    "det(2-10,2-9)", 
+    "case(2-13,2-11)", 
+    "det(2-13,2-12)", 
+    "nsubj(2-2,2-6)", 
+    "expl(2-2,2-1)", 
+    "word(3-1-you)", 
+    "pos(3-1,prp)", 
+    "word(3-2-want)", 
+    "pos(3-2,vbp)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-birthday)", 
+    "pos(3-4,nn)", 
+    "word(3-5-boy)", 
+    "pos(3-5,nn)", 
+    "word(3-6-\"'s\")", 
+    "pos(3-6,pos)", 
+    "word(3-7-table)", 
+    "pos(3-7,nn)", 
+    "word(3-8-to)", 
+    "pos(3-8,to)", 
+    "word(3-9-get)", 
+    "pos(3-9,vb)", 
+    "word(3-10-at)", 
+    "pos(3-10,in)", 
+    "word(3-11-least)", 
+    "pos(3-11,jjs)", 
+    "word(3-12-five)", 
+    "pos(3-12,cd)", 
+    "word(3-13-balloons)", 
+    "pos(3-13,nns)", 
+    "word(3-14-'.')", 
+    "pos(3-14,'.')", 
+    "acl(3-7,3-9)", 
+    "nmod:poss(3-7,3-5)", 
+    "mark(3-9,3-8)", 
+    "dobj(3-9,3-13)", 
+    "case(3-11,3-10)", 
+    "nmod:npmod(3-12,3-11)", 
+    "nummod(3-13,3-12)", 
+    "dobj(3-2,3-7)", 
+    "nsubj(3-2,3-1)", 
+    "case(3-5,3-6)", 
+    "det(3-5,3-3)", 
+    "compound(3-5,3-4)", 
+    "word(4-1-how)", 
+    "pos(4-1,wrb)", 
+    "word(4-2-many)", 
+    "pos(4-2,jj)", 
+    "word(4-3-ways)", 
+    "pos(4-3,nns)", 
+    "word(4-4-are)", 
+    "pos(4-4,vbp)", 
+    "word(4-5-there)", 
+    "pos(4-5,ex)", 
+    "word(4-6-to)", 
+    "pos(4-6,to)", 
+    "word(4-7-arrange)", 
+    "pos(4-7,vb)", 
+    "word(4-8-the)", 
+    "pos(4-8,dt)", 
+    "word(4-9-balloons)", 
+    "pos(4-9,nns)", 
+    "word(4-10-among)", 
+    "pos(4-10,in)", 
+    "word(4-11-the)", 
+    "pos(4-11,dt)", 
+    "word(4-12-five)", 
+    "pos(4-12,cd)", 
+    "word(4-13-tables)", 
+    "pos(4-13,nns)", 
+    "word(4-14-'?')", 
+    "pos(4-14,'.')", 
+    "det(4-9,4-8)", 
+    "case(4-13,4-10)", 
+    "det(4-13,4-11)", 
+    "nummod(4-13,4-12)", 
+    "advmod(4-2,4-1)", 
+    "amod(4-3,4-2)", 
+    "nsubj(4-4,4-3)", 
+    "expl(4-4,4-5)", 
+    "dep(4-4,4-7)", 
+    "dobj(4-7,4-9)", 
+    "nmod:among(4-7,4-13)", 
+    "mark(4-7,4-6)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-02T11:48:52.124000", 
+  "status": "later"
+}

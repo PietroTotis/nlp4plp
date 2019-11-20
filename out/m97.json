@@ -1,0 +1,680 @@
+{
+  "owner": "monica", 
+  "ex_id": 97, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "show", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "show", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "``", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "``", 
+        "text": "``", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "Nach", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Nach", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "Baliye", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Baliye", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": "'", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "POS", 
+        "text": "'", 
+        "key": "1-15"
+      }, 
+      "16": {
+        "sentence": 1, 
+        "nlp_stem": "in", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "1-16"
+      }, 
+      "17": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-17"
+      }, 
+      "18": {
+        "sentence": 1, 
+        "nlp_stem": "popular", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "popular", 
+        "key": "1-18"
+      }, 
+      "19": {
+        "sentence": 1, 
+        "nlp_stem": "tv", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "TV", 
+        "key": "1-19"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "8", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "8", 
+        "corenlp": {
+          "number": 8
+        }, 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "couple", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "couples", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-1"
+            ], 
+            "mention": "explicit", 
+            "number": "8"
+          }
+        }, 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "-", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "-", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "husband", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "husband", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "wife", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "wife", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "-", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": ":", 
+        "text": "-", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "attend", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "attend", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-9"
+      }, 
+      "20": {
+        "sentence": 1, 
+        "nlp_stem": "channel", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "channel", 
+        "key": "1-20"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "dance", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "dance", 
+        "key": "1-10"
+      }, 
+      "21": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 21, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-21"
+      }
+    }, 
+    "2": {
+      "22": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 22, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "there", 
+        "key": "2-22"
+      }, 
+      "23": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 23, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-23"
+      }, 
+      "24": {
+        "sentence": 2, 
+        "nlp_stem": "at", 
+        "index": 24, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "2-24"
+      }, 
+      "25": {
+        "sentence": 2, 
+        "nlp_stem": "least", 
+        "index": 25, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "2-25"
+      }, 
+      "26": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 26, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-26"
+      }, 
+      "27": {
+        "sentence": 2, 
+        "nlp_stem": "couple", 
+        "index": 27, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "couple", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-26"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-27"
+      }, 
+      "28": {
+        "sentence": 2, 
+        "nlp_stem": "will", 
+        "index": 28, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "2-28"
+      }, 
+      "29": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 29, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "2-29"
+      }, 
+      "30": {
+        "sentence": 2, 
+        "nlp_stem": "select", 
+        "index": 30, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "selected", 
+        "key": "2-30"
+      }, 
+      "31": {
+        "sentence": 2, 
+        "nlp_stem": "?", 
+        "index": 31, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "2-31"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "for", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "for", 
+        "key": "2-10"
+      }, 
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "prize", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "prize", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "hold", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "held", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": ",", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": "what", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "what", 
+        "key": "2-16"
+      }, 
+      "17": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "2-17"
+      }, 
+      "18": {
+        "sentence": 2, 
+        "nlp_stem": "then", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "then", 
+        "key": "2-18"
+      }, 
+      "19": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-19"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "a", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "A", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "lucky", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "lucky", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "draw", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "draw", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "in", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "which", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "which", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "4", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "person", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "persons", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-6"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "pick", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "picked", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "up", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "up", 
+        "key": "2-9"
+      }, 
+      "20": {
+        "sentence": 2, 
+        "nlp_stem": "probability", 
+        "index": 20, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "2-20"
+      }, 
+      "21": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 21, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-21"
+      }
+    }
+  }, 
+  "source": "http://www.sawaal.com/aptitude-and-Reasoning/probability-questions-and-answers.html?????????????page=8&sort=", 
+  "original_text": [
+    " 8 couples -LRB- husband and wife -RRB- attend a dance show `` Nach Baliye ' in a popular TV channel ; A lucky draw in which 4 persons picked up for a prize is held, then the probability that there is at least one couple will be selected is:"
+  ], 
+  "solution": "15/39", 
+  "text": [
+    " 8 couples - husband and wife - attend a dance show `` Nach Baliye ' in a popular TV channel.", 
+    " A lucky draw in which 4 persons picked up for a prize is held, what is then the probability that there is at least one couple will be selected?"
+  ], 
+  "corenlp": [
+    "word(1-1-8)", 
+    "pos(1-1,cd)", 
+    "word(1-2-couples)", 
+    "pos(1-2,nns)", 
+    "word(1-3--)", 
+    "pos(1-3,':')", 
+    "word(1-4-husband)", 
+    "pos(1-4,nn)", 
+    "word(1-5-and)", 
+    "pos(1-5,cc)", 
+    "word(1-6-wife)", 
+    "pos(1-6,nn)", 
+    "word(1-7--)", 
+    "pos(1-7,':')", 
+    "word(1-8-attend)", 
+    "pos(1-8,vb)", 
+    "word(1-9-a)", 
+    "pos(1-9,dt)", 
+    "word(1-10-dance)", 
+    "pos(1-10,nn)", 
+    "word(1-11-show)", 
+    "pos(1-11,nn)", 
+    "word(1-12-``)", 
+    "pos(1-12,``)", 
+    "word(1-13-nach)", 
+    "pos(1-13,nnp)", 
+    "word(1-14-baliye)", 
+    "pos(1-14,nnp)", 
+    "word(1-15-'\"')", 
+    "pos(1-15,pos)", 
+    "word(1-16-in)", 
+    "pos(1-16,in)", 
+    "word(1-17-a)", 
+    "pos(1-17,dt)", 
+    "word(1-18-popular)", 
+    "pos(1-18,jj)", 
+    "word(1-19-tv)", 
+    "pos(1-19,nn)", 
+    "word(1-20-channel)", 
+    "pos(1-20,nn)", 
+    "word(1-21-'.')", 
+    "pos(1-21,'.')", 
+    "nummod(1-2,1-1)", 
+    "dep(1-2,1-4)", 
+    "dep(1-2,1-6)", 
+    "cc(1-4,1-5)", 
+    "conj:and(1-4,1-6)", 
+    "nsubj(1-8,1-2)", 
+    "xcomp(1-8,1-14)", 
+    "det(1-11,1-9)", 
+    "compound(1-11,1-10)", 
+    "nmod:in(1-14,1-20)", 
+    "dep(1-14,1-11)", 
+    "compound(1-14,1-13)", 
+    "case(1-14,1-15)", 
+    "case(1-20,1-16)", 
+    "det(1-20,1-17)", 
+    "amod(1-20,1-18)", 
+    "compound(1-20,1-19)", 
+    "word(2-1-a)", 
+    "pos(2-1,dt)", 
+    "word(2-2-lucky)", 
+    "pos(2-2,jj)", 
+    "word(2-3-draw)", 
+    "pos(2-3,nn)", 
+    "word(2-4-in)", 
+    "pos(2-4,in)", 
+    "word(2-5-which)", 
+    "pos(2-5,wdt)", 
+    "word(2-6-4)", 
+    "pos(2-6,cd)", 
+    "word(2-7-persons)", 
+    "pos(2-7,nns)", 
+    "word(2-8-picked)", 
+    "pos(2-8,vbd)", 
+    "word(2-9-up)", 
+    "pos(2-9,rp)", 
+    "word(2-10-for)", 
+    "pos(2-10,in)", 
+    "word(2-11-a)", 
+    "pos(2-11,dt)", 
+    "word(2-12-prize)", 
+    "pos(2-12,nn)", 
+    "word(2-13-is)", 
+    "pos(2-13,vbz)", 
+    "word(2-14-held)", 
+    "pos(2-14,vbn)", 
+    "word(2-15-',')", 
+    "pos(2-15,',')", 
+    "word(2-16-what)", 
+    "pos(2-16,wp)", 
+    "word(2-17-is)", 
+    "pos(2-17,vbz)", 
+    "word(2-18-then)", 
+    "pos(2-18,rb)", 
+    "word(2-19-the)", 
+    "pos(2-19,dt)", 
+    "word(2-20-probability)", 
+    "pos(2-20,nn)", 
+    "word(2-21-that)", 
+    "pos(2-21,in)", 
+    "word(2-22-there)", 
+    "pos(2-22,ex)", 
+    "word(2-23-is)", 
+    "pos(2-23,vbz)", 
+    "word(2-24-at)", 
+    "pos(2-24,in)", 
+    "word(2-25-least)", 
+    "pos(2-25,jjs)", 
+    "word(2-26-one)", 
+    "pos(2-26,cd)", 
+    "word(2-27-couple)", 
+    "pos(2-27,nn)", 
+    "word(2-28-will)", 
+    "pos(2-28,md)", 
+    "word(2-29-be)", 
+    "pos(2-29,vb)", 
+    "word(2-30-selected)", 
+    "pos(2-30,vbn)", 
+    "word(2-31-'?')", 
+    "pos(2-31,'.')", 
+    "acl:relcl(2-3,2-8)", 
+    "det(2-3,2-1)", 
+    "amod(2-3,2-2)", 
+    "case(2-5,2-4)", 
+    "nummod(2-7,2-6)", 
+    "nmod:in(2-8,2-5)", 
+    "nsubj(2-8,2-7)", 
+    "compound:prt(2-8,2-9)", 
+    "nmod:for(2-8,2-12)", 
+    "case(2-12,2-10)", 
+    "det(2-12,2-11)", 
+    "nsubjpass(2-14,2-3)", 
+    "auxpass(2-14,2-13)", 
+    "det(2-20,2-19)", 
+    "ccomp(2-20,2-23)", 
+    "dep(2-20,2-14)", 
+    "nsubj(2-20,2-16)", 
+    "cop(2-20,2-17)", 
+    "advmod(2-20,2-18)", 
+    "mark(2-23,2-21)", 
+    "expl(2-23,2-22)", 
+    "nsubj(2-23,2-27)", 
+    "case(2-25,2-24)", 
+    "nmod:npmod(2-26,2-25)", 
+    "nummod(2-27,2-26)", 
+    "acl:relcl(2-27,2-30)", 
+    "aux(2-30,2-28)", 
+    "auxpass(2-30,2-29)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-14T17:22:50.656000", 
+  "status": "later"
+}

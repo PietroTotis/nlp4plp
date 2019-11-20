@@ -1,0 +1,705 @@
+{
+  "owner": "monica", 
+  "ex_id": 409, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "different", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "animal", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "animal", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 14, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-14"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "Martha", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Martha", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "make", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBG", 
+        "text": "making", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "four", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "giant", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "giant", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "cookie", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "cookies", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "1-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-4"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": ",", 
+        "index": 7, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "each", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "shape", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "shaped", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "like", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "like", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "cookie", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "cookies", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }
+        }, 
+        "key": "2-11", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [
+              "2-10"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "She", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "She", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "have", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "has", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "ten", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "ten", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "chocolate", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chocolate", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "kiss", 
+        "index": 5, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "kisses", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }
+        }, 
+        "key": "2-5", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "to", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "distribute", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "distribute", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "among", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "among", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "four", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "four", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "if", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "if", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "each", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "each", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "cookie", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "cookie", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "must", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "must", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "receive", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "receive", 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "at", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "least", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "one", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": "chocolate", 
+        "index": 19, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "chocolate", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-18"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "ways", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "ways", 
+        "key": "3-3", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-6", 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-5", 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "can", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "3-4"
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "she", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "she", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "distribute", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "distribute", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "ten", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "ten", 
+        "corenlp": {
+          "number": 10
+        }, 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "kiss", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "kisses", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-8"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }
+        }, 
+        "key": "3-9", 
+        "group": {
+          "role": "reference to", 
+          "constraints": [], 
+          "role_arg": "2-5", 
+          "size": {
+            "words": [
+              "3-8"
+            ], 
+            "mention": "explicit", 
+            "number": 10
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "20": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 20, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-20"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": ",", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ",", 
+        "text": ",", 
+        "key": "3-10"
+      }
+    }
+  }, 
+  "source": "http://www.agmath.com/media//DIR_57727/Probability.pdf", 
+  "text": [
+    " Martha is making four giant cookies, each shaped like a different animal.", 
+    " She has ten chocolate kisses to distribute among the four cookies.", 
+    " How many ways can she distribute the ten kisses, if each cookie must receive at least one chocolate?"
+  ], 
+  "corenlp": [
+    "word(1-1-martha)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-is)", 
+    "pos(1-2,vbz)", 
+    "word(1-3-making)", 
+    "pos(1-3,vbg)", 
+    "word(1-4-four)", 
+    "pos(1-4,cd)", 
+    "word(1-5-giant)", 
+    "pos(1-5,jj)", 
+    "word(1-6-cookies)", 
+    "pos(1-6,nns)", 
+    "word(1-7-',')", 
+    "pos(1-7,',')", 
+    "word(1-8-each)", 
+    "pos(1-8,dt)", 
+    "word(1-9-shaped)", 
+    "pos(1-9,vbn)", 
+    "word(1-10-like)", 
+    "pos(1-10,in)", 
+    "word(1-11-a)", 
+    "pos(1-11,dt)", 
+    "word(1-12-different)", 
+    "pos(1-12,jj)", 
+    "word(1-13-animal)", 
+    "pos(1-13,nn)", 
+    "word(1-14-'.')", 
+    "pos(1-14,'.')", 
+    "nsubj(1-3,1-1)", 
+    "aux(1-3,1-2)", 
+    "dobj(1-3,1-6)", 
+    "dobj(1-3,1-8)", 
+    "nummod(1-6,1-4)", 
+    "amod(1-6,1-5)", 
+    "acl(1-8,1-9)", 
+    "nmod:like(1-9,1-13)", 
+    "case(1-13,1-10)", 
+    "det(1-13,1-11)", 
+    "amod(1-13,1-12)", 
+    "word(2-1-she)", 
+    "pos(2-1,prp)", 
+    "word(2-2-has)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-ten)", 
+    "pos(2-3,cd)", 
+    "word(2-4-chocolate)", 
+    "pos(2-4,nn)", 
+    "word(2-5-kisses)", 
+    "pos(2-5,nns)", 
+    "word(2-6-to)", 
+    "pos(2-6,to)", 
+    "word(2-7-distribute)", 
+    "pos(2-7,vb)", 
+    "word(2-8-among)", 
+    "pos(2-8,in)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-four)", 
+    "pos(2-10,cd)", 
+    "word(2-11-cookies)", 
+    "pos(2-11,nns)", 
+    "word(2-12-'.')", 
+    "pos(2-12,'.')", 
+    "nummod(2-5,2-3)", 
+    "compound(2-5,2-4)", 
+    "acl(2-5,2-7)", 
+    "mark(2-7,2-6)", 
+    "nmod:among(2-7,2-11)", 
+    "case(2-11,2-8)", 
+    "det(2-11,2-9)", 
+    "nummod(2-11,2-10)", 
+    "dobj(2-2,2-5)", 
+    "nsubj(2-2,2-1)", 
+    "word(3-1-how)", 
+    "pos(3-1,wrb)", 
+    "word(3-2-many)", 
+    "pos(3-2,jj)", 
+    "word(3-3-ways)", 
+    "pos(3-3,nns)", 
+    "word(3-4-can)", 
+    "pos(3-4,md)", 
+    "word(3-5-she)", 
+    "pos(3-5,prp)", 
+    "word(3-6-distribute)", 
+    "pos(3-6,vb)", 
+    "word(3-7-the)", 
+    "pos(3-7,dt)", 
+    "word(3-8-ten)", 
+    "pos(3-8,cd)", 
+    "word(3-9-kisses)", 
+    "pos(3-9,nns)", 
+    "word(3-10-',')", 
+    "pos(3-10,',')", 
+    "word(3-11-if)", 
+    "pos(3-11,in)", 
+    "word(3-12-each)", 
+    "pos(3-12,dt)", 
+    "word(3-13-cookie)", 
+    "pos(3-13,nn)", 
+    "word(3-14-must)", 
+    "pos(3-14,md)", 
+    "word(3-15-receive)", 
+    "pos(3-15,vb)", 
+    "word(3-16-at)", 
+    "pos(3-16,in)", 
+    "word(3-17-least)", 
+    "pos(3-17,jjs)", 
+    "word(3-18-one)", 
+    "pos(3-18,cd)", 
+    "word(3-19-chocolate)", 
+    "pos(3-19,nn)", 
+    "word(3-20-'?')", 
+    "pos(3-20,'.')", 
+    "dobj(3-6,3-9)", 
+    "dep(3-6,3-3)", 
+    "aux(3-6,3-4)", 
+    "nsubj(3-6,3-5)", 
+    "det(3-9,3-7)", 
+    "nummod(3-9,3-8)", 
+    "dep(3-9,3-15)", 
+    "det(3-13,3-12)", 
+    "mark(3-15,3-11)", 
+    "nsubj(3-15,3-13)", 
+    "aux(3-15,3-14)", 
+    "dobj(3-15,3-19)", 
+    "case(3-17,3-16)", 
+    "nmod:npmod(3-18,3-17)", 
+    "nummod(3-19,3-18)", 
+    "advmod(3-2,3-1)", 
+    "amod(3-3,3-2)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-08-02T11:46:07.812000", 
+  "status": "later"
+}

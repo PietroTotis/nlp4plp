@@ -1,0 +1,498 @@
+{
+  "original_text": [
+    " There are 12 parking places in a line on a parking space.", 
+    " To a given time 4 of the places are free.", 
+    " Find the probability that these 4 places are successive in the line.", 
+    " Answer the came question when the 12 parking spaces are lying in a circle."
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "text": [
+    " There are 12 parking places in a line on a parking space.", 
+    " To a given time 4 of the places are free.", 
+    " Find the probability that these 4 places are successive in the line."
+  ], 
+  "solution": "1/55", 
+  "source": "Introduction to probability; Leif Mejlbro", 
+  "status": "skip", 
+  "words": {
+    "1": {
+      "11": {
+        "index": 11, 
+        "key": "1-11", 
+        "sentence": 1, 
+        "text": "parking", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "parking", 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "1-10", 
+        "sentence": 1, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "key": "1-13", 
+        "sentence": 1, 
+        "text": ".", 
+        "nlp_pos": ".", 
+        "nlp_stem": ".", 
+        "type": "punct"
+      }, 
+      "12": {
+        "index": 12, 
+        "key": "1-12", 
+        "sentence": 1, 
+        "text": "space", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "space", 
+        "type": "word"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "1-1", 
+        "sentence": 1, 
+        "text": "There", 
+        "nlp_pos": "EX", 
+        "nlp_stem": "there", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "1-3", 
+        "sentence": 1, 
+        "text": "12", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "12", 
+        "corenlp": {
+          "number": 12
+        }, 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "1-2", 
+        "sentence": 1, 
+        "text": "are", 
+        "nlp_pos": "VBP", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "1-5", 
+        "sentence": 1, 
+        "text": "places", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "place", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "12", 
+            "words": [
+              "1-3"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "1-4", 
+        "sentence": 1, 
+        "text": "parking", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "parking", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "1-7", 
+        "sentence": 1, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "1-6", 
+        "sentence": 1, 
+        "text": "in", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "in", 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "1-9", 
+        "sentence": 1, 
+        "text": "on", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "on", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "key": "1-8", 
+        "sentence": 1, 
+        "text": "line", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "line", 
+        "type": "word"
+      }
+    }, 
+    "3": {
+      "11": {
+        "index": 11, 
+        "key": "3-11", 
+        "sentence": 3, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "3-10", 
+        "sentence": 3, 
+        "text": "in", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "in", 
+        "type": "word"
+      }, 
+      "13": {
+        "index": 13, 
+        "key": "3-13", 
+        "sentence": 3, 
+        "text": ".", 
+        "nlp_pos": ".", 
+        "nlp_stem": ".", 
+        "type": "punct"
+      }, 
+      "12": {
+        "index": 12, 
+        "key": "3-12", 
+        "sentence": 3, 
+        "text": "line", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "line", 
+        "type": "word"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "3-1", 
+        "sentence": 3, 
+        "text": "Find", 
+        "nlp_pos": "VB", 
+        "nlp_stem": "find", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "3-3", 
+        "sentence": 3, 
+        "text": "probability", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "probability", 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "3-2", 
+        "sentence": 3, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "3-5", 
+        "sentence": 3, 
+        "text": "these", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "these", 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "3-4", 
+        "sentence": 3, 
+        "text": "that", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "that", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "3-7", 
+        "sentence": 3, 
+        "text": "places", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "place", 
+        "corenlp": {
+          "size": {
+            "mention": "explicit", 
+            "number": "4", 
+            "words": [
+              "3-6"
+            ]
+          }
+        }, 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "3-6", 
+        "sentence": 3, 
+        "text": "4", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "3-9", 
+        "sentence": 3, 
+        "text": "successive", 
+        "nlp_pos": "JJ", 
+        "nlp_stem": "successive", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "key": "3-8", 
+        "sentence": 3, 
+        "text": "are", 
+        "nlp_pos": "VBP", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }
+    }, 
+    "2": {
+      "11": {
+        "index": 11, 
+        "key": "2-11", 
+        "sentence": 2, 
+        "text": ".", 
+        "nlp_pos": ".", 
+        "nlp_stem": ".", 
+        "type": "punct"
+      }, 
+      "10": {
+        "index": 10, 
+        "key": "2-10", 
+        "sentence": 2, 
+        "text": "free", 
+        "nlp_pos": "JJ", 
+        "nlp_stem": "free", 
+        "type": "word"
+      }, 
+      "1": {
+        "index": 1, 
+        "key": "2-1", 
+        "sentence": 2, 
+        "text": "To", 
+        "nlp_pos": "TO", 
+        "nlp_stem": "To", 
+        "type": "word"
+      }, 
+      "3": {
+        "index": 3, 
+        "key": "2-3", 
+        "sentence": 2, 
+        "text": "given", 
+        "nlp_pos": "VBN", 
+        "nlp_stem": "give", 
+        "type": "word"
+      }, 
+      "2": {
+        "index": 2, 
+        "key": "2-2", 
+        "sentence": 2, 
+        "text": "a", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "a", 
+        "type": "word"
+      }, 
+      "5": {
+        "index": 5, 
+        "key": "2-5", 
+        "sentence": 2, 
+        "text": "4", 
+        "nlp_pos": "CD", 
+        "nlp_stem": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "type": "word"
+      }, 
+      "4": {
+        "index": 4, 
+        "key": "2-4", 
+        "sentence": 2, 
+        "text": "time", 
+        "nlp_pos": "NN", 
+        "nlp_stem": "time", 
+        "type": "word"
+      }, 
+      "7": {
+        "index": 7, 
+        "key": "2-7", 
+        "sentence": 2, 
+        "text": "the", 
+        "nlp_pos": "DT", 
+        "nlp_stem": "the", 
+        "type": "word"
+      }, 
+      "6": {
+        "index": 6, 
+        "key": "2-6", 
+        "sentence": 2, 
+        "text": "of", 
+        "nlp_pos": "IN", 
+        "nlp_stem": "of", 
+        "type": "word"
+      }, 
+      "9": {
+        "index": 9, 
+        "key": "2-9", 
+        "sentence": 2, 
+        "text": "are", 
+        "nlp_pos": "VBP", 
+        "nlp_stem": "be", 
+        "type": "word"
+      }, 
+      "8": {
+        "index": 8, 
+        "key": "2-8", 
+        "sentence": 2, 
+        "text": "places", 
+        "nlp_pos": "NNS", 
+        "nlp_stem": "place", 
+        "type": "word"
+      }
+    }
+  }, 
+  "owner": "liselot", 
+  "ex_id": 155, 
+  "corenlp": [
+    "word(1-1-there)", 
+    "pos(1-1,ex)", 
+    "word(1-2-are)", 
+    "pos(1-2,vbp)", 
+    "word(1-3-12)", 
+    "pos(1-3,cd)", 
+    "word(1-4-parking)", 
+    "pos(1-4,nn)", 
+    "word(1-5-places)", 
+    "pos(1-5,nns)", 
+    "word(1-6-in)", 
+    "pos(1-6,in)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-line)", 
+    "pos(1-8,nn)", 
+    "word(1-9-on)", 
+    "pos(1-9,in)", 
+    "word(1-10-a)", 
+    "pos(1-10,dt)", 
+    "word(1-11-parking)", 
+    "pos(1-11,nn)", 
+    "word(1-12-space)", 
+    "pos(1-12,nn)", 
+    "word(1-13-'.')", 
+    "pos(1-13,'.')", 
+    "expl(1-2,1-1)", 
+    "nsubj(1-2,1-5)", 
+    "nummod(1-5,1-3)", 
+    "compound(1-5,1-4)", 
+    "nmod:in(1-5,1-8)", 
+    "case(1-8,1-6)", 
+    "det(1-8,1-7)", 
+    "nmod:on(1-8,1-12)", 
+    "case(1-12,1-9)", 
+    "det(1-12,1-10)", 
+    "compound(1-12,1-11)", 
+    "word(2-1-to)", 
+    "pos(2-1,to)", 
+    "word(2-2-a)", 
+    "pos(2-2,dt)", 
+    "word(2-3-given)", 
+    "pos(2-3,vbn)", 
+    "word(2-4-time)", 
+    "pos(2-4,nn)", 
+    "word(2-5-4)", 
+    "pos(2-5,cd)", 
+    "word(2-6-of)", 
+    "pos(2-6,in)", 
+    "word(2-7-the)", 
+    "pos(2-7,dt)", 
+    "word(2-8-places)", 
+    "pos(2-8,nns)", 
+    "word(2-9-are)", 
+    "pos(2-9,vbp)", 
+    "word(2-10-free)", 
+    "pos(2-10,jj)", 
+    "word(2-11-'.')", 
+    "pos(2-11,'.')", 
+    "amod(2-4,2-3)", 
+    "acl:relcl(2-4,2-10)", 
+    "case(2-4,2-1)", 
+    "det(2-4,2-2)", 
+    "nmod:of(2-5,2-8)", 
+    "case(2-8,2-6)", 
+    "det(2-8,2-7)", 
+    "nsubj(2-10,2-5)", 
+    "cop(2-10,2-9)", 
+    "word(3-1-find)", 
+    "pos(3-1,vb)", 
+    "word(3-2-the)", 
+    "pos(3-2,dt)", 
+    "word(3-3-probability)", 
+    "pos(3-3,nn)", 
+    "word(3-4-that)", 
+    "pos(3-4,in)", 
+    "word(3-5-these)", 
+    "pos(3-5,dt)", 
+    "word(3-6-4)", 
+    "pos(3-6,cd)", 
+    "word(3-7-places)", 
+    "pos(3-7,nns)", 
+    "word(3-8-are)", 
+    "pos(3-8,vbp)", 
+    "word(3-9-successive)", 
+    "pos(3-9,jj)", 
+    "word(3-10-in)", 
+    "pos(3-10,in)", 
+    "word(3-11-the)", 
+    "pos(3-11,dt)", 
+    "word(3-12-line)", 
+    "pos(3-12,nn)", 
+    "word(3-13-'.')", 
+    "pos(3-13,'.')", 
+    "nummod(3-7,3-6)", 
+    "det(3-7,3-5)", 
+    "nsubj(3-9,3-7)", 
+    "cop(3-9,3-8)", 
+    "nmod:in(3-9,3-12)", 
+    "mark(3-9,3-4)", 
+    "case(3-12,3-10)", 
+    "det(3-12,3-11)", 
+    "ccomp(3-1,3-9)", 
+    "dobj(3-1,3-3)", 
+    "det(3-3,3-2)"
+  ], 
+  "time_added": "2016-07-15T09:36:52.066000"
+}

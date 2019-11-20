@@ -1,0 +1,243 @@
+{
+  "owner": "hannah", 
+  "ex_id": 602, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "five", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "five", 
+        "corenlp": {
+          "number": 5
+        }, 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "bell", 
+        "index": 12, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "bells", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }
+        }, 
+        "key": "1-12", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "?", 
+        "index": 13, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "1-13"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "1-2", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "change", 
+        "index": 3, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "changes", 
+        "key": "1-3", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "1-12", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "1-9", 
+          "properties": [], 
+          "combination": {
+            "ubound": "inf", 
+            "interchangeable": true, 
+            "lbound": 0, 
+            "order": false
+          }
+        }
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "can", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "can", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "be", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "ring", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "rung", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "peal", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "peal", 
+        "key": "1-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "1-11"
+            ], 
+            "mention": "explicit", 
+            "number": 5
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "1-10"
+      }
+    }
+  }, 
+  "source": "Elementary Probability - Santos", 
+  "solution": "120", 
+  "text": [
+    " How many changes can be rung with a peal of five bells?"
+  ], 
+  "corenlp": [
+    "word(1-1-how)", 
+    "pos(1-1,wrb)", 
+    "word(1-2-many)", 
+    "pos(1-2,jj)", 
+    "word(1-3-changes)", 
+    "pos(1-3,nns)", 
+    "word(1-4-can)", 
+    "pos(1-4,md)", 
+    "word(1-5-be)", 
+    "pos(1-5,vb)", 
+    "word(1-6-rung)", 
+    "pos(1-6,vbn)", 
+    "word(1-7-with)", 
+    "pos(1-7,in)", 
+    "word(1-8-a)", 
+    "pos(1-8,dt)", 
+    "word(1-9-peal)", 
+    "pos(1-9,nn)", 
+    "word(1-10-of)", 
+    "pos(1-10,in)", 
+    "word(1-11-five)", 
+    "pos(1-11,cd)", 
+    "word(1-12-bells)", 
+    "pos(1-12,nns)", 
+    "word(1-13-'?')", 
+    "pos(1-13,'.')", 
+    "advmod(1-2,1-1)", 
+    "amod(1-3,1-2)", 
+    "nsubjpass(1-6,1-3)", 
+    "aux(1-6,1-4)", 
+    "auxpass(1-6,1-5)", 
+    "nmod:with(1-6,1-9)", 
+    "case(1-9,1-7)", 
+    "det(1-9,1-8)", 
+    "nmod:of(1-9,1-12)", 
+    "case(1-12,1-10)", 
+    "nummod(1-12,1-11)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T09:47:28.648000", 
+  "status": "done"
+}

@@ -1,0 +1,537 @@
+{
+  "owner": "monica", 
+  "ex_id": 175, 
+  "words": {
+    "1": {
+      "11": {
+        "sentence": 1, 
+        "nlp_stem": "at", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "1-11"
+      }, 
+      "12": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-12"
+      }, 
+      "13": {
+        "sentence": 1, 
+        "nlp_stem": "halloween", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Halloween", 
+        "key": "1-13"
+      }, 
+      "14": {
+        "sentence": 1, 
+        "nlp_stem": "party", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "party", 
+        "key": "1-14"
+      }, 
+      "15": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 15, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-15"
+      }, 
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "robin", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Robin", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "was", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "allow", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "allowed", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "to", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "TO", 
+        "text": "to", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "pick", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "pick", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "candy", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "candy", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-6"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "and", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "one", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": "drink", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "drink", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "1-9"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "drink", 
+        "index": 11, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "drinks", 
+        "key": "2-11", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-8"
+            ], 
+            "mention": "explicit", 
+            "number": 4
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 12, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-12"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "there", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "EX", 
+        "text": "There", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBD", 
+        "text": "were", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "3", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "3", 
+        "corenlp": {
+          "number": 3
+        }, 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "kind", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "kinds", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": "3"
+          }
+        }, 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "candy", 
+        "index": 6, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "candies", 
+        "key": "2-6", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "2-3"
+            ], 
+            "mention": "explicit", 
+            "number": 3
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "and", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "and", 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "4", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "4", 
+        "corenlp": {
+          "number": 4
+        }, 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "kind", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "kinds", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-8"
+            ], 
+            "mention": "explicit", 
+            "number": "4"
+          }
+        }, 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "How", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "How", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "many", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "many", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "different", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "different", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "combination", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "combinations", 
+        "key": "3-4", 
+        "group": {
+          "role": "assignment of", 
+          "constraints": [], 
+          "role_arg": "2-6", 
+          "is_question_size": true, 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "role_arg2": "2-11", 
+          "properties": [], 
+          "combination": {
+            "ubound": 1, 
+            "interchangeable": true, 
+            "lbound": 1, 
+            "order": false
+          }
+        }
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "could", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "could", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "she", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "PRP", 
+        "text": "she", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "make", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "make", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "?", 
+        "index": 8, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "3-8"
+      }
+    }
+  }, 
+  "source": "http://www.commoncoresheets.com/Math/Probability/Identifying%20Combination%20Amounts/English/All.pdf", 
+  "solution": "12", 
+  "text": [
+    " Robin was allowed to pick one candy and one drink at a Halloween party.", 
+    " There were 3 kinds of candies and 4 kinds of drinks.", 
+    " How many different combinations could she make?"
+  ], 
+  "corenlp": [
+    "word(1-1-robin)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-was)", 
+    "pos(1-2,vbd)", 
+    "word(1-3-allowed)", 
+    "pos(1-3,vbn)", 
+    "word(1-4-to)", 
+    "pos(1-4,to)", 
+    "word(1-5-pick)", 
+    "pos(1-5,vb)", 
+    "word(1-6-one)", 
+    "pos(1-6,cd)", 
+    "word(1-7-candy)", 
+    "pos(1-7,nn)", 
+    "word(1-8-and)", 
+    "pos(1-8,cc)", 
+    "word(1-9-one)", 
+    "pos(1-9,cd)", 
+    "word(1-10-drink)", 
+    "pos(1-10,nn)", 
+    "word(1-11-at)", 
+    "pos(1-11,in)", 
+    "word(1-12-a)", 
+    "pos(1-12,dt)", 
+    "word(1-13-halloween)", 
+    "pos(1-13,nnp)", 
+    "word(1-14-party)", 
+    "pos(1-14,nn)", 
+    "word(1-15-'.')", 
+    "pos(1-15,'.')", 
+    "nsubjpass(1-3,1-1)", 
+    "auxpass(1-3,1-2)", 
+    "xcomp(1-3,1-5)", 
+    "mark(1-5,1-4)", 
+    "dobj(1-5,1-7)", 
+    "dobj(1-5,1-10)", 
+    "nmod:at(1-5,1-14)", 
+    "nummod(1-7,1-6)", 
+    "cc(1-7,1-8)", 
+    "conj:and(1-7,1-10)", 
+    "nummod(1-10,1-9)", 
+    "case(1-14,1-11)", 
+    "det(1-14,1-12)", 
+    "compound(1-14,1-13)", 
+    "word(2-1-there)", 
+    "pos(2-1,ex)", 
+    "word(2-2-were)", 
+    "pos(2-2,vbd)", 
+    "word(2-3-3)", 
+    "pos(2-3,cd)", 
+    "word(2-4-kinds)", 
+    "pos(2-4,nns)", 
+    "word(2-5-of)", 
+    "pos(2-5,in)", 
+    "word(2-6-candies)", 
+    "pos(2-6,nns)", 
+    "word(2-7-and)", 
+    "pos(2-7,cc)", 
+    "word(2-8-4)", 
+    "pos(2-8,cd)", 
+    "word(2-9-kinds)", 
+    "pos(2-9,nns)", 
+    "word(2-10-of)", 
+    "pos(2-10,in)", 
+    "word(2-11-drinks)", 
+    "pos(2-11,nns)", 
+    "word(2-12-'.')", 
+    "pos(2-12,'.')", 
+    "nummod(2-4,2-3)", 
+    "nmod:of(2-4,2-6)", 
+    "cc(2-4,2-7)", 
+    "conj:and(2-4,2-9)", 
+    "case(2-6,2-5)", 
+    "nummod(2-9,2-8)", 
+    "nmod:of(2-9,2-11)", 
+    "case(2-11,2-10)", 
+    "nsubj(2-2,2-4)", 
+    "nsubj(2-2,2-9)", 
+    "expl(2-2,2-1)", 
+    "word(3-1-how)", 
+    "pos(3-1,wrb)", 
+    "word(3-2-many)", 
+    "pos(3-2,jj)", 
+    "word(3-3-different)", 
+    "pos(3-3,jj)", 
+    "word(3-4-combinations)", 
+    "pos(3-4,nns)", 
+    "word(3-5-could)", 
+    "pos(3-5,md)", 
+    "word(3-6-she)", 
+    "pos(3-6,prp)", 
+    "word(3-7-make)", 
+    "pos(3-7,vb)", 
+    "word(3-8-'?')", 
+    "pos(3-8,'.')", 
+    "nsubj(3-7,3-6)", 
+    "dobj(3-7,3-4)", 
+    "aux(3-7,3-5)", 
+    "advmod(3-2,3-1)", 
+    "amod(3-4,3-2)", 
+    "amod(3-4,3-3)"
+  ], 
+  "category": {
+    "name": "simple counting", 
+    "id": 3
+  }, 
+  "time_added": "2016-07-27T11:44:57.740000", 
+  "status": "done"
+}

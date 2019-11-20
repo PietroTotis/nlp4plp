@@ -1,0 +1,1070 @@
+{
+  "owner": "monica", 
+  "ex_id": 843, 
+  "words": {
+    "1": {
+      "1": {
+        "sentence": 1, 
+        "nlp_stem": "christmas", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "NNP", 
+        "text": "Christmas", 
+        "key": "1-1"
+      }, 
+      "2": {
+        "sentence": 1, 
+        "nlp_stem": "light", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "lights", 
+        "key": "1-2"
+      }, 
+      "3": {
+        "sentence": 1, 
+        "nlp_stem": "be", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "1-3"
+      }, 
+      "4": {
+        "sentence": 1, 
+        "nlp_stem": "often", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "RB", 
+        "text": "often", 
+        "key": "1-4"
+      }, 
+      "5": {
+        "sentence": 1, 
+        "nlp_stem": "design", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "designed", 
+        "key": "1-5"
+      }, 
+      "6": {
+        "sentence": 1, 
+        "nlp_stem": "with", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "with", 
+        "key": "1-6"
+      }, 
+      "7": {
+        "sentence": 1, 
+        "nlp_stem": "a", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "1-7"
+      }, 
+      "8": {
+        "sentence": 1, 
+        "nlp_stem": "series", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "series", 
+        "key": "1-8"
+      }, 
+      "9": {
+        "sentence": 1, 
+        "nlp_stem": "circuit", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "circuit", 
+        "key": "1-9"
+      }, 
+      "10": {
+        "sentence": 1, 
+        "nlp_stem": ".", 
+        "index": 10, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "1-10"
+      }
+    }, 
+    "2": {
+      "11": {
+        "sentence": 2, 
+        "nlp_stem": "string", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "string", 
+        "key": "2-11"
+      }, 
+      "12": {
+        "sentence": 2, 
+        "nlp_stem": "of", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "2-12"
+      }, 
+      "13": {
+        "sentence": 2, 
+        "nlp_stem": "light", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "light", 
+        "key": "2-13"
+      }, 
+      "14": {
+        "sentence": 2, 
+        "nlp_stem": "go", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "goes", 
+        "key": "2-14"
+      }, 
+      "15": {
+        "sentence": 2, 
+        "nlp_stem": "black", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "black", 
+        "key": "2-15"
+      }, 
+      "16": {
+        "sentence": 2, 
+        "nlp_stem": ".", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "2-16"
+      }, 
+      "1": {
+        "sentence": 2, 
+        "nlp_stem": "thi", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "This", 
+        "key": "2-1"
+      }, 
+      "2": {
+        "sentence": 2, 
+        "nlp_stem": "mean", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "means", 
+        "key": "2-2"
+      }, 
+      "3": {
+        "sentence": 2, 
+        "nlp_stem": "that", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "2-3"
+      }, 
+      "4": {
+        "sentence": 2, 
+        "nlp_stem": "when", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "WRB", 
+        "text": "when", 
+        "key": "2-4"
+      }, 
+      "5": {
+        "sentence": 2, 
+        "nlp_stem": "one", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "2-5"
+      }, 
+      "6": {
+        "sentence": 2, 
+        "nlp_stem": "light", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "light", 
+        "key": "2-6"
+      }, 
+      "7": {
+        "sentence": 2, 
+        "nlp_stem": "burns", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "burns", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "2-5"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "2-7"
+      }, 
+      "8": {
+        "sentence": 2, 
+        "nlp_stem": "out", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "out", 
+        "key": "2-8"
+      }, 
+      "9": {
+        "sentence": 2, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "2-9"
+      }, 
+      "10": {
+        "sentence": 2, 
+        "nlp_stem": "entire", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "entire", 
+        "key": "2-10"
+      }
+    }, 
+    "3": {
+      "11": {
+        "sentence": 3, 
+        "nlp_stem": "a", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "3-11"
+      }, 
+      "12": {
+        "sentence": 3, 
+        "nlp_stem": "bulb", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bulb", 
+        "key": "3-12"
+      }, 
+      "13": {
+        "sentence": 3, 
+        "nlp_stem": "will", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "3-13"
+      }, 
+      "14": {
+        "sentence": 3, 
+        "nlp_stem": "last", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "last", 
+        "key": "3-14"
+      }, 
+      "15": {
+        "sentence": 3, 
+        "nlp_stem": "2", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "3-15"
+      }, 
+      "16": {
+        "sentence": 3, 
+        "nlp_stem": "years", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "years", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "3-15"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "3-16"
+      }, 
+      "17": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "3-17"
+      }, 
+      "18": {
+        "sentence": 3, 
+        "nlp_stem": "0.995", 
+        "index": 18, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "0.995", 
+        "key": "3-18"
+      }, 
+      "19": {
+        "sentence": 3, 
+        "nlp_stem": ".", 
+        "index": 19, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "3-19"
+      }, 
+      "1": {
+        "sentence": 3, 
+        "nlp_stem": "suppose", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "Suppose", 
+        "key": "3-1"
+      }, 
+      "2": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-2"
+      }, 
+      "3": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-3"
+      }, 
+      "4": {
+        "sentence": 3, 
+        "nlp_stem": "light", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NNS", 
+        "text": "lights", 
+        "key": "3-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 3, 
+        "nlp_stem": "be", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "VBP", 
+        "text": "are", 
+        "key": "3-5"
+      }, 
+      "6": {
+        "sentence": 3, 
+        "nlp_stem": "design", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "VBN", 
+        "text": "designed", 
+        "key": "3-6"
+      }, 
+      "7": {
+        "sentence": 3, 
+        "nlp_stem": "so", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "so", 
+        "key": "3-7"
+      }, 
+      "8": {
+        "sentence": 3, 
+        "nlp_stem": "that", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "that", 
+        "key": "3-8"
+      }, 
+      "9": {
+        "sentence": 3, 
+        "nlp_stem": "the", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "3-9"
+      }, 
+      "10": {
+        "sentence": 3, 
+        "nlp_stem": "probability", 
+        "index": 10, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "3-10", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }
+    }, 
+    "4": {
+      "11": {
+        "sentence": 4, 
+        "nlp_stem": "the", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "4-11"
+      }, 
+      "12": {
+        "sentence": 4, 
+        "nlp_stem": "success", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "success", 
+        "key": "4-12"
+      }, 
+      "13": {
+        "sentence": 4, 
+        "nlp_stem": "or", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "4-13"
+      }, 
+      "14": {
+        "sentence": 4, 
+        "nlp_stem": "failure", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "failure", 
+        "key": "4-14"
+      }, 
+      "15": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-15"
+      }, 
+      "16": {
+        "sentence": 4, 
+        "nlp_stem": "other", 
+        "index": 16, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "other", 
+        "key": "4-16"
+      }, 
+      "17": {
+        "sentence": 4, 
+        "nlp_stem": "bulb", 
+        "index": 17, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "bulbs", 
+        "key": "4-17"
+      }, 
+      "18": {
+        "sentence": 4, 
+        "nlp_stem": ".", 
+        "index": 18, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": ".", 
+        "key": "4-18"
+      }, 
+      "1": {
+        "sentence": 4, 
+        "nlp_stem": "The", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "The", 
+        "key": "4-1"
+      }, 
+      "2": {
+        "sentence": 4, 
+        "nlp_stem": "success", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "success", 
+        "key": "4-2"
+      }, 
+      "3": {
+        "sentence": 4, 
+        "nlp_stem": "or", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "CC", 
+        "text": "or", 
+        "key": "4-3"
+      }, 
+      "4": {
+        "sentence": 4, 
+        "nlp_stem": "failure", 
+        "index": 4, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "failure", 
+        "key": "4-4"
+      }, 
+      "5": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-5"
+      }, 
+      "6": {
+        "sentence": 4, 
+        "nlp_stem": "a", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "a", 
+        "key": "4-6"
+      }, 
+      "7": {
+        "sentence": 4, 
+        "nlp_stem": "bulb", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "NN", 
+        "text": "bulb", 
+        "key": "4-7"
+      }, 
+      "8": {
+        "sentence": 4, 
+        "nlp_stem": "be", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "4-8"
+      }, 
+      "9": {
+        "sentence": 4, 
+        "nlp_stem": "independent", 
+        "index": 9, 
+        "type": "word", 
+        "nlp_pos": "JJ", 
+        "text": "independent", 
+        "key": "4-9"
+      }, 
+      "10": {
+        "sentence": 4, 
+        "nlp_stem": "of", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "of", 
+        "key": "4-10"
+      }
+    }, 
+    "5": {
+      "11": {
+        "sentence": 5, 
+        "nlp_stem": "burn", 
+        "index": 11, 
+        "type": "word", 
+        "nlp_pos": "VB", 
+        "text": "burn", 
+        "key": "5-11"
+      }, 
+      "12": {
+        "sentence": 5, 
+        "nlp_stem": "out", 
+        "index": 12, 
+        "type": "word", 
+        "nlp_pos": "RP", 
+        "text": "out", 
+        "key": "5-12"
+      }, 
+      "13": {
+        "sentence": 5, 
+        "nlp_stem": "in", 
+        "index": 13, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "in", 
+        "key": "5-13"
+      }, 
+      "14": {
+        "sentence": 5, 
+        "nlp_stem": "2", 
+        "index": 14, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "2", 
+        "corenlp": {
+          "number": 2
+        }, 
+        "key": "5-14"
+      }, 
+      "15": {
+        "sentence": 5, 
+        "nlp_stem": "years", 
+        "index": 15, 
+        "type": "word", 
+        "nlp_pos": "NNS", 
+        "text": "years", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "5-14"
+            ], 
+            "mention": "explicit", 
+            "number": "2"
+          }
+        }, 
+        "key": "5-15"
+      }, 
+      "16": {
+        "sentence": 5, 
+        "nlp_stem": "?", 
+        "index": 16, 
+        "type": "punct", 
+        "nlp_pos": ".", 
+        "text": "?", 
+        "key": "5-16"
+      }, 
+      "1": {
+        "sentence": 5, 
+        "nlp_stem": "What", 
+        "index": 1, 
+        "type": "word", 
+        "nlp_pos": "WP", 
+        "text": "What", 
+        "key": "5-1"
+      }, 
+      "2": {
+        "sentence": 5, 
+        "nlp_stem": "be", 
+        "index": 2, 
+        "type": "word", 
+        "nlp_pos": "VBZ", 
+        "text": "is", 
+        "key": "5-2"
+      }, 
+      "3": {
+        "sentence": 5, 
+        "nlp_stem": "the", 
+        "index": 3, 
+        "type": "word", 
+        "nlp_pos": "DT", 
+        "text": "the", 
+        "key": "5-3"
+      }, 
+      "4": {
+        "sentence": 5, 
+        "nlp_stem": "probability", 
+        "index": 4, 
+        "type": "word", 
+        "is_group": false, 
+        "nlp_pos": "NN", 
+        "text": "probability", 
+        "key": "5-4", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [], 
+            "mention": "implicit"
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "5": {
+        "sentence": 5, 
+        "nlp_stem": "that", 
+        "index": 5, 
+        "type": "word", 
+        "nlp_pos": "WDT", 
+        "text": "that", 
+        "key": "5-5"
+      }, 
+      "6": {
+        "sentence": 5, 
+        "nlp_stem": "at", 
+        "index": 6, 
+        "type": "word", 
+        "nlp_pos": "IN", 
+        "text": "at", 
+        "key": "5-6"
+      }, 
+      "7": {
+        "sentence": 5, 
+        "nlp_stem": "least", 
+        "index": 7, 
+        "type": "word", 
+        "nlp_pos": "JJS", 
+        "text": "least", 
+        "key": "5-7"
+      }, 
+      "8": {
+        "sentence": 5, 
+        "nlp_stem": "one", 
+        "index": 8, 
+        "type": "word", 
+        "nlp_pos": "CD", 
+        "text": "one", 
+        "corenlp": {
+          "number": 1
+        }, 
+        "key": "5-8"
+      }, 
+      "9": {
+        "sentence": 5, 
+        "nlp_stem": "bulb", 
+        "index": 9, 
+        "type": "word", 
+        "is_group": true, 
+        "nlp_pos": "NN", 
+        "text": "bulb", 
+        "corenlp": {
+          "size": {
+            "words": [
+              "5-8"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }
+        }, 
+        "key": "5-9", 
+        "group": {
+          "constraints": [], 
+          "size": {
+            "words": [
+              "5-8"
+            ], 
+            "mention": "explicit", 
+            "number": 1
+          }, 
+          "is_sequence": false, 
+          "properties": []
+        }
+      }, 
+      "10": {
+        "sentence": 5, 
+        "nlp_stem": "will", 
+        "index": 10, 
+        "type": "word", 
+        "nlp_pos": "MD", 
+        "text": "will", 
+        "key": "5-10"
+      }
+    }
+  }, 
+  "original_text": [
+    " Christmas lights are often designed with a series circ uit.", 
+    " This means that when one light burns out the entire string of light goes black.", 
+    " Suppose that the lights are designed so that the probability a bulb will last 2 years is 0.995.", 
+    " The success or failure of a bulb is independent of the success or failur e of other bulbs.", 
+    " What is the probability that at least one bulb will burn out in 2 years?"
+  ], 
+  "source": "http://depts.gpc.edu/~mcse/CourseDocs/math1431/1431_Supplements/WeissConditionalProbMultiRule.pdf", 
+  "text": [
+    " Christmas lights are often designed with a series circuit.", 
+    " This means that when one light burns out the entire string of light goes black.", 
+    " Suppose that the lights are designed so that the probability a bulb will last 2 years is 0.995.", 
+    " The success or failure of a bulb is independent of the success or failure of other bulbs.", 
+    " What is the probability that at least one bulb will burn out in 2 years?"
+  ], 
+  "corenlp": [
+    "word(1-1-christmas)", 
+    "pos(1-1,nnp)", 
+    "word(1-2-lights)", 
+    "pos(1-2,nns)", 
+    "word(1-3-are)", 
+    "pos(1-3,vbp)", 
+    "word(1-4-often)", 
+    "pos(1-4,rb)", 
+    "word(1-5-designed)", 
+    "pos(1-5,vbn)", 
+    "word(1-6-with)", 
+    "pos(1-6,in)", 
+    "word(1-7-a)", 
+    "pos(1-7,dt)", 
+    "word(1-8-series)", 
+    "pos(1-8,nn)", 
+    "word(1-9-circuit)", 
+    "pos(1-9,nn)", 
+    "word(1-10-'.')", 
+    "pos(1-10,'.')", 
+    "compound(1-2,1-1)", 
+    "nsubjpass(1-5,1-2)", 
+    "auxpass(1-5,1-3)", 
+    "advmod(1-5,1-4)", 
+    "nmod:with(1-5,1-9)", 
+    "case(1-9,1-6)", 
+    "det(1-9,1-7)", 
+    "compound(1-9,1-8)", 
+    "word(2-1-this)", 
+    "pos(2-1,dt)", 
+    "word(2-2-means)", 
+    "pos(2-2,vbz)", 
+    "word(2-3-that)", 
+    "pos(2-3,in)", 
+    "word(2-4-when)", 
+    "pos(2-4,wrb)", 
+    "word(2-5-one)", 
+    "pos(2-5,cd)", 
+    "word(2-6-light)", 
+    "pos(2-6,jj)", 
+    "word(2-7-burns)", 
+    "pos(2-7,nns)", 
+    "word(2-8-out)", 
+    "pos(2-8,in)", 
+    "word(2-9-the)", 
+    "pos(2-9,dt)", 
+    "word(2-10-entire)", 
+    "pos(2-10,jj)", 
+    "word(2-11-string)", 
+    "pos(2-11,nn)", 
+    "word(2-12-of)", 
+    "pos(2-12,in)", 
+    "word(2-13-light)", 
+    "pos(2-13,nn)", 
+    "word(2-14-goes)", 
+    "pos(2-14,vbz)", 
+    "word(2-15-black)", 
+    "pos(2-15,jj)", 
+    "word(2-16-'.')", 
+    "pos(2-16,'.')", 
+    "nummod(2-7,2-5)", 
+    "amod(2-7,2-6)", 
+    "nmod:out(2-7,2-11)", 
+    "case(2-11,2-8)", 
+    "det(2-11,2-9)", 
+    "amod(2-11,2-10)", 
+    "nmod:of(2-11,2-13)", 
+    "case(2-13,2-12)", 
+    "mark(2-14,2-3)", 
+    "advmod(2-14,2-4)", 
+    "nsubj(2-14,2-7)", 
+    "xcomp(2-14,2-15)", 
+    "ccomp(2-2,2-14)", 
+    "nsubj(2-2,2-1)", 
+    "word(3-1-suppose)", 
+    "pos(3-1,vb)", 
+    "word(3-2-that)", 
+    "pos(3-2,in)", 
+    "word(3-3-the)", 
+    "pos(3-3,dt)", 
+    "word(3-4-lights)", 
+    "pos(3-4,nns)", 
+    "word(3-5-are)", 
+    "pos(3-5,vbp)", 
+    "word(3-6-designed)", 
+    "pos(3-6,vbn)", 
+    "word(3-7-so)", 
+    "pos(3-7,in)", 
+    "word(3-8-that)", 
+    "pos(3-8,in)", 
+    "word(3-9-the)", 
+    "pos(3-9,dt)", 
+    "word(3-10-probability)", 
+    "pos(3-10,nn)", 
+    "word(3-11-a)", 
+    "pos(3-11,dt)", 
+    "word(3-12-bulb)", 
+    "pos(3-12,nn)", 
+    "word(3-13-will)", 
+    "pos(3-13,md)", 
+    "word(3-14-last)", 
+    "pos(3-14,vb)", 
+    "word(3-15-2)", 
+    "pos(3-15,cd)", 
+    "word(3-16-years)", 
+    "pos(3-16,nns)", 
+    "word(3-17-is)", 
+    "pos(3-17,vbz)", 
+    "word(3-18-0.995)", 
+    "pos(3-18,cd)", 
+    "word(3-19-'.')", 
+    "pos(3-19,'.')", 
+    "mark(3-6,3-2)", 
+    "advcl(3-6,3-18)", 
+    "nsubjpass(3-6,3-4)", 
+    "auxpass(3-6,3-5)", 
+    "mwe(3-7,3-8)", 
+    "det(3-10,3-9)", 
+    "acl:relcl(3-10,3-14)", 
+    "det(3-12,3-11)", 
+    "nsubj(3-14,3-12)", 
+    "aux(3-14,3-13)", 
+    "nmod:tmod(3-14,3-16)", 
+    "nummod(3-16,3-15)", 
+    "mark(3-18,3-7)", 
+    "nsubj(3-18,3-10)", 
+    "cop(3-18,3-17)", 
+    "ccomp(3-1,3-6)", 
+    "det(3-4,3-3)", 
+    "word(4-1-the)", 
+    "pos(4-1,dt)", 
+    "word(4-2-success)", 
+    "pos(4-2,nn)", 
+    "word(4-3-or)", 
+    "pos(4-3,cc)", 
+    "word(4-4-failure)", 
+    "pos(4-4,nn)", 
+    "word(4-5-of)", 
+    "pos(4-5,in)", 
+    "word(4-6-a)", 
+    "pos(4-6,dt)", 
+    "word(4-7-bulb)", 
+    "pos(4-7,nn)", 
+    "word(4-8-is)", 
+    "pos(4-8,vbz)", 
+    "word(4-9-independent)", 
+    "pos(4-9,jj)", 
+    "word(4-10-of)", 
+    "pos(4-10,in)", 
+    "word(4-11-the)", 
+    "pos(4-11,dt)", 
+    "word(4-12-success)", 
+    "pos(4-12,nn)", 
+    "word(4-13-or)", 
+    "pos(4-13,cc)", 
+    "word(4-14-failure)", 
+    "pos(4-14,nn)", 
+    "word(4-15-of)", 
+    "pos(4-15,in)", 
+    "word(4-16-other)", 
+    "pos(4-16,jj)", 
+    "word(4-17-bulbs)", 
+    "pos(4-17,nns)", 
+    "word(4-18-'.')", 
+    "pos(4-18,'.')", 
+    "nmod:of(4-9,4-12)", 
+    "nmod:of(4-9,4-14)", 
+    "nsubj(4-9,4-2)", 
+    "nsubj(4-9,4-4)", 
+    "cop(4-9,4-8)", 
+    "case(4-12,4-10)", 
+    "det(4-12,4-11)", 
+    "cc(4-12,4-13)", 
+    "conj:or(4-12,4-14)", 
+    "nmod:of(4-12,4-17)", 
+    "case(4-17,4-15)", 
+    "amod(4-17,4-16)", 
+    "det(4-2,4-1)", 
+    "cc(4-2,4-3)", 
+    "conj:or(4-2,4-4)", 
+    "nmod:of(4-2,4-7)", 
+    "case(4-7,4-5)", 
+    "det(4-7,4-6)", 
+    "word(5-1-what)", 
+    "pos(5-1,wp)", 
+    "word(5-2-is)", 
+    "pos(5-2,vbz)", 
+    "word(5-3-the)", 
+    "pos(5-3,dt)", 
+    "word(5-4-probability)", 
+    "pos(5-4,nn)", 
+    "word(5-5-that)", 
+    "pos(5-5,wdt)", 
+    "word(5-6-at)", 
+    "pos(5-6,in)", 
+    "word(5-7-least)", 
+    "pos(5-7,jjs)", 
+    "word(5-8-one)", 
+    "pos(5-8,cd)", 
+    "word(5-9-bulb)", 
+    "pos(5-9,nn)", 
+    "word(5-10-will)", 
+    "pos(5-10,md)", 
+    "word(5-11-burn)", 
+    "pos(5-11,vb)", 
+    "word(5-12-out)", 
+    "pos(5-12,rp)", 
+    "word(5-13-in)", 
+    "pos(5-13,in)", 
+    "word(5-14-2)", 
+    "pos(5-14,cd)", 
+    "word(5-15-years)", 
+    "pos(5-15,nns)", 
+    "word(5-16-'?')", 
+    "pos(5-16,'.')", 
+    "case(5-15,5-13)", 
+    "nummod(5-15,5-14)", 
+    "cop(5-1,5-2)", 
+    "nsubj(5-1,5-4)", 
+    "det(5-4,5-3)", 
+    "acl:relcl(5-4,5-11)", 
+    "mwe(5-6,5-7)", 
+    "advmod(5-9,5-6)", 
+    "nummod(5-9,5-8)", 
+    "compound:prt(5-11,5-12)", 
+    "nmod:in(5-11,5-15)", 
+    "nsubj(5-11,5-5)", 
+    "advmod(5-11,5-9)", 
+    "aux(5-11,5-10)"
+  ], 
+  "category": {
+    "name": "other", 
+    "id": 0
+  }, 
+  "time_added": "2016-08-09T17:35:21.389000", 
+  "status": "later"
+}
