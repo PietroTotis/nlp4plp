@@ -4,7 +4,8 @@ converted/*
 examples/*
 !compressed/.gitkeep
 !examples/.gitkeep
-experiments/NLP/dev
-experiments/NLP/train
-experiments/NLP/test
+experiments/NLP/*
+experiments/NLP/*
+experiments/NLP/*
 out/*
+combinatorics/examples/*

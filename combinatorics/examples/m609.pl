@@ -1,2 +1,0 @@
-% m609.json
-% "Eight pieces of paper are numbered 1, 2, 3, 4, 5, 6, 7 and 8 and placed in a box.", "One piece of paper is drawn from the box, its number is written down, and the piece of paper is replaced in the box.", "Then, a second piece of paper is drawn from the box, and its number is written down.", "Finally, the two numbers are added together.", "In how many different ways can a sum of 12 be obtained?"	5
