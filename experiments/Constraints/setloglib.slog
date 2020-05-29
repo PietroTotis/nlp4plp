@@ -1,0 +1,389 @@
+
+%%% version 4.6.13-1 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%  The {log} standard library  %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%   version 4.6    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                  March 2008 - by Gianfranco Rossi
+%             Last update: March 2015 - by Gianfranco Rossi
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This file contains the {log} definition of a number of predicates,
+% mostly dealing with sets and bags, which are not (yet) provided as 
+% primitive in {log}. 
+% It can be  loaded into the {log} environment by issuing the 
+% goal consult_lib (provided 'setloglib.slog' is the name you 
+% give to this file).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% General operations dealing with sets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+powerset(S,PS) :-               % powerset(+S,?PS) is true if PS is the powerset 
+     PS = {SS : subset(SS,S)}.  % of S (i.e., PS = 2^S)
+
+cross_product(A,B,CP) :-        % cross_product(+A,+B,?CP) is true if CP is the 
+     CP = {X : exists([Y,Z],    % Cartesian product of sets A and B
+           X = [Y,Z] & Y in A & Z in B)}.
+
+list_to_set([],{}).             % list_to_set(+L,?S) is true if S denotes the set
+list_to_set([X|L],{X\S}) :-     % of all elements of the list L
+     list_to_set(L,S).
+
+int_to_set(int(A,A),{A}).       % int_to_set(+I,?S) is true if S denotes the set
+int_to_set(int(A,B),{A\S}) :-   % of all elements of the interval I  
+     A < B &
+     A1 is A + 1 &
+     int_to_set(int(A1,B),S).
+
+dint_to_set(A,B,S) :-           % like int_to_set/2 but delayed if interval bounds are unknown
+    delay(int_to_set(int(A,B),S),nonvar(A) & nonvar(B)).
+
+diff1({X\R},X,R) :-             % diff1(?S,?X,?R) equivalent to diff(S,{X},R)
+     X nin R.                   % but more efficient
+diff1(S,X,S) :- 
+     X nin S.
+
+eq(T1,T2) :-                    % syntactic unification between terms T2 and T2
+     prolog_call(T1 = T2).
+
+
+%%% Generalized union ("\bigcup"). 
+%%% bun(S,R) is true if R is the union of all the elements
+%%% of the set of sets S
+
+bun({},{}).
+bun({A/Set},S) :-  
+  A nin Set &               
+  bun(Set,T) & 
+  un(A,T,S).
+
+
+%%% Generalized intersection ("\bigcap"). 
+%%% binters(S,R) is true if R is the inersection of all the 
+%%% elements of the set of sets S
+
+binters({A},A).
+binters({A/Set},S) :-  
+  A nin Set &               
+  binters(Set,T) & 
+  inters(A,T,S).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Dealing with multisets 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+bag_to_set({},{}).              % bag_to_set(+M,?S) is true if S denotes the set
+bag_to_set(M,{X\S}) :-          % of all elements of the multiset M
+     (M = * {X\R})! &
+     bag_to_set(R,S).
+
+int_to_bag(int(A,A),* {A}).       % int_to_bag(+I,?M) is true if M denotes the multiset
+int_to_bag(int(A,B),* {A\M}) :-  % of all elements of the interval I   
+     A < B &
+     A1 is A + 1 &
+     int_to_bag(int(A1,B),M).
+
+msize(S,N) :- in_msize(S,0,N).  % msize(?S,?N) is true if N is the cardinality 
+in_msize({},N,N).               % of the multiset S (i.e., N = |S|)
+in_msize(* {_\SS},N,M) :-
+    N neq M &
+    NN is N + 1 &
+    in_msize(SS,NN,M).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Dealing with lists 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%prefix(P,L) true if list P is a prefix of list L
+ prefix(P,L) :-
+    append(P,_,L).
+
+%sublist(Sb,L) true if list Sb is a sublist of list L
+ sublist(Sb,L) :- 
+    prefix(Sb,L).
+ sublist(Sb,[H|T]) :- 
+    Sb neq [] &
+    sublist(Sb,T).
+
+%take(N,L,NewL) true if list NewL consists of the
+%first N elements of list L
+ take(0,L,[ ]).
+ take(N,[H|T],[H|R]) :- 
+    N>0 & M is N-1 &
+    take(M,T,R).
+
+%drop(N,L,NewL) true if list NewL is L with its 
+%first N elements removed
+ drop(0,L,L).
+ drop(N,[H|T],R) :- 
+    N >0 & M is N-1 &
+    drop(M,T,R).
+
+%%% extract(S,L,NewL): true if S is a set of integer numbers, L is a 
+%%% list of elements of any type, and NewL is a list containing
+%%% the i-th element of L, for all i in S
+%%% (e.g., extract({4,2},[a,h,g,m,t,r],L) ==> L = [h,m])
+
+extract({},List,[]).
+extract(Set,[],[]).
+extract(Set,List,NewList) :- 
+   set_to_list(Set,L) & 
+   prolog_call(sort(L,SL)) & 
+   extract0(SL,List,NewList).
+
+extract0([],List,[]).
+extract0([N | IndexList], List, NewList) :-
+   nth1(N,List,E) &
+   NewList = [E | L] &
+   extract0(IndexList,List,L).
+
+
+%%% filter(L,S,NewL): true if L is a list, S is a set, and NewL is a 
+%%% list containing the elements of L that are also elements of S; 
+%%% L and NewL also verify the following sublist(NewL, L).
+%%% (e.g., filter([a,h,g,m,t,r],{m,h,s},L) ==> L = [h,m])
+
+filter(List,{},[]).
+filter([],Set,[]) :-
+   Set neq {}.
+filter([X|List],Set,[X | L]) :-   
+   X in Set &
+   filter(List,Set,L).
+filter([X|List],Set,NewList) :-
+   Set neq {} &
+   X nin Set & 
+   filter(List,Set,NewList).
+
+
+% Redefining Prolog built-ins (for the user convenience)
+ 
+ member(X,L) :- prolog_call(member(X,L)).
+
+ append(L1,L2,L3) :- prolog_call(append(L1,L2,L3)).
+
+ nth1(X,L,Y) :- prolog_call(nth1(X,L,Y)).
+
+ length(L,N) :- prolog_call(length(L,N)).
+
+ reverse(L,R) :- prolog_call(reverse(L,R)).
+
+ last(L,X) :- prolog_call(last(L,X)).
+
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Interactive help predicates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ setlog_lib_help :-
+   nl & 
+   write('The {log} library provides a number of predicates ') & nl & 
+   write('dealing with sets and bags which are not provided ') & nl &
+   write('as primitive in {log}.') & nl & nl &
+   write('It can be loaded into the {log} environment by issuing the ') & nl & 
+   write('goal consult_lib (provided ''setloglib.slog'' is the name you ') & nl &
+   write('give to the library file).') & nl.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Improved {log} set constraints, allowing intervals with
+%%%% unknown bounds - user-defined predicates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+:- prolog_call(op(700,xfx,[ein,enin])).
+
+%%%%%%%%%%%% membership T ein S
+ T ein S :-               % for compatibility with previous releases
+     T in S.  
+  
+%%%%%%%%%%%% not membership T enin S
+ T enin S :-              % for compatibility with previous releases
+      T nin S.
+
+%%%%%%%%%%%% intersection einters(S1,S2,S3) 
+ einters(S1,S2,S3) :-     % for compatibility with previous releases
+     inters(S1,S2,S3).     
+
+%%%%%%%%%%%% inclusion esubset(S1,S2)
+ esubset(S1,S2) :-
+     prolog_call(
+         (nonvar(S1), nonvar(S2), 
+          S1=int(A1,B1), S2=int(A2,B2), \+ground([A1,B1,A2,B2]),!,R = case1 
+          ; 
+          unbounded_int(S1),!,R = case2
+          ;
+          unbounded_int(S2),!,R = case3
+          ;
+          R = case4
+         )
+     ) &
+    esubset(R,S1,S2).
+
+ esubset(case1,I,_) :-                    % subset(empty_interval,int)
+     I = {}.
+ esubset(case1,I1,I2) :-                  % subset(int,int)
+     eq(I1,int(A1,B1)) & eq(I2,int(A2,B2)) &
+     I1 neq {} & I2 neq {} &
+     A1 >= A2 & B1 =< B2.
+ esubset(case2,I,S) :-                    % subset(empty_interval,set)
+     eq(I,int(A,B)) &
+     set(S) & A > B.
+ esubset(case2,I,S) :-                    % subset(singleton_interval,set)
+     eq(I,int(A,A)) &
+     set(S) & A in S. 
+ esubset(case2,I,S) :-                    % subset(int,set)
+     eq(I,int(A,B)) &
+     set(S) & A < B & 
+     A in S &
+     A1 is A + 1 &
+     esubset(int(A1,B),S).          
+ esubset(case3,{},_).                     % subset({},int)
+ esubset(case3,S,I) :-                    % subset(set,int)
+     eq(I,int(A,B)) &
+     set(S) & S neq {} &
+     smin(S,N) & smax(S,M) &
+     N >= A & M =< B.
+ esubset(case4,S1,S2) :-                  % subset(_AnyOther,_AnyOther)
+     subset(S1,S2).
+ 
+%%%%%%%%%%%% strict inclusion essubset(S1,S2) - TO BE COMPLETED!!
+ essubset(S1,S2) :-
+     prolog_call(
+         (nonvar(S1), nonvar(S2), 
+          S1=int(A1,B1),S2=int(A2,B2),\+ground([A1,B1,A2,B2]),!,R = case1 
+          ; 
+          unbounded_int(S1),!,R = case2
+          ;
+          unbounded_int(S2),!,R = case3
+          ;
+          R = case4
+         )
+     ) &
+     essubset(R,S1,S2).
+
+ essubset(case1,I1,I2) :-                  % ssubset(empty_int,non-empty_int)
+     eq(I1,int(A1,B1)) & eq(I2,int(A2,B2)) &
+     I1 = {} &
+     A2 =< B2.
+ essubset(case1,I1,I2) :-                  % ssubset(non-empty_int,non-empty_int)
+     eq(I1,int(A1,B1)) & eq(I2,int(A2,B2)) &
+     I1 neq {} & I2 neq {} &
+     (A1 > A2 & B1 =< B2 or A1 >= A2 & B1 < B2).
+ essubset(case2,I1,I2) :-  
+     write('essubset(unbounded_interval,set): not implemented yet') & nl.                
+ essubset(case3,I1,I2) :-  
+     write('essubset(set,unbounded_interval): not implemented yet') & nl.
+ essubset(case4,S1,S2) :-                  % nsubset(_AnyOther,_AnyOther)
+     ssubset(S1,S2).
+
+%%%%%%%%%%%% not inclusion ensubset(S1,S2) - TO BE COMPLETED!!
+ ensubset(S1,S2) :-
+     prolog_call(
+         (nonvar(S1), nonvar(S2), 
+          S1=int(A1,B1),S2=int(A2,B2),\+ground([A1,B1,A2,B2]),!,R = case1 
+          ; 
+          unbounded_int(S1),!,R = case2
+          ;
+          unbounded_int(S2),!,R = case3
+          ;
+          R = case4
+         )
+     ) &
+     ensubset(R,S1,S2).
+
+ ensubset(case1,I1,I2) :-                  % nsubset(int,int)
+     eq(I1,int(A1,B1)) & eq(I2,int(A2,B2)) &
+     I1 neq {} & I2 neq {} &
+     (A1 < A2 or B2 < B1).
+ ensubset(case2,I1,I2) :-  
+     write('ensubset(unbounded_interval,set): not implemented yet') & nl.                
+ ensubset(case3,I1,I2) :-  
+     write('ensubset(set,unbounded_interval): not implemented yet') & nl.
+ ensubset(case4,S1,S2) :-                  % nsubset(_AnyOther,_AnyOther)
+     nsubset(S1,S2).
+
+
+%%%%%%%%%%%%%%%%% Labeling predicates for UNBOUNDED domains
+
+%%% label(nat,X): true if X is a natural number
+%%% when X is a variable, used to generate all natural numbers: 0,1,2,...
+
+ label(nat,X) :- 
+     nonvar(X) &
+     integer(X) &
+     X >= 0.
+ label(nat,X) :-
+     var(X) &
+     nat_num(0,X).
+
+ nat_num(N,N).
+ nat_num(N,M) :-
+     N1 is N+1 &
+     nat_num(N1,M).
+
+%%% label(int,X): true if X is an integer number
+%%% when X is a variable, used to generate all integer numbers: 0,1,-1,2,-2,... 
+
+ label(int,X) :- 
+     nonvar(X) &
+     integer(X).
+ label(int,X) :-
+     var(X) &
+     int_num(0,X).
+
+ int_num(N,N).
+ int_num(N,M) :-
+     N neq 0 &
+     M is -(N).
+ int_num(N,M) :-
+     N1 is N+1 &
+     int_num(N1,M).
+
+%%% label(list,L): true if L is a list
+%%% when L is a variable, used to generate all lists of increasing length (starting from [])
+
+ label(list,L) :- 
+     nonvar(L) &
+     list(L).
+ label(list,L) :-
+     var(L) &
+     nat_num(0,N) &
+     prolog_call(length(L,N)).
+
+%%% label(set,L): true if S is a set
+%%% when L is a variable, used to generate all sets of increasing cardinality (starting from {})
+
+ label(set,S) :- 
+     nonvar(S) &
+     set(S).
+ label(set,S) :-
+     var(S) &
+     nat_num(0,N) &
+     size(S,N).
+
+
+%%%%%%%%%%%%%% for compatibility with previous releases %%%%%%%%%%%%%% 
+
+ dsubset(S1,S2) :- esubset(S1,S2).
+
+ dnsubset(S1,S2) :- ensubset(S1,S2).
+
+ dssubset(S1,S2) :- essubset(S1,S2).
+
+ dinters(S1,S2,S3) :- einters(S1,S2,S3).
+
+ 
+%%%%%%%%%%%%%%% Auxiliary predicates - Prolog code
+
+ setlog_prolog :-
+    prolog_call(assert((user:unbounded_int(I) :- nonvar(I), I=int(A,B), (var(A),! ; var(B)) ))).
+
+:- setlog_prolog.

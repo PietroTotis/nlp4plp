@@ -1,0 +1,420 @@
+h1001.json
+"There are 10 computer scientists that go to eat lunch together, but only one person goes to get glasses of water and can only carry 3.", "In how many ways can these glasses be distributed among 10 thirsty scientists?"	120
+h1010.json
+"There are 3 different side choices for an entree at the Alma.", "If 12 people get their food in the Alma, in how many different ways can the sides be selected?"	531441
+h118.json
+"Abigail, Jasmine, and Aaron ran in a race.", "In how many different orders can they finish the race?"	3!
+h129.json
+"In how many ways can 6 students be seated in a classroom with 30 desks?"	30*29*28*27*26*25
+h139.json
+"John, Jim, Jay, and Jack have formed a band consisting of 4 instruments.", "If each of the boys can play all 4 instruments, how many different arrangements are possible?"	24
+h140.json
+"A child has 12 blocks, of which 6 are black, 4 are red, 1 is white, and 1 is blue.", "If the child puts the blocks in a line, how many arrangements are possible?"	27,720
+h141.json
+"Consider a group of 20 people.", "If everyone shakes hands with everyone else, how many handshakes take place?"	190
+h142.json
+"A dance class consists of 22 students, of which 10 are women and 12 are men.", "If 5 men and 5 women are to be chosen and then paired off, how many results are possible?"	23,950,080
+h144.json
+"Ten weight lifters are competing in a team weightlifting contest.", "Of the lifters, 3 are from the United States, 4 are from Russia, 2 are from China, and 1 is from Canada.", "If the scoring takes account of the countries that the lifters represent, but not their individual identities, how many different outcomes are possible from the point of view of scores?"	12,600
+h146.json
+"If 4 Americans, 3 French people, and 3 British people are to be seated in a row, how many seating arrangements are possible when people of the same nationality must sit next to each other?"	(3!)*(4!)*(3!)*(3!)
+h147.json
+"In how many ways can a man divide 7 gifts among his 3 children if the eldest is to receive 3 gifts and the others 2 each?"	210
+h148.json
+"An art collection on auction consisted of 4 Dalis, 5 van Goghs, and 6 Picassos.", "At the auction were 5 art collectors.", "If a reporter noted only the number of Dalis, van Goghs, and Picassos acquired by each collector, how many different results could have been recorded if all of the works were sold?"	(C(8,4))*(C(9,4))*(C(10,4))
+h149.json
+"If there are no restrictions on where the digits and letters are placed, how many 8-place license plates consisting of 5 letters and 3 digits are possible if no repetitions of letters or digits are allowed."	6*26*25*24*23*22*10*9*8
+h203.json
+"In how many ways can we paint three houses, each in any of four colors?"	64
+h205.json
+"In a class of 200 students, we wish to elect a President, Vice President, Secretary, and Treasurer.", "In how many ways can these four officers be selected?"	200*199*198*197
+h208.json
+"In how many ways can we choose a set of 5 different letters out of the 26 possible lower-case letters?"	26*25*24*23*22
+h209.json
+"In how many ways can we arrange in a line: three apples, four pears, and five bananas?"	9!/(3!4!5!)
+h210.json
+"In how many ways can we arrange in a line, two apples, six pears, three bananas, and two plums?"	13!/(2!6!3!2!)
+h213.json
+"In how many ways can we draw five cards from an ordinary deck of 52 cards?"	52^5
+h215.json
+"Eight people are divided into four pairs to play bridge.", "In how many ways can this be done?"	2520
+h237.json
+"A house has 12 rooms.", "We want to paint 4 yellow, 3 purple, and 5 red.", "In how many ways can this be done?"	27,720
+h238.json
+"There are 37 students in a class.", "In how many ways can a professor give out 9 A 's, 13 B 's, 12 C 's, and 5 F 's?"	37!/(9!13!12!5!)
+h252.json
+"In a class of 19 students, 7 will get A 's.", "In how many ways can this set of students be chosen?"	C(19,7)
+h273.json
+"Suppose you have six different types of flowers and three planters.", "In how many ways can you put three flowers in the first planter, two flowers in the second planter, and one flower in the final planter?"	60
+h28.json
+"In how many ways can three men and three women sit at a round table if there are no restrictions?"	120
+h290.json
+"In a workshop there are 4 kinds of beds, 3 kinds of closets, 2 kinds of shelves and 7 kinds of chairs.", "In how many ways can a person decorate his room if he wants to buy in the workshop one shelf, one bed and one of the following: a chair or a closet?"	80
+h29.json
+"In how many ways can three men and three women sit at a round table if 2 specific women can not sit next to each other?"	72
+h302.json
+"In a flower shop, there are 5 different types of flowers.", "Two of the flowers are blue, two are red and one is yellow.", "In how many different combinations of different colors can a 3-flower garland be made?"	4
+h306.json
+"In how many ways can you sit 8 people on a bench if 3 of them must sit together?"	4320
+h30.json
+"In how many ways can three men and three women sit at a round table if each woman sits in between two men?"	12
+h310.json
+"Ruth wants to choose 4 books to take with her on a camping trip.", "If Ruth has a total of 11 books to choose from, how many different book quartets are possible?"	330
+h315.json
+"If 2 students are to be selected from a group of 12 students, how many possible consequences are there?"	66
+h438.json
+"Twenty distinct cars park in the same parking lot every day.", "Ten of these cars are US-made, while the other ten are foreign-made.", "The parking lot has exactly twenty spaces, all in a row, so the cars park side by side.", "However, the drivers have varying schedules so the position any car might take on a certain day is random.", "In how many different ways can the cars line up?"	20!
+h43.json
+"The Acme Plumbing Company will send a team of 3 plumbers to work on a certain job.", "The company has 4 experienced plumbers and 4 trainees.", "If a team consists of 1 experienced plumber and 2 trainees, how many different such teams are possible?"	24
+h46.json
+"A teacher is to be assigned to teach 5 different courses in 5 different class periods on Mondays.", "If exactly one course meets each period, how many different assignments of courses to these class periods are possible for Mondays?"	120
+h477.json
+"If 6 Geometry books, 4 Probability books and 2 Algebra books are to be arranged on a shelf, how many arrangements are possible if books of the same subject must be next to each other?"	207360
+h490.json
+"From a group of 5 men and 6 women, how many committees of size 3 are possible with no restrictions?"	C(11,3)
+h491.json
+"From a group of 5 men and 6 women, how many committees of size 3 are possible with 1 man and 2 women?"	C(5,1)*C(6,3)
+h492.json
+"A carton of 12 eggs contains 2 spoiled eggs.", "In how many ways can a person choose 3 eggs and get neither of the spoiled eggs?"	C(10,3)
+h493.json
+"A carton of 12 eggs contains 2 spoiled eggs.", "In how many ways can a person choose 3 eggs and get one spoiled egg?"	C(10,2)*C(2,1)
+h494.json
+"In how many ways can 3 red, 4 blue and 5 yellow balls be arranged in a straight line?"	12!/(3!*4!*5!)
+h538.json
+"In how many ways can a first, second and third prize be awarded in a class of 8 students?"	336
+h540.json
+"In how many ways can 4 people be accommodated if there are 4 rooms available?"	256
+h541.json
+"In how many ways can 3 books be selected from 8 different books?"	56
+h542.json
+"In how many ways can a set of 2 boys and 3 girls be selected from 5 boys and 4 girls?"	40
+h543.json
+"From 8 soldiers, 7 sailors and 5 airmen how many sets can be formed each containing 5 soldiers, 4 sailors and 3 airmen?"	19600
+h544.json
+"In how many ways can 8 boys be divided into two sets containing 5 and 3 respectively?"	56
+h545.json
+"A commitees of 7 politicians is chosen from 10 liberal members, 8 labor members and 5 independents.", "In how many ways can this be done so as to include exactly 1 independent and at least 3 liberal members and at least 1 labor member?"	73080
+h547.json
+"From 4 oranges, 3 bananas and 2 apples, how many selections of 5 pieces of fruit can be made, talking at least one of each kind?"	98
+h548.json
+"In how many ways can a jury of 12 be chosen from 10 men and 7 women so that there are at least 6 men and not more than 4 women on each jury"	1946
+h549.json
+"In how many ways can a set of 3 or more be selected from 9 people?"	466
+h600.json
+"A manufacturer of gold chains finds that on the average 1 gold chain in every 20 is faulty, The gold chains are marked in packets of 5.", "Out of a batch of 200 packets, how many would be expected to have 0 fault chains?"	155
+h603.json
+"A bookshelf contains 3 Russian novels, 4 German novels, and 5 Spanish novels.", "In how many ways may we align them if there are no constraints as to grouping?"	479001600
+h604.json
+"A spider has one sock and one shoe for each of its eight legs.", "In how many different orders can the spider put on its socks and shoes, assuming that, on each leg, the sock must be put on before the shoe?"	81729648000
+h605.json
+"An urn has 2 white marbles, 3 red marbles, and 5 blue marbles.", "Marbles are drawn one by one and without replacement.", "Urns of each colour are indistinguishable.", "In how many ways may one draw the marbles out of the urn?"	(10!)/(2!*3!*5!)
+h606.json
+"In this problem you will determine how many different signals, each consisting of 10 flags hung in a line, can be made from a set of 4 white flags, 3 red flags, 2 blue flags, and 1 orange flag, if flags of the same colour are identical.", "How many are there if there are no constraints on the order?"	(10!)/(4!*3!*2!)
+h607.json
+"Three distinguishable dice numbered 1, 2, 3, 4, 5 and 6 are thrown.", "In how many ways can they land and give a sum of 9?"	25
+h608.json
+"From a group of 12 people -- 7 of which are men and 5 women -- in how many ways may choose a committee of 4 with 1 man and 3 women?"	70
+h609.json
+"Nine chairs in a row are to be occupied by six students and Professors Alpha, Beta and Gamma.", "These three professors arrive before the six students and decide to choose their chairs so that each professor will be between two students.", "In how many ways can Professors Alpha, Beta and Gamma choose their chairs?"	60
+h611.json
+"A box contains 4 red, 5 white, 6 blue, and 7 magenta balls.", "In how many of all possible samples of size 5, chosen without replacement, will every colour be represented?"	7560
+h612.json
+"From three Russians, four Americans, and two Spaniards, how many selections of people can be made, taking at least one of each kind?"	315
+h638.json
+"A darts club has 10 of its members who are better than all the other members and are all equally proficient.", "It is required to select a team of four from these ten to represent the club in a tournament and the selection is done by drawing lots.", "In how many different ways can the team be chosen?"	210
+h667.json
+"A personnel director for a corporation has hired 10 new engineers.", "If four distinctly different positions are open at a particular plant, in how many ways can the director fill the positions?"	210
+h669.json
+"An assembly operation for a computer circuit board consists of four operations, which can be performed in any order.", "In how many ways can the assembly operation be performed?"	24
+h68.json
+"Four people are to be arranged in a row to have their picture taken.", "In how many ways can this be done?"	24 
+h699.json
+"Registrants at a large convention are offered 6 sightseeing tours on each of 3 days.", "In how many ways can a person arrange to go on a sightseeing tour planned by this convention?"	18
+h701.json
+"A certain shoe conies in 5 different styles with each style available in 4 distinct colors.", "If the store wishes to display pairs of these shoes showing all of its various styles and colors, how many different pairs would the store have on display?"	20
+h704.json
+"In a fuel economy study, each of 3 race cars is tested using 5 different brands of gasoline at 7 test sites located in different regions of the country.", "If 2 drivers are used in the study, and test runs are made once under each distinct set of conditions, how many tost, runs are needed?"	210
+h705.json
+"A contractor wishes to build 9 houses, each different in design.", "In how many ways can he place these houses on a street if 6 lots are on one side of the street and 3 lots are on the opposite side?"	362,880
+h707.json
+"In how many ways can 3 oaks, 4 pines, and 2 maples be arranged along a property line if one does not distinguish among trees of the same kind?"	1260
+h729.json
+"From 4 red, 5 green, and 6 yellow apples, how many selections of 9 apples are possible if 3 of each color are to be selected?"	800
+h730.json
+"A shipment of 12 television sets contains 3 defective sets.", "In how many ways can a hotel purchase 5 of these sets and receive at least 2 of the defective sets?"	288
+h74.json
+"In how many ways can we choose five people from a group of ten to form a committee?"	C(10,5)
+h772.json
+"T'anna is planting 11 colored flowers in a line.", "In how many ways can she plant 4 red flowers, 5 yellow flowers, and 2 purple flowers?"	6930
+h830.json
+"In how many different ways can 15 offices be painted with four different colors?"	1073741824
+h834.json
+"Three people, Brown, Smith, and Jones, must be scheduled for job interviews.", "In how many different orders can this be done?"	6
+h837.json
+"In an exhibition, 20 cars of the same style that are distinguishable only by their colors, are to be parked in a row, all facing a certain window.", "If four of the cars are blue, three are black, five are yellow, and eight are white, how many choices are there?"	3491888400
+h838.json
+"At various yard sales, a woman has acquired five forks, of which no two are alike.", "The same applies to her four knives and seven spoons.", "In how many different ways can three place settings be chosen if each place setting consists of exactly one fork, one knife, and one spoon?"	50400
+h839.json
+"A dancing contest has 11 competitors, of whom three are Americans, two are Mexicans, three are Russians, and three are Italians.", "If the contest result lists only the nationality of the dancers, how many outcomes are possible?"	92400
+h842.json
+"Jim has 20 friends.", "If he decides to invite six of them to his birthday party, how many choices does he have?"	38760
+h844.json
+"Judy puts one piece of fruit in her child 's lunch bag every day.", "If she has three oranges and two apples for the next five days, in how many ways can she do this?"	10
+h849.json
+"In how many ways can 23 identical refrigerators be allocated among four stores so that one store gets eight refrigerators, another four, a third store five, and the last one six refrigerators?"	1
+h937.json
+"In how many distinct ways can 10 A 's, 5 B 's, and 2 C 's be awarded to a class of 17 students?"	408408
+h944.json
+"In a controlled experiment, 12 patients are to be randomly assigned to each of three different drug regimens.", "In how many ways can this be done if each drug is to be tested on 4 patients?"	null
+h973.json
+"A manufacturer of dry cells actually makes two batteries that appear to be identical.", "Batteries of Type A last more than 600 hours with probability 0.30 and batteries of Type B last more than 600 hours with probability 0.40.", "Of 50 Type B batteries, how many are expected to last at least 600 hours?"	null
+l1011.json
+"If each of the 10 digits 0-9 is chosen at random, how many ways can you choose a two-digit code number, repeated digits permitted."	100
+l1012.json
+"If each of the 10 digits 0-9 is chosen at random, how many ways can you choose a four-digit bicycle lock number, where no digit can be used twice."	5040
+l1013.json
+"If each of the 10 digits 0 - 9 is chosen at random, how many ways can you choose a three-digit identification card number, for which the first digit can not be a 0."	900
+l1014.json
+"If eight cars are entered in a race and three finishing places are considered, how many finishing orders can they finish?"	336
+l1016.json
+"A Poker club has 10 members.", "A president and a vice-president are to be selected.", "In how many ways can this be done if everyone is eligible?"	90
+l1017.json
+"If a travel agency offers special weekend trips to 12 different cities, by air, rail, bus, or sea, in how many different ways can such a trip be arranged?"	48
+l1018.json
+"If twenty different types of wine are entered in wine-tasting competition, in how many different ways can the judges award a first prize and a second prize?"	380
+l1019.json
+"In how many ways can the 24 members of a faculty senate of a college choose a president, a vice-president, a secretary, and a treasurer?"	255024
+l1022.json
+"Five different books are on a shelf.", "In how many different ways could you arrange them?"	120
+l1029.json
+"Seven of the cabinet members are women and 5 are men.", "In how many different ways can the 7 women be seated together on the left, and then the 5 men together on the right?"	604800
+l1030.json
+"Using the digits 1, 3, 5, 7 and 9, with no repetitions of the digits, how many one-digit numbers can be made?"	5
+l1031.json
+"Using the digits 1, 3, 5, 7 and 9, with no repetitions of the digits, how many three-digit numbers can be made?"	60
+l1032.json
+"There are five members of the Math Club.", "In how many ways can the positions of a president, a secretary, and a treasurer, be chosen?"	60
+l1034.json
+"A jury consisting of 2 women and 3 men is to be selected from a group of 5 women and 7 men.", "In how many different ways can this be done?"	350
+l1035.json
+"The Russellville School District has six members.", "In how many ways can all six members line up for a picture?"	720
+l1036.json
+"The Russellville School District has six members.", "In how many ways can they choose three members to attend a state conference with no regard to order?"	20
+l1039.json
+"There are five members of the math club.", "In how many ways can the two - person Social Committee be chosen?"	10
+l1040.json
+"A medical research group plans to select 2 volunteers out of 8 for a drug experiment.", "In how many ways can they choose the 2 volunteers?"	28
+l1041.json
+"A consumer group has 30 members.", "In how many ways can the group choose 3 members to attend a national meeting?"	4060
+l1043.json
+"Fifteen students participated in a spelling bee competition.", "The first place winner will receive $ 1,000, the second place $ 500, and the third place $ 250.", "In how many ways can the 3 winners be drawn?"	2730
+l1097.json
+"In how many different ways can a race with six runners be completed?", "Assume there is no tie."	720
+l1102.json
+"In how many different ways can a race with five runners be completed?"	null
+l1104.json
+"In how many ways can five different mathematics books be placed next to each other on a shelf?"	null
+l1116.json
+"An airline company overbooks a particular flight and seven passengers are `` bumped '' from the flight.", "If 120 passengers are booked on this flight, in how many ways can the airline choose the seven passengers to be bumped?"	null
+l1118.json
+"If you must answer only eight of ten questions on a test, how many ways do you have of choosing the questions you will omit?"	null
+l1119.json
+"An ice-cream store offers 15 flavors of ice cream.", "The specialty is a banana split with four scoops of ice cream.", "If each scoop must be a different flavor, how many different banana splits may be ordered?"	null
+l1122.json
+"Over the past year, John has purchased 30 books.", "In how many ways can he choose four of these books to take with him on his vacation at the shore?"	null
+l142.json
+"In how many ways can a coach choose three swimmers from among five swimmers?"	10
+l146.json
+"Abigail has a collection of ten CD 's in a box set.", "In how many ways can she replace the CD 's in the box?"	3628800
+l147.json
+"Abigail has a collection of ten CD 's in a box set.", "In how many ways can she replace the CD 's in the box if ` Up All Night ' and ` Take Me Home ' must be next to each other?"	725760
+l148.json
+"In how many ways could you select five separate months from the 12 months of the year, ignoring the order that you select them?"	792
+l149.json
+"If you have 17 playing cards, how many different ways could you choose just 4 of them, ignoring the order that you select them?"	2380
+l150.json
+"In how many ways can a committee of 4 persons be chosen from a group of 9 persons?"	3024
+l183.json
+"Suppose that an assembly operation in a manufacturing plant involves four steps, which can be performed in any sequence.", "If the manufacturer wishes to compare the assembly time for each of the sequences, how many different sequences will be involved in the experiment?"	24
+l184.json
+"An airline has six flights from New York to California and seven flights from California to Hawaii per day.", "If the flights are to be made on separate days, how many different flight arrangements can the airline offer from New York to Hawaii?"	42
+l212.json
+"Three different prizes are simultaneously given to students from a class of 30 students.", "In how many ways can the prizes be awarded if no student can receive more than one prize?"	24360
+l213.json
+"A car has six seats including the driver 's, which must be occupied by a driver.", "In how many ways is it possible to seat six people if only two can drive?"	240
+l215.json
+"In how many ways can a committee of 4 be formed from 10 men and 12 women if it is to have 2 men and 2 women?"	2475
+l216.json
+"A salesman must visit any four of the cities A, B, C, D, E, F, starting and ending in his home city, which is other than these six.", "In how many ways can he schedule his trip?"	360
+l218.json
+"In how many ways can 10 cents be distributed among 3 children?"	66
+l248.json
+"All the items in stock in a certain store bear a code made up of five letters.", "There are 26 letters in the English alphabet.", "If the same letter is never used more than once in a given code, how many different codes can there be?"	7893600
+l254.json
+"Five married couples bought 10 tickets for a concert.", "In how many ways can they sit, in the same row, if the five men want to sit together?"	86400
+l286.json
+"In how many ways can 3 letters be mailed in 6 mailboxes, if each letter must be mailed in a different box?"	120
+l302.json
+"In how many ways can a lady having 10 dresses, 5 pairs of shoes, and 2 hats be dressed?"	100
+l303.json
+"In how many ways can we place in a bookcase two works each of three volumes and two works each of four volumes, so that the volumes of the same work are not separated?"	497664
+l304.json
+"In how many ways can 5 boys and 5 girls be seated around a table so that no 2 boys sit next to each other?"	2880
+l305.json
+"In how many ways can 20 recruits be distributed into 4 groups each consisting of 5 recruits?"	488864376
+l306.json
+"Using 7 consonants and 5 vowels, how many words consisting of 4 consonants and 3 vowels can be formed?"	1764000
+l384.json
+"You have a set of 26 tiles, each with a different letter of the English alphabet.", "Assuming each unique permutation of 5 letters is a `` word '', how many unique words can you form using that set of tiles?"	7893600
+l385.json
+"A child has five balls, all identical except for color.", "One is red, one is blue and three are white.", "Assuming there are five positions in a horizontal row, each of which can hold one ball, how many distinguishable arrangements of the five balls can he possibly make?"	20
+l393.json
+"The Mathematics Department of the University of Louisville consists of 8 professors, 6 associate professors, 13 assistant professors.", "In how many of all possible samples of size 4, chosen without replacement, will every type of professor be represented?"	7488
+l397.json
+"Suppose a box contains 4 blue, 5 white, 6 red and 7 green balls.", "In how many of all possible samples of size 5, chosen without replacement, will every color be represented?"	7560
+l45.json
+"A true false test contains 10 questions.", "In how many ways can a student answer the questions?"	C(10,5)/1024
+l518.json
+"In one year, three awards, research, teaching and service, will be given for a class of 25 graduate students in a statistics department.", "If each student can receive at most one award, how many possible selections are there?"	13800
+l520.json
+"In how many ways can 7 graduate students be assigned to one triple and two double hotel rooms during a conference?"	210
+l558.json
+"From a group of 4 men and 5 women, how many committees of size 3 are possible with no restrictions?"	84
+l559.json
+"From a group of 4 men and 5 women, how many committees of size 3 are possible with 1 man and 2 women?"	40
+l561.json
+"From 4 red, 5 green, and 6 yellow apples, how many selections of 9 apples are possible if 3 of each color are to be selected?"	800
+l563.json
+"A shipment of 12 television sets contains 3 defective sets.", "In how many ways can a hotel purchase 5 of these sets and receive at least 2 of the defective sets?"	288
+l56.json
+"In a group of 40 people, 10 are healthy and every person the of the remaining 30 has either high blood pressure, a high level of cholesterol or both.", "If 15 have high blood pressure and 25 have high level of cholesterol, how many people have high blood pressure and a high level of cholesterol?"	10
+l735.json
+"A television news director wishes to use three news stories on an evening show.", "One story will be the lead story, one will be the second story, and the last will be a closing story.", "If the director has a total of eight stories to choose from, how many possible ways can the program be set up?"	336
+l83.json
+"Jones is the Chairman of a committee.", "In how many ways can a committee of 5 be chosen from 10 people given that Jones must be one of them?"	126
+l86.json
+"An encyclopedia has eight volumes.", "In how many ways can the eight volumes be replaced on the shelf?"	40320
+l87.json
+"Assuming that any arrangement of letters forms a ` word ', how many ` words ' of any length can be formed from the letters of the word SQUARE?"	1956
+l88.json
+"A restaurant offers 5 choices of appetizer, 10 choices of main meal and 4 choices of dessert.", "A customer can choose to eat just one course, or two different courses, or all three courses.", "Assuming all choices are available, how many different possible meals does the restaurant offer?"	329
+l950.json
+"A machinist produces 22 items during a shift.", "Three of the 22 items are defective and the rest are not defective.", "In how many different orders can the 22 items be arranged if all the defective items are considered identical and all the nondefective items are identical of a different class?"	1540
+l955.json
+"In how many ways can a committee of 3 people be selected from 8 people?"	56
+l977.json
+"Three different prizes are simultaneously given to students from a class of 30 students.", "In how many ways can the prizes be awarded if more than one prize can go to a student?"	null
+l978.json
+"Using the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9, how many positive integers are there under 5000 that end in 3 or 4?"	null
+m100.json
+"Three different DVD 's and their corresponding DVD cases are randomly strewn about on a shelf.", "If a young child puts the DVD 's in the cases at random, how many combinations are there?"	6
+m101.json
+"In how many ways can we paint 4 houses using 3 colors?"	null
+m174.json
+"Billy was buying chips and dip for his party.", "The choices for chips are: Scoop, Square, Triangle and Round.", "The choices for dips are: Salsa, Ranch, Bean and Cheese.", "If he gets one type of chip and one type of dip, how many different combinations can he choose from?"	16
+m178.json
+"Emily was trying to decide which salad to order for lunch.", "There were 2 types of salad and 3 dressings.", "If each salad comes with 1 dressing, how many different combinations does she have to choose from?"	6
+m180.json
+"Paul was buying chips and dip for his party.", "The choices he has are between scoop and round chips and bean and onion dip.", "If he gets one type of chip and one type of dip, how many different combinations can he choose from?"	4
+m333.json
+"A city council has 12 members.", "Five are Democrats and seven are Republicans.", "In how many ways can a four member committee be selected?"	495
+m334.json
+"A student organization has 8 freshman members, 5 sophomores, 10 juniors, and 6 seniors.", "In how many ways can an eight member committee be chosen if there must be two members from each class?"	189000
+m335.json
+"A department has 25 members.", "They must select a chair, an assistant chair, and an advisory committee of three members - neither the chair nor the assistant chair can be on the advisory committee -.", "In how many ways can this be done?"	1062600
+m416.json
+"Ryan has made three snowmen, and is using coals to make the buttons on the front of the snowmen.", "If there are seven coals, how many ways can they be distributed among the three snowmen?"	35
+m608.json
+"Eight pieces of paper are numbered from 1 to 8 and placed in a box.", "One piece of paper is drawn from the box and, without replacing the paper, a second piece of paper is drawn.", "The numbers on the pieces of paper are written down and totaled.", "In how many different ways can a sum of 12 be obtained?"	4
+m609.json
+"Eight pieces of paper are numbered 1, 2, 3, 4, 5, 6, 7 and 8 and placed in a box.", "One piece of paper is drawn from the box, its number is written down, and the piece of paper is replaced in the box.", "Then, a second piece of paper is drawn from the box, and its number is written down.", "Finally, the two numbers are added together.", "In how many different ways can a sum of 12 be obtained?"	5
+m617.json
+"In how many distinguishable ways can the letters in B A N A N A be written?"	60
+m618.json
+"In how many distinguishable ways can the letters in MITOSIS be written?"	1260
+m619.json
+"In how many different ways can three letters be chosen from the letters A, B, C, D, and E?", "The order of the three letters is not important."	10
+m620.json
+"In how many different ways can two letters be chosen from the letters J, K, L, M, and N?", "The order of the two letters is not important."	10
+m623.json
+"A small college needs two additional faculty members: a chemist and a statistician.", "There are five applicants for the chemistry position and six applicants for the statistics position.", "In how many ways can these positions be filled?"	30
+m624.json
+"In a physiology class, a student must dissect three different organisms.", "The student can select one of nine earthworms, one of four frogs, and one of seven fetal pigs.", "In how many ways can the student select the specimens?"	1140
+m625.json
+"Six people are lining up for a ride on a toboggan, but only two of the six are willing to take the first position.", "With that constraint, in how many ways can the six people be seated on the toboggan?"	15
+m626.json
+"A college student needs to schedule five prescribed courses for next semester.", "Only three of the five courses are able to be scheduled as the first class of the day.", "With that constraint, in how many ways can she select her schedule?"	null
+m629.json
+"In how many ways can a 10-question true-false exam be answered?", "Assume that no questions are omitted"	null
+m630.json
+"In how many ways can a 15-question true-false exam be answered?", "Assume that no questions are omitted"	null
+m637.json
+"Four couples have reserved seats in a given row for a concert.", "In how many different ways can they be seated, given there are no restrictions?"	24
+m638.json
+"Four couples have reserved seats in a given row for a concert.", "In how many different ways can they be seated, given that the two members of each couple wish to sit together?"	null
+m639.json
+"In how many ways can 10 people line up in a row for concert tickets?"	3628800
+m640.json
+"In how many ways can three different roles be filled by 10 people auditioning for a play?"	120
+m641.json
+"In how many ways can three different topping pizzas be made from an assortment of 15 different toppings?"	455
+m642.json
+"In how many ways can a jury of 12 people be selected from a group of 50 people?"	1.213996511*10^11
+m643.json
+"From a pool of 15 candidates, the offices of president, vice-president, secretary, and treasurer will be filled.", "In how many different ways can the offices be filled if each of the 15 candidates can hold any office?"	1365
+m644.json
+"There are 10 bicyclists entered in a race.", "In how many different ways can the top three places be decided?"	120
+m646.json
+"A student may answer any 15 questions from a total of 20 questions on a biology lab practical.", "In how many ways can the student select the questions?"	15504
+m648.json
+"In California 's Fantasy 5 Bonus Bucks game, a player chooses five distinct numbers from 1 to 39.", "In how many ways can a player select the five numbers?", "The order of selection is not important."	575757
+m651.json
+"On a game show, 10 audience members are randomly chosen to be eligible contestants.", "Six of the 10 eligible contestants are chosen to play a game on stage.", "You and your friend are two of the 10 eligible contestants.", "In how many ways can the six players be chosen from the group of eligible contestants given that you and your friend are chosen to play a game?"	null
+m652.json
+"An employer interviews 10 people for four openings at a company.", "Four of the 10 people are women.", "All 10 applicants are qualified.", "In how many ways can the employer fill the four positions?"	210
+m653.json
+"An employer interviews 10 people for four openings at a company.", "Four of the 10 people are women.", "All 10 applicants are qualified.", "In how many ways can the employer fill the four positions, given that exactly 2 selections are women?"	null
+m700.json
+"An ecology quiz consists of 12 multiple choice questions with four possible answers for each question.", "In how many ways can the quiz be completed?", "Assume that no question is omitted."	495
+m718.json
+"In Massachusetts 's Cash WinFall game, a player chooses six distinct numbers from 1 to 46.", "In how many ways can a player select the six numbers?", "The order of selection is not important"	9366819
+m719.json
+"A club has nine members.", "In how many ways can a president, vice president, and secretary be chosen from the members of this club?"	504
+m720.json
+"From 20 raffle tickets in a hat, four tickets are to be selected in order.", "The holder of the first ticket wins a car, the second a motorcycle, the third a bicycle, and the fourth a skateboard.", "In how many different ways can these prizes be awarded?"	116280
+m722.json
+"Fourteen construction workers are to be assigned to three different tasks.", "Seven workers are needed for mixing cement, five for laying bricks, and two for carrying the bricks to the brick layers.", "In how many different ways can the workers be assigned to these tasks?"	72072
+m723.json
+"A club has nine members.", "In how many ways can a committee of three be chosen from the members of this club?"	84
+m724.json
+"From 20 raffle tickets in a hat, four tickets are to be chosen at random.", "The holders of the winning tickets are to be awarded free trips to the Bahamas.", "In how many ways can the four winners be chosen?"	4845
+m726.json
+"A group of 25 campers contains 15 women and 10 men.", "In how many ways can a scouting party of 5 be chosen if it must consist of 3 women and 2 men?"	20475
+m727.json
+"A committee of seven -- consisting of a chairman, a vice chairman, a secretary, and four other members -- is to be chosen from a class of 20 students.", "In how many ways can this committee be chosen?"	16279200
+m728.json
+"Twelve employees at a company picnic are to stand in a row for a group photograph.", "In how many ways can this be done if Jane and John insist on standing next to each other?"	79833600
+m746.json
+"A committee of seven is to be chosen from a group of ten men and eight women.", "In how many ways can the committee be chosen?"	31824
+m747.json
+"A committee of seven is to be chosen from a group of ten men and eight women.", "In how many ways can the committee be chosen if it must have exactly four men and three women?"	null
+m748.json
+"A committee of seven is to be chosen from a group of ten men and eight women.", "In how many ways can the committee be chosen if at least five women must serve in it?"	null
+m749.json
+"A committee of seven is to be chosen from a group of ten men and eight women.", "In how many ways can the committee be chosen if at most two men can serve on it?"	null
+m750.json
+"A committee of seven is to be chosen from a group of ten men and eight women.", "In how many ways can the committee be chosen if it is to have a chairman, a vice chairman, a secretary and 4 other members?"	null
+m781.json
+"A student has 6 books for her six classes.", "In how many different ways can she stack them in a pile containing the six books?"	36
+m782.json
+"There are 4 cars entered in a race.", "If there are no ties, in how many ways can the cars finish?"	16
+m788.json
+"In how many different ways can four persons be lined up at the check-out counter at supermarket?"	null
+m789.json
+"Five runners are competing in a race.", "If there are no ties, in how many ways can the race end?"	null
+m790.json
+"Five runners are competing in a race.", "If there are no ties, in how many ways can first, second and third place be awarded?"	null
+m813.json
+"Five students entered the Math competition.", "In how many different ways can the $ 100 first prize, $ 50 second prize and $ 20 third prize be awarded?"	60
+m814.json
+"Dinner for 7 at Wan Tom 's restaurant consists of 3 items from column A and 4 items from column B.", "If column A has 5 choices and column B has 6 choices, how many different dinner combinations are possible?"	150

@@ -1,0 +1,211 @@
+
+%%% version 1.0-1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%      {log} standard library for dealing with partial functions
+%                           Version 1.0
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%           by Maximiliano Cristia' and  Gianfranco Rossi
+%                           March 2015 
+%
+%    (requires {log} with partial functions - setlog482-2 or newer) 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+:- consult_lib.
+:- abolish.
+
+%%%%%%%%%%%%%% Labeling predicates for partial function domains
+
+%%% rel(F,N): true if F is a binary relation, N is an integer constant
+%%% and |F| =< N
+
+ rel(F,N) :-
+     delay(mk_rel(F,N),nonvar(F)).
+
+ mk_rel(F,N) :-
+     nonvar(N) &
+     solve(M in int(0,N) & mkset_term(F,M)) &
+     rel(F).
+
+%%% pfun(F,N): true if F is a partial function, N is an integer constant
+%%% and |F| =< N
+
+ pfun(F,N) :-
+     delay(mk_pfun(F,N),nonvar(F)).
+
+ mk_pfun(F,N) :-
+     nonvar(N) &
+     solve(M in int(0,N) & mkset_term(F,M)) &
+     pfun(F).
+     
+ mkset_term({},0).
+ mkset_term(S,N) :- 
+     N > 0 & 
+     eq(S,{_/R}) & 
+     N1 is N-1 & 
+     mkset_term(R,N1).
+
+ label(pfun,F,N) :-        % for backward compatibility
+     delay(mk_pfun(F,N),nonvar(F)).
+
+%%% label(set,L): true if S is a partial function
+%%% when S is a variable, used to generate all partial functions of increasing 
+%%% cardinality (starting from {})
+
+ label(pfun,S) :- 
+     nonvar(S) &
+     pfun(S).
+ label(pfun,S) :-
+     var(S) &
+     is_pfun2(S).
+
+ is_pfun2(F) :- 
+    forall(P1 in F, forall(P2 in F, nofork(P1,P2))).
+
+ nofork([X1,Y1],[X2,Y2]) :-  
+    (X1 neq X2 or (X1 = X2 & Y1 = Y2)).
+
+
+%%%%%%%%%%%%%% General predicates for dealing with relations 
+%%%% complement constraints for partial functions provided by the interpreter
+
+%%% is_rel(R): true if R is a binary relation, i.e. a set
+%%% of ordered pairs [X,Y]
+
+ is_rel(R) :- 
+    forall(P in R, pair(P)).
+
+
+%%% in_dom(X,Rel): true if Rel is a relation and X belongs to
+%%% its domain
+
+ in_dom(X,Rel) :- 
+    set(Rel) &
+    [X,_] in Rel.
+
+
+%%% nin_dom(X,R): true if X does not belong to the domain of the
+%%% binary relation R
+ 
+ nin_dom(X,R) :-
+    forall(P in R, exists([X1],fst(P,X1) & X neq X1)).
+
+
+%%% dom_list(L,Dom): true if L is a list of n elements (n >= 0)
+%%% and Dom is the interval 1..n (n > 0) or the empty set (n = 0).  
+
+ dom_list(L,Dom) :-
+     prolog_call((nonvar(Dom),!,R = int ; R = set)) &
+     (R == int & dom_list3(L,Dom)
+      or
+      R == set & dom_list2(L,Dom)
+     ). 
+
+ %%% dom_list2(?L,-Dom) 
+ dom_list2([],Dom) :-  
+     Dom = {}.
+ dom_list2([X|L],Dom) :-
+     length([X|L],SList) &
+     call(Dom = int(1,SList)).
+
+ %%% dom_list3(?L,+Dom)         
+ dom_list3([],Dom) :-          
+     eq(Dom,{}).
+ dom_list3(L,Dom) :-          
+     Dom = int(1,B) &
+     1 =< B &      
+     labeling(B) &
+     length(L,B)!.
+
+%%% ran_list(S,R)
+
+ ran_list(S,R) :- 
+    list_to_set(S,R).
+   
+
+%%% Composition of binary relations. circ(Q,R,QR) is true if 
+%%% [X,Y] in R & [Y,Z] in Q <==> [X,Z] in QR
+
+circ(Q,R,S) :- 
+   comp(R,Q,S).
+
+
+%%% Inverse relation. inv(Q,R) is true if Q is a binary relation
+%%% and R its inverse, i.e., R = {[Y,X] : [X,Y] in Q}
+
+inv({},{}).
+inv({[X,Y]/Rel},{[Y,X]/Q}) :- 
+   [X,Y] nin Rel &            
+   inv(Rel,Q).
+
+inv0({},{}).                   %Alternative definition
+inv0(Q,R) :- 
+   R = {P : exists([X,Y], P=[Y,X] & [X,Y] in Q)}.
+
+
+%%%%%%%%%%%%%% General predicates for dealing with relations and lists
+
+%%% list_to_rel(L,R): true if L is a list of n elements e_1,...,e_n (n>=0)
+%%% and R is a binary relation of the form {[1,e_1],...,[n,e_n]}
+
+list_to_rel([],{}).
+list_to_rel([X|List],Rel) :- 
+   Rel = {[1,X]/R} & 
+   [1,X] nin R & 
+   list_to_rel0(List,R,2).
+
+list_to_rel0([],{},N).
+list_to_rel0([X|List],Rel,N) :-
+   Rel = {[N,X]/R} &
+   K is N + 1 &
+   list_to_rel0(List,R,K).
+
+%%% squash(S,L): true if S is a set of ordered pairs whose first
+%%% components are natural numbers >= 1, L is a list containing
+%%% the elements Y, for all [X,Y] in S, and L is ordered according
+%%% to the values of X (e.g., squash({[2,a],[7,b],[4,c]},L) ==>
+%%% [a,c,b])
+
+squash({},[]).
+squash(Rel,List) :- 
+   Rel neq {} & List neq [] &
+   dom(Rel,D) & 
+   set_to_list(D,LD) & 
+   prolog_call(sort(LD,SLD)) & 
+   squash0(Rel,SLD,List).
+
+squash0(Rel,[],[]).
+squash0(Rel,[N|List],NewList) :-
+   [N,X] in Rel &
+   NewList = [X|L] &
+   squash0(Rel,List,L).
+
+
+%%%%%%%%%%%%%%%%%% Auxiliary predicates
+
+ pair([X,Y]).
+
+ fst([X,Y],X).
+
+ snd([X,Y],Y).
+
+ set_to_list({},[]).          % true if S is a set and L is a list containing 
+ set_to_list({X/Set},List) :- % all and only the elements of S, WITHOUT REPETITIONS
+    X nin Set &
+    List = [X|L] & 
+    set_to_list(Set,L).
+
+
+%%%%%%%%%%%%%%%%% Using delay
+
+ dis_rel(R) :- 
+    delay(is_rel(R), nonvar(R)).
+
+ ddom_list(L,Dom) :- 
+    delay(dom_list(L,Dom), nonvar(L) & nonvar(Dom)).
+

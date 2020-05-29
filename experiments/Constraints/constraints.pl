@@ -4,13 +4,19 @@
 
 group(nodes).
 group(colours).
+group(nums).
 size(nodes, 5).
 size(colours, 3).
+size(nums, 3).
 
 property(nodes,[a,b,c,d,e]).
-property(colours,[red,green,blue]).
+% property(colours,[red,green,blue]).
+property(nums,[0,1,2]).
 
-map(nodes, colours, coloured_graph).
+% map(nodes, colours, coloured_graph).
+map(nodes, nums, label_graph).
+
+take(nodes, 4, subs).
 
 rel(edge,a,b).
 rel(edge,b,c).
@@ -24,6 +30,7 @@ rel(edge,b,e).
 % given(coloured_graph, all([a,b,c], red)).
 % given(coloured_graph, alldiff).
 % given(coloured_graph, alldiff([a,b,c])).
+% given(coloured_graph, allsame([a,d,c])).
 % given(coloured_graph, none(green)).
 % given(coloured_graph, not(some(red))).
 % given(coloured_graph, atmost(1, [b,c,d], red)).
@@ -31,12 +38,26 @@ rel(edge,b,e).
 % given(coloured_graph, not(assign(c,red))).
 % given(coloured_graph, or(assign(a,red),some(green))).
 % given(coloured_graph, atleast(3,green)).
-given(coloured_graph, atmost(1,green)).
+% given(coloured_graph, atmost(1,green)).
+% given(coloured_graph, exactly(1,green)).
+% given(label_graph, aggcmp(label_graph, sum, =:=, 5)).
+% given(label_graph, aggcmp(label_graph, [a,b], sum, =:=, 3)).
+% given(label_graph, aggcmp(label_graph, [a,d,b], sum, >, 3)).
+
+% not working
+% given(label_graph, aggcmp(label_graph, max, is_odd)).
+% given(label_graph, aggcmp(label_graph, [b,c], product, is_odd)).
+% given(label_graph, aggcmp(label_graph, [a,b,c], average, <, 2)).
+
 
 %%%%%%%
 
 given(_,_) :- fail.
-% rel(_,_,_) :- fail.
+rel(_,_,_) :- fail.
+sequence(_,_,_) :- fail.
+take(_,_,_) :- fail.
+take_wr(_,_,_) :- fail.
+
 group_given(Name) :- group(Name), !.
 group_given(Name) :- map(_,_,Name).
 
@@ -46,12 +67,43 @@ size_given(Name, N) :-
     property(Name, Props), 
     length(Props, N). 
 
+all_numbers([]).
+all_numbers([L|Ls]) :- number(L), all_numbers(Ls).
+
+numbers2domain([L], L).
+numbers2domain([L,M|Ls],'\\/'(L,Ds)) :- numbers2domain([M|Ls],Ds), !.
+
+domain(Name, 1..L) :-
+    property(Name, Labels),
+    \+ all_numbers(Labels),
+    length(Labels,L), !.
+domain(Name, D) :-
+    property(Name, Labels),
+    all_numbers(Labels),
+    numbers2domain(Labels, D).
+
 prop2num(Name, Prop, N) :- 
     property(Name, Props),
     nth1(N, Props, Prop), !.
 prop2num(Name, Prop, Prop) :-
     \+property(Name,_).
 
+sol2prop(Name, [S], [P]) :- prop2num(Name, P, S), !.
+sol2prop(Name,[S,T|Ss], [P,Q|Ps]) :- 
+    prop2num(Name, P, S),
+    sol2prop(Name, [T|Ss], [Q|Ps]). 
+
+sols2props(Name, S, S) :- 
+    property(Name, Labels),
+    all_numbers(Labels), !.
+sols2props(Name, [], []) :- 
+    property(Name, Labels),
+    \+ all_numbers(Labels).
+sols2props(Name, [S|Ss], [P|Ps]) :- 
+    property(Name, Labels),
+    \+ all_numbers(Labels),
+    sol2prop(Name, S, P),
+    sols2props(Name, Ss, Ps).
 
 neq(A,B) :- A #\= B.
 eq(A,B) :- A #= B.
@@ -129,15 +181,26 @@ unfold(Vars, Name, alldiff(Xs), C) :-
     maplist(prop2num(XName), Xs, Inds),
     c_alldiff(Vars, Inds, C).
 
-% unfold(Vars, _, aggcmp(_, Inds, Op, Comp, Val)) :-
-%     c_aggcmp(Vars, Inds, Op, Comp, Val).
-% unfold(Vars,  Name, aggcmp(_, Op, Comp, Val)) :-
-%     c_aggcmp(Vars, Op, Comp, Val).
 
-% unfold(Vars, _, aggcmp(L, Inds, Op, Short)) :-
-%     c_aggcmp(Vars, Inds, Op, Short).
-% unfold(Vars, Name, aggcmp(L, Op, Short)) :-
-%     c_aggcmp(Vars, Op, Short).
+unfold(Vars, Name, aggcmp(_, [X|Xs], Op, Short), C) :-
+    map(XName, _, Name), 
+    maplist(prop2num(XName), [X|Xs], Inds),
+    c_aggcmp(Vars, Inds, Op, Short, C).
+    
+unfold(Vars,  _, aggcmp(_, Op, Comp, Val), C) :-
+    Op \= [_|_],
+    c_aggcmp(Vars, Op, Comp, Val, C).
+unfold(Vars, Name, aggcmp(_, Xs, Op, Comp, Val), C) :-
+    map(XName, _, Name), 
+    maplist(prop2num(XName), Xs, Inds),
+    c_aggcmp(Vars, Inds, Op, Comp, Val, C).
+
+unfold(Vars, _, aggcmp(_, Op, Short), C) :-
+    c_aggcmp(Vars, Op, Short, C).
+unfold(Vars, Name, aggcmp(_, Xs, Op, Short), C) :-
+    map(XName, _, Name), 
+    maplist(prop2num(XName), Xs, Inds),
+    c_aggcmp(Vars, Inds, Op, Short, C).
 
 unfold(Vars, Name, all(Y), C) :- 
     map(_, YName, Name),
@@ -189,6 +252,15 @@ unfold(Vars, Name, atleast(N, Xs, Y), C) :-
     prop2num(YName, Y, YInd),
     c_atleast(N, Vars, Inds, YInd, C).
 
+unfold(Vars, Name, exactly(N, Y), C) :- 
+    map(_, YName, Name),
+    prop2num(YName, Y, YInd),
+    c_exactly(N, Vars, YInd, C).
+unfold(Vars, Name, exactly(N, Xs, Y), C) :- 
+    map(XName, YName, Name),
+    maplist(prop2num(XName), Xs, Inds),
+    prop2num(YName, Y, YInd),
+    c_exactly(N, Vars, Inds, YInd, C).
 
 unfold(Vars, Name, assign(X, Y), C) :- 
     map(XName, YName, Name),
@@ -208,8 +280,8 @@ c_alldiff(Vs, Inds, C) :-
 
 c_allsame([V|Vs], C):-
     chain_and_eq(V, Vs, C).
-c_allsame(Vs, Inds, C) :- 
-    maplist(get_nth_var(Vs), Inds, [V|Vs]),
+c_allsame(Vars, Inds, C) :- 
+    maplist(get_nth_var(Vars), Inds, [V|Vs]),
     chain_and_eq(V, Vs, C).
 
 c_all(Vs, Val, C) :-
@@ -241,19 +313,84 @@ c_atleast(N, Vs, Val, C) :-
 c_atleast(N, Vs, Inds, Val, C) :-
     maplist(get_nth_var(Vs), Inds, Sel),
     chain_atleast(N, Val, Sel, C).
-% c_atmost(Vs, N, Val) :- 
-%     length(Vs, A),
-%     Inv is A-N,
-%     length(S,Inv),
-%     subset(S,Vs),
-%     writeln(S),
-%     c_none(S,Val).
 
-% c_atmost(Vs, N, Inds, Val) België:-
-%     maplist(get_nth_var(Vs), Inds, Vars),
-%     subset(S,Vars),
-%     length(S,N),
-%     c_all(S, Val).
+c_exactly(N, Vs, Val, CL #/\CM) :-
+    chain_atleast(N, Val, Vs, CL),
+    chain_atmost(N, Val, Vs, CM).
+c_exactly(N, Vs, Inds, Val, CL #/\CM) :-
+    maplist(get_nth_var(Vs), Inds, Sel),
+    chain_atleast(N, Val, Sel, CL),
+    chain_atmost(N, Val, Sel, CM).
+
+%% Aggcmp constraints
+
+c_aggcmp(Vs, [I|Is], Op, Short, C) :- 
+    maplist(get_nth_var(Vs), [I|Is], Sel),
+    c_aggcmp(Sel, Op, Short, C).
+
+c_aggcmp(Vs, sum, Comp, Val, C) :-
+    sumlist(Vs, Sum),
+    cmp_constraint(Sum, Comp, Val, C).
+c_aggcmp(Vs, prod, Comp, Val, C) :-
+    prodlist(Vs, Prod),
+    cmp_constraint(Prod, Comp, Val, C).
+c_aggcmp(Vs, min, Comp, Val, C) :-
+    min_list(Vs, Min),
+    cmp_constraint(Min, Comp, Val, C).
+c_aggcmp(Vs, max, Comp, Val, C) :-
+    max_list(Vs, Max),
+    cmp_constraint(Max, Comp, Val, C).
+c_aggcmp(Vs, average, Comp, Val, C) :-
+    avglist(Vs, Avg),
+    cmp_constraint(Avg, Comp, Val, C).
+
+c_aggcmp(Vs, Inds, Op, Comp, Val, C) :- 
+    maplist(get_nth_var(Vs), Inds, Sel),
+    c_aggcmp(Sel, Op, Comp, Val, C).
+
+c_aggcmp(Vs, sum, Short, C) :- 
+    sumlist(Vs, Sum),
+    cmp_short_constraint(Sum, Short, C).
+c_aggcmp(Vs, prod, Short, C) :-
+    prodlist(Vs, Prod),
+    cmp_short_constraint(Prod, Short, C).
+c_aggcmp(Vs, min, Short, C) :-
+    minlist(Vs, Min),
+    cmp_short_constraint(Min, Short, C).
+c_aggcmp(Vs, max, Short, C) :-
+    maxlist(Vs, Max),
+    cmp_short_constraint(Max, Short, C).
+c_aggcmp(Vs, average, Short, C) :-
+    avglist(Vs, Avg),
+    cmp_short_constraint(Avg, Short, C).
+
+
+sumlist([V], V).
+sumlist([V,W|Vs], S) :- sumlist([W|Vs], Ss), S #= V+Ss. 
+
+prodlist([V], V).
+prodlist([V,W|Vs], P) :- prodlist([W|Vs], Ps), P #= V*Ps. 
+
+minlist([V], V).
+minlist([V,W|Vs], V) :- minlist([W|Vs], Ms), V #< Ms.
+minlist([V,W|Vs], Ms) :- minlist([W|Vs], Ms), Ms #< V.
+
+maxlist([V], V).
+maxlist([V,W|Vs], V) :- maxlist([W|Vs], Ms), V #> Ms.
+maxlist([V,W|Vs], Ms) :- maxlist([W|Vs], Ms), Ms #> V.
+
+avglist(Vars, Avg) :- sumlist(Vars, Sum), length(Vars,L), Avg #= Sum/L.
+
+cmp_constraint(Res, =:=, Val,Res #= Val).
+cmp_constraint(Res, =\=, Val, Res #\= Val).
+cmp_constraint(Res, <, Val, Res #< Val).
+cmp_constraint(Res, >, Val, Res #>Val).
+cmp_constraint(Res, =<, Val, Res #= Val #\/ Res #< Val).
+cmp_constraint(Res, >=, Val, Res #= Val #\/ Res #> Val).
+
+cmp_short_constraint(Res, is_odd, Res mod 2 #=1).
+cmp_short_constraint(Res, is_even, Res mod 2 #=0).
+cmp_short_constraint(_, is_prime, _) :- error('primality test not available').
 
 
 %% Collect constraints
@@ -272,27 +409,68 @@ apply_unfold(Vs, Name, GivenConstr) :-
 apply_constraints(Vs, Name) :- 
     all_constraints(Name,All),
     maplist(apply_unfold(Vs, Name), All).
-    
-    % maplist(unfold(Vs,Names,C),All).
-% all_constraints(Vs, Name, All) :-
-%     findall(C, constraint(Vs, Name, C), All).
 
-% join_constraints(Vs, Name, true) :- 
-%     all_constraints(Vs, Name, []).
-% join_constraints(Vs, Name, All) :- 
-%     all_constraints(Vs, Name, [C|Cs]),
-%     foldl(and,Cs,C,All).
+
+%% Translation
+
+% n-permutations
+count(Name, NSols) :- 
+    sequence(Xs, N, Name), 
+    group_given(Xs),
+    length(Ys, N),
+    domain(Xname, Dom),
+    Ys ins Dom,
+    apply_constraints(Ys, Name),
+    findall(Ys, label(Ys), Sols),
+    sols2props(Xname, Sols, Props),
+    writeln(Props),
+    length(Sols, NSols), !.
+
+given(Name, alldiff) :- sequence(_, _, Name).
+
+% n-subsets
+count(Name, NSols) :- 
+    take(Xs, N, Name), 
+    group_given(Xs),
+    length(Ys, N),
+    domain(Xname, Dom),
+    Ys ins Dom,
+    apply_constraints(Ys, Name),
+    findall(Ys, label(Ys), Sols),
+    sols2props(Xname, Sols, Props),
+    writeln(Props),
+    length(Sols, NSols), !.
+
+given(Name, alldiff) :- take(_, _, Name).
+
+% n-multisubsets
+count(Name, NSols) :- 
+    take_wr(Xs, N, Name), 
+    group_given(Xs),
+    length(Ys, N),
+    domain(Xname, Dom),
+    Ys ins Dom,
+    apply_constraints(Ys, Name),
+    findall(Ys, label(Ys), Sols),
+    sols2props(Xname, Sols, Props),
+    writeln(Props),
+    length(Sols, NSols), !.
+
+
+%% Solver
 
 count(Name, NSols) :-  
             map(Xname,Yname,Name),
             group_given(Xname),
             group_given(Yname),
             size_given(Xname,Nx),
-            size_given(Yname,Ny),
+            size_given(Yname,_),
             length(Ys, Nx),
-            Ys ins 1..Ny,
-            apply_constraints(Ys,Name),
+            domain(Yname, Dom),
+            Ys ins Dom,
+            apply_constraints(Ys, Name),
             findall(Ys, label(Ys), Sols),
-            writeln(Sols),
+            sols2props(Yname, Sols, Props),
+            writeln(Props),
             length(Sols, NSols).
 

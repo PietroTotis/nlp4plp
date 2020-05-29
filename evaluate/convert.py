@@ -4,20 +4,16 @@ from eval import parse_file
 from problog.logic import Term, Var
 
 ENCODINGS_PATH = "/mnt/01D503E0ADE91930/Users/pietr/Desktop/PhD/nlp4plp_old/code/solver"
-CONVERT_CONSTS = False
 
 id_map = {}
-label_id = "l"
-num_id = "n"
-prop_id = "p"
+label_id = "L"
+num_id = "N"
 counter = {
     label_id : 0,
-    num_id: 0,
-    prop_id: 0
+    num_id : 0,
 }
 
 ignore = ["'-'", "v"]
-ignore_consts = ["[]","min","max","product","sum","average", "=/=", ">", ">=", "<", "=<", "=:=", "is_even", "is_odd"]
 
 def get_id(term,ttype):
     '''
@@ -39,12 +35,12 @@ def convert_term(term):
     :param term: a Problog term (a statement to begin with)
     '''
     if term.arity > 0 and str(term.functor) not in ignore:
+
+        #ignore property first argument
         if term.functor == "property":
             arg = convert_term(term.args[1])
-            # uniform first argument
-            unique_prop_lab = f"prop_{term.args[0]}"
-            prop_identifier = get_id(unique_prop_lab, prop_id)
-            return Term("property", Term(prop_identifier), arg)
+            # uniform/consistent useless first argument
+            return Term("property", Term("property"), arg)
             # preserve orginal name
             # return Term("property", term.args[0], arg)
         else:
@@ -58,14 +54,11 @@ def convert_term(term):
         return Var(identifier)
     else:
         if str(type(term))[-10:-2] == "Constant":
-            if CONVERT_CONSTS:
-                identifier = get_id(term, num_id)
-                return Var(identifier)
-            else:
-                return term
+            identifier = get_id(term, num_id)
+            return Var(identifier)
         else:
-            if str(term) in ignore_consts:
-                # avoid labelling specific constants
+            if str(term) == "[]":
+                # avoid labelling empty list as one of the members of a list
                 return term
             else:
                 identifier = get_id(term, label_id)
@@ -77,7 +70,7 @@ def convert(program):
     '''
     problog_program = parse_file(program)
     for statement in problog_program:
-        print(f"{convert_term(statement)}.")
+        print(convert_term(statement))
 
 
 if __name__ == '__main__':

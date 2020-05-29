@@ -4,9 +4,9 @@ group(red).
 
 probability(exactly(1, 2-6, white)).
 
-given(exactly(1, pippo, black)).
+given(exactly(1, pippo, white)).
 given(exactly(3, pippo, black)).
-given(exactly(2, pippo, red),extra).
+given(exactly(2, pippo, red)).
 
 take_wr(pippo, 2-6, 3).
 

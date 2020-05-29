@@ -1,6 +1,6 @@
 
 :- use_module(library(lists)).
-:- use_module(library(maplist)).
+% :- use_module(library(maplist)).
 
 %%%%%%%%%%
 
@@ -46,7 +46,7 @@ independent([Ev|Evs]) :-
 mutual_exclusion(ev(A),ev(B)) :- declare(prob(inter([ev(A),ev(B)]), 0.0)), !.
 mutual_exclusion(ev(A),ev(B)) :- declare(prob(inter([ev(B),ev(A)]), 0.0)).
 
-mutual_exclusion([ev(A)]).
+mutual_exclusion([ev(_)]).
 mutual_exclusion([ev(A),ev(B)|Evs]) :-
     checklist(mutual_exclusion(ev(A)), [ev(B)|Evs]),
     mutual_exclusion([ev(B)|Evs]).
@@ -93,7 +93,6 @@ prob(cond(ev(A),inter(Evs)), Val) :-
 % Intersection
 
 prob(inter([ev(Ev)]), Val) :- prob(ev(Ev), Val).
-
 prob(inter([A,B|Evs]), 0.0) :- mutual_exclusion([A,B|Evs]).
 
 % chain rule
@@ -167,12 +166,12 @@ lotp(ev(Ev), [P,Q|Ps], Val) :-
 
 % extra conditioning
 lotp(cond(ev(Ev),inter(Evs)), [P], Val) :-
-    prob(cond(ev(Ev),inter([P|Evs]), CVal)),
+    prob(cond(ev(Ev),inter([P|Evs])), CVal),
     prob(cond(P,inter(Evs)), PVal),
     Val is CVal*PVal.
 
 lotp(cond(ev(Ev),inter(Evs)), [P,Q|Ps], Val) :-
-    prob(cond(ev(Ev),inter([P|Evs]), CVal)),
+    prob(cond(ev(Ev),inter([P|Evs])), CVal),
     prob(cond(P,inter(Evs)), PVal),
     lotp(ev(Ev), [Q|Ps], PsVal),
     Val is CVal*PVal + PsVal.

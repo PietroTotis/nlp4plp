@@ -24,7 +24,7 @@ Efficient low-level parser for Prolog programs.
 
 from __future__ import print_function
 
-from errors import ParseError as CoreParseError
+from .errors import ParseError as CoreParseError
 
 LINE_COMMENT = '%'
 BLOCK_COMMENT_START = '/*'
