@@ -30,6 +30,11 @@ class CountingFormula(object):
         elif self.op == "\=":
             return operator.ne
 
+    def neg(self):
+        if self.op in ["==","\="]:
+            self.formula = self.formula.neg()
+        return self
+
     def __str__(self):
         return f"{self.formula} {self.op} {self.num}"
 
@@ -75,8 +80,11 @@ class DomainFormula(object):
         union_term = Or(self.formula, rhs.fomula)
         return DomainFormula(self.problem, union_term)
 
-    def __not__(self):
-        not_term = Not(self.formula)
+    def neg(self):
+        if self.formula.functor == "not":
+            not_term = self.formula.args[0]
+        else:
+            not_term = Not('not', self.formula)
         return DomainFormula(self.problem, not_term)
 
     def __contains__(self, val):

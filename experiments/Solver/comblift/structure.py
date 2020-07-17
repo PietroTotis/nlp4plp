@@ -40,7 +40,7 @@ class Domain(object):
         return other.elements.contains(self.elements)
 
     def __eq__(self, rhs):
-        self.elements == rhs.elements
+        return self.elements == rhs.elements
 
     def __str__(self):
         return f"{self.name}: {self.elements}"

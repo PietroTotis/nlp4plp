@@ -16,7 +16,7 @@ size(seq, 3).
 % pos(seq,3,not(french)).
 % count(seq, inter(dutch,not(french))>1).
 % count(seq, dutch=>2).
-count(seq, dutch=>2).
+count(seq, dutch==2).
 % pos(seq,1,s5) :- pos(seq,3,s1).
 
 query(seq).

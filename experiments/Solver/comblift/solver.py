@@ -62,6 +62,17 @@ class SharpCSP(object):
         else: #  count_f.op == "\=":
             self.count_ne(count_f)
         
+    def class_combinations(self, n, classes):
+        candidates = self.integer_k_partitions(n, len(classes))
+        padded_cand = []
+        for c in candidates:
+            diff = len(classes) - len(c)
+            pad = [0]*diff
+            padded_cand.append(pad+c)
+        # for 
+        print(padded_cand)
+
+
     def count_lt(self, cf):
         pass
         # for v in self.vars:
@@ -71,28 +82,77 @@ class SharpCSP(object):
         
 
     def count_gt(self, cf):        
-        prop_f = cf.compute()
-        op = cf.get_operator()
-        satisfy = [i for i, v in enumerate(self.vars) if v in prop_f]
-        not_satisfy = set(range(0,self.n_vars)) - set(satisfy)
-        # check if already satisfied
-        count = len(satisfy)
-        sat = op(count, cf.num)
-        if not sat:
-            diff = cf.num - count
-            print(diff)
+        satisfied, not_satisfied = self.count_satisfied(cf)
+        missing = cf.num - len(satisfied)
+        if missing > 0:
+            print("\tns: ", not_satisfied)
+            print("\tdiff: ",missing)
+            ex_classes = self.exchangeable_classes(not_satisfied)
+            if len(ex_classes) == 1: 
+                # all variables are exchangeable:
+                # add missing constraints to satisfy prop_f
+                # print("\t sn:", new_sat)
+                dom = self.vars[next(iter(ex_classes))]
+                for j in range(0, missing):
+                    self.vars[not_satisfied[j]]  = dom & cf.compute()
+            else:
+                pass
+                # print("\t",ex_classes)
+                # combs = self.class_combinations(missing, ex_classes)
+
 
     def count_eq(self, cf):
-        pass
-        # ok = 
-        # for i, v in enumerate(self.vars):
-        #     if v in prop_f:
-        #         count += 1
+        satisfied, not_satisfied = self.count_satisfied(cf)
+        diff = cf.num - len(satisfied)
+        ex_classes = self.exchangeable_classes(not_satisfied)
+        print("diff:",diff)
+        if len(ex_classes) == 1:
+            dom = self.vars[next(iter(ex_classes))]
+            choices = math.comb(self.n_vars, cf.num)
+            print(choices)
+            for i in range(0,self.n_vars):
+                if i in satisfied and diff<0:
+                    self.vars[i]  = dom & cf.neg().compute()
+                    diff += 1
+                elif i in not_satisfied and diff>0:
+                    self.vars[i] = dom & cf.compute()
+                    diff -= 1
+                elif diff == 0:
+                    if i in not_satisfied:
+                        self.vars[i]  = dom & cf.neg().compute()
+                    else:
+                        pass
+
+            for v in self.vars:
+                print(v)
+            # print("unsat2sat:",self.n_vars-diff)
+            # for i in range(0,self.n_vars-diff):
+            #     self.vars[not_satisfied[i]] = dom & cf.compute()
+            #     print("sat->unsat:", i)
+            # print("sat2unsat:",diff)
+            # for i in range(0, diff):
+            #     self.vars[not_satisfied[i]]  = dom & cf.neg().compute()
+            #     print("unsat->sat:", i)
+            # for i,v in enumerate(self.vars):
+            #     print(f"{i}: {v}")
+            # for i in not_satisfied:
+            #     self.vars[i]  = dom & -cf.compute()
+            # rem = diff-len(not_satisfied)
+            # for i in range(0,rem):
+            #     self.vars[satisfied[i]] = dom & -cf.compute()
+        else:
+            pass
+        # else:
+        #     if len(ex_classes) == 1:
+        #         dom = self.vars[next(iter(ex_classes))]
+        #         for j in range(0, diff):
+        #             self.vars[not_satisfied[j]]  = dom & cf.compute()
+
         #     else:
-        #         v = v & prop_f
+        #         pass
 
     def count_ne(self, cf):
-        pass
+        return self.count_eq(-cf)
 
     def count(self):
         if self.problem.structure.type=="sequence":
@@ -100,6 +160,17 @@ class SharpCSP(object):
         if self.problem.structure.type=="subset":
             count = self.count_subsets()
         return count
+
+    def count_satisfied(self, dom_formula):
+        prop_f = dom_formula.compute()
+        not_sat = []
+        sat = []
+        for i, v in enumerate(self.vars):
+            if v not in prop_f:
+                not_sat.append(i)
+            else:
+                sat.append(i)
+        return (sat, not_sat)
 
     def count_sequence(self):
         count = 1
@@ -119,10 +190,48 @@ class SharpCSP(object):
         return count
 
     def exchangeable_classes(self, vars=None):
-        if vars = None:
-            vars = self.vars
-        
+        if vars is None:
+            vars = range(0,self.n_vars)
+        classes = {}
+        for i in vars:
+            new = True
+            for c in classes.keys():
+                if self.vars[i] == self.vars[c]:
+                    classes[c].append(i)
+                    new = False
+            if new:
+                classes[i] = [i]
+        return classes
 
+    def integer_partitions(self, n):
+        """
+        From http://jeromekelleher.net/generating-integer-partitions.html
+        """
+        a = [0 for i in range(n + 1)]
+        k = 1
+        y = n - 1
+        while k != 0:
+            x = a[k - 1] + 1
+            k -= 1
+            while 2 * x <= y:
+                a[k] = x
+                y -= x
+                k += 1
+            l = k + 1
+            while x <= y:
+                a[k] = x
+                a[l] = y
+                yield a[:k + 2]
+                x += 1
+                y -= 1
+            a[k] = x + y
+            y = x + y - 1
+            yield a[:k + 1]
+    
+    def integer_k_partitions(self, n, k):
+        parts = [ p for p in self.integer_partitions(n) if len(p)<=k]
+        return parts
+            
 
     def solve(self):
         for c in self.problem.choice_formulas:
