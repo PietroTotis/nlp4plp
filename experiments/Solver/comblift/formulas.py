@@ -2,19 +2,18 @@ import portion
 import operator
 
 from structure import Domain
-from problog.logic import And, Or, Not
+from problog.logic import Term
 
 
 class CountingFormula(object):
 
-    def __init__(self, problem, formula):
-        self.problem = problem
-        self.formula = DomainFormula(problem, formula.args[0])
-        self.op = formula.functor[1:-1]
-        self.num = formula.args[1].compute_value()
-    
-    def compute(self):
-        return self.formula.compute()
+    def __init__(self, formula, op, val):
+        self.formula = formula
+        self.op = op
+        self._val = val
+
+    def __str__(self):
+        return f"{self.formula} {self.op} {self._val}"
 
     def get_operator(self):
         if self.op == ">":
@@ -34,68 +33,60 @@ class CountingFormula(object):
         if self.op in ["==","\="]:
             self.formula = self.formula.neg()
         return self
+    
+    def num(self):
+        if self.op in [">","<"]:
+            return self._val +1 
+        else:
+            return self._val
 
-    def __str__(self):
-        return f"{self.formula} {self.op} {self.num}"
 
 class DomainFormula(object):
 
-    def __init__(self, problem, formula):
-        self.problem = problem
+    def __init__(self, container, formula, domain):
+        self.container = container
         self.formula = formula
-        self.domain = None
-
-    def compute(self):
-        # if self.domain is None:
-        if self.formula.functor == "inter":
-            lf = DomainFormula(self.problem, self.formula.args[0])
-            lf.compute()
-            rf = DomainFormula(self.problem, self.formula.args[1])
-            rf.compute()
-            self.domain = lf.domain & rf.domain
-        elif self.formula.functor == "union":
-            lf = DomainFormula(self.problem, self.formula.args[0])
-            lf.compute()
-            rf = DomainFormula(self.problem, self.formula.args[1])
-            rf.compute()
-            self.domain = lf.domain | rf.domain
-        elif self.formula.functor == "not":
-            arg = DomainFormula(self.problem, self.formula.args[0])
-            arg.compute()
-            cont = self.problem.domains[self.problem.container]
-            self.domain =  cont - arg.domain
-        else:
-            const = self.problem.get_entity(self.formula)
-            if const is not None:
-                self.domain = singleton = Domain(const, portion.singleton(const))
-            else:
-                self.domain = self.problem.domains[str(self.formula)]
-        return self.domain
+        self.domain = domain
 
     def __and__(self, rhs):
-        int_term = And(self.formula, rhs.fomula)
-        return DomainFormula(self.problem, int_term)
+        dom = self.domain & rhs.domain
+        if dom in self.domain:
+            int_term = self.formula
+        elif dom in rhs:
+            int_term = rhs.formula
+        else:
+            int_term = Term("inter", self.domain, rhs.domain)
+        return DomainFormula(self.container, int_term, dom)
+    
+    def __contains__(self, other):
+        return other.domain in self.domain
 
     def __or__(self, rhs):
-        union_term = Or(self.formula, rhs.fomula)
-        return DomainFormula(self.problem, union_term)
+        dom = self.domain | rhs.domain
+        if dom in self.domain:
+            union_term = self.formula
+        elif dom in rhs:
+            union_term = rhs.formula
+        else:
+            union_term = Term("union", self.domain, rhs.domain)
+        return DomainFormula(self.container, union_term, dom)
+
+    def __str__(self):
+        str = self.to_str(self.formula)
+        return str
+
+    def disjoint(self, rhs):
+        return self.domain.disjoint(rhs.domain)
 
     def neg(self):
         if self.formula.functor == "not":
             not_term = self.formula.args[0]
         else:
-            not_term = Not('not', self.formula)
-        return DomainFormula(self.problem, not_term)
-
-    def __contains__(self, val):
-        self.compute()
-        val.compute()
-        return val.domain in self.domain
+            not_term = Term("not", self.formula)
+        dom = self.container - self.domain
+        return DomainFormula(self.container, not_term, dom)
 
     def to_str(self, f):
-        # if f.functor in ["'=='","'\\='","'<'","'<='","'>'","'>='"]:
-        #     s = f" {f.functor[1:-1]} "
-        #     return s.join(map(self.to_str, f.args))
         if f.functor == "inter":
             return " ∧ ".join(map(self.to_str, f.args))
         elif f.functor == "union":
@@ -104,11 +95,7 @@ class DomainFormula(object):
             return f"¬{self.to_str(f.args[0])}"
         else:
             return str(f)
-
-    def __str__(self):
-        str = self.to_str(self.formula)
-        return str
-
+            
 
 class InFormula(object):
 
@@ -118,6 +105,37 @@ class InFormula(object):
 
     def __str__(self):
         return f"{self.const} is in {self.struct}"
+
+class IntervalFormula(object):
+
+    def __init__(self, formula, interval=portion.closed(0,portion.inf)):
+        self.dformula = formula
+        self.interval = interval
+
+    def __and__(self, rhs):
+        inter = self.interval & rhs.interval
+        if self.interval in inter:
+            formula = self.dformula
+        elif rhs.interval in inter:
+            formula = rhs.dformula
+        else:
+            formula = self.dformula & rhs.dformula
+        return IntervalFormula(formula, inter) 
+
+    def __str__(self):
+        return f"{self.dformula}: {self.interval}"
+
+    def add_lower_bound(self, val, open):
+        if open:
+            val +=1
+        new_lb = portion.closed(val, portion.inf)
+        self.interval = self.interval & new_lb
+
+    def add_upper_bound(self, val, open):
+        if open:
+            val -=1
+        new_ub = portion.closed(0, val)
+        self.interval = self.interval & new_ub
 
 
 class PosFormula(object):

@@ -8,15 +8,16 @@ french(4, [s1,s4,s5,s7,s8]).
 % french([70,100]).
 
 structure(seq, sequence, true, students).
-size(seq, 3).
+size(seq, 4).
 % pos(seq, 1, inter(dutch,french)).
-% pos(seq, 2, french).
+% pos(seq, 2, not(dutch)).
 % pos(seq, 3, not(dutch)).
 % pos(seq,2,dutch).
 % pos(seq,3,not(french)).
 % count(seq, inter(dutch,not(french))>1).
-% count(seq, dutch=>2).
-count(seq, dutch==2).
+count(seq, dutch=>2).
+count(seq, dutch>3).
+% count(seq, dutch<5).
 % pos(seq,1,s5) :- pos(seq,3,s1).
 
 query(seq).

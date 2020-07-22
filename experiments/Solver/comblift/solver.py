@@ -20,7 +20,7 @@ class Solver(object):
             subset_dom = Domain(problem.type, portion.closed(1,n))
             struct_constr = "sur"
             vars = [subset_dom]*problem.domains[problem.container].size
-        self.csp = SharpCSP(vars, problem, struct_constr)
+        self.csp = SharpCSP(vars, problem.structure.type, problem.choice_formulas, problem.count_formulas, struct_constr)
 
     def solve(self):
         self.csp.solve()
@@ -29,38 +29,38 @@ class Solver(object):
 
 class SharpCSP(object):
 
-    def __init__(self, vars, problem, global_constr):
+    def __init__(self, vars, type, choice_f, count_f, global_constr):
         self.vars = vars
         self.n_vars = len(vars)
-        self.problem = problem
+        self.choice_f = choice_f
+        self.count_f = count_f
         self.global_constr = global_constr
         self.fixed_choices = 0
+        self.type = type
 
-    def apply_choice(self, constr):
-        if isinstance(constr, PosFormula):
+    def apply_choice(self, chf):
+        if isinstance(chf, PosFormula):
             #TODO: check sat of multiple constraints same position
-            df = DomainFormula(self.problem, constr.dformula)
-            self.vars[constr.pos-1] = df.compute()
-        if isinstance(constr, InFormula):
+            self.vars[chf.pos-1] = chf.dformula.domain
+        if isinstance(chf, InFormula):
             #TODO: check number of in < size
             if self.fixed_choices > self.problem.structure.size:
-                raise Error("Too many elements for the subset size!")
-            df = DomainFormula(self.problem, constr.const)
-            v = df.compute()
-            self.vars[self.fixed_choices] = v
+                raise Exception("Too many elements for the subset size!")
+            self.vars[self.fixed_choices] = chf.df.domain #Wrong
             self.fixed_choices += 1
 
-    def apply_count(self, constr):
-        count_f = CountingFormula(self.problem, constr)
-        print(count_f)
-        if count_f.op in [">","=>"]:
-            self.count_gt(count_f)
-        elif count_f.op in ["=<", "<"]:
-            self.count_lt(count_f)
+    def apply_count(self, count_f):
+        if isinstance(count_f, IntervalFormula):
+            choices_on_vars = self.count_interval(count_f)
+        # if count_f.op in [">","=>"]:
+        #     choices_on_vars = self.count_gt(count_f)
+        # elif count_f.op in ["=<", "<"]:
+        #     choices_on_vars = self.count_lt(count_f)
         elif count_f.op == "==":
-            self.count_eq(count_f)
+            choices_on_vars = self.count_eq(count_f)
         else: #  count_f.op == "\=":
-            self.count_ne(count_f)
+            choices_on_vars = self.count_ne(count_f)
+        return choices_on_vars
         
     def class_combinations(self, n, classes):
         candidates = self.integer_k_partitions(n, len(classes))
@@ -70,107 +70,125 @@ class SharpCSP(object):
             pad = [0]*diff
             padded_cand.append(pad+c)
         # for 
-        print(padded_cand)
 
-
-    def count_lt(self, cf):
-        pass
-        # for v in self.vars:
-        #         if v & prop_f is empty:
-        #             count += 1
-        #     sat = op(count, count_f.num) and count == len(self.vars)
-        
-
-    def count_gt(self, cf):        
-        satisfied, not_satisfied = self.count_satisfied(cf)
-        missing = cf.num - len(satisfied)
-        if missing > 0:
-            print("\tns: ", not_satisfied)
-            print("\tdiff: ",missing)
-            ex_classes = self.exchangeable_classes(not_satisfied)
-            if len(ex_classes) == 1: 
-                # all variables are exchangeable:
-                # add missing constraints to satisfy prop_f
-                # print("\t sn:", new_sat)
-                dom = self.vars[next(iter(ex_classes))]
-                for j in range(0, missing):
-                    self.vars[not_satisfied[j]]  = dom & cf.compute()
-            else:
-                pass
-                # print("\t",ex_classes)
-                # combs = self.class_combinations(missing, ex_classes)
-
-
-    def count_eq(self, cf):
-        satisfied, not_satisfied = self.count_satisfied(cf)
-        diff = cf.num - len(satisfied)
-        ex_classes = self.exchangeable_classes(not_satisfied)
-        print("diff:",diff)
+    def count_interval(self, intf):  
+        if intf.interval.empty:
+            raise Exception(f"Unsat: check count constraints on {intf.dformula}")
+        satisfied, not_satisfied, maybe = self.count_satisfied(intf.dformula.domain)
+        sat_diff = intf.interval.lower - len(satisfied)
+        if intf.interval.upper == portion.inf:
+            unsat_diff = 0
+        else:
+            unsat_diff = (self.n_vars - intf.interval.upper) - len(not_satisfied)
+        print(sat_diff, unsat_diff)
+        ex_classes = self.exchangeable_classes(maybe)
         if len(ex_classes) == 1:
-            dom = self.vars[next(iter(ex_classes))]
-            choices = math.comb(self.n_vars, cf.num)
-            print(choices)
-            for i in range(0,self.n_vars):
-                if i in satisfied and diff<0:
-                    self.vars[i]  = dom & cf.neg().compute()
-                    diff += 1
-                elif i in not_satisfied and diff>0:
-                    self.vars[i] = dom & cf.compute()
-                    diff -= 1
-                elif diff == 0:
-                    if i in not_satisfied:
-                        self.vars[i]  = dom & cf.neg().compute()
-                    else:
-                        pass
-
-            for v in self.vars:
-                print(v)
-            # print("unsat2sat:",self.n_vars-diff)
-            # for i in range(0,self.n_vars-diff):
-            #     self.vars[not_satisfied[i]] = dom & cf.compute()
-            #     print("sat->unsat:", i)
-            # print("sat2unsat:",diff)
-            # for i in range(0, diff):
-            #     self.vars[not_satisfied[i]]  = dom & cf.neg().compute()
-            #     print("unsat->sat:", i)
-            # for i,v in enumerate(self.vars):
-            #     print(f"{i}: {v}")
-            # for i in not_satisfied:
-            #     self.vars[i]  = dom & -cf.compute()
-            # rem = diff-len(not_satisfied)
-            # for i in range(0,rem):
-            #     self.vars[satisfied[i]] = dom & -cf.compute()
+            free = len(maybe)
+            if sat_diff + unsat_diff > free:
+                raise Exception("Unsat!")
+            else:
+                sat_choices = math.comb(free, abs(sat_diff))
+                unsat_choices = math.comb(free - sat_diff, unsat_diff)
+                choices = sat_choices * unsat_choices
+                dom = self.vars[next(iter(ex_classes))]
+                i = 0
+                while i < sat_diff:
+                    self.vars[maybe[i]]  = dom & intf.dformula.domain
+                    i += 1
+                j = 0
+                while j < unsat_diff:
+                    self.vars[maybe[i + j]]  = dom & intf.dformula.neg().domain
+                    j += 1
         else:
             pass
-        # else:
-        #     if len(ex_classes) == 1:
-        #         dom = self.vars[next(iter(ex_classes))]
-        #         for j in range(0, diff):
-        #             self.vars[not_satisfied[j]]  = dom & cf.compute()
+        return choices
 
-        #     else:
-        #         pass
+
+        # if intf.interval.lower > 0:
+        #     self.count_lt(intf)
+        # if intf.interval.upper != portion.inf:
+        #     self.count_gt(intf)
+        
+
+    # def count_lt(self, intf):        
+    #     satisfied, not_satisfied, maybe = self.count_satisfied(intf.formula.domain)
+    #     diff = intf.interval.upper - len(not_satisfied)
+    #     ex_classes = self.exchangeable_classes(maybe)
+    #     if len(ex_classes) == 1 and diff > 0:
+    #         choices = math.comb(len(maybe), abs(diff))
+    #         dom = self.vars[next(iter(ex_classes))]
+    #         if diff>len(maybe):
+    #             raise Exception("Unsat!")
+    #         else:
+    #             for j in range(0, diff):
+    #                 self.vars[maybe[j]]  = dom & intf.neg().formula.domain
+    #     else:
+    #         choices = 0
+    #         pass
+    #     return choices
+
+    # def count_gt(self, intf):        
+    #     satisfied, not_satisfied, maybe = self.count_satisfied(intf.formula.domain)
+    #     diff = intf.interval.lower - len(satisfied)
+    #     ex_classes = self.exchangeable_classes(maybe)
+    #     if len(ex_classes) == 1 and diff > 0:
+    #         choices = math.comb(len(maybe), abs(diff))
+    #         dom = self.vars[next(iter(ex_classes))]
+    #         if diff>len(maybe):
+    #             raise Exception("Unsat!")
+    #         else:
+    #             for j in range(0, diff):
+    #                 self.vars[maybe[j]]  = dom & intf.formula.domain
+    #     else:
+    #         choices = 0
+    #         pass
+    #     return choices
+
+    def count_eq(self, cof):
+        satisfied, not_satisfied, maybe = self.count_satisfied(cof.formula.domain)
+        diff = cof.num() - len(satisfied)
+        ex_classes = self.exchangeable_classes(maybe)
+        if len(ex_classes) == 1:
+            dom = self.vars[next(iter(ex_classes))]
+            choices = math.comb(len(maybe), abs(diff))
+            for i in maybe:
+                if diff<0:
+                    self.vars[i]  = dom & cof.neg().domain
+                    diff += 1
+                elif diff>0:
+                    self.vars[i] = dom & cof.formula.domain
+                    diff -= 1
+                else:
+                    self.vars[i]  = dom & cof.neg().formula.domain
+            if diff != 0:
+                raise Exception("Usat!")
+        else:
+            choices = 0
+            pass
+        return choices
 
     def count_ne(self, cf):
-        return self.count_eq(-cf)
+        return self.count_eq(cf.neg())
 
     def count(self):
-        if self.problem.structure.type=="sequence":
+        if self.type=="sequence":
             count = self.count_sequence()
-        if self.problem.structure.type=="subset":
+        if self.type=="subset":
             count = self.count_subsets()
         return count
 
-    def count_satisfied(self, dom_formula):
-        prop_f = dom_formula.compute()
-        not_sat = []
+    def count_satisfied(self, prop_f):
         sat = []
+        not_sat = []
+        maybe = []
         for i, v in enumerate(self.vars):
-            if v not in prop_f:
+            if v in prop_f:
+                sat.append(i)
+            elif v.disjoint(prop_f):
                 not_sat.append(i)
             else:
-                sat.append(i)
-        return (sat, not_sat)
+                maybe.append(i)
+        return (sat, not_sat, maybe)
 
     def count_sequence(self):
         count = 1
@@ -234,10 +252,11 @@ class SharpCSP(object):
             
 
     def solve(self):
-        for c in self.problem.choice_formulas:
-            print(c)
-            self.apply_choice(c)
-        for c in self.problem.count_formulas:
-            print(c)
-            self.apply_count(c)
+        for c in self.choice_f:
+            self.apply_choice(self.choice_f[c])
+        for c in self.count_f:
+            choices_on_vars = self.apply_count(self.count_f[c])
+            print(c,"->",choices_on_vars)
+            for v in self.vars:
+                print(v)
             

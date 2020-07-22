@@ -8,21 +8,31 @@ class Domain(object):
         self.elements = elem
 
     def __and__(self, rhs):
-        i_name = f"{self.name} ∧ {rhs.name}"
+        i_name = f"({self.name} ∧ {rhs.name})"
         i_elem = self.elements & rhs.elements
         return Domain(i_name, i_elem)
 
-    def __or__(self, rhs):
-        u_name = f"{self.name} ∨ {rhs.name}"
-        u_elem = self.elements | rhs.elements
-        return Domain(u_name, u_elem)
-    
     def __contains__(self, val):
         return val.elements in self.elements
 
+    def __eq__(self, rhs):
+        return self.elements == rhs.elements
+
+    def __or__(self, rhs):
+        u_name = f"({self.name} ∨ {rhs.name})"
+        u_elem = self.elements | rhs.elements
+        return Domain(u_name, u_elem)
+    
     def __sub__(self, rhs):
-        c_name = f"¬{rhs.name}"
+        c_name = f"¬({rhs.name})"
         return Domain(c_name, self.elements - rhs.elements)
+    
+    def __str__(self):
+        return f"{self.name}: {self.elements}"
+
+    def disjoint(self,rhs):
+        inter = self & rhs
+        return inter.elements.empty
 
     def size(self):
         s = 0
@@ -35,16 +45,6 @@ class Domain(object):
                 s += e.upper - e.lower
             
         return s
-
-    def is_subset(self, other):
-        return other.elements.contains(self.elements)
-
-    def __eq__(self, rhs):
-        return self.elements == rhs.elements
-
-    def __str__(self):
-        return f"{self.name}: {self.elements}"
-
 
 class Structure(object):
     def __init__(self, name, type, spec, domain, size = None):
