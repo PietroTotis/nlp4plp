@@ -31,14 +31,18 @@ class CountingFormula(object):
 
     def neg(self):
         if self.op in ["==","\="]:
-            self.formula = self.formula.neg()
-        return self
+            return CountingFormula(self.formula.neg(), self.op, self._val)
+        else:
+            raise Exception("operation not supported")
     
     def num(self):
         if self.op in [">","<"]:
             return self._val +1 
         else:
             return self._val
+
+    def update(self, val):
+        return CountingFormula(self.formula, self.op, val)
 
 
 class DomainFormula(object):
