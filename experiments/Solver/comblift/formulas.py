@@ -8,12 +8,12 @@ from problog.logic import Term
 class CountingFormula(object):
 
     def __init__(self, formula, op, val):
-        self.formula = formula
+        self.dformula = formula
         self.op = op
         self._val = val
 
     def __str__(self):
-        return f"{self.formula} {self.op} {self._val}"
+        return f"{self.dformula} {self.op} {self._val}"
 
     def get_operator(self):
         if self.op == ">":
@@ -22,7 +22,7 @@ class CountingFormula(object):
             return operator.lt
         elif self.op == "=<":
             return operator.le
-        elif self.op == "=>":
+        elif self.op == ">=":
             return operator.ge
         elif self.op == "==":
             return operator.eq
@@ -31,7 +31,7 @@ class CountingFormula(object):
 
     def neg(self):
         if self.op in ["==","\="]:
-            return CountingFormula(self.formula.neg(), self.op, self._val)
+            return CountingFormula(self.dformula.neg(), self.op, self._val)
         else:
             raise Exception("operation not supported")
     
@@ -42,7 +42,7 @@ class CountingFormula(object):
             return self._val
 
     def update(self, val):
-        return CountingFormula(self.formula, self.op, val)
+        return CountingFormula(self.dformula, self.op, val)
 
 
 class DomainFormula(object):
@@ -54,9 +54,9 @@ class DomainFormula(object):
 
     def __and__(self, rhs):
         dom = self.domain & rhs.domain
-        if dom in self.domain:
+        if dom == self.domain:
             int_term = self.formula
-        elif dom in rhs:
+        elif dom == rhs.domain:
             int_term = rhs.formula
         else:
             int_term = Term("inter", self.domain, rhs.domain)
@@ -65,6 +65,11 @@ class DomainFormula(object):
     def __contains__(self, other):
         return other.domain in self.domain
 
+    def __eq__(self, rhs):
+        return self.domain == rhs.domain
+
+    def __hash__(self):
+        return hash(self.formula)
     def __or__(self, rhs):
         dom = self.domain | rhs.domain
         if dom in self.domain:
@@ -76,7 +81,7 @@ class DomainFormula(object):
         return DomainFormula(self.container, union_term, dom)
 
     def __str__(self):
-        str = self.to_str(self.formula)
+        str = f"{self.domain}\t ({self.to_str(self.formula)})"
         return str
 
     def disjoint(self, rhs):
@@ -103,12 +108,12 @@ class DomainFormula(object):
 
 class InFormula(object):
 
-    def __init__(self, struct, const):
+    def __init__(self, struct, formula):
         self.struct = struct
-        self.const = const
+        self.entity = formula
 
     def __str__(self):
-        return f"{self.const} is in {self.struct}"
+        return f"{self.entity} is in {self.struct}"
 
 class IntervalFormula(object):
 
@@ -140,6 +145,22 @@ class IntervalFormula(object):
             val -=1
         new_ub = portion.closed(0, val)
         self.interval = self.interval & new_ub
+
+    def shrink(self, val):
+        if self.interval.upper == portion.inf:
+            if self.interval.lower > val:
+                lb = self.interval.lower - val
+            else:
+                lb = 0
+            ub = self.interval.upper
+            return IntervalFormula(self.dformula, portion.closed(lb,ub))
+        else:
+            if self.interval.lower > val:
+                lb = self.interval.lower - val
+            else:
+                lb = 0
+            ub = self.interval.upper - val
+            return IntervalFormula(self.dformula, portion.closed(lb,ub))
 
 
 class PosFormula(object):

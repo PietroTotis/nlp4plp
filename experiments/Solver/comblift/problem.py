@@ -40,11 +40,11 @@ class Problem(object):
         self._count_formulas.append(f)
 
     def add_entity(self, e):
-        if e in self.entity_map:
-            return self.entity_map[e]
+        if str(e) in self.entity_map:
+            return self.entity_map[str(e)]
         else:
             i = len(self.entity_map) +1
-            self.entity_map[e] = i
+            self.entity_map[str(e)] = i
             return i
 
     def add_query(self, q):
@@ -74,12 +74,14 @@ class Problem(object):
                 domain = self.domains[str(formula)]
             else:
                 id = self.get_entity(formula.functor)
+                if id is None:
+                    raise Exception(f"Unknown constant {formula.functor}")
                 domain = Domain(id, portion.singleton(id))
         df = DomainFormula(cont, formula, domain)
         return df
 
     def get_entity(self, e):
-        if e in self.entity_map.keys():
+        if e in self.entity_map:
             return self.entity_map[e]
         else:
             return None
@@ -95,7 +97,8 @@ class Problem(object):
                 c = PosFormula(struct_name, pos, df)
                 self.choice_formulas[pos] = c
             if type == "in":
-                c = InFormula(df)
+                print("in:", df)
+                c = InFormula(self.structure.name, df)
         for cof in self._count_formulas:
             struct_name = cof.args[0]
             cf = cof.args[1]
@@ -108,7 +111,7 @@ class Problem(object):
             else:
                 ivf = IntervalFormula(df)
                 s = str(problog_df)
-                if op in [">","=>"]:
+                if op in [">",">="]:
                     ivf.add_lower_bound(val, op == ">")
                 else:
                     ivf.add_upper_bound(val, op == "<")

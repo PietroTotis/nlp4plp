@@ -18,6 +18,9 @@ class Domain(object):
     def __eq__(self, rhs):
         return self.elements == rhs.elements
 
+    def __lt__(self, rhs):
+        return self in rhs
+
     def __or__(self, rhs):
         u_name = f"({self.name} ∨ {rhs.name})"
         u_elem = self.elements | rhs.elements

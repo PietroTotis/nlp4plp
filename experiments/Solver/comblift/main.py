@@ -35,7 +35,7 @@ def add_domain(problem, stmt):
                 ivs.append(portion.singleton(low))
             i += 1
     d = Domain(stmt.functor, functools.reduce(lambda a,b: a.union(b), ivs, portion.empty()))
-    problem.add_domain( d)
+    problem.add_domain(d)
 
 
 def add_statement(problem, stmt):
