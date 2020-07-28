@@ -52,6 +52,7 @@ class DomainFormula(object):
         self.formula = formula
         self.domain = domain
 
+
     def __and__(self, rhs):
         dom = self.domain & rhs.domain
         if dom == self.domain:
@@ -59,7 +60,7 @@ class DomainFormula(object):
         elif dom == rhs.domain:
             int_term = rhs.formula
         else:
-            int_term = Term("inter", self.domain, rhs.domain)
+            int_term = Term("inter", self.formula, rhs.formula)
         return DomainFormula(self.container, int_term, dom)
     
     def __contains__(self, other):
@@ -70,6 +71,7 @@ class DomainFormula(object):
 
     def __hash__(self):
         return hash(self.formula)
+
     def __or__(self, rhs):
         dom = self.domain | rhs.domain
         if dom in self.domain:
@@ -77,11 +79,11 @@ class DomainFormula(object):
         elif dom in rhs:
             union_term = rhs.formula
         else:
-            union_term = Term("union", self.domain, rhs.domain)
+            union_term = Term("union",  self.formula, rhs.formula)
         return DomainFormula(self.container, union_term, dom)
 
     def __str__(self):
-        str = f"{self.domain}\t ({self.to_str(self.formula)})"
+        str = f"{self.to_str(self.formula)} ({self.domain})"
         return str
 
     def disjoint(self, rhs):

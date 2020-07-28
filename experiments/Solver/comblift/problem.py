@@ -92,12 +92,12 @@ class Problem(object):
             type = head.functor
             formula = head.args[-1]
             df = self.compute_dom(formula)
+            print(type)
             if type == "pos":
                 pos = head.args[1]
                 c = PosFormula(struct_name, pos, df)
                 self.choice_formulas[pos] = c
             if type == "in":
-                print("in:", df)
                 c = InFormula(self.structure.name, df)
         for cof in self._count_formulas:
             struct_name = cof.args[0]

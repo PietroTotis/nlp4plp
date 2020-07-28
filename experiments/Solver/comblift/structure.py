@@ -31,7 +31,7 @@ class Domain(object):
         return Domain(c_name, self.elements - rhs.elements)
     
     def __str__(self):
-        return f"{self.name}: {self.elements}"
+        return f"{self.elements}"
 
     def disjoint(self,rhs):
         inter = self & rhs
@@ -48,6 +48,17 @@ class Domain(object):
                 s += e.upper - e.lower
             
         return s
+
+    # @staticmethod
+    # def union(dom_list):
+    #     if len(dom_list) == 1:
+    #         return dom_list[0]
+    #     else:
+    #         u = dom_list[0] | dom_list[1]
+    #         if len(dom_list)>2:
+    #             return union([u] + dom_list[2:])
+    #         else:
+    #             return u
 
 class Structure(object):
     def __init__(self, name, type, spec, domain, size = None):
