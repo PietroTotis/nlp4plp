@@ -1,17 +1,17 @@
 
 students(8,[s1,s2,s3,s4,s5,s6,s7,s8]).
 dutch(5,[s1,s2,s3,s4,s5]).
-french(4, [s1,s4,s5,s7,s8]).
+french(4, [s1,s4,s5,s8]).
 
 structure(seq, sequence, false, students).
-size(seq, 5).
-pos(seq,1,french).
-pos(seq,2,french).
+size(seq, 2).
+% pos(seq,1,french).
+% pos(seq,2,french).
 % pos(seq,3,not(french)).
 % pos(seq,8,not(dutch)).
 % in(seq, s4).
-count(seq, dutch==3).
-count(seq, french==2).
+% count(seq, french==0).
+count(seq, dutch<2).
 % count(seq, dutch=<2).
 % pos(seq, 1, inter(dutch,french)).
 % pos(seq, 2, not(dutch)).

@@ -115,7 +115,6 @@ class Problem(object):
                     ivf.add_lower_bound(val, op == ">")
                 else:
                     ivf.add_upper_bound(val, op == "<")
-                print(ivf)
                 if s in self.count_formulas:
                     self.count_formulas[s] = self.count_formulas[s] & ivf
                 else:
@@ -129,12 +128,12 @@ class Problem(object):
     def __str__(self):
         s = ""
         for d in self.domains.values():
-            s += str(d) + "\n"
-        for f in self.count_formulas:
-            s += str(f) + "\n"
-        s += str(self.structure)  + "\n"
+            s += f"{d.name}: {d}\n"
         for cf in self.choice_formulas:
-            s += str(cf) + "\n"
+            s += f"{cf}\n"
+        for f in self.count_formulas:
+            s += f"{f}\n"
+        s += f"{self.structure}\n"
         for q in self.queries:
             s += f"query({q}).\n"
         return s

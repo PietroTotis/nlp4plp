@@ -13,7 +13,7 @@ class CountingFormula(object):
         self._val = val
 
     def __str__(self):
-        return f"{self.dformula} {self.op} {self._val}"
+        return f"Nr. {self.dformula} {self.op} {self._val}"
 
     def get_operator(self):
         if self.op == ">":
@@ -86,6 +86,9 @@ class DomainFormula(object):
         str = f"{self.to_str(self.formula)} ({self.domain})"
         return str
 
+    def copy(self):
+        return DomainFormula(self.container,self.formula, self.domain)
+
     def disjoint(self, rhs):
         return self.domain.disjoint(rhs.domain)
 
@@ -134,7 +137,7 @@ class IntervalFormula(object):
         return IntervalFormula(formula, inter) 
 
     def __str__(self):
-        return f"{self.dformula}: {self.interval}"
+        return f"Nr. {self.dformula} in {self.interval}"
 
     def add_lower_bound(self, val, open):
         if open:
@@ -173,4 +176,4 @@ class PosFormula(object):
         self.dformula = df
 
     def __str__(self):
-        return f"position {self.pos}: {self.dformula}"
+        return f"Position {self.pos}: {self.dformula}"
