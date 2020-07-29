@@ -6,6 +6,16 @@ from problog.logic import Term
 
 
 class CountingFormula(object):
+    """
+    Attributes
+    ----------
+    dformula : DomainFormula
+        property to count
+    op : str
+        one in < > <= =< == \=
+    val :
+        number to count
+    """
 
     def __init__(self, formula, op, val):
         self.dformula = formula
@@ -29,15 +39,29 @@ class CountingFormula(object):
         elif self.op == "\=":
             return operator.ne
 
-    def neg(self):
-        if self.op in ["==","\="]:
-            return CountingFormula(self.dformula.neg(), self.op, self._val)
-        else:
-            raise Exception("operation not supported")
+    def invert(self, tot):
+        neg_f = self.dformula.neg()
+        if self.op == ">":
+            return CountingFormula(neg_f, "<", tot - self._val)
+        elif self.op == "<":
+            return CountingFormula(neg_f, ">", tot - self._val)
+        elif self.op == "=<":
+            return CountingFormula(neg_f, ">=", tot - self._val)
+        elif self.op == ">=":
+            return CountingFormula(neg_f, "=<", tot - self._val)
+        elif self.op == "==":
+            return CountingFormula(neg_f, "\=", tot - self._val)
+        else: # self.op == "\=":
+            return CountingFormula(neg_f, "==", tot - self._val)
     
     def num(self):
-        if self.op in [">","<"]:
-            return self._val +1 
+        """
+        In the algorithms use <= or >= so adjust the number accordingly
+        """
+        if self.op == ">":
+            return self._val +1
+        elif self.op == "<":
+            return self._val -1 
         else:
             return self._val
 
@@ -46,12 +70,23 @@ class CountingFormula(object):
 
 
 class DomainFormula(object):
+    """
+    Represents a set by means of intersections/union/complements of the declared sets
+
+    Attributes
+    ----------
+    container : str
+        the name of the container of the problem, as each complement is computed w.r.t. that
+    formula : ProbLog Term
+        the description of the set operations to generate the set
+    domain : Domain
+        the corresponding elements
+    """
 
     def __init__(self, container, formula, domain):
         self.container = container
         self.formula = formula
         self.domain = domain
-
 
     def __and__(self, rhs):
         dom = self.domain & rhs.domain
@@ -108,68 +143,37 @@ class DomainFormula(object):
         elif f.functor == "not":
             return f"¬{self.to_str(f.args[0])}"
         else:
-            return str(f)
-            
+            return str(f)       
 
 class InFormula(object):
+    """
+    A choice formula for subsets
 
-    def __init__(self, struct, formula):
+    Attributes
+    ----------
+    struct: str
+        name of the target structure
+    entity : DomainFormula
+        property that should belong to the set
+    """
+
+    def __init__(self, struct, dformula):
         self.struct = struct
-        self.entity = formula
+        self.entity = dformula
 
     def __str__(self):
         return f"{self.entity} is in {self.struct}"
 
-class IntervalFormula(object):
-
-    def __init__(self, formula, interval=portion.closed(0,portion.inf)):
-        self.dformula = formula
-        self.interval = interval
-
-    def __and__(self, rhs):
-        inter = self.interval & rhs.interval
-        if self.interval in inter:
-            formula = self.dformula
-        elif rhs.interval in inter:
-            formula = rhs.dformula
-        else:
-            formula = self.dformula & rhs.dformula
-        return IntervalFormula(formula, inter) 
-
-    def __str__(self):
-        return f"Nr. {self.dformula} in {self.interval}"
-
-    def add_lower_bound(self, val, open):
-        if open:
-            val +=1
-        new_lb = portion.closed(val, portion.inf)
-        self.interval = self.interval & new_lb
-
-    def add_upper_bound(self, val, open):
-        if open:
-            val -=1
-        new_ub = portion.closed(0, val)
-        self.interval = self.interval & new_ub
-
-    def shrink(self, val):
-        if self.interval.upper == portion.inf:
-            if self.interval.lower > val:
-                lb = self.interval.lower - val
-            else:
-                lb = 0
-            ub = self.interval.upper
-            return IntervalFormula(self.dformula, portion.closed(lb,ub))
-        else:
-            if self.interval.lower > val:
-                lb = self.interval.lower - val
-            else:
-                lb = 0
-            ub = self.interval.upper - val
-            return IntervalFormula(self.dformula, portion.closed(lb,ub))
-
-
 class PosFormula(object):
-
+    """
+    Attributes:
+    struct : str
+        name of the target structure
+    pos : int
+        position where the property holds
+    dformula: DomainFormula
+        property/allowed set of elements
+    """
     def __init__(self, struct, pos, df):
         self.struct = struct
         self.pos = pos.compute_value()

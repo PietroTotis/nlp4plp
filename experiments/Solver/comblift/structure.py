@@ -2,6 +2,16 @@ import portion
 
 
 class Domain(object):
+    """
+    Represents a domain as a portion (set of intervals)
+    
+    Attributes
+    ----------
+    name : str
+        the str representation of the formula corresponding to the domains
+    elements : portion
+        intervals corresponding to the entities (mapped to integers) of the domain
+    """
 
     def __init__(self, name, elem):
         self.name = name
@@ -49,18 +59,27 @@ class Domain(object):
             
         return s
 
-    # @staticmethod
-    # def union(dom_list):
-    #     if len(dom_list) == 1:
-    #         return dom_list[0]
-    #     else:
-    #         u = dom_list[0] | dom_list[1]
-    #         if len(dom_list)>2:
-    #             return union([u] + dom_list[2:])
-    #         else:
-    #             return u
-
 class Structure(object):
+    """
+    Represents a target structure
+
+    Attributes
+    ----------
+    name : str
+        user-defined name
+    type: str
+        can be sequence/subset/partition/composition
+    spec: bool
+        each type has an alternative, if spec is true we use that:
+        sequence -> permutation 
+        subset -> multisubset
+        composition -> multi-composition
+        partition -> partition of any size up to n
+    domain: Constant
+        name of the container, never used actually
+    size: Constant
+        length of sequence/size of subset/number of compositions of partitions    
+    """
     def __init__(self, name, type, spec, domain, size = None):
         self.name = name
         self.domain = domain

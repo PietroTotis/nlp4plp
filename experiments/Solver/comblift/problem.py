@@ -6,26 +6,36 @@ from formulas import *
  
 
 class Problem(object):
+    """
+    Represents a problem as a collection of domains, a target structure, a set of choice formulas and a set of constraint formulas (queries?).
+
+    Attributes
+    ----------
+    container : str
+        the name of the largest domain that includes all the others (assumes it was declared)
+    entity_map : dict str->int
+        maps each entity/constant to an integer (manipulated as intervals)
+    """
     
     def __init__(self):
-        self.choice_formulas = {}
+        self.choice_formulas = []
         self.container = None
-        self.count_formulas = {}
+        self.count_formulas = []
         self.domains = {}
         self.entity_map = {}
         self.queries = []
         self.structure = None
 
-        self._count_formulas = []
-        self._choice_formulas = []
-
     def add_choice_formula(self, head, body):
-        # struct_name = head.args[0]
-        # if head.functor == "pos":
-        #     c = PosFormula(*head.args)
-        # if head.functor == "in":
-        #     c = InFormula(*head.args)
-        self._choice_formulas.append((head,body))
+        struct_name = head.args[0]
+        formula = head.args[-1]
+        df = self.compute_dom(formula)
+        if head.functor == "pos":
+            pos = head.args[1]
+            c = PosFormula(struct_name, pos, df)
+        if head.functor == "in":
+            c = InFormula(self.structure.name, df)
+        self.choice_formulas.append(c)
 
     def add_domain(self, dom):
         self.domains[dom.name] = dom
@@ -36,8 +46,15 @@ class Problem(object):
             if container in dom:
                 self.container = dom.name
 
-    def add_counting_formula(self, f):
-        self._count_formulas.append(f)
+    def add_counting_formula(self, cof):
+        struct_name = cof.args[0]
+        cf = cof.args[1]
+        op = cf.functor[1:-1]
+        problog_df = cf.args[0]
+        df = self.compute_dom(problog_df)
+        val = cf.args[1].compute_value()
+        cformula = CountingFormula(df, op, val)
+        self.count_formulas.append(cformula)
 
     def add_entity(self, e):
         if str(e) in self.entity_map:
@@ -57,6 +74,12 @@ class Problem(object):
         self.structure = struct
 
     def compute_dom(self, formula):
+        """
+        Given a formula expands and computes the corresponding domain
+        Parameters
+        ----------
+        formula : a ProbLog predicate inter/union/not (possibly nested)
+        """
         cont = self.domains[self.container]
         if formula.functor == "inter":
             lf = self.compute_dom(formula.args[0])
@@ -85,43 +108,8 @@ class Problem(object):
             return self.entity_map[e]
         else:
             return None
-    
-    def prepare(self):
-        for head, body in self._choice_formulas:
-            struct_name = head.args[0]
-            type = head.functor
-            formula = head.args[-1]
-            df = self.compute_dom(formula)
-            print(type)
-            if type == "pos":
-                pos = head.args[1]
-                c = PosFormula(struct_name, pos, df)
-                self.choice_formulas[pos] = c
-            if type == "in":
-                c = InFormula(self.structure.name, df)
-        for cof in self._count_formulas:
-            struct_name = cof.args[0]
-            cf = cof.args[1]
-            op = cf.functor[1:-1]
-            problog_df = cf.args[0]
-            df = self.compute_dom(problog_df)
-            val = cf.args[1].compute_value()
-            if op in ["==", "\="]:
-                self.count_formulas[problog_df] = CountingFormula(df, op, val)
-            else:
-                ivf = IntervalFormula(df)
-                s = str(problog_df)
-                if op in [">",">="]:
-                    ivf.add_lower_bound(val, op == ">")
-                else:
-                    ivf.add_upper_bound(val, op == "<")
-                if s in self.count_formulas:
-                    self.count_formulas[s] = self.count_formulas[s] & ivf
-                else:
-                    self.count_formulas[s] = ivf
 
     def solve(self):
-        self.prepare()
         s = Solver(self)
         return s.solve()
 
@@ -137,19 +125,3 @@ class Problem(object):
         for q in self.queries:
             s += f"query({q}).\n"
         return s
-
-
-
-# class Sequence(Structure):
-#     def __init__(self, name, domain, f_constr):
-#         Structure.__init__(self, name, domain, True, True, f_constr)
-
-
-# class Subset(Structure):
-#     def __init__(self, name, f_constr):
-#         Structure.__init__(self, name, domain, False, True, f_constr)
-
-
-# class Partition(Structure):
-#     def __init__(self, name, f_constr):
-#         Structure.__init__(self, name, domain, True, False, f_constr)

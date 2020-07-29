@@ -17,6 +17,14 @@ def add_clause(problem, cl):
     problem.add_choice_formula(cl.head,cl.body)
 
 def add_domain(problem, stmt):
+    """ 
+    Adds to the problem a domain expressed ether as an interval 'name([lb,ub])' or as an enumeration 'name(size,[e1,...en])' (size is useless, just to distinguish enumerations of size 2 and intervals)
+    
+    Parameters
+    ----------
+    problem : Problem to which the statement belongs
+    stmt : a ProbLog clause
+    """
     if len(stmt.args) == 1:
             bounds = term2list(stmt.args[0])
             ivs = [portion.closed(*bounds)]
