@@ -50,14 +50,33 @@ class Domain(object):
     def size(self):
         s = 0
         for e in self.elements:
-            if e.left == portion.CLOSED and e.right == portion.CLOSED:
-                s += e.upper - e.lower +1
-            elif e.left == portion.OPEN and e.right == portion.OPEN:
-                s += e.upper - e.lower -1
-            else:
-                s += e.upper - e.lower
-            
+            if not e.empty:
+                if e.left == portion.CLOSED and e.right == portion.CLOSED:
+                    s += e.upper - e.lower +1
+                elif e.left == portion.OPEN and e.right == portion.OPEN:
+                    s += e.upper - e.lower -1
+                else:
+                    s += e.upper - e.lower
         return s
+
+    def take(self, n):
+        """
+        returns a subset of itself of size n
+        if n > size returns itself
+        """
+        iter = portion.iterate(self.elements, step = 1)
+        subset = portion.empty()
+        i = 0
+        hasNext = True
+        while hasNext and i<n:
+            try:
+                elem = portion.singleton(next(iter))
+                subset = subset | elem
+            except StopIteration:
+                hasNext = False
+            i += 1
+        taken = Domain(f"{n}-subset of {self.name}", subset)
+        return taken
 
 class Structure(object):
     """

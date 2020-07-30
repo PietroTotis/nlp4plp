@@ -117,6 +117,14 @@ class DomainFormula(object):
             union_term = Term("union",  self.formula, rhs.formula)
         return DomainFormula(self.container, union_term, dom)
 
+    def __sub__(self, rhs):
+        if self.disjoint(rhs):
+            sub_formula = self.formula
+        else:
+            sub_formula = Term("inter", self.formula, Term("not", rhs.formula))
+        sub_dom = self.domain - rhs.domain
+        return DomainFormula(self.container, sub_formula, sub_dom)
+
     def __str__(self):
         str = f"{self.to_str(self.formula)} ({self.domain})"
         return str
@@ -141,9 +149,14 @@ class DomainFormula(object):
         elif f.functor == "union":
             return " ∨ ".join(map(self.to_str, f.args))
         elif f.functor == "not":
-            return f"¬{self.to_str(f.args[0])}"
+            return f"¬({self.to_str(f.args[0])})"
         else:
             return str(f)       
+
+    def take(self, n):
+        c = self.copy()
+        c.domain = self.domain.take(n)
+        return c
 
 class InFormula(object):
     """
