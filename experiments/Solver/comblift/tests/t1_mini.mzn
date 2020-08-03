@@ -1,0 +1,10 @@
+include "globals.mzn";
+set of int: students = {1,2,3,4,5,6,7,8};
+set of int: dutch = {1,2,3,4,5};
+set of int: french = {1,4,5,8};
+int: n = 3;
+array[1..n] of var students: sequence;
+constraint alldifferent(sequence);
+constraint sequence[1] in french;
+constraint sequence[3] in dutch;
+constraint sum(i in 1..n)(bool2int(sequence[i] in dutch)) >= 2;
