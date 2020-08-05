@@ -2,10 +2,10 @@ import argparse
 import portion
 import operator, functools
 
-from problog.parser import PrologParser
-from problog.parser import ParseError
-from problog.program import PrologFile
-from problog.logic import Clause, term2list
+from .problog.parser import PrologParser
+from .problog.parser import ParseError
+from .problog.program import PrologFile
+from .problog.logic import Clause, term2list
 
 from .problem import *
 from .formulas import *
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('program', help='file name')
     args = parser.parse_args()
-    p = Parser(args.filename)
+    p = Parser(args.program)
     print(p.parsed)
     sol = p.parsed.solve()
     print("count: ", sol)

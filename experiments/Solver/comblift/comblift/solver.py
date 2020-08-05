@@ -2,7 +2,7 @@ import portion
 import math 
 import itertools 
 
-from problog.logic import Constant
+from .problog.logic import Constant
 
 from .formulas import *
 from .structure import Domain
@@ -31,8 +31,8 @@ class Solver(object):
             vars = [subset_dom]*problem.domains[problem.container].size
         self.csp = SharpCSP(vars, problem.structure.type, problem.choice_formulas,  problem.count_formulas, problem.structure.spec)
 
-    def solve(self):
-        count = self.csp.solve()
+    def solve(self, log=True):
+        count = self.csp.solve(log)
         return count
 
 class SharpCSP(object):
@@ -61,6 +61,7 @@ class SharpCSP(object):
         self.choice_f = choice_f
         self.count_f = count_f
         self.fixed_choices = 0
+        self.dolog = True
         self.lvl = lvl
         self.n_vars = len(vars)
         self.type = type
@@ -79,13 +80,6 @@ class SharpCSP(object):
             str += f"\t{c}\n"
         str += "----------"
         return str
-
-    # def add_choice(self, previous, name, val):
-    #     if name in previous:
-    #         previous[name] += val
-    #     else:
-    #         previous[name] = val
-    #     return previous
 
     def apply_choice(self, chf):
         """
@@ -112,7 +106,7 @@ class SharpCSP(object):
             count = self.count_eq(current, others)
         elif  current.op == "\=":
             count = self.count_ne(current, others)
-        elif current.op in ["<=", "<"]:
+        elif current.op in ["=<", "<"]:
             count = self.count_lt(current, others)
         else:
             count = self.count_gt(current, others)
@@ -171,7 +165,7 @@ class SharpCSP(object):
         for i in range(lb, ub+1):
             cof_eq = CountingFormula(cof.dformula, "==", i)
             vars = list(map(lambda v: v.copy(), self.vars))
-            eq_count = self.solve_subproblem(vars, self.type, {}, [cof_eq] + others, self.alt_type)
+            eq_count, _ = self.solve_subproblem(vars, self.type, {}, [cof_eq] + others, self.alt_type)
             count += eq_count
         return count
 
@@ -258,6 +252,8 @@ class SharpCSP(object):
                 cofs_rest_classes.append(cases_rest_classes)
             else:
                 n = cof.num()
+                if cof.op in ["<", "=<"]:
+                    n += 1
                 for i in range(0, n):
                     cof_split_class = CountingFormula(cof.dformula, "==", i)
                     cof_rest_classes = CountingFormula(cof.dformula, cof.op , cof._val-i)
@@ -361,6 +357,19 @@ class SharpCSP(object):
                 count = math.comb(x,y)
         return count
 
+    def count_used(self, vars):
+        """
+        Given a set of variables counts for each diferent propertty/domain how many variables are 
+        set to it
+        """
+        class_sizes = {}
+        for v in vars:
+            if v in class_sizes:
+                class_sizes[v] += 1
+            else:
+                class_sizes[v] = 1
+        return class_sizes
+ 
     def exchangeable_classes(self, vars = None):
         """
         Groups variables with same domains in a dict
@@ -378,17 +387,19 @@ class SharpCSP(object):
                 classes[i] = [i]
         return classes
 
-    def filter_domain(self, n, case_f, dformula):
+    def filter_domain(self, n, cases, dformula):
         """
         Given a domain formula dformula and the domain formula case_f of n elements shrinks dformula by (up to) n elements satisfying case_f
         """
-        self.log(f"Filtering {n} {case_f} out of {dformula}")
-        inter = dformula & case_f
-        exclude = inter.take(n)
-        if exclude.domain.size()>0:
-            return dformula - exclude
-        else:
-            return dformula
+        for case in cases:
+            n = cases[case]
+            self.log(f"Filtering {n} {case} out of {dformula}")
+            inter = dformula & case
+            exclude = inter.take(n)
+            if exclude.domain.size()>0:
+                return dformula - exclude
+            else:
+                return dformula
 
     def get_vars(self, indexes):
         return list(map(lambda v: self.vars[v], indexes))
@@ -429,9 +440,11 @@ class SharpCSP(object):
         lines = flat.split("\n")
         indented = list(map(lambda l: ind+l, lines))
         final = "\n".join(indented)
-        print(final)
+        if self.dolog:
+            print(final)
     
-    def solve(self):
+    def solve(self, log=True):
+        self.dolog = log
         for c in self.choice_f:
             self.apply_choice(c)
         self.log(self)
@@ -449,18 +462,18 @@ class SharpCSP(object):
             self.log("... no other constraints")
             count = self.count_domains()
         else:
-            count = self.solve_subproblem(self.vars, self.type, [], others, self.alt_type)
+            count, _ = self.solve_subproblem(self.vars, self.type, [], others, self.alt_type)
         return n_choices*count
 
     def solve_subproblem(self, vars, type, choice_constr, count_constr, alt_type):
         self.log("\tSubproblem:")
         subproblem = SharpCSP(vars, type, choice_constr, count_constr, alt_type, self.lvl+1)
         try:
-            count = subproblem.solve()
-            return count
+            count = subproblem.solve(self.dolog)
+            return count, subproblem.vars
         except Unsatisfiable:
             self.log("\t==========\n\tUnsat: 0")
-            return 0
+            return 0, []
         
     def split_ex_classes(self, ex_classes):
         """
@@ -493,12 +506,11 @@ class SharpCSP(object):
                 if case.domain.size() >= i:
                     count_case = CountingFormula(case, "==", i)
                     split_count_formulas = [count_case] + split_class_cofs
-                    split_class_count = self.solve_subproblem(scv, self.type, [], split_count_formulas, self.alt_type)
+                    split_class_count, vars = self.solve_subproblem(scv, self.type, [], split_count_formulas, self.alt_type)
                     if split_class_count != 0:
-                        filtered_eq = list(map(lambda v: self.filter_domain(i, case, v), rest_classes_vars))
-                        neq_case = split_class & case.neg()
-                        filtered = list(map(lambda v: self.filter_domain(n-i, neq_case , v), filtered_eq))
-                        rest_classes_count = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
+                        used = self.count_used(vars)
+                        filtered = list(map(lambda v: self.filter_domain(i, used, v), rest_classes_vars))
+                        rest_classes_count, _ = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
                         self.log("Split result = ", split_class_count * rest_classes_count)
                         counts += split_class_count * rest_classes_count
         return counts
@@ -506,10 +518,10 @@ class SharpCSP(object):
     def split(self, split_class_vars, rest_classes_vars, split_class_cofs, rest_classes_cofs):
         self.log(f"Split class :")
         count = 0
-        split_class_count = self.solve_subproblem(split_class_vars, self.type, [], split_class_cofs, self.alt_type)
+        split_class_count, _ = self.solve_subproblem(split_class_vars, self.type, [], split_class_cofs, self.alt_type)
         if split_class_count != 0:
             self.log("Rest class: ")
-            rest_classes_count  = self.solve_subproblem(rest_classes_vars, self.type, [], rest_classes_cofs, self.alt_type)
+            rest_classes_count, _  = self.solve_subproblem(rest_classes_vars, self.type, [], rest_classes_cofs, self.alt_type)
             count = split_class_count * rest_classes_count
             self.log("==========")
         return count

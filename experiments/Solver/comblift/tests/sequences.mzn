@@ -11,7 +11,7 @@ constraint sequence[1] in french;
 % constraint sequence[2] in french;
 % constraint sequence[2] in dutch;
 
-constraint sequence[3] in dutch;
+% constraint sequence[3] in dutch;
 % constraint sequence[5] in dutch;
 % constraint not(sequence[3] in french);   
 % constraint not(sequence[8] in dutch);      

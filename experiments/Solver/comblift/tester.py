@@ -1,9 +1,16 @@
+import os
 import argparse
 import time
 import portion
 import subprocess
+import pyinotify
 from comblift.parser import Parser
 from comblift.formulas import PosFormula, InFormula
+
+class ModHandler(pyinotify.ProcessEvent):
+    def process_IN_CLOSE_WRITE(self, evt):
+        pass
+
 
 def problem2minizinc(problem):
     minizinc = 'include "globals.mzn";\n'
@@ -23,6 +30,7 @@ def problem2minizinc(problem):
 
     for chf in problem.choice_formulas:
         if isinstance(chf, PosFormula):
+            # does not work with complex domain (real dformulas and not just constants)
             minizinc += f"constraint sequence[{chf.pos}] in {chf.dformula.domain.name};\n"
         elif isinstance(chf, InFormula):
             minizinc += f"constraint {chf.entity} in sets;\n"
@@ -34,8 +42,22 @@ def problem2minizinc(problem):
         elif subset:
             range = "i in subset"
             elem = "i"
-        minizinc += f"constraint sum({range})(bool2int({elem} in {chf.dformula.domain.name})) {cof.op} {cof._val};"
+        op = cof.op
+        if cof.op == "=<":
+            op = "<="
+        minizinc += f"constraint sum({range})(bool2int({elem} in {cof.dformula.domain.name})) {op} {cof._val};\n"
+    minizinc += "solve satisfy;"
     return minizinc
+
+def count_sols(filename):
+    f = open(filename, "r")
+    n = 0 
+    for l in f.read():
+        if l[-1] == ";":
+            n +=1
+    f.close()
+    return n
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -45,14 +67,37 @@ if __name__ == '__main__':
     problem = parser.parsed
     minizinc = problem2minizinc(problem)
     mininame = args.program[:-3] + "_mini.mzn"
+    minipath = os.path.abspath(mininame)
     minifile = open(mininame, "w")
     minifile.write(minizinc)
+    minifile.close()
     print("Running solver...")
     start = time.time()
-    count = problem.solve()
+    count = problem.solve(log=False)
     finish = time.time()
-    print(f"Problem solved: {count} in {finish-start:.2f}s")
-    print(f"Running minizinc on {mininame}...")
-    miniout = subprocess.run(f"mzn-gecode {mininame} -a -s", capture_output=True, text=True, shell=True)
-    print(miniout.stdout)
-    
+    print(f"Solver: {count} in {finish-start:.2f}s")
+    # print(f"Running minizinc on {mininame}...")
+    start = time.time()
+    out = "tests/sol.out"
+    # miniproc = subprocess.Popen(f"mzn-gecode {mininame} -a -o {out}", shell=True, text=True)
+    p = subprocess.Popen(
+		["minizinc", mininame, "-s", "-a"], 
+		stdout=subprocess.PIPE, stderr=subprocess.PIPE, preexec_fn=os.setsid)
+    try:
+        stdout, stderr = p.communicate(timeout=60*10)
+        lines = stdout.decode('utf-8').split("\n")
+        init_time = float(lines[-12].split('=')[1])
+        solve_time = float(lines[-11].split('=')[1])
+        time = init_time + solve_time
+        minicount = int(lines[-10].split('=')[1])
+        print(f"Minizinc: {minicount} in {time:.2f}s")
+        if minicount == count:
+            print("\t OK")
+        else:
+            print("\t FAIL")
+    except subprocess.TimeoutExpired:
+	    print("FAIL")
+	    p.terminate()
+	    p.kill()
+	    os.killpg(p.pid, signal.SIGINT)
+	    print("KILLED")

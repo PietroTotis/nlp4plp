@@ -2,7 +2,7 @@ import portion
 import operator
 
 from .structure import Domain
-from problog.logic import Term
+from .problog.logic import Term
 
 
 class CountingFormula(object):
@@ -12,7 +12,7 @@ class CountingFormula(object):
     dformula : DomainFormula
         property to count
     op : str
-        one in < > <= =< == \=
+        one in < > >= =< == \=
     val :
         number to count
     """
