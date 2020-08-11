@@ -21,14 +21,14 @@ class Solver(object):
     """
     def __init__(self,problem):
         if problem.structure.type in ["sequence", "subset"]:
-            # pc = Constant(problem.container)
-            pc = problem.domains[problem.container]
-            var_dom = DomainFormula(pc, Constant(problem.container), pc)
+            # pc = Constant(problem.universe)
+            pc = problem.domains[problem.universe]
+            var_dom = DomainFormula(pc, Constant(problem.universe), pc)
             vars = [var_dom]*problem.structure.size
         else:
             n = problem.structure.size
             subset_dom = Domain(problem.type, portion.closed(1,n))
-            vars = [subset_dom]*problem.domains[problem.container].size
+            vars = [subset_dom]*problem.domains[problem.universe].size
         self.csp = SharpCSP(vars, problem.structure.type, problem.choice_formulas,  problem.count_formulas, problem.structure.spec)
 
     def solve(self, log=True):
@@ -135,14 +135,14 @@ class SharpCSP(object):
             return rest_classes
         else:
             first = rest_classes[0]
-            if first.domain == split_df.container:
+            if first.domain == split_df.universe:
                 return self.cases(split_df, rest_classes[1:])
             combinations = [[first, first.neg()]]
             # combinations = [[first]]
             for dom in rest_classes[1:]:
-                # if we have other subsets we can ignore the container since there is no element
-                # in not(container)
-                if not dom.domain == split_df.container:
+                # if we have other subsets we can ignore the universe since there is no element
+                # in not(universe)
+                if not dom.domain == split_df.universe:
                     comb = [dom, dom.neg()]
                     combinations.append(comb)
             combinations = list(itertools.product(*combinations))
@@ -230,7 +230,7 @@ class SharpCSP(object):
         Counting constraints need to be split according to the possible combinations 
         Example:
         Split classes french | students with cofs on dutch=2 and french=1
-        for each cof prop==n the count can be split between the two classes with i elements on the left and n-1 elements on the right, i.e. french==1 | french==0 and french==0 | french==1.
+        for each cof prop==n the count can be split between the two classes with i elements on the left and n-i elements on the right, i.e. french==1 | french==0 and french==0 | french==1.
         But with many cofs we need to consider all the combinations of the two so:
         french==0 & dutch==0 | french==1 & dutch==2
         french==1 & dutch==0 | french==0 & dutch==2 ... 
@@ -387,7 +387,7 @@ class SharpCSP(object):
                 classes[i] = [i]
         return classes
 
-    def filter_domain(self, n, cases, dformula):
+    def filter_domain(self, cases, dformula):
         """
         Given a domain formula dformula and the domain formula case_f of n elements shrinks dformula by (up to) n elements satisfying case_f
         """
@@ -509,10 +509,18 @@ class SharpCSP(object):
                     split_class_count, vars = self.solve_subproblem(scv, self.type, [], split_count_formulas, self.alt_type)
                     if split_class_count != 0:
                         used = self.count_used(vars)
-                        filtered = list(map(lambda v: self.filter_domain(i, used, v), rest_classes_vars))
+                        filtered = list(map(lambda v: self.filter_domain(used, v), rest_classes_vars))
                         rest_classes_count, _ = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
                         self.log("Split result = ", split_class_count * rest_classes_count)
                         counts += split_class_count * rest_classes_count
+        # split_class_count, vars = self.solve_subproblem(split_class_vars, self.type, [], split_class_cofs, self.alt_type)
+        # if split_class_count != 0:
+        #     used = self.count_used(vars)
+        #     filtered = list(map(lambda v: self.filter_domain(used, v), rest_classes_vars))
+        #     rest_classes_count, _ = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
+        #     self.log("Split result = ", split_class_count * rest_classes_count)
+        #     counts += split_class_count * rest_classes_count
+
         return counts
 
     def split(self, split_class_vars, rest_classes_vars, split_class_cofs, rest_classes_cofs):

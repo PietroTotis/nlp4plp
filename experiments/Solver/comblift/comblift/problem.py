@@ -10,7 +10,7 @@ class Problem(object):
 
     Attributes
     ----------
-    container : str
+    universe : str
         the name of the largest domain that includes all the others (assumes it was declared)
     entity_map : dict str->int
         maps each entity/constant to an integer (manipulated as intervals)
@@ -18,7 +18,7 @@ class Problem(object):
     
     def __init__(self):
         self.choice_formulas = []
-        self.container = None
+        self.universe = None
         self.count_formulas = []
         self.domains = {}
         self.entity_map = {}
@@ -38,12 +38,12 @@ class Problem(object):
 
     def add_domain(self, dom):
         self.domains[dom.name] = dom
-        if self.container is None:
-            self.container = dom.name
+        if self.universe is None:
+            self.universe = dom.name
         else: 
-            container = self.domains[self.container]
-            if container in dom:
-                self.container = dom.name
+            universe = self.domains[self.universe]
+            if universe in dom:
+                self.universe = dom.name
 
     def add_counting_formula(self, cof):
         struct_name = cof.args[0]
@@ -79,7 +79,7 @@ class Problem(object):
         ----------
         formula : a ProbLog predicate inter/union/not (possibly nested)
         """
-        cont = self.domains[self.container]
+        cont = self.domains[self.universe]
         if formula.functor == "inter":
             lf = self.compute_dom(formula.args[0])
             rf = self.compute_dom(formula.args[1])

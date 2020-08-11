@@ -20,14 +20,19 @@ sr_pos(A, B, A).
 sr_neg(A, B, 0).
 sr_negate(A, 1.0).
 
-1::x(1);1::x(2);1::x(3);1::x(4);1::x(5);1::x(6);1::x(7);1::x(8).
-% 1::x(1);1::x(2);1::x(3);1::x(4);1::x(5).
+1::dom(1).
+1::dom(2).
+1::dom(3).
+1::dom(4).
+1::dom(5).
+1::dom(6).
 
-1::y(1);1::y(2);1::y(3);1::y(4);1::y(5);1::y(6);1::y(7);1::y(8).
+1::comp(A,1);1::comp(A,2);1::comp(A,3);1::comp(A,4) :- dom(A).
 
-1::z(1);1::z(2);1::z(3);1::z(4);1::z(5);1::z(6);1::z(7);1::z(8).
+used(C) :- comp(A,C).
 
-permutations :- x(X), y(Y), z(Z), X\=Y, Y\=Z, X\=Z.
-sequences :- x(X), y(Y), z(Z).
+composition :- comp(1,PA), comp(2,PB), comp(3,PC), comp(4,PD), comp(5,PE), comp(6,PF), used(1), used(2), used(3), used(4).
+multicomposition :- comp(1,PA), comp(2,PB), comp(3,PC), comp(4,PD), comp(5,PE), comp(6,PF), used(1), used(2), used(3), used(4), PA=<PB, PB=<PC, PC=<PD, PD=<PE, PE=<PF.
 
-query(sequences).
+query(composition).
+query(multicomposition).

@@ -75,16 +75,16 @@ class DomainFormula(object):
 
     Attributes
     ----------
-    container : str
-        the name of the container of the problem, as each complement is computed w.r.t. that
+    universe : str
+        the name of the universe of the problem, as each complement is computed w.r.t. that
     formula : ProbLog Term
         the description of the set operations to generate the set
     domain : Domain
         the corresponding elements
     """
 
-    def __init__(self, container, formula, domain):
-        self.container = container
+    def __init__(self, universe, formula, domain):
+        self.universe = universe
         self.formula = formula
         self.domain = domain
 
@@ -96,7 +96,7 @@ class DomainFormula(object):
             int_term = rhs.formula
         else:
             int_term = Term("inter", self.formula, rhs.formula)
-        return DomainFormula(self.container, int_term, dom)
+        return DomainFormula(self.universe, int_term, dom)
     
     def __contains__(self, other):
         return other.domain in self.domain
@@ -115,7 +115,7 @@ class DomainFormula(object):
             union_term = rhs.formula
         else:
             union_term = Term("union",  self.formula, rhs.formula)
-        return DomainFormula(self.container, union_term, dom)
+        return DomainFormula(self.universe, union_term, dom)
 
     def __sub__(self, rhs):
         if self.disjoint(rhs):
@@ -123,14 +123,14 @@ class DomainFormula(object):
         else:
             sub_formula = Term("inter", self.formula, Term("not", rhs.formula))
         sub_dom = self.domain - rhs.domain
-        return DomainFormula(self.container, sub_formula, sub_dom)
+        return DomainFormula(self.universe, sub_formula, sub_dom)
 
     def __str__(self):
         str = f"{self.to_str(self.formula)} ({self.domain})"
         return str
 
     def copy(self):
-        return DomainFormula(self.container,self.formula, self.domain)
+        return DomainFormula(self.universe,self.formula, self.domain)
 
     def disjoint(self, rhs):
         return self.domain.disjoint(rhs.domain)
@@ -140,8 +140,8 @@ class DomainFormula(object):
             not_term = self.formula.args[0]
         else:
             not_term = Term("not", self.formula)
-        dom = self.container - self.domain
-        return DomainFormula(self.container, not_term, dom)
+        dom = self.universe - self.domain
+        return DomainFormula(self.universe, not_term, dom)
 
     def to_str(self, f):
         if f.functor == "inter":

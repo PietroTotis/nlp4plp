@@ -95,7 +95,7 @@ class Structure(object):
         composition -> multi-composition
         partition -> partition of any size up to n
     domain: Constant
-        name of the container, never used actually
+        name of the universe, never used actually
     size: Constant
         length of sequence/size of subset/number of compositions of partitions    
     """

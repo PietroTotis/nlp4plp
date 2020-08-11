@@ -1,8 +1,8 @@
 include "globals.mzn";
-set of int: students = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-set of int: dutch = {1,2,3,4,5,6};
-set of int: french = {4,5,6,7,8,9,10,11};
-int: n = 7;
+set of int: students = {1,2,3,4,5,6,7,8};
+set of int: dutch = {1,2,3,4,5};
+set of int: french = {1,4,5,8};
+int: n = 5;
 array[1..n] of var students: sequence;
 constraint alldifferent(sequence);
 constraint sequence[2] in dutch;
