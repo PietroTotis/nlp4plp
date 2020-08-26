@@ -124,38 +124,6 @@ class SharpCSP(object):
             count = self.count_exchangeable()
         return count
 
-    def cases(self, split_df, rest_classes):
-        """
-        Computes the cases for elements of type split_df w.rt. rest_classes. i.e. if we split on french and we have other classes like dutch and italian, we need to consider for alldiff the cases where some of the french are both/neither dutch or italian or one of the two
-        """
-        self.log("Computing case combinations of rest classes...")
-        # if we have one other class consider only positive, since n out of m 
-        # positives is the same as m-n negatives out of m
-        if len(rest_classes) == 1: 
-            return rest_classes
-        else:
-            first = rest_classes[0]
-            if first.domain == split_df.universe:
-                return self.cases(split_df, rest_classes[1:])
-            combinations = [[first, first.neg()]]
-            # combinations = [[first]]
-            for dom in rest_classes[1:]:
-                # if we have other subsets we can ignore the universe since there is no element
-                # in not(universe)
-                if not dom.domain == split_df.universe:
-                    comb = [dom, dom.neg()]
-                    combinations.append(comb)
-            combinations = list(itertools.product(*combinations))
-            cases = []
-            for c in combinations:
-                dom_base = c[0]
-                if len(c) > 1:
-                    for dom in c[1:]:
-                        dom_base = dom_base & dom
-                if dom_base.domain.size()>0:
-                    cases.append(dom_base) 
-            return cases
-
     def count_bound(self, cof, lb, ub, others):
         """
         For each admissible value n (lb<=n<=ub) of the property p in cof constrain the problem to n variables satisfying p and sum over the different (independent) counts
@@ -394,44 +362,91 @@ class SharpCSP(object):
         for case in cases:
             n = cases[case]
             self.log(f"Filtering {n} {case} out of {dformula}")
+            # print("Case:",case)
             inter = dformula & case
+            # print("inter:",inter)
             exclude = inter.take(n)
             if exclude.domain.size()>0:
+                # print(dformula-exclude)
                 return dformula - exclude
             else:
+                # print(dformula)
                 return dformula
 
     def get_vars(self, indexes):
         return list(map(lambda v: self.vars[v], indexes))
 
-    def integer_partitions(self, n):
-        """
-        From http://jeromekelleher.net/generating-integer-partitions.html
-        """
-        a = [0 for i in range(n + 1)]
-        k = 1
-        y = n - 1
-        while k != 0:
-            x = a[k - 1] + 1
-            k -= 1
-            while 2 * x <= y:
-                a[k] = x
-                y -= x
-                k += 1
-            l = k + 1
-            while x <= y:
-                a[k] = x
-                a[l] = y
-                yield a[:k + 2]
-                x += 1
-                y -= 1
-            a[k] = x + y
-            y = x + y - 1
-            yield a[:k + 1]
+    # def integer_partitions(self, n):
+    #     """
+    #     From http://jeromekelleher.net/generating-integer-partitions.html
+    #     """
+    #     a = [0 for i in range(n + 1)]
+    #     k = 1
+    #     y = n - 1
+    #     while k != 0:
+    #         x = a[k - 1] + 1
+    #         k -= 1
+    #         while 2 * x <= y:
+    #             a[k] = x
+    #             y -= x
+    #             k += 1
+    #         l = k + 1
+    #         while x <= y:
+    #             a[k] = x
+    #             a[l] = y
+    #             yield a[:k + 2]
+    #             x += 1
+    #             y -= 1
+    #         a[k] = x + y
+    #         y = x + y - 1
+    #         yield a[:k + 1]
     
-    def integer_k_partitions(self, n, k):
-        parts = [ p for p in self.integer_partitions(n) if len(p)<=k]
-        return parts       
+    # def integer_k_partitions(self, n, k):
+    #     parts = [ p for p in self.integer_partitions(n) if len(p)<=k]
+    #     return parts       
+
+    def inj_cases_intersection(self, universe, rest_classes):
+        first = rest_classes[0]
+        if first.domain == universe:
+            return self.inj_cases_intersection(universe, rest_classes[1:])
+        combinations = [[first, first.neg()]]
+        for dom in rest_classes[1:]:
+            # if we have other subsets we can ignore the universe since there is no element
+            # in not(universe)
+            if not dom.domain == universe:
+                comb = [dom, dom.neg()]
+                combinations.append(comb)
+        combinations = list(itertools.product(*combinations))
+        cases = []
+        for c in combinations:
+            # print(list(map(str,c)))
+            dom_base = c[0]
+            if len(c) > 1:
+                for dom in c[1:]:
+                    dom_base = dom_base & dom
+            if dom_base.domain.size()>0:
+                cases.append(dom_base) 
+        return cases
+
+    def inj_cases(self, split_df, rest_classes):
+        """
+        Computes the cases for elements of type split_df w.rt. rest_classes. i.e. if we split on french and we have other classes like dutch and italian, we need to consider for alldiff the cases where some of the french are both/neither dutch or italian or one of the two
+        """
+        self.log("Computing case combinations of rest classes...")
+        # if we have one other class consider only positive, since n out of m 
+        # positives is the same as m-n negatives out of m
+        if len(rest_classes) == 1: 
+            all = rest_classes[0]
+            none = rest_classes[0].neg()
+            return [none] + [all] 
+        else:
+            return self.inj_cases_intersection(split_df.universe, rest_classes)
+            # all = rest_classes[0]
+            # for dom in rest_classes[1:]:
+            #     all = all | dom
+            # none = all.neg()
+            # cases = some #+ [all]
+            # return cases
 
     def log(self, s, *args):
         strargs = " ".join(list(map(str,args)))
@@ -494,33 +509,28 @@ class SharpCSP(object):
         """
         self.lvl += 1
         split_class = classes_domains[0] # order should be ok
+        self.log(f"Split class: {split_class}")
         n = len(split_class_vars)
         counts = 0
         # we need to count the cases where some (0-n) of the elements of the split class are also 
         # elements of other classes (and take them out from those when counting the rest subproblem)
-        for i in range(0, n+1):
-            scv = list(map(lambda v: v.copy(),split_class_vars))
-            cases = self.cases(split_class, classes_domains[1:])
+        for i in range(1, n+1):
+            cases = self.inj_cases(split_class, classes_domains[1:])
             for case in cases:
+                scv = list(map(lambda v: v.copy(),split_class_vars))
                 self.log(f"Case {i} {split_class} are {case}:")
                 if case.domain.size() >= i:
                     count_case = CountingFormula(case, "==", i)
                     split_count_formulas = [count_case] + split_class_cofs
                     split_class_count, vars = self.solve_subproblem(scv, self.type, [], split_count_formulas, self.alt_type)
+                    # print(list(map(str,vars)))
                     if split_class_count != 0:
                         used = self.count_used(vars)
                         filtered = list(map(lambda v: self.filter_domain(used, v), rest_classes_vars))
                         rest_classes_count, _ = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
                         self.log("Split result = ", split_class_count * rest_classes_count)
                         counts += split_class_count * rest_classes_count
-        # split_class_count, vars = self.solve_subproblem(split_class_vars, self.type, [], split_class_cofs, self.alt_type)
-        # if split_class_count != 0:
-        #     used = self.count_used(vars)
-        #     filtered = list(map(lambda v: self.filter_domain(used, v), rest_classes_vars))
-        #     rest_classes_count, _ = self.solve_subproblem(filtered, self.type, [], rest_classes_cofs, self.alt_type)
-        #     self.log("Split result = ", split_class_count * rest_classes_count)
-        #     counts += split_class_count * rest_classes_count
-
+        self.lvl -= 1
         return counts
 
     def split(self, split_class_vars, rest_classes_vars, split_class_cofs, rest_classes_cofs):

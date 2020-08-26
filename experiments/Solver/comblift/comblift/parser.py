@@ -15,6 +15,7 @@ reserved = ["count", "query", "size", "pos", "in", "part"]
 class Parser(object):
 
     def __init__(self, file):
+        self.parsed = Problem()
         self.parse_file(file)
 
     def add_clause(self, cl):
@@ -72,7 +73,6 @@ class Parser(object):
 
     def parse_file(self, filename):
         program = PrologFile(filename)
-        self.parsed = Problem()
         for stmt in program:
             if isinstance(stmt, Clause):
                 self.add_clause(stmt)

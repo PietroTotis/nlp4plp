@@ -111,7 +111,7 @@ class DomainFormula(object):
         dom = self.domain | rhs.domain
         if dom in self.domain:
             union_term = self.formula
-        elif dom in rhs:
+        elif dom in rhs.domain:
             union_term = rhs.formula
         else:
             union_term = Term("union",  self.formula, rhs.formula)
