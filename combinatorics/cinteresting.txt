@@ -1,6 +1,0 @@
-h146.json
-"If 4 Americans, 3 French people, and 3 British people are to be seated in a row, how many seating arrangements are possible when people of the same nationality must sit next to each other?"	(3!)*(4!)*(3!)*(3!)
-h147.json
-"In how many ways can a man divide 7 gifts among his 3 children if the eldest is to receive 3 gifts and the others 2 each?"	210
-h148.json
-"An art collection on auction consisted of 4 Dalis, 5 van Goghs, and 6 Picassos.", "At the auction were 5 art collectors.", "If a reporter noted only the number of Dalis, van Goghs, and Picassos acquired by each collector, how many different results could have been recorded if all of the works were sold?"	(C(8,4))*(C(9,4))*(C(10,4))
