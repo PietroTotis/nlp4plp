@@ -1,7 +1,6 @@
 #!/bin/bash
 
 OPTIND=1
-PROBLOG="problog"
 FORMAT=""
 while getopts "hde:g" opt; do
     case "$opt" in
@@ -16,10 +15,11 @@ while getopts "hde:g" opt; do
         ;;
     esac
 done
+PROBLOG="python3 /mnt/windows/Users/pietr/Desktop/PhD/Problogs/problog/problog-cli.py"
+echo $2
 
 shift $((OPTIND-1))
 [ "${1:-}" = "--" ] && shift
-
 if [ "$FORMAT" = "" ]; then
     $PROBLOG -t 60 $1 -a $2 -a $3 -a $4
     RET=$?

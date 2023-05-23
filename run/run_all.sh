@@ -6,7 +6,7 @@
 SCRIPT_PATH=$(dirname "$0")
 cd $SCRIPT_PATH
 
-PATH_MODELS="../converted/*.pl"
+PATH_MODELS="/mnt/windows/Users/pietr/Desktop/PhD/nlp4plp/nlp4plp_old/code/solver/examples/*.pl"
 
 for FILENAME in $PATH_MODELS; do
     NAME=${FILENAME##*/}
