@@ -15,8 +15,7 @@ while getopts "hde:g" opt; do
         ;;
     esac
 done
-PROBLOG="python3 /mnt/windows/Users/pietr/Desktop/PhD/Problogs/problog/problog-cli.py"
-echo $2
+# PROBLOG="python3 /mnt/windows/Users/pietr/Desktop/PhD/Problogs/problog/problog-cli.py"
 
 shift $((OPTIND-1))
 [ "${1:-}" = "--" ] && shift
