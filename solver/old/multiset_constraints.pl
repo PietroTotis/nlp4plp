@@ -27,6 +27,8 @@
 % attribute_value/2
 % also needs histograms, lists, setup_aux for compute_join
 
+:- consult(setup_aux).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% top level predicate: turns a group into its multiset, if defined
 % steps are

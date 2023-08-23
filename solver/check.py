@@ -28,7 +28,7 @@ plusop = pyparsing.oneOf('+ -')
 factop = pyparsing.Literal('!')
 expop = pyparsing.oneOf('^ e')
 
-expr = pyparsing.operatorPrecedence( operand,
+expr = pyparsing.infixNotation( operand,
     [("!", 1, pyparsing.opAssoc.LEFT),
      (expop, 2, pyparsing.opAssoc.RIGHT),
      (signop, 1, pyparsing.opAssoc.RIGHT),
@@ -121,7 +121,7 @@ def check(filename):
 
     ts = time.time()
 #        if given is not None:
-    cmd = ['bash', 'run.sh', filename]  # TODO complete command
+    cmd = ['bash', '../run/run.sh', filename]  # TODO complete command
     try:
         problog_output = subprocess.check_output(cmd).decode()
         try:
